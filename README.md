@@ -1,6 +1,19 @@
 # StudyGOAT
 
-StudyGOAT is an interactive browser-based study program with built-in course material, lessons, practice questions, flashcards, study games, and progress tracking.
+StudyGOAT is a browser-based learning and exam preparation platform for students, working professionals, and certification candidates. It combines lessons, practice questions, flashcards, study games, and progress tracking. Built-in content currently focuses on two university courses. Other subjects and certification topics can be supported through custom course creation with an optional AI connection.
+
+## Who it is for
+
+- Students preparing for classes, assignments, and exams.
+- Working professionals learning technical or business subjects.
+- Certification candidates organizing study topics against official objectives.
+- Educators and contributors improving accessible study experiences.
+
+StudyGOAT is an independent study companion, not an official certification provider or an exam-pass guarantee.
+
+## Project documentation
+
+A full set of [GitHub Wiki source pages](docs/wiki/README.md) is available in [docs/wiki](docs/wiki). The files must be published to the separate GitHub Wiki before they appear under the repository Wiki tab.
 
 ## Run the program
 
