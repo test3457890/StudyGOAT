@@ -150,6 +150,91 @@
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "fcc503": {
+      "publisher": "FCC / eCFR",
+      "title": "Element standards",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.503",
+      "version": "47 CFR 97.503",
+      "sections": [
+        "97.503(a)"
+      ],
+      "status": "verified",
+      "effective": "See document",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US federal regulation; original practice questions."
+    },
+    "fcc119": {
+      "publisher": "FCC / eCFR",
+      "title": "Station identification",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.119",
+      "version": "47 CFR 97.119",
+      "sections": [
+        "97.119(a)",
+        "97.119(b)"
+      ],
+      "status": "verified",
+      "effective": "See document",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US federal regulation; original practice questions."
+    },
+    "fcc105": {
+      "publisher": "FCC / eCFR",
+      "title": "Control operator duties",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.105",
+      "version": "47 CFR 97.105",
+      "sections": [
+        "97.105"
+      ],
+      "status": "verified",
+      "effective": "See document",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US federal regulation; original practice questions."
+    },
+    "arrlpools": {
+      "publisher": "ARRL VEC",
+      "title": "Question pools",
+      "url": "https://www.arrl.org/question-pools",
+      "version": "2026 to 2030 Technician",
+      "sections": [
+        "Technician pool"
+      ],
+      "status": "verified",
+      "effective": "2026-07-01 through 2030-06-30",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "ncvecpool": {
+      "publisher": "NCVEC QPC",
+      "title": "2026 to 2030 Technician pool and errata",
+      "url": "https://ncvec.org/index.php/2026-2030-technician-question-pool",
+      "version": "February 19, 2026 errata reported in indexed official page",
+      "sections": [
+        "Pool and errata"
+      ],
+      "status": "needs-review",
+      "effective": "2026-07-01 through 2030-06-30",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "NCVEC public-domain release. Full corrected question and diagram files not yet retrieved or validated."
+    },
+    "arrlwithdrawn": {
+      "publisher": "ARRL VEC",
+      "title": "Withdrawn questions",
+      "url": "https://www.arrl.org/withdrawn-questions",
+      "version": "Current list",
+      "sections": [
+        "Technician: none listed"
+      ],
+      "status": "verified",
+      "effective": "Checked 2026-11-09",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
     }
   },
   "tracks": [
@@ -3338,6 +3423,566 @@
                 {
                   "source": "nolswfa",
                   "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "technician",
+      "code": "Amateur Radio Technician",
+      "name": "Licensing and operating primer",
+      "version": "2026 to 2030 pool target; primer only",
+      "status": "partial",
+      "notice": "Partial original rules primer, not the NCVEC question pool. Corrected pool and diagrams could not be retrieved directly, so a 35-question official-pool simulation is not enabled. Amateur privileges do not establish permission for FRS, GMRS or CAP operations.",
+      "gaps": [
+        "Retrieve corrected NCVEC pool and all three diagrams",
+        "Validate every question ID, group, answer and current errata",
+        "Implement validated 35-group exam sampling",
+        "Radio theory, electronics, antennas, propagation, operating practices and safety",
+        "Source-based explanations for the full public-domain pool"
+      ],
+      "objectives": [
+        "Exam orientation",
+        "Station identification",
+        "Control operator duties"
+      ],
+      "topics": [
+        {
+          "id": "technician_license",
+          "name": "Exam orientation and operator responsibility",
+          "objectives": [
+            "Exam orientation",
+            "Control operator duties"
+          ],
+          "refs": [
+            {
+              "source": "fcc503",
+              "section": "97.503(a)"
+            },
+            {
+              "source": "fcc105",
+              "section": "97.105"
+            },
+            {
+              "source": "arrlpools",
+              "section": "Technician pool"
+            }
+          ],
+          "notes": [
+            "Technician Element 2 has 35 questions; at least 26 correct are required.",
+            "The current pool period is July 2026 through June 2030.",
+            "The control operator ensures proper station operation.",
+            "Operation must remain within the control operator's license privileges."
+          ],
+          "gloss": [
+            [
+              "Element 2",
+              "Technician written examination element"
+            ],
+            [
+              "Control operator",
+              "Operator responsible for proper station operation"
+            ],
+            [
+              "License privileges",
+              "Permitted operation for the operator license class"
+            ],
+            [
+              "Question pool",
+              "Published set from which examination items are selected"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Exam orientation and operator responsibility",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "idea": [
+                "Technician Element 2 has 35 questions; at least 26 correct are required.",
+                "The current pool period is July 2026 through June 2030.",
+                "The control operator ensures proper station operation.",
+                "Operation must remain within the control operator's license privileges."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A learner prepares for Element 2."
+                },
+                {
+                  "text": "Study the pool that applies to the test date."
+                },
+                {
+                  "text": "The official passing requirement is at least 26 of 35 correct."
+                },
+                {
+                  "text": "A study score does not itself grant operating privileges."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "technician_license_01",
+              "q": "How many questions does Technician Element 2 contain under 97.503?",
+              "c": [
+                "35",
+                "25",
+                "50",
+                "90"
+              ],
+              "why": "Section 97.503(a) specifies 35 questions.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_license_02",
+              "q": "What is the minimum number correct required by 97.503(a)?",
+              "c": [
+                "26",
+                "24",
+                "25",
+                "30"
+              ],
+              "why": "The rule states at least 26 correct answers.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_license_03",
+              "q": "Which pool period does ARRL identify for Technician tests in November 2026?",
+              "c": [
+                "July 1, 2026 through June 30, 2030",
+                "July 1, 2022 through June 30, 2026",
+                "July 1, 2023 through June 30, 2027",
+                "July 1, 2024 through June 30, 2028"
+              ],
+              "why": "The listed Technician period is 2026 to 2030.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_license_04",
+              "q": "Who must ensure immediate proper station operation under 97.105?",
+              "c": [
+                "The control operator",
+                "The radio seller",
+                "Any listener",
+                "The antenna manufacturer"
+              ],
+              "why": "The control operator has this responsibility regardless of control type.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_license_05",
+              "q": "What determines the permitted scope of station operation under 97.105(b)?",
+              "c": [
+                "The control operator's license-class privileges",
+                "The radio's maximum tuning range",
+                "The price of the antenna",
+                "A friend's higher license class when that friend is not the control operator"
+              ],
+              "why": "Equipment capability does not expand the control operator's privileges.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_license_06",
+              "q": "A radio can transmit outside its control operator's privileges. Does that capability authorize the transmission?",
+              "c": [
+                "No",
+                "Yes, if the radio is new",
+                "Yes, if the signal is weak",
+                "Yes, if nobody replies"
+              ],
+              "why": "Section 97.105 limits operation to authorized privileges, not equipment capability.",
+              "objectives": [
+                "Exam orientation",
+                "Control operator duties"
+              ],
+              "refs": [
+                {
+                  "source": "fcc503",
+                  "section": "97.503(a)"
+                },
+                {
+                  "source": "fcc105",
+                  "section": "97.105"
+                },
+                {
+                  "source": "arrlpools",
+                  "section": "Technician pool"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "technician_identify",
+          "name": "Station identification basics",
+          "objectives": [
+            "Station identification"
+          ],
+          "refs": [
+            {
+              "source": "fcc119",
+              "section": "97.119(a)"
+            },
+            {
+              "source": "fcc119",
+              "section": "97.119(b)"
+            }
+          ],
+          "notes": [
+            "Ordinary amateur stations identify at the end of each communication and at least every ten minutes during it.",
+            "Use the station's authorized call sign.",
+            "Voice identification uses English.",
+            "Phonetics can help listeners understand a call sign."
+          ],
+          "gloss": [
+            [
+              "Call sign",
+              "Assigned station identifier"
+            ],
+            [
+              "Phone emission",
+              "Voice transmission"
+            ],
+            [
+              "Phonetic alphabet",
+              "Words used to clarify letters"
+            ],
+            [
+              "Identification interval",
+              "Required timing for station identification"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Station identification basics",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "idea": [
+                "Ordinary amateur stations identify at the end of each communication and at least every ten minutes during it.",
+                "Use the station's authorized call sign.",
+                "Voice identification uses English.",
+                "Phonetics can help listeners understand a call sign."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Two ordinary terrestrial amateur stations begin a conversation."
+                },
+                {
+                  "text": "Track identification during the exchange."
+                },
+                {
+                  "text": "Identify at least every ten minutes and at the end."
+                },
+                {
+                  "text": "These examples do not cover the special cases in the rest of 97.119."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "technician_identify_01",
+              "q": "For an ordinary amateur station, what is the maximum identification interval during a communication?",
+              "c": [
+                "10 minutes",
+                "5 seconds",
+                "30 minutes",
+                "One hour"
+              ],
+              "why": "Section 97.119(a) says at least every ten minutes.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_identify_02",
+              "q": "Besides periodic identification, when must an ordinary amateur station identify?",
+              "c": [
+                "At the end of each communication",
+                "Only at the start of the month",
+                "Only when changing a battery",
+                "Only when requested by another operator"
+              ],
+              "why": "The end-of-communication requirement also applies.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_identify_03",
+              "q": "What station identifier is normally transmitted?",
+              "c": [
+                "The station's assigned call sign",
+                "Only the operator's nickname",
+                "Only the radio model",
+                "Only the antenna height"
+              ],
+              "why": "The call sign identifies the source of transmissions.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_identify_04",
+              "q": "Which language is specified for identification by phone emission?",
+              "c": [
+                "English",
+                "Any invented language",
+                "Only Morse code",
+                "Only Latin"
+              ],
+              "why": "Section 97.119(b)(2) specifies English for phone identification.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_identify_05",
+              "q": "Why might an operator use phonetics while identifying?",
+              "c": [
+                "To make the call sign easier to understand",
+                "To replace the authorized call sign",
+                "To avoid identifying at the end",
+                "To expand frequency privileges"
+              ],
+              "why": "The rule encourages phonetics as an aid to correct identification.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_identify_06",
+              "q": "May a station use an unauthorized call sign as its station call sign?",
+              "c": [
+                "No",
+                "Yes, if it sounds similar",
+                "Yes, if the operator prefers it",
+                "Yes, if it is easier to remember"
+              ],
+              "why": "Section 97.119(a) prohibits an unauthorized station call sign.",
+              "objectives": [
+                "Station identification"
+              ],
+              "refs": [
+                {
+                  "source": "fcc119",
+                  "section": "97.119(a)"
+                },
+                {
+                  "source": "fcc119",
+                  "section": "97.119(b)"
                 }
               ],
               "status": "verified",

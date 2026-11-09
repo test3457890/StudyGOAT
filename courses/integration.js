@@ -52,13 +52,19 @@ home = function() {
 };
 function certNotice() {
   const t=certTrack();
-  const stale=Object.values(CERT.sources).some(s=>t.topics.some(p=>p.refs.some(r=>r.source===Object.keys(CERT.sources).find(k=>CERT.sources[k]===s)))&&new Date(s.reviewBy+'T23:59:59Z')<new Date());
+  const used=new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)));
+  const stale=[...used].some(id=>new Date(CERT.sources[id].reviewBy+'T23:59:59Z')<new Date());
   return `<div class="card"><h2>${esc(t.code)}: ${esc(t.status)} coverage</h2><p>${esc(t.notice)}</p><p class="hint">Sources checked ${esc(t.checked)}. ${stale?'Source review is overdue. Recheck official sources before relying on this content.':''} Independent study aid. No affiliation, credit, certification or pass guarantee.</p></div>`;
 }
 function certSources() {
   screen='sources';LS=null;cur=null;quiz=null;activePrep=null;drawNav();const t=certTrack();
   view.innerHTML=certNotice()+`<div class="card"><h3>Coverage checklist</h3><p>Listed objectives have introductory coverage only. A topic is not a complete objective.</p>${t.topics.map(p=>`<p>${esc(p.name)}: ${esc(p.objectives.join(', '))} · ${p.bank.length} checked questions<br>${certRefs(p.refs)}</p>`).join('')}<h3>Remaining work</h3><ul>${t.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h3>Source register</h3>${[...new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)))].map(id=>{const s=CERT.sources[id];return `<p>${certRefs([{source:id,section:s.sections.join(', ')}])}<br>${esc(s.version)} · Effective: ${esc(s.effective)}<br>Checked ${esc(s.checked)} · Review by ${esc(s.reviewBy)}<br>${esc(s.rights)}</p>`}).join('')}</div>`;
 }
+const legacyLearnHome=learnHome;
+learnHome=function(){legacyLearnHome();if(certTrack()){
+  const b=view.querySelector('[onclick="resources()"]');if(b)b.textContent='Sources & coverage';
+  view.querySelectorAll('.path .chip').forEach(el=>{el.setAttribute('role','button');el.tabIndex=0;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}};});
+}};
 const legacyResources=resources;
 resources=function(){if(certTrack())return certSources();return legacyResources();};
 const legacyShow=show;

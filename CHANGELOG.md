@@ -20,3 +20,9 @@
 - Added two CAP Phase I Curry orientation lessons and 12 original questions from public national pages. No controlled test material accessed.
 - Added two provider-neutral WFA safety lessons and 12 original questions. No treatment protocols or medication doses included.
 - Corrected the browser test harness to answer typed questions in the existing university courses using the typed-answer flow.
+
+## 2026-11-09: Technician primer and mobile repair
+
+- Added two rules lessons and 12 original questions. Full NCVEC pool import is blocked by direct source retrieval; no official-pool exam is enabled.
+- Browser CI exposed mobile overflow. Header statistics now wrap; narrow cards and grids can shrink without forcing horizontal scrolling.
+- Added keyboard access to certification lesson chips and source links in the learning path.
