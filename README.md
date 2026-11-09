@@ -29,9 +29,16 @@ Local progress is stored by the app in your browser's local storage. Clearing br
 
 ## Host using GitHub Pages (optional)
 
-If this is a public repository, enable GitHub Pages from the repository Settings, then Pages, then choose to deploy from the default branch and the root folder. The `index.html` file will redirect visitors to the application.
+This repository is public. To make StudyGOAT available as a website:
 
-For a private repository, verify your account's GitHub Pages visibility options before enabling hosting, as a published Pages site may be accessible outside the private repository.
+1. Open [Settings > Pages](https://github.com/test3457890/StudyGOAT/settings/pages).
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch **main** and folder **/(root)**.
+4. Click **Save**.
+
+Once GitHub Pages finishes deploying, visit **https://test3457890.github.io/StudyGOAT/**. The `index.html` file redirects visitors to `StudyGOAT.html`.
+
+A public repository makes source code visible, but it does not automatically publish a GitHub Pages website.
 
 ## Notes
 
