@@ -88,6 +88,68 @@
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "US federal regulations; original practice scenarios."
+    },
+    "curry": {
+      "publisher": "Civil Air Patrol National Headquarters",
+      "title": "Achievement 1: Curry",
+      "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/curry",
+      "version": "Current national page",
+      "sections": [
+        "Eligibility",
+        "Leadership expectations"
+      ],
+      "status": "verified",
+      "effective": "Online requirements checked 2026-11-09",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "captests": {
+      "publisher": "Civil Air Patrol National Headquarters",
+      "title": "Cadet Tests and Exams",
+      "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/cadet-tests--exams",
+      "version": "Current national guidance",
+      "sections": [
+        "Achievement tests",
+        "Milestone exams"
+      ],
+      "status": "verified",
+      "effective": "Online guidance checked 2026-11-09",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "nolswfa": {
+      "publisher": "NOLS",
+      "title": "Wilderness First Aid course and schedule",
+      "url": "https://www.nols.edu/courses/wm/wilderness-first-aid-wfa/",
+      "version": "Course page and January 2026 schedule",
+      "sections": [
+        "Overview",
+        "Topics covered"
+      ],
+      "status": "verified",
+      "effective": "January 2026 outline; page checked 2026-11-09",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "ahafirstaid": {
+      "publisher": "American Heart Association / American Red Cross",
+      "title": "2024 Guidelines for First Aid",
+      "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+      "version": "2024",
+      "sections": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "status": "verified",
+      "effective": "2024 general first aid guidance, not a wilderness treatment protocol",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
     }
   },
   "tracks": [
@@ -2115,6 +2177,1167 @@
                 {
                   "source": "part107",
                   "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "capcadet",
+      "code": "CAP Cadet Study",
+      "name": "Phase I: Curry orientation",
+      "version": "Public national requirements, 2026-11-09",
+      "status": "partial",
+      "notice": "Partial Phase I orientation and leadership expectations. Original educational practice only. StudyGOAT is not eServices and cannot record official grades, achievements or promotions. No controlled test content is included.",
+      "gaps": [
+        "Full Learn to Lead chapter learning-objective mapping",
+        "CAPR 60-1 revision reconciliation",
+        "Aerospace Dimensions curriculum",
+        "Achievements 2 onward and Phases II, III and IV",
+        "Drill, fitness and other supervised requirements"
+      ],
+      "objectives": [
+        "Phase I / Curry / eligibility",
+        "Phase I / Curry / leadership",
+        "Testing integrity"
+      ],
+      "topics": [
+        {
+          "id": "capcadet_curry",
+          "name": "Curry study route and official requirements",
+          "objectives": [
+            "Phase I / Curry / eligibility",
+            "Testing integrity"
+          ],
+          "refs": [
+            {
+              "source": "curry",
+              "section": "Eligibility"
+            },
+            {
+              "source": "captests",
+              "section": "Achievement tests"
+            },
+            {
+              "source": "captests",
+              "section": "Milestone exams"
+            }
+          ],
+          "notes": [
+            "Curry leadership study uses Learn to Lead chapter 1.",
+            "The national page offers the Interactive module or chapter test for the academic component.",
+            "Curry has no aerospace requirement. Other advancement requirements still apply.",
+            "Achievement tests and controlled milestone exams have different rules."
+          ],
+          "gloss": [
+            [
+              "Curry",
+              "CAP Achievement 1"
+            ],
+            [
+              "Cadet Interactive",
+              "CAP academic learning activity pathway"
+            ],
+            [
+              "Milestone exam",
+              "Controlled assessment with official testing rules"
+            ],
+            [
+              "Honor credit",
+              "Curry academic recognition for both the chapter test and Interactive module"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Curry study route and official requirements",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "idea": [
+                "Curry leadership study uses Learn to Lead chapter 1.",
+                "The national page offers the Interactive module or chapter test for the academic component.",
+                "Curry has no aerospace requirement. Other advancement requirements still apply.",
+                "Achievement tests and controlled milestone exams have different rules."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A new cadet plans study for Curry."
+                },
+                {
+                  "text": "Use the national Curry page and Learn to Lead chapter 1."
+                },
+                {
+                  "text": "Coordinate drill and other requirements with the squadron."
+                },
+                {
+                  "text": "StudyGOAT practice does not post results to eServices."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_curry_01",
+              "q": "Which leadership chapter does the national Curry page name?",
+              "c": [
+                "Learn to Lead chapter 1",
+                "Learn to Lead chapter 8",
+                "Learn to Lead chapter 11",
+                "Any chapter selected at random"
+              ],
+              "why": "The Curry leadership requirement points to chapter 1.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_curry_02",
+              "q": "What aerospace requirement does the national Curry page list?",
+              "c": [
+                "No aerospace requirement for Curry",
+                "All Aerospace Dimensions modules",
+                "An FAA Part 107 certificate",
+                "A private pilot certificate"
+              ],
+              "why": "The page explicitly lists no aerospace requirement for this achievement.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_curry_03",
+              "q": "For Curry academic leadership learning, which option does the page allow?",
+              "c": [
+                "The chapter 1 Interactive module or the chapter 1 test",
+                "Only a StudyGOAT quiz",
+                "Only a paid outside course",
+                "Only a controlled milestone exam"
+              ],
+              "why": "The official academic pathway offers the module or chapter test; other requirements remain.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_curry_04",
+              "q": "A cadet completes a StudyGOAT quiz. What official CAP credit does that grant?",
+              "c": [
+                "None",
+                "Automatic Curry promotion",
+                "Automatic drill completion",
+                "Automatic milestone credit"
+              ],
+              "why": "StudyGOAT has no authority to award CAP credit.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_curry_05",
+              "q": "Which statement about milestone exam security is correct?",
+              "c": [
+                "Milestone exams are closed-book and controlled by the squadron",
+                "They are public practice banks",
+                "They may be copied into StudyGOAT",
+                "Their answers may be shared after testing"
+              ],
+              "why": "The national testing guidance distinguishes controlled milestones from open-book achievement tests.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_curry_06",
+              "q": "For Curry honor credit, which academic combination is listed?",
+              "c": [
+                "Complete both the chapter 1 test and Interactive module",
+                "Complete only a browser practice game",
+                "Complete any two aerospace tests",
+                "Skip the official learning activities"
+              ],
+              "why": "The national Curry page lists both academic activities for honor credit.",
+              "objectives": [
+                "Phase I / Curry / eligibility",
+                "Testing integrity"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Eligibility"
+                },
+                {
+                  "source": "captests",
+                  "section": "Achievement tests"
+                },
+                {
+                  "source": "captests",
+                  "section": "Milestone exams"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_leadership",
+          "name": "Curry leadership in everyday situations",
+          "objectives": [
+            "Phase I / Curry / leadership"
+          ],
+          "refs": [
+            {
+              "source": "curry",
+              "section": "Leadership expectations"
+            }
+          ],
+          "notes": [
+            "Listen attentively and ask useful questions.",
+            "Be dependable and arrive prepared to learn.",
+            "Practice honesty and respectful customs and courtesies.",
+            "Participate with a positive, team-oriented attitude."
+          ],
+          "gloss": [
+            [
+              "Active listening",
+              "Paying attention and checking understanding"
+            ],
+            [
+              "Dependability",
+              "Following through on responsibilities"
+            ],
+            [
+              "Preparation",
+              "Arriving ready to learn and serve"
+            ],
+            [
+              "Honesty",
+              "Accurately representing your actions and work"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Curry leadership in everyday situations",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "idea": [
+                "Listen attentively and ask useful questions.",
+                "Be dependable and arrive prepared to learn.",
+                "Practice honesty and respectful customs and courtesies.",
+                "Participate with a positive, team-oriented attitude."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Your element receives an unfamiliar instruction."
+                },
+                {
+                  "text": "Listen without interrupting and identify what is unclear."
+                },
+                {
+                  "text": "Ask a specific question before acting on a guess."
+                },
+                {
+                  "text": "Carry out the clarified instruction and remain dependable."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_leadership_01",
+              "q": "An instruction is unclear. Which response best demonstrates the Curry communication expectation?",
+              "c": [
+                "Ask a focused question after listening",
+                "Pretend to understand and guess",
+                "Ignore the instruction",
+                "Distract the other cadets"
+              ],
+              "why": "The expectation includes attentive listening and useful questions.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_leadership_02",
+              "q": "Which behavior best demonstrates dependability?",
+              "c": [
+                "Arriving prepared and following through",
+                "Promising work and never checking it",
+                "Relying on others to remember every task",
+                "Avoiding assigned responsibilities"
+              ],
+              "why": "Preparation and following directions support dependability.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_leadership_03",
+              "q": "A cadet notices their completion record is wrong. Which action fits honesty?",
+              "c": [
+                "Tell the appropriate leader so it can be corrected",
+                "Claim the unearned completion",
+                "Ask others to hide the error",
+                "Use the mistake to skip required work"
+              ],
+              "why": "Accurately reporting work fits the honesty expectation.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_leadership_04",
+              "q": "Which response is most team-oriented when another cadet struggles?",
+              "c": [
+                "Help them understand the instruction respectfully",
+                "Mock the mistake",
+                "Exclude them from all practice",
+                "Tell them to stop asking questions"
+              ],
+              "why": "A supportive response fits a positive team-oriented attitude.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_leadership_05",
+              "q": "Which action most directly supports managing your own time?",
+              "c": [
+                "Plan preparation before the meeting",
+                "Wait until the meeting to locate everything",
+                "Assume another cadet will pack for you",
+                "Skip preparation because attendance is enough"
+              ],
+              "why": "The Curry responsibility expectations include effective time management.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_leadership_06",
+              "q": "Does completing an academic activity alone demonstrate every leadership expectation?",
+              "c": [
+                "No, behavior and other requirements still matter",
+                "Yes, a score replaces all behavior",
+                "Yes, if the quiz was timed",
+                "Yes, if another cadet agrees"
+              ],
+              "why": "The page separately describes academic eligibility and demonstrated leadership expectations.",
+              "objectives": [
+                "Phase I / Curry / leadership"
+              ],
+              "refs": [
+                {
+                  "source": "curry",
+                  "section": "Leadership expectations"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "wfa",
+      "code": "Wilderness First Aid",
+      "name": "Provider-neutral safety introduction",
+      "version": "Introductory education, 2026-11-09",
+      "status": "partial",
+      "notice": "Educational introduction only, not medical instructions or certification. In a real emergency, contact emergency services and follow your training and dispatcher guidance. Provider-specific treatment, medication and evacuation protocols are not taught in this slice.",
+      "gaps": [
+        "Confirm the learner's training provider and syllabus",
+        "Patient assessment and evacuation decision skills with instructor review",
+        "Wounds, fractures and spinal injury care",
+        "Heat, cold, altitude and lightning illness or injury",
+        "Allergic reactions and provider-specific medication training",
+        "Supervised skills assessment; no universal WFA exam is claimed"
+      ],
+      "objectives": [
+        "Scene safety",
+        "Emergency communication",
+        "Training scope"
+      ],
+      "topics": [
+        {
+          "id": "wfa_safety",
+          "name": "Scene safety and the limits of study practice",
+          "objectives": [
+            "Scene safety",
+            "Training scope"
+          ],
+          "refs": [
+            {
+              "source": "ahafirstaid",
+              "section": "4.1"
+            },
+            {
+              "source": "ahafirstaid",
+              "section": "4.2"
+            },
+            {
+              "source": "ahafirstaid",
+              "section": "4.4"
+            },
+            {
+              "source": "nolswfa",
+              "section": "Overview"
+            }
+          ],
+          "notes": [
+            "Assess hazards before approaching.",
+            "Use appropriate protective equipment within your training.",
+            "Provide care within your knowledge and skills.",
+            "A browser quiz cannot assess hands-on first aid competence."
+          ],
+          "gloss": [
+            [
+              "Scene safety",
+              "Checking threats to the patient, rescuers and bystanders"
+            ],
+            [
+              "PPE",
+              "Personal protective equipment"
+            ],
+            [
+              "Scope of training",
+              "Skills and knowledge you have been taught to use"
+            ],
+            [
+              "Practical assessment",
+              "Observed demonstration of skills"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Scene safety and the limits of study practice",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "idea": [
+                "Assess hazards before approaching.",
+                "Use appropriate protective equipment within your training.",
+                "Provide care within your knowledge and skills.",
+                "A browser quiz cannot assess hands-on first aid competence."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A hiker is injured below loose rocks."
+                },
+                {
+                  "text": "Identify the unstable area before approaching."
+                },
+                {
+                  "text": "Seek appropriate help without creating another casualty."
+                },
+                {
+                  "text": "Practice the response with an instructor; this walkthrough is not a treatment protocol."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_safety_01",
+              "q": "Loose rocks are still falling near an injured person. What is the first safety concern?",
+              "c": [
+                "Hazards to the person and would-be rescuers",
+                "Finishing a study quiz",
+                "Taking a close photograph",
+                "Collecting everyone's equipment immediately"
+              ],
+              "why": "Scene hazards must be assessed before approaching.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_safety_02",
+              "q": "Which is an example of PPE used to limit exposure to body fluids?",
+              "c": [
+                "Appropriate protective gloves",
+                "A trail map",
+                "A water bottle",
+                "A compass"
+              ],
+              "why": "Gloves are protective equipment; selection and use follow training.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_safety_03",
+              "q": "A treatment is outside your training. What principle should guide your response?",
+              "c": [
+                "Stay within your skills and seek appropriate help",
+                "Invent a treatment from memory",
+                "Copy an unverified online procedure",
+                "Use a practice score as authorization"
+              ],
+              "why": "First aid guidance emphasizes trained capability and further care as needed.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_safety_04",
+              "q": "What does passing this WFA introduction establish?",
+              "c": [
+                "Only performance on these study questions",
+                "A WFA certification",
+                "Permission to perform every medical procedure",
+                "Completion of a practical skills assessment"
+              ],
+              "why": "Hands-on competence and certification require the appropriate training process.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_safety_05",
+              "q": "Why should a wilderness learner confirm their provider's syllabus?",
+              "c": [
+                "Course protocols and assessment requirements are provider-specific",
+                "Every provider has one identical universal exam",
+                "A generic quiz awards every provider certificate",
+                "A provider syllabus is never relevant"
+              ],
+              "why": "This is a provider-neutral introduction, not a substitute for the selected course.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_safety_06",
+              "q": "Which plan best prepares you to practice first aid skills?",
+              "c": [
+                "Attend instruction and supervised hands-on practice",
+                "Only memorize quiz answer positions",
+                "Treat an unverified chatbot response as a protocol",
+                "Skip practical work after a high score"
+              ],
+              "why": "NOLS describes classroom and outdoor learning; a quiz alone cannot replace skills practice.",
+              "objectives": [
+                "Scene safety",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.1"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.4"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "wfa_help",
+          "name": "Recognizing the need for professional help",
+          "objectives": [
+            "Emergency communication",
+            "Training scope"
+          ],
+          "refs": [
+            {
+              "source": "ahafirstaid",
+              "section": "4.2"
+            },
+            {
+              "source": "ahafirstaid",
+              "section": "4.3"
+            },
+            {
+              "source": "nolswfa",
+              "section": "Topics covered"
+            }
+          ],
+          "notes": [
+            "Serious illness or injury requires professional assistance.",
+            "Recognize how to activate the emergency response plan.",
+            "Emergency dispatchers can help direct actions.",
+            "General first aid guidance may need adaptation for wilderness settings by trained providers."
+          ],
+          "gloss": [
+            [
+              "EMS",
+              "Emergency medical services"
+            ],
+            [
+              "Emergency plan",
+              "Prepared method for obtaining help"
+            ],
+            [
+              "Dispatcher",
+              "Emergency call professional who helps coordinate response"
+            ],
+            [
+              "Evacuation planning",
+              "Planning access to a higher level of care"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Recognizing the need for professional help",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "idea": [
+                "Serious illness or injury requires professional assistance.",
+                "Recognize how to activate the emergency response plan.",
+                "Emergency dispatchers can help direct actions.",
+                "General first aid guidance may need adaptation for wilderness settings by trained providers."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A companion has a potentially serious illness on a trip."
+                },
+                {
+                  "text": "Use the trip's emergency communication plan to obtain professional help."
+                },
+                {
+                  "text": "Follow dispatcher guidance and your current training."
+                },
+                {
+                  "text": "Do not use this study application to improvise a treatment or evacuation threshold."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_help_01",
+              "q": "A person has abnormal breathing and is newly confused. How should those findings be treated in this introduction?",
+              "c": [
+                "As emergency warning signs requiring professional help",
+                "As proof they only need rest",
+                "As a reason to finish the hike first",
+                "As a diagnosis that rules out serious illness"
+              ],
+              "why": "General first aid guidance lists abnormal breathing and new confusion as emergency warning signs.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_help_02",
+              "q": "What should trip preparation establish about emergency assistance?",
+              "c": [
+                "How to activate the response plan and contact help",
+                "That a quiz score replaces a plan",
+                "That remote areas never need outside help",
+                "That all trips use identical medical protocols"
+              ],
+              "why": "Knowing how to obtain help is part of preparation.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_help_03",
+              "q": "Who can help guide first aid actions during an emergency call?",
+              "c": [
+                "The emergency dispatcher",
+                "A random comment on social media",
+                "A study-game scoreboard",
+                "An unverified answer key"
+              ],
+              "why": "Emergency telecommunicators can provide useful direction.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_help_04",
+              "q": "A friend wants a medication dose from this introductory quiz. What is the appropriate response?",
+              "c": [
+                "Use qualified guidance and provider training; this quiz does not give doses",
+                "Guess from another person's medication",
+                "Choose the highest answer in a quiz",
+                "Assume all first aid providers use identical doses"
+              ],
+              "why": "Medication protocols and doses are outside this slice and must not be improvised.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_help_05",
+              "q": "Why is general first aid guidance not automatically a complete wilderness protocol?",
+              "c": [
+                "Remote and low-resource conditions can require adaptation",
+                "Wilderness patients never need professional help",
+                "All ordinary injuries disappear outdoors",
+                "An online quiz replaces context"
+              ],
+              "why": "The guidelines explicitly identify rural and wilderness limitations.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_help_06",
+              "q": "Which activity belongs in a full WFA course but is not certified by this app?",
+              "c": [
+                "Practicing patient assessment and evacuation decisions",
+                "Choosing a website theme",
+                "Sharing exam answer keys",
+                "Changing a profile image"
+              ],
+              "why": "Patient assessment and evacuation are course topics requiring training beyond this introduction.",
+              "objectives": [
+                "Emergency communication",
+                "Training scope"
+              ],
+              "refs": [
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.2"
+                },
+                {
+                  "source": "ahafirstaid",
+                  "section": "4.3"
+                },
+                {
+                  "source": "nolswfa",
+                  "section": "Topics covered"
                 }
               ],
               "status": "verified",

@@ -14,3 +14,9 @@
 - Added three sourced lessons and 18 original questions covering selected regulations and operating-limit scenarios.
 - Added FAA track documentation and explicit gaps; no full UAG simulation claimed.
 - Pinned browser CI to Ubuntu 24.04 after the default runner changed to an OS unsupported by the pinned Playwright release.
+
+## 2026-11-09: CAP and WFA orientation stages
+
+- Added two CAP Phase I Curry orientation lessons and 12 original questions from public national pages. No controlled test material accessed.
+- Added two provider-neutral WFA safety lessons and 12 original questions. No treatment protocols or medication doses included.
+- Corrected the browser test harness to answer typed questions in the existing university courses using the typed-answer flow.

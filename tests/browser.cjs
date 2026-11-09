@@ -3,7 +3,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 const tracks=await page.evaluate(()=>CERT.tracks.map(t=>t.id));
 for(const id of ['cs315','cpsc222',...tracks]){
  await page.evaluate(id=>enterCourse(id),id);assert(await page.locator('.topic').count()>0,id);
- await page.evaluate(()=>practice(CT()[0]));await page.evaluate(()=>answer(cur.choices.indexOf(cur.answer)));assert.match(await page.locator('#fb').innerText(),/Correct/);
+ await page.evaluate(()=>practice(CT()[0]));await page.evaluate(()=>{if(cur._typed){document.getElementById('tin').value=cur.answer;answerTyped();}else answer(cur.choices.indexOf(cur.answer));});assert.match(await page.locator('#fb').innerText(),/Correct/);
  await page.evaluate(()=>learn(CT()[0],0));assert(await page.locator('#lc').isVisible());
  await page.evaluate(()=>{while(LS.i<LS.steps.length-1)stepGo(1)});
  await page.evaluate(()=>playHub());assert(await page.locator('#view').innerText());
