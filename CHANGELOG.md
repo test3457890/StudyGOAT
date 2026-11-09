@@ -8,3 +8,9 @@
 - Added distinct-question practice tests, optional timers and source-linked explanations. Practice scores are not official scaled scores or readiness claims.
 - Removed five duplicate startup calls. Existing university content and storage keys are unchanged.
 - Added content checks and a browser regression suite. Local browser execution is blocked by the environment's socket restriction; CI verification is pending.
+
+## 2026-11-09: FAA foundation stage
+
+- Added three sourced lessons and 18 original questions covering selected regulations and operating-limit scenarios.
+- Added FAA track documentation and explicit gaps; no full UAG simulation claimed.
+- Pinned browser CI to Ubuntu 24.04 after the default runner changed to an OS unsupported by the pinned Playwright release.

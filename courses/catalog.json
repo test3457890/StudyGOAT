@@ -51,6 +51,43 @@
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "US government publication. Original educational scenarios and summaries."
+    },
+    "faaacs": {
+      "publisher": "FAA",
+      "title": "Remote Pilot Airman Certification Standards",
+      "url": "https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf",
+      "version": "FAA-S-ACS-10B",
+      "sections": [
+        "I.B",
+        "II.B",
+        "V.F"
+      ],
+      "status": "verified",
+      "effective": "April 2021",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US government document. Original questions, not actual test items."
+    },
+    "part107": {
+      "publisher": "FAA / eCFR",
+      "title": "14 CFR Part 107",
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107",
+      "version": "Current online text on check date",
+      "sections": [
+        "107.15",
+        "107.19",
+        "107.31",
+        "107.33",
+        "107.37",
+        "107.41",
+        "107.49",
+        "107.51"
+      ],
+      "status": "verified",
+      "effective": "See document",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US federal regulations; original practice scenarios."
     }
   },
   "tracks": [
@@ -1137,6 +1174,947 @@
                 {
                   "source": "nist12",
                   "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "faa107",
+      "code": "FAA Part 107",
+      "name": "Remote pilot regulations foundation",
+      "version": "UAG / ACS-10B",
+      "status": "partial",
+      "notice": "Partial UAG preparation. Examples assume ordinary Part 107 operations with no waiver unless stated. TRUST and CAP sUAS qualifications are separate. This app grants no FAA certificate.",
+      "gaps": [
+        "Full ACS coverage",
+        "Sectional chart interpretation and licensed illustrations",
+        "Weather reports and forecasting",
+        "Loading and performance",
+        "Remote ID, night operations and operations over people",
+        "Radio procedures, emergency decisions and 60-question blueprint"
+      ],
+      "objectives": [
+        "I.B",
+        "II.B",
+        "V.F"
+      ],
+      "topics": [
+        {
+          "id": "faa107_responsibility",
+          "name": "Remote pilot and crew responsibility",
+          "objectives": [
+            "I.B",
+            "V.F"
+          ],
+          "refs": [
+            {
+              "source": "faaacs",
+              "section": "I.B"
+            },
+            {
+              "source": "part107",
+              "section": "107.15"
+            },
+            {
+              "source": "part107",
+              "section": "107.19"
+            },
+            {
+              "source": "part107",
+              "section": "107.49"
+            }
+          ],
+          "notes": [
+            "The remote pilot in command has final operational responsibility.",
+            "Check aircraft condition before each flight.",
+            "Brief participants and check weather, airspace, hazards, control links and available power."
+          ],
+          "gloss": [
+            [
+              "Remote PIC",
+              "Remote pilot in command"
+            ],
+            [
+              "Preflight",
+              "Checks and preparation before flight"
+            ],
+            [
+              "Control link",
+              "Connection used to control the aircraft"
+            ],
+            [
+              "Contingency procedure",
+              "Planned response to a possible problem"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Remote pilot and crew responsibility",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "idea": [
+                "The remote pilot in command has final operational responsibility.",
+                "Check aircraft condition before each flight.",
+                "Brief participants and check weather, airspace, hazards, control links and available power."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A client wants one more aerial photograph."
+                },
+                {
+                  "text": "The crew detects a control-link fault before takeoff."
+                },
+                {
+                  "text": "The remote PIC checks airworthiness and control links rather than accepting client pressure."
+                },
+                {
+                  "text": "A schedule cannot justify operating an unsafe aircraft."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_responsibility_01",
+              "q": "Who has final authority over the operation of a Part 107 small UAS?",
+              "c": [
+                "The remote pilot in command",
+                "The paying client",
+                "The property owner",
+                "The newest observer"
+              ],
+              "why": "Section 107.19 assigns operational authority and responsibility to the remote PIC.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_responsibility_02",
+              "q": "When must the remote PIC check that the aircraft is in a condition for safe operation?",
+              "c": [
+                "Before each flight",
+                "Only after purchase",
+                "Only after a crash",
+                "Once per calendar year"
+              ],
+              "why": "Section 107.15 requires a check before each flight.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_responsibility_03",
+              "q": "A preflight control-link check fails. Which action fits the preflight requirement?",
+              "c": [
+                "Resolve the problem before flying",
+                "Launch to test it over a crowd",
+                "Ignore it if the camera works",
+                "Transfer responsibility to the client"
+              ],
+              "why": "Section 107.49 requires working control links before flight.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_responsibility_04",
+              "q": "Which briefing belongs before flight?",
+              "c": [
+                "Roles, hazards and emergency procedures",
+                "Only the preferred photo filter",
+                "Only the invoice number",
+                "Only the pilot's preferred lunch stop"
+              ],
+              "why": "Section 107.49 includes briefings for participants.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_responsibility_05",
+              "q": "During flight, the crew discovers the aircraft is no longer safe to operate. Which rule applies?",
+              "c": [
+                "Do not continue the unsafe flight",
+                "Continue until the battery is empty",
+                "Continue if the client accepts the risk",
+                "Continue if it is below 400 feet"
+              ],
+              "why": "Section 107.15 prohibits continuing when the aircraft is known to be unsafe.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_responsibility_06",
+              "q": "Before a powered aircraft flight, what must the remote PIC verify about available power?",
+              "c": [
+                "It is enough for the intended operational time",
+                "It is exactly half charged",
+                "It exceeds yesterday's reading",
+                "It can power the camera only"
+              ],
+              "why": "Section 107.49 addresses sufficient available power for the intended operation.",
+              "objectives": [
+                "I.B",
+                "V.F"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.15"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.19"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "faa107_airspace",
+          "name": "Airspace and collision avoidance",
+          "objectives": [
+            "I.B",
+            "II.B"
+          ],
+          "refs": [
+            {
+              "source": "faaacs",
+              "section": "II.B"
+            },
+            {
+              "source": "part107",
+              "section": "107.31"
+            },
+            {
+              "source": "part107",
+              "section": "107.33"
+            },
+            {
+              "source": "part107",
+              "section": "107.37"
+            },
+            {
+              "source": "part107",
+              "section": "107.41"
+            }
+          ],
+          "notes": [
+            "Prior ATC authorization is required in Class B, C and D and airport-designated Class E surface areas.",
+            "Small UAS must yield and avoid collision hazards.",
+            "Visual observers must maintain effective communication with the crew.",
+            "A camera feed alone does not meet the ordinary visual-line-of-sight rule."
+          ],
+          "gloss": [
+            [
+              "ATC",
+              "Air traffic control"
+            ],
+            [
+              "VLOS",
+              "Visual line of sight"
+            ],
+            [
+              "Visual observer",
+              "Crew member assisting direct visual observation"
+            ],
+            [
+              "Authorization",
+              "Required permission for a specified operation"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Airspace and collision avoidance",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "idea": [
+                "Prior ATC authorization is required in Class B, C and D and airport-designated Class E surface areas.",
+                "Small UAS must yield and avoid collision hazards.",
+                "Visual observers must maintain effective communication with the crew.",
+                "A camera feed alone does not meet the ordinary visual-line-of-sight rule."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A planned flight lies in Class D airspace."
+                },
+                {
+                  "text": "Obtain the required ATC authorization before operating."
+                },
+                {
+                  "text": "Brief how the observer will communicate traffic sightings."
+                },
+                {
+                  "text": "If other aircraft approach, yield and remain well clear."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_airspace_01",
+              "q": "A standard Part 107 flight is planned in Class D airspace. What is required under 107.41?",
+              "c": [
+                "Prior ATC authorization",
+                "Only landowner approval",
+                "Only a camera permit",
+                "No permission below 100 feet"
+              ],
+              "why": "Class D is among the airspace classes covered by 107.41.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_airspace_02",
+              "q": "Which Class E area is specifically named in 107.41?",
+              "c": [
+                "The airport-designated surface area within its lateral boundaries",
+                "Every place where any Class E airspace exists overhead",
+                "Only Class E above 18,000 feet",
+                "No Class E area"
+              ],
+              "why": "The rule names the surface area designated for an airport.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_airspace_03",
+              "q": "A crew says its live camera feed replaces direct visual observation on a standard unwaived flight. Is that sufficient?",
+              "c": [
+                "No, a camera feed alone does not satisfy 107.31",
+                "Yes, if the video is high definition",
+                "Yes, if the client watches",
+                "Yes, if recording is enabled"
+              ],
+              "why": "The ordinary rule requires the specified ability to see the aircraft without devices other than corrective lenses.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_airspace_04",
+              "q": "What must a visual observer maintain with the remote PIC and person manipulating controls?",
+              "c": [
+                "Effective communication",
+                "A separate paid contract",
+                "Identical camera settings",
+                "A written message only after landing"
+              ],
+              "why": "Section 107.33 requires effective communication throughout the operation.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_airspace_05",
+              "q": "A helicopter approaches the operating area. What is the small UAS right-of-way duty?",
+              "c": [
+                "Give way and remain well clear",
+                "Require the helicopter to climb",
+                "Pass ahead at the same altitude",
+                "Hold course because it is smaller"
+              ],
+              "why": "Section 107.37 requires the small UAS to yield.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_airspace_06",
+              "q": "Does landowner permission replace required ATC airspace authorization?",
+              "c": [
+                "No, the airspace requirement still applies",
+                "Yes, for all Class B flights",
+                "Yes, when the land is private",
+                "Yes, if no fee is charged"
+              ],
+              "why": "Property permission does not replace the separate 107.41 requirement.",
+              "objectives": [
+                "I.B",
+                "II.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "II.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.31"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.33"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.37"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.41"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "faa107_limits",
+          "name": "Operating limits and units",
+          "objectives": [
+            "I.B"
+          ],
+          "refs": [
+            {
+              "source": "faaacs",
+              "section": "I.B"
+            },
+            {
+              "source": "part107",
+              "section": "107.51"
+            }
+          ],
+          "notes": [
+            "Without an applicable waiver, groundspeed is limited to 87 knots or 100 mph.",
+            "The ordinary altitude limit is 400 feet AGL, with a defined structure exception.",
+            "Flight visibility at the control station must be at least 3 statute miles.",
+            "Cloud separation is at least 500 feet below and 2,000 feet horizontally."
+          ],
+          "gloss": [
+            [
+              "AGL",
+              "Above ground level"
+            ],
+            [
+              "Groundspeed",
+              "Speed relative to the ground"
+            ],
+            [
+              "Statute mile",
+              "Unit used for the flight-visibility requirement"
+            ],
+            [
+              "Cloud clearance",
+              "Required separation from clouds"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Operating limits and units",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "idea": [
+                "Without an applicable waiver, groundspeed is limited to 87 knots or 100 mph.",
+                "The ordinary altitude limit is 400 feet AGL, with a defined structure exception.",
+                "Flight visibility at the control station must be at least 3 statute miles.",
+                "Cloud separation is at least 500 feet below and 2,000 feet horizontally."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Assume no waiver and no nearby structure exception."
+                },
+                {
+                  "text": "A proposed altitude of 450 feet AGL exceeds the ordinary ceiling."
+                },
+                {
+                  "text": "A 350-foot AGL flight still requires adequate visibility and cloud clearance."
+                },
+                {
+                  "text": "Meeting one limit does not waive the others."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_limits_01",
+              "q": "For an ordinary unwaived flight away from structures, what is the altitude ceiling?",
+              "c": [
+                "400 feet AGL",
+                "400 feet above sea level",
+                "500 feet AGL",
+                "2,000 feet AGL"
+              ],
+              "why": "Section 107.51 uses ground level for the ordinary ceiling.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_limits_02",
+              "q": "What is the standard maximum groundspeed under 107.51?",
+              "c": [
+                "87 knots (100 mph)",
+                "100 knots",
+                "87 mph",
+                "120 mph"
+              ],
+              "why": "The regulation states 87 knots or 100 miles per hour.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_limits_03",
+              "q": "What is the standard minimum flight visibility at the control station?",
+              "c": [
+                "3 statute miles",
+                "1 statute mile",
+                "3 nautical miles",
+                "5 nautical miles"
+              ],
+              "why": "Section 107.51 specifies statute miles.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_limits_04",
+              "q": "What is the minimum vertical distance below a cloud for an ordinary unwaived flight?",
+              "c": [
+                "500 feet",
+                "100 feet",
+                "200 feet",
+                "2,000 feet"
+              ],
+              "why": "The below-cloud requirement is 500 feet.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_limits_05",
+              "q": "What is the minimum horizontal cloud distance for an ordinary unwaived flight?",
+              "c": [
+                "2,000 feet",
+                "400 feet",
+                "500 feet",
+                "1,000 feet"
+              ],
+              "why": "Horizontal separation is distinct from the below-cloud distance.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_limits_06",
+              "q": "Which pair matches the structure exception in 107.51?",
+              "c": [
+                "Within 400 feet of a structure and no more than 400 feet above its top",
+                "Within 1 mile and 500 feet above its top",
+                "Anywhere above a structure at any altitude",
+                "Within 400 feet and 2,000 feet above its top"
+              ],
+              "why": "Both the radius and height limits of the exception apply. Other restrictions still apply.",
+              "objectives": [
+                "I.B"
+              ],
+              "refs": [
+                {
+                  "source": "faaacs",
+                  "section": "I.B"
+                },
+                {
+                  "source": "part107",
+                  "section": "107.51"
                 }
               ],
               "status": "verified",
