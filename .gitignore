@@ -1,0 +1,10 @@
+# Local environments
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
