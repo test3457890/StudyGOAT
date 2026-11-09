@@ -2386,7 +2386,9 @@ function v2Rerender(){if(screen==='tutor')tutor();else if(screen==='builder')bui
 async function v2Init(){pickProvider();if(AI)v2Rerender();if(!IN_CLAUDE()){setCloud('local');return}cloudInit();
  try{const a=await claude.use('sample');if(a){CLAUDE_AI=mkClaude(a);pickProvider();v2Rerender()}}catch(e){}}
 /*V2-END*/
-applySet();hud();menu();v2Init();v2Init();v2Init();v2Init();v2Init();v2Init();
+applySet();hud();menu();v2Init();
 </script>
+<script src="courses/catalog.js"></script>
+<script src="courses/integration.js"></script>
 </body>
 </html>

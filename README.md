@@ -1,6 +1,6 @@
 # StudyGOAT
 
-StudyGOAT is a browser-based learning and exam preparation platform for students, working professionals, and certification candidates. It combines lessons, practice questions, flashcards, study games, and progress tracking. Built-in content currently focuses on two university courses. Other subjects and certification topics can be supported through custom course creation with an optional AI connection.
+StudyGOAT is a browser-based learning and exam preparation platform for students, working professionals, and certification candidates. It combines lessons, practice questions, flashcards, study games, and progress tracking. Built-in content includes two university courses and a partial Security+ SY0-701 foundation track. Other subjects and certification topics can be supported through custom course creation with an optional AI connection.
 
 ## Who it is for
 
@@ -21,7 +21,7 @@ A full set of [GitHub Wiki source pages](docs/wiki/README.md) is available in [d
 2. Open `StudyGOAT.html` in a modern web browser.
 3. Choose a course or a study activity.
 
-No package manager, build tools, or development server is required for the included study features.
+Keep the `courses` folder beside the HTML file. No package manager or server is needed to study. Node.js and Playwright are development-only test tools.
 
 ## Files
 
@@ -55,6 +55,16 @@ A public repository makes source code visible, but it does not automatically pub
 
 ## Notes
 
-- This repo packages the original HTML without editing its application code.
+- Existing university courses and local progress keys are preserved.
 - Do not commit API keys, account credentials, classmate documents, or personal data to the repository.
 - This repository does not include a license, so no reuse license is granted by default.
+
+## Study program status (2026-11-09)
+
+Security+ SY0-701 has four introductory lessons and 24 original source-linked questions for parts of objectives 1.2, 1.3 and 1.4. This is partial coverage, not a complete preparation course. The accessible objectives document is version 6.0; current exam availability and the latest revision could not be checked directly because CompTIA version pages returned 403. SY0-801 is not offered by this app.
+
+See [source register](docs/Source%20Register.md) and [roadmap](docs/wiki/Roadmap.md). FAA Part 107, CAP cadet study, WFA and Technician development follows in that order.
+
+Tests: `npm install`, `npx playwright install chromium`, `npm test`, `npm run test:browser`.
+
+GitHub Pages returned HTTP 404 on the check date. The Wiki URL redirected to the repository and the separate Wiki clone requested authentication. Wiki publication is not confirmed.

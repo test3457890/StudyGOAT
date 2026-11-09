@@ -1,0 +1,1 @@
+{"name":"studygoat","private":true,"scripts":{"test":"node tests/content.cjs","test:browser":"node tests/browser.cjs"},"devDependencies":{"playwright":"1.58.2"}}

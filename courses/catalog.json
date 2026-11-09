@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-09",
+  "sources": {
+    "sec701": {
+      "publisher": "CompTIA",
+      "title": "Security+ SY0-701 exam objectives",
+      "url": "https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-701-exam-objectives-(6-0).pdf",
+      "version": "6.0",
+      "sections": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4"
+      ],
+      "status": "verified",
+      "effective": "SY0-701 baseline; current revision requires recheck",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "secversion": {
+      "publisher": "CompTIA",
+      "title": "Current Security+ V7 and V8 availability",
+      "url": "https://www.comptia.org/en-us/certifications/security/v7/",
+      "version": "Unconfirmed",
+      "sections": [
+        "Exam availability"
+      ],
+      "status": "needs-review",
+      "effective": "Direct version pages inaccessible on check date",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "nist12": {
+      "publisher": "NIST",
+      "title": "An Introduction to Information Security",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf",
+      "version": "SP 800-12 Rev. 1",
+      "sections": [
+        "2",
+        "9.1",
+        "10.1",
+        "10.3",
+        "10.5",
+        "10.7"
+      ],
+      "status": "verified",
+      "effective": "June 2017",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "US government publication. Original educational scenarios and summaries."
+    }
+  },
+  "tracks": [
+    {
+      "id": "security701",
+      "code": "Security+ SY0-701",
+      "name": "Security foundations",
+      "version": "SY0-701, objectives 6.0",
+      "status": "partial",
+      "notice": "Partial foundation course. Current CompTIA availability and latest objective revision need rechecking. SY0-801 is not represented here. Original practice, not CompTIA exam questions.",
+      "gaps": [
+        "Threats and vulnerabilities",
+        "Architecture",
+        "Operations",
+        "Governance and risk",
+        "Remaining details of objectives 1.1 to 1.4",
+        "Performance-based exercises and full exam blueprint"
+      ],
+      "objectives": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8",
+        "4.9",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.6"
+      ],
+      "topics": [
+        {
+          "id": "security701_cia",
+          "name": "Confidentiality, integrity and availability",
+          "objectives": [
+            "1.2"
+          ],
+          "refs": [
+            {
+              "source": "sec701",
+              "section": "1.2"
+            },
+            {
+              "source": "nist12",
+              "section": "2"
+            }
+          ],
+          "notes": [
+            "Confidentiality limits disclosure to authorized recipients.",
+            "Integrity protects against unauthorized change or destruction.",
+            "Availability concerns timely, reliable access."
+          ],
+          "gloss": [
+            [
+              "Confidentiality",
+              "Protection against unauthorized disclosure"
+            ],
+            [
+              "Integrity",
+              "Protection against unauthorized alteration"
+            ],
+            [
+              "Availability",
+              "Timely and reliable access"
+            ],
+            [
+              "CIA",
+              "Confidentiality, integrity and availability"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Confidentiality, integrity and availability",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "idea": [
+                "Confidentiality limits disclosure to authorized recipients.",
+                "Integrity protects against unauthorized change or destruction.",
+                "Availability concerns timely, reliable access."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A university portal stores student schedules."
+                },
+                {
+                  "text": "An outsider reads a private schedule: confidentiality is affected."
+                },
+                {
+                  "text": "Someone changes a classroom without permission: integrity is affected."
+                },
+                {
+                  "text": "Students cannot reach the portal: availability is affected."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_cia_01",
+              "q": "An outsider reads a private student record. Which property is directly lost?",
+              "c": [
+                "Confidentiality",
+                "Availability",
+                "Processing speed",
+                "Redundancy"
+              ],
+              "why": "The failure is unauthorized disclosure.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_cia_02",
+              "q": "A stored invoice amount is changed without approval. Which property is directly affected?",
+              "c": [
+                "Integrity",
+                "Confidentiality",
+                "Capacity",
+                "Authentication"
+              ],
+              "why": "The content has been altered without authorization.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_cia_03",
+              "q": "A service outage prevents authorized customers from checking their accounts. Which goal is directly affected?",
+              "c": [
+                "Availability",
+                "Confidentiality",
+                "Non-repudiation",
+                "Data classification"
+              ],
+              "why": "The service cannot be accessed when needed.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_cia_04",
+              "q": "Which scenario primarily illustrates an integrity failure?",
+              "c": [
+                "An attacker changes a saved bank routing number",
+                "An outsider reads a private memo",
+                "A power outage takes a site offline",
+                "A legitimate user forgets a password"
+              ],
+              "why": "The stored value was changed without authorization.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_cia_05",
+              "q": "A portal is reachable, but its saved grades have been secretly altered. Which conclusion fits?",
+              "c": [
+                "Availability alone does not establish integrity",
+                "Reachability proves the grades are correct",
+                "Only confidentiality can be affected",
+                "Integrity and availability mean the same thing"
+              ],
+              "why": "Being online does not prove that stored values are unmodified.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_cia_06",
+              "q": "A backup restores access after a disk failure. Which CIA goal does restored access support?",
+              "c": [
+                "Availability",
+                "Confidentiality",
+                "Authorization",
+                "Non-repudiation"
+              ],
+              "why": "Restoring access supports availability; it does not by itself prove other protections.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "security701_access",
+          "name": "Identity, permissions and audit records",
+          "objectives": [
+            "1.2"
+          ],
+          "refs": [
+            {
+              "source": "sec701",
+              "section": "1.2"
+            },
+            {
+              "source": "nist12",
+              "section": "10.1"
+            },
+            {
+              "source": "nist12",
+              "section": "10.3"
+            },
+            {
+              "source": "nist12",
+              "section": "10.7"
+            }
+          ],
+          "notes": [
+            "Authentication verifies a claimed identity.",
+            "Authorization determines permitted actions.",
+            "Audit records support accountability.",
+            "Use only the privileges needed for assigned work."
+          ],
+          "gloss": [
+            [
+              "Authentication",
+              "Verification of a claimed identity"
+            ],
+            [
+              "Authorization",
+              "Decision about permitted actions"
+            ],
+            [
+              "Accounting",
+              "Recording activity for accountability"
+            ],
+            [
+              "Least privilege",
+              "Only the access needed for assigned duties"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Identity, permissions and audit records",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "idea": [
+                "Authentication verifies a claimed identity.",
+                "Authorization determines permitted actions.",
+                "Audit records support accountability.",
+                "Use only the privileges needed for assigned work."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A staff member signs in to a document service."
+                },
+                {
+                  "text": "The service verifies the identity claim: authentication."
+                },
+                {
+                  "text": "A permission check allows viewing but denies editing: authorization."
+                },
+                {
+                  "text": "An activity record records the action for later review."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_access_01",
+              "q": "A system verifies that a user controls a registered authenticator. Which process is this?",
+              "c": [
+                "Authentication",
+                "Authorization",
+                "Availability",
+                "Archiving"
+              ],
+              "why": "The system is checking the identity claim.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_access_02",
+              "q": "A signed-in user is denied permission to edit a file. Which decision is being enforced?",
+              "c": [
+                "Authorization",
+                "Authentication",
+                "Compression",
+                "Replication"
+              ],
+              "why": "Permissions determine allowed actions after sign-in.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_access_03",
+              "q": "A log records who accessed a file and when. Which AAA function does this support?",
+              "c": [
+                "Accounting",
+                "Authorization",
+                "Availability",
+                "Encryption"
+              ],
+              "why": "Accounting records activity for later accountability.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_access_04",
+              "q": "A temporary intern only needs to read one project folder. Which permission fits least privilege?",
+              "c": [
+                "Read access to that folder",
+                "Administrator access to all servers",
+                "Write access to every shared folder",
+                "The supervisor's password"
+              ],
+              "why": "The requested scope matches the assigned work.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_access_05",
+              "q": "A successful login is followed by a failed permission check. Which statement fits?",
+              "c": [
+                "A verified identity may still lack permission",
+                "Authentication grants every permission",
+                "The login must have failed",
+                "Audit logging grants access"
+              ],
+              "why": "Authentication and authorization answer different questions.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_access_06",
+              "q": "Which evidence best helps trace a file change to an account?",
+              "c": [
+                "A protected audit record of the change",
+                "The screen resolution",
+                "The folder icon color",
+                "A list of printer models"
+              ],
+              "why": "Audit records support tracing actions; their protection matters.",
+              "objectives": [
+                "1.2"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.2"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.1"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.7"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "security701_change",
+          "name": "Planning and controlling changes",
+          "objectives": [
+            "1.3"
+          ],
+          "refs": [
+            {
+              "source": "sec701",
+              "section": "1.3"
+            },
+            {
+              "source": "nist12",
+              "section": "10.5"
+            }
+          ],
+          "notes": [
+            "Review security impact before changing a system.",
+            "Test changes and obtain appropriate approval.",
+            "Prepare a backout plan and update documentation."
+          ],
+          "gloss": [
+            [
+              "Impact analysis",
+              "Review of likely effects before a change"
+            ],
+            [
+              "Backout plan",
+              "Planned return to the previous working state"
+            ],
+            [
+              "Maintenance window",
+              "Scheduled period for planned system work"
+            ],
+            [
+              "Version control",
+              "Tracking revisions to managed files"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Planning and controlling changes",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "idea": [
+                "Review security impact before changing a system.",
+                "Test changes and obtain appropriate approval.",
+                "Prepare a backout plan and update documentation."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A team plans a firewall rule change."
+                },
+                {
+                  "text": "Identify dependent services and test expected access."
+                },
+                {
+                  "text": "Obtain approval and prepare the previous configuration for rollback."
+                },
+                {
+                  "text": "After the change, validate behavior and update the recorded configuration."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_change_01",
+              "q": "Before a firewall change, a team checks which services could stop working. What is this?",
+              "c": [
+                "Impact analysis",
+                "Data exfiltration",
+                "Password spraying",
+                "Key escrow"
+              ],
+              "why": "It evaluates the expected effects of the planned change.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_change_02",
+              "q": "A new configuration breaks an essential service. Which prepared document guides returning to the previous state?",
+              "c": [
+                "Backout plan",
+                "Asset purchase receipt",
+                "Password policy alone",
+                "Public marketing plan"
+              ],
+              "why": "A backout plan describes recovery from an unsuccessful change.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_change_03",
+              "q": "A tested change is ready. What should happen before its planned deployment under change control?",
+              "c": [
+                "Obtain the required approval",
+                "Skip the change record",
+                "Delete the old configuration",
+                "Disable all logging"
+              ],
+              "why": "Approval is part of a managed change process.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_change_04",
+              "q": "Why record a firewall configuration change?",
+              "c": [
+                "So the documented state matches the managed system",
+                "So testing becomes unnecessary",
+                "So all users gain access",
+                "So rollback can never happen"
+              ],
+              "why": "Accurate records support later operation and review.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_change_05",
+              "q": "Which action best tests whether an approved change achieved its intended result?",
+              "c": [
+                "Validate expected behavior after deployment",
+                "Assume approval means success",
+                "Erase the test results",
+                "Ignore user-reported failures"
+              ],
+              "why": "Approval alone does not demonstrate that the deployed change works.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_change_06",
+              "q": "Why identify application dependencies before a service restart?",
+              "c": [
+                "To assess effects on connected components",
+                "To avoid documenting the restart",
+                "To replace user authentication",
+                "To make every restart risk-free"
+              ],
+              "why": "A restart can affect dependent services as well as the changed component.",
+              "objectives": [
+                "1.3"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.3"
+                },
+                {
+                  "source": "nist12",
+                  "section": "10.5"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "security701_crypto",
+          "name": "Encryption and digital signatures",
+          "objectives": [
+            "1.4"
+          ],
+          "refs": [
+            {
+              "source": "sec701",
+              "section": "1.4"
+            },
+            {
+              "source": "nist12",
+              "section": "9.1"
+            }
+          ],
+          "notes": [
+            "Encryption transforms readable data into ciphertext.",
+            "Symmetric encryption uses a shared secret key.",
+            "Public-key cryptography uses paired public and private keys.",
+            "A digital signature supports integrity and origin authentication. A signature alone does not hide a message."
+          ],
+          "gloss": [
+            [
+              "Plaintext",
+              "Readable data before encryption"
+            ],
+            [
+              "Ciphertext",
+              "Encrypted representation of data"
+            ],
+            [
+              "Symmetric encryption",
+              "Encryption using a shared secret key"
+            ],
+            [
+              "Digital signature",
+              "Cryptographic evidence supporting origin and integrity"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Encryption and digital signatures",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "idea": [
+                "Encryption transforms readable data into ciphertext.",
+                "Symmetric encryption uses a shared secret key.",
+                "Public-key cryptography uses paired public and private keys.",
+                "A digital signature supports integrity and origin authentication. A signature alone does not hide a message."
+              ],
+              "recipe": [
+                "Read the scenario and identify the relevant facts.",
+                "Apply the principle to this situation.",
+                "Explain why the alternatives do not fit."
+              ],
+              "oops": [
+                "Assuming a practice score proves readiness for an official assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A team distributes a signed software release."
+                },
+                {
+                  "text": "The publisher uses its private signing key."
+                },
+                {
+                  "text": "Recipients verify using the corresponding public key."
+                },
+                {
+                  "text": "Verification supports origin and integrity. It does not prove the software is harmless."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_crypto_01",
+              "q": "What is the encrypted representation of readable information called?",
+              "c": [
+                "Ciphertext",
+                "Plaintext",
+                "Audit trail",
+                "Access list"
+              ],
+              "why": "Ciphertext is the encrypted representation.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_crypto_02",
+              "q": "Which key arrangement describes symmetric encryption?",
+              "c": [
+                "A shared secret key for encryption and decryption",
+                "A public key alone for every operation",
+                "No key material",
+                "An audit log instead of a key"
+              ],
+              "why": "Symmetric encryption relies on a shared secret.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_crypto_03",
+              "q": "Which key does a publisher protect when producing digital signatures?",
+              "c": [
+                "Its private signing key",
+                "Every recipient's public key",
+                "A public website address",
+                "The signature itself"
+              ],
+              "why": "The private signing key must remain under the signer's control.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_crypto_04",
+              "q": "Which key verifies a digital signature made with a private signing key?",
+              "c": [
+                "The corresponding public key",
+                "An unrelated private key",
+                "A file permission bit",
+                "The recipient's password"
+              ],
+              "why": "Verification uses the public key paired with the signing key.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_crypto_05",
+              "q": "A message has a valid signature but is sent in readable form. What is not provided by the signature alone?",
+              "c": [
+                "Confidentiality",
+                "Evidence of origin",
+                "Evidence of integrity",
+                "Verification against the signing key"
+              ],
+              "why": "A signature does not itself conceal the message.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_crypto_06",
+              "q": "Does a valid software signature alone prove the software has no malicious behavior?",
+              "c": [
+                "No, it supports origin and integrity, not harmlessness",
+                "Yes, every signed file is safe",
+                "Yes, if the file is large",
+                "Yes, without checking trust in the signing key"
+              ],
+              "why": "A signature is not a behavioral security assessment.",
+              "objectives": [
+                "1.4"
+              ],
+              "refs": [
+                {
+                  "source": "sec701",
+                  "section": "1.4"
+                },
+                {
+                  "source": "nist12",
+                  "section": "9.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    }
+  ]
+}
