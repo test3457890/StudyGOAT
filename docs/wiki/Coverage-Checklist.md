@@ -135,3 +135,64 @@ November 10 achievement-map update: the app now lists all 16 achievements and fi
 
 
 November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+
+
+## National driving foundations for every state
+
+All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 107 lessons and 460 questions across ten tracks, excluding the separate university content.
+
+Arizona, New Jersey, California and New York retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
+
+| Jurisdiction | Available material |
+| --- | --- |
+| Alabama | National foundations only; state-specific course pending |
+| Alaska | National foundations only; state-specific course pending |
+| Arizona | National foundations and state-specific partial course |
+| Arkansas | National foundations only; state-specific course pending |
+| California | National foundations and state-specific partial course |
+| Colorado | National foundations only; state-specific course pending |
+| Connecticut | National foundations only; state-specific course pending |
+| Delaware | National foundations only; state-specific course pending |
+| Florida | National foundations only; state-specific course pending |
+| Georgia | National foundations only; state-specific course pending |
+| Hawaii | National foundations only; state-specific course pending |
+| Idaho | National foundations only; state-specific course pending |
+| Illinois | National foundations only; state-specific course pending |
+| Indiana | National foundations only; state-specific course pending |
+| Iowa | National foundations only; state-specific course pending |
+| Kansas | National foundations only; state-specific course pending |
+| Kentucky | National foundations only; state-specific course pending |
+| Louisiana | National foundations only; state-specific course pending |
+| Maine | National foundations only; state-specific course pending |
+| Maryland | National foundations only; state-specific course pending |
+| Massachusetts | National foundations only; state-specific course pending |
+| Michigan | National foundations only; state-specific course pending |
+| Minnesota | National foundations only; state-specific course pending |
+| Mississippi | National foundations only; state-specific course pending |
+| Missouri | National foundations only; state-specific course pending |
+| Montana | National foundations only; state-specific course pending |
+| Nebraska | National foundations only; state-specific course pending |
+| Nevada | National foundations only; state-specific course pending |
+| New Hampshire | National foundations only; state-specific course pending |
+| New Jersey | National foundations and state-specific partial course |
+| New Mexico | National foundations only; state-specific course pending |
+| New York | National foundations and state-specific partial course |
+| North Carolina | National foundations only; state-specific course pending |
+| North Dakota | National foundations only; state-specific course pending |
+| Ohio | National foundations only; state-specific course pending |
+| Oklahoma | National foundations only; state-specific course pending |
+| Oregon | National foundations only; state-specific course pending |
+| Pennsylvania | National foundations only; state-specific course pending |
+| Rhode Island | National foundations only; state-specific course pending |
+| South Carolina | National foundations only; state-specific course pending |
+| South Dakota | National foundations only; state-specific course pending |
+| Tennessee | National foundations only; state-specific course pending |
+| Texas | National foundations only; state-specific course pending |
+| Utah | National foundations only; state-specific course pending |
+| Vermont | National foundations only; state-specific course pending |
+| Virginia | National foundations only; state-specific course pending |
+| Washington | National foundations only; state-specific course pending |
+| West Virginia | National foundations only; state-specific course pending |
+| Wisconsin | National foundations only; state-specific course pending |
+| Wyoming | National foundations only; state-specific course pending |
+| District of Columbia | National foundations only; state-specific course pending |

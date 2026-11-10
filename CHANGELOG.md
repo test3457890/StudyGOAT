@@ -82,3 +82,7 @@ Replaced the long home-course list with Classes, Certifications and Driving Test
 ## CPSC 222 finite state machines
 
 Added four topics, eight lessons, 32 original questions and an interactive turnstile/DFA lab to the existing discrete structures class. Includes row-vector matrix conventions, worked traces, Python dictionary implementations and an explicitly chosen login invalid-attempt policy. Source: uploaded 28-slide FSM lecture.
+
+## Shared driving foundations across all jurisdictions
+
+Added a shared four-lesson, 16-question NHTSA safety course reachable from all 50 states and DC. Directory differentiates national foundations from four state-specific partial courses and preserves state search. State-specific courses for the other jurisdictions remain pending. No duplicated question banks or inflated per-state question counts.

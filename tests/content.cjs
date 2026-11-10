@@ -31,3 +31,6 @@ for(const [i,state] of models.turnstile.states.entries())for(const event of mode
  assert.equal(models.turnstile.delta[state][event],event==='coin'?'Unlocked':'Locked');
 }
 console.log('PASS: four discrete FSM topics, eight lessons, 32 questions; exhaustive DFA words through length 8 and matrix/table agreement');
+
+for(const j of data.drivingJurisdictions)assert.equal(j.foundation,"drivingfoundations");
+const shared=data.tracks.find(t=>t.id==="drivingfoundations");assert.equal(shared.coverageKind,"shared-foundations");assert.equal(shared.topics.reduce((n,t)=>n+t.bank.length,0),16);
