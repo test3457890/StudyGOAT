@@ -11,3 +11,7 @@ Remaining: charts, weather, loading, Remote ID, operations over people, night op
 Remote ID compliance pathways, module and Standard Remote ID distinctions, visual restrictions and FRIA boundaries. Selected ACS I.F material. Source: FAA Remote Identification of Drones guidance, checked November 9, 2026.
 
 Current totals: 5 lessons and 26 questions. The course remains partial. Earlier counts above describe the first introductory release.
+
+## Latest curriculum expansion
+
+Current totals: nine lessons and 42 questions. New original METAR/TAF exercises use NOAA Aviation Weather Center guidance for timestamps, true wind direction, knots, gusts, statute-mile visibility, forecast scope and TEMPO. All example code is synthetic; no live-weather or go/no-go decision is provided. Broader weather, charts, performance and full ACS coverage remain incomplete.

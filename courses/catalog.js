@@ -12,7 +12,10 @@ window.STUDYGOAT_CATALOG = {
         "1.1",
         "1.2",
         "1.3",
-        "1.4"
+        "1.4",
+        "4.2",
+        "4.8",
+        "5.1"
       ],
       "status": "verified",
       "effective": "SY0-701 baseline; current revision requires recheck",
@@ -30,7 +33,7 @@ window.STUDYGOAT_CATALOG = {
       ],
       "status": "needs-review",
       "effective": "Direct version pages inaccessible on check date",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "reviewBy": "2026-12-09",
       "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
     },
@@ -446,6 +449,316 @@ window.STUDYGOAT_CATALOG = {
       "reviewBy": "2026-12-09",
       "rights": "Original summaries and practice scenarios; official manual linked for full context. No official examination items reproduced.",
       "sha256": "bcc99f5cc49c1a19b67e7d7342e148eccd15d18ec105ae5e18c850b870c4c239"
+    },
+    "capchapter4": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 4: The NCO & the Team",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch4_The_NCO_and_TEAM_428130FD1F86C.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Servant Leadership",
+        "Coaching & Mentoring",
+        "The Team’s Life Cycle"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter5": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 5: Brainpower for Leadership",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch5_Brainpower_for_Leaders_68401347748A7.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Universal Intellectual Standards",
+        "Tools for Creative Thinking: Brainstorming"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter6": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 6: The Human Element",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch6_The_Human_Element_107BC137426D2.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Johari Window",
+        "The Inevitability of Conflict"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter7": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 7: Schools of Thought",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch7_Leadership_Schools_of__574B8BF2CB81E.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Emotional Intelligence",
+        "Transformational & Transactional Leadership"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter8": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 8: Effective Communication",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch8_Effective_Communicatio_63AFCA8970D43.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Communication Fundamentals"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter9": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 9: The Cadet Officer",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_9_Collected__LOW_E5FEBB103E38F.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Forms of Indirect Leadership"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter10": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 10: The Staff Officer",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_10LOW_FINAL_75A9FEAE3286B.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Functions of Management",
+        "Project Management"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter11": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 11: The Leader as Commander",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_11__LOW_FINAL_E798EBB4F218D.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Leading Through a Command Intent",
+        "Delegation Skills for a Hectic World"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter12": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 12: Introduction to Strategic Leadership",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_12_Web_C0E7A749BA101_A38A791027084.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Strategic Leadership: Defining the Challenge",
+        "Leadership and Systems Thinking"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter13": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 13: Leading Public & Volunteer Organizations",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_13_Web_5C4382BCA180F_3C9880EEE06DC.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Volunteer Management Guidebook"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter14": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 14: Airpower as Strategic Laboratory",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_14_Web_0CE0B1561422B_2A660EFA41A9B.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Chapter introduction",
+        "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter15": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 15: Organizational Culture & Change",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_15_Web_A46143E86597C_B9DD163320804.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Organizational Culture",
+        "Manage Change - Not the Chaos Caused by Change"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter16": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 16: Strategic Communication & Negotiation",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_16_Web_A31AD878B62C6_1B6BEFA8C4A20.pdf",
+      "version": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "sections": [
+        "Principles of Strategic Communication",
+        "The Art of Negotiation",
+        "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+      ],
+      "status": "verified",
+      "effective": "Public textbook linked by national library; selected sections checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "camanual": {
+      "publisher": "California Department of Motor Vehicles",
+      "title": "California Driver Handbook: Section 6, Navigating the Roads",
+      "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/",
+      "version": "Current online handbook, checked November 10, 2026",
+      "sections": [
+        "Turns",
+        "Merging and Exiting"
+      ],
+      "status": "verified",
+      "effective": "Current online handbook, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "nymanual4": {
+      "publisher": "New York State Department of Motor Vehicles",
+      "title": "Driver Manual, Chapter 4: Traffic Control",
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "version": "Current online manual, checked November 10, 2026",
+      "sections": [
+        "Traffic Signals"
+      ],
+      "status": "verified",
+      "effective": "Current online manual, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "nymanual5": {
+      "publisher": "New York State Department of Motor Vehicles",
+      "title": "Driver Manual, Chapter 5: Intersections and Turns",
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-5-intersections-and-turns",
+      "version": "Current online manual, checked November 10, 2026",
+      "sections": [
+        "Right-of-Way"
+      ],
+      "status": "verified",
+      "effective": "Current online manual, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "nistcsf2": {
+      "publisher": "National Institute of Standards and Technology",
+      "title": "The NIST Cybersecurity Framework 2.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "version": "NIST CSWP 29, February 26, 2024",
+      "sections": [
+        "Appendix A: GV.RR and GV.PO",
+        "Appendix A: ID.AM",
+        "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+      ],
+      "status": "verified",
+      "effective": "NIST CSWP 29, February 26, 2024",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational scenarios based on a US government publication; no certification examination questions reproduced."
+    },
+    "awcweather": {
+      "publisher": "NOAA National Weather Service, Aviation Weather Center",
+      "title": "Product information: METARs and TAFs",
+      "url": "https://aviationweather.gov/help/data/",
+      "version": "Current AWC guidance, checked November 10, 2026",
+      "sections": [
+        "METAR: date/time, winds, gusts and visibility",
+        "TAFs: purpose, issuance and temporary groups"
+      ],
+      "status": "verified",
+      "effective": "Current AWC guidance, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries and clearly synthetic code exercises based on US government guidance. No live weather or operational authorization is provided."
+    },
+    "nasaohm": {
+      "publisher": "NASA Glenn Research Center",
+      "title": "Ohm’s Law educational activity",
+      "url": "https://www.grc.nasa.gov/www/k-12/Sample_Projects/Ohms_Law/ohmslaw.html",
+      "version": "1996 educational activity; formula checked November 10, 2026",
+      "sections": [
+        "V = I x R"
+      ],
+      "status": "verified",
+      "effective": "1996 educational activity; formula checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original study summaries and exercises based on NASA educational material. No official NCVEC questions reproduced."
+    },
+    "nasawaves": {
+      "publisher": "NASA Space Communications and Navigation",
+      "title": "Radio vs Optical Spectrum",
+      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/radio-vs-optical-spectrum/",
+      "version": "Educational article, checked November 10, 2026",
+      "sections": [
+        "Frequency and wavelength"
+      ],
+      "status": "verified",
+      "effective": "Educational article, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original study summaries and exercises based on NASA educational material. No official NCVEC questions reproduced."
+    },
+    "nasaspectrum": {
+      "publisher": "NASA Space Communications and Navigation",
+      "title": "Basics of Space Flight: Electromagnetics",
+      "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter6-2/",
+      "version": "Educational article, checked November 10, 2026",
+      "sections": [
+        "Electromagnetic Spectrum"
+      ],
+      "status": "verified",
+      "effective": "Educational article, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original study summaries and exercises based on NASA educational material. No official NCVEC questions reproduced."
     }
   },
   "tracks": [
@@ -457,12 +770,11 @@ window.STUDYGOAT_CATALOG = {
       "status": "partial",
       "notice": "Partial foundation course. Current CompTIA availability and latest objective revision need rechecking. SY0-801 is not represented here. Original practice, not CompTIA exam questions.",
       "gaps": [
-        "Threats and vulnerabilities",
-        "Architecture",
-        "Operations",
-        "Governance and risk",
-        "Remaining details of objectives 1.1 to 1.4",
-        "Performance-based exercises and full exam blueprint"
+        "Remaining threats, vulnerabilities and architecture objectives",
+        "Broader security operations and governance/risk/compliance details",
+        "Remaining objectives 1.1 to 1.4 and complete domain mapping",
+        "Performance-based exercises and a validated full-exam blueprint",
+        "Current CompTIA exam availability and latest objective revision remain unconfirmed"
       ],
       "objectives": [
         "1.1",
@@ -2295,6 +2607,1026 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "security701_governance",
+          "name": "Governance: roles and policy",
+          "objectives": [
+            "5.1"
+          ],
+          "refs": [
+            {
+              "source": "nistcsf2",
+              "section": "Appendix A: GV.RR and GV.PO"
+            },
+            {
+              "source": "sec701",
+              "section": "5.1"
+            }
+          ],
+          "notes": [
+            "Leadership retains responsibility and accountability for cybersecurity risk.",
+            "Roles and authority should be defined, communicated and understood.",
+            "Policy needs communication and enforcement as well as a written document.",
+            "Review policy when requirements, technology, threats or organizational needs change.",
+            "NIST CSF is an outcome framework, not a certification checklist or a prescribed implementation method."
+          ],
+          "gloss": [
+            [
+              "Governance",
+              "Direction and oversight of cybersecurity risk"
+            ],
+            [
+              "Policy",
+              "Organizational direction for managing risk"
+            ],
+            [
+              "Authority",
+              "Permission to make specified decisions"
+            ],
+            [
+              "Accountability",
+              "Responsibility for performance and results"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Find the owner and authority",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "idea": [
+                "An important decision needs a clear responsible role.",
+                "Security is an organizational responsibility."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming cybersecurity accountability belongs only to a help desk."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A team cannot decide who may accept a significant security risk."
+                },
+                {
+                  "text": "Identify the responsible role and the authority assigned to it."
+                },
+                {
+                  "text": "Communicate the decision path to affected staff."
+                },
+                {
+                  "text": "Provide resources appropriate to the responsibilities."
+                }
+              ]
+            },
+            {
+              "t": "Make policy operational",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "idea": [
+                "A policy that no one understands is difficult to apply.",
+                "Changing conditions require review."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming publication alone proves enforcement."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the organizational purpose and requirements behind a policy."
+                },
+                {
+                  "text": "Communicate what people must do and who is responsible."
+                },
+                {
+                  "text": "Apply the policy through the established process."
+                },
+                {
+                  "text": "Review and update it when technology, threats or requirements change."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_governance_01",
+              "q": "A company has no clear owner for cybersecurity-risk decisions. Which governance improvement is most relevant?",
+              "c": [
+                "Define and communicate roles, responsibilities and authorities",
+                "Buy a second monitor for every employee",
+                "Rename every server",
+                "Stop documenting decisions"
+              ],
+              "why": "Clear governance establishes who is responsible and authorized.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_02",
+              "q": "According to NIST CSF 2.0, who remains responsible and accountable for organizational cybersecurity risk?",
+              "c": [
+                "Organizational leadership",
+                "Only temporary visitors",
+                "Only the hardware vendor",
+                "No one once a policy is written"
+              ],
+              "why": "The framework assigns responsibility and accountability to organizational leadership.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_03",
+              "q": "A security policy is published but staff do not know how it applies. What is still needed?",
+              "c": [
+                "Communication, understanding and enforcement",
+                "Only a longer document title",
+                "Automatic deletion of the policy",
+                "Assuming publication completed all work"
+              ],
+              "why": "Policy must be communicated and enforced, with responsibilities understood.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_04",
+              "q": "A major technology change makes an access policy obsolete. What should happen?",
+              "c": [
+                "Review and update the policy through the established process",
+                "Keep it unchanged indefinitely",
+                "Assume old controls cover every new system",
+                "Hide the change from responsible staff"
+              ],
+              "why": "Policy review should reflect relevant changes.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_05",
+              "q": "A role has important security duties but no resources to perform them. Which governance issue is present?",
+              "c": [
+                "Resources are not aligned with assigned responsibilities",
+                "The policy font is too small",
+                "Every risk has been removed",
+                "The organization no longer needs oversight"
+              ],
+              "why": "NIST calls for resources commensurate with strategy, roles and policy.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_06",
+              "q": "What does the NIST CSF 2.0 provide?",
+              "c": [
+                "A framework of cybersecurity outcomes",
+                "One mandatory technical implementation for every organization",
+                "Official Security+ exam questions",
+                "A guarantee that no incident will occur"
+              ],
+              "why": "CSF describes outcomes without prescribing a single implementation.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_07",
+              "q": "Why should staff understand the authority assigned to security roles?",
+              "c": [
+                "So decisions and escalation follow an understood responsibility structure",
+                "So every employee can authorize every change",
+                "So no decision needs review",
+                "So policies can be ignored"
+              ],
+              "why": "Understood authority supports accountable decisions.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_governance_08",
+              "q": "A policy no longer reflects a new regulatory requirement. Which response fits governance practice?",
+              "c": [
+                "Review, update, communicate and enforce the revised direction",
+                "Wait until an incident before considering it",
+                "Delete evidence of the requirement",
+                "Assume written policies never need revision"
+              ],
+              "why": "The framework includes policy updates for changing requirements.",
+              "objectives": [
+                "5.1"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: GV.RR and GV.PO"
+                },
+                {
+                  "source": "sec701",
+                  "section": "5.1"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "security701_assets",
+          "name": "Asset inventory and criticality",
+          "objectives": [
+            "4.2"
+          ],
+          "refs": [
+            {
+              "source": "nistcsf2",
+              "section": "Appendix A: ID.AM"
+            },
+            {
+              "source": "sec701",
+              "section": "4.2"
+            }
+          ],
+          "notes": [
+            "Asset management includes hardware, software, services, systems and data.",
+            "Supplier-provided services also need visibility.",
+            "Inventories must be maintained as assets change.",
+            "Criticality and mission impact help prioritize assets.",
+            "Manage assets and data through their life cycles rather than only at purchase."
+          ],
+          "gloss": [
+            [
+              "Asset inventory",
+              "A maintained record of relevant assets"
+            ],
+            [
+              "Criticality",
+              "Importance of an asset to organizational outcomes"
+            ],
+            [
+              "Data flow",
+              "Movement of information between systems or parties"
+            ],
+            [
+              "Life cycle",
+              "Stages from introduction through retirement"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Discover the scope",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "idea": [
+                "An inventory is broader than a list of laptops.",
+                "Services and data matter too."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Omitting cloud services because the organization does not own the physical server."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "List hardware and the systems or software using it."
+                },
+                {
+                  "text": "Identify business services and supplier-provided services."
+                },
+                {
+                  "text": "Identify important data and authorized flows."
+                },
+                {
+                  "text": "Keep the records current when assets are added, changed or retired."
+                }
+              ]
+            },
+            {
+              "t": "Prioritize by mission impact",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "idea": [
+                "Purchase price is not the only measure of importance.",
+                "Inventory supports decisions, not just counting."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating every asset as equally important regardless of function."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify what business purpose each asset supports."
+                },
+                {
+                  "text": "Consider the effect of its loss or compromise."
+                },
+                {
+                  "text": "Use classification, criticality and mission impact to prioritize attention."
+                },
+                {
+                  "text": "Update priorities as the organization and assets change."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_assets_01",
+              "q": "An asset inventory lists laptops but omits business cloud services. What is missing?",
+              "c": [
+                "Software, systems and services relevant to the organization",
+                "Only the color of the laptops",
+                "Only the office seating chart",
+                "Nothing, because cloud services are never assets"
+              ],
+              "why": "NIST asset management extends beyond owned physical devices.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_02",
+              "q": "Why should supplier-provided services be tracked?",
+              "c": [
+                "They support organizational activity and can affect risk",
+                "They are automatically outside all security responsibilities",
+                "They remove the need for an inventory",
+                "Only their marketing names matter"
+              ],
+              "why": "The framework includes inventories of supplier services.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_03",
+              "q": "Which factor should help prioritize assets?",
+              "c": [
+                "Criticality and impact on the mission",
+                "Only alphabetical order",
+                "Only the age of a logo",
+                "Only the employee’s preferred brand"
+              ],
+              "why": "The framework connects priority with classification, criticality and mission impact.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_04",
+              "q": "A newly deployed business system is absent from the inventory. What should happen?",
+              "c": [
+                "Update the inventory to reflect the change",
+                "Wait until it fails",
+                "Assume the purchase record is sufficient forever",
+                "Remove all other asset records"
+              ],
+              "why": "A maintained inventory reflects changes.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_05",
+              "q": "Why document authorized network data flows?",
+              "c": [
+                "To understand expected communication and dependencies",
+                "To authorize every possible connection",
+                "To replace all incident response",
+                "To guarantee every packet is harmless"
+              ],
+              "why": "Asset management includes representations of authorized communication and flows.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_06",
+              "q": "A low-cost service is essential to a critical business function. How should its importance be judged?",
+              "c": [
+                "Consider mission impact rather than purchase price alone",
+                "Treat it as unimportant because it is inexpensive",
+                "Ignore it if a supplier hosts it",
+                "Prioritize it only by its name"
+              ],
+              "why": "Business criticality can differ from purchase cost.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_07",
+              "q": "What does lifecycle asset management include?",
+              "c": [
+                "Managing assets and data through introduction, use and retirement",
+                "Only counting devices on purchase day",
+                "Only recording warranty dates",
+                "Only changing passwords once"
+              ],
+              "why": "The framework includes management throughout asset lifecycles.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_assets_08",
+              "q": "A retired system remains listed as active. What problem does that create?",
+              "c": [
+                "The inventory no longer accurately represents the environment",
+                "It proves the system is secure",
+                "It eliminates the need for review",
+                "It automatically updates every dependency"
+              ],
+              "why": "Accurate inventory status supports sound decisions.",
+              "objectives": [
+                "4.2"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: ID.AM"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "security701_incidents",
+          "name": "Incident triage, escalation and mitigation",
+          "objectives": [
+            "4.8"
+          ],
+          "refs": [
+            {
+              "source": "nistcsf2",
+              "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+            },
+            {
+              "source": "sec701",
+              "section": "4.8"
+            }
+          ],
+          "notes": [
+            "Validate and triage incident reports rather than treating every alert identically.",
+            "Categorize and prioritize incidents based on established criteria.",
+            "Escalate when appropriate and coordinate with relevant parties.",
+            "Analysis, communication and mitigation serve different response needs.",
+            "Containment limits spread; eradication addresses the incident cause or presence. Follow the authorized response plan."
+          ],
+          "gloss": [
+            [
+              "Triage",
+              "Initial validation and assessment of an incident report"
+            ],
+            [
+              "Escalation",
+              "Involving a higher or appropriate response authority"
+            ],
+            [
+              "Containment",
+              "Limiting an incident’s spread or impact"
+            ],
+            [
+              "Eradication",
+              "Removing incident causes or presence"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Turn a report into a managed response",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "idea": [
+                "Validation and priority guide action.",
+                "A response plan establishes coordination."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating every alert as either harmless or equally urgent without assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Receive a report of suspected compromise."
+                },
+                {
+                  "text": "Validate the report and assess its significance."
+                },
+                {
+                  "text": "Categorize and prioritize using the response process."
+                },
+                {
+                  "text": "Escalate and coordinate with authorized responders as required."
+                }
+              ]
+            },
+            {
+              "t": "Distinguish response activities",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "idea": [
+                "Communication and technical mitigation are both necessary.",
+                "Response actions need authority and context."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Improvising disruptive actions outside the organization’s response authority."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Use analysis to understand what happened and its scope."
+                },
+                {
+                  "text": "Share appropriate information with designated stakeholders."
+                },
+                {
+                  "text": "Use approved containment to limit spread, then address eradication."
+                },
+                {
+                  "text": "Apply the criteria for beginning recovery and retain the records required by the response process."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_incidents_01",
+              "q": "A monitoring alert reports possible compromise. What should the response process do before assuming its meaning?",
+              "c": [
+                "Validate and triage the report",
+                "Declare every alert a confirmed breach",
+                "Delete all logs immediately",
+                "Ignore all alerts from automated tools"
+              ],
+              "why": "The framework includes triage and validation.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_02",
+              "q": "Why categorize and prioritize incidents?",
+              "c": [
+                "To organize response according to significance and established criteria",
+                "To ensure every incident receives identical treatment",
+                "To avoid making any decision",
+                "To replace investigation with a label"
+              ],
+              "why": "Prioritization supports a managed response.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_03",
+              "q": "An incident exceeds a responder’s assigned authority. Which action fits a managed process?",
+              "c": [
+                "Escalate through the established response path",
+                "Conceal it from responsible leaders",
+                "Assume unlimited authority",
+                "Stop recording all activity"
+              ],
+              "why": "Incidents should be escalated or elevated when needed.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_04",
+              "q": "Which action is most directly containment?",
+              "c": [
+                "Limiting the incident’s spread using an approved response action",
+                "Publishing an unrelated newsletter",
+                "Ignoring compromised systems",
+                "Assuming recovery is complete"
+              ],
+              "why": "Containment limits spread or impact.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_05",
+              "q": "Which action is most directly eradication?",
+              "c": [
+                "Removing the cause or presence of the incident",
+                "Only announcing that an alert exists",
+                "Only assigning a category",
+                "Only collecting meeting attendance"
+              ],
+              "why": "Eradication addresses what sustains the compromise.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_06",
+              "q": "Why coordinate an incident response with relevant third parties?",
+              "c": [
+                "The response may depend on supplier or partner responsibilities and resources",
+                "Every third party should receive all confidential information",
+                "Coordination removes the need for a plan",
+                "Only internal staff can ever be affected"
+              ],
+              "why": "The framework includes coordinated execution with relevant parties.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_07",
+              "q": "A team wants to start recovery while key incident conditions remain unresolved. What should guide the transition?",
+              "c": [
+                "Established criteria for initiating recovery",
+                "Only the desire to close the ticket quickly",
+                "Only the oldest backup filename",
+                "A random time chosen by a visitor"
+              ],
+              "why": "NIST includes applying criteria for initiating recovery.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "security701_incidents_08",
+              "q": "Why distinguish analysis, communication and mitigation?",
+              "c": [
+                "They address different but related response needs",
+                "Only technical mitigation ever matters",
+                "Communication proves the cause has been removed",
+                "Analysis automatically restores every service"
+              ],
+              "why": "A complete managed response includes understanding, coordination and impact reduction.",
+              "objectives": [
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "nistcsf2",
+                  "section": "Appendix A: RS.MA, RS.AN, RS.CO and RS.MI"
+                },
+                {
+                  "source": "sec701",
+                  "section": "4.8"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
         }
       ],
       "exam": {
@@ -2302,7 +3634,7 @@ window.STUDYGOAT_CATALOG = {
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-09"
+      "checked": "2026-11-10"
     },
     {
       "id": "faa107",
@@ -2312,18 +3644,19 @@ window.STUDYGOAT_CATALOG = {
       "status": "partial",
       "notice": "Partial UAG preparation. Examples assume ordinary Part 107 operations with no waiver unless stated. TRUST and CAP sUAS qualifications are separate. This app grants no FAA certificate.",
       "gaps": [
-        "Full ACS coverage",
-        "Sectional chart interpretation and licensed illustrations",
-        "Weather reports and forecasting",
+        "Full ACS coverage and sectional chart interpretation",
+        "Remaining weather theory, hazards and forecast decoding",
         "Loading and performance",
         "Remaining Remote ID detail, night operations and operations over people",
-        "Radio procedures, emergency decisions and 60-question blueprint"
+        "Radio procedures, emergency decisions and a validated full-exam blueprint"
       ],
       "objectives": [
         "I.B",
         "II.B",
         "V.F",
-        "I.F"
+        "I.F",
+        "Weather / Observations",
+        "Weather / Forecasts"
       ],
       "topics": [
         {
@@ -3577,6 +4910,598 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "faa107_metar",
+          "name": "Weather: reading METAR elements",
+          "objectives": [
+            "Weather / Observations"
+          ],
+          "refs": [
+            {
+              "source": "awcweather",
+              "section": "METAR: date/time, winds, gusts and visibility"
+            }
+          ],
+          "notes": [
+            "METAR reports observed station weather; it is not a forecast.",
+            "The date/time group uses day, hour and minute and ends in Z for UTC.",
+            "Coded wind direction is where the wind comes from, relative to true north.",
+            "KT means knots; G identifies a gust value.",
+            "SM means statute miles; M before visibility means less than. Examples here are synthetic study fragments, not current weather."
+          ],
+          "gloss": [
+            [
+              "METAR",
+              "An aviation surface weather observation report"
+            ],
+            [
+              "UTC",
+              "Coordinated Universal Time"
+            ],
+            [
+              "Knot",
+              "A nautical mile per hour"
+            ],
+            [
+              "Gust",
+              "A reported fluctuation with a peak wind speed"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the code and the units",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "idea": [
+                "Code fragments are easier when separated into groups.",
+                "Station and time determine relevance."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing wind-from direction with wind-to direction."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Synthetic exercise: 101530Z 09012G20KT 5SM."
+                },
+                {
+                  "text": "Read the timestamp as the 10th day at 15:30 UTC."
+                },
+                {
+                  "text": "Read wind as from 090 degrees true at 12 knots, gusting to 20."
+                },
+                {
+                  "text": "Read 5SM as visibility of five statute miles; this fragment is not a current report or a complete flight decision."
+                }
+              ]
+            },
+            {
+              "t": "Check the observation’s limits",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "idea": [
+                "A station observation describes conditions at its place and time.",
+                "A code-reading result is not a flight authorization."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Using a synthetic practice fragment as live weather."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the reporting station and report time."
+                },
+                {
+                  "text": "Distinguish observation from forecast."
+                },
+                {
+                  "text": "Check wind direction, sustained speed, gusts and visibility units."
+                },
+                {
+                  "text": "Use current official weather and the full preflight process for an actual operation."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_metar_01",
+              "q": "In the synthetic METAR fragment 101530Z, what does Z identify?",
+              "c": [
+                "UTC time",
+                "Local daylight time automatically",
+                "The aircraft battery level",
+                "The runway number"
+              ],
+              "why": "Z identifies Zulu or Coordinated Universal Time.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_02",
+              "q": "In the synthetic wind group 09012G20KT, what is the sustained wind speed?",
+              "c": [
+                "12 knots",
+                "20 knots",
+                "90 knots",
+                "12 miles per hour"
+              ],
+              "why": "The speed after the three-digit direction is 12, with KT indicating knots.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_03",
+              "q": "In the synthetic wind group 09012G20KT, what does G20 identify?",
+              "c": [
+                "Gusts to 20 knots",
+                "Visibility of 20 miles",
+                "A cloud base of 20 feet",
+                "A temperature of 20 degrees"
+              ],
+              "why": "G precedes the coded gust speed.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_04",
+              "q": "In a METAR wind group, is 090 a direction from which or toward which the wind blows?",
+              "c": [
+                "From 090 degrees true",
+                "Toward 090 degrees magnetic",
+                "Toward 090 degrees true",
+                "From runway 09 regardless of north reference"
+              ],
+              "why": "The coded direction is where the wind comes from, referenced to true north.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_05",
+              "q": "What does 5SM mean in a US METAR visibility group?",
+              "c": [
+                "Five statute miles",
+                "Five nautical miles",
+                "Five meters",
+                "Five hundred feet"
+              ],
+              "why": "SM identifies statute miles.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_06",
+              "q": "What does M1/4SM indicate in an automated US report?",
+              "c": [
+                "Visibility less than one-quarter statute mile",
+                "Visibility greater than one-quarter mile",
+                "Exactly four nautical miles",
+                "A cloud base of one-quarter mile"
+              ],
+              "why": "The M prefix means less than.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_07",
+              "q": "How should a METAR be distinguished from a TAF?",
+              "c": [
+                "METAR reports observed weather; TAF forecasts expected conditions",
+                "Both are aircraft registration documents",
+                "METAR is always a long-term forecast",
+                "TAF records only past conditions"
+              ],
+              "why": "Observation and forecast products serve different purposes.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_metar_08",
+              "q": "Why must a pilot check station and report time before using a METAR?",
+              "c": [
+                "The observation must be relevant to the place and time being assessed",
+                "Every station always represents every launch site",
+                "Timestamps have no practical meaning",
+                "A decoded report automatically authorizes flight"
+              ],
+              "why": "A station observation has geographic and temporal limits.",
+              "objectives": [
+                "Weather / Observations"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "METAR: date/time, winds, gusts and visibility"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_taf",
+          "name": "Weather: forecasts and temporary changes",
+          "objectives": [
+            "Weather / Forecasts"
+          ],
+          "refs": [
+            {
+              "source": "awcweather",
+              "section": "TAFs: purpose, issuance and temporary groups"
+            }
+          ],
+          "notes": [
+            "A TAF forecasts aviation conditions for a defined terminal area and validity period.",
+            "US terminal coverage is within five statute miles of the runway-complex center.",
+            "Most US TAFs cover 24 hours; some major-airport forecasts cover 30.",
+            "TEMPO identifies temporary fluctuations during the specified period.",
+            "A forecast and its changes need time matching; a favorable prevailing line does not erase temporary conditions."
+          ],
+          "gloss": [
+            [
+              "TAF",
+              "A terminal aerodrome forecast"
+            ],
+            [
+              "Validity period",
+              "The interval to which a forecast applies"
+            ],
+            [
+              "TEMPO",
+              "A temporary-change forecast group"
+            ],
+            [
+              "Terminal area",
+              "The defined airport-centered forecast area"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Match forecast to place and time",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "idea": [
+                "A forecast has boundaries.",
+                "Report issuance time and validity are different concepts."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a terminal forecast as a regional guarantee."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the airport and forecast period."
+                },
+                {
+                  "text": "Check whether the planned activity falls inside that period."
+                },
+                {
+                  "text": "Recognize the terminal-area geographic scope."
+                },
+                {
+                  "text": "Compare current observations and applicable forecast changes rather than assuming the forecast describes every nearby location."
+                }
+              ]
+            },
+            {
+              "t": "Read temporary changes",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "idea": [
+                "Temporary conditions can still matter to an operation.",
+                "Changing elements need attention."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Ignoring a temporary adverse condition because the prevailing line is more favorable."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Locate a TEMPO group relevant to the planned time."
+                },
+                {
+                  "text": "Read the weather elements that temporarily change."
+                },
+                {
+                  "text": "Understand that unchanged elements continue from the applicable forecast."
+                },
+                {
+                  "text": "Include those temporary conditions in the full weather assessment; no synthetic exercise establishes a go/no-go decision."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_taf_01",
+              "q": "What is the main purpose of a TAF?",
+              "c": [
+                "Forecast expected terminal-area weather for a specified period",
+                "Record only past station weather",
+                "Issue a remote pilot certificate",
+                "Grant airspace access"
+              ],
+              "why": "TAF is a forecast product with a defined place and time.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_02",
+              "q": "What geographic scope does AWC describe for a US TAF?",
+              "c": [
+                "Within five statute miles of the runway-complex center",
+                "The entire state",
+                "Exactly five nautical miles from every drone",
+                "Every point within a hundred miles"
+              ],
+              "why": "The product describes a defined terminal area.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_03",
+              "q": "How long do most US TAFs cover according to AWC guidance?",
+              "c": [
+                "24 hours, with some major airports using 30 hours",
+                "Always one hour",
+                "Always seven days",
+                "Always one calendar year"
+              ],
+              "why": "Most cover 24 hours; selected major airports have 30-hour forecasts.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_04",
+              "q": "What does TEMPO identify in a TAF?",
+              "c": [
+                "Temporary fluctuations during the stated period",
+                "An aircraft’s maximum speed",
+                "A permanent airspace restriction",
+                "An airport closure by definition"
+              ],
+              "why": "TEMPO describes temporary forecast changes.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_05",
+              "q": "A planned operation is outside the TAF validity period. What should the pilot recognize?",
+              "c": [
+                "That forecast does not cover the planned time",
+                "The same forecast is valid indefinitely",
+                "Its old favorable line guarantees conditions",
+                "The timestamp can be ignored"
+              ],
+              "why": "Validity bounds the time represented by the forecast.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_06",
+              "q": "A favorable prevailing forecast includes a relevant TEMPO period with reduced visibility. What should happen?",
+              "c": [
+                "Include the temporary conditions in the assessment",
+                "Ignore TEMPO because prevailing conditions are better",
+                "Treat TEMPO as a cancelled observation",
+                "Assume temporary weather cannot affect drones"
+              ],
+              "why": "Temporary conditions can be relevant during the planned period.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_07",
+              "q": "In a TEMPO group, what happens to forecast elements that are not changed by the group?",
+              "c": [
+                "They remain as previously forecast",
+                "They are automatically zero",
+                "They become unknown in every case",
+                "They are all replaced by calm and clear conditions"
+              ],
+              "why": "The group includes elements that temporarily change; unchanged elements continue.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_taf_08",
+              "q": "Why compare a TAF with current observations and the planned location?",
+              "c": [
+                "A forecast is neither a guarantee nor a report for every nearby site",
+                "A TAF replaces all local assessment",
+                "Observations never matter once a forecast exists",
+                "Forecast boundaries are only decorative"
+              ],
+              "why": "A sound assessment considers product limits and current conditions.",
+              "objectives": [
+                "Weather / Forecasts"
+              ],
+              "refs": [
+                {
+                  "source": "awcweather",
+                  "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
         }
       ],
       "exam": {
@@ -3584,22 +5509,21 @@ window.STUDYGOAT_CATALOG = {
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-09"
+      "checked": "2026-11-10"
     },
     {
       "id": "capcadet",
       "code": "CAP Cadet Study",
       "name": "Learn to Lead study foundations",
-      "version": "Public Learn to Lead chapters 1-3 and Curry guidance",
+      "version": "Public Learn to Lead chapters 1-16 and Curry guidance",
       "status": "partial",
-      "notice": "Partial Phase I leadership study: Curry orientation, Core Values and selected Learn to Lead chapter 2 objectives. Original educational practice only. StudyGOAT is not eServices and cannot record official grades, achievements or promotions. No controlled test content is included.",
+      "notice": "Original textbook study across all 16 Learn to Lead chapters, with selected concept coverage only. Not full learning-objective coverage, controlled exam content, a promotion checklist or official CAP credit. Use the complete official readings and current squadron/national guidance.",
       "gaps": [
-        "Remaining learning objectives in Learn to Lead chapters 1-3",
-        "Original lessons and practice for chapters 4-16; current entries link to official readings only",
-        "Full objective-by-objective mapping and review in all four volumes",
-        "Aerospace curriculum and later achievement mapping",
-        "Reconcile current CAPR 60-1 and national achievement requirements",
-        "Supervised drill, leadership feedback, fitness and official assessments remain outside this app"
+        "Remaining objectives and detailed application exercises in all 16 Learn to Lead chapters",
+        "Independent objective-by-objective content review across all four volumes",
+        "Aerospace curriculum and achievement mapping",
+        "Current CAPR 60-1 and national achievement requirement reconciliation",
+        "Supervised drill, feedback, fitness and official assessments remain outside this app"
       ],
       "objectives": [
         "Phase I / Curry / eligibility",
@@ -3611,7 +5535,32 @@ window.STUDYGOAT_CATALOG = {
         "L2L 1 / 26-27",
         "L2L 2 / 1-5",
         "L2L 3 / 1-3",
-        "L2L 3 / 5-7"
+        "L2L 3 / 5-7",
+        "L2L 4 / Servant Leadership",
+        "L2L 4 / Coaching & Mentoring",
+        "L2L 4 / The Team’s Life Cycle",
+        "L2L 5 / Universal Intellectual Standards",
+        "L2L 5 / Tools for Creative Thinking: Brainstorming",
+        "L2L 6 / Johari Window",
+        "L2L 6 / The Inevitability of Conflict",
+        "L2L 7 / Emotional Intelligence",
+        "L2L 7 / Transformational & Transactional Leadership",
+        "L2L 8 / Communication Fundamentals",
+        "L2L 9 / Forms of Indirect Leadership",
+        "L2L 10 / Functions of Management",
+        "L2L 10 / Project Management",
+        "L2L 11 / Leading Through a Command Intent",
+        "L2L 11 / Delegation Skills for a Hectic World",
+        "L2L 12 / Strategic Leadership: Defining the Challenge",
+        "L2L 12 / Leadership and Systems Thinking",
+        "L2L 13 / Volunteer Management Guidebook",
+        "L2L 14 / Chapter introduction",
+        "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around",
+        "L2L 15 / Organizational Culture",
+        "L2L 15 / Manage Change - Not the Chaos Caused by Change",
+        "L2L 16 / Principles of Strategic Communication",
+        "L2L 16 / The Art of Negotiation",
+        "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
       ],
       "topics": [
         {
@@ -5702,6 +7651,4514 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-10"
             }
           ]
+        },
+        {
+          "id": "capcadet_chapter4",
+          "name": "Chapter 4: The NCO & the Team",
+          "objectives": [
+            "L2L 4 / Servant Leadership",
+            "L2L 4 / Coaching & Mentoring",
+            "L2L 4 / The Team’s Life Cycle"
+          ],
+          "refs": [
+            {
+              "source": "capchapter4",
+              "section": "Servant Leadership"
+            },
+            {
+              "source": "capchapter4",
+              "section": "Coaching & Mentoring"
+            },
+            {
+              "source": "capchapter4",
+              "section": "The Team’s Life Cycle"
+            }
+          ],
+          "notes": [
+            "Service places member development and the team ahead of a desire for control.",
+            "Professionalism includes competence, service and ethical conduct.",
+            "Coaching addresses performance while developing the person.",
+            "The chapter presents four team-development stages: forming, storming, norming and performing.",
+            "Use the model to choose support; do not use it to label people permanently."
+          ],
+          "gloss": [
+            [
+              "Servant leadership",
+              "Leading by supporting the team and member growth"
+            ],
+            [
+              "Coaching",
+              "Helping develop people and improve performance"
+            ],
+            [
+              "Norming",
+              "Developing accepted ways of working together"
+            ],
+            [
+              "Performing",
+              "Working effectively toward the shared goal"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Serve and coach",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "idea": [
+                "A leader develops people through helpful support.",
+                "Coaching relies on trust."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing coaching with ridicule or punishment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A new cadet is struggling with an assigned skill."
+                },
+                {
+                  "text": "Find out what they understand rather than assuming poor effort."
+                },
+                {
+                  "text": "Provide useful guidance and an opportunity to practice."
+                },
+                {
+                  "text": "Observe progress and give constructive feedback."
+                }
+              ]
+            },
+            {
+              "t": "Read team development",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "idea": [
+                "A new team may need structure before it can coordinate well.",
+                "Conflict during development requires thoughtful leadership."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming that every team develops at the same speed."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A new flight first needs clarity about expectations: forming."
+                },
+                {
+                  "text": "Competing personal priorities can create friction: storming."
+                },
+                {
+                  "text": "Shared standards gain acceptance: norming."
+                },
+                {
+                  "text": "The team coordinates toward its goal: performing."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter4_01",
+              "q": "A cadet NCO helps members develop rather than seeking control for its own sake. Which chapter 4 approach fits?",
+              "c": [
+                "Servant leadership",
+                "Leadership by intimidation",
+                "Avoidance of responsibility",
+                "Competition for status"
+              ],
+              "why": "Servant leadership emphasizes member growth and teamwork.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_02",
+              "q": "What makes coaching useful in the chapter 4 discussion?",
+              "c": [
+                "It is positive, helpful guidance directed at growth",
+                "It substitutes embarrassment for instruction",
+                "It requires withholding feedback",
+                "It treats every error as deliberate misconduct"
+              ],
+              "why": "Trust and helpful guidance support development.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_03",
+              "q": "A newly assembled team is unsure of expectations. Which of the four stages best fits?",
+              "c": [
+                "Forming",
+                "Performing",
+                "Norming",
+                "Storming after standards are established"
+              ],
+              "why": "Forming describes the uncertainty of a new group.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_04",
+              "q": "Team members clash as competing personal goals emerge. Which stage is illustrated?",
+              "c": [
+                "Storming",
+                "Forming before interaction",
+                "Performing at full effectiveness",
+                "Norming with accepted expectations"
+              ],
+              "why": "Storming involves friction among personalities and individual needs.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_05",
+              "q": "A team begins accepting shared standards and feels more secure. Which stage fits?",
+              "c": [
+                "Norming",
+                "Storming",
+                "Initial forming",
+                "Disbanding"
+              ],
+              "why": "Norming involves acceptance of expectations and stronger commitment.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_06",
+              "q": "A team coordinates effectively and fine-tunes its work toward its goal. Which stage fits?",
+              "c": [
+                "Performing",
+                "Forming",
+                "Storming",
+                "Avoiding the mission"
+              ],
+              "why": "Performing describes effective shared work toward the goal.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_07",
+              "q": "Why should an NCO understand team-development stages?",
+              "c": [
+                "To choose support suited to the team’s situation",
+                "To excuse harmful behavior indefinitely",
+                "To eliminate standards during conflict",
+                "To guarantee every team follows an exact timetable"
+              ],
+              "why": "The model helps a leader match support to team needs.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter4_08",
+              "q": "A cadet can perform a skill but is struggling to improve consistency. What chapter 4 response fits?",
+              "c": [
+                "Offer focused coaching and practice",
+                "Assume improvement is impossible",
+                "Replace all instruction with criticism",
+                "Ignore the performance gap"
+              ],
+              "why": "Coaching can help a person reach a higher level of effectiveness.",
+              "objectives": [
+                "L2L 4 / Servant Leadership",
+                "L2L 4 / Coaching & Mentoring",
+                "L2L 4 / The Team’s Life Cycle"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter4",
+                  "section": "Servant Leadership"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "Coaching & Mentoring"
+                },
+                {
+                  "source": "capchapter4",
+                  "section": "The Team’s Life Cycle"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter5",
+          "name": "Chapter 5: Brainpower for Leadership",
+          "objectives": [
+            "L2L 5 / Universal Intellectual Standards",
+            "L2L 5 / Tools for Creative Thinking: Brainstorming"
+          ],
+          "refs": [
+            {
+              "source": "capchapter5",
+              "section": "Universal Intellectual Standards"
+            },
+            {
+              "source": "capchapter5",
+              "section": "Tools for Creative Thinking: Brainstorming"
+            }
+          ],
+          "notes": [
+            "Clarity asks whether an idea is understandable. Accuracy asks whether it is true.",
+            "Precision asks for suitable detail; relevance asks whether it relates to the issue.",
+            "Depth addresses complexity; breadth considers other perspectives; logic checks whether reasoning fits together.",
+            "Brainstorming separates generating ideas from evaluating them.",
+            "Include quieter contributors and allow time to think before judging suggestions."
+          ],
+          "gloss": [
+            [
+              "Clarity",
+              "Making a statement understandable"
+            ],
+            [
+              "Accuracy",
+              "Checking whether a statement is true"
+            ],
+            [
+              "Breadth",
+              "Considering other perspectives"
+            ],
+            [
+              "Brainstorming",
+              "Generating ideas before evaluating them"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Check the quality of reasoning",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "idea": [
+                "A clear claim may still be inaccurate.",
+                "A relevant answer may still lack depth."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating confidence as evidence."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Clarify what the speaker means."
+                },
+                {
+                  "text": "Check facts and ask for enough detail."
+                },
+                {
+                  "text": "Ask whether the answer addresses the actual issue and its complexity."
+                },
+                {
+                  "text": "Consider other perspectives and test whether the conclusion follows."
+                }
+              ]
+            },
+            {
+              "t": "Generate before judging",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "idea": [
+                "Creative thinking needs room for ideas.",
+                "Evaluation remains necessary after generation."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Rejecting an idea before anyone has explored it."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Write the problem where participants can see it."
+                },
+                {
+                  "text": "Invite ideas without immediate criticism or editing."
+                },
+                {
+                  "text": "Allow quiet thinking time and encourage less assertive members."
+                },
+                {
+                  "text": "After gathering possibilities, evaluate them using evidence and constraints."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter5_01",
+              "q": "A cadet asks a speaker to restate an unclear claim. Which intellectual standard is being applied?",
+              "c": [
+                "Clarity",
+                "Accuracy alone",
+                "Breadth alone",
+                "Depth alone"
+              ],
+              "why": "Clarity concerns understanding what is meant.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_02",
+              "q": "A team verifies whether a claimed statistic is true. Which standard is most directly involved?",
+              "c": [
+                "Accuracy",
+                "Clarity only",
+                "Relevance only",
+                "Breadth only"
+              ],
+              "why": "Accuracy concerns truth and factual reliability.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_03",
+              "q": "A proposal gives a vague estimate when a specific quantity is needed. Which standard asks for suitable detail?",
+              "c": [
+                "Precision",
+                "Popularity",
+                "Rank",
+                "Tradition"
+              ],
+              "why": "Precision asks for the level of detail needed to assess a claim.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_04",
+              "q": "A speaker gives correct facts that do not address the question. Which standard is missing?",
+              "c": [
+                "Relevance",
+                "Accuracy",
+                "Clarity",
+                "Precision"
+              ],
+              "why": "Relevant information bears on the issue being considered.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_05",
+              "q": "A team seeks viewpoints beyond its own. Which standard does this support?",
+              "c": [
+                "Breadth",
+                "Authority without evidence",
+                "Speed alone",
+                "Conformity"
+              ],
+              "why": "Breadth involves considering other perspectives.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_06",
+              "q": "During idea generation, a leader immediately rejects every unusual suggestion. What brainstorming principle is being neglected?",
+              "c": [
+                "Withhold judgment while gathering ideas",
+                "Only the highest rank may contribute",
+                "Evaluate before defining the problem",
+                "Record only familiar ideas"
+              ],
+              "why": "The chapter separates free idea generation from evaluation.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_07",
+              "q": "Why give quieter members thinking time in a brainstorming session?",
+              "c": [
+                "To make participation and varied ideas more likely",
+                "To ensure only the first speaker contributes",
+                "To avoid recording alternatives",
+                "To prevent any later evaluation"
+              ],
+              "why": "The procedure encourages participation by less assertive contributors.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter5_08",
+              "q": "After brainstorming produces many ideas, what should happen before choosing one?",
+              "c": [
+                "Evaluate the ideas against the problem and constraints",
+                "Assume every idea is equally workable",
+                "Select the first suggestion without review",
+                "Treat creativity as proof of accuracy"
+              ],
+              "why": "Generating ideas is followed by thoughtful evaluation.",
+              "objectives": [
+                "L2L 5 / Universal Intellectual Standards",
+                "L2L 5 / Tools for Creative Thinking: Brainstorming"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter5",
+                  "section": "Universal Intellectual Standards"
+                },
+                {
+                  "source": "capchapter5",
+                  "section": "Tools for Creative Thinking: Brainstorming"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter6",
+          "name": "Chapter 6: The Human Element",
+          "objectives": [
+            "L2L 6 / Johari Window",
+            "L2L 6 / The Inevitability of Conflict"
+          ],
+          "refs": [
+            {
+              "source": "capchapter6",
+              "section": "Johari Window"
+            },
+            {
+              "source": "capchapter6",
+              "section": "The Inevitability of Conflict"
+            }
+          ],
+          "notes": [
+            "The Johari model compares what is known to self with what is known to others.",
+            "Public is known to both; blind is known to others but not self.",
+            "Private is known to self but not others; unknown is known to neither.",
+            "Feedback can reveal blind spots. Sharing appropriately can improve understanding without requiring private disclosures.",
+            "Conflict concerns perceived threats to needs, interests or concerns. Deliberate leaders pause and respond thoughtfully."
+          ],
+          "gloss": [
+            [
+              "Public arena",
+              "Known to self and others"
+            ],
+            [
+              "Blind arena",
+              "Known to others but not self"
+            ],
+            [
+              "Private arena",
+              "Known to self but not others"
+            ],
+            [
+              "Unknown arena",
+              "Known to neither self nor others"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Map self-perception",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "idea": [
+                "The two knowledge dimensions create four areas.",
+                "Feedback provides information you may not see yourself."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a model as a clinical diagnosis."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Consider a behavior teammates notice but you have not recognized."
+                },
+                {
+                  "text": "Place it in the blind area."
+                },
+                {
+                  "text": "Ask for specific examples and listen before reacting."
+                },
+                {
+                  "text": "Use that feedback to assess a useful change; no one must disclose private personal information for this exercise."
+                }
+              ]
+            },
+            {
+              "t": "Respond deliberately to conflict",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "idea": [
+                "Conflict is a normal leadership challenge.",
+                "Thoughtful responses differ from emotional reflexes."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming that rank alone resolves every conflict."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A disagreement creates concern about fairness on a team."
+                },
+                {
+                  "text": "Pause and identify the needs or interests people believe are threatened."
+                },
+                {
+                  "text": "Listen and consider facts before judging motives."
+                },
+                {
+                  "text": "Work on the problem while maintaining respect and avoiding gossip."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter6_01",
+              "q": "A cadet and teammates all recognize the cadet’s strong preparation habit. Which Johari area fits?",
+              "c": [
+                "Public",
+                "Blind",
+                "Private",
+                "Unknown"
+              ],
+              "why": "The feature is known to both self and others.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_02",
+              "q": "Teammates notice a leader interrupts, but the leader has not recognized it. Which Johari area fits?",
+              "c": [
+                "Blind",
+                "Public",
+                "Private",
+                "Unknown"
+              ],
+              "why": "Others know the behavior while the person does not.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_03",
+              "q": "A person knows a personal concern that teammates do not know. Which Johari area fits?",
+              "c": [
+                "Private",
+                "Public",
+                "Blind",
+                "Unknown"
+              ],
+              "why": "Private information is known to self but not others.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_04",
+              "q": "In the Johari model, what is unknown to both self and others?",
+              "c": [
+                "The unknown arena",
+                "The public arena",
+                "The blind arena",
+                "The private arena"
+              ],
+              "why": "The unknown area is not recognized by either side.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_05",
+              "q": "What can constructive feedback help reveal in the Johari model?",
+              "c": [
+                "Blind spots",
+                "A guaranteed diagnosis",
+                "Every private detail",
+                "An official personality score"
+              ],
+              "why": "Feedback can make previously unnoticed behavior more visible to the person.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_06",
+              "q": "Two members see a disagreement as a threat to their interests. What chapter 6 concept applies?",
+              "c": [
+                "Conflict",
+                "Automatic agreement",
+                "A completed goal",
+                "An examination result"
+              ],
+              "why": "The chapter describes conflict in terms of perceived threats to needs or interests.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_07",
+              "q": "Which response best fits a deliberate leader receiving unwelcome news?",
+              "c": [
+                "Pause, stay calm and examine the situation",
+                "React emotionally before checking facts",
+                "Spread the news as gossip",
+                "Reject every unfamiliar idea"
+              ],
+              "why": "The chapter contrasts thoughtful self-control with knee-jerk reactions.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter6_08",
+              "q": "Why do leaders work to manage conflict?",
+              "c": [
+                "Unresolved conflict can damage teamwork and mission success",
+                "Every disagreement is prohibited",
+                "Rank removes all perceived threats",
+                "A conflict proves the team cannot improve"
+              ],
+              "why": "Managing conflict supports people and team effectiveness.",
+              "objectives": [
+                "L2L 6 / Johari Window",
+                "L2L 6 / The Inevitability of Conflict"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter6",
+                  "section": "Johari Window"
+                },
+                {
+                  "source": "capchapter6",
+                  "section": "The Inevitability of Conflict"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter7",
+          "name": "Chapter 7: Schools of Thought",
+          "objectives": [
+            "L2L 7 / Emotional Intelligence",
+            "L2L 7 / Transformational & Transactional Leadership"
+          ],
+          "refs": [
+            {
+              "source": "capchapter7",
+              "section": "Emotional Intelligence"
+            },
+            {
+              "source": "capchapter7",
+              "section": "Transformational & Transactional Leadership"
+            }
+          ],
+          "notes": [
+            "Emotional intelligence includes awareness of self, managing emotions, motivation, empathy and relationship skills.",
+            "Empathy considers another person’s feelings and perspective.",
+            "Transformational leadership develops motivation, values and potential.",
+            "Transactional leadership involves exchanges such as performance and rewards.",
+            "A role model influences through conduct; an exchange is not the same as inspiring shared values."
+          ],
+          "gloss": [
+            [
+              "Emotional intelligence",
+              "Understanding and working with emotions in relationships"
+            ],
+            [
+              "Empathy",
+              "Considering another person’s emotional perspective"
+            ],
+            [
+              "Transformational leadership",
+              "Developing motivation, values and potential"
+            ],
+            [
+              "Transactional leadership",
+              "Leading through performance-related exchanges"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Know yourself and understand others",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "idea": [
+                "Awareness precedes an intentional response.",
+                "Empathy supports respectful relationships."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Equating empathy with approving every action."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Notice frustration before responding to a teammate."
+                },
+                {
+                  "text": "Choose a measured response instead of acting on the first impulse."
+                },
+                {
+                  "text": "Ask about the teammate’s perspective and listen."
+                },
+                {
+                  "text": "Maintain a constructive relationship while addressing the task."
+                }
+              ]
+            },
+            {
+              "t": "Compare two approaches",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "idea": [
+                "Shared values and rewards influence people differently.",
+                "A leader’s example matters."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing a promised reward with a shared-value appeal."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A leader models service and helps members see its value."
+                },
+                {
+                  "text": "This illustrates a transformational emphasis."
+                },
+                {
+                  "text": "A specific reward offered for meeting a performance target illustrates an exchange."
+                },
+                {
+                  "text": "Explain the mechanism in the scenario rather than assuming one label fits every action."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter7_01",
+              "q": "A leader recognizes their own frustration before replying. Which emotional-intelligence component fits?",
+              "c": [
+                "Self-awareness",
+                "Equipment expertise",
+                "A reward contract",
+                "Formal authority"
+              ],
+              "why": "Self-awareness includes recognizing personal feelings.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_02",
+              "q": "A cadet tries to understand how a teammate feels about a setback. Which component fits?",
+              "c": [
+                "Empathy",
+                "A performance exchange",
+                "A command title",
+                "Task scheduling only"
+              ],
+              "why": "Empathy concerns another person’s emotional perspective.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_03",
+              "q": "A leader chooses a calm response rather than acting on anger. What is most directly being practiced?",
+              "c": [
+                "Managing emotions",
+                "Ignoring every problem",
+                "Awarding rank",
+                "Avoiding all communication"
+              ],
+              "why": "The leader is regulating the response to emotion.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_04",
+              "q": "Which action best illustrates interpersonal skills?",
+              "c": [
+                "Building and maintaining constructive relationships",
+                "Refusing feedback from everyone",
+                "Assuming others feel exactly as you do",
+                "Relying only on technical knowledge"
+              ],
+              "why": "Interpersonal skills support positive relationships.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_05",
+              "q": "A leader inspires commitment through shared values and personal example. Which approach fits?",
+              "c": [
+                "Transformational leadership",
+                "A purely transactional exchange",
+                "Laissez-faire avoidance",
+                "Random task assignment"
+              ],
+              "why": "Transformational leadership develops motivation and values.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_06",
+              "q": "A leader offers a specific reward for meeting a performance target. Which approach is most directly illustrated?",
+              "c": [
+                "Transactional leadership",
+                "A purely visionary appeal",
+                "Leadership through no interaction",
+                "A Johari blind spot"
+              ],
+              "why": "The scenario uses an exchange tied to performance.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_07",
+              "q": "What distinguishes a shared-values appeal from a performance-reward exchange?",
+              "c": [
+                "The basis on which followers are motivated",
+                "Only the leader’s uniform color",
+                "Only the length of the meeting",
+                "Whether a room has a projector"
+              ],
+              "why": "The mechanisms of influence differ.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter7_08",
+              "q": "Why can a leader’s behavior support idealized influence?",
+              "c": [
+                "Members can trust and follow a credible role model",
+                "A title guarantees moral conduct",
+                "Example removes the need for communication",
+                "Rewards are the only source of influence"
+              ],
+              "why": "The chapter links role modeling and trusted principles to idealized influence.",
+              "objectives": [
+                "L2L 7 / Emotional Intelligence",
+                "L2L 7 / Transformational & Transactional Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter7",
+                  "section": "Emotional Intelligence"
+                },
+                {
+                  "source": "capchapter7",
+                  "section": "Transformational & Transactional Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter8",
+          "name": "Chapter 8: Effective Communication",
+          "objectives": [
+            "L2L 8 / Communication Fundamentals"
+          ],
+          "refs": [
+            {
+              "source": "capchapter8",
+              "section": "Communication Fundamentals"
+            }
+          ],
+          "notes": [
+            "A message can inform, persuade or entertain; identify the intended purpose.",
+            "Audience knowledge and needs shape appropriate detail.",
+            "An outline organizes ideas before writing or speaking.",
+            "The FOCUS principles are focused, organized, clear, understanding and supported.",
+            "Support conclusions with reasoning rather than assuming enthusiasm makes a message persuasive."
+          ],
+          "gloss": [
+            [
+              "Purpose",
+              "What the message aims to accomplish"
+            ],
+            [
+              "Audience",
+              "People receiving the message"
+            ],
+            [
+              "Outline",
+              "A plan showing how ideas are organized"
+            ],
+            [
+              "Support",
+              "Evidence and reasoning behind a point"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Start with purpose and audience",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "idea": [
+                "A strong presentation can still miss the audience’s needs.",
+                "Choose content before decorating slides."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Giving a beginner lesson to an audience needing advanced guidance."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "State what the audience should understand, believe or do afterward."
+                },
+                {
+                  "text": "Find out what they already know and what they need."
+                },
+                {
+                  "text": "Choose the depth and examples accordingly."
+                },
+                {
+                  "text": "Explain why the message matters to these listeners."
+                }
+              ]
+            },
+            {
+              "t": "Organize and support the message",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "idea": [
+                "An outline gives a clear path.",
+                "FOCUS is a review aid for communication."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Adding unrelated facts because they are interesting."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Arrange the main points in a useful order."
+                },
+                {
+                  "text": "Check that each point addresses the purpose."
+                },
+                {
+                  "text": "Use clear wording and appropriate evidence."
+                },
+                {
+                  "text": "Review the message from the audience’s perspective before presenting."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter8_01",
+              "q": "A cadet prepares a briefing explaining a new schedule. Which communication purpose is most directly involved?",
+              "c": [
+                "Informing",
+                "Entertaining only",
+                "Avoiding the audience",
+                "Concealing the plan"
+              ],
+              "why": "The briefing aims to give the audience useful information.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_02",
+              "q": "A speaker asks the audience to adopt a proposal. Which purpose fits?",
+              "c": [
+                "Persuading",
+                "Entertaining only",
+                "Recording attendance only",
+                "Avoiding a conclusion"
+              ],
+              "why": "Persuasion seeks a change in viewpoint or action.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_03",
+              "q": "Why assess an audience before choosing presentation detail?",
+              "c": [
+                "Their knowledge and needs affect what will be useful",
+                "Every audience requires identical material",
+                "Technical detail always improves every speech",
+                "Audience needs matter only after presenting"
+              ],
+              "why": "Appropriate content depends on the receivers.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_04",
+              "q": "What is an outline used for in chapter 8?",
+              "c": [
+                "Planning the organization of ideas",
+                "Replacing the purpose of the message",
+                "Guaranteeing agreement",
+                "Avoiding all evidence"
+              ],
+              "why": "An outline shows how the communication will be arranged.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_05",
+              "q": "A briefing wanders into unrelated issues. Which FOCUS principle most directly needs attention?",
+              "c": [
+                "Focused",
+                "Supported only",
+                "Understanding only",
+                "Clear only"
+              ],
+              "why": "Focused communication addresses the issue rather than unrelated material.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_06",
+              "q": "A speaker states a conclusion without reasoning or evidence. Which FOCUS principle is most directly missing?",
+              "c": [
+                "Supported",
+                "Organized only",
+                "Clear only",
+                "Understanding only"
+              ],
+              "why": "Support includes logic and material that backs the point.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_07",
+              "q": "A technically correct briefing uses terms the audience does not understand. What should the speaker improve?",
+              "c": [
+                "Audience-appropriate explanation and clarity",
+                "The amount of unexplained jargon",
+                "The number of unrelated slides",
+                "The speed of delivery alone"
+              ],
+              "why": "Understanding the audience and using clear language support communication.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter8_08",
+              "q": "Which preparation order best fits the chapter 8 fundamentals?",
+              "c": [
+                "Identify purpose and audience, then organize the ideas",
+                "Choose decorative slides before deciding the purpose",
+                "Write unrelated facts and infer a goal afterward",
+                "Ignore the audience until questions begin"
+              ],
+              "why": "Purpose and audience guide the outline and content.",
+              "objectives": [
+                "L2L 8 / Communication Fundamentals"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter8",
+                  "section": "Communication Fundamentals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter9",
+          "name": "Chapter 9: The Cadet Officer",
+          "objectives": [
+            "L2L 9 / Forms of Indirect Leadership"
+          ],
+          "refs": [
+            {
+              "source": "capchapter9",
+              "section": "Forms of Indirect Leadership"
+            }
+          ],
+          "notes": [
+            "Indirect influence can reach people who do not report directly to the leader.",
+            "The four forms discussed are distance, a link, creations and upward influence.",
+            "A subordinate leader can serve as a link between organizational levels.",
+            "A useful publication or symbol can influence people without a direct instruction.",
+            "Upward influence requires leaders to listen to ideas from subordinates."
+          ],
+          "gloss": [
+            [
+              "Distance",
+              "Influence beyond direct reporting relationships"
+            ],
+            [
+              "Link",
+              "An intermediate leader through whom influence passes"
+            ],
+            [
+              "Creation",
+              "A work or symbol through which influence is exerted"
+            ],
+            [
+              "Upward influence",
+              "A subordinate influencing a superior"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Trace the path of influence",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "idea": [
+                "Leadership does not require direct supervision of everyone affected.",
+                "Intermediate leaders connect levels."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming indirect influence means no influence."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A cadet commander explains a goal to flight commanders."
+                },
+                {
+                  "text": "Flight commanders guide their flights toward it."
+                },
+                {
+                  "text": "Identify those intermediate leaders as links."
+                },
+                {
+                  "text": "Check how the goal and feedback move between levels."
+                }
+              ]
+            },
+            {
+              "t": "Influence beyond position",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "idea": [
+                "Ideas and creations can reach people at a distance.",
+                "Good ideas can also travel upward."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Equating upward influence with manipulation or unauthorized command."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A cadet writes a useful guide that helps members they have never met."
+                },
+                {
+                  "text": "The guide is a creation carrying influence."
+                },
+                {
+                  "text": "A member then proposes a well-reasoned improvement to their supervisor."
+                },
+                {
+                  "text": "A supervisor who listens makes constructive upward influence possible."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter9_01",
+              "q": "A cadet advisory representative helps improve conditions for cadets who do not report to them. Which form of indirect influence best fits?",
+              "c": [
+                "Leadership from a distance",
+                "Direct supervision of every cadet",
+                "No leadership of any kind",
+                "Automatic command authority"
+              ],
+              "why": "Distance influence can affect people outside direct reporting relationships.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_02",
+              "q": "A cadet commander works through flight commanders to influence their flights. What are the flight commanders in this model?",
+              "c": [
+                "Links",
+                "Unrelated observers",
+                "Exam proctors",
+                "Independent national commanders"
+              ],
+              "why": "The intermediate leaders connect levels of influence.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_03",
+              "q": "A published guide shapes how readers approach a task without the author meeting them. Which form fits?",
+              "c": [
+                "Leadership through creations",
+                "Only face-to-face command",
+                "No possible influence",
+                "Only a reward exchange"
+              ],
+              "why": "A written work can carry indirect influence.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_04",
+              "q": "A subordinate’s well-supported recommendation changes a supervisor’s plan. Which form fits?",
+              "c": [
+                "Upward influence",
+                "Only downward command",
+                "An absence of communication",
+                "A formal transfer of rank"
+              ],
+              "why": "Upward influence runs from subordinate toward superior.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_05",
+              "q": "What helps constructive upward influence occur?",
+              "c": [
+                "Supervisors listen and value subordinate input",
+                "Supervisors reject every suggestion",
+                "Members conceal relevant ideas",
+                "Rank is treated as proof of every answer"
+              ],
+              "why": "The chapter emphasizes a climate receptive to subordinate ideas.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_06",
+              "q": "Why can selecting capable subordinate leaders matter for indirect leadership?",
+              "c": [
+                "They carry influence when the senior leader cannot direct everyone personally",
+                "They remove the need for a mission",
+                "They make feedback unnecessary",
+                "They guarantee no misunderstanding"
+              ],
+              "why": "Links shape how direction reaches the broader team.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_07",
+              "q": "Which conclusion follows from the chapter 9 forms of indirect leadership?",
+              "c": [
+                "A person can influence others without commanding them directly",
+                "Only formal commanders can influence anyone",
+                "Every influential person holds the same rank",
+                "Only spoken orders affect teams"
+              ],
+              "why": "The forms extend beyond direct command relationships.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter9_08",
+              "q": "A slogan or organizational story helps communicate a shared identity. Which form best fits?",
+              "c": [
+                "Leadership through creations",
+                "An equipment inspection",
+                "Direct control of every action",
+                "No communication"
+              ],
+              "why": "Symbols and stories can help shape organizational culture.",
+              "objectives": [
+                "L2L 9 / Forms of Indirect Leadership"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter9",
+                  "section": "Forms of Indirect Leadership"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter10",
+          "name": "Chapter 10: The Staff Officer",
+          "objectives": [
+            "L2L 10 / Functions of Management",
+            "L2L 10 / Project Management"
+          ],
+          "refs": [
+            {
+              "source": "capchapter10",
+              "section": "Functions of Management"
+            },
+            {
+              "source": "capchapter10",
+              "section": "Project Management"
+            }
+          ],
+          "notes": [
+            "The chapter uses four management functions: planning, organizing, leading and controlling.",
+            "Planning identifies goals and how to reach them. Organizing brings resources together.",
+            "Leading supports and motivates people; controlling monitors progress toward goals.",
+            "A project has a defined start and finish and a specific goal.",
+            "Time, cost and resources constrain project choices."
+          ],
+          "gloss": [
+            [
+              "Planning",
+              "Determining goals and means"
+            ],
+            [
+              "Organizing",
+              "Arranging people and resources"
+            ],
+            [
+              "Controlling",
+              "Monitoring progress toward goals"
+            ],
+            [
+              "Project",
+              "Coordinated work with a defined beginning, end and goal"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Use four management functions",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "idea": [
+                "The functions describe different management work.",
+                "Monitoring informs adjustment."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating monitoring as merely giving more orders."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Define the goal and a plan for reaching it."
+                },
+                {
+                  "text": "Arrange people, equipment and other resources."
+                },
+                {
+                  "text": "Guide and motivate the team as it works."
+                },
+                {
+                  "text": "Compare progress with the goal and address gaps."
+                }
+              ]
+            },
+            {
+              "t": "Frame a project",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "idea": [
+                "An event needs a defined result and boundaries.",
+                "Constraints affect choices."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Starting work without defining success."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Describe the result a service project should produce."
+                },
+                {
+                  "text": "Identify when it starts and must finish."
+                },
+                {
+                  "text": "Estimate the people, time, money and equipment available."
+                },
+                {
+                  "text": "Adjust the plan to the constraints instead of assuming unlimited resources."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter10_01",
+              "q": "A staff officer identifies an activity’s goal and how to achieve it. Which management function fits?",
+              "c": [
+                "Planning",
+                "Controlling after completion only",
+                "Organizing without a goal",
+                "Avoiding management"
+              ],
+              "why": "Planning establishes goals and means.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_02",
+              "q": "A staff officer allocates people and equipment to activity tasks. Which function fits?",
+              "c": [
+                "Organizing",
+                "Controlling only",
+                "Goal selection only",
+                "Avoiding resources"
+              ],
+              "why": "Organizing brings resources together for the work.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_03",
+              "q": "A staff officer coaches and motivates members during a project. Which management function fits?",
+              "c": [
+                "Leading",
+                "Only inventory recording",
+                "Only budgeting",
+                "Only closing the project"
+              ],
+              "why": "Leading supports people in achieving goals.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_04",
+              "q": "A staff officer compares actual progress with the project plan. Which function fits?",
+              "c": [
+                "Controlling",
+                "Planning with no monitoring",
+                "Assigning rank",
+                "Avoiding feedback"
+              ],
+              "why": "Controlling monitors progress toward objectives.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_05",
+              "q": "What distinguishes a project in the chapter 10 definition?",
+              "c": [
+                "A specific goal with a defined start and finish",
+                "Unlimited work with no end",
+                "A title with no coordinated activity",
+                "Any unrelated personal preference"
+              ],
+              "why": "A project is coordinated work bounded by a goal and timeline.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_06",
+              "q": "A project has less money available than expected. What should its manager recognize?",
+              "c": [
+                "A resource constraint requiring a planning decision",
+                "Proof that no planning is needed",
+                "Permission to ignore all costs",
+                "A change that cannot affect the work"
+              ],
+              "why": "Time, cost and resource limits constrain projects.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_07",
+              "q": "Why does planning support the other management functions?",
+              "c": [
+                "It establishes what the work should accomplish and how",
+                "It eliminates the need for people",
+                "It guarantees that monitoring is unnecessary",
+                "It makes every allocation equally effective"
+              ],
+              "why": "Goals and means give direction to organizing, leading and monitoring.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter10_08",
+              "q": "An activity has many completed tasks but no clear intended result. What should staff clarify?",
+              "c": [
+                "The project’s goal and success criteria",
+                "Only the number of emails sent",
+                "Only who gets public credit",
+                "Only the room decoration"
+              ],
+              "why": "Coordinated effort needs a defined result.",
+              "objectives": [
+                "L2L 10 / Functions of Management",
+                "L2L 10 / Project Management"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter10",
+                  "section": "Functions of Management"
+                },
+                {
+                  "source": "capchapter10",
+                  "section": "Project Management"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter11",
+          "name": "Chapter 11: The Leader as Commander",
+          "objectives": [
+            "L2L 11 / Leading Through a Command Intent",
+            "L2L 11 / Delegation Skills for a Hectic World"
+          ],
+          "refs": [
+            {
+              "source": "capchapter11",
+              "section": "Leading Through a Command Intent"
+            },
+            {
+              "source": "capchapter11",
+              "section": "Delegation Skills for a Hectic World"
+            }
+          ],
+          "notes": [
+            "Command intent explains purpose and context so followers can exercise judgment.",
+            "Intent at one level should align with the higher level’s intent.",
+            "Delegation develops others and distributes work; it requires more than assigning a task.",
+            "Authority enables action, responsibility is the duty assigned, and accountability concerns performance and results.",
+            "Clear expectations and appropriate authority help a person carry out delegated work."
+          ],
+          "gloss": [
+            [
+              "Command intent",
+              "A concise expression of purpose guiding judgment"
+            ],
+            [
+              "Authority",
+              "Power or influence enabling assigned action"
+            ],
+            [
+              "Responsibility",
+              "An obligation to carry out a duty"
+            ],
+            [
+              "Accountability",
+              "Assessment of performance and results"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Explain the purpose",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "idea": [
+                "Intent helps when the original method no longer works.",
+                "The local purpose must fit higher direction."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Giving only detailed steps with no explanation of purpose."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "State the activity’s purpose and desired result."
+                },
+                {
+                  "text": "Check that it supports the higher-level mission."
+                },
+                {
+                  "text": "Explain the context so team members understand why the work matters."
+                },
+                {
+                  "text": "When circumstances change, use the purpose to guide appropriate judgment."
+                }
+              ]
+            },
+            {
+              "t": "Delegate with clarity",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "idea": [
+                "An assignment needs the ability to act.",
+                "Performance still needs review."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assigning a duty while withholding the authority needed to carry it out."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Define the duty and expected result."
+                },
+                {
+                  "text": "Clarify what decisions the assignee is authorized to make."
+                },
+                {
+                  "text": "Make resources and expectations understandable."
+                },
+                {
+                  "text": "Review what was accomplished and how it was done."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter11_01",
+              "q": "What does command intent primarily communicate in chapter 11?",
+              "c": [
+                "The purpose and context guiding action",
+                "Only the leader’s personal schedule",
+                "Only every possible detailed step",
+                "Only the unit’s insignia"
+              ],
+              "why": "Intent explains purpose so people can apply judgment.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_02",
+              "q": "Why can command intent help when a situation changes unexpectedly?",
+              "c": [
+                "It gives a basis for judging how to support the mission",
+                "It guarantees the original plan will never change",
+                "It authorizes every possible action",
+                "It removes all limits on authority"
+              ],
+              "why": "Understanding purpose helps people adapt appropriately.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_03",
+              "q": "How should local command intent relate to higher-level intent?",
+              "c": [
+                "It should be consistent with it",
+                "It must always oppose it",
+                "It should conceal the higher purpose",
+                "It is unrelated by definition"
+              ],
+              "why": "The chapter connects intent across organizational levels.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_04",
+              "q": "A member is assigned an obligation to perform a task. Which delegation concept fits?",
+              "c": [
+                "Responsibility",
+                "Public recognition",
+                "A personal preference",
+                "An unassigned aspiration"
+              ],
+              "why": "Responsibility concerns the duty or task assigned.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_05",
+              "q": "A member needs permission to make decisions required by an assignment. Which concept is involved?",
+              "c": [
+                "Authority",
+                "Only recognition",
+                "Only popularity",
+                "Only a meeting agenda"
+              ],
+              "why": "Authority enables action needed to fulfill the duty.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_06",
+              "q": "A leader reviews whether goals were achieved and how the work was done. Which concept fits?",
+              "c": [
+                "Accountability",
+                "Avoidance",
+                "Unbounded authority",
+                "Unrelated ceremony"
+              ],
+              "why": "Accountability concerns assessing performance and results.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_07",
+              "q": "Which delegated assignment is better framed?",
+              "c": [
+                "A clear result with appropriate decision authority and expectations",
+                "A vague task with no ability to act",
+                "An unexplained request with no review",
+                "A duty whose constraints are concealed"
+              ],
+              "why": "Clear duties and suitable authority support effective delegation.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter11_08",
+              "q": "Why is delegation more than telling someone to do work?",
+              "c": [
+                "It requires developing acceptance, clarity and ability to act",
+                "A spoken order completes the task automatically",
+                "All responsibility disappears after assignment",
+                "The assignee should never receive guidance"
+              ],
+              "why": "The chapter treats delegation as a skillful process requiring practice.",
+              "objectives": [
+                "L2L 11 / Leading Through a Command Intent",
+                "L2L 11 / Delegation Skills for a Hectic World"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter11",
+                  "section": "Leading Through a Command Intent"
+                },
+                {
+                  "source": "capchapter11",
+                  "section": "Delegation Skills for a Hectic World"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter12",
+          "name": "Chapter 12: Introduction to Strategic Leadership",
+          "objectives": [
+            "L2L 12 / Strategic Leadership: Defining the Challenge",
+            "L2L 12 / Leadership and Systems Thinking"
+          ],
+          "refs": [
+            {
+              "source": "capchapter12",
+              "section": "Strategic Leadership: Defining the Challenge"
+            },
+            {
+              "source": "capchapter12",
+              "section": "Leadership and Systems Thinking"
+            }
+          ],
+          "notes": [
+            "Strategic leadership examines long-term outcomes and broad relationships.",
+            "The strategic environment is described through volatility, uncertainty, complexity and ambiguity.",
+            "Systems thinking examines patterns and interrelationships instead of isolating one symptom.",
+            "A local improvement can create problems elsewhere if interactions are ignored.",
+            "Historical national-strategy readings in this textbook are not current policy documents."
+          ],
+          "gloss": [
+            [
+              "Volatility",
+              "Rapid or unstable change"
+            ],
+            [
+              "Uncertainty",
+              "Limits on knowing what will happen"
+            ],
+            [
+              "Complexity",
+              "Interacting factors and relationships"
+            ],
+            [
+              "Ambiguity",
+              "More than one possible interpretation"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Broaden the view",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "idea": [
+                "Strategic decisions extend beyond the immediate task.",
+                "Uncertainty does not disappear because a plan exists."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a historical strategy extract as today’s national policy."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the long-term outcome the organization seeks."
+                },
+                {
+                  "text": "Consider what may change and what remains unknown."
+                },
+                {
+                  "text": "Examine interacting factors and competing interpretations."
+                },
+                {
+                  "text": "State assumptions so later review can test them."
+                }
+              ]
+            },
+            {
+              "t": "Look for system effects",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "idea": [
+                "Symptoms and causes can be separated in time.",
+                "Interrelationships can create unintended results."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a simple local fix must improve the whole system."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A local team proposes changing one part of a process."
+                },
+                {
+                  "text": "Identify other teams or resources connected to it."
+                },
+                {
+                  "text": "Ask whether the change shifts a problem elsewhere."
+                },
+                {
+                  "text": "Review the broader outcome rather than only a local metric."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter12_01",
+              "q": "Which focus best fits strategic leadership in chapter 12?",
+              "c": [
+                "Broad outcomes and longer-term direction",
+                "Only the next isolated task",
+                "Only a uniform detail",
+                "Only immediate personal convenience"
+              ],
+              "why": "Strategic leadership requires a wider view of mission and outcomes.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_02",
+              "q": "Which strategic-environment characteristic concerns rapid instability?",
+              "c": [
+                "Volatility",
+                "Ambiguity only",
+                "A guaranteed forecast",
+                "A fixed routine"
+              ],
+              "why": "Volatility describes change and instability.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_03",
+              "q": "Which characteristic concerns limits on knowing future conditions?",
+              "c": [
+                "Uncertainty",
+                "Perfect predictability",
+                "A completed inventory",
+                "A single fixed interpretation"
+              ],
+              "why": "Uncertainty concerns what cannot be known confidently.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_04",
+              "q": "Which characteristic concerns many interacting factors?",
+              "c": [
+                "Complexity",
+                "Simplicity by definition",
+                "Certainty",
+                "A single isolated variable"
+              ],
+              "why": "Complexity concerns relationships among multiple factors.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_05",
+              "q": "Which characteristic concerns multiple plausible interpretations?",
+              "c": [
+                "Ambiguity",
+                "A guaranteed answer",
+                "A precise schedule",
+                "An uncontested definition"
+              ],
+              "why": "Ambiguity makes meaning or interpretation less clear.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_06",
+              "q": "A change improves one office’s speed but overloads another office. Which approach helps examine the broader effect?",
+              "c": [
+                "Systems thinking",
+                "Looking only at the first office’s metric",
+                "Ignoring relationships",
+                "Assuming every local improvement is global"
+              ],
+              "why": "Systems thinking examines interconnected effects.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_07",
+              "q": "Why should a leader examine patterns rather than one isolated event alone?",
+              "c": [
+                "Patterns can reveal relationships and recurring influences",
+                "A single event always proves the root cause",
+                "Patterns eliminate the need for evidence",
+                "Every symptom has exactly one immediate cause"
+              ],
+              "why": "The systems perspective moves beyond a simple isolated cause-and-effect view.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter12_08",
+              "q": "How should the textbook’s historical National Security Strategy extract be used?",
+              "c": [
+                "As a historical course reading, with current policy checked separately",
+                "As automatic proof of current national policy",
+                "As a current operating order for every cadet",
+                "As a replacement for newer official publications"
+              ],
+              "why": "Textbook historical context should not be misrepresented as present policy.",
+              "objectives": [
+                "L2L 12 / Strategic Leadership: Defining the Challenge",
+                "L2L 12 / Leadership and Systems Thinking"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter12",
+                  "section": "Strategic Leadership: Defining the Challenge"
+                },
+                {
+                  "source": "capchapter12",
+                  "section": "Leadership and Systems Thinking"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter13",
+          "name": "Chapter 13: Leading Public & Volunteer Organizations",
+          "objectives": [
+            "L2L 13 / Volunteer Management Guidebook"
+          ],
+          "refs": [
+            {
+              "source": "capchapter13",
+              "section": "Volunteer Management Guidebook"
+            }
+          ],
+          "notes": [
+            "Volunteers can be motivated by affiliation, achievement or influence.",
+            "Affiliation emphasizes connection; achievement emphasizes goals and accomplishment.",
+            "Recruitment, retention and recognition are related but different management tasks.",
+            "Recognition is more useful when it fits the person and contribution.",
+            "Use ongoing appreciation rather than relying only on one annual ceremony."
+          ],
+          "gloss": [
+            [
+              "Affiliation",
+              "Motivation through belonging and relationships"
+            ],
+            [
+              "Achievement",
+              "Motivation through goals and accomplishment"
+            ],
+            [
+              "Retention",
+              "Sustaining useful volunteer involvement"
+            ],
+            [
+              "Recognition",
+              "Acknowledging a contribution meaningfully"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Understand volunteer motivation",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "idea": [
+                "Different people value different aspects of service.",
+                "A useful role should connect contribution and motivation."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a motivational model as a fixed label for a person."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Ask a volunteer what they hope to contribute and learn."
+                },
+                {
+                  "text": "Notice whether connection, achievement or influence is especially important."
+                },
+                {
+                  "text": "Match an appropriate task to the person’s interests and abilities."
+                },
+                {
+                  "text": "Explain the role rather than assuming every volunteer wants the same experience."
+                }
+              ]
+            },
+            {
+              "t": "Retain and recognize",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "idea": [
+                "Recruiting someone is the beginning of the relationship.",
+                "Recognition should fit the actual contribution."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming everyone wants public recognition at a ceremony."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Give the volunteer a useful role and clear expectations."
+                },
+                {
+                  "text": "Check how the experience is going."
+                },
+                {
+                  "text": "Thank them specifically for their contribution."
+                },
+                {
+                  "text": "Use recognition suited to the person and type of service, including ordinary day-to-day appreciation."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter13_01",
+              "q": "A volunteer values friendship and group involvement. Which motivation in chapter 13 best fits?",
+              "c": [
+                "Affiliation",
+                "Achievement alone",
+                "Avoidance of people",
+                "A legal requirement"
+              ],
+              "why": "Affiliation focuses on connection and belonging.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_02",
+              "q": "A volunteer prefers specific challenging goals and completing a task. Which motivation best fits?",
+              "c": [
+                "Achievement",
+                "Affiliation alone",
+                "Avoiding responsibility",
+                "Publicity alone"
+              ],
+              "why": "Achievement motivation emphasizes goals and accomplishment.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_03",
+              "q": "Which task concerns keeping volunteers meaningfully involved after they join?",
+              "c": [
+                "Retention",
+                "Recruitment alone",
+                "Equipment disposal",
+                "An unrelated audit"
+              ],
+              "why": "Retention concerns sustaining involvement.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_04",
+              "q": "Which task concerns bringing new volunteers into the organization?",
+              "c": [
+                "Recruitment",
+                "Recognition only",
+                "Project closure only",
+                "An awards ceremony only"
+              ],
+              "why": "Recruitment is the initial process of securing volunteer participation.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_05",
+              "q": "Why tailor recognition to the volunteer?",
+              "c": [
+                "People differ in motivation and what feels meaningful",
+                "One public ceremony always suits everyone",
+                "Only expensive awards matter",
+                "The contribution itself is irrelevant"
+              ],
+              "why": "The chapter recommends varied, personal recognition.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_06",
+              "q": "A volunteer prefers private thanks for a useful contribution. Which response fits the recognition guidance?",
+              "c": [
+                "Offer specific appreciation in a form suited to that person",
+                "Insist on a public ceremony regardless of preference",
+                "Withhold thanks because they declined publicity",
+                "Ignore what they contributed"
+              ],
+              "why": "Recognition should be meaningful to the recipient.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_07",
+              "q": "Why should appreciation occur throughout service rather than only annually?",
+              "c": [
+                "Day-to-day recognition can help volunteers feel valued",
+                "Annual events make every other interaction unnecessary",
+                "Only long speeches count as recognition",
+                "Recognition must be delayed until a person leaves"
+              ],
+              "why": "Ongoing appreciation is part of effective recognition.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter13_08",
+              "q": "A leader assumes every volunteer joins for the same reason. What should be reconsidered?",
+              "c": [
+                "Volunteer motivations can differ",
+                "Every volunteer must want identical rewards",
+                "Motivation has no effect on involvement",
+                "Affiliation and achievement mean the same thing"
+              ],
+              "why": "The model highlights differing motivational needs.",
+              "objectives": [
+                "L2L 13 / Volunteer Management Guidebook"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter13",
+                  "section": "Volunteer Management Guidebook"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter14",
+          "name": "Chapter 14: Airpower as Strategic Laboratory",
+          "objectives": [
+            "L2L 14 / Chapter introduction",
+            "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+          ],
+          "refs": [
+            {
+              "source": "capchapter14",
+              "section": "Chapter introduction"
+            },
+            {
+              "source": "capchapter14",
+              "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+            }
+          ],
+          "notes": [
+            "The chapter uses the historical development of airpower to study strategic leadership.",
+            "Its broad airpower discussion includes civil and industrial capacity as well as military force.",
+            "ACTS and Warden are compared in their different historical settings.",
+            "A theory should be examined through its assumptions, context, strengths and limits.",
+            "Historical doctrine extracts are course readings, not a statement of current operational doctrine."
+          ],
+          "gloss": [
+            [
+              "Airpower",
+              "Capability or influence exercised through the air in the chapter’s broad discussion"
+            ],
+            [
+              "Strategic perspective",
+              "Viewing capabilities in relation to broad objectives"
+            ],
+            [
+              "Operational context",
+              "Conditions in which a theory was developed"
+            ],
+            [
+              "Assumption",
+              "A premise that must be examined rather than treated as proof"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Use history as a leadership laboratory",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "idea": [
+                "Capabilities and strategy develop together.",
+                "A broad concept is more than one kind of aircraft."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming technology by itself supplies a strategy."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the strategic problem discussed in a historical reading."
+                },
+                {
+                  "text": "Identify the capabilities the author expected to address it."
+                },
+                {
+                  "text": "Consider civil, industrial and military contributions where relevant."
+                },
+                {
+                  "text": "Distinguish the author’s historical argument from current doctrine."
+                }
+              ]
+            },
+            {
+              "t": "Compare theories in context",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "idea": [
+                "Similar ideas can arise under different conditions.",
+                "A theory’s limits matter as much as its appeal."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating an analogy as proof that two situations are identical."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify when and under what conditions ACTS theorists worked."
+                },
+                {
+                  "text": "Compare the different setting in which Warden developed his ideas."
+                },
+                {
+                  "text": "Ask what assumptions the approaches share and where they differ."
+                },
+                {
+                  "text": "Evaluate strengths and limits before applying any conclusion elsewhere."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter14_01",
+              "q": "Why does Learn to Lead chapter 14 study airpower history?",
+              "c": [
+                "To examine strategic leadership through a historical case",
+                "To issue current flight authorizations",
+                "To replace current operational doctrine",
+                "To certify aircraft maintenance skills"
+              ],
+              "why": "Airpower development provides a case study for strategic thinking.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_02",
+              "q": "In the chapter’s broad introduction, airpower includes what beyond military force?",
+              "c": [
+                "Civil and industrial capacity",
+                "Only parade uniforms",
+                "Only personal rank",
+                "Only exam scores"
+              ],
+              "why": "The introduction uses a broad concept including civil and industrial contributions.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_03",
+              "q": "What should be identified before applying a historical airpower theory to another setting?",
+              "c": [
+                "Its context and assumptions",
+                "Only whether its title sounds familiar",
+                "Only the author’s popularity",
+                "Only the length of the article"
+              ],
+              "why": "The reading compares theories through history, ideas and assumptions.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_04",
+              "q": "Which pair is compared in the chapter 14 theory reading?",
+              "c": [
+                "The Air Corps Tactical School and John Warden",
+                "The Johari window and Maslow’s hierarchy",
+                "A state driving test and a radio exam",
+                "Two modern medical protocols"
+              ],
+              "why": "The article compares ACTS theory with Warden’s approach.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_05",
+              "q": "Why compare strengths and shortcomings of strategic theories?",
+              "c": [
+                "To evaluate where their reasoning may or may not apply",
+                "To prove every theory is universally correct",
+                "To avoid examining assumptions",
+                "To replace evidence with slogans"
+              ],
+              "why": "A theory’s usefulness depends on its reasoning and limits.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_06",
+              "q": "How should an older doctrine extract in this textbook be treated?",
+              "c": [
+                "As a historical course reading; current doctrine needs separate verification",
+                "As automatically current operational authority",
+                "As a universal civilian flight rule",
+                "As a substitute for all later official material"
+              ],
+              "why": "The lesson separates textbook history from present operational authority.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_07",
+              "q": "A leader argues that a historical analogy guarantees the same outcome today. What is missing?",
+              "c": [
+                "Examination of differences in context and assumptions",
+                "A longer slogan",
+                "A change of uniform",
+                "More repetition of the claim"
+              ],
+              "why": "An analogy alone does not establish that conditions or outcomes match.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter14_08",
+              "q": "Which question best connects capability with strategic thinking?",
+              "c": [
+                "How does this capability support the intended broader objective?",
+                "What is the most impressive equipment regardless of purpose?",
+                "Which display attracts the most attention?",
+                "How can the mission be ignored?"
+              ],
+              "why": "Strategic analysis connects means with intended outcomes.",
+              "objectives": [
+                "L2L 14 / Chapter introduction",
+                "L2L 14 / Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter14",
+                  "section": "Chapter introduction"
+                },
+                {
+                  "source": "capchapter14",
+                  "section": "Warden and the Air Corps Tactical School: What Goes Around Comes Around"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter15",
+          "name": "Chapter 15: Organizational Culture & Change",
+          "objectives": [
+            "L2L 15 / Organizational Culture",
+            "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+          ],
+          "refs": [
+            {
+              "source": "capchapter15",
+              "section": "Organizational Culture"
+            },
+            {
+              "source": "capchapter15",
+              "section": "Manage Change - Not the Chaos Caused by Change"
+            }
+          ],
+          "notes": [
+            "Culture shapes how people interpret values and act in an organization.",
+            "Repeated stories can reinforce expectations and behavior.",
+            "The reading presents a cycle of inquiry, engagement and review.",
+            "Inquiry gathers examples; engagement develops shared meaning; review supports continued learning.",
+            "Change needs communication, learning and attention to the people affected."
+          ],
+          "gloss": [
+            [
+              "Culture",
+              "Shared patterns shaping organizational behavior and meaning"
+            ],
+            [
+              "Inquiry",
+              "Seeking examples and perspectives"
+            ],
+            [
+              "Engagement",
+              "Involving people in developing shared meaning"
+            ],
+            [
+              "Review",
+              "Examining progress and learning"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Identify culture in everyday behavior",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "idea": [
+                "Culture appears in stories and habits as well as formal statements.",
+                "Specific examples help make values understandable."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a printed value statement alone determines culture."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Ask what people mean when they describe good teamwork."
+                },
+                {
+                  "text": "Gather concrete examples rather than only slogans."
+                },
+                {
+                  "text": "Discuss what those examples show about shared expectations."
+                },
+                {
+                  "text": "Notice whether repeated stories encourage or discourage useful behavior."
+                }
+              ]
+            },
+            {
+              "t": "Use inquiry, engagement and review",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "idea": [
+                "Culture change requires participation over time.",
+                "Review helps sustain learning."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating one announcement as a complete change program."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Invite people to describe constructive examples and concerns."
+                },
+                {
+                  "text": "Engage the team in interpreting the common themes."
+                },
+                {
+                  "text": "Choose actions that support desired behavior and explain the change."
+                },
+                {
+                  "text": "Review what happened and continue the cycle rather than declaring instant success."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter15_01",
+              "q": "What can repeated organizational stories help shape?",
+              "c": [
+                "Shared expectations and culture",
+                "Only the building’s dimensions",
+                "Only equipment serial numbers",
+                "Only an exam timer"
+              ],
+              "why": "The reading treats stories as carriers of cultural meaning.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_02",
+              "q": "Which question best fits inquiry in the chapter 15 culture cycle?",
+              "c": [
+                "What specific behavior illustrates teamwork here?",
+                "Who should be blamed before facts are gathered?",
+                "How can all feedback be avoided?",
+                "Why should no one discuss values?"
+              ],
+              "why": "Inquiry seeks concrete examples and perspectives.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_03",
+              "q": "Which sequence names the culture-change cycle in the reading?",
+              "c": [
+                "Inquiry, engagement and review",
+                "Command, silence and forgetfulness",
+                "Purchase, storage and disposal",
+                "Recruitment, testing and licensing"
+              ],
+              "why": "The author presents a continuing inquiry-engagement-review cycle.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_04",
+              "q": "Why involve people in interpreting examples of good teamwork?",
+              "c": [
+                "To develop shared understanding of the behavior being valued",
+                "To guarantee everyone has identical opinions",
+                "To remove the need for later review",
+                "To replace conduct with a slogan"
+              ],
+              "why": "Engagement helps people connect examples with shared meaning.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_05",
+              "q": "After introducing a change, why review its effects?",
+              "c": [
+                "To learn whether actions support the desired culture",
+                "To assume success without evidence",
+                "To stop listening permanently",
+                "To avoid identifying problems"
+              ],
+              "why": "Review provides feedback for continued improvement.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_06",
+              "q": "A unit announces a new process but offers no explanation or learning support. What change-management need is being overlooked?",
+              "c": [
+                "Communication and support for the people affected",
+                "Only the title font",
+                "Only ceremonial recognition",
+                "Only the color of the form"
+              ],
+              "why": "Change requires attention to people, communication and learning.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_07",
+              "q": "Why can a negative, repetitive organizational story matter?",
+              "c": [
+                "It can weaken commitment and reinforce unhelpful expectations",
+                "Stories never affect behavior",
+                "Only written regulations influence people",
+                "Every complaint proves improvement is impossible"
+              ],
+              "why": "Repeated stories can affect energy, commitment and teamwork.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter15_08",
+              "q": "A leader wants to change culture through one poster alone. What should be added?",
+              "c": [
+                "Ongoing examples, participation, action and review",
+                "More posters with no changed behavior",
+                "A ban on all feedback",
+                "An assumption that change is instant"
+              ],
+              "why": "Culture change is a continuing process rather than a single message.",
+              "objectives": [
+                "L2L 15 / Organizational Culture",
+                "L2L 15 / Manage Change - Not the Chaos Caused by Change"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter15",
+                  "section": "Organizational Culture"
+                },
+                {
+                  "source": "capchapter15",
+                  "section": "Manage Change - Not the Chaos Caused by Change"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_chapter16",
+          "name": "Chapter 16: Strategic Communication & Negotiation",
+          "objectives": [
+            "L2L 16 / Principles of Strategic Communication",
+            "L2L 16 / The Art of Negotiation",
+            "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+          ],
+          "refs": [
+            {
+              "source": "capchapter16",
+              "section": "Principles of Strategic Communication"
+            },
+            {
+              "source": "capchapter16",
+              "section": "The Art of Negotiation"
+            },
+            {
+              "source": "capchapter16",
+              "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+            }
+          ],
+          "notes": [
+            "Strategic communication aligns actions, words and images with intended outcomes.",
+            "Credibility depends on trustworthiness and consistency. Dialogue includes listening.",
+            "Negotiation requires preparation and attention to differing interests.",
+            "The reading identifies autonomy, appreciation, affiliation, status and a fulfilling role as core concerns.",
+            "Distributive deals focus on allocating a contested issue; integrative deals explore multiple interests and opportunities for mutual benefit."
+          ],
+          "gloss": [
+            [
+              "Credibility",
+              "Being perceived as trustworthy and consistent"
+            ],
+            [
+              "Dialogue",
+              "An exchange involving listening and understanding"
+            ],
+            [
+              "Distributive negotiation",
+              "Bargaining over allocation of a contested issue"
+            ],
+            [
+              "Integrative negotiation",
+              "Exploring interests and options for mutual benefit"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Align the message and the conduct",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "idea": [
+                "Actions communicate as well as words.",
+                "Listening helps the sender understand interpretation."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming repetition can compensate for contradictory behavior."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Define the outcome a communication should support."
+                },
+                {
+                  "text": "Check that actual actions and images match the words."
+                },
+                {
+                  "text": "Consider how the intended audience may interpret the message."
+                },
+                {
+                  "text": "Listen to responses and assess whether the communication is working."
+                }
+              ]
+            },
+            {
+              "t": "Prepare to negotiate",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "idea": [
+                "Preparation and interests matter.",
+                "Respect helps people work through disagreement."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming negotiation only means forcing the other person to concede."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Clarify the issue, facts and desired result before the discussion."
+                },
+                {
+                  "text": "Listen for concerns about choice, appreciation, belonging, standing and useful roles."
+                },
+                {
+                  "text": "Distinguish bargaining over a single allocation from exploring several interests."
+                },
+                {
+                  "text": "Look for workable options and confirm the shared understanding of any agreement."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_chapter16_01",
+              "q": "A unit promises one standard but its actions show another. Which strategic-communication quality is most threatened?",
+              "c": [
+                "Credibility",
+                "Equipment capacity",
+                "Antenna gain",
+                "Printed page count"
+              ],
+              "why": "Contradictory actions and words undermine trust and consistency.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_02",
+              "q": "What does dialogue add beyond simply broadcasting a message?",
+              "c": [
+                "Listening and exchange to build understanding",
+                "A guarantee of agreement",
+                "Permission to ignore the audience",
+                "Automatic acceptance of every claim"
+              ],
+              "why": "Dialogue requires engagement and listening.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_03",
+              "q": "Why align actions, words and images in strategic communication?",
+              "c": [
+                "They all influence how the audience understands the organization",
+                "Only words ever communicate",
+                "Images cancel the effect of actions",
+                "Actions are irrelevant to credibility"
+              ],
+              "why": "The reading treats all three as parts of communication.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_04",
+              "q": "What does The Art of Negotiation emphasize as especially important for effective negotiation?",
+              "c": [
+                "Preparation",
+                "Surprise insults",
+                "Avoiding the facts",
+                "Refusing to identify the issue"
+              ],
+              "why": "The article repeatedly emphasizes preparation.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_05",
+              "q": "A participant wants meaningful choice in a decision. Which core concern is most directly involved?",
+              "c": [
+                "Autonomy",
+                "Appreciation only",
+                "Affiliation only",
+                "Status only"
+              ],
+              "why": "Autonomy concerns the ability to make decisions for oneself.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_06",
+              "q": "A volunteer wants their contribution acknowledged. Which negotiation concern best fits?",
+              "c": [
+                "Appreciation",
+                "Autonomy only",
+                "A fixed-price allocation only",
+                "No relevant concern"
+              ],
+              "why": "Appreciation involves acknowledgment of actions and contributions.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_07",
+              "q": "Two people bargain only over the price of a used item. Which negotiation type best fits the chapter’s example?",
+              "c": [
+                "Distributive",
+                "Integrative across many interests",
+                "No negotiation",
+                "A formal command order"
+              ],
+              "why": "The example involves bargaining over a single allocation issue.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_chapter16_08",
+              "q": "Two teams explore schedules, resources and priorities to find a solution that benefits both. Which approach best fits?",
+              "c": [
+                "Integrative negotiation",
+                "Only fixed-price distribution",
+                "Avoiding all discussion",
+                "Assuming interests cannot differ"
+              ],
+              "why": "Integrative discussion explores multiple interests and options for mutual benefit.",
+              "objectives": [
+                "L2L 16 / Principles of Strategic Communication",
+                "L2L 16 / The Art of Negotiation",
+                "L2L 16 / Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter16",
+                  "section": "Principles of Strategic Communication"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "The Art of Negotiation"
+                },
+                {
+                  "source": "capchapter16",
+                  "section": "Negotiating Effectively Across Cultures: Bringing Out the DEAD"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
         }
       ],
       "exam": {
@@ -5747,104 +12204,130 @@ window.STUDYGOAT_CATALOG = {
           "volume": 2,
           "title": "The NCO & the Team",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch4_The_NCO_and_TEAM_428130FD1F86C.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter4"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 5,
           "volume": 2,
           "title": "Brainpower for Leadership",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch5_Brainpower_for_Leaders_68401347748A7.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter5"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 6,
           "volume": 2,
           "title": "The Human Element",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch6_The_Human_Element_107BC137426D2.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter6"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 7,
           "volume": 2,
           "title": "Schools of Thought",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch7_Leadership_Schools_of__574B8BF2CB81E.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter7"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 8,
           "volume": 2,
           "title": "Effective Communication",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch8_Effective_Communicatio_63AFCA8970D43.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter8"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 9,
           "volume": 3,
           "title": "The Cadet Officer",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_9_Collected__LOW_E5FEBB103E38F.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter9"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 10,
           "volume": 3,
           "title": "The Staff Officer",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_10LOW_FINAL_75A9FEAE3286B.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter10"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 11,
           "volume": 3,
           "title": "The Leader as Commander",
           "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_11__LOW_FINAL_E798EBB4F218D.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter11"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 12,
           "volume": 4,
           "title": "Introduction to Strategic Leadership",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_12_Web_C0E7A749BA101_A38A791027084.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter12"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 13,
           "volume": 4,
           "title": "Leading Public & Volunteer Organizations",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_13_Web_5C4382BCA180F_3C9880EEE06DC.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter13"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 14,
           "volume": 4,
           "title": "Airpower as Strategic Laboratory",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_14_Web_0CE0B1561422B_2A660EFA41A9B.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter14"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 15,
           "volume": 4,
           "title": "Organizational Culture & Change",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_15_Web_A46143E86597C_B9DD163320804.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter15"
+          ],
+          "status": "partial"
         },
         {
           "chapter": 16,
           "volume": 4,
           "title": "Strategic Communication & Negotiation",
           "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_16_Web_A31AD878B62C6_1B6BEFA8C4A20.pdf",
-          "topics": [],
-          "status": "reading only"
+          "topics": [
+            "capcadet_chapter16"
+          ],
+          "status": "partial"
         }
       ]
     },
@@ -6913,22 +13396,24 @@ window.STUDYGOAT_CATALOG = {
     {
       "id": "technician",
       "code": "Amateur Radio Technician",
-      "name": "Licensing and operating primer",
+      "name": "Rules, electronics and radio foundations",
       "version": "2026 to 2030 pool target; primer only",
       "status": "partial",
       "notice": "Partial original rules primer, not the NCVEC question pool. Corrected pool and diagrams could not be retrieved directly, so a 35-question official-pool simulation is not enabled. Amateur privileges do not establish permission for FRS, GMRS or CAP operations.",
       "gaps": [
-        "Retrieve corrected NCVEC pool and all three diagrams",
-        "Validate every question ID, group, answer and current errata",
-        "Implement validated 35-group exam sampling",
-        "Radio theory, electronics, antennas, propagation, operating practices and safety",
-        "Source-based explanations for the full public-domain pool"
+        "Retrieve and independently validate corrected NCVEC 2026-2030 pool and three diagrams",
+        "Check every official ID, answer, group, erratum and withdrawal before official-pool mode",
+        "Implement reviewed 35-group exam sampling using the validated pool",
+        "Remaining electronics, antennas, propagation, operating practice and safety",
+        "Source-based explanations for the full official pool"
       ],
       "objectives": [
         "Exam orientation",
         "Station identification",
         "Control operator duties",
-        "Prohibited transmissions"
+        "Prohibited transmissions",
+        "Radio foundations / Ohm’s law",
+        "Radio foundations / Electromagnetic waves"
       ],
       "topics": [
         {
@@ -7802,6 +14287,642 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "technician_ohm",
+          "name": "Electronics: voltage, current and resistance",
+          "objectives": [
+            "Radio foundations / Ohm’s law"
+          ],
+          "refs": [
+            {
+              "source": "nasaohm",
+              "section": "V = I x R"
+            }
+          ],
+          "notes": [
+            "For the simple resistive examples here, voltage equals current times resistance: V = I x R.",
+            "Rearrange to I = V / R or R = V / I.",
+            "Use volts, amperes and ohms consistently.",
+            "Check which quantity the question asks for before substituting numbers.",
+            "These are original paper exercises, not official pool items or a guide to working on energized equipment."
+          ],
+          "gloss": [
+            [
+              "Voltage",
+              "Electrical potential difference, measured in volts"
+            ],
+            [
+              "Current",
+              "Electric charge flow, measured in amperes"
+            ],
+            [
+              "Resistance",
+              "Opposition represented in ohms in these simple resistive examples"
+            ],
+            [
+              "Ohm’s law",
+              "The relationship V = I x R"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Solve for current",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "idea": [
+                "Identify voltage and resistance first.",
+                "Division isolates the unknown current."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Multiplying voltage by resistance when asked for current."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A synthetic resistive circuit has 12 volts across 6 ohms."
+                },
+                {
+                  "text": "Start with V = I x R."
+                },
+                {
+                  "text": "Rearrange to I = V / R."
+                },
+                {
+                  "text": "Compute 12 / 6 = 2 amperes."
+                }
+              ]
+            },
+            {
+              "t": "Solve for voltage or resistance",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "idea": [
+                "Use the same relationship with a different unknown.",
+                "Include units in the result."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing a current value with a resistance value."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "For 0.5 amperes through 20 ohms, use V = I x R."
+                },
+                {
+                  "text": "Compute 0.5 x 20 = 10 volts."
+                },
+                {
+                  "text": "For 9 volts and 0.3 amperes, use R = V / I."
+                },
+                {
+                  "text": "Compute 9 / 0.3 = 30 ohms."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "technician_ohm_01",
+              "q": "Which relationship is Ohm’s law for the simple resistive study examples?",
+              "c": [
+                "V = I x R",
+                "V = I / R",
+                "I = V x R",
+                "R = V x I"
+              ],
+              "why": "Voltage equals current multiplied by resistance.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_02",
+              "q": "A synthetic resistive circuit has 12 volts across 6 ohms. What current flows?",
+              "c": [
+                "2 amperes",
+                "72 amperes",
+                "0.5 amperes",
+                "18 amperes"
+              ],
+              "why": "I = V / R = 12 / 6 = 2 amperes.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_03",
+              "q": "A synthetic resistive circuit carries 0.5 amperes through 20 ohms. What voltage is across it?",
+              "c": [
+                "10 volts",
+                "40 volts",
+                "0.025 volts",
+                "20.5 volts"
+              ],
+              "why": "V = I x R = 0.5 x 20 = 10 volts.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_04",
+              "q": "A synthetic resistive load has 9 volts across it and carries 0.3 amperes. What is its resistance?",
+              "c": [
+                "30 ohms",
+                "2.7 ohms",
+                "0.033 ohms",
+                "9.3 ohms"
+              ],
+              "why": "R = V / I = 9 / 0.3 = 30 ohms.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_05",
+              "q": "In the expression V = I x R, what does I represent?",
+              "c": [
+                "Current",
+                "Voltage",
+                "Resistance",
+                "Frequency"
+              ],
+              "why": "I is the symbol used for current in the relationship.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_06",
+              "q": "Which unit is used for resistance in these Ohm’s-law exercises?",
+              "c": [
+                "Ohms",
+                "Amperes",
+                "Volts",
+                "Seconds"
+              ],
+              "why": "Resistance is expressed in ohms.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_07",
+              "q": "With a fixed voltage in a simple resistive example, doubling resistance does what to current?",
+              "c": [
+                "Halves it",
+                "Doubles it",
+                "Leaves it unchanged",
+                "Makes it infinite"
+              ],
+              "why": "I = V / R, so doubling R halves I when V is fixed.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_ohm_08",
+              "q": "With fixed resistance in a simple resistive example, doubling voltage does what to current?",
+              "c": [
+                "Doubles it",
+                "Halves it",
+                "Leaves it unchanged",
+                "Makes resistance zero"
+              ],
+              "why": "I = V / R, so doubling V doubles I when R is fixed.",
+              "objectives": [
+                "Radio foundations / Ohm’s law"
+              ],
+              "refs": [
+                {
+                  "source": "nasaohm",
+                  "section": "V = I x R"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "technician_waves",
+          "name": "Radio foundations: frequency and wavelength",
+          "objectives": [
+            "Radio foundations / Electromagnetic waves"
+          ],
+          "refs": [
+            {
+              "source": "nasawaves",
+              "section": "Frequency and wavelength"
+            },
+            {
+              "source": "nasaspectrum",
+              "section": "Electromagnetic Spectrum"
+            }
+          ],
+          "notes": [
+            "Radio and optical signals are parts of the electromagnetic spectrum.",
+            "Wavelength is the distance corresponding to one wave cycle.",
+            "Frequency describes how many cycles occur in a second.",
+            "Higher frequency corresponds to shorter wavelength for the same propagation speed.",
+            "A spectrum concept does not by itself determine amateur operating privileges."
+          ],
+          "gloss": [
+            [
+              "Wavelength",
+              "Distance corresponding to one wave cycle"
+            ],
+            [
+              "Frequency",
+              "Number of cycles per second"
+            ],
+            [
+              "Electromagnetic spectrum",
+              "The range including radio and optical radiation"
+            ],
+            [
+              "Optical communication",
+              "Communication using light such as a laser"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Distinguish time and distance",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "idea": [
+                "Frequency counts repetitions in time.",
+                "Wavelength describes spatial repetition."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Calling frequency the physical length of a wave."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Imagine a repeating electromagnetic wave."
+                },
+                {
+                  "text": "Count how many cycles occur in one second to describe frequency."
+                },
+                {
+                  "text": "Measure the distance corresponding to one cycle to describe wavelength."
+                },
+                {
+                  "text": "Do not substitute one quantity’s definition for the other."
+                }
+              ]
+            },
+            {
+              "t": "Compare radio and optical signals",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "idea": [
+                "Different spectrum regions share an electromagnetic nature.",
+                "A technical category is separate from permission to transmit."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a physics lesson authorizes operation on every frequency."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Recognize radio and optical signals as electromagnetic phenomena."
+                },
+                {
+                  "text": "Compare a lower-frequency wave with a higher-frequency wave at the same propagation speed."
+                },
+                {
+                  "text": "The higher-frequency wave has a shorter wavelength."
+                },
+                {
+                  "text": "Consult the applicable FCC rules separately for actual amateur-radio privileges."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "technician_waves_01",
+              "q": "What does frequency describe in the NASA spectrum discussion?",
+              "c": [
+                "How many wave cycles occur in a second",
+                "The physical distance of one cycle",
+                "The transmitter’s street address",
+                "The station’s call-sign length"
+              ],
+              "why": "Frequency concerns repetition in time.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_02",
+              "q": "What does wavelength describe?",
+              "c": [
+                "The distance corresponding to one wave cycle",
+                "The number of cycles each second",
+                "A licence expiry date",
+                "The number of operators in a net"
+              ],
+              "why": "Wavelength is a spatial measure of a cycle.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_03",
+              "q": "For waves with the same propagation speed, what happens to wavelength as frequency increases?",
+              "c": [
+                "It decreases",
+                "It increases",
+                "It must remain unchanged",
+                "It becomes an operating licence"
+              ],
+              "why": "Frequency and wavelength vary inversely at a fixed propagation speed.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_04",
+              "q": "How are radio waves and optical signals related?",
+              "c": [
+                "Both are electromagnetic radiation",
+                "Only radio waves are electromagnetic",
+                "Only optical signals carry information",
+                "They are both sound waves in air"
+              ],
+              "why": "They occupy different regions of the electromagnetic spectrum.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_05",
+              "q": "Which communication method does NASA describe as using lasers rather than radio frequencies?",
+              "c": [
+                "Optical communication",
+                "Ordinary radio communication by definition",
+                "Acoustic signaling",
+                "A paper mailing system"
+              ],
+              "why": "Optical communication uses light, including lasers.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_06",
+              "q": "A wave completes more cycles each second than another wave. Which quantity is higher?",
+              "c": [
+                "Frequency",
+                "Wavelength by definition",
+                "Call-sign length",
+                "Resistance by definition"
+              ],
+              "why": "More cycles per second means higher frequency.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_07",
+              "q": "Two waves have the same propagation speed. One has a longer wavelength. How does its frequency compare?",
+              "c": [
+                "It is lower",
+                "It is higher",
+                "It must be identical",
+                "It cannot be compared at equal speed"
+              ],
+              "why": "At fixed speed, a longer wavelength corresponds to a lower frequency.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "technician_waves_08",
+              "q": "Does understanding a radio frequency’s wavelength establish permission to transmit on it?",
+              "c": [
+                "No, applicable operating rules and privileges must be checked",
+                "Yes, physics knowledge authorizes every frequency",
+                "Yes, if the wavelength is easy to calculate",
+                "Yes, if no one is heard on the channel"
+              ],
+              "why": "Technical understanding and legal operating authorization are separate matters.",
+              "objectives": [
+                "Radio foundations / Electromagnetic waves"
+              ],
+              "refs": [
+                {
+                  "source": "nasawaves",
+                  "section": "Frequency and wavelength"
+                },
+                {
+                  "source": "nasaspectrum",
+                  "section": "Electromagnetic Spectrum"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
         }
       ],
       "exam": {
@@ -7809,7 +14930,7 @@ window.STUDYGOAT_CATALOG = {
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-09"
+      "checked": "2026-11-10"
     },
     {
       "id": "arizonadriving",
@@ -9929,6 +17050,1243 @@ window.STUDYGOAT_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "californiadriving",
+      "code": "California Driving Prep",
+      "name": "California permit foundations",
+      "version": "California DMV online handbook, Section 6",
+      "status": "partial",
+      "jurisdiction": "US-CA",
+      "notice": "California only. Original practice from selected official online manual sections. Not official test questions, full knowledge-test coverage or practical driving credit. Read the complete current manual and licensing requirements.",
+      "gaps": [
+        "Remaining handbook sections and full knowledge-test coverage",
+        "Licensing, age-specific restrictions, signs, parking and impairment",
+        "Broader hazard scenarios and supervised road-test preparation"
+      ],
+      "objectives": [
+        "CA / Turns",
+        "CA / Merging"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-10",
+      "topics": [
+        {
+          "id": "californiadriving_turns",
+          "name": "CA turns and vulnerable road users",
+          "objectives": [
+            "CA / Turns"
+          ],
+          "refs": [
+            {
+              "source": "camanual",
+              "section": "Turns"
+            }
+          ],
+          "notes": [
+            "A permitted right turn at a circular red light requires a complete stop. Signs can prohibit it.",
+            "A red arrow prohibits turning in its direction until the signal changes appropriately.",
+            "Check for pedestrians and riders near the curb and in blind spots.",
+            "Approach an ordinary right turn close to the right edge without swinging wide.",
+            "When waiting to turn left, keep wheels straight until it is safe to begin."
+          ],
+          "gloss": [
+            [
+              "Limit line",
+              "A wide white line indicating where to stop"
+            ],
+            [
+              "Red arrow",
+              "A signal prohibiting movement in its direction"
+            ],
+            [
+              "Blind spot",
+              "An area not adequately visible in mirrors"
+            ],
+            [
+              "Turn position",
+              "The approach location appropriate to a turn"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Compare red indications",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "idea": [
+                "A circular red and a red arrow require different decisions.",
+                "A sign can prohibit an otherwise permitted turn."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating every red indication as permission to turn after stopping."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify the exact signal controlling your movement."
+                },
+                {
+                  "text": "Stop completely for a circular red before considering a permitted right turn."
+                },
+                {
+                  "text": "Do not turn against a red arrow."
+                },
+                {
+                  "text": "Check for signs, pedestrians, bicycles and other traffic before any permitted movement."
+                }
+              ]
+            },
+            {
+              "t": "Position and look",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "idea": [
+                "The space near the curb may contain vulnerable road users.",
+                "Wheel position matters while waiting."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Checking only for large vehicles."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Approach an ordinary right turn near the right edge."
+                },
+                {
+                  "text": "Check your right blind spot and the space beside the curb."
+                },
+                {
+                  "text": "Complete the turn without swinging wide into another lane."
+                },
+                {
+                  "text": "For a left turn, keep wheels straight while waiting so a rear impact is less likely to push the vehicle toward opposing traffic."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "californiadriving_turns_01",
+              "q": "In California, may a driver turn right against a red arrow after stopping?",
+              "c": [
+                "No, wait for the signal to change appropriately",
+                "Yes, every red indication allows it",
+                "Yes, if the car behind honks",
+                "Yes, if the driver signals twice"
+              ],
+              "why": "The handbook prohibits a right turn against a red arrow.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_02",
+              "q": "At a California circular red light with no turn prohibition, what is required before considering a right turn?",
+              "c": [
+                "A complete stop and a check that the turn is permitted and safe",
+                "Only slowing down",
+                "Only a horn warning",
+                "Only following the next car"
+              ],
+              "why": "A permitted circular-red turn begins with a complete stop.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_03",
+              "q": "A No Turn on Red sign controls a California intersection. What applies?",
+              "c": [
+                "Do not make the turn while the red indication applies",
+                "Treat the sign as advisory only",
+                "Turn after rolling slowly",
+                "Turn if no large truck is visible"
+              ],
+              "why": "The sign prohibits the red-light turn.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_04",
+              "q": "Why check near the curb before a California right turn?",
+              "c": [
+                "A pedestrian, bicyclist or motorcyclist may be there",
+                "The curb guarantees the area is empty",
+                "Only oncoming cars matter",
+                "Mirrors reveal every blind spot"
+              ],
+              "why": "The handbook calls attention to vulnerable road users near the vehicle.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_05",
+              "q": "What does a limit line tell a California driver?",
+              "c": [
+                "Where to stop before an intersection or crosswalk",
+                "Where to accelerate",
+                "Where to park indefinitely",
+                "Where to ignore a red light"
+              ],
+              "why": "The handbook describes the wide white stopping line.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_06",
+              "q": "For an ordinary California right turn, which approach fits the handbook?",
+              "c": [
+                "Stay near the right edge and avoid swinging wide",
+                "Begin from the opposing lane",
+                "Swing left before turning right",
+                "Straddle adjacent lanes"
+              ],
+              "why": "The handbook calls for an appropriate right-side approach.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_07",
+              "q": "While waiting to turn left in California, why keep the front wheels straight?",
+              "c": [
+                "A rear impact is less likely to push the vehicle into opposing traffic",
+                "It grants automatic right-of-way",
+                "It replaces the turn signal",
+                "It makes checking traffic unnecessary"
+              ],
+              "why": "The handbook explains the rear-impact risk of wheels turned left.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_turns_08",
+              "q": "A California right turn requires crossing a bike lane near the turn. What must be checked?",
+              "c": [
+                "Bicyclists in the blind spot and path of the maneuver",
+                "Only the vehicle’s dashboard",
+                "Only the opposite sidewalk",
+                "Only whether the lane is painted green"
+              ],
+              "why": "The handbook requires looking for bicyclists before entering their space.",
+              "objectives": [
+                "CA / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Turns"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "californiadriving_merge",
+          "name": "CA merging and lane changes",
+          "objectives": [
+            "CA / Merging"
+          ],
+          "refs": [
+            {
+              "source": "camanual",
+              "section": "Merging and Exiting"
+            }
+          ],
+          "notes": [
+            "Highway traffic has priority when you enter.",
+            "Choose a safe gap and approach traffic speed appropriately.",
+            "Use mirrors, signals and a shoulder check.",
+            "Change multiple lanes one at a time and check each time.",
+            "Do not enter a blocked intersection just because the light is green."
+          ],
+          "gloss": [
+            [
+              "Merge",
+              "Join another flow of traffic"
+            ],
+            [
+              "Gap",
+              "Space sufficient for safe entry"
+            ],
+            [
+              "Shoulder check",
+              "A quick look toward the blind spot"
+            ],
+            [
+              "Lane change",
+              "Movement into an adjacent traffic lane"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Join the highway",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "idea": [
+                "A merge requires space, observation and suitable speed.",
+                "Entering traffic does not have automatic priority."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming vehicles already on the highway must always stop for you."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Use the proper on-ramp lane."
+                },
+                {
+                  "text": "Observe highway traffic and choose a sufficiently large gap."
+                },
+                {
+                  "text": "Signal and check mirrors and your blind spot."
+                },
+                {
+                  "text": "Join when safe without crossing solid lines."
+                }
+              ]
+            },
+            {
+              "t": "Move one lane at a time",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "idea": [
+                "Each move creates a new traffic situation.",
+                "An open signal does not guarantee open space."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Making one diagonal movement across several lanes."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Plan the exit early."
+                },
+                {
+                  "text": "If several lane changes are needed, perform them separately."
+                },
+                {
+                  "text": "Signal and check the blind spot for each move."
+                },
+                {
+                  "text": "At an intersection, wait if traffic prevents clearing it even with a green light."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "californiadriving_merge_01",
+              "q": "When entering a California highway, which traffic has the right-of-way?",
+              "c": [
+                "Traffic already on the highway",
+                "The entering vehicle automatically",
+                "The largest vehicle automatically",
+                "The vehicle with hazard lights on"
+              ],
+              "why": "The handbook gives highway traffic priority.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_02",
+              "q": "What should a California driver choose before merging?",
+              "c": [
+                "A gap large enough to join safely",
+                "The smallest visible opening regardless of speed",
+                "A position beside another vehicle",
+                "A place across a solid line"
+              ],
+              "why": "Safe entry requires enough space.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_03",
+              "q": "Which observation belongs with mirrors before a California merge?",
+              "c": [
+                "A quick shoulder check for the blind spot",
+                "Looking only at the speedometer",
+                "Watching only the vehicle behind",
+                "Closing the side window"
+              ],
+              "why": "A shoulder check helps reveal traffic mirrors may miss.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_04",
+              "q": "If several lane changes are needed for a California exit, how should they be made?",
+              "c": [
+                "One lane at a time with checks for each move",
+                "One uninterrupted diagonal move",
+                "Without signaling after the first lane",
+                "Only by using the shoulder"
+              ],
+              "why": "The handbook calls for separate checked lane changes.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_05",
+              "q": "A California intersection has a green light but the path beyond it is blocked. What should the driver do?",
+              "c": [
+                "Wait rather than enter the blocked intersection",
+                "Enter because green guarantees space",
+                "Stop in the crosswalk",
+                "Follow the preceding vehicle without checking"
+              ],
+              "why": "A green indication does not permit entering a blocked path.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_06",
+              "q": "Why plan a California highway exit in advance?",
+              "c": [
+                "To allow safe positioning and lane changes",
+                "To make sudden lane changes unnecessary to check",
+                "To justify crossing solid lines",
+                "To replace all turn signals"
+              ],
+              "why": "Advance planning allows safer lane positioning.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_07",
+              "q": "What does the California handbook say about crossing solid lines while merging or exiting?",
+              "c": [
+                "Do not cross them",
+                "Cross them whenever late for an exit",
+                "Ignore them on all ramps",
+                "They apply only to parked cars"
+              ],
+              "why": "The cited merging and exiting guidance prohibits crossing solid lines.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "californiadriving_merge_08",
+              "q": "How should speed be considered when joining California highway traffic?",
+              "c": [
+                "Approach the traffic flow appropriately and merge only when safe",
+                "Always stop at the end of every ramp",
+                "Enter at any speed without looking",
+                "Exceed all posted limits to force a gap"
+              ],
+              "why": "The handbook calls for being at or near traffic speed while making a safe merge.",
+              "objectives": [
+                "CA / Merging"
+              ],
+              "refs": [
+                {
+                  "source": "camanual",
+                  "section": "Merging and Exiting"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newyorkdriving",
+      "code": "New York Driving Prep",
+      "name": "New York permit foundations",
+      "version": "New York DMV online manual, chapters 4-5",
+      "status": "partial",
+      "jurisdiction": "US-NY",
+      "notice": "New York only. Original practice from selected official online manual sections. Not official test questions, full knowledge-test coverage or practical driving credit. Read the complete current manual and licensing requirements.",
+      "gaps": [
+        "Remaining manual sections and full knowledge-test coverage",
+        "Licensing and junior-operator restrictions",
+        "School buses, signs, markings, parking, impairment and broader hazards",
+        "Supervised driving and road-test preparation"
+      ],
+      "objectives": [
+        "NY / Signals",
+        "NY / Right-of-way"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-10",
+      "topics": [
+        {
+          "id": "newyorkdriving_signals",
+          "name": "NY signals and New York City exception",
+          "objectives": [
+            "NY / Signals"
+          ],
+          "refs": [
+            {
+              "source": "nymanual4",
+              "section": "Traffic Signals"
+            }
+          ],
+          "notes": [
+            "New York City generally prohibits a red-light turn unless a sign permits it.",
+            "Elsewhere, a permitted red-light right turn still requires a full stop and yielding; prohibiting signs or markings control.",
+            "A red arrow prohibits turning in that direction.",
+            "Flashing red requires a stop and yielding; flashing yellow requires caution.",
+            "A school bus carrying pupils may not turn right on any red light."
+          ],
+          "gloss": [
+            [
+              "Circular red",
+              "A stop indication with conditional turn rules"
+            ],
+            [
+              "Red arrow",
+              "A prohibition on movement in the arrow’s direction"
+            ],
+            [
+              "Flashing red",
+              "A stop-sign equivalent"
+            ],
+            [
+              "Flashing yellow",
+              "A caution indication"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Keep the city exception visible",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "idea": [
+                "Location matters to the red-light decision.",
+                "Signs, markings and vehicle type also matter."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Using an out-of-state rule without checking the New York City exception."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify whether the intersection is in New York City."
+                },
+                {
+                  "text": "There, do not turn on red unless a sign permits it."
+                },
+                {
+                  "text": "For an otherwise permitted turn, stop fully and yield to traffic and pedestrians."
+                },
+                {
+                  "text": "Do not apply a circular-red exception to a red arrow or to a pupil-carrying school bus."
+                }
+              ]
+            },
+            {
+              "t": "Read flashing and steady signals",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "idea": [
+                "Flashing red and flashing yellow mean different things.",
+                "A green indication still requires yielding where applicable."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating any green indication as a guarantee that the intersection is clear."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "At flashing red, stop and yield, then proceed when safe."
+                },
+                {
+                  "text": "At flashing yellow, proceed with caution."
+                },
+                {
+                  "text": "At a red arrow, wait until the red arrow is off and an appropriate green indication is shown."
+                },
+                {
+                  "text": "Continue checking conflicts when a green indication allows movement."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "newyorkdriving_signals_01",
+              "q": "In New York City, when may a driver turn at a red light under the manual’s general city rule?",
+              "c": [
+                "Only where a sign permits the red-light turn, with all other requirements satisfied",
+                "At every intersection after slowing",
+                "Whenever there is no No Turn on Red sign",
+                "Whenever the vehicle behind honks"
+              ],
+              "why": "New York City requires a sign permitting the red-light turn.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_02",
+              "q": "Outside New York City, a circular-red right turn is otherwise permitted. What is still required?",
+              "c": [
+                "A full stop and yielding to traffic and pedestrians",
+                "Only slowing down",
+                "An immediate turn without observation",
+                "Only a horn signal"
+              ],
+              "why": "The manual requires stopping and yielding before a permitted turn.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_03",
+              "q": "In New York, can a right turn be made against a red arrow?",
+              "c": [
+                "No, the red-arrow restriction applies",
+                "Yes, after any rolling stop",
+                "Yes, whenever there is no truck",
+                "Yes, if the street is wide"
+              ],
+              "why": "The manual prohibits right or left turns on a red arrow.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_04",
+              "q": "What does a New York flashing red traffic signal require?",
+              "c": [
+                "Stop, yield and proceed when safe",
+                "Accelerate through without stopping",
+                "Treat it as an unrestricted green",
+                "Stop only if another driver signals"
+              ],
+              "why": "Flashing red is treated like a stop sign.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_05",
+              "q": "What does a New York flashing yellow traffic signal mean?",
+              "c": [
+                "Proceed with caution",
+                "An unconditional order to accelerate",
+                "A requirement to park",
+                "Automatic right-of-way over all pedestrians"
+              ],
+              "why": "The manual directs cautious driving at flashing yellow.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_06",
+              "q": "A New York school bus contains pupils. May its driver turn right on a red light?",
+              "c": [
+                "No",
+                "Yes, under the ordinary circular-red exception",
+                "Yes, if the bus is late",
+                "Yes, after sounding the horn"
+              ],
+              "why": "The manual specifically prohibits this turn for a bus carrying pupils.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_07",
+              "q": "A New York driver faces a No Turn on Red sign. What applies?",
+              "c": [
+                "The sign prohibits the red-light turn",
+                "The sign is only a suggestion",
+                "Stopping cancels the sign",
+                "The sign applies only to trucks"
+              ],
+              "why": "A posted prohibition prevents the turn.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_signals_08",
+              "q": "A New York driver receives a steady green light. What remains necessary?",
+              "c": [
+                "Yield to other traffic as required and check the path",
+                "Assume every conflict has disappeared",
+                "Ignore vehicles already in the intersection",
+                "Stop permanently until another car moves"
+              ],
+              "why": "Green does not remove applicable yielding duties.",
+              "objectives": [
+                "NY / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual4",
+                  "section": "Traffic Signals"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "newyorkdriving_priority",
+          "name": "NY intersection conflicts",
+          "objectives": [
+            "NY / Right-of-way"
+          ],
+          "refs": [
+            {
+              "source": "nymanual5",
+              "section": "Right-of-Way"
+            }
+          ],
+          "notes": [
+            "Yield to vehicles already in an intersection.",
+            "A left-turning driver yields to conflicting oncoming traffic.",
+            "For simultaneous right-angle arrivals at an uncontrolled intersection or qualifying stop-sign situation, the driver on the left yields to the right.",
+            "Waiting left-turn wheels should remain straight.",
+            "If approaching traffic may be too close for a left turn, wait."
+          ],
+          "gloss": [
+            [
+              "Right-of-way",
+              "Rules determining who must wait in a conflict"
+            ],
+            [
+              "Oncoming traffic",
+              "Traffic approaching from the opposite direction"
+            ],
+            [
+              "Conflict",
+              "Movements that could interfere"
+            ],
+            [
+              "Judgment",
+              "Assessing whether the available space and time are safe"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Solve the conflict",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "idea": [
+                "A green light alone does not resolve every conflict.",
+                "A vehicle already occupying the intersection matters."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a green light as permission to displace another vehicle."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify traffic already in the intersection."
+                },
+                {
+                  "text": "Allow that movement to clear."
+                },
+                {
+                  "text": "If turning left, assess approaching traffic that would cross your path."
+                },
+                {
+                  "text": "Wait whenever the gap is in doubt."
+                }
+              ]
+            },
+            {
+              "t": "Distinguish arrival and movement",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "idea": [
+                "Direction of travel matters as well as arrival time.",
+                "Safe waiting position reduces risk."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Applying the simultaneous-arrival rule to every possible intersection regardless of controls."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "For simultaneous right-angle arrivals in the described uncontrolled or stop-sign case, yield to the driver on your right."
+                },
+                {
+                  "text": "For opposing arrivals, a left turn yields to conflicting straight or right-turning traffic."
+                },
+                {
+                  "text": "Keep wheels straight while waiting to turn left."
+                },
+                {
+                  "text": "Reassess the path before completing the turn."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "newyorkdriving_priority_01",
+              "q": "A New York driver has a green light, but another vehicle is already completing a turn in the intersection. What should happen?",
+              "c": [
+                "Let that vehicle complete its movement before entering",
+                "Force it to stop because the light is green",
+                "Enter without checking its path",
+                "Use the horn as automatic priority"
+              ],
+              "why": "The manual requires yielding to traffic already in the intersection.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_02",
+              "q": "Opposing New York drivers arrive at about the same time; one turns left and the other goes straight. Which driver yields?",
+              "c": [
+                "The left-turning driver",
+                "The straight-moving driver automatically",
+                "Whichever vehicle is smaller",
+                "Neither driver"
+              ],
+              "why": "A left turn yields to conflicting opposing traffic.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_03",
+              "q": "At a New York uncontrolled intersection, two drivers arrive together at right angles. You are to the left of the other driver. What applies?",
+              "c": [
+                "Yield to the driver on your right",
+                "Proceed because you are on the left",
+                "Claim priority by accelerating",
+                "Assume neither driver can proceed"
+              ],
+              "why": "The simultaneous-arrival rule gives priority to the driver on the right.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_04",
+              "q": "While waiting for a New York left turn, how should the wheels be positioned?",
+              "c": [
+                "Straight ahead",
+                "Fully left before a gap appears",
+                "Fully right at all times",
+                "Alternating left and right"
+              ],
+              "why": "Straight wheels reduce the risk of being pushed into opposing traffic by a rear impact.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_05",
+              "q": "A New York driver is unsure whether approaching traffic is too close for a left turn. What does the manual advise?",
+              "c": [
+                "Wait for the traffic to pass",
+                "Turn immediately to test the gap",
+                "Assume the approaching driver will brake",
+                "Close the eyes briefly to reduce distraction"
+              ],
+              "why": "The manual advises waiting if there is concern about the gap.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_06",
+              "q": "A left turn into a New York driveway crosses approaching traffic. What duty remains even without a signal?",
+              "c": [
+                "Yield to conflicting approaching traffic",
+                "No yielding duty exists without a signal",
+                "Only vehicles with flashing lights matter",
+                "A driveway always has priority"
+              ],
+              "why": "The manual applies the yielding requirement to left turns into driveways and similar areas.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_07",
+              "q": "Why is a green light alone insufficient to decide every New York intersection conflict?",
+              "c": [
+                "Other movements and yielding rules still matter",
+                "Green always requires an immediate stop",
+                "Traffic already in the intersection never matters",
+                "Left turns always have priority"
+              ],
+              "why": "Signals and right-of-way rules work together.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newyorkdriving_priority_08",
+              "q": "A New York driver wants to turn left while an opposing driver turns right at about the same time. Which movement must yield if they conflict?",
+              "c": [
+                "The left turn",
+                "The right turn automatically",
+                "Only the vehicle with older registration",
+                "Neither movement"
+              ],
+              "why": "The left-turning driver yields to conflicting opposing straight or right-turning traffic.",
+              "objectives": [
+                "NY / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "nymanual5",
+                  "section": "Right-of-Way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
     }
   ],
   "drivingJurisdictions": [
@@ -9955,7 +18313,7 @@ window.STUDYGOAT_CATALOG = {
     {
       "code": "US-CA",
       "name": "California",
-      "track": null
+      "track": "californiadriving"
     },
     {
       "code": "US-CO",
@@ -10090,7 +18448,7 @@ window.STUDYGOAT_CATALOG = {
     {
       "code": "US-NY",
       "name": "New York",
-      "track": null
+      "track": "newyorkdriving"
     },
     {
       "code": "US-NC",

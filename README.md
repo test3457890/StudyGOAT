@@ -12,17 +12,19 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 
 ## Study program status
 
-Updated November 10, 2026. All seven sourced tracks have partial coverage, not complete certification courses.
+Updated November 10, 2026. All nine sourced tracks have partial coverage, not complete certification courses.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 8 | 40 | Selected security foundations; incomplete domain coverage |
-| FAA Part 107 | 5 | 26 | Selected regulations, operating limits and Remote ID |
-| CAP Cadet Study | 12 | 52 | Selected Learn to Lead chapters 1-3; readings linked for all 16 |
+| Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
+| FAA Part 107 | 9 | 42 | Selected regulations, Remote ID and METAR/TAF interpretation |
+| CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 4 | 20 | Original rules primer; full official pool not imported |
+| Amateur Radio Technician | 8 | 36 | Rules, Ohm’s law and radio-wave foundations; no full official pool |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
+| California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
+| New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
 
 Each new track includes source links, section/objective mappings, version notices, coverage gaps, glossary cards, worked scenarios and ten-question practice tests without duplicate questions. Timers are optional practice pacing. Raw scores do not reproduce official scoring or establish readiness.
 
@@ -67,4 +69,4 @@ The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains the 
 
 The repository has no project license. No license was added.
 
-November 10 expansion: six more CAP lessons and 24 questions, an all-16-chapter Learn to Lead reading/coverage navigator, New Jersey driving foundations (six lessons and 24 questions), and a 50-state plus DC availability directory. Totals: 45 lessons and 212 questions across seven partial sourced tracks.
+Latest expansion: selected lessons and original practice now exist in all 16 CAP Learn to Lead chapters, with chapter-specific quizzes. Added California and New York partial driving programs, Security+ governance/assets/incident response, Part 107 METAR/TAF exercises and Technician electronics/radio foundations. Totals: 93 lessons and 404 questions across nine partial sourced tracks.

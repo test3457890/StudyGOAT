@@ -1,9 +1,11 @@
 # CAP cadet study
 
-Updated November 10, 2026: 12 lessons and 52 original questions. Partial study coverage, with an in-app navigator linking all 16 official Learn to Lead chapters. Chapters 4-16 currently have official reading links only.
+Updated November 10, 2026: 38 lessons and 156 original questions. Every Learn to Lead chapter (1-16) now has selected lessons and practice, an official reading link and a chapter-specific quiz. The app has not completed every learning objective.
 
-Available study: Curry orientation and testing integrity, Core Values, chapter 1 self-awareness/self-discipline and authority/accountability, chapter 2 goal setting and active listening, and chapter 3 leadership as art/science, mission and leadership roles. Specific objective references accompany each topic and question.
+Volumes 1-2 include personal leadership, goals, listening, servant leadership, coaching, team development, critical thinking, self-perception, conflict, emotional intelligence and communication. Volumes 3-4 include indirect influence, management, projects, command intent, delegation, strategic thinking, volunteer motivation, historical airpower analysis, culture and negotiation.
 
-[Detailed chapter inventory and remaining work](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) · [Official Learn to Lead library](https://www.gocivilairpatrol.com/programs/cadets/library/l2l)
+The historical policy and doctrine readings are identified as textbook material, not current operating authority. Original questions are based on public readings; no controlled CAP exams are imported.
 
-The chapter list is complete as a reading directory. The lessons and question bank are not complete textbook coverage or an achievement completion checklist. Additional chapter objectives, aerospace, current achievement requirements and regulation reconciliation remain open. StudyGOAT cannot award CAP credit, conduct supervised drill or replace official assessments. Controlled exams are not imported.
+[Coverage checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) | [Official Learn to Lead library](https://www.gocivilairpatrol.com/programs/cadets/library/l2l)
+
+Remaining: full objective inventories and deeper practice, independent review, aerospace, current CAPR 60-1 and national achievement mapping. StudyGOAT cannot award CAP credit or replace supervised drill, fitness, leadership feedback or official assessments.

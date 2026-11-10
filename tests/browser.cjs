@@ -20,18 +20,26 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
-// Chapter navigation reaches the real lessons; unimplemented chapters stay explicit.
+// All chapters reach real lessons and scope practice to their mapped topics.
 await page.evaluate(()=>enterCourse('capcadet'));await page.getByRole('button',{name:'All 16 chapters & coverage',exact:true}).click();
 assert.equal(await page.locator('#chapterCoverage section').count(),16);
 assert.equal(await page.locator('#chapterCoverage a').count(),16);
-assert.match(await page.locator('#chapterCoverage').innerText(),/reading only/);
+assert.equal(await page.locator('#chapterCoverage button').filter({hasText:/^Practice chapter /}).count(),16);
 await page.locator('#chapterCoverage button').first().click();assert(await page.locator('#lc').isVisible());
+for(let chapter=1;chapter<=16;chapter++){
+ await page.evaluate(()=>certSources());await page.getByRole('button',{name:`Practice chapter ${chapter}`,exact:true}).click();
+ const scoped=await page.evaluate(chapter=>{const c=window.STUDYGOAT_CATALOG.tracks.find(t=>t.id==='capcadet').curriculum.find(c=>c.chapter===chapter);return EX.items.every(x=>c.topics.includes(x.topic))&&new Set(EX.items.map(x=>x.q.sourceId)).size===EX.n&&EX.n>=8;},chapter);assert(scoped,`Chapter ${chapter} practice scope`);
+ await page.evaluate(()=>{EX.items.forEach((it,i)=>EX.ans[i]=it.q.choices.indexOf(it.q.answer));exSubmit(false)});assert.match(await page.locator('.score').innerText(),/100%/);
+}
 await page.evaluate(()=>menu());await page.getByRole('button',{name:'Choose a state',exact:true}).click();
 assert.equal(await page.locator('#drivingState option').count(),51);
 await page.locator('#drivingState').selectOption('US-AK');await page.getByRole('button',{name:'View availability',exact:true}).click();
 assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: planned/);assert.equal(await page.locator('#drivingAvailability button').count(),0);
 await page.locator('#drivingState').selectOption('US-AZ');await page.getByRole('button',{name:'View availability',exact:true}).click();
 await page.getByRole('button',{name:'Open Arizona driving prep',exact:true}).click();assert.equal(await page.evaluate(()=>CC),'arizonadriving');
+for(const [state,name,id] of [['US-CA','California','californiadriving'],['US-NY','New York','newyorkdriving']]){
+ await page.evaluate(()=>drivingDirectory());await page.locator('#drivingState').selectOption(state);await page.getByRole('button',{name:'View availability',exact:true}).click();await page.getByRole('button',{name:`Open ${name} driving prep`,exact:true}).click();assert.equal(await page.evaluate(()=>CC),id);
+}
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>{enterCourse('capcadet');certSources();});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'CAP mobile overflow');
 await page.evaluate(()=>drivingDirectory());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Directory mobile overflow');
 // Exercise every new sign illustration through the real question generator.

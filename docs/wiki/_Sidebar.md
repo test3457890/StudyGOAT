@@ -21,3 +21,6 @@
 
 - [Coverage Checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist)
 - [New Jersey Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/New-Jersey-Driving-Prep)
+
+- [California Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/California-Driving-Prep)
+- [New York Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/New-York-Driving-Prep)

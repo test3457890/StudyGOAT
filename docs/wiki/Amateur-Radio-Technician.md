@@ -15,3 +15,7 @@ Next: obtain the corrected public-domain files, preserve exact IDs and choices, 
 Two lessons on restricted transmissions and reading exceptions. Source: 47 CFR 97.113. Covers paid/employer traffic, occasional apparatus sale notices, deliberate deception, obscured messages and one-way restrictions. These are original questions, not NCVEC pool items.
 
 Current totals: 4 lessons and 20 questions. The course remains partial. Earlier counts above describe the first introductory release.
+
+## Latest curriculum expansion
+
+Current totals: eight lessons and 36 questions. Added original Ohm’s-law calculations and frequency/wavelength foundations based on NASA educational sources. These are not official NCVEC pool items. The corrected full pool and three diagrams remain unvalidated, so official-pool simulation stays disabled.

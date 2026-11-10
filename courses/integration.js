@@ -63,7 +63,7 @@ function certSources() {
   if(t.curriculum)view.insertAdjacentHTML('afterbegin',certCurriculum(t));
 }
 function certCurriculum(t) {
-  return `<div class="card" id="chapterCoverage"><h2>Learn to Lead: all 16 chapters</h2><p>Partial means selected lessons and questions. Reading only means the official chapter is linked, with no StudyGOAT lessons yet. Neither status means full test preparation.</p>${[1,2,3,4].map(v=>`<h3>Volume ${v}</h3>${t.curriculum.filter(c=>c.volume===v).map(c=>`<section><h4>Chapter ${c.chapter}: ${esc(c.title)}</h4><p>${esc(c.status)} · <a href="${esc(c.url)}" target="_blank" rel="noopener">Read official chapter ${c.chapter}</a></p>${c.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}</section>`).join('')}`).join('')}</div>`;
+  return `<div class="card" id="chapterCoverage"><h2>Learn to Lead: all 16 chapters</h2><p>Every chapter has selected lessons and original practice. Partial means the chapter still has uncovered objectives. Study the complete official reading as well. Chapter practice uses only that chapter's available topics.</p>${[1,2,3,4].map(v=>`<h3>Volume ${v}</h3>${t.curriculum.filter(c=>c.volume===v).map(c=>`<section><h4>Chapter ${c.chapter}: ${esc(c.title)}</h4><p>${esc(c.status)} · <a href="${esc(c.url)}" target="_blank" rel="noopener">Read official chapter ${c.chapter}</a></p>${c.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}<button onclick="startChapterPractice(${c.chapter})">Practice chapter ${c.chapter}</button></section>`).join('')}`).join('')}</div>`;
 }
 function drivingDirectory() {
   screen='driving';LS=null;quiz=null;cur=null;activePrep=null;drawNav();
@@ -95,9 +95,20 @@ function startCertExam(){
   const t=certTrack();let entries=t.topics.flatMap(p=>p.bank.map(b=>({p,b})));
   if(t.exam.mode==='official-pool')entries=[...new Set(entries.map(e=>e.b.group))].sort().map(g=>pick(entries.filter(e=>e.b.group===g)));
   else entries=shuffle(entries).slice(0,t.exam.count);
-  const items=entries.map(({p,b})=>({type:'mc',topic:p.id,q:certQuestion(p,b),pts:1}));
   const m=Number(document.getElementById('certMinutes').value);
-  EX={v2:true,items,i:0,ans:{},flag:{},ids:t.topics.map(p=>p.id),types:['mc'],n:items.length,m,end:m?Date.now()+m*60000:null,start:Date.now(),timer:null};
+  runCertEntries(entries,m);
+}
+function startChapterPractice(number){
+  const t=certTrack(),chapter=t?.curriculum?.find(c=>c.chapter===number);if(!chapter)return;
+  const entries=shuffle(t.topics.filter(p=>chapter.topics.includes(p.id)).flatMap(p=>p.bank.map(b=>({p,b})))).slice(0,10);
+  runCertEntries(entries,0);
+  view.insertAdjacentHTML('afterbegin',`<p>Chapter ${chapter.chapter}: ${esc(chapter.title)}. Selected practice only, not a complete chapter examination.</p>`);
+}
+function runCertEntries(entries,m){
+  if(EX?.timer)clearInterval(EX.timer);
+  screen='exam';LS=null;quiz=null;cur=null;rev=null;activePrep=null;drawNav();
+  const items=entries.map(({p,b})=>({type:'mc',topic:p.id,q:certQuestion(p,b),pts:1}));
+  EX={v2:true,items,i:0,ans:{},flag:{},ids:[...new Set(entries.map(e=>e.p.id))],types:['mc'],n:items.length,m,end:m?Date.now()+m*60000:null,start:Date.now(),timer:null};
   view.innerHTML='<div class="card" id="qc"></div>';if(EX.end)EX.timer=setInterval(exTick,1000);exDraw();
 }
 const legacySubmit=exSubmit;
@@ -128,7 +139,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{certSources,startCertExam,drivingDirectory,openDrivingState});
+Object.assign(window,{certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState});
 menu();
 }
 installStudyPrograms();

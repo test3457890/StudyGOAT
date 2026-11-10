@@ -55,3 +55,14 @@
 - Added 50-state plus DC availability directory; Arizona and New Jersey partial, the other 49 entries planned.
 - Added chapter and jurisdiction integrity checks and browser coverage for navigation and unavailable states.
 - Replaced stale roadmap publication tasks with current curriculum gaps and documented exact coverage.
+
+## 2026-11-10: all-chapter CAP expansion
+
+- Added 26 CAP lessons and 104 original questions for chapters 4-16; all 16 chapters now have selected content. Total CAP: 38 lessons and 156 questions. Full objective coverage remains unfinished.
+- Added chapter-specific quizzes with unique questions restricted to the selected chapter's topic mapping.
+- Added California and New York partial courses, each with four lessons and 16 original questions.
+- Added six Security+ lessons and 24 questions on governance, assets and incident response.
+- Added four FAA weather lessons and 16 synthetic METAR/TAF questions.
+- Added four Technician lessons and 16 original electronics and wave questions.
+- Current totals: nine partial sourced tracks, 93 lessons, 404 questions.
+- Kept NCVEC full-pool and current CompTIA-version verification open; no invented approval, medical protocol or completion claim.
