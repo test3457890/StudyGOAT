@@ -38,3 +38,10 @@ Navigation update: the home screen now opens Classes, Certifications or Driving 
 
 
 CPSC 222 lecture update: added four topics and eight lessons on finite state machines, turnstile transition matrices, a binary suffix-01 DFA and Python/login-state design, with 32 original questions. The interactive FSM lab traces turnstile events and binary strings. Access through Classes > CPSC 222. Content summarizes the uploaded lecture; the slide deck and professor name are not published. Certification/driving counts are unchanged.
+
+
+## National driving foundations for every state
+
+All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 107 lessons and 460 questions across ten tracks, excluding the separate university content.
+
+Arizona, New Jersey, California and New York retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.

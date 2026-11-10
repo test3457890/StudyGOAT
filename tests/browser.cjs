@@ -69,12 +69,19 @@ for(let chapter=1;chapter<=16;chapter++){
 await page.evaluate(()=>menu());await page.locator('#courseCategories button').filter({hasText:'Driving Tests'}).click();
 assert.equal(await page.locator('#drivingState option').count(),51);
 await page.locator('#drivingState').selectOption('US-AK');await page.getByRole('button',{name:'View availability',exact:true}).click();
-assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: planned/);assert.equal(await page.locator('#drivingAvailability button').count(),0);
+assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: national foundations only/);assert.equal(await page.locator('#drivingAvailability button').count(),1);
 await page.locator('#drivingState').selectOption('US-AZ');await page.getByRole('button',{name:'View availability',exact:true}).click();
 await page.getByRole('button',{name:'Open Arizona driving prep',exact:true}).click();assert.equal(await page.evaluate(()=>CC),'arizonadriving');
 for(const [state,name,id] of [['US-CA','California','californiadriving'],['US-NY','New York','newyorkdriving']]){
  await page.evaluate(()=>drivingDirectory());await page.locator('#drivingState').selectOption(state);await page.getByRole('button',{name:'View availability',exact:true}).click();await page.getByRole('button',{name:`Open ${name} driving prep`,exact:true}).click();assert.equal(await page.evaluate(()=>CC),id);
 }
+// All 50 states and DC expose real shared study without claiming state-specific completion.
+await page.evaluate(()=>drivingDirectory());
+for(const code of await page.locator('#drivingState option').evaluateAll(els=>els.map(e=>e.value))){
+ await page.locator('#drivingState').selectOption(code);await page.getByRole('button',{name:'View availability',exact:true}).click();
+ assert(await page.getByRole('button',{name:'Study national driving foundations',exact:true}).isVisible());
+}
+await page.getByRole('button',{name:'Study national driving foundations',exact:true}).click();assert.equal(await page.evaluate(()=>CC),'drivingfoundations');
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>{enterCourse('capcadet');certSources();});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'CAP mobile overflow');
 await page.evaluate(()=>drivingDirectory());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Directory mobile overflow');
 // Exercise every new sign illustration through the real question generator.

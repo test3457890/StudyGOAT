@@ -775,6 +775,49 @@
         "Chapter 8: Determining the Performance of Small Unmanned Aircraft",
         "Chapter 10: Aeronautical Decision-Making and Judgment"
       ]
+    },
+    "nhtsadistracted": {
+      "publisher": "National Highway Traffic Safety Administration",
+      "title": "Distracted Driving",
+      "url": "https://www.nhtsa.gov/risky-driving/distracted-driving",
+      "version": "Public safety guidance checked November 10, 2026",
+      "effective": "National safety education; not a state licensing rule",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and questions based on public federal safety guidance.",
+      "status": "verified",
+      "sections": [
+        "What Is Distracted Driving?"
+      ]
+    },
+    "nhtsaspeed": {
+      "publisher": "National Highway Traffic Safety Administration",
+      "title": "Speeding",
+      "url": "https://www.nhtsa.gov/risky-driving/speeding",
+      "version": "Public safety guidance checked November 10, 2026",
+      "effective": "National safety education; not a state licensing rule",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and questions based on public federal safety guidance.",
+      "status": "verified",
+      "sections": [
+        "Dangers of Speeding",
+        "Consequences"
+      ]
+    },
+    "nhtsabelts": {
+      "publisher": "National Highway Traffic Safety Administration",
+      "title": "Seat Belts",
+      "url": "https://www.nhtsa.gov/vehicle-safety/seat-belts",
+      "version": "Public safety guidance checked November 10, 2026",
+      "effective": "National safety education; not a state licensing rule",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and questions based on public federal safety guidance.",
+      "status": "verified",
+      "sections": [
+        "The Top 5 Things You Should Know About Buckling Up"
+      ]
     }
   },
   "tracks": [
@@ -20171,263 +20214,1009 @@
           ]
         }
       ]
+    },
+    {
+      "id": "drivingfoundations",
+      "code": "Driving Safety Foundations",
+      "name": "National driving foundations for all 50 states and DC",
+      "version": "NHTSA national safety guidance; introductory coverage",
+      "status": "partial",
+      "jurisdiction": "US",
+      "coverageKind": "shared-foundations",
+      "checked": "2026-11-10",
+      "notice": "Shared national safety lessons available from every state and DC. These are the same lessons for all jurisdictions, not separate state-specific permit courses. No state manual, permit eligibility, restrictions, penalties or test blueprint is claimed verified by this course.",
+      "gaps": [
+        "Current state driver-manual review and state-specific traffic laws",
+        "Permit age, documents, graduated licensing and restrictions",
+        "Signs, signals, right-of-way, parking, school buses and local exceptions",
+        "State knowledge-test blueprint and supervised road-test preparation"
+      ],
+      "objectives": [
+        "National foundations / Attention and distraction",
+        "National foundations / Speed choices and seat-belt safety"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "drivingfoundations_attention",
+          "name": "Attention and distraction",
+          "objectives": [
+            "National foundations / Attention and distraction"
+          ],
+          "refs": [
+            {
+              "source": "nhtsadistracted",
+              "section": "What Is Distracted Driving?"
+            }
+          ],
+          "notes": [
+            "A distraction is an activity that takes attention away from driving.",
+            "Navigation controls, food and conversations can distract as well as phones.",
+            "A brief glance away still creates risk; the driving task needs full attention."
+          ],
+          "gloss": [
+            [
+              "Distraction",
+              "Activity diverting attention from driving"
+            ],
+            [
+              "Navigation distraction",
+              "Attention diverted by adjusting directions or a navigation system"
+            ],
+            [
+              "Driving task",
+              "Continuously observing and controlling the vehicle"
+            ],
+            [
+              "Risk",
+              "Potential for a harmful outcome"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Recognizing distractions",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "idea": [
+                "A distraction is an activity that takes attention away from driving.",
+                "Navigation controls, food and conversations can distract as well as phones.",
+                "A brief glance away still creates risk; the driving task needs full attention."
+              ],
+              "recipe": [
+                "Identify the safety risk.",
+                "Apply the safety principle to this situation.",
+                "Use your current state manual for legal requirements."
+              ],
+              "oops": [
+                "Assuming national safety guidance is a complete state permit-test syllabus."
+              ],
+              "steps": [
+                {
+                  "text": "A driver changes a navigation destination while moving."
+                },
+                {
+                  "text": "Adjusting the navigation system can divert attention from driving."
+                },
+                {
+                  "text": "Plan interactions so they do not take attention from the driving task."
+                }
+              ]
+            },
+            {
+              "t": "Brief distractions still matter",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "idea": [
+                "A distraction is an activity that takes attention away from driving.",
+                "Navigation controls, food and conversations can distract as well as phones.",
+                "A brief glance away still creates risk; the driving task needs full attention."
+              ],
+              "recipe": [
+                "Identify the safety risk.",
+                "Apply the safety principle to this situation.",
+                "Use your current state manual for legal requirements."
+              ],
+              "oops": [
+                "Assuming national safety guidance is a complete state permit-test syllabus."
+              ],
+              "steps": [
+                {
+                  "text": "A driver decides a text is short enough to read while driving."
+                },
+                {
+                  "text": "Reading it still takes eyes and attention away from the road."
+                },
+                {
+                  "text": "The length of a message does not remove the risk."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "drivingfoundations_attention_01",
+              "q": "Which activity can distract a driver besides texting?",
+              "c": [
+                "Adjusting the navigation system",
+                "Observing the road",
+                "Checking relevant traffic conditions",
+                "Maintaining vehicle control"
+              ],
+              "why": "NHTSA includes navigation controls among potential distractions.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_02",
+              "q": "What makes an activity a driving distraction?",
+              "c": [
+                "It diverts attention from driving",
+                "It uses no electronic device",
+                "It occurs only on a highway",
+                "It is performed only by a passenger"
+              ],
+              "why": "Distraction is defined by diverted attention, not by the device alone.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_03",
+              "q": "A driver reads a short message while moving. Does its short length remove the distraction?",
+              "c": [
+                "No",
+                "Yes, if it is one sentence",
+                "Yes, if the driver knows the sender",
+                "Yes, at any speed below the limit"
+              ],
+              "why": "Even brief reading takes attention from driving.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_04",
+              "q": "Can eating or drinking while driving be a distraction?",
+              "c": [
+                "Yes",
+                "No, because there is no screen",
+                "Only in commercial trucks",
+                "Only at night"
+              ],
+              "why": "NHTSA includes eating and drinking among distracting activities.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_05",
+              "q": "Why can an involved conversation create driving risk?",
+              "c": [
+                "It can divert attention from the driving task",
+                "Speech automatically changes the speed limit",
+                "Passengers determine all traffic rules",
+                "Conversations are always legally prohibited"
+              ],
+              "why": "The concern here is attention; this lesson does not assert a state conversation law.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_06",
+              "q": "Which statement matches NHTSA’s safety guidance?",
+              "c": [
+                "Driving requires full attention",
+                "A familiar road requires no attention",
+                "A straight road removes texting risk",
+                "A short trip eliminates distraction risk"
+              ],
+              "why": "NHTSA stresses full attention to the driving task.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_07",
+              "q": "Which principle applies when using in-vehicle entertainment controls?",
+              "c": [
+                "They can distract if they divert attention",
+                "They cannot distract if factory-installed",
+                "They are harmless at every speed",
+                "They replace observation of the road"
+              ],
+              "why": "Built-in controls can still divert attention.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_attention_08",
+              "q": "Do these national distraction lessons establish your state’s phone-use penalties?",
+              "c": [
+                "No; consult the current state rules",
+                "Yes; every state has identical penalties",
+                "Yes; the practice score sets the penalty",
+                "Only if the trip crosses state lines"
+              ],
+              "why": "Safety principles and specific state legal requirements are separate.",
+              "objectives": [
+                "National foundations / Attention and distraction"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsadistracted",
+                  "section": "What Is Distracted Driving?"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "drivingfoundations_speedbelts",
+          "name": "Speed choices and seat-belt safety",
+          "objectives": [
+            "National foundations / Speed choices and seat-belt safety"
+          ],
+          "refs": [
+            {
+              "source": "nhtsaspeed",
+              "section": "Dangers of Speeding"
+            },
+            {
+              "source": "nhtsaspeed",
+              "section": "Consequences"
+            },
+            {
+              "source": "nhtsabelts",
+              "section": "The Top 5 Things You Should Know About Buckling Up"
+            }
+          ],
+          "notes": [
+            "A speed at the posted limit can still be too fast for weather, repairs or poor visibility.",
+            "Higher speeds can increase stopping distance and crash severity.",
+            "Air bags work with seat belts and do not replace them.",
+            "The shoulder belt goes across the chest; the lap belt goes across the hips, not the stomach."
+          ],
+          "gloss": [
+            [
+              "Stopping distance",
+              "Distance needed to bring a vehicle to a stop"
+            ],
+            [
+              "Crash severity",
+              "Seriousness of a crash and its consequences"
+            ],
+            [
+              "Lap belt",
+              "Belt section placed across the hips"
+            ],
+            [
+              "Shoulder belt",
+              "Belt section placed across the chest"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Speed and road conditions",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "idea": [
+                "A speed at the posted limit can still be too fast for weather, repairs or poor visibility.",
+                "Higher speeds can increase stopping distance and crash severity.",
+                "Air bags work with seat belts and do not replace them.",
+                "The shoulder belt goes across the chest; the lap belt goes across the hips, not the stomach."
+              ],
+              "recipe": [
+                "Identify the safety risk.",
+                "Apply the safety principle to this situation.",
+                "Use your current state manual for legal requirements."
+              ],
+              "oops": [
+                "Assuming national safety guidance is a complete state permit-test syllabus."
+              ],
+              "steps": [
+                {
+                  "text": "Rain and poor visibility change the conditions even if a speed-limit sign is unchanged."
+                },
+                {
+                  "text": "NHTSA warns that a posted-limit speed can still be unsafe for conditions."
+                },
+                {
+                  "text": "Choose a safe speed for the conditions while following applicable rules."
+                }
+              ]
+            },
+            {
+              "t": "Seat belts and air bags",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "idea": [
+                "A speed at the posted limit can still be too fast for weather, repairs or poor visibility.",
+                "Higher speeds can increase stopping distance and crash severity.",
+                "Air bags work with seat belts and do not replace them.",
+                "The shoulder belt goes across the chest; the lap belt goes across the hips, not the stomach."
+              ],
+              "recipe": [
+                "Identify the safety risk.",
+                "Apply the safety principle to this situation.",
+                "Use your current state manual for legal requirements."
+              ],
+              "oops": [
+                "Assuming national safety guidance is a complete state permit-test syllabus."
+              ],
+              "steps": [
+                {
+                  "text": "A vehicle has air bags, but an occupant has not buckled up."
+                },
+                {
+                  "text": "Air bags are designed to work together with seat belts."
+                },
+                {
+                  "text": "Buckle correctly: lap belt across hips and shoulder belt across chest, never behind the back or under an arm."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "drivingfoundations_speedbelts_01",
+              "q": "Can driving at the posted limit still be too fast for conditions?",
+              "c": [
+                "Yes, such as during bad weather",
+                "No, the posted number guarantees safety",
+                "Only when the engine is off",
+                "Only outside the United States"
+              ],
+              "why": "NHTSA identifies bad weather, repairs and poor lighting as relevant conditions.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_02",
+              "q": "What is one consequence of speeding identified by NHTSA?",
+              "c": [
+                "Increased stopping distance",
+                "Guaranteed shorter stopping distance",
+                "Elimination of crash risk",
+                "Improved protection in every crash"
+              ],
+              "why": "Higher speed can increase stopping distance after a danger is perceived.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_03",
+              "q": "Why does speed matter to crash outcomes?",
+              "c": [
+                "It can increase crash severity",
+                "It makes all crashes equally harmless",
+                "It removes the need for restraints",
+                "It prevents every loss of control"
+              ],
+              "why": "NHTSA lists increased severity and loss of control among speeding risks.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_04",
+              "q": "Do air bags replace the need to wear a seat belt?",
+              "c": [
+                "No; they are designed to work with seat belts",
+                "Yes, in any modern car",
+                "Yes, on short trips",
+                "Only for front passengers"
+              ],
+              "why": "NHTSA explicitly states that air bags do not replace seat belts.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_05",
+              "q": "Where should the lap belt rest for an adult using a lap-and-shoulder belt?",
+              "c": [
+                "Across the hips",
+                "Across the stomach",
+                "Across the neck",
+                "Behind the back"
+              ],
+              "why": "NHTSA places the lap belt across the hips, not the stomach.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_06",
+              "q": "Which shoulder-belt placement follows NHTSA guidance?",
+              "c": [
+                "Across the middle of the chest",
+                "Under an arm",
+                "Behind the back",
+                "Across the stomach only"
+              ],
+              "why": "The shoulder belt should cross the chest and stay away from the neck.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_07",
+              "q": "Does being late make speeding a safer choice?",
+              "c": [
+                "No",
+                "Yes, for appointments",
+                "Yes, if traffic is frustrating",
+                "Yes, on familiar roads"
+              ],
+              "why": "Running late can motivate speeding but does not remove its risks.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "drivingfoundations_speedbelts_08",
+              "q": "Do these lessons specify a universal state permit age or passing score?",
+              "c": [
+                "No",
+                "Yes, one age applies everywhere",
+                "Yes, a practice timer sets the official score",
+                "Only when airbags are installed"
+              ],
+              "why": "State-specific eligibility and test requirements still need verification.",
+              "objectives": [
+                "National foundations / Speed choices and seat-belt safety"
+              ],
+              "refs": [
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Dangers of Speeding"
+                },
+                {
+                  "source": "nhtsaspeed",
+                  "section": "Consequences"
+                },
+                {
+                  "source": "nhtsabelts",
+                  "section": "The Top 5 Things You Should Know About Buckling Up"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
     }
   ],
   "drivingJurisdictions": [
     {
       "code": "US-AL",
       "name": "Alabama",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-AK",
       "name": "Alaska",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-AZ",
       "name": "Arizona",
-      "track": "arizonadriving"
+      "track": "arizonadriving",
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-AR",
       "name": "Arkansas",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-CA",
       "name": "California",
-      "track": "californiadriving"
+      "track": "californiadriving",
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-CO",
       "name": "Colorado",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-CT",
       "name": "Connecticut",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-DE",
       "name": "Delaware",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-FL",
       "name": "Florida",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-GA",
       "name": "Georgia",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-HI",
       "name": "Hawaii",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-ID",
       "name": "Idaho",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-IL",
       "name": "Illinois",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-IN",
       "name": "Indiana",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-IA",
       "name": "Iowa",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-KS",
       "name": "Kansas",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-KY",
       "name": "Kentucky",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-LA",
       "name": "Louisiana",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-ME",
       "name": "Maine",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MD",
       "name": "Maryland",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MA",
       "name": "Massachusetts",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MI",
       "name": "Michigan",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MN",
       "name": "Minnesota",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MS",
       "name": "Mississippi",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MO",
       "name": "Missouri",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-MT",
       "name": "Montana",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NE",
       "name": "Nebraska",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NV",
       "name": "Nevada",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NH",
       "name": "New Hampshire",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NJ",
       "name": "New Jersey",
-      "track": "newjerseydriving"
+      "track": "newjerseydriving",
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NM",
       "name": "New Mexico",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NY",
       "name": "New York",
-      "track": "newyorkdriving"
+      "track": "newyorkdriving",
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-NC",
       "name": "North Carolina",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-ND",
       "name": "North Dakota",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-OH",
       "name": "Ohio",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-OK",
       "name": "Oklahoma",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-OR",
       "name": "Oregon",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-PA",
       "name": "Pennsylvania",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-RI",
       "name": "Rhode Island",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-SC",
       "name": "South Carolina",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-SD",
       "name": "South Dakota",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-TN",
       "name": "Tennessee",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-TX",
       "name": "Texas",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-UT",
       "name": "Utah",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-VT",
       "name": "Vermont",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-VA",
       "name": "Virginia",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-WA",
       "name": "Washington",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-WV",
       "name": "West Virginia",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-WI",
       "name": "Wisconsin",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-WY",
       "name": "Wyoming",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     },
     {
       "code": "US-DC",
       "name": "District of Columbia",
-      "track": null
+      "track": null,
+      "foundation": "drivingfoundations"
     }
   ],
   "classModels": {
