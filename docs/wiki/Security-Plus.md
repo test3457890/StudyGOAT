@@ -13,3 +13,7 @@ Current exam availability and the latest objective revision require verification
 Phishing recognition, reporting, unique passwords, MFA and software updates. Maps to selected material in objectives 2.2, 4.6 and 5.6. Source: CISA Secure Our World tip sheet (August 14, 2023).
 
 Current totals: 6 lessons and 32 questions. The course remains partial. Earlier counts above describe the first introductory release.
+
+## Further curriculum expansion
+
+Two backup-and-recovery lessons and eight original questions cover offline encrypted backups, restore testing and incident communications. Source: public CISA ransomware data-breach fact sheet, prevention items 1 to 2 and overview. Selected SY0-701 objectives 3.4 and 4.8. Current total: 8 lessons and 40 questions.

@@ -326,6 +326,65 @@ window.STUDYGOAT_CATALOG = {
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "azmanual": {
+      "publisher": "Arizona Department of Transportation",
+      "title": "Arizona Driver License Manual",
+      "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+      "version": "Revised September 2026 (downloaded PDF verified)",
+      "sections": [
+        "pp. 35-37: signals and right-of-way",
+        "pp. 40-42: signs"
+      ],
+      "status": "verified",
+      "effective": "Revised September 2026 (downloaded PDF verified)",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "ADOT manual is copyrighted. Original summaries, scenarios and original sign-shape SVGs only; no MVD test questions or manual illustrations copied.",
+      "sha256": "3f9f8f938671a1d927b080bacf4a1ec1e7b30b3010cb828088a31638e7c86fdf"
+    },
+    "azpermit": {
+      "publisher": "Arizona Department of Transportation",
+      "title": "Permit Test",
+      "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test",
+      "version": "Current official page checked November 9, 2026",
+      "sections": [
+        "Preparation"
+      ],
+      "status": "verified",
+      "effective": "Current official page checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "cisabackup": {
+      "publisher": "CISA",
+      "title": "Protecting Sensitive and Personal Information from Ransomware-Caused Data Breaches",
+      "url": "https://www.cisa.gov/sites/default/files/publications/CISA_Fact_Sheet-Protecting_Sensitive_and_Personal_Information_from_Ransomware-Caused_Data_Breaches-508C.pdf",
+      "version": "Public CISA fact sheet checked November 9, 2026",
+      "sections": [
+        "Preventing ransomware attacks, items 1-2",
+        "Overview"
+      ],
+      "status": "verified",
+      "effective": "Public CISA fact sheet checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "caplistening": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead Volume 1: Personal Leadership",
+      "url": "https://www.gocivilairpatrol.com/media/cms/Vol1LetterLowFinal_FDCFE2AA96703.pdf",
+      "version": "Public Volume 1 PDF checked November 9, 2026",
+      "sections": [
+        "Chapter 2, objectives 41-44, printed pp. 52-54"
+      ],
+      "status": "verified",
+      "effective": "Public Volume 1 PDF checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
     }
   },
   "tracks": [
@@ -1824,6 +1883,357 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "security701_recovery",
+          "name": "Backups and recovery preparation",
+          "objectives": [
+            "3.4",
+            "4.8"
+          ],
+          "refs": [
+            {
+              "source": "cisabackup",
+              "section": "Preventing ransomware attacks, items 1-2"
+            },
+            {
+              "source": "cisabackup",
+              "section": "Overview"
+            }
+          ],
+          "notes": [
+            "Maintain offline, encrypted backups.",
+            "Ransomware can attack accessible backups as well as live files.",
+            "Test backups regularly rather than trusting a job status alone.",
+            "Maintain and exercise incident-response and communications plans.",
+            "Restoring files does not undo an earlier disclosure of stolen information."
+          ],
+          "gloss": [
+            [
+              "Offline backup",
+              "Copy disconnected from ordinary online access"
+            ],
+            [
+              "Restore test",
+              "Exercise that checks whether backup data can be recovered"
+            ],
+            [
+              "Recovery plan",
+              "Prepared approach to restoring needed operations"
+            ],
+            [
+              "Incident communications",
+              "Planned coordination and notifications during an incident"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Protect the recovery copy",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "idea": [
+                "An accessible backup can be another ransomware target.",
+                "A second copy needs appropriate protection."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating any second copy as isolated from an attack."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "An organization copies files to an always-connected shared drive."
+                },
+                {
+                  "text": "Malware with access to that drive could damage the copy too."
+                },
+                {
+                  "text": "Use offline encrypted copies as part of the backup strategy."
+                },
+                {
+                  "text": "Protect the recovery process and validate it with regular testing."
+                }
+              ]
+            },
+            {
+              "t": "Test the plan",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "idea": [
+                "A successful backup job is not a completed recovery exercise.",
+                "People and communications are part of preparation."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming restored availability cancels a confidentiality breach."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A team needs to restore a critical dataset."
+                },
+                {
+                  "text": "Use a controlled exercise to test recoverability."
+                },
+                {
+                  "text": "Review response roles and communications as well as the data."
+                },
+                {
+                  "text": "Use lessons from the exercise to improve the plan."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_recovery_01",
+              "q": "Why does CISA recommend keeping backups offline?",
+              "c": [
+                "Accessible backups may also be encrypted or deleted by ransomware",
+                "Offline copies never require testing",
+                "Offline copies remove the need for all other controls",
+                "Offline copies guarantee no data can be stolen"
+              ],
+              "why": "Ransomware may target reachable recovery copies.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_02",
+              "q": "A backup job reports success. What additional preparation is still needed?",
+              "c": [
+                "Regular backup and restoration testing",
+                "Delete the recovery plan",
+                "Assume every file is recoverable",
+                "Disable all incident communications"
+              ],
+              "why": "A job status alone does not demonstrate successful restoration.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_03",
+              "q": "Which combination matches the cited CISA backup recommendation?",
+              "c": [
+                "Offline encrypted backups with regular tests",
+                "Only an always-mounted shared folder",
+                "Only a screenshot of the file list",
+                "Only copies stored on the same affected disk"
+              ],
+              "why": "The recommendation combines isolation, encryption and testing.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_04",
+              "q": "What should accompany technical recovery preparation?",
+              "c": [
+                "An exercised incident-response and communications plan",
+                "An untested contact list with no assigned roles",
+                "A promise to decide everything during the incident",
+                "A policy of avoiding every notification"
+              ],
+              "why": "CISA calls for maintained and exercised response and communications planning.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_05",
+              "q": "A backup is stored on a writable share reachable by compromised systems. What concern remains?",
+              "c": [
+                "The backup could be attacked as well",
+                "It is automatically equivalent to an offline copy",
+                "Its location proves restoration has been tested",
+                "Encryption of the source makes it invulnerable"
+              ],
+              "why": "Reachability can expose backup data to the same incident.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_06",
+              "q": "Files are restored after ransomware, but confidential information had already been stolen. What remains true?",
+              "c": [
+                "Restoration does not reverse the earlier disclosure",
+                "Restoration proves no disclosure occurred",
+                "All confidentiality impacts disappear automatically",
+                "The incident no longer requires review"
+              ],
+              "why": "Availability recovery and confidentiality impact are different concerns.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_07",
+              "q": "Which activity best checks whether backup data is usable for recovery?",
+              "c": [
+                "A controlled restore exercise",
+                "Counting backup filenames only",
+                "Changing the backup icon",
+                "Reading an old purchase receipt"
+              ],
+              "why": "A restore exercise evaluates actual recoverability.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_recovery_08",
+              "q": "Why exercise the communications plan before an incident?",
+              "c": [
+                "To practice coordination and identify weaknesses",
+                "To guarantee no incident can occur",
+                "To replace backup data entirely",
+                "To remove every reporting responsibility"
+              ],
+              "why": "Exercises prepare people and reveal planning gaps.",
+              "objectives": [
+                "3.4",
+                "4.8"
+              ],
+              "refs": [
+                {
+                  "source": "cisabackup",
+                  "section": "Preventing ransomware attacks, items 1-2"
+                },
+                {
+                  "source": "cisabackup",
+                  "section": "Overview"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
         }
       ],
       "exam": {
@@ -3118,10 +3528,10 @@ window.STUDYGOAT_CATALOG = {
     {
       "id": "capcadet",
       "code": "CAP Cadet Study",
-      "name": "Phase I: Curry orientation",
+      "name": "Phase I: leadership foundations",
       "version": "Public national requirements, 2026-11-09",
       "status": "partial",
-      "notice": "Partial Phase I orientation and leadership expectations. Original educational practice only. StudyGOAT is not eServices and cannot record official grades, achievements or promotions. No controlled test content is included.",
+      "notice": "Partial Phase I leadership study: Curry orientation, Core Values and selected Learn to Lead chapter 2 objectives. Original educational practice only. StudyGOAT is not eServices and cannot record official grades, achievements or promotions. No controlled test content is included.",
       "gaps": [
         "Full Learn to Lead chapter learning-objective mapping",
         "CAPR 60-1 revision reconciliation",
@@ -3133,7 +3543,8 @@ window.STUDYGOAT_CATALOG = {
         "Phase I / Curry / eligibility",
         "Phase I / Curry / leadership",
         "Testing integrity",
-        "Phase I / Core Values"
+        "Phase I / Core Values",
+        "Learn to Lead / Chapter 2 / 41-44"
       ],
       "topics": [
         {
@@ -3924,6 +4335,302 @@ window.STUDYGOAT_CATALOG = {
                 {
                   "source": "capvalues",
                   "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_listening",
+          "name": "Active listening and team communication",
+          "objectives": [
+            "Learn to Lead / Chapter 2 / 41-44"
+          ],
+          "refs": [
+            {
+              "source": "caplistening",
+              "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+            }
+          ],
+          "notes": [
+            "Listening actively focuses on meaning; hearing alone is passive.",
+            "Prepare by putting other tasks aside and attending to the speaker.",
+            "Concentrate on key points rather than only entertaining details.",
+            "Words, tone and nonverbal cues can all carry meaning.",
+            "Recognize distractions and personal bias that interfere with listening."
+          ],
+          "gloss": [
+            [
+              "Active listening",
+              "Deliberate attention to a speaker's meaning"
+            ],
+            [
+              "Hearing",
+              "Passive reception of sound"
+            ],
+            [
+              "Nonverbal cue",
+              "Meaning conveyed through expression or gesture"
+            ],
+            [
+              "Key point",
+              "Main idea that supports the message"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Listen for meaning",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "idea": [
+                "Sound reception is not the same as understanding.",
+                "Attention is a skill to practice."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming hearing every word proves understanding."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A team leader gives a change to the meeting instructions."
+                },
+                {
+                  "text": "Put aside the unrelated task and focus on the message."
+                },
+                {
+                  "text": "Identify the main change rather than simply noticing that someone is speaking."
+                },
+                {
+                  "text": "Check unclear details instead of relying on a guess."
+                }
+              ]
+            },
+            {
+              "t": "Handle barriers",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "idea": [
+                "Tiredness, distraction and bias can reduce attention.",
+                "Observe the message as a whole."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Ignoring useful information because the speaker is not entertaining."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A speaker presents a view you disagree with."
+                },
+                {
+                  "text": "Notice the temptation to tune out."
+                },
+                {
+                  "text": "Continue listening to the main points and relevant cues."
+                },
+                {
+                  "text": "Respond after considering what was actually said."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_listening_01",
+              "q": "How does active listening differ from merely hearing?",
+              "c": [
+                "It deliberately examines the meaning of the message",
+                "It requires no attention",
+                "It is only recognizing loud noises",
+                "It means planning your reply while ignoring the speaker"
+              ],
+              "why": "The chapter distinguishes active attention to meaning from passive sound reception.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_02",
+              "q": "Which action best prepares a cadet to listen to instructions?",
+              "c": [
+                "Put aside an unrelated task and focus on the speaker",
+                "Continue a distracting conversation",
+                "Assume the instruction is unchanged",
+                "Look only for an entertaining story"
+              ],
+              "why": "Preparation includes redirecting attention.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_03",
+              "q": "A speaker uses a story to explain a task. What should a listener focus on?",
+              "c": [
+                "The main point the story supports",
+                "Only whether the story is funny",
+                "Only the least important detail",
+                "Only the speaker's speaking speed"
+              ],
+              "why": "The chapter recommends attention to key points.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_04",
+              "q": "Which is a nonverbal cue?",
+              "c": [
+                "A facial expression",
+                "The printed spelling of a word",
+                "A written page number",
+                "An equipment serial number"
+              ],
+              "why": "Expressions and gestures can add meaning.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_05",
+              "q": "You disagree with the speaker's viewpoint. What response supports active listening?",
+              "c": [
+                "Keep listening and examine the message before responding",
+                "Tune out immediately",
+                "Interrupt every sentence",
+                "Assume disagreement means the message has no value"
+              ],
+              "why": "Personal bias can obstruct listening.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_06",
+              "q": "Why should listeners recognize tiredness or discomfort?",
+              "c": [
+                "These factors can interfere with concentration",
+                "They prove the speaker is incorrect",
+                "They remove the need to follow instructions",
+                "They make all nonverbal cues irrelevant"
+              ],
+              "why": "The chapter encourages adapting to conditions that affect attention.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_07",
+              "q": "Which behavior shows a listening problem?",
+              "c": [
+                "Planning an unrelated response while ignoring key instructions",
+                "Focusing on the central instruction",
+                "Putting distractions aside",
+                "Attending to relevant gestures"
+              ],
+              "why": "Attention diverted from the message undermines listening.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_listening_08",
+              "q": "Which statement best describes listening as presented in this chapter?",
+              "c": [
+                "It is a skill that improves with deliberate practice",
+                "It always happens automatically when sound is audible",
+                "It matters only to public speakers",
+                "It is unnecessary for team members"
+              ],
+              "why": "Listening requires attention and practice in team communication.",
+              "objectives": [
+                "Learn to Lead / Chapter 2 / 41-44"
+              ],
+              "refs": [
+                {
+                  "source": "caplistening",
+                  "section": "Chapter 2, objectives 41-44, printed pp. 52-54"
                 }
               ],
               "status": "verified",
@@ -5887,6 +6594,1165 @@ window.STUDYGOAT_CATALOG = {
                 {
                   "source": "fcc113",
                   "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "arizonadriving",
+      "code": "Arizona Driving Prep",
+      "name": "Arizona permit foundations",
+      "version": "Arizona manual September 2026",
+      "status": "partial",
+      "jurisdiction": "US-AZ",
+      "notice": "Arizona only. Original practice based on selected manual sections, not official MVD exam questions. Study the complete current manual. This course does not grant a permit, licence or practical driving credit.",
+      "gaps": [
+        "Remaining Arizona manual sections",
+        "Road markings and broader hazard scenarios",
+        "Supervised driving and road-test preparation",
+        "Full knowledge-test coverage",
+        "Other states are not included"
+      ],
+      "objectives": [
+        "AZ / Signs and signals",
+        "AZ / Right-of-way",
+        "AZ / Crossings and preparation"
+      ],
+      "topics": [
+        {
+          "id": "arizonadriving_signals",
+          "name": "Signals and sign shapes",
+          "objectives": [
+            "AZ / Signs and signals"
+          ],
+          "refs": [
+            {
+              "source": "azmanual",
+              "section": "pp. 35-37: signals and right-of-way"
+            },
+            {
+              "source": "azmanual",
+              "section": "pp. 40-42: signs"
+            }
+          ],
+          "notes": [
+            "A flashing red signal requires a complete stop, then caution when clear.",
+            "A flashing yellow signal calls for slowing and caution.",
+            "A red arrow prohibits the turn it indicates.",
+            "Sign shape helps identify the type of instruction.",
+            "An octagon is reserved for STOP; a downward triangle means yield."
+          ],
+          "gloss": [
+            [
+              "Octagon",
+              "Eight-sided shape reserved for STOP signs"
+            ],
+            [
+              "Yield",
+              "Give way to crossing or merging traffic"
+            ],
+            [
+              "Warning sign",
+              "Sign alerting drivers to possible hazards ahead"
+            ],
+            [
+              "Regulatory sign",
+              "Sign that directs or restricts traffic"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the signal",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "idea": [
+                "Distinguish steady arrows from flashing signals.",
+                "A green indication still requires a clear path."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating flashing red as the same as flashing yellow."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Approach an intersection showing a flashing red signal."
+                },
+                {
+                  "text": "Stop completely rather than rolling through."
+                },
+                {
+                  "text": "Check for other traffic and pedestrians."
+                },
+                {
+                  "text": "Proceed cautiously only when the roadway is clear."
+                }
+              ]
+            },
+            {
+              "t": "Recognize the shape",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "idea": [
+                "Shape can help when wording is difficult to see.",
+                "Match the shape to the sign category."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming every rectangular sign is a warning."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "An eight-sided sign is visible ahead."
+                },
+                {
+                  "text": "Recognize the STOP shape."
+                },
+                {
+                  "text": "Prepare to come to a complete stop."
+                },
+                {
+                  "text": "Do not treat a faded sign as permission to ignore its shape."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "arizonadriving_signals_01",
+              "q": "In Arizona, what does a flashing red traffic light require?",
+              "c": [
+                "A full stop, followed by cautious movement when clear",
+                "Slow slightly without stopping",
+                "Continue at the speed limit",
+                "Stop only if turning left"
+              ],
+              "why": "The manual gives flashing red the same meaning as a stop sign.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_02",
+              "q": "What does a flashing yellow traffic light mean?",
+              "c": [
+                "Slow down and proceed cautiously if clear",
+                "Stop and wait for a green arrow",
+                "Accelerate through the junction",
+                "Treat it as a protected turn"
+              ],
+              "why": "Flashing yellow requires caution, not a protected movement.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_03",
+              "q": "A red arrow points in your intended turn direction. What should you do?",
+              "c": [
+                "Stop and wait for the green signal before turning",
+                "Turn after a rolling stop",
+                "Turn if the following driver honks",
+                "Treat the arrow as advisory only"
+              ],
+              "why": "The manual prohibits turning in the red-arrow direction.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_04",
+              "q": "Before turning on a flashing yellow arrow, to whom must you yield?",
+              "c": [
+                "Oncoming vehicles and pedestrians",
+                "Only vehicles behind you",
+                "Only parked vehicles",
+                "Nobody, because the turn is protected"
+              ],
+              "why": "The arrow allows a cautious turn after yielding.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_05",
+              "q": "Which shape is reserved for STOP signs?",
+              "c": [
+                "Octagon",
+                "Circle",
+                "Diamond",
+                "Pentagon"
+              ],
+              "why": "The manual reserves the eight-sided shape for STOP.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09",
+              "diagram": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22200%22%20height%3D%22200%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cpolygon%20points%3D%2260%2C8%20140%2C8%20192%2C60%20192%2C140%20140%2C192%2060%2C192%208%2C140%208%2C60%22%20fill%3D%22%23c62026%22%20stroke%3D%22white%22%20stroke-width%3D%225%22/%3E%3C/svg%3E",
+              "diagramAlt": "Red eight-sided sign shape with white border"
+            },
+            {
+              "id": "arizonadriving_signals_06",
+              "q": "A downward-pointing triangular traffic sign requires what?",
+              "c": [
+                "Yield the right-of-way",
+                "Always maintain speed",
+                "Make a U-turn",
+                "Stop only at railroads"
+              ],
+              "why": "The triangular sign means yield to crossing or merging traffic.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09",
+              "diagram": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22200%22%20height%3D%22200%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cpolygon%20points%3D%2210%2C16%20190%2C16%20100%2C186%22%20fill%3D%22%23c62026%22%20stroke%3D%22white%22%20stroke-width%3D%224%22/%3E%3Cpolygon%20points%3D%2239%2C33%20161%2C33%20100%2C149%22%20fill%3D%22white%22/%3E%3C/svg%3E",
+              "diagramAlt": "Downward-pointing triangular sign shape with red border"
+            },
+            {
+              "id": "arizonadriving_signals_07",
+              "q": "What does a yellow diamond-shaped sign generally communicate?",
+              "c": [
+                "A possible danger ahead",
+                "A parking payment requirement",
+                "An unrestricted speed zone",
+                "The location of a hospital only"
+              ],
+              "why": "Yellow diamonds are warning signs.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09",
+              "diagram": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22200%22%20height%3D%22200%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cpolygon%20points%3D%22100%2C8%20192%2C100%20100%2C192%208%2C100%22%20fill%3D%22%23ffd72e%22%20stroke%3D%22black%22%20stroke-width%3D%225%22/%3E%3C/svg%3E",
+              "diagramAlt": "Yellow diamond-shaped sign with black border"
+            },
+            {
+              "id": "arizonadriving_signals_08",
+              "q": "Which sign shape warns of an approaching railroad crossing?",
+              "c": [
+                "Circle",
+                "Octagon",
+                "Downward triangle",
+                "Pentagon"
+              ],
+              "why": "The circular railroad warning sign indicates an approaching crossing.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_09",
+              "q": "A permanent five-sided school crossing sign warns of what?",
+              "c": [
+                "Children who may be crossing",
+                "A guaranteed clear roadway",
+                "A parking garage entrance",
+                "An unrestricted passing lane"
+              ],
+              "why": "The pentagon is associated with a school crossing.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_signals_10",
+              "q": "A green arrow points in your intended direction. What condition still matters?",
+              "c": [
+                "Be in the proper lane and confirm the roadway is clear",
+                "Proceed even if the intersection is blocked",
+                "Ignore pedestrians in the intersection",
+                "Turn from any lane"
+              ],
+              "why": "The manual requires the proper lane and a clear roadway.",
+              "objectives": [
+                "AZ / Signs and signals"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                },
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "arizonadriving_yield",
+          "name": "Right-of-way decisions",
+          "objectives": [
+            "AZ / Right-of-way"
+          ],
+          "refs": [
+            {
+              "source": "azmanual",
+              "section": "pp. 35-37: signals and right-of-way"
+            }
+          ],
+          "notes": [
+            "Arizona treats an uncontrolled or inoperative-signal intersection as a four-way stop.",
+            "For approximately simultaneous arrivals, the driver on the left yields to the driver on the right.",
+            "At a T intersection, the driver on the ending street yields to the cross street.",
+            "Yield to pedestrians in marked or unmarked crosswalks.",
+            "Do not pass a vehicle stopped for a pedestrian."
+          ],
+          "gloss": [
+            [
+              "Uncontrolled intersection",
+              "Intersection without operating traffic controls"
+            ],
+            [
+              "T intersection",
+              "Junction where one street ends at another"
+            ],
+            [
+              "Crosswalk",
+              "Pedestrian crossing that may be marked or unmarked"
+            ],
+            [
+              "Yielding",
+              "Waiting or adjusting movement to give way safely"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Compare arrival and position",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "idea": [
+                "Stop first at an uncontrolled Arizona intersection.",
+                "Position matters for simultaneous arrivals."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Applying a right-of-way rule without first checking the actual controls."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Two vehicles reach an uncontrolled intersection at about the same time."
+                },
+                {
+                  "text": "Both come to a complete stop."
+                },
+                {
+                  "text": "The driver on the left yields to the driver on the right."
+                },
+                {
+                  "text": "Neither driver should force a movement that could cause a crash."
+                }
+              ]
+            },
+            {
+              "t": "Watch for pedestrians",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "idea": [
+                "A green light does not remove the duty to yield.",
+                "A stopped vehicle can hide a pedestrian."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a clear adjacent lane makes passing safe."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Traffic ahead has stopped near a crossing."
+                },
+                {
+                  "text": "Do not pass a vehicle stopped for a pedestrian."
+                },
+                {
+                  "text": "Check the crossing even if your light is green."
+                },
+                {
+                  "text": "Proceed only when the movement is safe."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "arizonadriving_yield_01",
+              "q": "How should you approach an Arizona intersection whose traffic signals are inoperative?",
+              "c": [
+                "Treat it as a four-way stop",
+                "Drive through without slowing",
+                "Treat every direction as green",
+                "Yield only if turning right"
+              ],
+              "why": "The manual requires a complete stop and cautious movement when clear.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_02",
+              "q": "Two drivers arrive at an uncontrolled Arizona intersection at about the same time. Who yields?",
+              "c": [
+                "The driver on the left yields to the driver on the right",
+                "The driver on the right always yields",
+                "The driver in the smaller car yields",
+                "The driver who sounds the horn first goes"
+              ],
+              "why": "Both stop; the driver on the left then yields.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_03",
+              "q": "At a T intersection, which driver must yield to cross-street traffic?",
+              "c": [
+                "The driver on the street that ends",
+                "Every cross-street driver",
+                "Only a driver turning right",
+                "Only a commercial driver"
+              ],
+              "why": "The ending street yields to vehicles on the cross street.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_04",
+              "q": "When turning left, which traffic must you yield to?",
+              "c": [
+                "Oncoming vehicles, bicycles and pedestrians",
+                "Only the car immediately behind you",
+                "Only emergency vehicles",
+                "Only vehicles larger than yours"
+              ],
+              "why": "The manual names all three.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_05",
+              "q": "Must a driver yield to a pedestrian in an unmarked crosswalk?",
+              "c": [
+                "Yes",
+                "No, only painted crosswalks count",
+                "Only during daylight",
+                "Only if the pedestrian waves"
+              ],
+              "why": "Marked and unmarked crosswalks are included.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_06",
+              "q": "Your light turns green while pedestrians remain in the intersection. What should you do?",
+              "c": [
+                "Yield to them",
+                "Move immediately because green grants priority",
+                "Honk and continue",
+                "Pass them on either side without slowing"
+              ],
+              "why": "Green does not cancel the duty to yield to pedestrians already crossing.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_07",
+              "q": "May you pass a vehicle stopped for a pedestrian when your adjacent lane is clear?",
+              "c": [
+                "No",
+                "Yes, if you have a green light",
+                "Yes, if you sound the horn",
+                "Yes, if the vehicle is a bus"
+              ],
+              "why": "The manual prohibits passing a vehicle stopped for a pedestrian.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_08",
+              "q": "Before entering a roadway from a driveway, where should you stop?",
+              "c": [
+                "Before reaching the sidewalk",
+                "Only after entering the traffic lane",
+                "Only at the center line",
+                "Only if a vehicle honks"
+              ],
+              "why": "Stop before the sidewalk and yield to pedestrians and approaching vehicles.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_09",
+              "q": "A school crosswalk is occupied by a person. What does the Arizona manual require?",
+              "c": [
+                "A complete stop",
+                "Proceed if the person is not a student",
+                "Only reduce speed slightly",
+                "Pass a stopped vehicle if your lane is clear"
+              ],
+              "why": "The school-crossing rule applies when any person occupies the crosswalk.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_yield_10",
+              "q": "Can a driver insist on right-of-way if doing so could cause a crash?",
+              "c": [
+                "No",
+                "Yes, if another driver made a mistake",
+                "Yes, if their light is green",
+                "Yes, if they arrived first"
+              ],
+              "why": "Yielding rules do not authorize forcing a dangerous movement.",
+              "objectives": [
+                "AZ / Right-of-way"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 35-37: signals and right-of-way"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "arizonadriving_crossings",
+          "name": "Crossings and permit preparation",
+          "objectives": [
+            "AZ / Crossings and preparation"
+          ],
+          "refs": [
+            {
+              "source": "azmanual",
+              "section": "pp. 40-42: signs"
+            },
+            {
+              "source": "azpermit",
+              "section": "Preparation"
+            }
+          ],
+          "notes": [
+            "The official permit knowledge test has 30 multiple-choice questions and requires at least 80 percent.",
+            "Use the full official manual; this is a partial course.",
+            "Obey portable school crossing controls and crossing guards.",
+            "Do not drive around a lowered railroad barrier.",
+            "Avoid entering tracks unless you can clear them."
+          ],
+          "gloss": [
+            [
+              "Knowledge test",
+              "Written assessment of driving knowledge"
+            ],
+            [
+              "School crossing zone",
+              "Area controlled for school pedestrian crossings"
+            ],
+            [
+              "Railroad crossing",
+              "Roadway crossing railway tracks"
+            ],
+            [
+              "Partial coverage",
+              "Study material that does not cover the complete manual"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Plan a study session",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "idea": [
+                "Study beyond the practice bank.",
+                "Passing a sample quiz does not complete licensing requirements."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Memorizing answer positions instead of the rule."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Review the official manual sections for the test."
+                },
+                {
+                  "text": "Practice a small topic and read the explanation for each miss."
+                },
+                {
+                  "text": "Return to the official manual for omitted subjects."
+                },
+                {
+                  "text": "Treat practice accuracy as feedback, not a permit or road-test credit."
+                }
+              ]
+            },
+            {
+              "t": "Approach a controlled crossing",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "idea": [
+                "Follow crossing guards and active railroad controls.",
+                "A safe exit is necessary before entering tracks."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a raised barrier alone proves all tracks are clear."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A railroad gate is down."
+                },
+                {
+                  "text": "Stop and wait; never drive around or beneath it."
+                },
+                {
+                  "text": "Do not cross until the signals have stopped and the barrier is fully raised."
+                },
+                {
+                  "text": "Check that you can clear the tracks before entering."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "arizonadriving_crossings_01",
+              "q": "How many multiple-choice questions does the official Arizona permit test contain?",
+              "c": [
+                "30",
+                "20",
+                "35",
+                "50"
+              ],
+              "why": "The official permit-test page specifies 30.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_02",
+              "q": "What passing percentage does Arizona list for the permit knowledge test?",
+              "c": [
+                "80 percent",
+                "60 percent",
+                "70 percent",
+                "100 percent"
+              ],
+              "why": "ADOT lists 80 percent or higher.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_03",
+              "q": "Which resource should be studied beyond this partial course?",
+              "c": [
+                "The complete current Arizona Driver License Manual",
+                "Only these practice answers",
+                "Only another state's handbook",
+                "Only a road-sign poster"
+              ],
+              "why": "This course covers selected sections; the official manual covers more.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_04",
+              "q": "When portable school crossing signs are in place, what is the maximum speed from the first sign to past the crossing sign?",
+              "c": [
+                "15 mph",
+                "20 mph",
+                "25 mph",
+                "35 mph"
+              ],
+              "why": "The manual identifies this portable-sign school crossing zone as 15 mph.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_05",
+              "q": "What happens to the school-zone rule described for portable signs when those signs are not in place?",
+              "c": [
+                "The normal speed limit for the area applies",
+                "The road becomes unrestricted",
+                "Every nearby road remains 15 mph permanently",
+                "Drivers choose any speed they prefer"
+              ],
+              "why": "The manual distinguishes the portable-sign zone from the normal limit.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_06",
+              "q": "May you pass another vehicle in a school crossing zone?",
+              "c": [
+                "No",
+                "Yes, if the vehicle is moving slowly",
+                "Yes, if no student is visible",
+                "Yes, if both lanes travel in the same direction"
+              ],
+              "why": "Passing is prohibited in the school crossing zone.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_07",
+              "q": "A school crossing guard directs you to stop. What should you do?",
+              "c": [
+                "Follow the guard's instruction",
+                "Proceed if your schedule is tight",
+                "Ignore the guard unless the light is red",
+                "Drive around the guard"
+              ],
+              "why": "The manual instructs drivers to follow the crossing guard.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_08",
+              "q": "A railroad crossing barrier is lowered. What should you do?",
+              "c": [
+                "Wait; do not drive around or under it",
+                "Drive around it if no train is visible",
+                "Move under it before it finishes lowering",
+                "Follow another vehicle around it"
+              ],
+              "why": "Lowered barriers must not be bypassed.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_09",
+              "q": "When may you cross after active railroad warning controls have operated?",
+              "c": [
+                "After signals stop and the barrier is fully raised, with a safe clear path",
+                "As soon as a single train has passed",
+                "When the barrier is halfway up",
+                "When a vehicle behind you honks"
+              ],
+              "why": "The manual requires warning signals to stop and the barrier to be fully raised.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "arizonadriving_crossings_10",
+              "q": "Traffic is queued beyond a railroad crossing, leaving no room for your vehicle. What should you avoid?",
+              "c": [
+                "Entering where you could be trapped on the tracks",
+                "Waiting before the crossing",
+                "Leaving a safe gap",
+                "Checking whether your entire vehicle can clear"
+              ],
+              "why": "Never get trapped on a railroad crossing.",
+              "objectives": [
+                "AZ / Crossings and preparation"
+              ],
+              "refs": [
+                {
+                  "source": "azmanual",
+                  "section": "pp. 40-42: signs"
+                },
+                {
+                  "source": "azpermit",
+                  "section": "Preparation"
                 }
               ],
               "status": "verified",

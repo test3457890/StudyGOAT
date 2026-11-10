@@ -20,6 +20,16 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
+// Exercise every new sign illustration through the real question generator.
+await page.evaluate(()=>enterCourse('arizonadriving'));
+const visualCases=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.find(t=>t.id==='arizonadriving').topics.flatMap(t=>t.bank.map((b,i)=>b.diagram?{topic:t.id,index:i,length:t.bank.length}:null).filter(Boolean)));
+assert.equal(visualCases.length,3);
+for(const v of visualCases){
+ await page.evaluate(v=>{practice(v.topic);const old=Math.random;try{Math.random=()=>(v.index+0.1)/v.length;show(genQ(v.topic),()=>practice(v.topic));}finally{Math.random=old;}},v);
+ assert(await page.locator('#qc img').isVisible());
+ await page.waitForFunction(()=>{const im=document.querySelector('#qc img');return im&&im.complete&&im.naturalWidth>0});
+ assert(await page.locator('#qc img').getAttribute('alt'));
+}
 const stats=await page.evaluate(()=>JSON.stringify(S.stats));await page.reload();assert.equal(await page.evaluate(()=>JSON.stringify(S.stats)),stats);
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(window.STUDYGOAT_CATALOG.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
 await page.evaluate(()=>menu());await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
@@ -28,6 +38,6 @@ const exportDir=fs.mkdtempSync(path.join(os.tmpdir(),'studygoat-export-'));
 const exportPath=path.join(exportDir,'StudyGOAT.html');
 fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
 const exported=await browser.newPage();await exported.goto('file://'+exportPath);
-assert.equal(await exported.locator('.course[role=button]').count(),9,'Export preserves both original courses, five tracks and two tools');
+assert.equal(await exported.locator('.course[role=button]').count(),tracks.length+4,'Export preserves original courses, sourced tracks and tools');
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
