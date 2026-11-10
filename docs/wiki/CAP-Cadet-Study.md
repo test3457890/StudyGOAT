@@ -1,19 +1,9 @@
 # CAP cadet study
 
-2026-11-09: Phase I Curry orientation, two lessons and 12 original questions. Covers the official study route, testing integrity and everyday leadership expectations. This is not full Learn to Lead coverage.
+Updated November 10, 2026: 12 lessons and 52 original questions. Partial study coverage, with an in-app navigator linking all 16 official Learn to Lead chapters. Chapters 4-16 currently have official reading links only.
 
-References: [national Curry page](https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/curry) and [national testing guidance](https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/cadet-tests--exams).
+Available study: Curry orientation and testing integrity, Core Values, chapter 1 self-awareness/self-discipline and authority/accountability, chapter 2 goal setting and active listening, and chapter 3 leadership as art/science, mission and leadership roles. Specific objective references accompany each topic and question.
 
-Curry has no aerospace requirement. The current national page lists the Cadet Welcome Course. Confirm official progress and all requirements with the squadron. StudyGOAT cannot award CAP credit. Controlled milestone exams are never imported.
+[Detailed chapter inventory and remaining work](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) · [Official Learn to Lead library](https://www.gocivilairpatrol.com/programs/cadets/library/l2l)
 
-Remaining: full public textbook learning-objective mapping, CAPR 60-1 revision reconciliation, aerospace and later achievements. This module is an orientation, not an achievement completion checklist.
-
-## Additional study material, November 9, 2026
-
-Two Core Values lessons apply integrity, service, excellence and respect to everyday cadet decisions. Source: public CAP Cadet Welcome Course 3.9, discussion topic 1, printed page 2. These are original scenarios, not controlled exam content.
-
-Current totals: 4 lessons and 20 questions. The course remains partial. Earlier counts above describe the first introductory release.
-
-## Further curriculum expansion
-
-Two active-listening lessons and eight original questions map to public Learn to Lead Volume 1, chapter 2, objectives 41 to 44 (printed pages 52 to 54). Covers hearing versus listening, preparation, distractions, key points and nonverbal cues. Current total: 6 lessons and 28 questions. This is textbook study, not completion of a CAP achievement.
+The chapter list is complete as a reading directory. The lessons and question bank are not complete textbook coverage or an achievement completion checklist. Additional chapter objectives, aerospace, current achievement requirements and regulation reconciliation remain open. StudyGOAT cannot award CAP credit, conduct supervised drill or replace official assessments. Controlled exams are not imported.

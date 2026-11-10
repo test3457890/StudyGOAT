@@ -49,7 +49,7 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) return legacyHome();
   _home();
-  view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">Sources & coverage</button><button onclick="examSetup()">Practice test</button></div>`);
+  view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
 };
 function certNotice() {
   const t=certTrack();
@@ -60,7 +60,22 @@ function certNotice() {
 function certSources() {
   screen='sources';LS=null;cur=null;quiz=null;activePrep=null;drawNav();const t=certTrack();
   view.innerHTML=certNotice()+`<div class="card"><h3>Coverage checklist</h3><p>Listed objectives have introductory coverage only. A topic is not a complete objective.</p>${t.topics.map(p=>`<p>${esc(p.name)}: ${esc(p.objectives.join(', '))} · ${p.bank.length} checked questions<br>${certRefs(p.refs)}</p>`).join('')}<h3>Remaining work</h3><ul>${t.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h3>Source register</h3>${[...new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)))].map(id=>{const s=CERT.sources[id];return `<p>${certRefs([{source:id,section:s.sections.join(', ')}])}<br>${esc(s.version)} · Effective: ${esc(s.effective)}<br>Checked ${esc(s.checked)} · Review by ${esc(s.reviewBy)}<br>${esc(s.rights)}</p>`}).join('')}</div>`;
+  if(t.curriculum)view.insertAdjacentHTML('afterbegin',certCurriculum(t));
 }
+function certCurriculum(t) {
+  return `<div class="card" id="chapterCoverage"><h2>Learn to Lead: all 16 chapters</h2><p>Partial means selected lessons and questions. Reading only means the official chapter is linked, with no StudyGOAT lessons yet. Neither status means full test preparation.</p>${[1,2,3,4].map(v=>`<h3>Volume ${v}</h3>${t.curriculum.filter(c=>c.volume===v).map(c=>`<section><h4>Chapter ${c.chapter}: ${esc(c.title)}</h4><p>${esc(c.status)} · <a href="${esc(c.url)}" target="_blank" rel="noopener">Read official chapter ${c.chapter}</a></p>${c.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}</section>`).join('')}`).join('')}</div>`;
+}
+function drivingDirectory() {
+  screen='driving';LS=null;quiz=null;cur=null;activePrep=null;drawNav();
+  view.innerHTML=`<div class="card"><h2>State driving prep</h2><p>Choose your jurisdiction. Partial courses cover selected topics only. Planned states have no lessons or practice questions yet. Rules from one state must not be used as another state's study guide.</p><label>State or district <select id="drivingState">${CERT.drivingJurisdictions.map(j=>`<option value="${j.code}">${esc(j.name)}: ${j.track?'partial course':'planned'}</option>`).join('')}</select></label><button onclick="openDrivingState()">View availability</button><div id="drivingAvailability" aria-live="polite"></div><button onclick="menu()">Back to courses</button></div>`;
+  document.getElementById('drivingState').value='US-AZ';openDrivingState();
+}
+function openDrivingState() {
+  const j=CERT.drivingJurisdictions.find(j=>j.code===document.getElementById('drivingState').value);
+  document.getElementById('drivingAvailability').innerHTML=j.track?`<h3>${esc(j.name)}: partial course</h3><p>Use the complete current official manual alongside this selected practice.</p><button onclick="enterCourse('${j.track}')">Open ${esc(j.name)} driving prep</button>`:`<h3>${esc(j.name)}: planned</h3><p>No study content is available for this jurisdiction yet. Official manual verification, lessons, questions and review are still required.</p>`;
+}
+const legacyMenu=menu;
+menu=function(){legacyMenu();view.insertAdjacentHTML('afterbegin','<div class="card"><h2>Find driving prep by state</h2><p>Availability for all 50 states and the District of Columbia.</p><button onclick="drivingDirectory()">Choose a state</button></div>');};
 const legacyLearnHome=learnHome;
 learnHome=function(){legacyLearnHome();if(certTrack()){
   const b=view.querySelector('[onclick="resources()"]');if(b)b.textContent='Sources & coverage';
@@ -113,7 +128,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{certSources,startCertExam});
+Object.assign(window,{certSources,startCertExam,drivingDirectory,openDrivingState});
 menu();
 }
 installStudyPrograms();

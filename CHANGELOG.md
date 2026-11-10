@@ -46,3 +46,12 @@
 - Added two CAP active-listening lessons and eight questions mapped to chapter 2 objectives 41 to 44.
 - Updated the browser export check to derive course count from the catalog, preserving coverage when courses are added.
 - Totals: six sourced tracks, 33 lessons and 164 questions. Existing course IDs and progress remain intact.
+
+## 2026-11-10
+
+- CAP: six more lessons and 24 original questions for selected Learn to Lead chapters 1-3 concepts. Twelve lessons and 52 questions total.
+- Added all-16-chapter official reading/coverage navigation with partial versus reading-only labels.
+- Added New Jersey foundations: six lessons and 24 original manual-based questions.
+- Added 50-state plus DC availability directory; Arizona and New Jersey partial, the other 49 entries planned.
+- Added chapter and jurisdiction integrity checks and browser coverage for navigation and unavailable states.
+- Replaced stale roadmap publication tasks with current curriculum gaps and documented exact coverage.

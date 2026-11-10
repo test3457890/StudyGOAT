@@ -1,15 +1,16 @@
 # Certifications and professional learning
 
-Updated 2026-11-09. StudyGOAT offers six independent study tracks. All are partial.
+Updated 2026-11-10. StudyGOAT offers seven independent study tracks. All are partial.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 8 | 40 | Selected foundations in 1.2, 1.3 and 1.4 |
-| FAA Part 107 | 5 | 26 | Selected regulations and operating limits |
-| CAP cadet | 6 | 28 | Phase I Curry orientation |
-| Wilderness First Aid | 4 | 20 | Provider-neutral safety introduction |
-| Amateur Radio Technician | 4 | 20 | Original rules primer; NCVEC pool not imported |
-| Arizona driving prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| Security+ SY0-701 | 8 | 40 | Selected security foundations; incomplete domain coverage |
+| FAA Part 107 | 5 | 26 | Selected regulations, operating limits and Remote ID |
+| CAP Cadet Study | 12 | 52 | Selected Learn to Lead chapters 1-3; readings linked for all 16 |
+| Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
+| Amateur Radio Technician | 4 | 20 | Original rules primer; full official pool not imported |
+| Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 
@@ -17,6 +18,4 @@ Source check dates do not establish full objective coverage or provider approval
 
 See the individual track pages and Roadmap for gaps. Do not upload confidential employer documents, exam dumps or restricted training materials.
 
-November 9 expansion: 10 additional lessons and 40 original questions across phishing defenses, Remote ID, CAP Core Values, heat awareness and amateur transmission boundaries. All six sourced tracks remain partial.
-
-November 9 driving and curriculum expansion: Arizona is the first state module, with six lessons and 30 original questions. Security+ adds backup and recovery preparation; CAP adds Learn to Lead chapter 2 active listening (objectives 41 to 44). Totals across six sourced tracks: 33 lessons and 164 questions. Other states remain planned.
+See the [Coverage Checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) for all 16 CAP chapters, state availability and remaining implementation work.

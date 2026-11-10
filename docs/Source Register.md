@@ -19,3 +19,11 @@ Expansion sources: CISA Secure Our World tip sheet; FAA Remote ID guidance; publ
 Arizona module: downloaded ADOT manual revised September 2026, printed pages 35 to 37 and 40 to 42; official permit-test page for format. Download hash stored in the catalog. Web-reader cache showed March 2026; direct PDF revision was verified. Original sign-shape SVGs only, no copied ADOT artwork or test items.
 
 Additional sources: CAP Learn to Lead Volume 1, chapter 2 objectives 41 to 44; CISA ransomware data-breach fact sheet. The source inventory and objective mappings are retained for every new lesson and question.
+
+## November 10 source review
+
+CAP: downloaded all 16 individual chapters linked by the current national Learn to Lead library. Added selected original summaries and questions from chapter 1 objectives 8-9 and 26-27 (printed pages 11-12, 24-25), chapter 2 objectives 1-5 (32-34), and chapter 3 objectives 1-3 and 5-7 (63-65, 68-77). Chapter links 4-16 are reading availability, not verified StudyGOAT lesson coverage.
+
+New Jersey: official MVC manual, 2026 cover, downloaded directly from https://www.nj.gov/mvc/pdf/license/drivermanual.pdf. SHA-256: `bcc99f5cc49c1a19b67e7d7342e148eccd15d18ec105ae5e18c850b870c4c239`. Selected chapter 4 sections: intersections 67-68, turns 72, school buses 77. Web reader rejected the large PDF; direct download and PDF text extraction succeeded. No official questions copied.
+
+Totals now: 45 lessons and 212 original questions across seven partial sourced tracks. Review deadlines remain December 9, 2026.
