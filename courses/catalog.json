@@ -758,6 +758,23 @@
       "checked": "2026-11-10",
       "reviewBy": "2026-12-09",
       "rights": "Original study summaries and exercises based on NASA educational material. No official NCVEC questions reproduced."
+    },
+    "faaphysics": {
+      "publisher": "Federal Aviation Administration",
+      "title": "Remote Pilot Small UAS Study Guide, selected flight principles",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf",
+      "version": "FAA-G-8082-22, August 2016; selected enduring principles only",
+      "effective": "August 2016 textbook, not current regulatory authority",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries, synthetic calculations and original practice questions. No official exam items.",
+      "status": "verified",
+      "sections": [
+        "Chapter 4: Small Unmanned Aircraft Loading",
+        "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance",
+        "Chapter 8: Determining the Performance of Small Unmanned Aircraft",
+        "Chapter 10: Aeronautical Decision-Making and Judgment"
+      ]
     }
   },
   "tracks": [
@@ -3645,9 +3662,9 @@
       "gaps": [
         "Full ACS coverage and sectional chart interpretation",
         "Remaining weather theory, hazards and forecast decoding",
-        "Loading and performance",
         "Remaining Remote ID detail, night operations and operations over people",
-        "Radio procedures, emergency decisions and a validated full-exam blueprint"
+        "Radio procedures, emergency decisions and a validated full-exam blueprint",
+        "Complete loading/performance ACS mapping and independent review; current lessons cover selected principles only."
       ],
       "objectives": [
         "I.B",
@@ -3655,7 +3672,12 @@
         "V.F",
         "I.F",
         "Weather / Observations",
-        "Weather / Forecasts"
+        "Weather / Forecasts",
+        "Study guide / Loading and center of gravity",
+        "Study guide / Density altitude and performance",
+        "Study guide / Load factor and fixed-wing stalls",
+        "Study guide / Thunderstorms and wind hazards",
+        "Study guide / Risk assessment and external pressure"
       ],
       "topics": [
         {
@@ -5495,6 +5517,1471 @@
                 {
                   "source": "awcweather",
                   "section": "TAFs: purpose, issuance and temporary groups"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_loading",
+          "name": "Loading and center of gravity",
+          "objectives": [
+            "Study guide / Loading and center of gravity"
+          ],
+          "refs": [
+            {
+              "source": "faaphysics",
+              "section": "Chapter 4: Small Unmanned Aircraft Loading"
+            }
+          ],
+          "notes": [
+            "Include the installed battery, attachments and payload when determining loaded weight.",
+            "Published maximum weight does not guarantee adequate performance in every environment.",
+            "Follow the manufacturer or builder weight and balance restrictions.",
+            "Moving a payload can shift the CG even when total mass is unchanged.",
+            "A load released or expended during flight can alter balance.",
+            "An out-of-limit CG must be corrected before attempting flight."
+          ],
+          "gloss": [
+            [
+              "CG",
+              "Point representing the distribution of aircraft weight"
+            ],
+            [
+              "Payload",
+              "Carried equipment or material"
+            ],
+            [
+              "Balance",
+              "Distribution of weight relative to approved limits"
+            ],
+            [
+              "Gross weight",
+              "Total aircraft weight including its load"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Total weight and operating conditions",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "idea": [
+                "Include the installed battery, attachments and payload when determining loaded weight.",
+                "Published maximum weight does not guarantee adequate performance in every environment.",
+                "Follow the manufacturer or builder weight and balance restrictions."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Synthetic mass exercise: aircraft 1.2 kg, battery 0.4 kg and payload 0.3 kg."
+                },
+                {
+                  "text": "Add all three: loaded mass is 1.9 kg. No aircraft limit is supplied."
+                },
+                {
+                  "text": "Compare against the actual approved limits and conditions before making a decision."
+                }
+              ]
+            },
+            {
+              "t": "Payload placement and changing balance",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "idea": [
+                "Moving a payload can shift the CG even when total mass is unchanged.",
+                "A load released or expended during flight can alter balance.",
+                "An out-of-limit CG must be corrected before attempting flight."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A payload moves aft while total mass stays constant."
+                },
+                {
+                  "text": "Weight is unchanged, but its distribution and CG can change."
+                },
+                {
+                  "text": "Secure and configure the load within the actual aircraft limits, considering changes during flight."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_loading_01",
+              "q": "Synthetic loading exercise: 1.2 kg aircraft, 0.4 kg battery and 0.3 kg payload. What is total mass?",
+              "c": [
+                "1.9 kg",
+                "1.5 kg",
+                "1.6 kg",
+                "0.7 kg"
+              ],
+              "why": "All installed mass contributes: 1.2 + 0.4 + 0.3 = 1.9 kg.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_02",
+              "q": "A camera is installed after the weight check. What should the remote pilot reassess?",
+              "c": [
+                "Loaded weight and balance",
+                "Only the camera serial number",
+                "Only the departure time",
+                "Only the map scale"
+              ],
+              "why": "An added payload changes weight and may change its distribution.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_03",
+              "q": "Does staying below published maximum weight guarantee adequate takeoff performance on a hot, high-elevation day?",
+              "c": [
+                "No; conditions can reduce available performance",
+                "Yes, under every weather condition",
+                "Yes, if the payload is a camera",
+                "Only if the flight is commercial"
+              ],
+              "why": "The FAA guide notes that adverse conditions may require a reduced load.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_04",
+              "q": "Which source provides aircraft-specific loading limits?",
+              "c": [
+                "Manufacturer or builder documentation",
+                "A generic quiz score",
+                "A different aircraft model chart",
+                "The payload color"
+              ],
+              "why": "Limits depend on the aircraft design, not an arbitrary generic threshold.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_05",
+              "q": "A payload shifts aft without changing total mass. Which property can change?",
+              "c": [
+                "Center of gravity",
+                "Calendar date",
+                "Radio frequency allocation",
+                "Airspace class"
+              ],
+              "why": "CG depends on weight distribution, not only total mass.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_06",
+              "q": "A load will be released during flight. When should balance be considered?",
+              "c": [
+                "Before and after the planned release",
+                "Only before loading",
+                "Only after landing",
+                "Never for expendable loads"
+              ],
+              "why": "The guide warns that an expended load can shift the CG.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_07",
+              "q": "An aircraft is under its maximum mass but outside its CG limits. Is loading acceptable?",
+              "c": [
+                "No; weight and CG limits both matter",
+                "Yes; total mass is the only limit",
+                "Yes; any autopilot cancels CG limits",
+                "Yes; if the flight is short"
+              ],
+              "why": "Approved balance limits are independently important.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loading_08",
+              "q": "What action fits an out-of-limit CG found before takeoff?",
+              "c": [
+                "Correct the load configuration before flight",
+                "Launch and trim it later",
+                "Ignore it below maximum weight",
+                "Use a quiz timer to set the CG"
+              ],
+              "why": "The guide calls for relocating or removing weight before attempting flight.",
+              "objectives": [
+                "Study guide / Loading and center of gravity"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_density",
+          "name": "Density altitude and performance",
+          "objectives": [
+            "Study guide / Density altitude and performance"
+          ],
+          "refs": [
+            {
+              "source": "faaphysics",
+              "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+            }
+          ],
+          "notes": [
+            "At constant pressure, warmer air is less dense.",
+            "At comparable temperature and pressure, more water vapor reduces air density.",
+            "Reduced air density can reduce aircraft performance; humidity is a contributing factor.",
+            "Manufacturer performance information can cover takeoff, climb, range and endurance.",
+            "Data and limits must match the actual aircraft and configuration.",
+            "A successful flight in different conditions does not establish current performance margins."
+          ],
+          "gloss": [
+            [
+              "Density",
+              "Mass per unit volume"
+            ],
+            [
+              "Density altitude",
+              "Pressure altitude corrected for nonstandard temperature"
+            ],
+            [
+              "Humidity",
+              "Water-vapor content relative to saturation"
+            ],
+            [
+              "Performance data",
+              "Aircraft-specific information about operating capability"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Heat, pressure and humidity",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "idea": [
+                "At constant pressure, warmer air is less dense.",
+                "At comparable temperature and pressure, more water vapor reduces air density.",
+                "Reduced air density can reduce aircraft performance; humidity is a contributing factor."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Compare the same location at the same pressure on a cool and a hot day."
+                },
+                {
+                  "text": "The hot air is less dense."
+                },
+                {
+                  "text": "Use the aircraft performance guidance rather than assuming the cool-day result still applies."
+                }
+              ]
+            },
+            {
+              "t": "Using performance information",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "idea": [
+                "Manufacturer performance information can cover takeoff, climb, range and endurance.",
+                "Data and limits must match the actual aircraft and configuration.",
+                "A successful flight in different conditions does not establish current performance margins."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A crew repeats a mission with a heavier payload on a hotter day."
+                },
+                {
+                  "text": "Two relevant conditions have changed: loading and air density."
+                },
+                {
+                  "text": "Reassess performance and margins before proceeding; no universal reduction percentage is supplied."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_density_01",
+              "q": "At constant pressure, what happens to air density when temperature rises?",
+              "c": [
+                "It decreases",
+                "It doubles automatically",
+                "It stays identical",
+                "It becomes independent of temperature"
+              ],
+              "why": "The guide states that air density varies inversely with temperature at constant pressure.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_02",
+              "q": "At otherwise comparable conditions, adding water vapor generally makes air what?",
+              "c": [
+                "Less dense",
+                "More dense",
+                "A vacuum",
+                "Unaffected in all conditions"
+              ],
+              "why": "Water vapor is lighter than the dry air it displaces.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_03",
+              "q": "Which combination tends toward high density altitude?",
+              "c": [
+                "High elevation and high temperature",
+                "Low elevation and cold air",
+                "Low temperature and high pressure",
+                "Cold dry air at low elevation"
+              ],
+              "why": "Elevation and heat can reduce density and degrade performance.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_04",
+              "q": "Should humidity be treated as the only influence on aircraft performance?",
+              "c": [
+                "No; temperature, pressure and other factors also matter",
+                "Yes; temperature is irrelevant",
+                "Yes; pressure never affects density",
+                "Only at sea level"
+              ],
+              "why": "Humidity contributes to the conditions; it does not replace other factors.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_05",
+              "q": "A heavier payload and hotter conditions replace yesterday’s setup. Which plan is appropriate?",
+              "c": [
+                "Reassess performance for the new conditions",
+                "Reuse yesterday’s margins without review",
+                "Assume autopilot adds unlimited lift",
+                "Ignore both changes below 400 feet"
+              ],
+              "why": "Loading and density affect the aircraft’s capability.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_06",
+              "q": "Why is an unrelated drone model’s endurance chart insufficient?",
+              "c": [
+                "Design and operating data differ by model",
+                "All drones have identical endurance",
+                "A chart measures only airspace",
+                "Endurance never depends on payload"
+              ],
+              "why": "The manufacturer’s information is specific to the aircraft.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_07",
+              "q": "What does a generic high-density-altitude lesson provide?",
+              "c": [
+                "A principle to apply with aircraft-specific data",
+                "A universal payload reduction percentage",
+                "A flight clearance",
+                "An exact endurance prediction for every aircraft"
+              ],
+              "why": "The guide explains effects, but actual decisions require relevant data.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_density_08",
+              "q": "Which is a performance-data category named by the FAA guide?",
+              "c": [
+                "Climb capability",
+                "Pilot uniform size",
+                "Radio call-sign spelling",
+                "Airport ownership"
+              ],
+              "why": "The guide names takeoff, climb, range, endurance, descent and landing data.",
+              "objectives": [
+                "Study guide / Density altitude and performance"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 8: Determining the Performance of Small Unmanned Aircraft"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_loadfactor",
+          "name": "Load factor and fixed-wing stalls",
+          "objectives": [
+            "Study guide / Load factor and fixed-wing stalls"
+          ],
+          "refs": [
+            {
+              "source": "faaphysics",
+              "section": "Chapter 4: Small Unmanned Aircraft Loading"
+            }
+          ],
+          "notes": [
+            "A load factor of 3 G corresponds to an aerodynamic load three times aircraft weight.",
+            "Maneuvers can increase structural loads.",
+            "A banked level-turn example assumes coordinated flight and altitude maintained; it is not a generic multirotor flight rule.",
+            "A fixed-wing stall results from exceeding critical angle of attack.",
+            "Greater load factor raises stall speed for the stated aircraft configuration.",
+            "The guide gives stall-speed change as proportional to the square root of load factor."
+          ],
+          "gloss": [
+            [
+              "Load factor",
+              "Aerodynamic load relative to aircraft weight"
+            ],
+            [
+              "G",
+              "Unit used to express load factor"
+            ],
+            [
+              "Stall",
+              "Flow separation after exceeding critical angle of attack"
+            ],
+            [
+              "Angle of attack",
+              "Angle between airfoil reference and relative wind"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Load factor and structural stress",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "idea": [
+                "A load factor of 3 G corresponds to an aerodynamic load three times aircraft weight.",
+                "Maneuvers can increase structural loads.",
+                "A banked level-turn example assumes coordinated flight and altitude maintained; it is not a generic multirotor flight rule."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A synthetic aircraft weighs 10 weight-units at 3 G."
+                },
+                {
+                  "text": "Multiply 10 by 3: the structural load is 30 weight-units."
+                },
+                {
+                  "text": "Compare with actual design limits; no maneuver is authorized by this calculation."
+                }
+              ]
+            },
+            {
+              "t": "Critical angle of attack and accelerated stalls",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "idea": [
+                "A fixed-wing stall results from exceeding critical angle of attack.",
+                "Greater load factor raises stall speed for the stated aircraft configuration.",
+                "The guide gives stall-speed change as proportional to the square root of load factor."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Synthetic fixed-wing example: 20 knots at 1 G, unchanged configuration."
+                },
+                {
+                  "text": "At 4 G, multiply by square root of 4: 20 times 2 = 40 knots."
+                },
+                {
+                  "text": "This illustrates accelerated-stall physics, not a recommended maneuver."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_loadfactor_01",
+              "q": "A synthetic aircraft weighing 10 weight-units experiences 3 G. What load does that represent?",
+              "c": [
+                "30 weight-units",
+                "3 weight-units",
+                "10 weight-units",
+                "13 weight-units"
+              ],
+              "why": "Load factor multiplies aircraft weight: 3 times 10 = 30.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_02",
+              "q": "Why must a pilot understand maneuver-induced loads?",
+              "c": [
+                "Maneuvers can exceed structural limits",
+                "Every turn removes structural stress",
+                "Loads affect only passengers",
+                "Small aircraft have unlimited strength"
+              ],
+              "why": "The guide identifies structural overload as a load-factor hazard.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_03",
+              "q": "In a coordinated level fixed-wing turn, increasing bank generally does what to required load factor?",
+              "c": [
+                "Increases it",
+                "Always reduces it below 1 G",
+                "Leaves it zero",
+                "Eliminates the need for lift"
+              ],
+              "why": "Maintaining altitude in a steeper coordinated turn requires greater lift.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_04",
+              "q": "Which condition is essential to the guide’s level-turn load-factor relationship?",
+              "c": [
+                "Altitude is maintained in coordinated flight",
+                "Every aircraft is hovering",
+                "The aircraft is in free fall",
+                "The wings produce no lift"
+              ],
+              "why": "The relationship is for the specified flight condition, not all maneuvers.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_05",
+              "q": "What directly causes the fixed-wing aerodynamic stall discussed here?",
+              "c": [
+                "Exceeding critical angle of attack",
+                "A particular calendar date",
+                "Loss of satellite navigation alone",
+                "A low battery warning alone"
+              ],
+              "why": "Flow separates after the critical angle of attack is exceeded.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_06",
+              "q": "Synthetic fixed-wing stall speed is 20 knots at 1 G. At 4 G in unchanged configuration, the relationship predicts what?",
+              "c": [
+                "40 knots",
+                "80 knots",
+                "5 knots",
+                "24 knots"
+              ],
+              "why": "20 times square root of 4 = 40 knots.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_07",
+              "q": "Can an aircraft experience an accelerated stall above its ordinary 1-G stall speed?",
+              "c": [
+                "Yes, when the load factor is higher",
+                "No, stall speed can never change",
+                "Only after the engine stops",
+                "Only while parked"
+              ],
+              "why": "The guide explains that increased load factor increases stall speed.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_loadfactor_08",
+              "q": "Should a fixed-wing stall-speed calculation be applied as a universal multirotor stall limit?",
+              "c": [
+                "No; the aerodynamic model and aircraft differ",
+                "Yes; all aircraft share one stall speed",
+                "Yes; replace knots with battery voltage",
+                "Only if GPS is enabled"
+              ],
+              "why": "The lesson’s assumptions describe fixed-wing aerodynamic behavior.",
+              "objectives": [
+                "Study guide / Load factor and fixed-wing stalls"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 4: Small Unmanned Aircraft Loading"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_weatherhazards",
+          "name": "Thunderstorms and wind hazards",
+          "objectives": [
+            "Study guide / Thunderstorms and wind hazards"
+          ],
+          "refs": [
+            {
+              "source": "faaphysics",
+              "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+            }
+          ],
+          "notes": [
+            "Thunderstorms pass through cumulus, mature and dissipating stages.",
+            "Updrafts dominate the developing cumulus stage.",
+            "The mature stage combines updrafts and downdrafts with severe turbulence potential.",
+            "Thunderstorm downdrafts spread out near the surface and can produce gusty winds.",
+            "Dissipating storms can still contain downdrafts.",
+            "Buildings and terrain can disturb wind and create local turbulence."
+          ],
+          "gloss": [
+            [
+              "Updraft",
+              "Rising air current"
+            ],
+            [
+              "Downdraft",
+              "Descending air current"
+            ],
+            [
+              "Wind shear",
+              "Change in wind speed or direction over distance"
+            ],
+            [
+              "Mature stage",
+              "Thunderstorm phase with updrafts and downdrafts"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Thunderstorm development",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "idea": [
+                "Thunderstorms pass through cumulus, mature and dissipating stages.",
+                "Updrafts dominate the developing cumulus stage.",
+                "The mature stage combines updrafts and downdrafts with severe turbulence potential."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Rapidly growing cumulus clouds appear near a proposed site."
+                },
+                {
+                  "text": "Rapid development signals changing conditions and convective risk."
+                },
+                {
+                  "text": "Reassess the plan; lack of rain at the launch point does not establish safety."
+                }
+              ]
+            },
+            {
+              "t": "Outflow, shear and obstructions",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "idea": [
+                "Thunderstorm downdrafts spread out near the surface and can produce gusty winds.",
+                "Dissipating storms can still contain downdrafts.",
+                "Buildings and terrain can disturb wind and create local turbulence."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A proposed route passes on the downwind side of a large obstacle."
+                },
+                {
+                  "text": "The obstacle can disrupt the airflow in that area."
+                },
+                {
+                  "text": "Assess local wind and aircraft limitations rather than relying only on a distant observation."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_weatherhazards_01",
+              "q": "Which sequence describes a thunderstorm cell’s life cycle?",
+              "c": [
+                "Cumulus, mature, dissipating",
+                "Dissipating, mature, clear-air",
+                "Snow, fog, pressure",
+                "Front, dew point, ceiling"
+              ],
+              "why": "The guide identifies these three storm stages.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_02",
+              "q": "Which current dominates the developing cumulus stage?",
+              "c": [
+                "Updraft",
+                "Only a downdraft",
+                "No vertical motion",
+                "A steady ocean current"
+              ],
+              "why": "Rising air drives the early cloud development.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_03",
+              "q": "What combination is characteristic of a mature thunderstorm?",
+              "c": [
+                "Updrafts and downdrafts",
+                "Only calm air",
+                "Only horizontal light wind",
+                "No precipitation or vertical movement"
+              ],
+              "why": "Both currents can create strong shear and turbulence.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_04",
+              "q": "Rapidly building cumulus is visible but the launch site is dry. What conclusion is supported?",
+              "c": [
+                "Convective hazards still require reassessment",
+                "A dry launch site guarantees no storm hazard",
+                "All storm hazards require rain on the aircraft",
+                "Wind cannot change before rain"
+              ],
+              "why": "Storm development and outflow hazards are not ruled out by a dry launch point.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_05",
+              "q": "Why can a dissipating thunderstorm still be hazardous?",
+              "c": [
+                "Downdrafts can remain",
+                "All winds instantly stop",
+                "Only its cloud color matters",
+                "A dissipating storm cannot affect the ground"
+              ],
+              "why": "Downdrafts characterize the dissipating stage.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_06",
+              "q": "What can happen when a strong downdraft reaches the surface?",
+              "c": [
+                "Air spreads outward in gusty outflow",
+                "Air becomes motionless everywhere",
+                "All local pressure differences vanish",
+                "Visibility is guaranteed unlimited"
+              ],
+              "why": "The guide describes outward-spreading surface winds from downdrafts.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_07",
+              "q": "What does wind shear mean in this lesson?",
+              "c": [
+                "A change in wind speed or direction over distance",
+                "Only a constant wind speed",
+                "The color of a cloud",
+                "The aircraft battery charge rate"
+              ],
+              "why": "Wind differences over a short distance can disrupt flight.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_weatherhazards_08",
+              "q": "Why consider buildings when assessing wind at a site?",
+              "c": [
+                "They can create disturbed airflow and turbulence",
+                "They remove every gust",
+                "They guarantee the reported wind is exact",
+                "They determine the aircraft’s legal registration"
+              ],
+              "why": "Obstructions change local airflow; remote observations do not describe every location.",
+              "objectives": [
+                "Study guide / Thunderstorms and wind hazards"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 3b: Effects of Weather on Small Unmanned Aircraft Performance"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "faa107_riskdecisions",
+          "name": "Risk assessment and external pressure",
+          "objectives": [
+            "Study guide / Risk assessment and external pressure"
+          ],
+          "refs": [
+            {
+              "source": "faaphysics",
+              "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+            }
+          ],
+          "notes": [
+            "PAVE organizes risk assessment into Pilot, Aircraft, enVironment and External pressures.",
+            "A deadline or customer expectation is an external pressure.",
+            "Identifying a risk is followed by deciding whether it can be managed safely.",
+            "ADM is a structured approach to changing conditions.",
+            "Use available resources and evaluate whether mitigations are effective.",
+            "A completed preflight assessment does not prevent new hazards from arising."
+          ],
+          "gloss": [
+            [
+              "PAVE",
+              "Pilot, Aircraft, enVironment, External pressures"
+            ],
+            [
+              "Hazard",
+              "Condition that could cause harm"
+            ],
+            [
+              "Mitigation",
+              "Action that reduces a risk"
+            ],
+            [
+              "ADM",
+              "Aeronautical decision-making"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Using PAVE before flight",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "idea": [
+                "PAVE organizes risk assessment into Pilot, Aircraft, enVironment and External pressures.",
+                "A deadline or customer expectation is an external pressure.",
+                "Identifying a risk is followed by deciding whether it can be managed safely."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A client wants footage before sunset while winds are worsening."
+                },
+                {
+                  "text": "The changing wind is an environmental factor; the deadline is external pressure."
+                },
+                {
+                  "text": "Consider delaying or cancelling if the combined risks cannot be managed safely."
+                }
+              ]
+            },
+            {
+              "t": "Reassessment and available resources",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "idea": [
+                "ADM is a structured approach to changing conditions.",
+                "Use available resources and evaluate whether mitigations are effective.",
+                "A completed preflight assessment does not prevent new hazards from arising."
+              ],
+              "recipe": [
+                "Identify the aircraft and conditions.",
+                "Apply the stated physical principle.",
+                "Check model-specific limits before operational use."
+              ],
+              "oops": [
+                "Treating a simplified study scenario as flight authorization or a manufacturer performance chart."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "The weather worsens after a mission begins."
+                },
+                {
+                  "text": "The initial assessment no longer captures all current conditions."
+                },
+                {
+                  "text": "Reassess, use available information and change the plan as needed for safety."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_riskdecisions_01",
+              "q": "What does the E in PAVE represent?",
+              "c": [
+                "External pressures",
+                "Engine displacement",
+                "Emergency frequency",
+                "Elevator travel"
+              ],
+              "why": "PAVE includes pressures that can distort an otherwise sound decision.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_02",
+              "q": "A customer insists on immediate footage. Which PAVE category addresses that pressure?",
+              "c": [
+                "External pressures",
+                "Aircraft loading alone",
+                "Airspace class alone",
+                "Navigation display scale"
+              ],
+              "why": "Schedule and customer demands can encourage unsafe continuation.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_03",
+              "q": "A damaged propeller belongs primarily in which PAVE category?",
+              "c": [
+                "Aircraft",
+                "External pressures",
+                "Pilot experience only",
+                "Cloud coverage"
+              ],
+              "why": "Aircraft condition is part of the Aircraft category.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_04",
+              "q": "If combined risks cannot be managed safely, what decision does the guide support?",
+              "c": [
+                "Cancel the flight",
+                "Proceed to avoid disappointing the client",
+                "Launch to see whether it works",
+                "Ignore risks once a checklist is started"
+              ],
+              "why": "The guide explicitly supports cancellation when risks cannot be managed safely.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_05",
+              "q": "A risk assessment is complete and conditions then change. What is appropriate?",
+              "c": [
+                "Reassess the new conditions",
+                "Treat the first decision as permanent",
+                "Ignore new observations",
+                "Assume the original checklist prevents hazards"
+              ],
+              "why": "ADM includes analyzing changes during a flight.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_06",
+              "q": "What should follow selection of a risk mitigation?",
+              "c": [
+                "Evaluate whether it is effective",
+                "Assume it eliminates every risk",
+                "Discard further observations",
+                "Stop using available resources"
+              ],
+              "why": "Risk management requires checking the result, not merely naming an action.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_07",
+              "q": "Which practice supports sound aeronautical decision-making?",
+              "c": [
+                "Using relevant information and available resources",
+                "Relying only on confidence",
+                "Ignoring a crew member’s relevant observation",
+                "Continuing solely to meet a deadline"
+              ],
+              "why": "The guide emphasizes using resources and evaluating decisions.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "faa107_riskdecisions_08",
+              "q": "Does a successful past flight prove the same plan is safe under changed conditions?",
+              "c": [
+                "No; assess the current risks",
+                "Yes; experience removes environmental risk",
+                "Yes; one success validates every payload",
+                "Only if the client remembers it"
+              ],
+              "why": "Past success does not remove the need to assess current conditions.",
+              "objectives": [
+                "Study guide / Risk assessment and external pressure"
+              ],
+              "refs": [
+                {
+                  "source": "faaphysics",
+                  "section": "Chapter 10: Aeronautical Decision-Making and Judgment"
                 }
               ],
               "status": "verified",

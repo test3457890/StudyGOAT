@@ -41,3 +41,5 @@ NOAA AWC product guidance supplies METAR and TAF decoding. Code fragments are sy
 All new source records include check/review dates and rights notes. Sources remain due for review December 9, 2026. Total: 93 lessons and 404 questions across nine partial sourced tracks.
 
 November 10: reviewed all 21 national Stripes to Diamonds achievement/milestone pages. The in-app map cites each page directly. Achievement 16 names chapter 14 on that source; flagged for verification rather than silently corrected. These summaries do not establish complete CAPR 60-1 compliance. CompTIA and NCVEC direct retrieval remained unavailable on recheck.
+
+FAA expansion checked November 10: FAA-G-8082-22 (August 2016), chapters 3b, 4, 8 and 10, used only for selected physics and decision principles. No superseded regulatory or medical guidance was imported. Synthetic fixed-wing stall calculations explicitly limit their assumptions. Current CAP Aerospace Dimensions fourth edition requires eServices access; public older PDFs do not establish current full curriculum coverage.
