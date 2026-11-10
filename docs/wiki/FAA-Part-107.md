@@ -15,3 +15,6 @@ Current totals: 5 lessons and 26 questions. The course remains partial. Earlier 
 ## Latest curriculum expansion
 
 Current totals: nine lessons and 42 questions. New original METAR/TAF exercises use NOAA Aviation Weather Center guidance for timestamps, true wind direction, knots, gusts, statute-mile visibility, forecast scope and TEMPO. All example code is synthetic; no live-weather or go/no-go decision is provided. Broader weather, charts, performance and full ACS coverage remain incomplete.
+
+
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.

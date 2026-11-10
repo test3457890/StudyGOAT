@@ -5,7 +5,7 @@ Updated November 10, 2026. The app and Wiki are published. All nine sourced trac
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
-| FAA Part 107 | 9 | 42 | Selected regulations, Remote ID and METAR/TAF interpretation |
+| FAA Part 107 | 19 | 82 | Selected regulations, Remote ID and METAR/TAF interpretation |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
 | Amateur Radio Technician | 8 | 36 | Rules, Ohm’s law and radio-wave foundations; no full official pool |
@@ -29,3 +29,6 @@ Preserve original tools and progress. Recheck sources and deadlines. Test actual
 
 
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
+
+
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.

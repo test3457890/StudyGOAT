@@ -9,3 +9,5 @@ All seven sourced programs remain partial. Coverage and unavailable jurisdiction
 ## All-chapter curriculum stage
 
 Release sources include all-16-chapter CAP lessons and chapter quizzes, California/New York partial programs, and expanded Security+, FAA weather and radio foundations. The main repository release must pass content/browser CI before merge. Separate Wiki updates must be published and compared independently; a source commit alone does not publish them. See the pull request's final validation record for actual release evidence.
+
+FAA expansion: ten lessons and 40 questions prepared; content checks pass locally. CI, live deployment and separate Wiki publication evidence will be recorded on the release PR after verification.

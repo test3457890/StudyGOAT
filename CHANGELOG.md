@@ -70,3 +70,7 @@
 ## CAP achievement map
 
 Added 21 achievement/milestone study summaries, official requirement links, mapped chapter review buttons, aerospace assignments and supervised-work reminders. Flagged the national Achievement 16 chapter discrepancy. Course lesson/question totals remain unchanged.
+
+## FAA loading, weather and decisions
+
+Added ten lessons and 40 original questions on weight/balance, density altitude, fixed-wing load factors/stalls, thunderstorm/wind hazards and PAVE decisions. FAA track totals: 19 lessons and 82 questions. Overall: 103 lessons, 444 questions. All tracks remain partial.

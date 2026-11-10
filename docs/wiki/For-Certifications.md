@@ -5,7 +5,7 @@ Updated 2026-11-10. StudyGOAT offers nine independent study tracks. All are part
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
-| FAA Part 107 | 9 | 42 | Selected regulations, Remote ID and METAR/TAF interpretation |
+| FAA Part 107 | 19 | 82 | Selected regulations, Remote ID and METAR/TAF interpretation |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
 | Amateur Radio Technician | 8 | 36 | Rules, Ohm’s law and radio-wave foundations; no full official pool |
