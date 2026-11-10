@@ -1,6 +1,19 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('node:path');
 (async()=>{const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--no-sandbox']});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('file://'+path.resolve('StudyGOAT.html'));await page.waitForFunction(()=>typeof installStudyPrograms==='function');
 const tracks=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.map(t=>t.id));
+assert.equal(await page.locator('#courseCategories button').count(),3);
+await page.locator('#courseCategories button').filter({hasText:'Classes'}).click();assert.equal(await page.locator('.course').count(),2);
+await page.locator('#courseSearch').fill('CPSC 222');assert.equal(await page.locator('.course').count(),1);
+await page.locator('#courseSearch').fill('missing course');assert.equal(await page.locator('.course').count(),0);assert.match(await page.locator('#courseSearchStatus').innerText(),/No courses/);
+await page.locator('#courseSearch').fill('');assert.equal(await page.locator('.course').count(),2);
+assert(!/Heather Marriott|Rizi Aznita/.test(await page.locator('body').innerText()));
+await page.evaluate(()=>openCourseCategory('certifications'));assert.equal(await page.locator('.course').count(),5);
+await page.locator('#courseSearch').fill('FAA');assert.equal(await page.locator('.course').count(),1);
+await page.locator('.course').click();assert.equal(await page.evaluate(()=>CC),'faa107');
+await page.evaluate(()=>drivingDirectory());await page.locator('#stateSearch').fill('NJ');assert.equal(await page.locator('#drivingState option').count(),1);assert.match(await page.locator('#drivingAvailability').innerText(),/New Jersey: partial/);
+await page.locator('#stateSearch').fill('no such state');assert.equal(await page.locator('#drivingState option').count(),0);assert.match(await page.locator('#stateSearchStatus').innerText(),/No states/);
+await page.locator('#stateSearch').fill('');assert.equal(await page.locator('#drivingState option').count(),51);
+
 for(const id of ['cs315','cpsc222',...tracks]){
  await page.evaluate(id=>enterCourse(id),id);assert(await page.locator('.topic').count()>0,id);
  await page.evaluate(()=>practice(CT()[0]));await page.evaluate(()=>{if(cur._typed){document.getElementById('tin').value=cur.answer;answerTyped();}else answer(cur.choices.indexOf(cur.answer));});assert.match(await page.locator('#fb').innerText(),/Correct/);
@@ -37,7 +50,7 @@ for(let chapter=1;chapter<=16;chapter++){
  const scoped=await page.evaluate(chapter=>{const c=window.STUDYGOAT_CATALOG.tracks.find(t=>t.id==='capcadet').curriculum.find(c=>c.chapter===chapter);return EX.items.every(x=>c.topics.includes(x.topic))&&new Set(EX.items.map(x=>x.q.sourceId)).size===EX.n&&EX.n>=8;},chapter);assert(scoped,`Chapter ${chapter} practice scope`);
  await page.evaluate(()=>{EX.items.forEach((it,i)=>EX.ans[i]=it.q.choices.indexOf(it.q.answer));exSubmit(false)});assert.match(await page.locator('.score').innerText(),/100%/);
 }
-await page.evaluate(()=>menu());await page.getByRole('button',{name:'Choose a state',exact:true}).click();
+await page.evaluate(()=>menu());await page.locator('#courseCategories button').filter({hasText:'Driving Tests'}).click();
 assert.equal(await page.locator('#drivingState option').count(),51);
 await page.locator('#drivingState').selectOption('US-AK');await page.getByRole('button',{name:'View availability',exact:true}).click();
 assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: planned/);assert.equal(await page.locator('#drivingAvailability button').count(),0);
@@ -60,12 +73,12 @@ for(const v of visualCases){
 }
 const stats=await page.evaluate(()=>JSON.stringify(S.stats));await page.reload();assert.equal(await page.evaluate(()=>JSON.stringify(S.stats)),stats);
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(window.STUDYGOAT_CATALOG.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
-await page.evaluate(()=>menu());await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
+await page.evaluate(()=>{menu();openCourseCategory('classes')});await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
 const fs=require('node:fs'),os=require('node:os');
 const exportDir=fs.mkdtempSync(path.join(os.tmpdir(),'studygoat-export-'));
 const exportPath=path.join(exportDir,'StudyGOAT.html');
 fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
 const exported=await browser.newPage();await exported.goto('file://'+exportPath);
-assert.equal(await exported.locator('.course[role=button]').count(),tracks.length+4,'Export preserves original courses, sourced tracks and tools');
+assert.equal(await exported.locator('#courseCategories button').count(),3);await exported.evaluate(()=>openCourseCategory('classes'));assert.equal(await exported.locator('.course[role=button]').count(),2);await exported.evaluate(()=>openCourseCategory('certifications'));assert.equal(await exported.locator('.course[role=button]').count(),5,'Export preserves categorized study tracks');
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

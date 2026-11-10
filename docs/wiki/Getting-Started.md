@@ -37,3 +37,6 @@ Core built-in learning and practice features do not need an API key. AI tutoring
 
 See [FAQ](https://github.com/test3457890/StudyGOAT/wiki/FAQ) or report a problem using [GitHub Issues](https://github.com/test3457890/StudyGOAT/issues).
 
+
+
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from planned states across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.

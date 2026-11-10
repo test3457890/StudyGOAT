@@ -76,3 +76,6 @@ November 10 achievement-map update: the app now lists all 16 achievements and fi
 
 
 November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+
+
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from planned states across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.

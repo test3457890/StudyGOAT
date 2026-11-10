@@ -71,15 +71,50 @@ function certCurriculum(t) {
 }
 function drivingDirectory() {
   screen='driving';LS=null;quiz=null;cur=null;activePrep=null;drawNav();
-  view.innerHTML=`<div class="card"><h2>State driving prep</h2><p>Choose your jurisdiction. Partial courses cover selected topics only. Planned states have no lessons or practice questions yet. Rules from one state must not be used as another state's study guide.</p><label>State or district <select id="drivingState">${CERT.drivingJurisdictions.map(j=>`<option value="${j.code}">${esc(j.name)}: ${j.track?'partial course':'planned'}</option>`).join('')}</select></label><button onclick="openDrivingState()">View availability</button><div id="drivingAvailability" aria-live="polite"></div><button onclick="menu()">Back to courses</button></div>`;
+  view.innerHTML=`<div class="card"><button onclick="menu()">Back to categories</button><h2>Driving Tests: all 50 states and DC</h2><label>Search states <input id="stateSearch" type="search" placeholder="State name or abbreviation" oninput="filterDrivingStates()"></label><p id="stateSearchStatus" role="status"></p><p>Choose your jurisdiction. Partial courses cover selected topics only. Planned states have no lessons or practice questions yet. Rules from one state must not be used as another state's study guide.</p><label>State or district <select id="drivingState">${CERT.drivingJurisdictions.map(j=>`<option value="${j.code}">${esc(j.name)}: ${j.track?'partial course':'planned'}</option>`).join('')}</select></label><button onclick="openDrivingState()">View availability</button><div id="drivingAvailability" aria-live="polite"></div><button onclick="menu()">Back to courses</button></div>`;
   document.getElementById('drivingState').value='US-AZ';openDrivingState();
 }
+function filterDrivingStates(){
+  const query=document.getElementById('stateSearch').value.trim().toLocaleLowerCase();
+  const matches=CERT.drivingJurisdictions.filter(j=>(j.name+' '+j.code.replace('US-','')).toLocaleLowerCase().includes(query));
+  const select=document.getElementById('drivingState');select.innerHTML=matches.map(j=>`<option value="${esc(j.code)}">${esc(j.name)}: ${j.track?'partial course':'planned'}</option>`).join('');
+  document.getElementById('stateSearchStatus').textContent=matches.length?matches.length+' jurisdictions found':'No states match your search.';
+  if(matches.length)openDrivingState();else document.getElementById('drivingAvailability').textContent='Try another state name or abbreviation.';
+}
 function openDrivingState() {
-  const j=CERT.drivingJurisdictions.find(j=>j.code===document.getElementById('drivingState').value);
+  const j=CERT.drivingJurisdictions.find(j=>j.code===document.getElementById('drivingState').value);if(!j)return;
   document.getElementById('drivingAvailability').innerHTML=j.track?`<h3>${esc(j.name)}: partial course</h3><p>Use the complete current official manual alongside this selected practice.</p><button onclick="enterCourse('${j.track}')">Open ${esc(j.name)} driving prep</button>`:`<h3>${esc(j.name)}: planned</h3><p>No study content is available for this jurisdiction yet. Official manual verification, lessons, questions and review are still required.</p>`;
 }
 const legacyMenu=menu;
-menu=function(){legacyMenu();view.insertAdjacentHTML('afterbegin','<div class="card"><h2>Find driving prep by state</h2><p>Availability for all 50 states and the District of Columbia.</p><button onclick="drivingDirectory()">Choose a state</button></div>');};
+let courseCategory='classes';
+function openCourseCategory(category){
+  if(category==='driving')return drivingDirectory();
+  courseCategory=category==='certifications'?'certifications':'classes';
+  legacyMenu();
+  const cards=[...view.querySelectorAll('.course')];
+  const ids=Object.keys(COURSES);
+  const kept=cards.slice(0,ids.length).filter((card,i)=>{
+    const t=CERT.tracks.find(t=>t.id===ids[i]);
+    const match=courseCategory==='classes'?!t:!!t&&!t.jurisdiction;
+    if(match&&courseCategory==='classes'){
+      const line=card.querySelector('.muted');
+      if(line){const st=courseStats(ids[i]);line.textContent=st.ids.length+' topics · '+st.lt+' lessons';}
+    }
+    return match;
+  });
+  const title=courseCategory==='classes'?'Classes':'Certifications';
+  view.innerHTML=`<div class="card"><button onclick="menu()">Back to categories</button><h2>${title}</h2><label>Search ${title.toLowerCase()} <input id="courseSearch" type="search" placeholder="Search by name or course code"></label><p id="courseSearchStatus" role="status"></p></div><div class="menu" id="categoryCourses"></div>`;
+  const grid=document.getElementById('categoryCourses'),input=document.getElementById('courseSearch');
+  const update=()=>{const query=input.value.trim().toLocaleLowerCase();const matches=kept.filter(c=>c.textContent.toLocaleLowerCase().includes(query));grid.replaceChildren(...matches);document.getElementById('courseSearchStatus').textContent=matches.length?matches.length+' '+(matches.length===1?'course':'courses')+' found':'No courses match your search.';};
+  input.addEventListener('input',update);update();
+  if(courseCategory==='classes')view.insertAdjacentHTML('beforeend','<div class="card"><h3>Class tools</h3><button onclick="builder()">Upload & build a class</button><button onclick="testReview(true)">Review a graded test</button></div>');
+}
+menu=function(){
+  screen='menu';LS=null;quiz=null;cur=null;activePrep=null;if(EX?.timer)clearInterval(EX.timer);drawNav();
+  const classCount=Object.keys(COURSES).filter(id=>!CERT.tracks.some(t=>t.id===id)).length;
+  const certCount=CERT.tracks.filter(t=>!t.jurisdiction).length;
+  view.innerHTML=`<div class="card"><h2>What are you studying?</h2><p>Choose a category, then search for your course or state.</p></div><div class="menu" id="courseCategories"><button class="card" onclick="openCourseCategory('classes')"><h2>Classes</h2><p>${classCount} classes · University and custom courses</p></button><button class="card" onclick="openCourseCategory('certifications')"><h2>Certifications</h2><p>${certCount} study programs · Includes FAA Part 107 drone prep and CAP</p></button><button class="card" onclick="openCourseCategory('driving')"><h2>Driving Tests</h2><p>All 50 states and DC · ${CERT.drivingJurisdictions.filter(j=>j.track).length} partial courses available</p></button></div>`;
+};
 const legacyLearnHome=learnHome;
 learnHome=function(){legacyLearnHome();if(certTrack()){
   const b=view.querySelector('[onclick="resources()"]');if(b)b.textContent='Sources & coverage';
@@ -143,7 +178,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState});
+Object.assign(window,{certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();
