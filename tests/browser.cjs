@@ -22,6 +22,12 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
 }
 // All chapters reach real lessons and scope practice to their mapped topics.
 await page.evaluate(()=>enterCourse('capcadet'));await page.getByRole('button',{name:'All 16 chapters & coverage',exact:true}).click();
+assert.equal(await page.locator('#achievementMap details').count(),21);
+await page.locator('#achievementMap summary').filter({hasText:'Achievement 5'}).click();
+assert.match(await page.locator('#achievementMap').innerText(),/Aerospace Dimensions module 4/);
+await page.locator('#achievementMap').getByRole('button',{name:'Review chapter 5',exact:true}).first().click();
+assert(await page.evaluate(()=>EX.items.every(x=>x.topic==='capcadet_chapter5')));
+await page.evaluate(()=>certSources());
 assert.equal(await page.locator('#chapterCoverage section').count(),16);
 assert.equal(await page.locator('#chapterCoverage a').count(),16);
 assert.equal(await page.locator('#chapterCoverage button').filter({hasText:/^Practice chapter /}).count(),16);

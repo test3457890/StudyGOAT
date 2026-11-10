@@ -129,3 +129,6 @@ Four states have selected courses: Arizona, New Jersey, California and New York.
 ## Unresolved source checks
 
 November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY0-701 version 6.0 objectives baseline remains accessible; current availability and latest revision are not confirmed. Official NCVEC 2026-2030 download page returned 403. ARRL confirms the February 19 revision and 2026-2030 pool period, but the full corrected official pool and diagrams have not been independently imported or validated. Official-pool mode stays disabled.
+
+
+November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.

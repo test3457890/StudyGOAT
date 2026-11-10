@@ -26,3 +26,6 @@ Updated November 10, 2026. The app and Wiki are published. All nine sourced trac
 ## Release rules
 
 Preserve original tools and progress. Recheck sources and deadlines. Test actual lesson and practice flows, grading, exports, mobile layout and keyboard use. Publish documentation to the main repository and separate Wiki, then compare published Wiki contents. All current sourced tracks are partial; no full-exam readiness claim is made.
+
+
+November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.

@@ -39,3 +39,5 @@ NIST CSWP 29 (CSF 2.0, February 26, 2024), Appendix A, supplies governance, inve
 NOAA AWC product guidance supplies METAR and TAF decoding. Code fragments are synthetic. NASA Glenn's Ohm's-law activity and NASA SCaN's radio/optical educational article supply original electronics and wave foundations. No actual FCC pool items are represented by these exercises. NCVEC direct pool retrieval still returned 403; no full-pool mode is enabled.
 
 All new source records include check/review dates and rights notes. Sources remain due for review December 9, 2026. Total: 93 lessons and 404 questions across nine partial sourced tracks.
+
+November 10: reviewed all 21 national Stripes to Diamonds achievement/milestone pages. The in-app map cites each page directly. Achievement 16 names chapter 14 on that source; flagged for verification rather than silently corrected. These summaries do not establish complete CAPR 60-1 compliance. CompTIA and NCVEC direct retrieval remained unavailable on recheck.
