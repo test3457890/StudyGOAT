@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-10: Texas and Florida selected driving rules
+
+- Added four lessons and 16 original questions per state, with source-linked explanations and explicit incomplete coverage notices.
+- Added red/green and flashing-signal decisions, school-bus stopping, and state-specific roadway-divider exceptions.
+- Connected Texas and Florida to their own partial courses while preserving the shared national course and existing state courses. The directory derives its partial-course count from the catalog.
+- Updated status totals to 12 sourced tracks, 115 lessons and 492 questions. Six states have partial state-specific courses; 44 states and DC still have only shared national foundations.
+- Full handbook edition review and licensing requirements remain unverified for the two additions.
+
 ## 2026-11-10: Current study status documentation
 
 - Updated the README and Wiki status tables to include National Driving Foundations, with four shared lessons and 16 questions.

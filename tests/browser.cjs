@@ -72,7 +72,7 @@ await page.locator('#drivingState').selectOption('US-AK');await page.getByRole('
 assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: national foundations only/);assert.equal(await page.locator('#drivingAvailability button').count(),1);
 await page.locator('#drivingState').selectOption('US-AZ');await page.getByRole('button',{name:'View availability',exact:true}).click();
 await page.getByRole('button',{name:'Open Arizona driving prep',exact:true}).click();assert.equal(await page.evaluate(()=>CC),'arizonadriving');
-for(const [state,name,id] of [['US-CA','California','californiadriving'],['US-NY','New York','newyorkdriving']]){
+for(const [state,name,id] of [['US-CA','California','californiadriving'],['US-NY','New York','newyorkdriving'],['US-TX','Texas','texasdriving'],['US-FL','Florida','floridadriving']]){
  await page.evaluate(()=>drivingDirectory());await page.locator('#drivingState').selectOption(state);await page.getByRole('button',{name:'View availability',exact:true}).click();await page.getByRole('button',{name:`Open ${name} driving prep`,exact:true}).click();assert.equal(await page.evaluate(()=>CC),id);
 }
 // All 50 states and DC expose real shared study without claiming state-specific completion.

@@ -13,9 +13,11 @@ Updated November 10, 2026. Every sourced program is partial. Counts and a chapte
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| Texas Driving Prep | 4 | 16 | Selected Texas signal decisions and school-bus roadway exceptions |
+| Florida Driving Prep | 4 | 16 | Selected Florida signal decisions and school-bus median exceptions |
 | National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
 
-Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
+Current sourced-content total: 12 tracks, 115 lessons and 492 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California, New York, Texas and Florida have partial state-specific courses; the other 44 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 ## Learn to Lead chapter inventory
 
@@ -44,7 +46,7 @@ CAP totals: 38 lessons and 156 original questions. Remaining work includes full 
 
 ## Driving coverage
 
-Four states have selected courses: Arizona, New Jersey, California and New York. The other 46 states and DC remain planned, without questions. Every new state needs its own current manual review and content. Territories are outside the initial directory. New York City red-light restrictions are explicitly distinguished from the rest of New York; no state uses another state's bank.
+Four states have selected courses: Arizona, New Jersey, California, New York, Texas and Florida. The other 44 states and DC remain planned, without questions. Every new state needs its own current manual review and content. Territories are outside the initial directory. New York City red-light restrictions are explicitly distinguished from the rest of New York; no state uses another state's bank.
 
 ## Remaining work by program
 
@@ -142,9 +144,9 @@ November 10 FAA expansion: 19 FAA lessons and 82 original questions now include 
 
 ## National driving foundations for every state
 
-All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 107 lessons and 460 questions across ten tracks, excluding the separate university content.
+All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 115 lessons and 492 questions across 12 tracks, excluding the separate university content.
 
-Arizona, New Jersey, California and New York retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
+Arizona, New Jersey, California, New York, Texas and Florida retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
 
 | Jurisdiction | Available material |
 | --- | --- |
@@ -156,7 +158,7 @@ Arizona, New Jersey, California and New York retain their state-specific partial
 | Colorado | National foundations only; state-specific course pending |
 | Connecticut | National foundations only; state-specific course pending |
 | Delaware | National foundations only; state-specific course pending |
-| Florida | National foundations only; state-specific course pending |
+| Florida | National foundations and state-specific partial course |
 | Georgia | National foundations only; state-specific course pending |
 | Hawaii | National foundations only; state-specific course pending |
 | Idaho | National foundations only; state-specific course pending |
@@ -190,7 +192,7 @@ Arizona, New Jersey, California and New York retain their state-specific partial
 | South Carolina | National foundations only; state-specific course pending |
 | South Dakota | National foundations only; state-specific course pending |
 | Tennessee | National foundations only; state-specific course pending |
-| Texas | National foundations only; state-specific course pending |
+| Texas | National foundations and state-specific partial course |
 | Utah | National foundations only; state-specific course pending |
 | Vermont | National foundations only; state-specific course pending |
 | Virginia | National foundations only; state-specific course pending |
@@ -199,3 +201,13 @@ Arizona, New Jersey, California and New York retain their state-specific partial
 | Wisconsin | National foundations only; state-specific course pending |
 | Wyoming | National foundations only; state-specific course pending |
 | District of Columbia | National foundations only; state-specific course pending |
+
+November 10 Texas and Florida batch: each adds four lessons and 16 original questions on selected signal and school-bus rules, checked against official state statutes. Six states now have partial state-specific study. Full manual review, licensing requirements, remaining topics and complete exam coverage are still pending. The shared national foundation remains one course counted once.
+
+## Texas and Florida source and coverage limits
+
+Texas: [Transportation Code chapter 544](https://tcss.legis.texas.gov/resources/TN/htm/TN.544.htm), section 544.007(b)-(f), supports the selected steady-signal decisions. [Chapter 545](https://tcss.legis.texas.gov/resources/TN/htm/TN.545.htm), section 545.066(a), (b) and (f), supports school-bus stopping, release conditions and separate-roadway exceptions. The controlled-access loading-zone exception is not practiced in this batch. The [DPS handbook listing](https://www.dps.texas.gov/InternetForms/home/Details/304) identifies a January 2026 revision, but the full PDF could not be retrieved; cached handbook versions conflict. No complete edition review is claimed.
+
+Florida: published [2026 section 316.075](https://www.flsenate.gov/Laws/Statutes/2026/316.075), [316.076](https://flsenate.gov/Laws/Statutes/2026/0316.076) and [316.172](https://www.flsenate.gov/Laws/Statutes/2026/316.172) support the selected signal and school-bus lessons. The five-foot threshold applies to the unpaved-space alternative, not to every raised median or physical barrier. Ordinary flashing-signal practice explicitly excludes railroad crossings. The [FLHSMV handbook PDF](https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf) returned 403; search-indexed text shows an August 2023 revision. Current handbook edition verification remains open.
+
+Both tracks exclude permit ages, required documents, training-hour totals, penalties, official exam items and practical driving instruction. These must be researched separately before broader coverage is claimed.

@@ -818,6 +818,76 @@
       "sections": [
         "The Top 5 Things You Should Know About Buckling Up"
       ]
+    },
+    "txsignals": {
+      "publisher": "Texas Legislature",
+      "title": "Transportation Code: traffic-control signals",
+      "url": "https://tcss.legis.texas.gov/resources/TN/htm/TN.544.htm",
+      "version": "Published code including 2025 amendment to 544.007",
+      "effective": "Selected published traffic rules checked November 10, 2026; not a full licensing syllabus",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational explanations and questions based on public state law; no official exam items or handbook images reproduced.",
+      "status": "verified",
+      "sections": [
+        "544.007(b)-(f)"
+      ]
+    },
+    "txbuses": {
+      "publisher": "Texas Legislature",
+      "title": "Transportation Code: passing a school bus",
+      "url": "https://tcss.legis.texas.gov/resources/TN/htm/TN.545.htm",
+      "version": "Published code checked November 10, 2026",
+      "effective": "Selected published traffic rules checked November 10, 2026; not a full licensing syllabus",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational explanations and questions based on public state law; no official exam items or handbook images reproduced.",
+      "status": "verified",
+      "sections": [
+        "545.066(a), (b) and (f)"
+      ]
+    },
+    "flsignals": {
+      "publisher": "Florida Senate",
+      "title": "Traffic control signal devices",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/316.075",
+      "version": "2026 Florida Statutes",
+      "effective": "Selected published traffic rules checked November 10, 2026; not a full licensing syllabus",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational explanations and questions based on public state law; no official exam items or handbook images reproduced.",
+      "status": "verified",
+      "sections": [
+        "316.075(1)(a)-(c)"
+      ]
+    },
+    "flflashing": {
+      "publisher": "Florida Senate",
+      "title": "Flashing signals",
+      "url": "https://flsenate.gov/Laws/Statutes/2026/0316.076",
+      "version": "2026 Florida Statutes",
+      "effective": "Selected published traffic rules checked November 10, 2026; not a full licensing syllabus",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational explanations and questions based on public state law; no official exam items or handbook images reproduced.",
+      "status": "verified",
+      "sections": [
+        "316.076(1)-(2)"
+      ]
+    },
+    "flbuses": {
+      "publisher": "Florida Senate",
+      "title": "Traffic to stop for school bus",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/316.172",
+      "version": "2026 Florida Statutes",
+      "effective": "Selected published traffic rules checked November 10, 2026; not a full licensing syllabus",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational explanations and questions based on public state law; no official exam items or handbook images reproduced.",
+      "status": "verified",
+      "sections": [
+        "316.172(1)-(2)"
+      ]
     }
   },
   "tracks": [
@@ -20909,6 +20979,1200 @@
           ]
         }
       ]
+    },
+    {
+      "id": "texasdriving",
+      "code": "Texas Driving Prep",
+      "name": "Texas signals and school-bus foundations",
+      "version": "Texas published Transportation Code; selected rules only",
+      "status": "partial",
+      "jurisdiction": "US-TX",
+      "checked": "2026-11-10",
+      "notice": "Texas only. Original practice on selected signal and school-bus rules from official state law, not official exam questions. Full handbook edition and licensing requirements have not been verified. Not a complete permit course or driving credit. Read the current official handbook.",
+      "gaps": [
+        "Full current handbook retrieval and edition review",
+        "Remaining signs, markings, right-of-way, parking, impairment and hazard topics",
+        "Permit eligibility, required documents, training and graduated-license restrictions",
+        "Full knowledge-test coverage and supervised road-test preparation"
+      ],
+      "objectives": [
+        "TX / Signal decisions",
+        "TX / School-bus road layouts"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "texasdriving_signals",
+          "name": "Texas red-light turns and green-light conflicts",
+          "objectives": [
+            "TX / Signal decisions"
+          ],
+          "refs": [
+            {
+              "source": "txsignals",
+              "section": "544.007(b)-(f)"
+            }
+          ],
+          "notes": [
+            "A permitted turn on red requires stopping, a safe opening and yielding. Posted prohibitions apply.",
+            "A left turn on red requires both intersecting streets to be one way and the turn to be permissible.",
+            "Green indications do not cancel duties to pedestrians or traffic lawfully in the intersection."
+          ],
+          "gloss": [
+            [
+              "Stop line",
+              "Marked stopping position"
+            ],
+            [
+              "One-way street",
+              "Street with travel in one direction"
+            ],
+            [
+              "Circular green",
+              "Proceed subject to signs and yielding"
+            ],
+            [
+              "Green arrow",
+              "Movement in the indicated direction with required yielding"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A right turn is conditional",
+              "idea": [
+                "Stopping is only the first part of a red-light turn."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Assuming a full stop cancels a No Turn on Red sign."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a steady red light, a marked stop line and a pedestrian crossing your intended right turn."
+                },
+                {
+                  "text": "Stop at the line and wait for the pedestrian; yield to other lawful traffic."
+                },
+                {
+                  "text": "Turn only if no posted prohibition applies and the intersection can be entered safely."
+                }
+              ],
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ]
+            },
+            {
+              "t": "Direction and conflicts",
+              "idea": [
+                "A signal permits a movement without guaranteeing an empty path."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Treating a green arrow as permission to displace a pedestrian."
+              ],
+              "steps": [
+                {
+                  "text": "For a left turn on red, check that both streets are one way and the turn is otherwise permitted."
+                },
+                {
+                  "text": "For a circular green, yield to vehicles lawfully in the intersection and stop/yield to pedestrians lawfully crossing."
+                },
+                {
+                  "text": "For a green arrow, enter cautiously only as permitted and yield to lawful conflicts."
+                }
+              ],
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "texasdriving_signals_01",
+              "q": "Texas: you stop at a steady red light intending to turn right, but a No Turn on Red sign is posted. What applies?",
+              "c": [
+                "Wait for an indication permitting the turn",
+                "Turn after a second stop",
+                "Turn if you use the nearest lane",
+                "Turn after yielding, regardless of the sign"
+              ],
+              "why": "Section 544.007(f) allows posted prohibitions; stopping does not remove one.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_02",
+              "q": "Texas: before an otherwise permitted right turn on red, what must follow the full stop?",
+              "c": [
+                "Wait for safe entry and yield to lawful traffic and pedestrians",
+                "Enter before cross traffic arrives at the stop line",
+                "Yield only to vehicles approaching from the left",
+                "Turn immediately if the right lane is empty"
+              ],
+              "why": "Section 544.007(d) requires safe entry and yielding.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_03",
+              "q": "Texas: which street layout can qualify for an otherwise permissible left turn on a steady red signal?",
+              "c": [
+                "A one-way street intersecting another one-way street",
+                "A two-way street intersecting a one-way street",
+                "Any street with a left-turn lane",
+                "Any pair of streets after a full stop"
+              ],
+              "why": "Both intersecting streets must be one way under 544.007(d).",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_04",
+              "q": "Texas: a driver going straight faces only a steady red signal. After stopping, what is required?",
+              "c": [
+                "Remain stopped until an indication allows proceeding",
+                "Proceed if no cross traffic is visible",
+                "Proceed after yielding as at a stop sign",
+                "Proceed when the vehicle behind stops"
+              ],
+              "why": "The red-turn exception does not authorize going straight.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_05",
+              "q": "Texas: a lawful pedestrian remains in the adjacent crosswalk when your green arrow appears. What should you do?",
+              "c": [
+                "Stop and yield to the pedestrian",
+                "Turn ahead of the pedestrian because of the arrow",
+                "Sound the horn and continue slowly",
+                "Yield only if the pedestrian is directly in your lane"
+              ],
+              "why": "Section 544.007(c) preserves the crosswalk yielding duty.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_06",
+              "q": "Texas: when a circular green appears, a vehicle is lawfully still in the intersection. What applies?",
+              "c": [
+                "Yield to that vehicle",
+                "Enter because the green signal replaces its priority",
+                "Proceed if you are going straight",
+                "Yield only when turning left"
+              ],
+              "why": "Section 544.007(b) requires yielding to vehicles lawfully in the intersection.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_07",
+              "q": "Texas: at a steady red signal with a clearly marked stop line, where do you stop?",
+              "c": [
+                "At the marked stop line",
+                "At the far side of the crosswalk",
+                "At the intersecting road centerline",
+                "Where the hood reaches the signal pole"
+              ],
+              "why": "The marked stop line controls the stopping location.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_signals_08",
+              "q": "Texas: a steady yellow follows green. What is the signal warning?",
+              "c": [
+                "The green movement is ending or red is coming",
+                "Cross traffic must already have a green light",
+                "A red-light turn is now automatically permitted",
+                "The intersection is guaranteed clear"
+              ],
+              "why": "Section 544.007(e) defines the yellow warning.",
+              "objectives": [
+                "TX / Signal decisions"
+              ],
+              "refs": [
+                {
+                  "source": "txsignals",
+                  "section": "544.007(b)-(f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "texasdriving_buses",
+          "name": "Texas school buses and separate roadways",
+          "objectives": [
+            "TX / School-bus road layouts"
+          ],
+          "refs": [
+            {
+              "source": "txbuses",
+              "section": "545.066(a), (b) and (f)"
+            }
+          ],
+          "notes": [
+            "Stop before a loading or unloading school bus operating its required warning signal, unless a statutory exception applies.",
+            "Opposite-direction traffic may be exempt on a separate roadway. A center left-turn lane alone does not create separate roadways.",
+            "Movement may resume when the bus moves, its driver signals you to proceed, or its warning signal is no longer operating."
+          ],
+          "gloss": [
+            [
+              "Separate roadways",
+              "Roadways divided by a qualifying space or barrier"
+            ],
+            [
+              "Center turn lane",
+              "A left-turn lane, not a separate-roadway barrier"
+            ],
+            [
+              "Bus warning signal",
+              "Signal requiring the approaching driver to stop"
+            ],
+            [
+              "Opposite direction",
+              "Travel toward the front of the stopped bus"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A turn lane is not a barrier",
+              "idea": [
+                "Road width alone does not establish the exception."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Treating a painted turn lane as a physical divider."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a stopped loading school bus displays its warning signal on the opposite side of a road."
+                },
+                {
+                  "text": "The only divider is a center left-turn lane. Section 545.066(f) says this is not separate roadways."
+                },
+                {
+                  "text": "Stop before reaching the bus. Do not use the opposite-direction exception."
+                }
+              ],
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ]
+            },
+            {
+              "t": "Check the exception, then the release",
+              "idea": [
+                "The exception depends on the roadway occupied by the bus."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Assuming a driver behind the bus shares an opposing-roadway exemption."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a physical barrier separates your roadway from the opposite-direction bus."
+                },
+                {
+                  "text": "The different-roadway exception can apply; it does not exempt traffic following the bus on its own roadway."
+                },
+                {
+                  "text": "If you must stop, wait until one statutory release condition occurs before proceeding."
+                }
+              ],
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "texasdriving_buses_01",
+              "q": "Texas: a loading school bus has its required warning signal operating on a two-lane undivided road. You approach from the opposite direction. What applies?",
+              "c": [
+                "Stop before reaching the bus",
+                "Pass if no child has entered your lane",
+                "Stop only if following the bus",
+                "Continue because only one lane travels each way"
+              ],
+              "why": "Section 545.066(a) covers approaching from either direction.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_02",
+              "q": "Texas: a center left-turn lane is the only separation between you and an opposing stopped school bus displaying its warning signal. Does that lane establish the separate-roadway exception?",
+              "c": [
+                "No; you must stop",
+                "Yes, if the turn lane is painted yellow",
+                "Yes, if traffic has two lanes each way",
+                "Yes, if you remain in the outer lane"
+              ],
+              "why": "Section 545.066(f)(2) specifically excludes a left-turn lane alone.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_03",
+              "q": "Texas: a concrete barrier separates your roadway from an opposing stopped school bus. Which rule is relevant?",
+              "c": [
+                "A bus on a different roadway does not require your stop under this section",
+                "Every vehicle in sight must stop regardless of roadway",
+                "Only the fastest lane is exempt",
+                "The exception requires the bus driver to wave at every opposing car"
+              ],
+              "why": "Section 545.066(b)(1) addresses a bus on a different roadway.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_04",
+              "q": "Texas: you follow a loading school bus on its roadway while its warning signal operates. A barrier separates opposing traffic. What must you do?",
+              "c": [
+                "Stop; the barrier does not exempt traffic behind the bus",
+                "Continue because the highway is divided",
+                "Pass only on the bus left side",
+                "Continue if the opposing roadway is clear"
+              ],
+              "why": "You occupy the same roadway as the bus, so the different-roadway exception does not apply.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_05",
+              "q": "Texas: you stopped for a school bus and its driver now signals you to proceed. Which listed release condition is met?",
+              "c": [
+                "The bus driver has signaled permission to proceed",
+                "The bus has necessarily stopped loading permanently",
+                "All nearby traffic has acquired priority",
+                "The road has become a separate roadway"
+              ],
+              "why": "Section 545.066(a)(2)(B) lists the driver signal as a release condition.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_06",
+              "q": "Texas: which event is a statutory release condition after a required school-bus stop?",
+              "c": [
+                "The bus resumes motion",
+                "The car behind you sounds its horn",
+                "An adult passenger gestures from your car",
+                "You have waited a fixed ten seconds"
+              ],
+              "why": "Section 545.066(a)(2)(A) lists the bus resuming motion.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_07",
+              "q": "Texas: what does a wide road with only painted lane separation change about a school-bus stop?",
+              "c": [
+                "Width alone creates no separate-roadway exception",
+                "Four lanes automatically exempt opposing traffic",
+                "A wide center lane always exempts traffic",
+                "Only vehicles in the nearest lane must stop"
+              ],
+              "why": "Section 545.066(f) requires a qualifying separation, not merely more lanes.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "texasdriving_buses_08",
+              "q": "Texas: you remain stopped while a school bus is stationary and its driver has not signaled you. Which other listed event can end the stop requirement?",
+              "c": [
+                "The required visual warning signal is no longer operating",
+                "The children have left your field of view",
+                "The adjacent car begins passing",
+                "You have checked both mirrors"
+              ],
+              "why": "Section 545.066(a)(2)(C) lists the warning signal ending.",
+              "objectives": [
+                "TX / School-bus road layouts"
+              ],
+              "refs": [
+                {
+                  "source": "txbuses",
+                  "section": "545.066(a), (b) and (f)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floridadriving",
+      "code": "Florida Driving Prep",
+      "name": "Florida signals and school-bus foundations",
+      "version": "2026 Florida Statutes; selected rules only",
+      "status": "partial",
+      "jurisdiction": "US-FL",
+      "checked": "2026-11-10",
+      "notice": "Florida only. Original practice on selected signal and school-bus rules from official state law, not official exam questions. Full handbook edition and licensing requirements have not been verified. Not a complete permit course or driving credit. Read the current official handbook.",
+      "gaps": [
+        "Full current handbook retrieval and edition review",
+        "Remaining signs, markings, right-of-way, parking, impairment and hazard topics",
+        "Permit eligibility, required documents, training and graduated-license restrictions",
+        "Full knowledge-test coverage and supervised road-test preparation"
+      ],
+      "objectives": [
+        "FL / Traffic-signal choices",
+        "FL / School-bus stopping exceptions"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "floridadriving_signals",
+          "name": "Florida steady and flashing traffic signals",
+          "objectives": [
+            "FL / Traffic-signal choices"
+          ],
+          "refs": [
+            {
+              "source": "flsignals",
+              "section": "316.075(1)(a)-(c)"
+            },
+            {
+              "source": "flflashing",
+              "section": "316.076(1)-(2)"
+            }
+          ],
+          "notes": [
+            "A permitted right turn on red follows a full stop and yielding; posted prohibitions apply.",
+            "A qualifying one-way-to-one-way left turn on red also requires stopping and yielding.",
+            "Flashing red follows stop-sign rules; flashing yellow requires caution. Section 316.076 does not cover railroad crossings."
+          ],
+          "gloss": [
+            [
+              "Steady red",
+              "Stop, with limited turn exceptions"
+            ],
+            [
+              "Flashing red",
+              "Stop and apply stop-sign rules"
+            ],
+            [
+              "Flashing yellow",
+              "Proceed with caution"
+            ],
+            [
+              "Crosswalk",
+              "Pedestrian crossing area with applicable yielding duties"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Stop before deciding to turn",
+              "idea": [
+                "A red-turn exception is conditional."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Treating an absent prohibition as permission to skip stopping."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a right turn on red is not prohibited, but pedestrians are crossing."
+                },
+                {
+                  "text": "Stop at the marked line; yield to pedestrians and traffic proceeding under the signal."
+                },
+                {
+                  "text": "Wait until the turn can be made without conflicting with those users."
+                }
+              ],
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flsignals",
+                  "section": "316.075(1)(a)-(c)"
+                }
+              ]
+            },
+            {
+              "t": "Do not swap flashing colors",
+              "idea": [
+                "A flashing road signal has a different response from a steady signal."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Applying this ordinary-signal lesson to railroad warning lights."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: an ordinary intersection signal flashes red."
+                },
+                {
+                  "text": "Stop at the marked line, or use the statutory crosswalk/view-position fallback if no line exists. Proceed under stop-sign rules."
+                },
+                {
+                  "text": "A flashing yellow instead permits cautious movement. Railroad-crossing rules are separate."
+                }
+              ],
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flflashing",
+                  "section": "316.076(1)-(2)"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "floridadriving_signals_01",
+              "q": "Florida: at an ordinary intersection with a flashing red signal, what must a driver do?",
+              "c": [
+                "Stop and apply the rules for proceeding after a stop sign",
+                "Slow and proceed without stopping",
+                "Wait for the flashing red to become green in every case",
+                "Continue if no pedestrian is present"
+              ],
+              "why": "Section 316.076(1)(a) requires a stop, then stop-sign rules.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flflashing",
+                  "section": "316.076(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_02",
+              "q": "Florida: an ordinary traffic signal flashes yellow. Which response applies?",
+              "c": [
+                "Proceed with caution",
+                "Make a mandatory full stop in every case",
+                "Treat the signal as an unconditional green arrow",
+                "Enter without yielding to any conflict"
+              ],
+              "why": "Section 316.076(1)(b) allows movement only with caution.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flflashing",
+                  "section": "316.076(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_03",
+              "q": "Florida: a right turn on a steady red is otherwise permitted, but a pedestrian has the permitted crossing signal. What applies?",
+              "c": [
+                "Stop and yield before any permitted turn",
+                "Turn because vehicles always take priority on red",
+                "Yield only if the pedestrian waves",
+                "Turn first if you reached the stop line first"
+              ],
+              "why": "Section 316.075(1)(c) preserves pedestrian and traffic priority.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flsignals",
+                  "section": "316.075(1)(a)-(c)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_04",
+              "q": "Florida: a visible No Turn on Red sign applies at your intersection. What does stopping accomplish?",
+              "c": [
+                "It satisfies the stop duty but does not authorize the prohibited turn",
+                "It cancels the posted restriction",
+                "It permits a turn after a second stop",
+                "It permits the turn whenever no vehicles approach"
+              ],
+              "why": "A posted prohibition prevents the red-light turn.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flsignals",
+                  "section": "316.075(1)(a)-(c)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_05",
+              "q": "Florida: you are on a one-way street meeting another one-way street carrying traffic to the left. When can the left-turn-on-red exception apply?",
+              "c": [
+                "After stopping and yielding, if the turn is not prohibited",
+                "After slowing, without a full stop",
+                "Only after entering the intersection on red",
+                "Whenever the destination street has two lanes"
+              ],
+              "why": "Section 316.075(1)(c) describes this one-way-street exception.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flsignals",
+                  "section": "316.075(1)(a)-(c)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_06",
+              "q": "Florida: a circular green light appears while another vehicle is lawfully within the intersection. What applies?",
+              "c": [
+                "Yield to the vehicle already lawfully there",
+                "Proceed because the new green cancels all conflicts",
+                "Yield only if the vehicle is an emergency vehicle",
+                "Enter first and require the other vehicle to brake"
+              ],
+              "why": "Section 316.075(1)(a) retains the yielding requirement.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flsignals",
+                  "section": "316.075(1)(a)-(c)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_07",
+              "q": "Florida: a clearly marked stop line is present at a flashing red ordinary intersection signal. Where is the required stop?",
+              "c": [
+                "At the marked stop line",
+                "Inside the crosswalk after checking both sides",
+                "Only beside the signal pole",
+                "At the middle of the intersecting road"
+              ],
+              "why": "Section 316.076(1)(a) gives the marked line first priority.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flflashing",
+                  "section": "316.076(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_signals_08",
+              "q": "Florida: can the ordinary flashing-signal rule in section 316.076 be used as the full rule for a railroad-highway crossing?",
+              "c": [
+                "No; the section expressly excludes those crossings",
+                "Yes; every flashing light has identical rules",
+                "Yes, if the train is not yet visible",
+                "Yes, but only during daylight"
+              ],
+              "why": "Section 316.076(2) directs railroad crossings to separate provisions.",
+              "objectives": [
+                "FL / Traffic-signal choices"
+              ],
+              "refs": [
+                {
+                  "source": "flflashing",
+                  "section": "316.076(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "floridadriving_buses",
+          "name": "Florida school buses and median exceptions",
+          "objectives": [
+            "FL / School-bus stopping exceptions"
+          ],
+          "refs": [
+            {
+              "source": "flbuses",
+              "section": "316.172(1)-(2)"
+            }
+          ],
+          "notes": [
+            "Stop for a stopped school bus displaying its stop signal and do not pass until that signal is withdrawn.",
+            "The opposing-direction exception requires an unpaved space at least five feet wide, a raised median, or a physical barrier.",
+            "An ordinary paved center turn lane does not satisfy that exception; following traffic must still stop."
+          ],
+          "gloss": [
+            [
+              "Unpaved space",
+              "Nonpaved separation; five-foot minimum for this exception"
+            ],
+            [
+              "Raised median",
+              "Elevated divider listed separately in the statute"
+            ],
+            [
+              "Physical barrier",
+              "A physical divider between opposing traffic"
+            ],
+            [
+              "Stop signal",
+              "Bus signal that must be withdrawn before passing"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Test the actual divider",
+              "idea": [
+                "The five-foot condition applies to unpaved space."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Treating any narrow strip of grass as sufficient."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: you approach an opposing school bus across an unpaved divider four feet wide, with no raised median or barrier."
+                },
+                {
+                  "text": "That divider fails the at-least-five-foot unpaved-space condition."
+                },
+                {
+                  "text": "Stop for the displayed bus stop signal. A five-foot unpaved space would meet that specific divider condition."
+                }
+              ],
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ]
+            },
+            {
+              "t": "The exception belongs to opposing traffic",
+              "idea": [
+                "A divided highway does not exempt everyone."
+              ],
+              "recipe": [
+                "Read the signal and road layout.",
+                "Identify who must wait.",
+                "Apply the cited state rule before moving."
+              ],
+              "oops": [
+                "Using an opposing-direction exception while following the bus."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a raised median separates the two directions."
+                },
+                {
+                  "text": "An opposing driver can qualify for the exception; a driver behind the bus cannot use it."
+                },
+                {
+                  "text": "Following traffic stops for the bus stop signal and must not pass until it is withdrawn."
+                }
+              ],
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "floridadriving_buses_01",
+              "q": "Florida: a stopped school bus displays its stop signal on an undivided two-way road. You approach from the opposite direction. What must you do?",
+              "c": [
+                "Come to a full stop",
+                "Continue if the bus doors face away from you",
+                "Stop only if children have reached your lane",
+                "Continue if two cars ahead have passed"
+              ],
+              "why": "Section 316.172 requires a full stop unless its divided-highway exception applies.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_02",
+              "q": "Florida: you are behind a stopped school bus displaying its stop signal on a divided highway. Does the opposing-direction exception cover you?",
+              "c": [
+                "No; you must stop",
+                "Yes, whenever the highway has a median",
+                "Yes, if you can pass in another lane",
+                "Yes, when the speed limit is high"
+              ],
+              "why": "Section 316.172(2) exempts qualifying opposing traffic, not following traffic.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_03",
+              "q": "Florida: opposing traffic is separated from a stopped school bus by an unpaved space exactly five feet wide. With no other conflict, which bus-stop rule applies to that opposing driver?",
+              "c": [
+                "The statutory divider exception can apply",
+                "The unpaved space must be more than five feet",
+                "The exception applies only at six feet",
+                "The exception requires a painted center turn lane as well"
+              ],
+              "why": "At least five feet includes exactly five feet.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_04",
+              "q": "Florida: an opposing school bus has its stop signal displayed. Only four feet of unpaved space separates directions, with no raised median or barrier. What applies?",
+              "c": [
+                "Stop; this unpaved space is too narrow for the exception",
+                "Continue because any grass divider is enough",
+                "Continue because opposing traffic is always exempt",
+                "Stop only if the bus driver gestures"
+              ],
+              "why": "The unpaved-space alternative requires at least five feet.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_05",
+              "q": "Florida: which divider is separately listed as qualifying for the opposing-direction school-bus exception?",
+              "c": [
+                "A raised median",
+                "An ordinary painted center turn lane",
+                "A broken yellow centerline",
+                "A wide paved shoulder on your side"
+              ],
+              "why": "Section 316.172(2) lists raised medians separately from the five-foot unpaved-space alternative.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_06",
+              "q": "Florida: a paved road has several lanes in each direction and only an ordinary painted center turn lane between them. An opposing school bus displays its stop signal. What applies?",
+              "c": [
+                "Stop; the described divider does not meet the statutory exception",
+                "Continue because the road has multiple lanes",
+                "Continue if you use the farthest lane",
+                "Stop only if another driver has stopped"
+              ],
+              "why": "The exception requires a qualifying unpaved space, raised median or physical barrier.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_07",
+              "q": "Florida: while you wait behind a stopped school bus, its stop signal remains displayed and a passenger says all children are seated. May you pass on that basis?",
+              "c": [
+                "No; wait until the stop signal is withdrawn",
+                "Yes, because a passenger can release traffic",
+                "Yes, after checking the bus windows",
+                "Yes, if the bus has no visible pedestrians beside it"
+              ],
+              "why": "Section 316.172(1)(a) prohibits passing until the stop signal is withdrawn.",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "floridadriving_buses_08",
+              "q": "Florida: a physical barrier separates your opposite-direction roadway from a stopped school bus. Which statement matches the exception?",
+              "c": [
+                "Opposing traffic is not required to stop under this bus provision",
+                "Every vehicle on both roadways must stop",
+                "Only drivers behind the bus are exempt",
+                "The physical barrier must also be an unpaved space"
+              ],
+              "why": "A physical barrier is one of the separate alternatives in section 316.172(2).",
+              "objectives": [
+                "FL / School-bus stopping exceptions"
+              ],
+              "refs": [
+                {
+                  "source": "flbuses",
+                  "section": "316.172(1)-(2)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
     }
   ],
   "drivingJurisdictions": [
@@ -20963,7 +22227,7 @@
     {
       "code": "US-FL",
       "name": "Florida",
-      "track": null,
+      "track": "floridadriving",
       "foundation": "drivingfoundations"
     },
     {
@@ -21167,7 +22431,7 @@
     {
       "code": "US-TX",
       "name": "Texas",
-      "track": null,
+      "track": "texasdriving",
       "foundation": "drivingfoundations"
     },
     {
