@@ -3656,7 +3656,7 @@ window.STUDYGOAT_CATALOG = {
     {
       "id": "faa107",
       "code": "FAA Part 107",
-      "name": "Remote pilot regulations foundation",
+      "name": "FAA Part 107 drone remote pilot prep",
       "version": "UAG / ACS-10B",
       "status": "partial",
       "notice": "Partial UAG preparation. Examples assume ordinary Part 107 operations with no waiver unless stated. TRUST and CAP sUAS qualifications are separate. This app grants no FAA certificate.",

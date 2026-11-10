@@ -74,3 +74,7 @@ Added 21 achievement/milestone study summaries, official requirement links, mapp
 ## FAA loading, weather and decisions
 
 Added ten lessons and 40 original questions on weight/balance, density altitude, fixed-wing load factors/stalls, thunderstorm/wind hazards and PAVE decisions. FAA track totals: 19 lessons and 82 questions. Overall: 103 lessons, 444 questions. All tracks remain partial.
+
+## Searchable course categories
+
+Replaced the long home-course list with Classes, Certifications and Driving Tests. Added category course search, state search, result counts and empty states. Preserved class tools and course progress. Removed built-in professor names and clarified FAA drone focus.

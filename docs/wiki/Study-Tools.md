@@ -50,3 +50,6 @@ See [Getting Started](https://github.com/test3457890/StudyGOAT/wiki/Getting-Star
 ## Sourced track practice
 
 New tracks use fixed original questions with checked source sections. Their Practice Test uses ten distinct questions and an optional timer, rather than the university course's mixed-format test builder. No full certification exam simulation is enabled. Question explanations include source links and stable question IDs. Source review dates and missing coverage are available in Sources & coverage.
+
+
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from planned states across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
