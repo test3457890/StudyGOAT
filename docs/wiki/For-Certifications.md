@@ -1,6 +1,6 @@
 # Certifications and professional learning
 
-Updated 2026-11-10. StudyGOAT offers nine independent study tracks. All are partial.
+Updated 2026-11-10. StudyGOAT offers 10 sourced study tracks, including the shared national driving foundation. All are partial.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -13,6 +13,9 @@ Updated 2026-11-10. StudyGOAT offers nine independent study tracks. All are part
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
+
+Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 

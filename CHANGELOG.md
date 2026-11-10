@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-10: Current study status documentation
+
+- Updated the README and Wiki status tables to include National Driving Foundations, with four shared lessons and 16 questions.
+- Corrected current totals to 10 sourced tracks, 107 lessons and 460 questions, counting the shared bank once.
+- Kept the distinction between all-state access and four partial state-specific courses explicit. Remaining state courses and all program coverage gaps remain unfinished.
+
 ## 2026-11-09: Security+ foundation stage
 
 - Added four lessons, 24 original questions and glossary cards for portions of SY0-701 objectives 1.2, 1.3 and 1.4.

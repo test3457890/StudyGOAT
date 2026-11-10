@@ -13,6 +13,9 @@ Updated November 10, 2026. Every sourced program is partial. Counts and a chapte
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
+
+Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 ## Learn to Lead chapter inventory
 
@@ -134,7 +137,7 @@ November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
 
 
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. At that stage, totals were 103 lessons and 444 questions, before the shared national driving course was added.
 
 
 ## National driving foundations for every state

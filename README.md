@@ -12,7 +12,7 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 
 ## Study program status
 
-Updated November 10, 2026. All nine sourced tracks have partial coverage, not complete certification courses.
+Updated November 10, 2026. All 10 sourced tracks have partial coverage. None is a complete certification or state permit course.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -25,6 +25,9 @@ Updated November 10, 2026. All nine sourced tracks have partial coverage, not co
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
+
+Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 Each new track includes source links, section/objective mappings, version notices, coverage gaps, glossary cards, worked scenarios and ten-question practice tests without duplicate questions. Timers are optional practice pacing. Raw scores do not reproduce official scoring or establish readiness.
 
@@ -69,16 +72,16 @@ The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains the 
 
 The repository has no project license. No license was added.
 
-Latest expansion: selected lessons and original practice now exist in all 16 CAP Learn to Lead chapters, with chapter-specific quizzes. Added California and New York partial driving programs, Security+ governance/assets/incident response, Part 107 METAR/TAF exercises and Technician electronics/radio foundations. Totals: 103 lessons and 444 questions across nine partial sourced tracks.
+Earlier curriculum expansion, before the national driving foundation: selected lessons and original practice now exist in all 16 CAP Learn to Lead chapters, with chapter-specific quizzes. Added California and New York partial driving programs, Security+ governance/assets/incident response, Part 107 METAR/TAF exercises and Technician electronics/radio foundations. Totals: 103 lessons and 444 questions across nine partial sourced tracks.
 
 
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
 
 
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. At that stage, totals were 103 lessons and 444 questions, before the shared national driving course was added.
 
 
-Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from planned states across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from states offering only shared national foundations across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
 
 
 CPSC 222 lecture update: added four topics and eight lessons on finite state machines, turnstile transition matrices, a binary suffix-01 DFA and Python/login-state design, with 32 original questions. The interactive FSM lab traces turnstile events and binary strings. Access through Classes > CPSC 222. Content summarizes the uploaded lecture; the slide deck and professor name are not published. Certification/driving counts are unchanged.

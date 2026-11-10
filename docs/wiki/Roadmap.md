@@ -1,6 +1,6 @@
 # Development roadmap
 
-Updated November 10, 2026. The app and Wiki are published. All nine sourced tracks remain partial. See the [detailed coverage checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) for the current inventory.
+Updated November 10, 2026. The app and Wiki are published. All 10 sourced tracks remain partial. See the [detailed coverage checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) for the current inventory.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -13,6 +13,9 @@ Updated November 10, 2026. The app and Wiki are published. All nine sourced trac
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
+
+Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 ## Next implementation stages
 
@@ -31,10 +34,10 @@ Preserve original tools and progress. Recheck sources and deadlines. Test actual
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
 
 
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. At that stage, totals were 103 lessons and 444 questions, before the shared national driving course was added.
 
 
-Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from planned states across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from states offering only shared national foundations across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
 
 
 CPSC 222 lecture update: added four topics and eight lessons on finite state machines, turnstile transition matrices, a binary suffix-01 DFA and Python/login-state design, with 32 original questions. The interactive FSM lab traces turnstile events and binary strings. Access through Classes > CPSC 222. Content summarizes the uploaded lecture; the slide deck and professor name are not published. Certification/driving counts are unchanged.

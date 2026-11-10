@@ -32,7 +32,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 
 ## Current project status
 
-StudyGOAT is an early, functional browser application. Its source code includes two university courses plus nine sourced study tracks with partial coverage, 103 lessons and 444 original questions. Study activities, progress tracking and optional AI tools for university/custom courses remain available. The availability of AI features depends on how the program is opened and which AI provider has been configured.
+StudyGOAT is an early, functional browser application. Its source code includes two university courses plus 10 sourced study tracks with partial coverage, 107 lessons and 460 original questions. Study activities, progress tracking and optional AI tools for university/custom courses remain available. The availability of AI features depends on how the program is opened and which AI provider has been configured.
 
 The [roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap) separates existing capabilities from proposals. A public GitHub repository does not automatically mean the GitHub Pages website is live.
 
@@ -43,7 +43,7 @@ StudyGOAT is an independent learning tool. It is not endorsed by any school, emp
 Repository: https://github.com/test3457890/StudyGOAT
 
 
-All nine sourced tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The Wiki is published. GitHub Pages deployment has been enabled.
+All 10 sourced tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The Wiki is published. GitHub Pages deployment has been enabled.
 
 Arizona, New Jersey, California and New York have partial driving modules. The state directory tracks all 50 states and DC. See [Arizona driving prep](https://github.com/test3457890/StudyGOAT/wiki/Arizona-Driving-Prep).
 
@@ -52,3 +52,5 @@ Arizona, New Jersey, California and New York have partial driving modules. The s
 
 - [California Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/California-Driving-Prep)
 - [New York Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/New-York-Driving-Prep)
+
+The shared National Driving Foundations course contains four lessons and 16 original questions, accessible through all 50 states and DC. It is counted once. Only Arizona, New Jersey, California and New York currently have partial state-specific courses; the other 46 states and DC still need manual-based content.
