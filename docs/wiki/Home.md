@@ -32,7 +32,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 
 ## Current project status
 
-StudyGOAT is an early, functional browser application. Its source code includes two built-in university courses, study activities, progress tracking, an optional AI tutor, and tools for building custom study areas. The availability of AI features depends on how the program is opened and which AI provider has been configured.
+StudyGOAT is an early, functional browser application. Its source code includes two university courses plus five partial introductory study tracks with 13 lessons and 78 original questions. Study activities, progress tracking and optional AI tools for university/custom courses remain available. The availability of AI features depends on how the program is opened and which AI provider has been configured.
 
 The [roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap) separates existing capabilities from proposals. A public GitHub repository does not automatically mean the GitHub Pages website is live.
 
@@ -42,3 +42,5 @@ StudyGOAT is an independent learning tool. It is not endorsed by any school, emp
 
 Repository: https://github.com/test3457890/StudyGOAT
 
+
+All five new tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The live Wiki has not been published; these are source drafts.

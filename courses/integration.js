@@ -1,5 +1,6 @@
 /* Adapter for the existing standalone study engine. No progress migration. */
 'use strict';
+function installStudyPrograms() {
 const CERT = window.STUDYGOAT_CATALOG;
 const certTrack = () => CERT.tracks.find(t => t.id === CC);
 const certTopic = id => CERT.tracks.flatMap(t => t.topics).find(t => t.id === id);
@@ -100,4 +101,19 @@ const legacyQid=qid;
 qid=function(q){return q.sourceId ? q.topic+'|'+q.sourceId : legacyQid(q);};
 const legacyRecordMiss=recordMiss;
 recordMiss=function(q){legacyRecordMiss(q);const m=(S.missed||[]).find(m=>m.id===qid(q));if(m&&q.sourceId)Object.assign(m,{sourceId:q.sourceId,objectives:q.objectives,refs:q.refs});};
+// Export a self-contained app without saved progress, uploaded documents or API keys.
+const basePristine=getPristine;
+getPristine=function(){
+  const d=new DOMParser().parseFromString(basePristine(),'text/html');
+  const catalog=d.createElement('script');
+  catalog.textContent='window.STUDYGOAT_CATALOG = '+JSON.stringify(CERT).replace(/</g,'\\u003c')+';';
+  d.body.append(catalog);
+  const adapter=d.createElement('script');
+  adapter.textContent=installStudyPrograms.toString()+';installStudyPrograms();';
+  d.body.append(adapter);
+  return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
+};
+Object.assign(window,{certSources,startCertExam});
 menu();
+}
+installStudyPrograms();

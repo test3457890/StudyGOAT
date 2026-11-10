@@ -1,6 +1,6 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('node:path');
-(async()=>{const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--no-sandbox']});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('file://'+path.resolve('StudyGOAT.html'));await page.waitForFunction(()=>typeof CERT!=='undefined');
-const tracks=await page.evaluate(()=>CERT.tracks.map(t=>t.id));
+(async()=>{const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--no-sandbox']});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('file://'+path.resolve('StudyGOAT.html'));await page.waitForFunction(()=>typeof installStudyPrograms==='function');
+const tracks=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.map(t=>t.id));
 for(const id of ['cs315','cpsc222',...tracks]){
  await page.evaluate(id=>enterCourse(id),id);assert(await page.locator('.topic').count()>0,id);
  await page.evaluate(()=>practice(CT()[0]));await page.evaluate(()=>{if(cur._typed){document.getElementById('tin').value=cur.answer;answerTyped();}else answer(cur.choices.indexOf(cur.answer));});assert.match(await page.locator('#fb').innerText(),/Correct/);
@@ -15,6 +15,13 @@ for(const id of tracks){await page.evaluate(id=>enterCourse(id),id);await page.e
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
 const stats=await page.evaluate(()=>JSON.stringify(S.stats));await page.reload();assert.equal(await page.evaluate(()=>JSON.stringify(S.stats)),stats);
-await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(CERT.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(window.STUDYGOAT_CATALOG.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
 await page.evaluate(()=>menu());await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
+const fs=require('node:fs'),os=require('node:os');
+const exportDir=fs.mkdtempSync(path.join(os.tmpdir(),'studygoat-export-'));
+const exportPath=path.join(exportDir,'StudyGOAT.html');
+fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
+const exported=await browser.newPage();await exported.goto('file://'+exportPath);
+assert.equal(await exported.locator('.course[role=button]').count(),9,'Export preserves both original courses, five tracks and two tools');
+await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

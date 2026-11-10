@@ -1,2 +1,1 @@
-StudyGOAT is an independent study companion for students and professionals. [Repository](https://github.com/test3457890/StudyGOAT) | [Report an issue](https://github.com/test3457890/StudyGOAT/issues) | [Roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap)
-
+StudyGOAT is an independent study companion. All new certification tracks are partial. Source checks: 2026-11-09. No credentials, official credit or pass guarantee. [Repository](https://github.com/test3457890/StudyGOAT) | [Report a question issue](https://github.com/test3457890/StudyGOAT/issues)

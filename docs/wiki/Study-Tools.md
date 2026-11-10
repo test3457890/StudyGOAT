@@ -46,3 +46,7 @@ Generated or user-built content can contain errors. Verify important explanation
 
 See [Getting Started](https://github.com/test3457890/StudyGOAT/wiki/Getting-Started) for a quick walkthrough.
 
+
+## Sourced track practice
+
+New tracks use fixed original questions with checked source sections. Their Practice Test uses ten distinct questions and an optional timer, rather than the university course's mixed-format test builder. No full certification exam simulation is enabled. Question explanations include source links and stable question IDs. Source review dates and missing coverage are available in Sources & coverage.
