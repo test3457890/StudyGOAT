@@ -236,6 +236,96 @@ window.STUDYGOAT_CATALOG = {
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "Original summaries only. Source remains copyrighted; no exam questions copied."
+    },
+    "cisaworld": {
+      "publisher": "CISA",
+      "title": "Secure Our World: Four Easy Ways",
+      "url": "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf",
+      "version": "Tip sheet, August 14, 2023",
+      "sections": [
+        "Phishing",
+        "Passwords and MFA",
+        "Updates"
+      ],
+      "status": "verified",
+      "effective": "Tip sheet, August 14, 2023",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "faarid": {
+      "publisher": "FAA",
+      "title": "Remote Identification of Drones",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "version": "Current FAA guidance checked November 9, 2026",
+      "sections": [
+        "Ways to be Remote ID compliant",
+        "Which drones must comply"
+      ],
+      "status": "verified",
+      "effective": "Current FAA guidance checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capvalues": {
+      "publisher": "CAP National Headquarters",
+      "title": "Cadet Core Values examples, Cadet Welcome Course 3.9",
+      "url": "https://www.gocivilairpatrol.com/media/cms/3_01fe07d9b5cf8.pdf",
+      "version": "Public lesson, checked November 9, 2026",
+      "sections": [
+        "Discussion topic 1, printed page 2"
+      ],
+      "status": "verified",
+      "effective": "Public lesson, checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "cdcheat": {
+      "publisher": "CDC",
+      "title": "About Heat and Your Health",
+      "url": "https://www.cdc.gov/heat-health/about/index.html",
+      "version": "July 20, 2026",
+      "sections": [
+        "Stay Cool",
+        "Stay Hydrated"
+      ],
+      "status": "verified",
+      "effective": "July 20, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "cdcheatsigns": {
+      "publisher": "CDC",
+      "title": "Heat-related illnesses",
+      "url": "https://www.cdc.gov/natural-disasters/media/pdfs/2026/09/Heat_Related_Illness-NEWLOGO.pdf",
+      "version": "CDC public heat-illness chart, checked November 9, 2026",
+      "sections": [
+        "Heat stroke",
+        "Heat exhaustion"
+      ],
+      "status": "verified",
+      "effective": "CDC public heat-illness chart, checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "fcc113": {
+      "publisher": "FCC / eCFR",
+      "title": "Prohibited transmissions",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.113",
+      "version": "47 CFR 97.113, checked November 9, 2026",
+      "sections": [
+        "97.113(a)(2)-(5)",
+        "97.113(b)"
+      ],
+      "status": "verified",
+      "effective": "47 CFR 97.113, checked November 9, 2026",
+      "checked": "2026-11-09",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
     }
   },
   "tracks": [
@@ -1328,6 +1418,412 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "security701_phishing",
+          "name": "Phishing and account defenses",
+          "objectives": [
+            "2.2",
+            "4.6",
+            "5.6"
+          ],
+          "refs": [
+            {
+              "source": "cisaworld",
+              "section": "Phishing"
+            },
+            {
+              "source": "cisaworld",
+              "section": "Passwords and MFA"
+            },
+            {
+              "source": "cisaworld",
+              "section": "Updates"
+            }
+          ],
+          "notes": [
+            "Phishing tries to obtain information or cause a harmful action.",
+            "Urgency and attractive offers can be warning signs.",
+            "Unique passwords reduce the harm of password reuse.",
+            "MFA adds a protection beyond a password.",
+            "Updates repair security flaws; reporting suspicious messages helps others respond."
+          ],
+          "gloss": [
+            [
+              "Phishing",
+              "Deceptive messaging used to induce harmful action"
+            ],
+            [
+              "MFA",
+              "An additional authentication protection beyond a password"
+            ],
+            [
+              "Password manager",
+              "Software for creating and storing passwords"
+            ],
+            [
+              "Security update",
+              "Software change that repairs a security flaw"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Recognize the request",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "idea": [
+                "Judge what the message asks you to do.",
+                "Avoid interacting with a suspected phishing message."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating urgent language as proof the request is legitimate."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A message says your account will close unless you sign in immediately."
+                },
+                {
+                  "text": "The request combines urgency with an action involving credentials."
+                },
+                {
+                  "text": "Do not use its link or attachment. Follow your organization's reporting process."
+                },
+                {
+                  "text": "A familiar display name does not make the request trustworthy."
+                }
+              ]
+            },
+            {
+              "t": "Build layers around accounts",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "idea": [
+                "Use distinct passwords and MFA.",
+                "Software maintenance remains important."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming MFA makes all messages safe."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A reused password can expose several accounts if it becomes known."
+                },
+                {
+                  "text": "Use a password manager to support unique account passwords."
+                },
+                {
+                  "text": "Enable MFA where available."
+                },
+                {
+                  "text": "Keep software updated; one protection does not replace the others."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "security701_phishing_01",
+              "q": "A message threatens immediate account closure unless you open its sign-in link. Which warning sign stands out?",
+              "c": [
+                "Pressure to act urgently",
+                "A normal scheduled reminder",
+                "A verified request through an established workflow",
+                "A routine public announcement"
+              ],
+              "why": "Urgency can push a recipient into acting without checking.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_02",
+              "q": "What is a suitable response to a suspected phishing message?",
+              "c": [
+                "Report it through the established process without engaging",
+                "Reply to ask whether it is genuine",
+                "Open its attachment to investigate",
+                "Forward its live link to every colleague"
+              ],
+              "why": "Reporting supports response without following the suspicious request.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_03",
+              "q": "A message promises an implausibly large prize in return for account details. What should you recognize?",
+              "c": [
+                "A possible phishing attempt",
+                "Proof of sender identity",
+                "A required password reset",
+                "A security software update"
+              ],
+              "why": "Unrealistic offers can be used to lure recipients.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_04",
+              "q": "Why use a different password for each account?",
+              "c": [
+                "A disclosed password is less likely to unlock other accounts",
+                "It removes the need for MFA",
+                "It prevents every possible attack",
+                "It makes updates unnecessary"
+              ],
+              "why": "Unique passwords reduce exposure from reuse.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_05",
+              "q": "Which tool can help create and store unique passwords?",
+              "c": [
+                "A password manager",
+                "A shared public spreadsheet",
+                "A reusable email signature",
+                "A browser screenshot album"
+              ],
+              "why": "Password managers support generating and storing distinct passwords.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_06",
+              "q": "What does MFA add to a password-based sign-in?",
+              "c": [
+                "Another layer of authentication protection",
+                "Guaranteed immunity to phishing",
+                "Permission to share passwords",
+                "Automatic approval of all emails"
+              ],
+              "why": "MFA strengthens sign-in but is not a universal guarantee.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_07",
+              "q": "Why do security updates matter?",
+              "c": [
+                "They can repair exploitable software flaws",
+                "They certify every installed file as harmless",
+                "They replace all access controls",
+                "They prove a message came from a colleague"
+              ],
+              "why": "Updates address defects in software.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "security701_phishing_08",
+              "q": "A team enables MFA but leaves vulnerable software unpatched. What remains necessary?",
+              "c": [
+                "Maintain software updates as well",
+                "Disable MFA before updating",
+                "Share the MFA codes with the team",
+                "Treat the system as fully protected"
+              ],
+              "why": "Authentication and software maintenance address different weaknesses.",
+              "objectives": [
+                "2.2",
+                "4.6",
+                "5.6"
+              ],
+              "refs": [
+                {
+                  "source": "cisaworld",
+                  "section": "Phishing"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Passwords and MFA"
+                },
+                {
+                  "source": "cisaworld",
+                  "section": "Updates"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
         }
       ],
       "exam": {
@@ -1349,13 +1845,14 @@ window.STUDYGOAT_CATALOG = {
         "Sectional chart interpretation and licensed illustrations",
         "Weather reports and forecasting",
         "Loading and performance",
-        "Remote ID, night operations and operations over people",
+        "Remaining Remote ID detail, night operations and operations over people",
         "Radio procedures, emergency decisions and 60-question blueprint"
       ],
       "objectives": [
         "I.B",
         "II.B",
-        "V.F"
+        "V.F",
+        "I.F"
       ],
       "topics": [
         {
@@ -2269,6 +2766,346 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "faa107_remoteid",
+          "name": "Remote ID pathways",
+          "objectives": [
+            "I.F"
+          ],
+          "refs": [
+            {
+              "source": "faarid",
+              "section": "Ways to be Remote ID compliant"
+            },
+            {
+              "source": "faarid",
+              "section": "Which drones must comply"
+            }
+          ],
+          "notes": [
+            "Registered drones and drones required to be registered must comply with Remote ID rules.",
+            "Standard Remote ID is built into the aircraft.",
+            "A broadcast module can retrofit an aircraft and broadcasts the takeoff location.",
+            "The module pathway requires the pilot to see the aircraft throughout flight.",
+            "A drone without Remote ID equipment using a FRIA must stay inside it and within visual line of sight."
+          ],
+          "gloss": [
+            [
+              "Remote ID",
+              "Broadcast identification and location information"
+            ],
+            [
+              "Standard Remote ID",
+              "Built-in compliant broadcast capability"
+            ],
+            [
+              "Broadcast module",
+              "Device that adds Remote ID broadcast capability"
+            ],
+            [
+              "FRIA",
+              "FAA-recognized identification area"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Compare the pathways",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "idea": [
+                "Standard Remote ID and modules send different location information.",
+                "A FRIA is a defined area, not a personal designation."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing a Remote ID pathway with an airspace clearance."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Identify whether the aircraft has Standard Remote ID."
+                },
+                {
+                  "text": "If it does not, investigate a compliant module or an applicable FRIA pathway."
+                },
+                {
+                  "text": "A module identifies its takeoff location; Standard Remote ID identifies the control station location."
+                },
+                {
+                  "text": "Check all other operating requirements separately."
+                }
+              ]
+            },
+            {
+              "t": "Apply the boundaries",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "idea": [
+                "Modules and FRIAs have visual limits.",
+                "Remote ID does not replace the rest of flight planning."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming any open field is a FRIA."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A pilot plans a flight using an attached broadcast module."
+                },
+                {
+                  "text": "Plan to see the aircraft throughout the flight."
+                },
+                {
+                  "text": "Do not treat the module as permission to operate beyond visual range."
+                },
+                {
+                  "text": "For an unequipped aircraft using a FRIA, keep the flight within the FRIA as well."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_remoteid_01",
+              "q": "Which aircraft does FAA guidance include in Remote ID compliance?",
+              "c": [
+                "Drones that are registered or required to be registered",
+                "Only drones carrying passengers",
+                "Only drones sold after this year",
+                "Only recreational drones"
+              ],
+              "why": "The FAA applies this to registered and registration-required drones.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_02",
+              "q": "What distinguishes Standard Remote ID from an attached module?",
+              "c": [
+                "Standard Remote ID is built into the drone",
+                "Standard Remote ID is a paper permit",
+                "A module is an airspace authorization",
+                "Standard Remote ID replaces registration"
+              ],
+              "why": "Standard Remote ID capability is produced as part of the aircraft.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_03",
+              "q": "Which location does the broadcast-module pathway identify alongside aircraft information?",
+              "c": [
+                "The takeoff location",
+                "Only the closest airport",
+                "Only the pilot's home address",
+                "Only the planned destination"
+              ],
+              "why": "The FAA distinguishes takeoff location from the Standard Remote ID control-station location.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_04",
+              "q": "What visual requirement applies to pilots using a Remote ID broadcast module?",
+              "c": [
+                "They must be able to see the drone throughout flight",
+                "Only see the drone before takeoff",
+                "Only see its video feed",
+                "Only see the controller screen"
+              ],
+              "why": "The module pathway requires continuous ability to see the aircraft.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_05",
+              "q": "What does FRIA mean?",
+              "c": [
+                "FAA-recognized identification area",
+                "Flight radio interference alert",
+                "Federal runway inspection authority",
+                "First responder instrument approach"
+              ],
+              "why": "A FRIA is a defined FAA-recognized geographic area.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_06",
+              "q": "An unequipped drone uses a FRIA pathway. Where must it remain?",
+              "c": [
+                "Within the FRIA and visual line of sight",
+                "Anywhere within radio range",
+                "Anywhere below controlled airspace",
+                "Outside the FRIA after takeoff"
+              ],
+              "why": "Both the area and visual limits apply.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_07",
+              "q": "What may a compliant broadcast module do for an older aircraft?",
+              "c": [
+                "Add Remote ID broadcast capability",
+                "Grant automatic night-flight approval",
+                "Replace the remote pilot certificate",
+                "Remove every registration requirement"
+              ],
+              "why": "The module can retrofit broadcast capability without granting unrelated permissions.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "faa107_remoteid_08",
+              "q": "Which information is associated with Standard Remote ID in the FAA comparison?",
+              "c": [
+                "Drone and control station location",
+                "Only the battery purchase date",
+                "Only a club membership number",
+                "Only the pilot's driving licence number"
+              ],
+              "why": "The FAA contrasts the control station location with the module's takeoff location.",
+              "objectives": [
+                "I.F"
+              ],
+              "refs": [
+                {
+                  "source": "faarid",
+                  "section": "Ways to be Remote ID compliant"
+                },
+                {
+                  "source": "faarid",
+                  "section": "Which drones must comply"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
         }
       ],
       "exam": {
@@ -2295,7 +3132,8 @@ window.STUDYGOAT_CATALOG = {
       "objectives": [
         "Phase I / Curry / eligibility",
         "Phase I / Curry / leadership",
-        "Testing integrity"
+        "Testing integrity",
+        "Phase I / Core Values"
       ],
       "topics": [
         {
@@ -2797,6 +3635,301 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "capcadet_values",
+          "name": "Applying the four Core Values",
+          "objectives": [
+            "Phase I / Core Values"
+          ],
+          "refs": [
+            {
+              "source": "capvalues",
+              "section": "Discussion topic 1, printed page 2"
+            }
+          ],
+          "notes": [
+            "Integrity includes honesty, accountability and following rules.",
+            "Volunteer Service puts the community and team ahead of self.",
+            "Excellence means preparation and continued improvement.",
+            "Respect includes fair treatment and attention to others' feelings."
+          ],
+          "gloss": [
+            [
+              "Integrity First",
+              "Honest and accountable conduct"
+            ],
+            [
+              "Volunteer Service",
+              "Service to the community and team"
+            ],
+            [
+              "Excellence in All We Do",
+              "Preparation and continued improvement"
+            ],
+            [
+              "Respect",
+              "Fair and considerate treatment of others"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Identify the behavior",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "idea": [
+                "Use concrete actions to explain a value.",
+                "Several values can support the same action."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming values only apply while wearing a uniform."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A cadet discovers an error in a task they completed."
+                },
+                {
+                  "text": "Admitting the mistake and taking responsibility illustrates integrity."
+                },
+                {
+                  "text": "Practicing the skill afterward also supports excellence."
+                },
+                {
+                  "text": "Name the behavior before choosing the best-fitting value."
+                }
+              ]
+            },
+            {
+              "t": "Choose a team response",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "idea": [
+                "Service is more than seeking recognition.",
+                "Respect applies when disagreeing."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating a scenario as an official controlled examination."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A teammate needs help preparing for a task."
+                },
+                {
+                  "text": "Offer useful help rather than competing for attention."
+                },
+                {
+                  "text": "Listen and treat the teammate fairly."
+                },
+                {
+                  "text": "Prepare yourself too, so your help is reliable."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_values_01",
+              "q": "A cadet admits a mistake rather than hiding it. Which value is most directly illustrated?",
+              "c": [
+                "Integrity First",
+                "Volunteer Service",
+                "Excellence in All We Do",
+                "Respect"
+              ],
+              "why": "Honesty and accountability are listed under integrity.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_02",
+              "q": "Which action most directly illustrates Volunteer Service?",
+              "c": [
+                "Helping the team even when there is no personal recognition",
+                "Claiming someone else's work",
+                "Avoiding every community task",
+                "Seeking credit before agreeing to help"
+              ],
+              "why": "Service places the team and community ahead of self.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_03",
+              "q": "A cadet practices and arrives prepared to improve performance. Which value best fits?",
+              "c": [
+                "Excellence in All We Do",
+                "Integrity First",
+                "Volunteer Service",
+                "Respect"
+              ],
+              "why": "Preparation and improvement are examples of excellence.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_04",
+              "q": "Which action most clearly illustrates Respect?",
+              "c": [
+                "Treating another member fairly during a disagreement",
+                "Dismissing their concerns because of rank",
+                "Making jokes about their mistake",
+                "Refusing to listen to them"
+              ],
+              "why": "Fairness and consideration support respect.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_05",
+              "q": "A cadet follows the rules even when nobody is watching. Which value is most directly shown?",
+              "c": [
+                "Integrity First",
+                "Excellence in All We Do",
+                "Volunteer Service",
+                "Respect"
+              ],
+              "why": "Integrity applies without an audience.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_06",
+              "q": "A new member is excluded from a conversation. Which response supports Respect?",
+              "c": [
+                "Include them and listen to what they have to say",
+                "Join in excluding them",
+                "Tell them their questions are a nuisance",
+                "Ignore them until they earn higher rank"
+              ],
+              "why": "Consideration and fair inclusion support respect.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_07",
+              "q": "Which response best supports Excellence after constructive feedback?",
+              "c": [
+                "Use it to plan further practice",
+                "Assume preparation no longer matters",
+                "Blame others without reviewing the work",
+                "Hide the task so nobody can assess it"
+              ],
+              "why": "Continued improvement is central to excellence.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "capcadet_values_08",
+              "q": "Must an action illustrate only one Core Value?",
+              "c": [
+                "No, one action can support several values",
+                "Yes, values never overlap",
+                "Yes, each member chooses only one value",
+                "No, values apply only during tests"
+              ],
+              "why": "Helping honestly, respectfully and competently can reflect several values.",
+              "objectives": [
+                "Phase I / Core Values"
+              ],
+              "refs": [
+                {
+                  "source": "capvalues",
+                  "section": "Discussion topic 1, printed page 2"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
         }
       ],
       "exam": {
@@ -2824,7 +3957,8 @@ window.STUDYGOAT_CATALOG = {
       "objectives": [
         "Scene safety",
         "Emergency communication",
-        "Training scope"
+        "Training scope",
+        "Heat awareness"
       ],
       "topics": [
         {
@@ -3430,6 +4564,434 @@ window.STUDYGOAT_CATALOG = {
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "wfa_heat",
+          "name": "Heat risk and emergency warning signs",
+          "objectives": [
+            "Heat awareness"
+          ],
+          "refs": [
+            {
+              "source": "cdcheat",
+              "section": "Stay Cool"
+            },
+            {
+              "source": "cdcheat",
+              "section": "Stay Hydrated"
+            },
+            {
+              "source": "cdcheatsigns",
+              "section": "Heat stroke"
+            },
+            {
+              "source": "cdcheatsigns",
+              "section": "Heat exhaustion"
+            }
+          ],
+          "notes": [
+            "Plan shade, rest opportunities and cooler activity times.",
+            "Carry drinking water and plan access to refills.",
+            "Heat stroke can involve confusion or loss of consciousness and is a medical emergency.",
+            "Sweating does not rule out heat stroke.",
+            "These lessons teach recognition and preparation, not a wilderness treatment protocol."
+          ],
+          "gloss": [
+            [
+              "Heat exposure",
+              "Environmental heat affecting the body"
+            ],
+            [
+              "Heat exhaustion",
+              "Heat illness that can include weakness and heavy sweating"
+            ],
+            [
+              "Heat stroke",
+              "Life-threatening heat illness requiring emergency assistance"
+            ],
+            [
+              "Prevention planning",
+              "Arranging rest, cooling opportunities and water access"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Plan before the outing",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "idea": [
+                "Heat risk affects the activity plan.",
+                "Preparation should address the whole group."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating water alone as complete heat protection."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Compare the planned activity time with expected heat."
+                },
+                {
+                  "text": "Arrange shade and rest opportunities."
+                },
+                {
+                  "text": "Identify drinking-water availability and refill options."
+                },
+                {
+                  "text": "Adjust timing when possible rather than assuming everyone tolerates heat equally."
+                }
+              ]
+            },
+            {
+              "t": "Recognize a serious change",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "idea": [
+                "New confusion after heat exposure is an emergency warning sign.",
+                "Dry skin is not required for concern."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Waiting for every symptom on a checklist to appear."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A companion becomes confused during a hot outing."
+                },
+                {
+                  "text": "Recognize a possible serious heat illness; do not wait for skin to become dry."
+                },
+                {
+                  "text": "Contact emergency services and follow dispatcher guidance and current training."
+                },
+                {
+                  "text": "This scenario does not provide a treatment or evacuation algorithm."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_heat_01",
+              "q": "Which outing plan reduces heat exposure?",
+              "c": [
+                "Use cooler activity times with shade and rest opportunities",
+                "Schedule the hardest work in peak heat without breaks",
+                "Remove all rest stops to finish sooner",
+                "Assume cloud cover removes every heat risk"
+              ],
+              "why": "CDC recommends shade, breaks and cooler activity times.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_02",
+              "q": "Which preparation supports hydration during an outing?",
+              "c": [
+                "Plan drinking-water supply and refill access",
+                "Depend entirely on finding an unknown stream",
+                "Leave water behind to save weight",
+                "Assume inactive people never need water"
+              ],
+              "why": "Carry water and plan access rather than relying on an uncertain source.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_03",
+              "q": "A heat-exposed hiker becomes confused. What should the group recognize?",
+              "c": [
+                "A possible medical emergency needing professional help",
+                "Proof the person only needs motivation",
+                "A normal sign that always resolves without help",
+                "Proof there is no heat illness if they are sweating"
+              ],
+              "why": "Confusion is a serious heat-stroke warning sign.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_04",
+              "q": "Does sweating rule out heat stroke?",
+              "c": [
+                "No, skin can be dry or damp",
+                "Yes, all heat-stroke patients stop sweating",
+                "Yes, if the person is young",
+                "Yes, if the route is short"
+              ],
+              "why": "The CDC chart includes dry or damp skin.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_05",
+              "q": "Which finding can occur with heat exhaustion?",
+              "c": [
+                "Heavy sweating and weakness",
+                "Guaranteed absence of any symptoms",
+                "Improved exercise tolerance in every case",
+                "A requirement that the person be outdoors"
+              ],
+              "why": "The CDC chart includes heavy sweating and weakness.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_06",
+              "q": "What is the appropriate role of this lesson during a real heat emergency?",
+              "c": [
+                "Use emergency services and current training rather than a quiz as a treatment protocol",
+                "Wait for a perfect quiz score before calling",
+                "Use the glossary to choose a medication dose",
+                "Assume the lesson certifies practical competence"
+              ],
+              "why": "The material is recognition education; it does not replace trained response.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_07",
+              "q": "A group has water but no shade or rest plan. What is still useful?",
+              "c": [
+                "Add cooling and rest opportunities",
+                "Assume hydration eliminates all heat risk",
+                "Increase pace to avoid all breaks",
+                "Ignore the timing of the activity"
+              ],
+              "why": "Heat prevention includes cooling and activity planning, not water alone.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "wfa_heat_08",
+              "q": "Must every listed heat-stroke symptom be present before seeking emergency help for confusion after heat exposure?",
+              "c": [
+                "No",
+                "Yes, including dry skin in all cases",
+                "Yes, including a measured temperature in all cases",
+                "Yes, including a complete loss of consciousness"
+              ],
+              "why": "Do not delay emergency assistance while waiting for a complete checklist.",
+              "objectives": [
+                "Heat awareness"
+              ],
+              "refs": [
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Cool"
+                },
+                {
+                  "source": "cdcheat",
+                  "section": "Stay Hydrated"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat stroke"
+                },
+                {
+                  "source": "cdcheatsigns",
+                  "section": "Heat exhaustion"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
         }
       ],
       "exam": {
@@ -3456,7 +5018,8 @@ window.STUDYGOAT_CATALOG = {
       "objectives": [
         "Exam orientation",
         "Station identification",
-        "Control operator duties"
+        "Control operator duties",
+        "Prohibited transmissions"
       ],
       "topics": [
         {
@@ -3984,6 +5547,346 @@ window.STUDYGOAT_CATALOG = {
                 {
                   "source": "fcc119",
                   "section": "97.119(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "id": "technician_boundaries",
+          "name": "Transmission boundaries and exceptions",
+          "objectives": [
+            "Prohibited transmissions"
+          ],
+          "refs": [
+            {
+              "source": "fcc113",
+              "section": "97.113(a)(2)-(5)"
+            },
+            {
+              "source": "fcc113",
+              "section": "97.113(b)"
+            }
+          ],
+          "notes": [
+            "Ordinary amateur operation is not a paid communications service.",
+            "Employer and financial-interest communications have limited rule-specific exceptions.",
+            "Messages intended to conceal their meaning are generally prohibited, subject to stated exceptions.",
+            "Broadcasting and one-way transmissions have specific restrictions and exceptions.",
+            "False or deceptive signals and identification are prohibited."
+          ],
+          "gloss": [
+            [
+              "Pecuniary interest",
+              "A financial interest in the communication"
+            ],
+            [
+              "Broadcasting",
+              "Transmissions intended for reception by the general public"
+            ],
+            [
+              "Exception",
+              "A specific allowance within the rules"
+            ],
+            [
+              "Obscuring meaning",
+              "Concealing the content of a message"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the rule and its exception",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "idea": [
+                "Avoid replacing a qualified rule with an absolute slogan.",
+                "Financial interest and purpose matter."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Saying every possible paid or one-way transmission is prohibited without checking exceptions."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A company wants routine paid dispatch over amateur frequencies."
+                },
+                {
+                  "text": "Identify the employer and compensation issues."
+                },
+                {
+                  "text": "Check the actual listed exceptions rather than assuming a licence permits any use."
+                },
+                {
+                  "text": "A radio licence does not by itself authorize a commercial dispatch service."
+                }
+              ]
+            },
+            {
+              "t": "Compare clear scenarios",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "idea": [
+                "Deliberate deception differs from an honest correction.",
+                "A specific sale notice exception is not a retail service."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating one exception as permission for all business communications."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "An operator occasionally offers their used amateur transceiver for sale to other amateurs."
+                },
+                {
+                  "text": "The rule allows occasional notice of normally used amateur apparatus."
+                },
+                {
+                  "text": "The activity must not be conducted on a regular basis."
+                },
+                {
+                  "text": "Compare this with routine business traffic; the purposes differ."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "technician_boundaries_01",
+              "q": "A business proposes routine paid delivery dispatch over amateur radio, with no applicable exception. Which issue applies?",
+              "c": [
+                "Restrictions on compensated and employer communications",
+                "Only the antenna color",
+                "Only whether the messages are short",
+                "No restriction if everyone has a Technician licence"
+              ],
+              "why": "The financial-interest and compensation restrictions apply.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_02",
+              "q": "Why should you avoid saying all employer-related communications are prohibited without exception?",
+              "c": [
+                "The rule includes specific exceptions",
+                "Employer status removes every rule",
+                "Every employer communication is automatically allowed",
+                "Only the radio manufacturer can decide"
+              ],
+              "why": "The rule has limited exceptions that must be checked in context.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_03",
+              "q": "What does the amateur apparatus sale-notice exception permit?",
+              "c": [
+                "Occasional notice to amateurs of normally used amateur equipment for sale or trade",
+                "A regular retail advertising channel",
+                "Paid advertisements for unrelated products",
+                "Unlimited daily commercial dispatch"
+              ],
+              "why": "The exception is limited and must not be conducted regularly.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_04",
+              "q": "Which transmission is prohibited under 97.113(a)(4)?",
+              "c": [
+                "A deliberately false distress signal",
+                "An honest correction of a spoken error",
+                "An ordinary identified conversation",
+                "A question during a permitted training exchange"
+              ],
+              "why": "False or deceptive messages and signals are prohibited.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_05",
+              "q": "What is the general restriction on encoding messages to obscure their meaning?",
+              "c": [
+                "It is prohibited except as otherwise provided in the rules",
+                "It is always permitted if the operator owns the radio",
+                "It is required for every voice conversation",
+                "It replaces the station-identification requirement"
+              ],
+              "why": "The rule distinguishes a general prohibition and its stated exceptions.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_06",
+              "q": "Why is every one-way transmission is forbidden an incomplete summary?",
+              "c": [
+                "The rules provide specific exceptions",
+                "Every one-way transmission is allowed",
+                "One-way transmissions do not use radio",
+                "The restriction only applies to unlicensed listeners"
+              ],
+              "why": "Section 97.113(b) expressly recognizes rule-based exceptions.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_07",
+              "q": "Which use would the occasional equipment sale exception fail to justify?",
+              "c": [
+                "Operating a regular retail advertising service",
+                "Occasionally offering a used amateur transceiver",
+                "Telling another amateur about an occasional equipment trade",
+                "A nonregular notice about apparatus normally used in an amateur station"
+              ],
+              "why": "An occasional notice exception does not authorize regular advertising.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-09"
+            },
+            {
+              "id": "technician_boundaries_08",
+              "q": "When a proposed transmission falls near a rule exception, what is the best study approach?",
+              "c": [
+                "Read the exact exception and its conditions",
+                "Assume every exception is unlimited",
+                "Use transmitter power as the only test",
+                "Treat a quiz explanation as a complete legal authorization"
+              ],
+              "why": "Conditions are part of the rule and must be reviewed.",
+              "objectives": [
+                "Prohibited transmissions"
+              ],
+              "refs": [
+                {
+                  "source": "fcc113",
+                  "section": "97.113(a)(2)-(5)"
+                },
+                {
+                  "source": "fcc113",
+                  "section": "97.113(b)"
                 }
               ],
               "status": "verified",

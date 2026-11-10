@@ -12,4 +12,6 @@ Checked 2026-11-09. The complete machine-readable inventory is in `courses/catal
 
 NCVEC's indexed official release describes February 19, 2026 corrections to T1C01, T5A05, T7A09 and T0A10. ARRL reports the 2026-07-01 to 2030-06-30 period and no Technician withdrawals on the check date. Neither fact substitutes for validating the complete corrected files.
 
-All 78 included questions are original educational questions. No paid or controlled bank is copied. The NCVEC public-domain release remains unimported. No new software license was added. Source check dates and structural tests are not a claim of independent subject-matter review or full coverage.
+All 118 included questions are original educational questions. No paid or controlled bank is copied. The NCVEC public-domain release remains unimported. No new software license was added. Source check dates and structural tests are not a claim of independent subject-matter review or full coverage.
+
+Expansion sources: CISA Secure Our World tip sheet; FAA Remote ID guidance; public CAP Welcome Course 3.9 Core Values examples; CDC heat-health guidance and heat-illness chart; FCC 97.113. Structured records and specific sections are in the catalog. These additions expand selected topics and do not complete the official objective lists.

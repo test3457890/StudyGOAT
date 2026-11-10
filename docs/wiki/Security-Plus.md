@@ -7,3 +7,9 @@ Use Learn, Practice, Play, Mistakes and Practice Test. Sources and coverage show
 Sources checked 2026-11-09: [CompTIA objectives 6.0](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-701-exam-objectives-(6-0).pdf), [NIST SP 800-12 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf).
 
 Current exam availability and the latest objective revision require verification because the current CompTIA pages were inaccessible. No SY0-801 track is published. StudyGOAT is independent of CompTIA and does not reproduce official exam questions.
+
+## Additional study material, November 9, 2026
+
+Phishing recognition, reporting, unique passwords, MFA and software updates. Maps to selected material in objectives 2.2, 4.6 and 5.6. Source: CISA Secure Our World tip sheet (August 14, 2023).
+
+Current totals: 6 lessons and 32 questions. The course remains partial. Earlier counts above describe the first introductory release.

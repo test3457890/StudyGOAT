@@ -8,7 +8,13 @@ for(const id of ['cs315','cpsc222',...tracks]){
  await page.evaluate(()=>{while(LS.i<LS.steps.length-1)stepGo(1)});
  await page.evaluate(()=>playHub());assert(await page.locator('#view').innerText());
 }
-for(const id of tracks){await page.evaluate(id=>enterCourse(id),id);await page.evaluate(()=>certSources());assert.match(await page.locator('#view').innerText(),/Source register/);
+for(const id of tracks){await page.evaluate(id=>enterCourse(id),id);
+ for(const topic of await page.evaluate(()=>CT())){
+  await page.evaluate(topic=>practice(topic),topic);await page.evaluate(()=>answer(cur.choices.indexOf(cur.answer)));assert.match(await page.locator('#fb').innerText(),/Correct/);
+  const lessons=await page.evaluate(topic=>LESSONS[topic].length,topic);
+  for(let li=0;li<lessons;li++){await page.evaluate(({topic,li})=>learn(topic,li),{topic,li});await page.evaluate(()=>{while(LS.i<LS.steps.length-1)stepGo(1)});}
+ }
+await page.evaluate(()=>certSources());assert.match(await page.locator('#view').innerText(),/Source register/);
  await page.evaluate(()=>{examSetup();startCertExam();});const n=await page.evaluate(()=>EX.n);assert(n>0);assert.equal(await page.evaluate(()=>new Set(EX.items.map(x=>x.q.sourceId)).size),n);
  await page.evaluate(()=>{EX.items.forEach((it,i)=>EX.ans[i]=it.q.choices.indexOf(it.q.answer));exSubmit(false)});assert.match(await page.locator('.score').innerText(),/100%/);
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
