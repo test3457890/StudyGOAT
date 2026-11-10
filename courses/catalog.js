@@ -20430,5 +20430,768 @@ window.STUDYGOAT_CATALOG = {
       "name": "District of Columbia",
       "track": null
     }
+  ],
+  "classModels": {
+    "turnstile": {
+      "initial": "Locked",
+      "states": [
+        "Locked",
+        "Unlocked"
+      ],
+      "inputs": [
+        "coin",
+        "push"
+      ],
+      "delta": {
+        "Locked": {
+          "coin": "Unlocked",
+          "push": "Locked"
+        },
+        "Unlocked": {
+          "coin": "Unlocked",
+          "push": "Locked"
+        }
+      },
+      "matrices": {
+        "coin": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "push": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "suffix01": {
+      "initial": "q0",
+      "states": [
+        "q0",
+        "q1",
+        "q2"
+      ],
+      "inputs": [
+        "0",
+        "1"
+      ],
+      "accepting": [
+        "q2"
+      ],
+      "delta": {
+        "q0": {
+          "0": "q1",
+          "1": "q0"
+        },
+        "q1": {
+          "0": "q1",
+          "1": "q2"
+        },
+        "q2": {
+          "0": "q1",
+          "1": "q0"
+        }
+      }
+    }
+  },
+  "classTopics": [
+    {
+      "id": "dmfsm",
+      "course": "cpsc222",
+      "name": "Finite state machines and DFA models",
+      "source": "Adapted study summaries from the user-provided CPSC 222 FSM lecture, slides 2-5, 14. Original slide deck is not redistributed.",
+      "notes": [
+        "A state records the history relevant to the next transition.",
+        "A DFA is (Q, Σ, δ, q₀, F), with δ: Q × Σ → Q and F ⊆ Q.",
+        "Every state/input pair has exactly one next state in a complete deterministic transition table.",
+        "Control FSMs need not designate accepting states; a recognizer uses final-state acceptance."
+      ],
+      "gloss": [
+        [
+          "State",
+          "Current configuration summarizing relevant history"
+        ],
+        [
+          "Alphabet",
+          "Set of allowed input symbols"
+        ],
+        [
+          "Transition function",
+          "Maps a state and input to one next state"
+        ],
+        [
+          "Accepting state",
+          "A final state designated for accepting an input string"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "The DFA five-tuple",
+          "idea": [
+            "A state records the history relevant to the next transition.",
+            "A DFA is (Q, Σ, δ, q₀, F), with δ: Q × Σ → Q and F ⊆ Q.",
+            "Every state/input pair has exactly one next state in a complete deterministic transition table.",
+            "Control FSMs need not designate accepting states; a recognizer uses final-state acceptance."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Let Q = {q0,q1,q2}, Σ = {0,1}, q₀ = q0 and F = {q2}."
+            },
+            {
+              "text": "The transition table defines δ for every pair in Q × Σ."
+            },
+            {
+              "text": "After all input symbols, accept exactly when the final state belongs to F."
+            }
+          ]
+        },
+        {
+          "t": "Reading diagrams and self-loops",
+          "idea": [
+            "A state records the history relevant to the next transition.",
+            "A DFA is (Q, Σ, δ, q₀, F), with δ: Q × Σ → Q and F ⊆ Q.",
+            "Every state/input pair has exactly one next state in a complete deterministic transition table.",
+            "Control FSMs need not designate accepting states; a recognizer uses final-state acceptance."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "An incoming arrow from nowhere marks the start state."
+            },
+            {
+              "text": "A labeled arrow gives a transition; a self-loop returns to the same state."
+            },
+            {
+              "text": "Double circles designate accepting states for a DFA. Multiple states may share the same destination."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "In M = (Q, Σ, δ, q₀, F), what is Σ?",
+          "c": [
+            "The input alphabet",
+            "The set of final outputs",
+            "The initial state",
+            "The transition function"
+          ],
+          "why": "Σ specifies the allowed input symbols."
+        },
+        {
+          "q": "What is the domain of a DFA transition function δ?",
+          "c": [
+            "Q × Σ",
+            "Only Q",
+            "Only F",
+            "Σ × F"
+          ],
+          "why": "One state and one input determine the next state."
+        },
+        {
+          "q": "What makes the complete DFA transition table deterministic?",
+          "c": [
+            "Exactly one next state for each state/input pair",
+            "Every transition changes state",
+            "Exactly one accepting state",
+            "Every input string is accepted"
+          ],
+          "why": "Determinism concerns the uniqueness of the next state."
+        },
+        {
+          "q": "What does a double circle indicate in a DFA diagram?",
+          "c": [
+            "An accepting state",
+            "The only starting state",
+            "An invalid input",
+            "A missing transition"
+          ],
+          "why": "The final state must be accepting for the string to be accepted."
+        },
+        {
+          "q": "Must a control FSM such as a turnstile designate accepting states?",
+          "c": [
+            "No, acceptance is needed when using it as a language recognizer",
+            "Yes, every physical state must accept",
+            "Yes, exactly half the states must accept",
+            "Only if it has two input events"
+          ],
+          "why": "The lecture distinguishes control systems from language recognizers."
+        },
+        {
+          "q": "What is a self-loop in a state diagram?",
+          "c": [
+            "A transition back to the same state",
+            "A transition with two simultaneous destinations",
+            "An undefined input",
+            "An accepting state with no transitions"
+          ],
+          "why": "An input can leave the state unchanged."
+        },
+        {
+          "q": "In a DFA, what restriction applies to F?",
+          "c": [
+            "F is a subset of Q",
+            "F equals the input alphabet",
+            "F is the transition function",
+            "F contains only input strings"
+          ],
+          "why": "Accepting states are selected from the state set."
+        },
+        {
+          "q": "When does the ending-01 DFA decide acceptance?",
+          "c": [
+            "After processing the entire string",
+            "As soon as it sees the first 0",
+            "Before reading the input",
+            "Whenever an accepting state is visited once"
+          ],
+          "why": "Later input may leave an accepting state."
+        }
+      ]
+    },
+    {
+      "id": "dmturnstile",
+      "course": "cpsc222",
+      "name": "Turnstile transitions and Boolean matrices",
+      "source": "Adapted study summaries from the user-provided CPSC 222 FSM lecture, slides 6-13. Original slide deck is not redistributed.",
+      "notes": [
+        "The state order is [Locked, Unlocked].",
+        "Coin sends either state to Unlocked; push sends either state to Locked.",
+        "Rows mean current state and columns mean next state.",
+        "M_coin = [[0,1],[0,1]] and M_push = [[1,0],[1,0]]. Use row vectors: v_next = v M_input."
+      ],
+      "gloss": [
+        [
+          "Locked vector",
+          "[1,0] in the lecture state order"
+        ],
+        [
+          "Unlocked vector",
+          "[0,1] in the lecture state order"
+        ],
+        [
+          "Transition matrix",
+          "One matrix per input, with current states in rows"
+        ],
+        [
+          "One-hot vector",
+          "One component is 1 and the others are 0"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Coin and push matrices",
+          "idea": [
+            "The state order is [Locked, Unlocked].",
+            "Coin sends either state to Unlocked; push sends either state to Locked.",
+            "Rows mean current state and columns mean next state.",
+            "M_coin = [[0,1],[0,1]] and M_push = [[1,0],[1,0]]. Use row vectors: v_next = v M_input."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Begin Locked with vector [1,0]."
+            },
+            {
+              "text": "[1,0] M_coin = [0,1], so the gate is Unlocked."
+            },
+            {
+              "text": "[0,1] M_push = [1,0], so it is Locked again."
+            }
+          ]
+        },
+        {
+          "t": "Tracing the exercise",
+          "idea": [
+            "The state order is [Locked, Unlocked].",
+            "Coin sends either state to Unlocked; push sends either state to Locked.",
+            "Rows mean current state and columns mean next state.",
+            "M_coin = [[0,1],[0,1]] and M_push = [[1,0],[1,0]]. Use row vectors: v_next = v M_input."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Start Locked. Read push, coin, coin, push, coin."
+            },
+            {
+              "text": "States after each event: Locked, Unlocked, Unlocked, Locked, Unlocked."
+            },
+            {
+              "text": "The first push and the second coin leave the state unchanged."
+            },
+            {
+              "text": "The final state is Unlocked."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "Using state order [Locked, Unlocked], what is M_coin?",
+          "c": [
+            "[[0,1],[0,1]]",
+            "[[1,0],[1,0]]",
+            "[[1,0],[0,1]]",
+            "[[0,0],[0,0]]"
+          ],
+          "why": "Both rows point to the Unlocked column."
+        },
+        {
+          "q": "Using row vectors, how is the next state computed?",
+          "c": [
+            "v_next = v M_input",
+            "v_next = M_input + v",
+            "v_next = v − M_input",
+            "v_next = 1 / v"
+          ],
+          "why": "The lecture places current states in rows and multiplies a row state vector on the left."
+        },
+        {
+          "q": "What is [0,1] M_push for this turnstile?",
+          "c": [
+            "[1,0]",
+            "[0,1]",
+            "[1,1]",
+            "[0,0]"
+          ],
+          "why": "Pushing through an unlocked gate returns it to Locked."
+        },
+        {
+          "q": "Which turnstile event is a self-loop while Locked?",
+          "c": [
+            "push",
+            "coin",
+            "Both coin and push",
+            "Neither input"
+          ],
+          "why": "Pushing on a locked gate leaves it Locked."
+        },
+        {
+          "q": "Why does each row of these deterministic input matrices contain exactly one 1?",
+          "c": [
+            "Each state/input pair has one next state",
+            "Every state is accepting",
+            "Each input has one possible current state",
+            "All rows must be different"
+          ],
+          "why": "Different current states can share a destination, so rows may be identical."
+        },
+        {
+          "q": "Start Locked and process coin, coin, push. What is the final state?",
+          "c": [
+            "Locked",
+            "Unlocked",
+            "Both states at once",
+            "Undefined"
+          ],
+          "why": "Locked → Unlocked → Unlocked → Locked."
+        },
+        {
+          "q": "Start Locked and process push, coin, coin, push, coin. What is the final state?",
+          "c": [
+            "Unlocked",
+            "Locked",
+            "q2",
+            "No state"
+          ],
+          "why": "The exercise finishes Unlocked."
+        },
+        {
+          "q": "If two current states both go to Unlocked on coin, is the machine nondeterministic?",
+          "c": [
+            "No, each individual state/input pair still has one destination",
+            "Yes, shared destinations are forbidden",
+            "Yes, matrix rows must be distinct",
+            "Only if the input is binary"
+          ],
+          "why": "Determinism does not require the transition function to be one-to-one."
+        }
+      ]
+    },
+    {
+      "id": "dmsuffixdfa",
+      "course": "cpsc222",
+      "name": "DFA for binary strings ending in 01",
+      "source": "Adapted study summaries from the user-provided CPSC 222 FSM lecture, slides 15-19, 22-23. Original slide deck is not redistributed.",
+      "notes": [
+        "Start at q0; q2 is the only accepting state.",
+        "q0: 0 → q1, 1 → q0. q1: 0 → q1, 1 → q2. q2: 0 → q1, 1 → q0.",
+        "Reaching q2 midway does not guarantee acceptance after later symbols.",
+        "The empty string leaves the machine at q0 and is rejected."
+      ],
+      "gloss": [
+        [
+          "q0",
+          "No currently useful suffix"
+        ],
+        [
+          "q1",
+          "Most recent symbol is 0"
+        ],
+        [
+          "q2",
+          "Current string ends in 01"
+        ],
+        [
+          "Empty string",
+          "A string with no input symbols"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Trace 1101",
+          "idea": [
+            "Start at q0; q2 is the only accepting state.",
+            "q0: 0 → q1, 1 → q0. q1: 0 → q1, 1 → q2. q2: 0 → q1, 1 → q0.",
+            "Reaching q2 midway does not guarantee acceptance after later symbols.",
+            "The empty string leaves the machine at q0 and is rejected."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Begin q0. The first 1 keeps q0; the next 1 keeps q0."
+            },
+            {
+              "text": "Read 0 to reach q1, then 1 to reach q2."
+            },
+            {
+              "text": "The final state is q2, so accept 1101."
+            }
+          ]
+        },
+        {
+          "t": "Accepting a complete string",
+          "idea": [
+            "Start at q0; q2 is the only accepting state.",
+            "q0: 0 → q1, 1 → q0. q1: 0 → q1, 1 → q2. q2: 0 → q1, 1 → q0.",
+            "Reaching q2 midway does not guarantee acceptance after later symbols.",
+            "The empty string leaves the machine at q0 and is rejected."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Trace 011: q0 → q1 → q2 → q0."
+            },
+            {
+              "text": "Although the prefix 01 reaches q2, the final 1 moves to q0."
+            },
+            {
+              "text": "Reject 011 because its last two symbols are 11."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '001'?",
+          "c": [
+            "q2 (accept)",
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q1 → q1 → q2. The complete string ends in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '011'?",
+          "c": [
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (accept)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q1 → q2 → q0. The complete string does not end in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '1010'?",
+          "c": [
+            "q1 (reject)",
+            "q0 (reject)",
+            "q2 (accept)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q0 → q1 → q2 → q1. The complete string does not end in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '01'?",
+          "c": [
+            "q2 (accept)",
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q1 → q2. The complete string ends in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '1101'?",
+          "c": [
+            "q2 (accept)",
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q0 → q0 → q1 → q2. The complete string ends in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '010'?",
+          "c": [
+            "q1 (reject)",
+            "q0 (reject)",
+            "q2 (accept)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q1 → q2 → q1. The complete string does not end in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for '1'?",
+          "c": [
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (accept)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0 → q0. The complete string does not end in 01."
+        },
+        {
+          "q": "For the lecture DFA starting at q0, what is the result for the empty string?",
+          "c": [
+            "q0 (reject)",
+            "q1 (reject)",
+            "q2 (accept)",
+            "q2 (reject)"
+          ],
+          "why": "Trace: q0. The complete string does not end in 01."
+        }
+      ]
+    },
+    {
+      "id": "dmfsmpython",
+      "course": "cpsc222",
+      "name": "Python FSMs and login-state design",
+      "source": "Adapted study summaries from the user-provided CPSC 222 FSM lecture, slides 20-26. Original slide deck is not redistributed.",
+      "notes": [
+        "A nested dictionary can encode transition[state][event].",
+        "Reset the initial state at the start of each independent input string.",
+        "Validate input before table lookup; the added validation is an implementation extension to the lecture example.",
+        "For the login exercise, choose and document an invalid-attempt policy. A valid_mfa event while LoggedOut must not bypass the password step."
+      ],
+      "gloss": [
+        [
+          "Nested dictionary",
+          "A mapping whose values are mappings"
+        ],
+        [
+          "State update",
+          "state = delta[state][event]"
+        ],
+        [
+          "Input validation",
+          "Check an event belongs to the allowed input set"
+        ],
+        [
+          "Login policy",
+          "Explicit rules for valid and invalid authentication transitions"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Implement and test the recognizer",
+          "idea": [
+            "A nested dictionary can encode transition[state][event].",
+            "Reset the initial state at the start of each independent input string.",
+            "Validate input before table lookup; the added validation is an implementation extension to the lecture example.",
+            "For the login exercise, choose and document an invalid-attempt policy. A valid_mfa event while LoggedOut must not bypass the password step."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "This Python version adds explicit input validation to the slide example.",
+              "code": "delta = {\"q0\": {\"0\": \"q1\", \"1\": \"q0\"},\n         \"q1\": {\"0\": \"q1\", \"1\": \"q2\"},\n         \"q2\": {\"0\": \"q1\", \"1\": \"q0\"}}\ndef accepts(text):\n    if any(ch not in {\"0\", \"1\"} for ch in text):\n        raise ValueError(\"Use only 0 and 1\")\n    state = \"q0\"\n    for ch in text:\n        state = delta[state][ch]\n    return state == \"q2\""
+            },
+            {
+              "text": "Test empty input, accepted suffixes, rejected suffixes and invalid symbols."
+            },
+            {
+              "text": "For every binary string, compare the result with text.endswith(\"01\")."
+            }
+          ]
+        },
+        {
+          "t": "Design a login FSM",
+          "idea": [
+            "A nested dictionary can encode transition[state][event].",
+            "Reset the initial state at the start of each independent input string.",
+            "Validate input before table lookup; the added validation is an implementation extension to the lecture example.",
+            "For the login exercise, choose and document an invalid-attempt policy. A valid_mfa event while LoggedOut must not bypass the password step."
+          ],
+          "recipe": [
+            "Identify the current state and next input.",
+            "Apply exactly one transition per input.",
+            "Check the final state after the complete input."
+          ],
+          "oops": [
+            "Deciding acceptance before the entire string is processed."
+          ],
+          "steps": [
+            {
+              "text": "Begin LoggedOut. A valid_password event leads to PasswordOK."
+            },
+            {
+              "text": "Only valid_mfa from PasswordOK leads to Authenticated. Logout returns to LoggedOut."
+            },
+            {
+              "text": "One possible policy resets to LoggedOut on any invalid_attempt. This is a chosen exercise policy, not the only valid design."
+            },
+            {
+              "text": "Complete the table for every event in every state, including valid_mfa while LoggedOut, which must remain unauthenticated."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "What does delta[state][event] return in the lecture Python pattern?",
+          "c": [
+            "The next state",
+            "The input alphabet",
+            "The entire transition dictionary",
+            "The number of accepting states"
+          ],
+          "why": "The outer key selects the state and the inner key selects the event."
+        },
+        {
+          "q": "Where should state = \"q0\" occur when testing independent strings?",
+          "c": [
+            "Inside the recognition function before its loop",
+            "Only once before all tests",
+            "Only after accepting a string",
+            "Inside the loop after every character"
+          ],
+          "why": "Each independent test must start at the initial state."
+        },
+        {
+          "q": "What does the unmodified slide dictionary lookup do for an input symbol not in its keys?",
+          "c": [
+            "Raises KeyError",
+            "Automatically accepts",
+            "Automatically resets to q0",
+            "Silently ignores the symbol"
+          ],
+          "why": "The lecture lookup has no key for symbols outside 0 and 1."
+        },
+        {
+          "q": "Which test is especially useful for checking initial-state acceptance behavior?",
+          "c": [
+            "The empty string",
+            "Only the longest accepted word",
+            "Only 01",
+            "Only a repeated test of 1101"
+          ],
+          "why": "No symbols are consumed, so the result depends on whether the initial state is accepting."
+        },
+        {
+          "q": "In the login exercise, what should valid_mfa from LoggedOut avoid?",
+          "c": [
+            "Directly entering Authenticated",
+            "Remaining unauthenticated",
+            "Rejecting an out-of-order event",
+            "Applying a documented policy"
+          ],
+          "why": "The password stage must not be bypassed."
+        },
+        {
+          "q": "Which login transition is part of the illustrated valid route?",
+          "c": [
+            "PasswordOK plus valid_mfa → Authenticated",
+            "LoggedOut plus valid_mfa → Authenticated",
+            "LoggedOut plus invalid_attempt → Authenticated",
+            "PasswordOK plus logout → Authenticated"
+          ],
+          "why": "The second factor follows the successful password event."
+        },
+        {
+          "q": "Does the lecture require one universal policy for invalid_attempt?",
+          "c": [
+            "No, it permits an unchanged state or reset depending on policy",
+            "Yes, invalid attempts must always authenticate",
+            "Yes, invalid inputs must always be ignored",
+            "Yes, the machine must have no invalid events"
+          ],
+          "why": "The exercise leaves this policy choice explicit."
+        },
+        {
+          "q": "For binary input, which Python condition independently describes this DFA’s language?",
+          "c": [
+            "text.endswith(\"01\")",
+            "text.startswith(\"01\")",
+            "\"01\" in text",
+            "len(text) == 2"
+          ],
+          "why": "Acceptance depends on the suffix, not any occurrence or only a length-two word."
+        }
+      ]
+    }
   ]
 };
