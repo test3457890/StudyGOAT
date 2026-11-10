@@ -32,7 +32,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 
 ## Current project status
 
-StudyGOAT is an early, functional browser application. Its source code includes two university courses plus six sourced study tracks with partial coverage, 33 lessons and 164 original questions. Study activities, progress tracking and optional AI tools for university/custom courses remain available. The availability of AI features depends on how the program is opened and which AI provider has been configured.
+StudyGOAT is an early, functional browser application. Its source code includes two university courses plus seven sourced study tracks with partial coverage, 45 lessons and 212 original questions. Study activities, progress tracking and optional AI tools for university/custom courses remain available. The availability of AI features depends on how the program is opened and which AI provider has been configured.
 
 The [roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap) separates existing capabilities from proposals. A public GitHub repository does not automatically mean the GitHub Pages website is live.
 
@@ -43,6 +43,9 @@ StudyGOAT is an independent learning tool. It is not endorsed by any school, emp
 Repository: https://github.com/test3457890/StudyGOAT
 
 
-All six sourced tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The Wiki is published. GitHub Pages deployment has been enabled.
+All seven sourced tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The Wiki is published. GitHub Pages deployment has been enabled.
 
-Arizona Driving Prep is the first state module. See [Arizona driving prep](https://github.com/test3457890/StudyGOAT/wiki/Arizona-Driving-Prep).
+Arizona and New Jersey have partial driving modules. The state directory tracks all 50 states and DC. See [Arizona driving prep](https://github.com/test3457890/StudyGOAT/wiki/Arizona-Driving-Prep).
+
+- [Coverage Checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist)
+- [New Jersey Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/New-Jersey-Driving-Prep)

@@ -12,16 +12,17 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 
 ## Study program status
 
-Checked November 9, 2026. All six sourced tracks have partial coverage, not complete certification courses.
+Updated November 10, 2026. All seven sourced tracks have partial coverage, not complete certification courses.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 8 | 40 | Selected foundations in 1.2, 1.3 and 1.4 |
-| FAA Part 107 | 5 | 26 | Selected regulations and operating limits |
-| CAP cadet | 6 | 28 | Phase I Curry orientation |
-| Wilderness First Aid | 4 | 20 | Provider-neutral safety introduction |
-| Amateur Radio Technician | 4 | 20 | Original rules primer; NCVEC pool not imported |
-| Arizona driving prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| Security+ SY0-701 | 8 | 40 | Selected security foundations; incomplete domain coverage |
+| FAA Part 107 | 5 | 26 | Selected regulations, operating limits and Remote ID |
+| CAP Cadet Study | 12 | 52 | Selected Learn to Lead chapters 1-3; readings linked for all 16 |
+| Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
+| Amateur Radio Technician | 4 | 20 | Original rules primer; full official pool not imported |
+| Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 
 Each new track includes source links, section/objective mappings, version notices, coverage gaps, glossary cards, worked scenarios and ten-question practice tests without duplicate questions. Timers are optional practice pacing. Raw scores do not reproduce official scoring or establish readiness.
 
@@ -31,6 +32,7 @@ The corrected NCVEC pool and diagrams could not be retrieved directly. Technicia
 
 ## Documentation
 
+- [Detailed coverage checklist](docs/wiki/Coverage-Checklist.md)
 - [Source register](docs/Source%20Register.md)
 - [Coverage and development roadmap](docs/wiki/Roadmap.md)
 - [Changelog](CHANGELOG.md)
@@ -61,10 +63,8 @@ Set `CHROMIUM_PATH` if using a system Chromium. To edit content, change `courses
 
 The [live StudyGOAT application](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) was verified on November 9, 2026. GitHub Pages deploys from `main`, `/(root)`, with HTTPS.
 
-The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains all 18 prepared Markdown pages, including five track guides, the sidebar and footer. The Wiki is a separate Git repository. Future documentation updates still need publication there.
+The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains the prepared study guides, roadmap, sidebar and footer. The Wiki is a separate Git repository. Future documentation updates still need publication there.
 
 The repository has no project license. No license was added.
 
-November 9 expansion: 10 additional lessons and 40 original questions across phishing defenses, Remote ID, CAP Core Values, heat awareness and amateur transmission boundaries. All six sourced tracks remain partial.
-
-November 9 driving and curriculum expansion: Arizona is the first state module, with six lessons and 30 original questions. Security+ adds backup and recovery preparation; CAP adds Learn to Lead chapter 2 active listening (objectives 41 to 44). Totals across six sourced tracks: 33 lessons and 164 questions. Other states remain planned.
+November 10 expansion: six more CAP lessons and 24 questions, an all-16-chapter Learn to Lead reading/coverage navigator, New Jersey driving foundations (six lessons and 24 questions), and a 50-state plus DC availability directory. Totals: 45 lessons and 212 questions across seven partial sourced tracks.

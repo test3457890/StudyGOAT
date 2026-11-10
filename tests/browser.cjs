@@ -20,6 +20,20 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
+// Chapter navigation reaches the real lessons; unimplemented chapters stay explicit.
+await page.evaluate(()=>enterCourse('capcadet'));await page.getByRole('button',{name:'All 16 chapters & coverage',exact:true}).click();
+assert.equal(await page.locator('#chapterCoverage section').count(),16);
+assert.equal(await page.locator('#chapterCoverage a').count(),16);
+assert.match(await page.locator('#chapterCoverage').innerText(),/reading only/);
+await page.locator('#chapterCoverage button').first().click();assert(await page.locator('#lc').isVisible());
+await page.evaluate(()=>menu());await page.getByRole('button',{name:'Choose a state',exact:true}).click();
+assert.equal(await page.locator('#drivingState option').count(),51);
+await page.locator('#drivingState').selectOption('US-AK');await page.getByRole('button',{name:'View availability',exact:true}).click();
+assert.match(await page.locator('#drivingAvailability').innerText(),/Alaska: planned/);assert.equal(await page.locator('#drivingAvailability button').count(),0);
+await page.locator('#drivingState').selectOption('US-AZ');await page.getByRole('button',{name:'View availability',exact:true}).click();
+await page.getByRole('button',{name:'Open Arizona driving prep',exact:true}).click();assert.equal(await page.evaluate(()=>CC),'arizonadriving');
+await page.setViewportSize({width:390,height:844});await page.evaluate(()=>{enterCourse('capcadet');certSources();});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'CAP mobile overflow');
+await page.evaluate(()=>drivingDirectory());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Directory mobile overflow');
 // Exercise every new sign illustration through the real question generator.
 await page.evaluate(()=>enterCourse('arizonadriving'));
 const visualCases=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.find(t=>t.id==='arizonadriving').topics.flatMap(t=>t.bank.map((b,i)=>b.diagram?{topic:t.id,index:i,length:t.bank.length}:null).filter(Boolean)));

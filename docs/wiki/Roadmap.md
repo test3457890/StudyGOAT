@@ -1,35 +1,26 @@
 # Development roadmap
 
-Updated 2026-11-09. This is the first foundation release. All new tracks remain partial.
+Updated November 10, 2026. The app and Wiki are published. All seven sourced tracks remain partial. See the [detailed coverage checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) for the current inventory.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 8 | 40 | Selected foundations in 1.2, 1.3 and 1.4 |
-| FAA Part 107 | 5 | 26 | Selected regulations and operating limits |
-| CAP cadet | 6 | 28 | Phase I Curry orientation |
-| Wilderness First Aid | 4 | 20 | Provider-neutral safety introduction |
-| Amateur Radio Technician | 4 | 20 | Original rules primer; NCVEC pool not imported |
-| Arizona driving prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| Security+ SY0-701 | 8 | 40 | Selected security foundations; incomplete domain coverage |
+| FAA Part 107 | 5 | 26 | Selected regulations, operating limits and Remote ID |
+| CAP Cadet Study | 12 | 52 | Selected Learn to Lead chapters 1-3; readings linked for all 16 |
+| Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
+| Amateur Radio Technician | 4 | 20 | Original rules primer; full official pool not imported |
+| Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
+| New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 
-## Next milestones, in order
+## Next implementation stages
 
-1. Security+: verify latest CompTIA objective revision and current exam codes. Expand 1.1 to 1.4, then map every objective in domains 2 to 5. Add original performance-based exercises and a validated simulation blueprint. Keep any future SY0-801 data separate.
-2. FAA: add official chart illustrations, airspace interpretation, weather, loading, Remote ID, night and over-people operations, crew scenarios and the full UAG blueprint.
-3. CAP: reconcile current CAPR 60-1 with national achievement pages. Map public Learn to Lead and Aerospace Dimensions objectives by phase and achievement. Add original practice only. Drill and official assessment remain supervised CAP activities.
-4. WFA: identify the user's training provider and obtain its current public or authorized syllabus. Arrange clinical/instructor review before treatment instruction. Add patient assessment, evacuation decisions, injuries and environmental topics without inventing protocols.
-5. Technician: retrieve the corrected February 19, 2026 NCVEC pool and three diagrams. Compare every ID, group, answer and diagram; check later errata and withdrawals. Only then enable 35-question sampling, one per official group, and add full explanatory lessons.
+1. CAP: complete objective inventories for all 16 Learn to Lead chapters. Expand chapter 4 onward with original lessons and questions while closing chapters 1-3 gaps. Reconcile national achievement guidance and CAPR 60-1 before adding an achievement tracker; expand aerospace separately.
+2. Driving: deepen Arizona and New Jersey manual coverage. Add the remaining 48 states and DC in separately sourced and tested batches. Planned entries are not courses.
+3. Security+: verify current exam availability and latest objective revision, map all five domains, then add performance-based exercises and a reviewed exam blueprint.
+4. FAA: charts, weather, loading/performance, night/over-people operations, procedures and full ACS mapping.
+5. Technician: retrieve the corrected 2026-2030 pool, diagrams and errata, validate all IDs/answers/groups, then enable a 35-group simulation and full explanatory lessons.
+6. WFA: obtain the learner's provider/syllabus and instructor or clinical review before treatment guidance; add assessment, evacuation and injury/environmental modules within that scope.
 
-## Product and release work
+## Release rules
 
-- Preserve existing university modes and saved progress.
-- Verify all new questions against specific source sections, independently of schema tests.
-- Extend mobile and keyboard tests to every study mode.
-- Publish the separate Wiki once it is enabled, initialized and accessible.
-- Enable and verify GitHub Pages before describing the app as live.
-- Keep source deadlines visible and update versions before expanding claims.
-
-No complete certification coverage, readiness guarantee or official credit is claimed.
-
-November 9 expansion: 10 additional lessons and 40 original questions across phishing defenses, Remote ID, CAP Core Values, heat awareness and amateur transmission boundaries. All six sourced tracks remain partial.
-
-November 9 driving and curriculum expansion: Arizona is the first state module, with six lessons and 30 original questions. Security+ adds backup and recovery preparation; CAP adds Learn to Lead chapter 2 active listening (objectives 41 to 44). Totals across six sourced tracks: 33 lessons and 164 questions. Other states remain planned.
+Keep original tools and progress intact. Recheck source versions and review deadlines. Test real lesson and practice flows, grading, exports, mobile layouts and keyboard operation. Publish documentation to both the main repository and separate Wiki and verify the published Wiki file contents. No full-certification coverage or pass guarantee is claimed.

@@ -384,6 +384,67 @@
       "checked": "2026-11-09",
       "reviewBy": "2026-12-09",
       "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter1": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 1: Character & the Air Force Tradition",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch1_AF_Tradition_B81658040C0E9.pdf",
+      "version": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "sections": [
+        "Objectives 8-9, printed pages 11-12",
+        "Objectives 26-27, printed pages 24-25"
+      ],
+      "status": "verified",
+      "effective": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter2": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 2: The Cadet & the Team",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch2_The_Cadet_And_The_Team_03A97D7210AE0.pdf",
+      "version": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "sections": [
+        "Objectives 1-5, printed pages 32-34"
+      ],
+      "status": "verified",
+      "effective": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "capchapter3": {
+      "publisher": "CAP National Headquarters",
+      "title": "Learn to Lead, chapter 3: The Art & the Science",
+      "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch3_The_Art_And_Science_FF695C7BC1DEB.pdf",
+      "version": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "sections": [
+        "Objectives 1-3, printed pages 63-65",
+        "Objectives 5-7, printed pages 68-77"
+      ],
+      "status": "verified",
+      "effective": "Public textbook PDF linked from national Learn to Lead library, checked November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original educational summaries and scenarios. Source attribution retained; no proprietary or controlled exam items copied."
+    },
+    "njmanual": {
+      "publisher": "New Jersey Motor Vehicle Commission",
+      "title": "2026 New Jersey Driver Manual",
+      "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+      "version": "2026 cover edition, downloaded November 10, 2026",
+      "sections": [
+        "Chapter 4, printed pages 67-68: intersections",
+        "Chapter 4, printed page 72: turns",
+        "Chapter 4, printed page 77: school buses"
+      ],
+      "status": "verified",
+      "effective": "2026 cover edition, downloaded November 10, 2026",
+      "checked": "2026-11-10",
+      "reviewBy": "2026-12-09",
+      "rights": "Original summaries and practice scenarios; official manual linked for full context. No official examination items reproduced.",
+      "sha256": "bcc99f5cc49c1a19b67e7d7342e148eccd15d18ec105ae5e18c850b870c4c239"
     }
   },
   "tracks": [
@@ -3527,23 +3588,29 @@
     {
       "id": "capcadet",
       "code": "CAP Cadet Study",
-      "name": "Phase I: leadership foundations",
-      "version": "Public national requirements, 2026-11-09",
+      "name": "Learn to Lead study foundations",
+      "version": "Public Learn to Lead chapters 1-3 and Curry guidance",
       "status": "partial",
       "notice": "Partial Phase I leadership study: Curry orientation, Core Values and selected Learn to Lead chapter 2 objectives. Original educational practice only. StudyGOAT is not eServices and cannot record official grades, achievements or promotions. No controlled test content is included.",
       "gaps": [
-        "Full Learn to Lead chapter learning-objective mapping",
-        "CAPR 60-1 revision reconciliation",
-        "Aerospace Dimensions curriculum",
-        "Achievements 2 onward and Phases II, III and IV",
-        "Drill, fitness and other supervised requirements"
+        "Remaining learning objectives in Learn to Lead chapters 1-3",
+        "Original lessons and practice for chapters 4-16; current entries link to official readings only",
+        "Full objective-by-objective mapping and review in all four volumes",
+        "Aerospace curriculum and later achievement mapping",
+        "Reconcile current CAPR 60-1 and national achievement requirements",
+        "Supervised drill, leadership feedback, fitness and official assessments remain outside this app"
       ],
       "objectives": [
         "Phase I / Curry / eligibility",
         "Phase I / Curry / leadership",
         "Testing integrity",
         "Phase I / Core Values",
-        "Learn to Lead / Chapter 2 / 41-44"
+        "Learn to Lead / Chapter 2 / 41-44",
+        "L2L 1 / 8-9",
+        "L2L 1 / 26-27",
+        "L2L 2 / 1-5",
+        "L2L 3 / 1-3",
+        "L2L 3 / 5-7"
       ],
       "topics": [
         {
@@ -4636,6 +4703,1004 @@
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "capcadet_selflead",
+          "name": "Chapter 1: self-leadership and accountability",
+          "objectives": [
+            "L2L 1 / 8-9",
+            "L2L 1 / 26-27"
+          ],
+          "refs": [
+            {
+              "source": "capchapter1",
+              "section": "Objectives 8-9, printed pages 11-12"
+            },
+            {
+              "source": "capchapter1",
+              "section": "Objectives 26-27, printed pages 24-25"
+            }
+          ],
+          "notes": [
+            "Self-awareness means assessing your own actions, strengths and weaknesses honestly.",
+            "Self-discipline turns that awareness into purposeful control of behavior.",
+            "Work habits and practice help develop self-discipline.",
+            "The chain of command identifies authority and accountability.",
+            "This topic covers selected textbook concepts, not current personnel names or a complete reporting policy."
+          ],
+          "gloss": [
+            [
+              "Self-awareness",
+              "Honest appraisal of your own actions and abilities"
+            ],
+            [
+              "Self-discipline",
+              "Directing your behavior toward a meaningful purpose"
+            ],
+            [
+              "Chain of command",
+              "The ordered structure of authority"
+            ],
+            [
+              "Accountability",
+              "Responsibility for actions and results"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "From awareness to action",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "idea": [
+                "Recognize a weakness before planning improvement.",
+                "Practice self-control in ordinary tasks."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Confusing noticing a weakness with correcting it."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A cadet repeatedly arrives without needed materials."
+                },
+                {
+                  "text": "An honest review identifies a preparation habit that needs improvement."
+                },
+                {
+                  "text": "The cadet packs the night before, even when another activity is more tempting."
+                },
+                {
+                  "text": "Awareness identifies the problem; discipline carries out the change."
+                }
+              ]
+            },
+            {
+              "t": "Authority carries responsibility",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "idea": [
+                "An ordered structure helps a team know who is responsible.",
+                "Authority and accountability belong together."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming authority removes accountability."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Several people give conflicting directions for a routine task."
+                },
+                {
+                  "text": "Clarify the assigned leader and the task through the appropriate supervisor."
+                },
+                {
+                  "text": "An assigned leader is responsible for the result, not just entitled to give directions."
+                },
+                {
+                  "text": "Use current squadron guidance for actual reporting and safety concerns; this lesson is a concept exercise."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_selflead_01",
+              "q": "A cadet honestly identifies that preparation is a weakness. Which concept is being practiced?",
+              "c": [
+                "Self-awareness",
+                "Formal command authority",
+                "Delegating responsibility",
+                "Awarding official credit"
+              ],
+              "why": "Self-awareness includes assessing personal strengths, weaknesses and behavior.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_02",
+              "q": "A cadet follows a preparation routine despite wanting to skip it. Which concept is most directly shown?",
+              "c": [
+                "Self-discipline",
+                "A change in rank",
+                "Avoiding feedback",
+                "A completed achievement"
+              ],
+              "why": "Self-discipline directs actions toward a meaningful purpose.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_03",
+              "q": "Why does recognizing a weakness help a leader?",
+              "c": [
+                "It supports a realistic improvement plan",
+                "It excuses future mistakes",
+                "It transfers all responsibility to others",
+                "It eliminates the need to practice"
+              ],
+              "why": "An honest appraisal helps a leader choose where to invest effort.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_04",
+              "q": "Which habit can help develop self-discipline in the chapter 1 discussion?",
+              "c": [
+                "Regularly doing necessary work even when it is not fun",
+                "Waiting until every task is enjoyable",
+                "Avoiding standards that require effort",
+                "Relying only on praise"
+              ],
+              "why": "The text connects discipline with work habits and purposeful practice.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_05",
+              "q": "What does a chain of command organize?",
+              "c": [
+                "Authority within the organization",
+                "Only the order of awards",
+                "Only the equipment inventory",
+                "Only the meeting calendar"
+              ],
+              "why": "It identifies an ordered structure of authority.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_06",
+              "q": "Which benefit follows from a clear chain of command?",
+              "c": [
+                "Members can identify their immediate supervisor for routine direction",
+                "Every member receives unlimited authority",
+                "No one has responsibility for results",
+                "All decisions require a vote of every member"
+              ],
+              "why": "Clear authority helps members know where routine direction comes from.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_07",
+              "q": "A leader receives authority for a task. What accompanies it?",
+              "c": [
+                "Responsibility for the task",
+                "Freedom from review",
+                "Permission to ignore the team",
+                "Automatic success"
+              ],
+              "why": "The textbook links authority and responsibility.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_selflead_08",
+              "q": "Why assign final responsibility for a project to a clear individual?",
+              "c": [
+                "So accountability is identifiable",
+                "So others cannot contribute",
+                "So the individual never needs advice",
+                "So every mistake can be concealed"
+              ],
+              "why": "A team can contribute while one assigned person remains responsible.",
+              "objectives": [
+                "L2L 1 / 8-9",
+                "L2L 1 / 26-27"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 8-9, printed pages 11-12"
+                },
+                {
+                  "source": "capchapter1",
+                  "section": "Objectives 26-27, printed pages 24-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_goals",
+          "name": "Chapter 2: self-management and goal setting",
+          "objectives": [
+            "L2L 2 / 1-5"
+          ],
+          "refs": [
+            {
+              "source": "capchapter2",
+              "section": "Objectives 1-5, printed pages 32-34"
+            }
+          ],
+          "notes": [
+            "Self-management concerns taking ownership of actions and choices.",
+            "A future picture describes the life or result you want to work toward.",
+            "Write a specific goal, identify steps and seek support.",
+            "Review progress as you work and recognize milestones.",
+            "The six-step goal-setting process here is a textbook study aid, not a CAP promotion checklist."
+          ],
+          "gloss": [
+            [
+              "Self-management",
+              "Taking charge of your actions and choices"
+            ],
+            [
+              "Future picture",
+              "A clear description of a desired future"
+            ],
+            [
+              "Goal",
+              "A desired achievement with a deadline"
+            ],
+            [
+              "Milestone",
+              "An intermediate point used to recognize progress"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Define the destination",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "idea": [
+                "Distinguish a desired outcome from a vague wish.",
+                "Use a future picture to give direction."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Listing many activities without identifying their purpose."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A cadet wants to improve their ability to teach."
+                },
+                {
+                  "text": "Describe what successful teaching would look like in the future."
+                },
+                {
+                  "text": "Write a specific practice goal and an intended completion date."
+                },
+                {
+                  "text": "List manageable actions that can move toward it."
+                }
+              ]
+            },
+            {
+              "t": "Work, review and recognize progress",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "idea": [
+                "Support and progress checks sustain effort.",
+                "A large goal needs manageable steps."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Waiting until the deadline to discover whether the plan is working."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Ask a mentor for feedback on a short practice lesson."
+                },
+                {
+                  "text": "Work through the planned steps and check what has been completed."
+                },
+                {
+                  "text": "Identify obstacles and ask for help where needed."
+                },
+                {
+                  "text": "Recognize progress along the way, then reassess the next step."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_goals_01",
+              "q": "What is the central idea of self-management in Learn to Lead chapter 2?",
+              "c": [
+                "Taking responsibility for directing your own actions",
+                "Waiting for others to make every personal choice",
+                "Managing only another person's work",
+                "Replacing all supervision"
+              ],
+              "why": "The chapter connects self-management with ownership of goals, decisions, time and stress.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_02",
+              "q": "What is a future picture in the goal-setting discussion?",
+              "c": [
+                "A clear description of a desired future",
+                "A record of past awards only",
+                "A guarantee of promotion",
+                "An official examination result"
+              ],
+              "why": "A future picture describes what you want your life or outcome to become.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_03",
+              "q": "After dreaming about an ambition, what makes the next goal-setting step concrete?",
+              "c": [
+                "Writing down a specific goal",
+                "Keeping the ambition secret",
+                "Avoiding a deadline",
+                "Waiting for someone else to act"
+              ],
+              "why": "The chapter moves from dreaming to a specific written goal.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_04",
+              "q": "Why list the steps needed to reach a large goal?",
+              "c": [
+                "To make progress manageable",
+                "To guarantee there will be no obstacles",
+                "To avoid choosing a destination",
+                "To replace the goal with paperwork"
+              ],
+              "why": "A large project becomes easier to approach when broken into steps.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_05",
+              "q": "Which action matches the support step of the chapter 2 process?",
+              "c": [
+                "Seek advice and encouragement from people who can help",
+                "Assume asking for help invalidates a goal",
+                "Hide the goal from anyone who can assist",
+                "Require another person to complete every step"
+              ],
+              "why": "Others can provide advice, opportunities and encouragement.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_06",
+              "q": "A cadet checks completed tasks and obstacles while working toward a goal. What is this supporting?",
+              "c": [
+                "Monitoring progress during the work",
+                "Certifying official achievement completion",
+                "Avoiding all changes in the plan",
+                "Transferring ownership of the goal"
+              ],
+              "why": "The process asks learners to review how they are doing as they work.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_07",
+              "q": "Why recognize progress along the way to a distant goal?",
+              "c": [
+                "It provides encouragement to persist",
+                "It replaces the remaining work",
+                "It removes the need to check progress",
+                "It guarantees the outcome"
+              ],
+              "why": "The text treats rewards along the way as incentives to continue.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_goals_08",
+              "q": "How can personal goals help decide which activities deserve time?",
+              "c": [
+                "They help focus effort on a meaningful direction",
+                "They make every activity equally useful",
+                "They remove all need for priorities",
+                "They require abandoning every team activity"
+              ],
+              "why": "Goals provide direction for time, energy and talent.",
+              "objectives": [
+                "L2L 2 / 1-5"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter2",
+                  "section": "Objectives 1-5, printed pages 32-34"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "capcadet_leadershipart",
+          "name": "Chapter 3: leadership, mission and roles",
+          "objectives": [
+            "L2L 3 / 1-3",
+            "L2L 3 / 5-7"
+          ],
+          "refs": [
+            {
+              "source": "capchapter3",
+              "section": "Objectives 1-3, printed pages 63-65"
+            },
+            {
+              "source": "capchapter3",
+              "section": "Objectives 5-7, printed pages 68-77"
+            }
+          ],
+          "notes": [
+            "Leadership uses both creative judgment and systematic study.",
+            "The leadership relationship includes leaders, followers and a goal.",
+            "Influencing people should serve the mission.",
+            "Leaders may act as visionaries, motivators, communicators, experts and teachers.",
+            "A title alone is not evidence that someone is exercising leadership."
+          ],
+          "gloss": [
+            [
+              "Leadership as art",
+              "Creative judgment and individual approach"
+            ],
+            [
+              "Leadership as science",
+              "Careful observation, study and learning"
+            ],
+            [
+              "Mission",
+              "The purpose or task the team exists to accomplish"
+            ],
+            [
+              "Visionary",
+              "A leader who describes a better future for the team"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Art, science and mission",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "idea": [
+                "Creative judgment and careful study complement one another.",
+                "Leadership involves people working toward a goal."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating leadership as either pure instinct or an inflexible formula."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Two leaders may choose different useful approaches to the same challenge."
+                },
+                {
+                  "text": "This illustrates room for judgment and creativity."
+                },
+                {
+                  "text": "They can also study evidence and past experience before acting."
+                },
+                {
+                  "text": "Evaluate the approach by how it helps people accomplish the mission."
+                }
+              ]
+            },
+            {
+              "t": "Choose the needed leadership role",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "idea": [
+                "A leader may need several roles during one project.",
+                "Match the action to the need."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a leader only issues orders."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Describe a useful future for the team to act as a visionary."
+                },
+                {
+                  "text": "Help people sustain effort as a motivator."
+                },
+                {
+                  "text": "Explain the plan clearly as a communicator."
+                },
+                {
+                  "text": "Teach a needed skill, and use relevant expertise to support the team."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "capcadet_leadershipart_01",
+              "q": "Why does chapter 3 describe leadership as an art?",
+              "c": [
+                "It involves creativity and personal judgment",
+                "It requires every leader to act identically",
+                "It excludes learning from experience",
+                "It applies only to visual design"
+              ],
+              "why": "Leaders can use imagination and different effective approaches.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_02",
+              "q": "Why does chapter 3 also describe leadership as a science?",
+              "c": [
+                "It benefits from study, observation and experimentation",
+                "It guarantees a single answer to every team problem",
+                "It eliminates the human element",
+                "It requires ignoring evidence"
+              ],
+              "why": "Leadership can be studied systematically, including how people behave.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_03",
+              "q": "Which three elements are common to many leadership definitions in chapter 3?",
+              "c": [
+                "A leader, followers and a goal",
+                "A uniform, a vehicle and a building",
+                "A budget, an award and a parade",
+                "A title, a password and a schedule"
+              ],
+              "why": "The chapter identifies leader, followers and goal as common components.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_04",
+              "q": "What does a team's mission describe?",
+              "c": [
+                "The purpose or task the team exists to accomplish",
+                "Only the leader's personal reputation",
+                "Only the team's uniform standard",
+                "A list of every member's hobbies"
+              ],
+              "why": "The mission supplies the reason for the team's work.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_05",
+              "q": "A leader describes an inspiring future that the team can work toward. Which role is illustrated?",
+              "c": [
+                "Visionary",
+                "Inventory clerk only",
+                "Passive observer",
+                "Official examiner"
+              ],
+              "why": "A visionary describes what the team can become.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_06",
+              "q": "A leader explains a new task so teammates understand what to do. Which role is most directly illustrated?",
+              "c": [
+                "Communicator",
+                "A silent spectator",
+                "An award recipient only",
+                "An unrelated visitor"
+              ],
+              "why": "Communication turns an idea or plan into shared understanding.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_07",
+              "q": "A leader demonstrates a skill and helps a teammate practice it. Which role best fits?",
+              "c": [
+                "Teacher",
+                "Spectator",
+                "Applicant",
+                "Timekeeper only"
+              ],
+              "why": "Teaching helps others build ability.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "capcadet_leadershipart_08",
+              "q": "Why might a leader use several roles during the same activity?",
+              "c": [
+                "Different team needs call for different leadership actions",
+                "Only one role can ever be useful",
+                "Roles remove the need to accomplish the mission",
+                "Rank automatically completes all tasks"
+              ],
+              "why": "The chapter describes leaders moving among several roles as needs change.",
+              "objectives": [
+                "L2L 3 / 1-3",
+                "L2L 3 / 5-7"
+              ],
+              "refs": [
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 1-3, printed pages 63-65"
+                },
+                {
+                  "source": "capchapter3",
+                  "section": "Objectives 5-7, printed pages 68-77"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
         }
       ],
       "exam": {
@@ -4643,7 +5708,144 @@
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-09"
+      "checked": "2026-11-10",
+      "curriculum": [
+        {
+          "chapter": 1,
+          "volume": 1,
+          "title": "Character & the Air Force Tradition",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch1_AF_Tradition_B81658040C0E9.pdf",
+          "topics": [
+            "capcadet_selflead"
+          ],
+          "status": "partial"
+        },
+        {
+          "chapter": 2,
+          "volume": 1,
+          "title": "The Cadet & the Team",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch2_The_Cadet_And_The_Team_03A97D7210AE0.pdf",
+          "topics": [
+            "capcadet_goals",
+            "capcadet_listening"
+          ],
+          "status": "partial"
+        },
+        {
+          "chapter": 3,
+          "volume": 1,
+          "title": "The Art & the Science",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch3_The_Art_And_Science_FF695C7BC1DEB.pdf",
+          "topics": [
+            "capcadet_leadershipart"
+          ],
+          "status": "partial"
+        },
+        {
+          "chapter": 4,
+          "volume": 2,
+          "title": "The NCO & the Team",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch4_The_NCO_and_TEAM_428130FD1F86C.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 5,
+          "volume": 2,
+          "title": "Brainpower for Leadership",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch5_Brainpower_for_Leaders_68401347748A7.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 6,
+          "volume": 2,
+          "title": "The Human Element",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch6_The_Human_Element_107BC137426D2.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 7,
+          "volume": 2,
+          "title": "Schools of Thought",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch7_Leadership_Schools_of__574B8BF2CB81E.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 8,
+          "volume": 2,
+          "title": "Effective Communication",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch8_Effective_Communicatio_63AFCA8970D43.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 9,
+          "volume": 3,
+          "title": "The Cadet Officer",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_9_Collected__LOW_E5FEBB103E38F.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 10,
+          "volume": 3,
+          "title": "The Staff Officer",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_10LOW_FINAL_75A9FEAE3286B.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 11,
+          "volume": 3,
+          "title": "The Leader as Commander",
+          "url": "https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_11__LOW_FINAL_E798EBB4F218D.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 12,
+          "volume": 4,
+          "title": "Introduction to Strategic Leadership",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_12_Web_C0E7A749BA101_A38A791027084.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 13,
+          "volume": 4,
+          "title": "Leading Public & Volunteer Organizations",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_13_Web_5C4382BCA180F_3C9880EEE06DC.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 14,
+          "volume": 4,
+          "title": "Airpower as Strategic Laboratory",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_14_Web_0CE0B1561422B_2A660EFA41A9B.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 15,
+          "volume": 4,
+          "title": "Organizational Culture & Change",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_15_Web_A46143E86597C_B9DD163320804.pdf",
+          "topics": [],
+          "status": "reading only"
+        },
+        {
+          "chapter": 16,
+          "volume": 4,
+          "title": "Strategic Communication & Negotiation",
+          "url": "https://www.gocivilairpatrol.com/media/cms/Chapter_16_Web_A31AD878B62C6_1B6BEFA8C4A20.pdf",
+          "topics": [],
+          "status": "reading only"
+        }
+      ]
     },
     {
       "id": "wfa",
@@ -7766,6 +8968,1223 @@
         "minutes": 10
       },
       "checked": "2026-11-09"
+    },
+    {
+      "id": "newjerseydriving",
+      "code": "New Jersey Driving Prep",
+      "name": "New Jersey permit foundations",
+      "version": "NJ MVC manual 2026",
+      "status": "partial",
+      "jurisdiction": "US-NJ",
+      "notice": "New Jersey only. Selected manual-based original practice, not official MVC test questions or full knowledge-test preparation. Study the complete current manual and current MVC licensing guidance. No permit, licence or practical driving credit is awarded.",
+      "gaps": [
+        "Remaining manual sections and complete knowledge-test coverage",
+        "Graduated licensing, age-specific restrictions and current application requirements",
+        "Signs, signals, markings, parking, highway hazards and impairment",
+        "Supervised driving and road-test preparation"
+      ],
+      "objectives": [
+        "NJ / Intersections",
+        "NJ / Turns",
+        "NJ / School buses"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "checked": "2026-11-10",
+      "topics": [
+        {
+          "id": "newjerseydriving_intersections",
+          "name": "NJ intersections and visibility",
+          "objectives": [
+            "NJ / Intersections"
+          ],
+          "refs": [
+            {
+              "source": "njmanual",
+              "section": "Chapter 4, printed pages 67-68: intersections"
+            }
+          ],
+          "notes": [
+            "Signals, signs or a police officer can control an intersection.",
+            "At a multi-way stop, yield to vehicles already stopped; simultaneous arrivals yield to the right.",
+            "A yield sign requires slowing and yielding, stopping if necessary.",
+            "An unlit failed traffic signal is treated as a four-way stop.",
+            "Reduce speed near an uncontrolled intersection and be ready to stop."
+          ],
+          "gloss": [
+            [
+              "Controlled intersection",
+              "An intersection regulated by signals, signs or an officer"
+            ],
+            [
+              "Uncontrolled intersection",
+              "An intersection without a traffic signal or regulatory device"
+            ],
+            [
+              "Yield",
+              "Allow other traffic to proceed as required"
+            ],
+            [
+              "Sight obstruction",
+              "Something that prevents a clear view of traffic"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Recognize the control",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "idea": [
+                "Look for the actual control device.",
+                "Arrival order and conflicting traffic matter."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating simultaneous arrival as a race."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Approach a multi-way stop and stop completely."
+                },
+                {
+                  "text": "Check for vehicles already waiting."
+                },
+                {
+                  "text": "When two vehicles arrive together, the driver on the left yields to the one on the right."
+                },
+                {
+                  "text": "Check for pedestrians and other conflicts before proceeding."
+                }
+              ]
+            },
+            {
+              "t": "Handle missing control and limited views",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "idea": [
+                "A failed light still requires a controlled response.",
+                "An obstructed view requires extra care."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming a dark signal gives unrestricted priority."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "An intersection light is dark because of a power failure."
+                },
+                {
+                  "text": "Treat it as a four-way stop, as directed by the New Jersey manual."
+                },
+                {
+                  "text": "At an uncontrolled crossroad, reduce speed and be prepared to stop."
+                },
+                {
+                  "text": "If a building blocks the view, slow or stop to check for cross traffic."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "newjerseydriving_intersections_01",
+              "q": "In New Jersey, what can make an intersection controlled?",
+              "c": [
+                "Traffic signals, signs or a police officer",
+                "Only painted parking spaces",
+                "Only street lighting",
+                "Only the number of lanes"
+              ],
+              "why": "The manual identifies signals, signs and a police officer as controls.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_02",
+              "q": "Two motorists reach a New Jersey multi-way stop at the same time. Which driver yields?",
+              "c": [
+                "The driver on the left yields to the driver on the right",
+                "The driver on the right always yields",
+                "The driver with the larger car proceeds first",
+                "Neither driver needs to stop"
+              ],
+              "why": "For simultaneous arrivals, the manual gives priority to the motorist on the right.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_03",
+              "q": "At a New Jersey multi-way stop, another vehicle was already stopped before you arrived. What should you do?",
+              "c": [
+                "Yield to that vehicle",
+                "Accelerate to claim the intersection",
+                "Use your horn to remove its priority",
+                "Ignore its arrival order"
+              ],
+              "why": "The manual says to yield to a vehicle already stopped at the intersection.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_04",
+              "q": "What is required at a New Jersey yield sign?",
+              "c": [
+                "Slow and give way, stopping if necessary",
+                "Stop only if a police officer is present",
+                "Accelerate before checking traffic",
+                "Ignore traffic on the intersecting road"
+              ],
+              "why": "Yield control requires giving the intersecting traffic the right-of-way.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_05",
+              "q": "A New Jersey traffic signal is not illuminated because of a power failure. How should it be treated?",
+              "c": [
+                "As a four-way stop",
+                "As an unrestricted green light",
+                "As a lane-change instruction",
+                "As permission to follow without stopping"
+              ],
+              "why": "The manual directs motorists to observe a failed unlit signal as a four-way stop.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_06",
+              "q": "How should a motorist approach an uncontrolled New Jersey crossroad?",
+              "c": [
+                "Reduce speed and be ready to stop for cross traffic",
+                "Assume traffic on both sides must stop",
+                "Accelerate because no signal is present",
+                "Look only at the speedometer"
+              ],
+              "why": "The absence of controls calls for caution and readiness to stop.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_07",
+              "q": "A driver exits a private driveway onto a main New Jersey road. Who must the driver yield to?",
+              "c": [
+                "All traffic on the main road",
+                "Only vehicles larger than their car",
+                "Only vehicles turning left",
+                "No one if the driveway is paved"
+              ],
+              "why": "The manual requires a driver from a private road or driveway to yield to main-road traffic.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_intersections_08",
+              "q": "A parked vehicle blocks your view of cross traffic at a New Jersey intersection. What response fits the manual?",
+              "c": [
+                "Slow or stop to make sure the way is clear",
+                "Assume no visible traffic means no traffic",
+                "Accelerate to minimize time looking",
+                "Use the vehicle ahead as proof it is safe"
+              ],
+              "why": "Sight obstructions call for slowing or stopping to check cross traffic.",
+              "objectives": [
+                "NJ / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "newjerseydriving_turns",
+          "name": "NJ turns and red-light decisions",
+          "objectives": [
+            "NJ / Turns"
+          ],
+          "refs": [
+            {
+              "source": "njmanual",
+              "section": "Chapter 4, printed page 72: turns"
+            },
+            {
+              "source": "njmanual",
+              "section": "Chapter 4, printed pages 67-68: intersections"
+            }
+          ],
+          "notes": [
+            "A right turn on red requires a full stop and is prohibited where a No Turn on Red sign applies.",
+            "Before a permitted turn, yield to traffic and pedestrians.",
+            "Check mirrors, blind spots and vulnerable road users.",
+            "Signal at least 100 feet before turning.",
+            "Position properly for a right turn without swinging into another lane."
+          ],
+          "gloss": [
+            [
+              "Full stop",
+              "The vehicle comes completely to rest"
+            ],
+            [
+              "No Turn on Red",
+              "A sign prohibiting the red-light turn"
+            ],
+            [
+              "Blind spot",
+              "Area not adequately visible in mirrors"
+            ],
+            [
+              "Turn signal",
+              "An indication of intended movement"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Check whether a red-light turn is permitted",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "idea": [
+                "A red-light turn is conditional.",
+                "Stopping is only the first decision."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating the lack of a prohibition sign as permission to roll through."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Read the signs before planning a right turn on red."
+                },
+                {
+                  "text": "If no prohibition applies, stop completely and check for traffic."
+                },
+                {
+                  "text": "Yield to traffic and pedestrians before turning."
+                },
+                {
+                  "text": "Look for bicycles and mopeds that may be difficult to see."
+                }
+              ]
+            },
+            {
+              "t": "Prepare the turn",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "idea": [
+                "Signal before the maneuver.",
+                "Check the space around the vehicle."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Watching only approaching cars and overlooking a cyclist or pedestrian."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Signal at least 100 feet before the turn."
+                },
+                {
+                  "text": "Scan around the vehicle, including mirrors and blind spots."
+                },
+                {
+                  "text": "Approach a right turn close to the right side as directed by the manual."
+                },
+                {
+                  "text": "Complete the turn without swinging outward into another lane, then cancel the signal."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "newjerseydriving_turns_01",
+              "q": "A No Turn on Red sign applies at a New Jersey intersection. May you turn right while the light is red?",
+              "c": [
+                "No, the sign prohibits that turn",
+                "Yes, after only slowing down",
+                "Yes, whenever the vehicle behind honks",
+                "Yes, if no truck is visible"
+              ],
+              "why": "The red-light turn authorization does not apply where the prohibiting sign is posted.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_02",
+              "q": "No sign prohibits a right turn on red in New Jersey. What must happen before the driver considers turning?",
+              "c": [
+                "Come to a full stop and check traffic",
+                "Maintain speed through the turn",
+                "Only tap the brake pedal",
+                "Wait for the following driver to signal"
+              ],
+              "why": "The manual requires a full stop and a traffic check.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_03",
+              "q": "Before a permitted New Jersey right turn on red, what must the driver do about traffic and pedestrians?",
+              "c": [
+                "Yield before turning",
+                "Assume the turn has automatic priority",
+                "Ask pedestrians to wait by sounding the horn",
+                "Ignore bicycles because they are smaller"
+              ],
+              "why": "The manual requires yielding to traffic and pedestrians.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_04",
+              "q": "How far before a New Jersey turn should the driver signal, according to the manual?",
+              "c": [
+                "At least 100 feet",
+                "Only after entering the turn",
+                "Only within the last 5 feet",
+                "Only after completing the turn"
+              ],
+              "why": "The cited section specifies at least 100 feet.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_05",
+              "q": "Why does the New Jersey manual call attention to bicycles and mopeds before a red-light turn?",
+              "c": [
+                "They can be hard to see and may have a green light",
+                "They are always prohibited from intersections",
+                "They never have priority",
+                "They are visible in every mirror automatically"
+              ],
+              "why": "Small road users can be overlooked while they have a green indication.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_06",
+              "q": "Which scanning habit fits the New Jersey manual before turning?",
+              "c": [
+                "Check around the vehicle, mirrors and blind spots",
+                "Look only straight ahead",
+                "Check only the nearest car behind",
+                "Rely entirely on the horn"
+              ],
+              "why": "The manual calls for scanning left, right and behind, including mirrors and blind spots.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_07",
+              "q": "How should a driver position for a New Jersey right turn?",
+              "c": [
+                "Approach toward the right without swinging outward into another lane",
+                "Move left first to make a wide swing",
+                "Straddle every available lane",
+                "Begin from the opposing traffic lane"
+              ],
+              "why": "The manual directs a right-side approach and cautions against swinging into another lane.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_turns_08",
+              "q": "After completing a New Jersey turn, what should happen to the turn signal?",
+              "c": [
+                "Cancel it",
+                "Leave it on for the entire trip",
+                "Switch immediately to the opposite signal",
+                "Use it as a substitute for checking mirrors"
+              ],
+              "why": "The turn section directs drivers to cancel the signal after the maneuver.",
+              "objectives": [
+                "NJ / Turns"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 72: turns"
+                },
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed pages 67-68: intersections"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "newjerseydriving_buses",
+          "name": "NJ school-bus situations",
+          "objectives": [
+            "NJ / School buses"
+          ],
+          "refs": [
+            {
+              "source": "njmanual",
+              "section": "Chapter 4, printed page 77: school buses"
+            }
+          ],
+          "notes": [
+            "Bus rules depend on lights, road separation and the situation.",
+            "With flashing red lights on a two-lane road, stop at least 25 feet away.",
+            "Painted lines alone do not provide the raised-median exception.",
+            "Across a safety island or raised median on the described divided highway, slow to 10 mph.",
+            "The manual describes a separate exception directly in front of a school: no more than 10 mph. Read the full section before generalizing."
+          ],
+          "gloss": [
+            [
+              "Flashing red bus lights",
+              "A warning that the bus has stopped for passengers"
+            ],
+            [
+              "Amber bus lights",
+              "Advance warning before the bus stops"
+            ],
+            [
+              "Raised median",
+              "A physical raised separation between roadways"
+            ],
+            [
+              "Stopping distance in this rule",
+              "At least 25 feet where the bus stop requirement applies"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the whole road situation",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "idea": [
+                "Painted separation and physical separation are different.",
+                "Do not omit the distance condition."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Treating painted center lines as a raised median."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A bus has flashing red lights on a two-lane road."
+                },
+                {
+                  "text": "Stop at least 25 feet away whether approaching or following."
+                },
+                {
+                  "text": "On a multi-lane road separated only by painted lines, the stop rule still applies."
+                },
+                {
+                  "text": "Look for children and other vulnerable people, not just lights."
+                }
+              ]
+            },
+            {
+              "t": "Keep exceptions narrow",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "idea": [
+                "A qualified exception does not remove the general rule.",
+                "Proceed cautiously after the signals are off."
+              ],
+              "recipe": [
+                "Identify the relevant facts.",
+                "Apply the principle in the cited source.",
+                "Explain the decision and check its limits."
+              ],
+              "oops": [
+                "Assuming every bus stop permits passing at 10 mph."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Across a safety island or raised median on the divided highway described in the manual, slow to 10 mph."
+                },
+                {
+                  "text": "Distinguish the separate case of a bus stopped directly in front of a school to load or unload; the manual specifies no more than 10 mph from either direction."
+                },
+                {
+                  "text": "Do not transfer these exceptions to an ordinary two-lane-road bus stop."
+                },
+                {
+                  "text": "Where you stopped, proceed only after the bus signals are off and continue watching for people."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "newjerseydriving_buses_01",
+              "q": "A New Jersey school bus flashes red lights on a two-lane road. How far away must an approaching driver stop?",
+              "c": [
+                "At least 25 feet",
+                "At least 5 feet",
+                "At least 10 feet",
+                "Exactly beside the bus"
+              ],
+              "why": "The manual requires at least 25 feet in this situation.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_02",
+              "q": "On a New Jersey multi-lane highway separated only by painted lines, a school bus has flashing red lights. What applies?",
+              "c": [
+                "Stop at least 25 feet away",
+                "Pass because painted lines create an exemption",
+                "Only drivers behind the bus stop",
+                "Keep the posted speed without slowing"
+              ],
+              "why": "Painted lines do not create the stated physical-separation exception.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_03",
+              "q": "You are across a safety island or raised median from the stopped school bus on the divided highway described in the New Jersey manual. What does it direct?",
+              "c": [
+                "Slow to 10 mph",
+                "Maintain highway speed",
+                "Accelerate past the bus",
+                "Drive onto the median"
+              ],
+              "why": "The manual specifies 10 mph on the other side of that physical separation.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_04",
+              "q": "What do amber lights on a New Jersey school bus warn of?",
+              "c": [
+                "The bus is about to stop",
+                "The bus has permission to exceed the limit",
+                "The road is closed permanently",
+                "Drivers should pass immediately"
+              ],
+              "why": "Amber lights come on before the stop; red lights come on when the bus has stopped.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_05",
+              "q": "Why should a driver behind a New Jersey school bus avoid depending entirely on its warning lights?",
+              "c": [
+                "The lights could be malfunctioning",
+                "Lights cancel the need to watch people",
+                "Every bus uses the same hand signal instead",
+                "Only the horn matters"
+              ],
+              "why": "The manual warns that the lights could malfunction.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_06",
+              "q": "After stopping for a New Jersey school bus, when should the driver proceed under the manual guidance?",
+              "c": [
+                "After the bus signals are off, while still watching for people",
+                "As soon as another driver honks",
+                "While the red lights still flash if the lane looks clear",
+                "Whenever the driver has waited ten seconds"
+              ],
+              "why": "Signals being off does not remove the need to look for children and others.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_07",
+              "q": "A bus is stopped directly in front of a New Jersey school to load or unload passengers. What maximum passing speed does the manual describe for that specific exception?",
+              "c": [
+                "10 mph",
+                "25 mph",
+                "35 mph",
+                "The normal posted speed without restriction"
+              ],
+              "why": "The directly-in-front-of-school exception specifies no more than 10 mph from either direction.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            },
+            {
+              "id": "newjerseydriving_buses_08",
+              "q": "Which detail changes the ordinary school-bus analysis in the New Jersey manual?",
+              "c": [
+                "A safety island or raised median separating the opposite roadway",
+                "A painted center line alone",
+                "A driver being late",
+                "A wider shoulder alone"
+              ],
+              "why": "The exception refers to physical separation, not simply painted lines.",
+              "objectives": [
+                "NJ / School buses"
+              ],
+              "refs": [
+                {
+                  "source": "njmanual",
+                  "section": "Chapter 4, printed page 77: school buses"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "drivingJurisdictions": [
+    {
+      "code": "US-AL",
+      "name": "Alabama",
+      "track": null
+    },
+    {
+      "code": "US-AK",
+      "name": "Alaska",
+      "track": null
+    },
+    {
+      "code": "US-AZ",
+      "name": "Arizona",
+      "track": "arizonadriving"
+    },
+    {
+      "code": "US-AR",
+      "name": "Arkansas",
+      "track": null
+    },
+    {
+      "code": "US-CA",
+      "name": "California",
+      "track": null
+    },
+    {
+      "code": "US-CO",
+      "name": "Colorado",
+      "track": null
+    },
+    {
+      "code": "US-CT",
+      "name": "Connecticut",
+      "track": null
+    },
+    {
+      "code": "US-DE",
+      "name": "Delaware",
+      "track": null
+    },
+    {
+      "code": "US-FL",
+      "name": "Florida",
+      "track": null
+    },
+    {
+      "code": "US-GA",
+      "name": "Georgia",
+      "track": null
+    },
+    {
+      "code": "US-HI",
+      "name": "Hawaii",
+      "track": null
+    },
+    {
+      "code": "US-ID",
+      "name": "Idaho",
+      "track": null
+    },
+    {
+      "code": "US-IL",
+      "name": "Illinois",
+      "track": null
+    },
+    {
+      "code": "US-IN",
+      "name": "Indiana",
+      "track": null
+    },
+    {
+      "code": "US-IA",
+      "name": "Iowa",
+      "track": null
+    },
+    {
+      "code": "US-KS",
+      "name": "Kansas",
+      "track": null
+    },
+    {
+      "code": "US-KY",
+      "name": "Kentucky",
+      "track": null
+    },
+    {
+      "code": "US-LA",
+      "name": "Louisiana",
+      "track": null
+    },
+    {
+      "code": "US-ME",
+      "name": "Maine",
+      "track": null
+    },
+    {
+      "code": "US-MD",
+      "name": "Maryland",
+      "track": null
+    },
+    {
+      "code": "US-MA",
+      "name": "Massachusetts",
+      "track": null
+    },
+    {
+      "code": "US-MI",
+      "name": "Michigan",
+      "track": null
+    },
+    {
+      "code": "US-MN",
+      "name": "Minnesota",
+      "track": null
+    },
+    {
+      "code": "US-MS",
+      "name": "Mississippi",
+      "track": null
+    },
+    {
+      "code": "US-MO",
+      "name": "Missouri",
+      "track": null
+    },
+    {
+      "code": "US-MT",
+      "name": "Montana",
+      "track": null
+    },
+    {
+      "code": "US-NE",
+      "name": "Nebraska",
+      "track": null
+    },
+    {
+      "code": "US-NV",
+      "name": "Nevada",
+      "track": null
+    },
+    {
+      "code": "US-NH",
+      "name": "New Hampshire",
+      "track": null
+    },
+    {
+      "code": "US-NJ",
+      "name": "New Jersey",
+      "track": "newjerseydriving"
+    },
+    {
+      "code": "US-NM",
+      "name": "New Mexico",
+      "track": null
+    },
+    {
+      "code": "US-NY",
+      "name": "New York",
+      "track": null
+    },
+    {
+      "code": "US-NC",
+      "name": "North Carolina",
+      "track": null
+    },
+    {
+      "code": "US-ND",
+      "name": "North Dakota",
+      "track": null
+    },
+    {
+      "code": "US-OH",
+      "name": "Ohio",
+      "track": null
+    },
+    {
+      "code": "US-OK",
+      "name": "Oklahoma",
+      "track": null
+    },
+    {
+      "code": "US-OR",
+      "name": "Oregon",
+      "track": null
+    },
+    {
+      "code": "US-PA",
+      "name": "Pennsylvania",
+      "track": null
+    },
+    {
+      "code": "US-RI",
+      "name": "Rhode Island",
+      "track": null
+    },
+    {
+      "code": "US-SC",
+      "name": "South Carolina",
+      "track": null
+    },
+    {
+      "code": "US-SD",
+      "name": "South Dakota",
+      "track": null
+    },
+    {
+      "code": "US-TN",
+      "name": "Tennessee",
+      "track": null
+    },
+    {
+      "code": "US-TX",
+      "name": "Texas",
+      "track": null
+    },
+    {
+      "code": "US-UT",
+      "name": "Utah",
+      "track": null
+    },
+    {
+      "code": "US-VT",
+      "name": "Vermont",
+      "track": null
+    },
+    {
+      "code": "US-VA",
+      "name": "Virginia",
+      "track": null
+    },
+    {
+      "code": "US-WA",
+      "name": "Washington",
+      "track": null
+    },
+    {
+      "code": "US-WV",
+      "name": "West Virginia",
+      "track": null
+    },
+    {
+      "code": "US-WI",
+      "name": "Wisconsin",
+      "track": null
+    },
+    {
+      "code": "US-WY",
+      "name": "Wyoming",
+      "track": null
+    },
+    {
+      "code": "US-DC",
+      "name": "District of Columbia",
+      "track": null
     }
   ]
 }
