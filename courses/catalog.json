@@ -12328,6 +12328,404 @@
           ],
           "status": "partial"
         }
+      ],
+      "achievements": [
+        {
+          "id": "curry",
+          "number": 1,
+          "title": "Achievement 1 - Curry",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/curry",
+          "checked": "2026-11-10",
+          "chapters": [
+            1
+          ],
+          "leadership": "Learn to Lead chapter 1. Use the official page for the assessment route and requirements.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron.",
+            "Complete the Cadet Wingman Course and Cadet Welcome Course through the approved route."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "h-h-hap-arnold-achievement",
+          "number": 2,
+          "title": "Achievement 2 - Arnold",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/h-h-hap-arnold-achievement",
+          "checked": "2026-11-10",
+          "chapters": [
+            2
+          ],
+          "leadership": "Learn to Lead chapter 2. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 1.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "feik",
+          "number": 3,
+          "title": "Achievement 3 - Feik",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/feik",
+          "checked": "2026-11-10",
+          "chapters": [
+            3
+          ],
+          "leadership": "Learn to Lead chapter 3. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 2.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "wright",
+          "number": null,
+          "title": "Wright Brothers Award",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/wright",
+          "checked": "2026-11-10",
+          "chapters": [
+            1,
+            2,
+            3
+          ],
+          "leadership": "Leadership review spans chapters 1-3. Schedule the official closed-book assessment and drill evaluation with the squadron.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Read the full official milestone page and arrange required supervised activities and approvals."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "rickenbacker",
+          "number": 4,
+          "title": "Achievement 4 - Rickenbacker",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/rickenbacker",
+          "checked": "2026-11-10",
+          "chapters": [
+            4
+          ],
+          "leadership": "Learn to Lead chapter 4. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 3.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement5",
+          "number": 5,
+          "title": "Achievement 5",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement5",
+          "checked": "2026-11-10",
+          "chapters": [
+            5
+          ],
+          "leadership": "Learn to Lead chapter 5. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 4.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "doolittle",
+          "number": 6,
+          "title": "Achievement 6 - Doolittle",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/doolittle",
+          "checked": "2026-11-10",
+          "chapters": [
+            6
+          ],
+          "leadership": "Learn to Lead chapter 6. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 5.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "godda",
+          "number": 7,
+          "title": "Achievement 7 - Goddard",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/godda",
+          "checked": "2026-11-10",
+          "chapters": [
+            7
+          ],
+          "leadership": "Learn to Lead chapter 7. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 6.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "armstrong",
+          "number": 8,
+          "title": "Achievement 8 - Armstrong",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/armstrong",
+          "checked": "2026-11-10",
+          "chapters": [
+            8
+          ],
+          "leadership": "Learn to Lead chapter 8. Use the official page for the assessment route and requirements.",
+          "aerospace": "Aerospace Dimensions module 7.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Arrange the required drill performance assessment with your squadron.",
+            "Prepare the required 300-500 word essay and 5-7 minute speech; use an official topic and senior evaluation."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "mitchell",
+          "number": null,
+          "title": "Billy Mitchell Award",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell",
+          "checked": "2026-11-10",
+          "chapters": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "leadership": "Leadership review spans volume 2. Coordinate official leadership and aerospace milestone exams with the squadron.",
+          "aerospace": "All Aerospace Dimensions modules.",
+          "actions": [
+            "Read the full official milestone page and arrange required supervised activities and approvals.",
+            "Confirm encampment graduation and all remaining eligibility requirements with your squadron."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement9",
+          "number": 9,
+          "title": "Achievement 9",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement9",
+          "checked": "2026-11-10",
+          "chapters": [
+            9
+          ],
+          "leadership": "Learn to Lead chapter 9. Use the official page for the assessment route and requirements.",
+          "aerospace": "Journey of Flight chapters 1, 7, 8.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement10-brown",
+          "number": 10,
+          "title": "Achievement 10- Brown",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement10-brown",
+          "checked": "2026-11-10",
+          "chapters": [
+            10
+          ],
+          "leadership": "Learn to Lead chapter 10. Use the official page for the assessment route and requirements.",
+          "aerospace": "Journey of Flight chapters 2, 9, 10.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement11",
+          "number": 11,
+          "title": "Achievement 11",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement11",
+          "checked": "2026-11-10",
+          "chapters": [
+            11
+          ],
+          "leadership": "Learn to Lead chapter 11. Use the official page for the assessment route and requirements.",
+          "aerospace": "Journey of Flight chapters 3, 18, 19.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "earhart",
+          "number": null,
+          "title": "Amelia Earhart Award",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/earhart",
+          "checked": "2026-11-10",
+          "chapters": [
+            9,
+            10,
+            11
+          ],
+          "leadership": "Leadership review spans volume 3. Arrange the official milestone exam with the squadron.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Read the full official milestone page and arrange required supervised activities and approvals."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement12",
+          "number": 12,
+          "title": "Achievement 12",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement12",
+          "checked": "2026-11-10",
+          "chapters": [
+            12
+          ],
+          "leadership": "Learn to Lead chapter 12. Use the official page for the assessment route and requirements.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement13",
+          "number": 13,
+          "title": "Achievement 13",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement13",
+          "checked": "2026-11-10",
+          "chapters": [
+            13
+          ],
+          "leadership": "Learn to Lead chapter 13. Use the official page for the assessment route and requirements.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement14",
+          "number": 14,
+          "title": "Achievement 14- Boyd",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement14",
+          "checked": "2026-11-10",
+          "chapters": [
+            14
+          ],
+          "leadership": "Learn to Lead chapter 14. Use the official page for the assessment route and requirements.",
+          "aerospace": "Journey of Flight chapters 4, 21, 23.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement15",
+          "number": 15,
+          "title": "Achievement 15-Ride",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement15",
+          "checked": "2026-11-10",
+          "chapters": [
+            15
+          ],
+          "leadership": "Learn to Lead chapter 15. Use the official page for the assessment route and requirements.",
+          "aerospace": "Journey of Flight chapters 5, 24, 25.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "achievement16",
+          "number": 16,
+          "title": "Achievement 16",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/achievement16",
+          "checked": "2026-11-10",
+          "chapters": [],
+          "leadership": "Needs verification: the national Achievement 16 page currently says chapter 14. Chapter 16 remains available for general study; confirm the required assessment in eServices with your testing officer.",
+          "aerospace": "Journey of Flight chapters 6, 26, 27.",
+          "actions": [
+            "Confirm current eligibility, official assessment route and leadership expectations with your squadron.",
+            "Arrange required fitness and character activities; use current official standards and accommodations.",
+            "Coordinate staff service, an approved technical document, a 10-15 minute briefing and a senior-mentor discussion for Staff Duty Analysis."
+          ],
+          "status": "needs verification"
+        },
+        {
+          "id": "eaker",
+          "number": null,
+          "title": "Ira C. Eaker Award",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/eaker",
+          "checked": "2026-11-10",
+          "chapters": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "leadership": "Prepare the required essay and speech with senior evaluation; confirm qualifying leadership-academy completion.",
+          "aerospace": "No aerospace assessment listed.",
+          "actions": [
+            "Read the full official milestone page and arrange required supervised activities and approvals."
+          ],
+          "status": "source summary"
+        },
+        {
+          "id": "spaatz-award",
+          "number": null,
+          "title": "Carl A. Spaatz Award",
+          "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/spaatz-award",
+          "checked": "2026-11-10",
+          "chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "leadership": "Review all four leadership volumes plus the additional regulations and drill publication on the official page. Commander permissions and official proctored assessments are required.",
+          "aerospace": "Journey of Flight, fourth edition: chapters 1-10, 18-19, 21 and 23-27. Separate leadership, aerospace, fitness and character portions.",
+          "actions": [
+            "Read the full official milestone page and arrange required supervised activities and approvals."
+          ],
+          "status": "source summary"
+        }
       ]
     },
     {

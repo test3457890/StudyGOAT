@@ -9,3 +9,6 @@ The historical policy and doctrine readings are identified as textbook material,
 [Coverage checklist](https://github.com/test3457890/StudyGOAT/wiki/Coverage-Checklist) | [Official Learn to Lead library](https://www.gocivilairpatrol.com/programs/cadets/library/l2l)
 
 Remaining: full objective inventories and deeper practice, independent review, aerospace, current CAPR 60-1 and national achievement mapping. StudyGOAT cannot award CAP credit or replace supervised drill, fitness, leadership feedback or official assessments.
+
+
+November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.

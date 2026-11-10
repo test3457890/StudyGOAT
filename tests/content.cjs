@@ -10,3 +10,8 @@ for(const c of cap.curriculum){assert(c.volume>=1&&c.volume<=4);assert.match(c.u
 assert.equal(data.drivingJurisdictions.length,51);assert.equal(new Set(data.drivingJurisdictions.map(j=>j.code)).size,51);
 for(const j of data.drivingJurisdictions){if(j.track)assert(data.tracks.some(t=>t.id===j.track&&t.jurisdiction===j.code));}
 console.log(`PASS: ${data.tracks.length} tracks, ${count} questions; IDs, choices, citations, dates, objectives, 16 CAP chapters, 51 jurisdictions and generated data parity`);
+
+assert.equal(cap.achievements.length,21);assert.equal(new Set(cap.achievements.map(a=>a.id)).size,21);
+assert.deepEqual(cap.achievements.filter(a=>a.number).map(a=>a.number),Array.from({length:16},(_,i)=>i+1));
+for(const a of cap.achievements){assert(a.title&&a.leadership&&a.aerospace&&a.actions.length);assert.match(a.url,/^https:\/\/www\.gocivilairpatrol\.com\/programs\/cadets\/stripes-to-diamonds\//);for(const n of a.chapters)assert(cap.curriculum.some(c=>c.chapter===n));}
+assert.deepEqual(cap.achievements.find(a=>a.number===16).chapters,[]);assert.equal(cap.achievements.find(a=>a.number===16).status,'needs verification');

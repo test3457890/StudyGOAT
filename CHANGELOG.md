@@ -66,3 +66,7 @@
 - Added four Technician lessons and 16 original electronics and wave questions.
 - Current totals: nine partial sourced tracks, 93 lessons, 404 questions.
 - Kept NCVEC full-pool and current CompTIA-version verification open; no invented approval, medical protocol or completion claim.
+
+## CAP achievement map
+
+Added 21 achievement/milestone study summaries, official requirement links, mapped chapter review buttons, aerospace assignments and supervised-work reminders. Flagged the national Achievement 16 chapter discrepancy. Course lesson/question totals remain unchanged.

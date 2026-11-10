@@ -70,3 +70,6 @@ The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains the 
 The repository has no project license. No license was added.
 
 Latest expansion: selected lessons and original practice now exist in all 16 CAP Learn to Lead chapters, with chapter-specific quizzes. Added California and New York partial driving programs, Security+ governance/assets/incident response, Part 107 METAR/TAF exercises and Technician electronics/radio foundations. Totals: 93 lessons and 404 questions across nine partial sourced tracks.
+
+
+November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
