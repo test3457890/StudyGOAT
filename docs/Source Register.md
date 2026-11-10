@@ -27,3 +27,15 @@ CAP: downloaded all 16 individual chapters linked by the current national Learn 
 New Jersey: official MVC manual, 2026 cover, downloaded directly from https://www.nj.gov/mvc/pdf/license/drivermanual.pdf. SHA-256: `bcc99f5cc49c1a19b67e7d7342e148eccd15d18ec105ae5e18c850b870c4c239`. Selected chapter 4 sections: intersections 67-68, turns 72, school buses 77. Web reader rejected the large PDF; direct download and PDF text extraction succeeded. No official questions copied.
 
 Totals now: 45 lessons and 212 original questions across seven partial sourced tracks. Review deadlines remain December 9, 2026.
+
+## All-chapter CAP and broader foundations review
+
+November 10, 2026: all individual CAP chapters remain linked from the national Learn to Lead library. Added selected section-based summaries and original scenarios for chapters 4-16: service/coaching/team development; intellectual standards/brainstorming; Johari/conflict; emotional intelligence/leadership approaches; communication; indirect leadership; management/projects; intent/delegation; strategy/systems; volunteers; historical airpower analysis; culture/change; communication/negotiation. Source sections are recorded per topic. This is not a complete objective inventory.
+
+California DMV online handbook Section 6 and New York DMV online manual chapters 4-5 were read directly. Online check date is recorded without claiming a print revision. Banks are jurisdiction-specific and original.
+
+NIST CSWP 29 (CSF 2.0, February 26, 2024), Appendix A, supplies governance, inventory and response outcomes. Relevant SY0-701 objective mappings were checked against the accessible CompTIA version 6.0 baseline. Current V7/V8 availability pages remain inaccessible and unconfirmed.
+
+NOAA AWC product guidance supplies METAR and TAF decoding. Code fragments are synthetic. NASA Glenn's Ohm's-law activity and NASA SCaN's radio/optical educational article supply original electronics and wave foundations. No actual FCC pool items are represented by these exercises. NCVEC direct pool retrieval still returned 403; no full-pool mode is enabled.
+
+All new source records include check/review dates and rights notes. Sources remain due for review December 9, 2026. Total: 93 lessons and 404 questions across nine partial sourced tracks.

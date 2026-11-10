@@ -17,3 +17,7 @@ Current totals: 6 lessons and 32 questions. The course remains partial. Earlier 
 ## Further curriculum expansion
 
 Two backup-and-recovery lessons and eight original questions cover offline encrypted backups, restore testing and incident communications. Source: public CISA ransomware data-breach fact sheet, prevention items 1 to 2 and overview. Selected SY0-701 objectives 3.4 and 4.8. Current total: 8 lessons and 40 questions.
+
+## Latest curriculum expansion
+
+Current totals: 14 lessons and 64 questions. New lessons cover governance roles and policy (5.1), asset inventory and criticality (4.2), and incident triage, escalation, communication and mitigation (4.8). They use NIST CSF 2.0 with the accessible SY0-701 objectives baseline. Current CompTIA exam availability and latest objective revision remain unconfirmed. These selected topics do not complete any domain.

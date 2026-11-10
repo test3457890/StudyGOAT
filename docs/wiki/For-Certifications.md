@@ -1,16 +1,18 @@
 # Certifications and professional learning
 
-Updated 2026-11-10. StudyGOAT offers seven independent study tracks. All are partial.
+Updated 2026-11-10. StudyGOAT offers nine independent study tracks. All are partial.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 8 | 40 | Selected security foundations; incomplete domain coverage |
-| FAA Part 107 | 5 | 26 | Selected regulations, operating limits and Remote ID |
-| CAP Cadet Study | 12 | 52 | Selected Learn to Lead chapters 1-3; readings linked for all 16 |
+| Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
+| FAA Part 107 | 9 | 42 | Selected regulations, Remote ID and METAR/TAF interpretation |
+| CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 4 | 20 | Original rules primer; full official pool not imported |
+| Amateur Radio Technician | 8 | 36 | Rules, Ohm’s law and radio-wave foundations; no full official pool |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
+| California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
+| New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 
