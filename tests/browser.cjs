@@ -33,6 +33,22 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
+// Uploaded lecture content is part of the existing discrete class.
+await page.evaluate(()=>enterCourse('cpsc222'));
+for(const topic of ['dmfsm','dmturnstile','dmsuffixdfa','dmfsmpython']){
+ await page.evaluate(topic=>practice(topic),topic);await page.evaluate(()=>answer(cur.choices.indexOf(cur.answer)));assert.match(await page.locator('#fb').innerText(),/Correct/);
+ for(let i=0;i<2;i++){await page.evaluate(({topic,i})=>learn(topic,i),{topic,i});await page.evaluate(()=>{while(LS.i<LS.steps.length-1)stepGo(1)});assert(await page.locator('#lc').isVisible());}
+}
+await page.evaluate(()=>home());await page.getByRole('button',{name:'Open finite state machine lab',exact:true}).click();
+await page.getByRole('button',{name:'Reset turnstile',exact:true}).click();
+for(const label of ['Push gate','Insert coin','Insert coin','Push gate','Insert coin'])await page.getByRole('button',{name:label,exact:true}).click();
+assert.match(await page.locator('#fsmState').innerText(),/Current state: Unlocked; vector \[0,1\]/);
+await page.getByRole('button',{name:'Reset turnstile',exact:true}).click();assert.match(await page.locator('#fsmState').innerText(),/Locked; vector \[1,0\]. No events/);
+for(const [word,result] of [['1101','Accepted.'],['011','Rejected.'],['','Rejected.'],['10x','Use only 0 and 1.']]){
+ await page.locator('#fsmWord').fill(word);await page.getByRole('button',{name:'Trace string',exact:true}).click();assert((await page.locator('#fsmResult').innerText()).includes(result));
+}
+await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'FSM lab mobile overflow');
+await page.setViewportSize({width:1280,height:800});
 // All chapters reach real lessons and scope practice to their mapped topics.
 await page.evaluate(()=>enterCourse('capcadet'));await page.getByRole('button',{name:'All 16 chapters & coverage',exact:true}).click();
 assert.equal(await page.locator('#achievementMap details').count(),21);

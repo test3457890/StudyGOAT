@@ -78,3 +78,7 @@ Added ten lessons and 40 original questions on weight/balance, density altitude,
 ## Searchable course categories
 
 Replaced the long home-course list with Classes, Certifications and Driving Tests. Added category course search, state search, result counts and empty states. Preserved class tools and course progress. Removed built-in professor names and clarified FAA drone focus.
+
+## CPSC 222 finite state machines
+
+Added four topics, eight lessons, 32 original questions and an interactive turnstile/DFA lab to the existing discrete structures class. Includes row-vector matrix conventions, worked traces, Python dictionary implementations and an explicitly chosen login invalid-attempt policy. Source: uploaded 28-slide FSM lecture.
