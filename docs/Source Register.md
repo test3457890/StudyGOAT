@@ -45,3 +45,9 @@ November 10: reviewed all 21 national Stripes to Diamonds achievement/milestone 
 FAA expansion checked November 10: FAA-G-8082-22 (August 2016), chapters 3b, 4, 8 and 10, used only for selected physics and decision principles. No superseded regulatory or medical guidance was imported. Synthetic fixed-wing stall calculations explicitly limit their assumptions. Current CAP Aerospace Dimensions fourth edition requires eServices access; public older PDFs do not establish current full curriculum coverage.
 
 National driving foundations checked November 10, 2026: NHTSA Distracted Driving (What Is Distracted Driving?), Speeding (Dangers and Consequences), and Seat Belts (Top 5 Things). These are national safety-education sources, not state licensing rules. The 16 questions are shared once across all jurisdictions. USAGov State motor vehicle services is provided as a lookup route, not a verified current driver-manual edition.
+
+## Texas and Florida selected traffic rules, checked November 10, 2026
+
+Texas Legislature Transportation Code 544.007(b)-(f) and 545.066(a), (b), (f); Florida Senate published 2026 Statutes 316.075(1)(a)-(c), 316.076(1)-(2), 316.172(1)-(2). Direct official URLs and review dates are registered in the catalog and linked in the coverage checklist. Original paraphrases and practice only; no official exam material or handbook artwork republished.
+
+Texas DPS form listing reports January 2026, but direct handbook download returned 503 and the web reader could not fetch the large file. Florida handbook download returned 403; indexed text identifies August 2023. Cached manuals do not establish the latest edition. The implemented rules were checked against the official statute text rather than claiming full current manual verification. No penalties, permit eligibility or training-hour requirements imported.

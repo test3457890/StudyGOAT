@@ -12,7 +12,7 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 
 ## Study program status
 
-Updated November 10, 2026. All 10 sourced tracks have partial coverage. None is a complete certification or state permit course.
+Updated November 10, 2026. All 12 sourced tracks have partial coverage. None is a complete certification or state permit course.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -25,9 +25,11 @@ Updated November 10, 2026. All 10 sourced tracks have partial coverage. None is 
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
 | New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
+| Texas Driving Prep | 4 | 16 | Selected Texas signal decisions and school-bus roadway exceptions |
+| Florida Driving Prep | 4 | 16 | Selected Florida signal decisions and school-bus median exceptions |
 | National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
 
-Current sourced-content total: 10 tracks, 107 lessons and 460 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California and New York have partial state-specific courses; the other 46 states and DC still need their own manual-based lessons and questions. No program is complete.
+Current sourced-content total: 12 tracks, 115 lessons and 492 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California, New York, Texas and Florida have partial state-specific courses; the other 44 states and DC still need their own manual-based lessons and questions. No program is complete.
 
 Each new track includes source links, section/objective mappings, version notices, coverage gaps, glossary cards, worked scenarios and ten-question practice tests without duplicate questions. Timers are optional practice pacing. Raw scores do not reproduce official scoring or establish readiness.
 
@@ -81,7 +83,7 @@ November 10 achievement-map update: the app now lists all 16 achievements and fi
 November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. At that stage, totals were 103 lessons and 444 questions, before the shared national driving course was added.
 
 
-Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes four partial courses from states offering only shared national foundations across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
+Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes six partial courses from states offering only shared national foundations across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
 
 
 CPSC 222 lecture update: added four topics and eight lessons on finite state machines, turnstile transition matrices, a binary suffix-01 DFA and Python/login-state design, with 32 original questions. The interactive FSM lab traces turnstile events and binary strings. Access through Classes > CPSC 222. Content summarizes the uploaded lecture; the slide deck and professor name are not published. Certification/driving counts are unchanged.
@@ -89,6 +91,8 @@ CPSC 222 lecture update: added four topics and eight lessons on finite state mac
 
 ## National driving foundations for every state
 
-All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 107 lessons and 460 questions across ten tracks, excluding the separate university content.
+All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 115 lessons and 492 questions across 12 tracks, excluding the separate university content.
 
-Arizona, New Jersey, California and New York retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
+Arizona, New Jersey, California, New York, Texas and Florida retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
+
+November 10 Texas and Florida batch: each adds four lessons and 16 original questions on selected signal and school-bus rules, checked against official state statutes. Six states now have partial state-specific study. Full manual review, licensing requirements, remaining topics and complete exam coverage are still pending. The shared national foundation remains one course counted once.
