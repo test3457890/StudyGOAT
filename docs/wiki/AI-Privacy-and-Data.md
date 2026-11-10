@@ -39,3 +39,7 @@ AI tutors and generated course materials may be wrong or incomplete. Check impor
 
 See [FAQ](https://github.com/test3457890/StudyGOAT/wiki/FAQ).
 
+
+## New built-in tracks
+
+The five new tracks use static sourced content and do not require AI requests. AI editing controls are omitted from their navigation. Registration restores the checked banks after custom-course updates. User-generated material remains unverified and must not be represented as official or source-checked curriculum. External source links and the existing remote font stylesheet can still make network requests.

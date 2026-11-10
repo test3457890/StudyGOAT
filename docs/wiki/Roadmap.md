@@ -1,56 +1,30 @@
-# StudyGOAT Roadmap
+# Development roadmap
 
-StudyGOAT aims to support practical learning for students, working professionals, and people studying for certifications.
+Updated 2026-11-09. This is the first foundation release. All new tracks remain partial.
 
-This page distinguishes features visible in the current source from plans. Items listed as planned are not promises or release announcements.
+| Track | Lessons | Questions | Coverage |
+| --- | ---: | ---: | --- |
+| Security+ SY0-701 | 4 | 24 | Selected foundations in 1.2, 1.3 and 1.4 |
+| FAA Part 107 | 3 | 18 | Selected regulations and operating limits |
+| CAP cadet | 2 | 12 | Phase I Curry orientation |
+| Wilderness First Aid | 2 | 12 | Provider-neutral safety introduction |
+| Amateur Radio Technician | 2 | 12 | Original rules primer; NCVEC pool not imported |
 
-## Available in the current source
+## Next milestones, in order
 
-- Browser-based lessons and topic practice for built-in courses
-- Mixed quizzes and configurable exam practice
-- Flashcards and five study game modes
-- Mistake review, progress tracking, and study planning tools
-- Readability controls, including font and spacing options
-- Custom course builder with optional AI integration
-- Optional AI tutor and test review workflows
-- Browser-local progress storage and available backup tools
+1. Security+: verify latest CompTIA objective revision and current exam codes. Expand 1.1 to 1.4, then map every objective in domains 2 to 5. Add original performance-based exercises and a validated simulation blueprint. Keep any future SY0-801 data separate.
+2. FAA: add official chart illustrations, airspace interpretation, weather, loading, Remote ID, night and over-people operations, crew scenarios and the full UAG blueprint.
+3. CAP: reconcile current CAPR 60-1 with national achievement pages. Map public Learn to Lead and Aerospace Dimensions objectives by phase and achievement. Add original practice only. Drill and official assessment remain supervised CAP activities.
+4. WFA: identify the user's training provider and obtain its current public or authorized syllabus. Arrange clinical/instructor review before treatment instruction. Add patient assessment, evacuation decisions, injuries and environmental topics without inventing protocols.
+5. Technician: retrieve the corrected February 19, 2026 NCVEC pool and three diagrams. Compare every ID, group, answer and diagram; check later errata and withdrawals. Only then enable 35-question sampling, one per official group, and add full explanatory lessons.
 
-The built-in courses are CS 315 and CPSC 222. Custom AI workflows depend on provider configuration. Not every source feature has been independently tested in every browser or deployment environment.
+## Product and release work
 
-## Near-term priorities to evaluate
+- Preserve existing university modes and saved progress.
+- Verify all new questions against specific source sections, independently of schema tests.
+- Extend mobile and keyboard tests to every study mode.
+- Publish the separate Wiki once it is enabled, initialized and accessible.
+- Enable and verify GitHub Pages before describing the app as live.
+- Keep source deadlines visible and update versions before expanding claims.
 
-### Public website and onboarding
-Make it easy to open StudyGOAT on a hosted website and understand what works without AI.
-
-### Verification and testing
-Add repeatable checks for question correctness, code examples, browser behavior, and data backup.
-
-### Better course authoring
-Improve source import, review steps, and clear warnings when AI output needs verification.
-
-### Mobile and accessibility
-Test small-screen interactions, keyboard access, text size, spacing, and readability.
-
-## Future directions under consideration
-
-### Certification study workflows
-Let users organize topics against official certification objectives and track coverage gaps without implying official endorsement.
-
-### Portable learning progress
-Explore an optional, consent-based cross-device sync feature with appropriate privacy controls.
-
-### Safer AI integration
-Investigate server-side credential handling or other approaches that do not expose provider API keys to browser scripts.
-
-### Community contributions
-Make it easier for people to suggest corrections, share permitted study resources, and contribute code.
-
-### More subjects and workplace training
-Consider content beyond the initial built-in university courses, including professional development topics.
-
-## How to influence the roadmap
-
-Open a [feature request or bug report](https://github.com/test3457890/StudyGOAT/issues). Include who the change helps, the use case, and how you would test it.
-
-Last reviewed: November 2026.
-
+No complete certification coverage, readiness guarantee or official credit is claimed.

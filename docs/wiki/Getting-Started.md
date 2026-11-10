@@ -4,7 +4,7 @@ StudyGOAT is designed to be straightforward. You can use the built-in study feat
 
 ## Open the application
 
-Option 1: Download the source from the [StudyGOAT repository](https://github.com/test3457890/StudyGOAT) and open `StudyGOAT.html` in a modern browser.
+Option 1: Download the source from the [StudyGOAT repository](https://github.com/test3457890/StudyGOAT) keep the `courses` folder beside the HTML file, and open `StudyGOAT.html` in a modern browser.
 
 Option 2: After GitHub Pages has been enabled and deployed, open https://test3457890.github.io/StudyGOAT/.
 
@@ -23,7 +23,7 @@ The included source currently has built-in content for CS 315 (data structures a
 
 ## Professional or certification study
 
-To study another subject or certification topic, see [Custom Courses](https://github.com/test3457890/StudyGOAT/wiki/Custom-Courses) and [For Certifications](https://github.com/test3457890/StudyGOAT/wiki/For-Certifications). Course generation requires an available AI provider. Do not assume an official certification curriculum is already included.
+Five partial introductory tracks are now included without AI. Use Sources & coverage to check the boundaries. For additional custom subjects, see [Custom Courses](https://github.com/test3457890/StudyGOAT/wiki/Custom-Courses) and [For Certifications](https://github.com/test3457890/StudyGOAT/wiki/For-Certifications). Course generation requires an available AI provider. None of the new tracks is an official or complete certification curriculum.
 
 ## Your progress
 

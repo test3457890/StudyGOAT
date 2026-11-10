@@ -33,3 +33,5 @@ Use StudyGOAT to understand material and practice. Follow your school's rules fo
 
 Related guides: [Study Tools](https://github.com/test3457890/StudyGOAT/wiki/Study-Tools) and [AI, Privacy and Data](https://github.com/test3457890/StudyGOAT/wiki/AI-Privacy-and-Data).
 
+
+The original CS 315 and CPSC 222 lessons and local progress remain available. Five new introductory study tracks appear as separate course cards. Choose the correct course; certification practice scores do not count toward class grades.

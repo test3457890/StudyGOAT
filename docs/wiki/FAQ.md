@@ -6,11 +6,11 @@ StudyGOAT is designed for students, working professionals, self-directed learner
 
 ## Is StudyGOAT only for college classes?
 
-No. The built-in content currently covers two university courses, but the application includes a custom course builder that can support other topics when a suitable AI connection is available.
+No. The built-in content covers two university courses and five partial introductory study tracks, but the application includes a custom course builder that can support other topics when a suitable AI connection is available.
 
 ## Does StudyGOAT come with official certification courses?
 
-No. The current repository does not include an official certification catalog. Users should build their study plans around the provider's current exam objectives and authorized materials.
+No. The five new tracks are independent, partial study slices. None is an official certification course. Users should build their study plans around the provider's current exam objectives and authorized materials.
 
 ## Does it guarantee a passing grade or certification?
 
@@ -38,7 +38,7 @@ No. StudyGOAT is an independent study companion and is not affiliated with certi
 
 ## Can I report an incorrect question?
 
-Yes. Open an [issue](https://github.com/test3457890/StudyGOAT/issues) with the question, the problem, and a reliable correction source.
+Yes. Open an [issue](https://github.com/test3457890/StudyGOAT/issues) with the question ID, track version, problem and a reliable correction source.
 
 ## Is the code open source?
 

@@ -54,3 +54,15 @@ For GitHub Pages, enable Settings > Pages, choose Deploy from a branch, and sele
 
 If you propose architecture changes, document the migration and how existing browser progress will be preserved.
 
+
+## Sourced content model and adapter
+
+`courses/catalog.json` is the authoring source. `courses/build.cjs` generates `catalog.js`, a classic script that works with both file URLs and static hosting. `courses/integration.js` adapts data to the existing COURSES, TOPICS, BANK, GLOSS and LESSONS objects. It reuses grading, timers, progress and mistake review. The existing `cs315trainer` and `sg_custom` keys are preserved.
+
+Every topic, lesson and question has objective IDs and source/section pairs. The source register includes publisher, title, URL, version, effective date, check date, review deadline, rights and status. Unresolved sources are marked needs-review and cannot support a verified question. Glossary and topic notes inherit their topic references. Coverage is partial even where an objective is listed.
+
+Run `node courses/build.cjs`, `npm test`, then `npm run test:browser`. Content checks validate ID uniqueness, four distinct answers, citation resolution, review dates, objective mapping and generated-data parity. They cannot prove subject-matter accuracy; review each answer against its cited section. Browser tests exercise original and new courses, grading, walkthrough completion, game access, source screens, duplicate-free tests, timeout, missed answers, persistence, keyboard entry and mobile width.
+
+Current known limits: general source dates need recurring review; new tracks are introductory; no full official-pool exam is enabled; no provider-specific WFA protocols; no controlled CAP content. Current CompTIA availability is unconfirmed. A source failure blocks dependent content, not unrelated original courses.
+
+To synchronize Wiki drafts after enabling and initializing the separate Wiki, use `node tools/sync-wiki.cjs` with authenticated Git access. The script only copies managed Markdown pages and verifies the remote commit after push. It does not create credentials or change repository settings.
