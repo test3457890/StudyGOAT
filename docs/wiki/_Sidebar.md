@@ -17,3 +17,4 @@
 - [CAP Cadet Study](https://github.com/test3457890/StudyGOAT/wiki/CAP-Cadet-Study)
 - [Wilderness First Aid](https://github.com/test3457890/StudyGOAT/wiki/Wilderness-First-Aid)
 - [Amateur Radio Technician](https://github.com/test3457890/StudyGOAT/wiki/Amateur-Radio-Technician)
+- [Arizona Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/Arizona-Driving-Prep)

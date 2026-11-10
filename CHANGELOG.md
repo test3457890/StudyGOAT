@@ -38,3 +38,11 @@
 - Added 10 lessons, 40 original questions and 20 glossary cards across all five tracks.
 - New topics: phishing defenses, Remote ID, CAP Core Values, heat-risk recognition and amateur transmission restrictions.
 - Total: 23 lessons and 118 questions. Preserved existing IDs and progress. Coverage remains partial.
+
+## 2026-11-09: Arizona driving prep and deeper CAP/Security+
+
+- Added Arizona as a separate jurisdiction: six lessons, thirty original questions, twelve glossary cards and three original sign-shape SVGs. Practice samples selected sections, not a full test blueprint.
+- Added two Security+ backup/recovery lessons and eight questions.
+- Added two CAP active-listening lessons and eight questions mapped to chapter 2 objectives 41 to 44.
+- Updated the browser export check to derive course count from the catalog, preserving coverage when courses are added.
+- Totals: six sourced tracks, 33 lessons and 164 questions. Existing course IDs and progress remain intact.

@@ -28,6 +28,6 @@ const exportDir=fs.mkdtempSync(path.join(os.tmpdir(),'studygoat-export-'));
 const exportPath=path.join(exportDir,'StudyGOAT.html');
 fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
 const exported=await browser.newPage();await exported.goto('file://'+exportPath);
-assert.equal(await exported.locator('.course[role=button]').count(),9,'Export preserves both original courses, five tracks and two tools');
+assert.equal(await exported.locator('.course[role=button]').count(),tracks.length+4,'Export preserves original courses, sourced tracks and tools');
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

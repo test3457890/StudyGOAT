@@ -13,3 +13,7 @@ Remaining: full public textbook learning-objective mapping, CAPR 60-1 revision r
 Two Core Values lessons apply integrity, service, excellence and respect to everyday cadet decisions. Source: public CAP Cadet Welcome Course 3.9, discussion topic 1, printed page 2. These are original scenarios, not controlled exam content.
 
 Current totals: 4 lessons and 20 questions. The course remains partial. Earlier counts above describe the first introductory release.
+
+## Further curriculum expansion
+
+Two active-listening lessons and eight original questions map to public Learn to Lead Volume 1, chapter 2, objectives 41 to 44 (printed pages 52 to 54). Covers hearing versus listening, preparation, distractions, key points and nonverbal cues. Current total: 6 lessons and 28 questions. This is textbook study, not completion of a CAP achievement.
