@@ -43,4 +43,4 @@ StudyGOAT is an independent learning tool. It is not endorsed by any school, emp
 Repository: https://github.com/test3457890/StudyGOAT
 
 
-All five new tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The live Wiki has not been published; these are source drafts.
+All five new tracks display source references and coverage gaps. None is a complete certification course. See For Certifications and the individual track pages. The Wiki is published. GitHub Pages deployment has been enabled.

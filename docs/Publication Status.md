@@ -1,26 +1,17 @@
 # Publication status
 
-Checked 2026-11-09.
+Verified November 9, 2026 (America/Phoenix).
 
-## GitHub repository
+## Website
 
-Changes are published in staged commits on `development/study-programs` with pull request #1. Final merge status and CI results are recorded in the release report.
+GitHub Pages is enabled from `main`, `/(root)`. The live entry redirects to https://test3457890.github.io/StudyGOAT/StudyGOAT.html. Browser verification confirmed both original university courses and all five partial introductory tracks.
 
-## GitHub Pages
+## Wiki
 
-`https://test3457890.github.io/StudyGOAT/` returned HTTP 404. No live deployment is claimed. An authorized repository administrator can enable Settings > Pages > Deploy from a branch > main > /(root), then verify the deployed application.
+Published at https://github.com/test3457890/StudyGOAT/wiki. All 18 prepared Markdown files were saved through the authenticated Wiki editor and their resulting page views verified. This includes Home, the five track guides, learning and developer documentation, sidebar and footer. The setup-only README is not a Wiki page.
 
-## Separate GitHub Wiki
+The prior browser authentication and Wiki initialization blockers are resolved. Future Wiki changes still require synchronizing the separate repository or publishing through its editor. `node tools/sync-wiki.cjs` supports an authenticated Git workflow.
 
-The Wiki URL redirects to the repository and there is no Wiki tab in the public navigation. `git ls-remote https://github.com/test3457890/StudyGOAT.wiki.git` fails with an authentication request. The available browser is signed out. The connector supports repository file operations but not Wiki initialization or repository feature settings.
+## Curriculum
 
-The exact feature setting cannot be confirmed without signed-in settings access. Updated files under `docs/wiki` are not live Wiki pages.
-
-Remaining steps for an authenticated repository administrator:
-
-1. Enable Wikis in repository Settings if disabled.
-2. Create a Home page once through the Wiki UI to initialize the separate repository.
-3. With authenticated Git access, run `node tools/sync-wiki.cjs` from this repository.
-4. Open the live Wiki and confirm the new pages and sidebar.
-
-The sync script verifies the pushed commit against the remote branch. It does not delete unrelated Wiki pages or embed credentials.
+Publishing does not change coverage. All five new tracks remain partial. Current CompTIA version verification, full NCVEC pool validation, CAP curriculum expansion, WFA provider alignment and clinical review remain outstanding.

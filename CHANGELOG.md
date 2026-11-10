@@ -26,3 +26,9 @@
 - Added two rules lessons and 12 original questions. Full NCVEC pool import is blocked by direct source retrieval; no official-pool exam is enabled.
 - Browser CI exposed mobile overflow. Header statistics now wrap; narrow cards and grids can shrink without forcing horizontal scrolling.
 - Added keyboard access to certification lesson chips and source links in the learning path.
+
+## 2026-11-09: Website and Wiki publication
+
+- Enabled GitHub Pages from main at the repository root and verified the live application.
+- Initialized the separate Wiki and published all 18 prepared Markdown files through its editor. Verified each saved page.
+- Updated repository publication notes. Curriculum coverage remains partial.

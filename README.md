@@ -58,8 +58,8 @@ Set `CHROMIUM_PATH` if using a system Chromium. To edit content, change `courses
 
 ## Hosting and Wiki
 
-GitHub Pages returned 404 on November 9, 2026. To enable it, use repository Settings > Pages, select Deploy from a branch, `main`, and `/(root)`. The expected address is https://test3457890.github.io/StudyGOAT/; it is not confirmed live.
+The [live StudyGOAT application](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) was verified on November 9, 2026. GitHub Pages deploys from `main`, `/(root)`, with HTTPS.
 
-The Wiki URL redirects to the repository. Its separate Git clone cannot be accessed, and the available browser is signed out. Updated `docs/wiki` files are source drafts, not a published Wiki. See publication status for the remaining steps.
+The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains all 18 prepared Markdown pages, including five track guides, the sidebar and footer. The Wiki is a separate Git repository. Future documentation updates still need publication there.
 
 The repository has no project license. No license was added.
