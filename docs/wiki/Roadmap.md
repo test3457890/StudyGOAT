@@ -4,11 +4,11 @@ Updated 2026-11-09. This is the first foundation release. All new tracks remain 
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 4 | 24 | Selected foundations in 1.2, 1.3 and 1.4 |
-| FAA Part 107 | 3 | 18 | Selected regulations and operating limits |
-| CAP cadet | 2 | 12 | Phase I Curry orientation |
-| Wilderness First Aid | 2 | 12 | Provider-neutral safety introduction |
-| Amateur Radio Technician | 2 | 12 | Original rules primer; NCVEC pool not imported |
+| Security+ SY0-701 | 6 | 32 | Selected foundations in 1.2, 1.3 and 1.4 |
+| FAA Part 107 | 5 | 26 | Selected regulations and operating limits |
+| CAP cadet | 4 | 20 | Phase I Curry orientation |
+| Wilderness First Aid | 4 | 20 | Provider-neutral safety introduction |
+| Amateur Radio Technician | 4 | 20 | Original rules primer; NCVEC pool not imported |
 
 ## Next milestones, in order
 
@@ -28,3 +28,5 @@ Updated 2026-11-09. This is the first foundation release. All new tracks remain 
 - Keep source deadlines visible and update versions before expanding claims.
 
 No complete certification coverage, readiness guarantee or official credit is claimed.
+
+November 9 expansion: 10 additional lessons and 40 original questions across phishing defenses, Remote ID, CAP Core Values, heat awareness and amateur transmission boundaries. All five tracks remain partial.

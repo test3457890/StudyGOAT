@@ -32,3 +32,9 @@
 - Enabled GitHub Pages from main at the repository root and verified the live application.
 - Initialized the separate Wiki and published all 18 prepared Markdown files through its editor. Verified each saved page.
 - Updated repository publication notes. Curriculum coverage remains partial.
+
+## 2026-11-09: Additional study material
+
+- Added 10 lessons, 40 original questions and 20 glossary cards across all five tracks.
+- New topics: phishing defenses, Remote ID, CAP Core Values, heat-risk recognition and amateur transmission restrictions.
+- Total: 23 lessons and 118 questions. Preserved existing IDs and progress. Coverage remains partial.
