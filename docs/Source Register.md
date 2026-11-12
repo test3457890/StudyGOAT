@@ -70,3 +70,18 @@ Source-file fingerprints for reproducibility (review copies are not distributed)
 - AK: SHA-256 `779ca2b672e248b9373effcd1381726aac1979fc19c20c4d9e767476b7bb1ebd`.
 - AR: SHA-256 `1b65c17ae146d4bb5b333b0e82a53db6fe0db6e749ed5ff034983494635b1479`.
 - CT: SHA-256 `7f79ea70ac8771fa40d7df35641fdcabd4952b7175205e2245ba392853c3581c`.
+
+## Delaware through Kansas review, November 12, 2026
+
+The eight new partial courses cite the state agencies directly. See the coverage checklist for the precise section inventory and remaining edition checks. Delaware July 2026 replaced the older July 2024 file found in initial search results. Idaho July 2026 and Illinois 2026/July printing were checked on the downloaded covers. Georgia passing and bus-layout text were read through the official online manual; the school-bus release dated July 29, 2026 corroborates the stopping and release conditions. Iowa selected sections and its MM1170 07/23/2026 publication code were read through the official PDF web reader after local download returned 403.
+
+Hawaii and Indiana revision dates could not be confirmed; no year is invented. Kansas DOR still links the February 2022 handbook, used here only for selected safety principles. Hawaii numerical hydroplaning/flood thresholds and braking-specific emergency procedures were excluded. Sources have individual check/review dates; a content-release date is not a claim that all current state laws or licensing rules were reviewed.
+
+Downloaded review-copy SHA-256 fingerprints, not distributed with the app:
+
+- DE: `5c38a86535ccdf1df7f96afef4f7277146c1d4125daa847745e44b2eb5184e03`.
+- HI: `c83bc1fd3de6d37a5b17afe5ca7762eedfaadeac8de797290e7978e589a0dafc`.
+- ID: `e5102efdeb257cac4a527846eb475ed9c86ea4b17f7805d5e99893ee206499a8`.
+- IL: `8b637e0702708585c19a9747f6eddf51af8cc373eb4721cbcd8f48c1014061dd`.
+- IN: `08a22d1ebe45f3ab809261d3635a816d4789d6532776bdc628479492e18d8d2e`.
+- KS: `1450c8b59b1c5f6247d20c1d00b3a759314df966a744c5ad20fe2d9c091fb4a5`.

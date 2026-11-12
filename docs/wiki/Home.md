@@ -33,7 +33,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 ## Current project status
 
 <!-- STUDYGOAT SUMMARY START -->
-Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 <!-- STUDYGOAT SUMMARY END -->
 
 The [roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap) separates existing capabilities from proposals. A public GitHub repository does not automatically mean the GitHub Pages website is live.
