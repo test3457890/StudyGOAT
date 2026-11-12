@@ -52,16 +52,12 @@ See [Getting Started](https://github.com/test3457890/StudyGOAT/wiki/Getting-Star
 New tracks use fixed original questions with checked source sections. Their Practice Test uses ten distinct questions and an optional timer, rather than the university course's mixed-format test builder. No full certification exam simulation is enabled. Question explanations include source links and stable question IDs. Source review dates and missing coverage are available in Sources & coverage.
 
 
-Navigation update: the home screen now opens Classes, Certifications or Driving Tests. Classes and Certifications have course searches; Driving Tests has state-name/abbreviation search and distinguishes six partial courses from states offering only shared national foundations across all 50 states and DC. Built-in professor names have been removed. FAA study is specifically Part 107 drone remote pilot preparation; no crewed-aircraft pilot-license course is included.
+## Navigation and coverage
 
+Choose Classes, Certifications or Driving Tests, then use the course or state search. FAA study is Part 107 drone preparation. University and custom courses keep their existing tools. The CPSC 222 class includes a finite-state-machine lab.
 
-CPSC 222 lecture update: added four topics and eight lessons on finite state machines, turnstile transition matrices, a binary suffix-01 DFA and Python/login-state design, with 32 original questions. The interactive FSM lab traces turnstile events and binary strings. Access through Classes > CPSC 222. Content summarizes the uploaded lecture; the slide deck and professor name are not published. Certification/driving counts are unchanged.
+<!-- STUDYGOAT SUMMARY START -->
+Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+<!-- STUDYGOAT SUMMARY END -->
 
-
-## National driving foundations for every state
-
-All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 115 lessons and 492 questions across 12 tracks, excluding the separate university content.
-
-Arizona, New Jersey, California, New York, Texas and Florida retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
-
-November 10 Texas and Florida batch: each adds four lessons and 16 original questions on selected signal and school-bus rules, checked against official state statutes. Six states now have partial state-specific study. Full manual review, licensing requirements, remaining topics and complete exam coverage are still pending. The shared national foundation remains one course counted once.
+The national course covers attention/distraction, speed and seat-belt safety. It does not verify state laws or permit requirements. State-specific courses have their own selected sources and gaps. Read Sources & coverage before relying on any course.

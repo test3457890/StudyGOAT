@@ -34,3 +34,15 @@ console.log('PASS: four discrete FSM topics, eight lessons, 32 questions; exhaus
 
 for(const j of data.drivingJurisdictions)assert.equal(j.foundation,"drivingfoundations");
 const shared=data.tracks.find(t=>t.id==="drivingfoundations");assert.equal(shared.coverageKind,"shared-foundations");assert.equal(shared.topics.reduce((n,t)=>n+t.bank.length,0),16);
+
+// Current coverage claims are generated, including the once-only national bank and pending states.
+const status=require('../courses/status.cjs');
+for(const [file,kinds] of Object.entries(status.managed)){
+ const text=fs.readFileSync(file,'utf8');
+ for(const kind of kinds)assert(text.includes(status.block(data,kind)),`Stale generated status: ${file} ${kind}`);
+}
+for(const file of Object.keys(status.managed).filter(f=>status.managed[f].includes('TABLE'))){
+ const text=fs.readFileSync(file,'utf8');
+ for(const t of data.tracks){const row=text.split('\n').filter(l=>l.startsWith(`| ${t.code} |`));assert.equal(row.length,1,`${file} ${t.id} duplicated or absent`);const cells=row[0].split('|').map(s=>s.trim());assert.equal(Number(cells[2]),t.topics.reduce((n,p)=>n+p.lessons.length,0));assert.equal(Number(cells[3]),t.topics.reduce((n,p)=>n+p.bank.length,0));}
+}
+console.log('PASS: generated documentation matches catalog; per-track counts occur once');

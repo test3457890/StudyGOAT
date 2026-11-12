@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-12: Five-state driving expansion and accurate status generation
+
+- Added four lessons and 16 original questions each for Alabama, Alaska, Arkansas, Colorado and Connecticut, using the cited official manual sections or DMV safety pages.
+- Increased state-specific partial courses from six to eleven. Thirty-nine states and DC still have shared national foundations only. No full permit course is claimed.
+- Added generated status tables, summaries and a directory from the catalog, with tests against stale or duplicated counts. Current sourced totals are 17 tracks, 135 lessons and 572 questions, excluding university classes.
+- Browser directory checks now exercise every state-specific entry and preserve pending-state labels as new states are added. Existing tracks and university material are preserved.
+- Documented source editions and review limits, including unavailable Colorado handbook and excluded conflicting skid/traction material.
+
 ## 2026-11-10: Texas and Florida selected driving rules
 
 - Added four lessons and 16 original questions per state, with source-linked explanations and explicit incomplete coverage notices.
