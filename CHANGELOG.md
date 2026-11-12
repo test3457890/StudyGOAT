@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-12: Delaware through Kansas driving foundations
+
+- Added separate partial courses for Delaware, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa and Kansas: four lessons and 16 original questions each.
+- Sources and worked scenarios preserve jurisdiction-specific distinctions, including Delaware signal arrows, Georgia median layouts, Illinois opposing four-lane bus rules and Indiana large-vehicle roundabout yielding.
+- Added manual-based weather, rural-road, wildlife, large-vehicle and freeway safety topics without importing official test questions or artwork. Source editions and uncertainties are recorded.
+- Generated totals now show 19 state-specific partial courses and 25 sourced tracks containing 167 lessons and 700 questions. Thirty-one states and DC still need state-specific content; every course remains incomplete.
+
 ## 2026-11-12: Driving directory navigation repair
 
 - Fixed the state directory inheriting a previously selected class title and course-only navigation. Directory navigation is global while the selected course and saved progress remain intact.

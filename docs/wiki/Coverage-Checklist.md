@@ -1,7 +1,7 @@
 # Coverage checklist
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -22,6 +22,14 @@ Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 origin
 | Arkansas Driving Prep | 4 | 16 | Selected Arkansas signals and railroad-crossing decisions |
 | Colorado Driving Prep | 4 | 16 | Colorado DMV mountain and winter safety guidance |
 | Connecticut Driving Prep | 4 | 16 | Selected Connecticut markings and lane-change observation |
+| Delaware Driving Prep | 4 | 16 | Selected Delaware ordinary signals and directional arrows |
+| Georgia Driving Prep | 4 | 16 | Selected Georgia passing and school-bus layouts |
+| Hawaii Driving Prep | 4 | 16 | Hawaii wet-weather and freeway safety principles |
+| Idaho Driving Prep | 4 | 16 | Selected Idaho large-vehicle and animal encounters |
+| Illinois Driving Prep | 4 | 16 | Selected Illinois school-bus, lane and pedestrian signals |
+| Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
+| Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
+| Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
 <!-- STUDYGOAT TABLE END -->
 
 ## Learn to Lead chapter inventory
@@ -161,15 +169,15 @@ All 50 states and DC can open the same shared national safety course. An entry w
 | California | National foundations and state-specific partial course |
 | Colorado | National foundations and state-specific partial course |
 | Connecticut | National foundations and state-specific partial course |
-| Delaware | National foundations only; state-specific course pending |
+| Delaware | National foundations and state-specific partial course |
 | Florida | National foundations and state-specific partial course |
-| Georgia | National foundations only; state-specific course pending |
-| Hawaii | National foundations only; state-specific course pending |
-| Idaho | National foundations only; state-specific course pending |
-| Illinois | National foundations only; state-specific course pending |
-| Indiana | National foundations only; state-specific course pending |
-| Iowa | National foundations only; state-specific course pending |
-| Kansas | National foundations only; state-specific course pending |
+| Georgia | National foundations and state-specific partial course |
+| Hawaii | National foundations and state-specific partial course |
+| Idaho | National foundations and state-specific partial course |
+| Illinois | National foundations and state-specific partial course |
+| Indiana | National foundations and state-specific partial course |
+| Iowa | National foundations and state-specific partial course |
+| Kansas | National foundations and state-specific partial course |
 | Kentucky | National foundations only; state-specific course pending |
 | Louisiana | National foundations only; state-specific course pending |
 | Maine | National foundations only; state-specific course pending |
@@ -223,3 +231,19 @@ Alabama adds roundabouts and right-of-way conflicts from the ALEA November 2024 
 Colorado adds mountain and winter safety lessons from the DMV [Mountain Driving](https://dmv.colorado.gov/mountain-driving) and [Driving in Ice, Snow](https://dmv.colorado.gov/driving-in-ice-snow) pages. The linked January 2025 handbook returned 403. Braking-system-specific skid instructions and the current traction-equipment compliance rules are not included because they need further reconciliation.
 
 Each of these five additions contains four lessons and 16 original questions. All still need remaining handbook subjects, current licensing requirements, broader scenarios and independent content review. All referenced PDFs remain on their official agency websites; the application links sources without republishing their artwork or official question sets.
+
+
+## Delaware through Kansas: selected coverage and source limits
+
+| State | Selected study | Source edition or limitation |
+| --- | --- | --- |
+| Delaware | Ordinary signals, dark intersections and directional arrows | July 2026 manual cover checked directly; printed pp. 69-72 |
+| Georgia | Two-lane passing and school-bus roadway layouts | Official live manual sections plus DDS July 29, 2026 release; online manual front cover still says 2023-2024 |
+| Hawaii | Rain/fog, hydroplaning prevention and freeway entry/exit | HDOT-linked PDF, printed pp. 75-76 and 78-80; edition date unconfirmed |
+| Idaho | Large vehicles, escape ramps, wildlife and controlled livestock movements | July 2026 manual cover checked directly; printed pp. 104-108 |
+| Illinois | School-bus four-lane opposing exception, lane and pedestrian signals | 2026 Rules of the Road, July printing; printed pp. 32-33 and 77-78 |
+| Indiana | Multi-lane roundabout/large-vehicle rules and tractor-trailer safety | Agency-linked electronic chapter 7, printed pp. 40 and 49-50; revision date unconfirmed |
+| Iowa | Rural/gravel roads, night visibility and deer encounters | Official PDF publication code MM1170 07/23/2026; sections 5.6-5.8, printed pp. 55-57 |
+| Kansas | Rural surfaces and work-zone observation | Agency-linked handbook revised February 2022; selected safety sections, printed pp. 90-92 |
+
+Every new state still needs the remaining handbook subjects, current licensing and graduated-driver requirements, post-edition law changes, broader scenarios and independent content review. The Hawaii course excludes outdated-looking braking-system instructions, fixed hydroplaning speed thresholds and numerical flood-water thresholds from the source. No official sample question, illustration or complete handbook is reproduced. The Illinois four-lane bus exception must not be transferred to states requiring a physical divider.

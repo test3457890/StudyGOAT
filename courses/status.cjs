@@ -17,7 +17,15 @@ const summaries={
  alaskadriving:'Selected Alaska uncontrolled intersections and lighting',
  arkansasdriving:'Selected Arkansas signals and railroad-crossing decisions',
  coloradodriving:'Colorado DMV mountain and winter safety guidance',
- connecticutdriving:'Selected Connecticut markings and lane-change observation'
+ connecticutdriving:'Selected Connecticut markings and lane-change observation',
+ delawaredriving:'Selected Delaware ordinary signals and directional arrows',
+ georgiadriving:'Selected Georgia passing and school-bus layouts',
+ hawaiidriving:'Hawaii wet-weather and freeway safety principles',
+ idahodriving:'Selected Idaho large-vehicle and animal encounters',
+ illinoisdriving:'Selected Illinois school-bus, lane and pedestrian signals',
+ indianadriving:'Selected Indiana roundabouts and tractor-trailer space',
+ iowadriving:'Iowa rural-road, night and deer safety principles',
+ kansasdriving:'Kansas rural-road and work-zone safety principles'
 };
 const managed={
  'README.md':['TABLE'],

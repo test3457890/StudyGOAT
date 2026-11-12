@@ -1,7 +1,7 @@
 # Certifications and professional learning
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -22,6 +22,14 @@ Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 origin
 | Arkansas Driving Prep | 4 | 16 | Selected Arkansas signals and railroad-crossing decisions |
 | Colorado Driving Prep | 4 | 16 | Colorado DMV mountain and winter safety guidance |
 | Connecticut Driving Prep | 4 | 16 | Selected Connecticut markings and lane-change observation |
+| Delaware Driving Prep | 4 | 16 | Selected Delaware ordinary signals and directional arrows |
+| Georgia Driving Prep | 4 | 16 | Selected Georgia passing and school-bus layouts |
+| Hawaii Driving Prep | 4 | 16 | Hawaii wet-weather and freeway safety principles |
+| Idaho Driving Prep | 4 | 16 | Selected Idaho large-vehicle and animal encounters |
+| Illinois Driving Prep | 4 | 16 | Selected Illinois school-bus, lane and pedestrian signals |
+| Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
+| Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
+| Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
 <!-- STUDYGOAT TABLE END -->
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
