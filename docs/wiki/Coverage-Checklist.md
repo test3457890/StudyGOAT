@@ -1,7 +1,7 @@
 # Coverage checklist
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -30,6 +30,10 @@ Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 origin
 | Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
 | Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
 | Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
+| Kentucky Driving Prep | 4 | 8 | Selected Kentucky railroad crossings and roundabouts |
+| Louisiana Driving Prep | 4 | 8 | Louisiana fog, rain and nighttime observation |
+| Maine Driving Prep | 4 | 8 | Maine fatigue and distraction safety guidance |
+| Maryland Driving Prep | 4 | 8 | Selected Maryland railroad and work-zone decisions |
 <!-- STUDYGOAT TABLE END -->
 
 ## Learn to Lead chapter inventory
@@ -178,10 +182,10 @@ All 50 states and DC can open the same shared national safety course. An entry w
 | Indiana | National foundations and state-specific partial course |
 | Iowa | National foundations and state-specific partial course |
 | Kansas | National foundations and state-specific partial course |
-| Kentucky | National foundations only; state-specific course pending |
-| Louisiana | National foundations only; state-specific course pending |
-| Maine | National foundations only; state-specific course pending |
-| Maryland | National foundations only; state-specific course pending |
+| Kentucky | National foundations and state-specific partial course |
+| Louisiana | National foundations and state-specific partial course |
+| Maine | National foundations and state-specific partial course |
+| Maryland | National foundations and state-specific partial course |
 | Massachusetts | National foundations only; state-specific course pending |
 | Michigan | National foundations only; state-specific course pending |
 | Minnesota | National foundations only; state-specific course pending |
@@ -247,3 +251,14 @@ Each of these five additions contains four lessons and 16 original questions. Al
 | Kansas | Rural surfaces and work-zone observation | Agency-linked handbook revised February 2022; selected safety sections, printed pp. 90-92 |
 
 Every new state still needs the remaining handbook subjects, current licensing and graduated-driver requirements, post-edition law changes, broader scenarios and independent content review. The Hawaii course excludes outdated-looking braking-system instructions, fixed hydroplaning speed thresholds and numerical flood-water thresholds from the source. No official sample question, illustration or complete handbook is reproduced. The Illinois four-lane bus exception must not be transferred to states requiring a physical divider.
+
+## Kentucky through Maryland review, November 12, 2026
+
+| State | Official source | Selected sections | Limits |
+| --- | --- | --- | --- |
+| Kentucky | State Police driver-testing page links the July 23, 2026 manual update | Section Six, railroad warnings pp. 36-37; Section Seven, roundabouts p. 44 | Remaining manual, licensing and independent review pending; StudyGOAT is not KSP-endorsed |
+| Louisiana | OMV driver-manuals page links PowerDMS document 347039, DPSMV2052 R08/25 | Weather Changes p. 106; At Night p. 107 | Selected observation principles only; older phone/statistical claims and numeric lighting thresholds excluded |
+| Maine | BMV online Driver's License Manual Study Guide | Section 3, Fatigue and Driver Distractions | Revision date unconfirmed; safety education, not a statement of current licensing or device-law exceptions |
+| Maryland | MVA official PDF, DL-002 (10-26) | Section 5.G, Highway-Railroad Crossings; 5.H, Work Zone Safety | Read through official PDF web reader after local PDF download returned 403; remaining manual and licensing review pending |
+
+Each state adds four lessons, eight original questions and topic glossary cards. No official sample questions, figures or handbook files are distributed. Source edition checks do not establish full current-law review. All existing sourced tracks remain unchanged.

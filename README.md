@@ -13,7 +13,7 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 ## Study program status
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -42,6 +42,10 @@ Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 origin
 | Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
 | Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
 | Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
+| Kentucky Driving Prep | 4 | 8 | Selected Kentucky railroad crossings and roundabouts |
+| Louisiana Driving Prep | 4 | 8 | Louisiana fog, rain and nighttime observation |
+| Maine Driving Prep | 4 | 8 | Maine fatigue and distraction safety guidance |
+| Maryland Driving Prep | 4 | 8 | Selected Maryland railroad and work-zone decisions |
 <!-- STUDYGOAT TABLE END -->
 
 Each new track includes source links, section/objective mappings, version notices, coverage gaps, glossary cards, worked scenarios and ten-question practice tests without duplicate questions. Timers are optional practice pacing. Raw scores do not reproduce official scoring or establish readiness.
@@ -94,3 +98,5 @@ CPSC 222 includes four added finite-state-machine topics, eight lessons, 32 ques
 The November 12 driving batch adds selected Alabama, Alaska, Arkansas, Colorado and Connecticut content. Coverage remains incomplete. See the coverage checklist for source editions and the remaining state-by-state inventory.
 
 The next November 12 batch adds selected Delaware, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa and Kansas lessons. The generated inventory above reflects actual courses, not just directory entries. Source dates and unresolved edition checks remain explicit.
+
+November 12 continuation: Kentucky, Louisiana, Maine and Maryland now each have four selected lessons and eight original questions. These partial courses do not replace complete current manuals or licensing checks. Exact state names and postal abbreviations take priority over substring alternatives in driving search.
