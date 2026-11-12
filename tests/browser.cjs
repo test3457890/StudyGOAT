@@ -106,6 +106,22 @@ for(const v of visualCases){
  await page.waitForFunction(()=>{const im=document.querySelector('#qc img');return im&&im.complete&&im.naturalWidth>0});
  assert(await page.locator('#qc img').getAttribute('alt'));
 }
+// Separate NCVEC study preserves answer letters, exclusions, feedback and saved review state.
+await page.evaluate(()=>enterCourse('technician'));await page.getByRole('button',{name:'Study 391 NCVEC text questions',exact:true}).click();
+assert.match(await page.locator('#view').innerText(),/391 of 409/);
+await page.locator('#poolQuery').fill('T6C02');assert(await page.locator('#poolStart').isDisabled());
+await page.locator('#poolQuery').fill('T5B03');assert(await page.locator('#poolStart').isDisabled());
+await page.locator('#poolQuery').fill('T1A01');await page.locator('#poolStart').click();assert.match(await page.locator('#poolQuestion').innerText(),/T1A01/);
+await page.locator('#poolQuestion .choices button').nth(0).click();assert.match(await page.locator('#poolFeedback').innerText(),/Incorrect.*Published NCVEC answer: C/);
+await page.evaluate(()=>technicianPoolAnswer(2));assert.equal(await page.evaluate(()=>S.technicianPool.answers.T1A01.correct),false,'Repeated answers are locked');
+assert.equal(await page.locator('#poolQuestion .choices button:disabled').count(),4);assert(await page.locator('#poolFeedback a').isVisible());
+await page.reload();await page.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});await page.locator('#poolMissed').check();await page.locator('#poolQuery').fill('T1A01');assert.match(await page.locator('#poolMatch').innerText(),/^1 questions/);
+await page.locator('#poolStart').click();await page.keyboard.press('3');assert.match(await page.locator('#poolFeedback').innerText(),/Correct/);await page.locator('#poolNext').click();assert.match(await page.locator('#poolQuestion').innerText(),/Selection complete/);
+await page.evaluate(()=>technicianPoolOpen());await page.locator('#poolMissed').check();await page.locator('#poolQuery').fill('T1A01');assert(await page.locator('#poolStart').isDisabled(),'Corrected question leaves missed-only selection');
+await page.locator('#poolMissed').uncheck();await page.locator('#poolQuery').fill('');await page.locator('#poolGroup').selectOption('T6C');assert.match(await page.locator('#poolMatch').innerText(),/^2 questions/);
+await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'NCVEC setup mobile overflow');
+await page.locator('#poolStart').click();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'NCVEC question mobile overflow');
+await page.evaluate(()=>{window.realPoolDate=Date;window.Date=class extends Date{constructor(...args){super(...(args.length?args:['2031-01-01T12:00:00Z']))}};technicianPoolOpen()});assert(await page.locator('#poolStart').isDisabled(),'Expired pool cannot be started');await page.evaluate(()=>{Date=window.realPoolDate;delete window.realPoolDate;technicianPoolOpen()});
 const stats=await page.evaluate(()=>JSON.stringify(S.stats));await page.reload();assert.equal(await page.evaluate(()=>JSON.stringify(S.stats)),stats);
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(window.STUDYGOAT_CATALOG.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
 await page.evaluate(()=>{menu();openCourseCategory('classes')});await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
@@ -115,5 +131,6 @@ const exportPath=path.join(exportDir,'StudyGOAT.html');
 fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
 const exported=await browser.newPage();await exported.goto('file://'+exportPath);
 assert.equal(await exported.locator('#courseCategories button').count(),3);await exported.evaluate(()=>openCourseCategory('classes'));assert.equal(await exported.locator('.course[role=button]').count(),2);await exported.evaluate(()=>openCourseCategory('certifications'));assert.equal(await exported.locator('.course[role=button]').count(),5,'Export preserves categorized study tracks');
+await exported.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});assert.match(await exported.locator('#view').innerText(),/391 of 409/);assert.match(await exported.locator('#poolProgress').innerText(),/^0 distinct/);
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

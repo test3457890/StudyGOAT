@@ -46,3 +46,16 @@ for(const file of Object.keys(status.managed).filter(f=>status.managed[f].includ
  for(const t of data.tracks){const row=text.split('\n').filter(l=>l.startsWith(`| ${t.code} |`));assert.equal(row.length,1,`${file} ${t.id} duplicated or absent`);const cells=row[0].split('|').map(s=>s.trim());assert.equal(Number(cells[2]),t.topics.reduce((n,p)=>n+p.lessons.length,0));assert.equal(Number(cells[3]),t.topics.reduce((n,p)=>n+p.bank.length,0));}
 }
 console.log('PASS: generated documentation matches catalog; per-track counts occur once');
+
+// Public-domain pool subset is independently counted, with an explicit exclusion inventory.
+const pool=data.technicianPool;assert.equal(pool.status,'partial');assert.equal(pool.expectedCount,409);assert.equal(pool.questions.length,391);assert.equal(pool.availableCount,391);
+assert.equal(pool.excluded.length,18);assert.equal(new Set([...pool.questions,...pool.excluded].map(q=>q.id)).size,409);
+assert.equal(pool.groups.length,35);assert.deepEqual([...new Set(pool.questions.map(q=>q.group))].sort(),pool.groups);
+for(const q of pool.questions){assert.match(q.id,/^T\d[A-Z]\d\d$/);assert.equal(q.group,q.id.slice(0,3));assert.equal(q.choices.length,4);assert.equal(new Set(q.choices).size,4);assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<=3);assert(!/figure T-/i.test(q.q));assert.equal(q.source,pool.source);assert(data.sources[pool.source].sections.includes(q.group));}
+for(let i=3;i<=8;i++)assert(pool.excluded.some(q=>q.id===`T5B0${i}`&&/primary-source/.test(q.reason)));
+assert.equal(pool.excluded.filter(q=>/diagram/.test(q.reason)).length,12);
+const corrections={T1C01:'For which classes of amateur radio licenses does the FCC currently issue new licenses?',T5A05:'A difference in which of the following causes electron flow?',T7A09:'What is the function of the switch which selects either SSB or CW-FM on some VHF power amplifiers?',T0A10:'What hazard exists when rapidly charging or discharging an unprotected battery?'};
+for(const [id,text] of Object.entries(corrections)){assert.equal(pool.questions.find(q=>q.id===id).q,text);assert.equal(pool.corrections[id],text);}
+assert.deepEqual(pool.withdrawals,[]);assert.equal(pool.provenance.crossCheckedQuestions,403);assert.equal(pool.provenance.answerKeyMismatches,0);
+const crypto=require('node:crypto');assert.equal(crypto.createHash('sha256').update(JSON.stringify(pool.questions)).digest('hex'),pool.provenance.importedQuestionsSha256,'Pool text changed after source comparison; revalidate before updating fingerprint');
+console.log('PASS: 391 NCVEC text items, four errata, 35 groups, 18 explicit exclusions and source-comparison fingerprint');
