@@ -49,6 +49,59 @@ function registerCertificationCourses() {
   }
 }
 registerCertificationCourses();
+// Public-domain pool study is separate from the original lesson banks and short quizzes.
+let poolSession=null;
+function technicianPoolProgress(){
+  const p=CERT.technicianPool;
+  if(!S.technicianPool||S.technicianPool.version!==p.version)S.technicianPool={version:p.version,answers:{}};
+  return S.technicianPool.answers;
+}
+function technicianPoolOpen(){
+  if(CC!=='technician')return;
+  screen='technicianpool';LS=null;cur=null;quiz=null;activePrep=null;poolSession=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
+  const p=CERT.technicianPool,s=CERT.sources[p.source];
+  const now=new Date().toISOString().slice(0,10),valid=now>=p.validFrom&&now<=p.validThrough;
+  const answers=technicianPoolProgress(),known=p.questions.filter(q=>answers[q.id]),missed=known.filter(q=>!answers[q.id].correct);
+  view.innerHTML=`<div class="card"><button onclick="home()">Back to Technician lessons</button><h2>NCVEC Technician pool study</h2><p>${esc(p.notice)}</p><p>Pool period: ${esc(p.validFrom)} to ${esc(p.validThrough)}. Source check: ${esc(p.checked)}. ${now>p.reviewBy?'Source review overdue; check official updates before studying.':''}</p>${valid?'':'<p role="alert">This pool is outside its validity period. Study is unavailable until the current pool is verified.</p>'}<p id="poolProgress">${known.length} distinct questions reviewed; ${missed.length} currently missed. Saved in your StudyGOAT progress.</p><label>Official group <select id="poolGroup" onchange="technicianPoolFilter()"><option value="all">All available groups</option>${p.groups.map(g=>`<option value="${g}">${g} (${p.questions.filter(q=>q.group===g).length} available)</option>`).join('')}</select></label><label>Question ID <input id="poolQuery" type="search" placeholder="For example T5A05" oninput="technicianPoolFilter()"></label><label><input id="poolMissed" type="checkbox" onchange="technicianPoolFilter()"> Previously missed only</label><p id="poolMatch" role="status"></p><button id="poolStart" onclick="technicianPoolStart()" ${valid?'':'disabled'}>Start pool study</button><details><summary>Sources and excluded questions (${p.excluded.length})</summary><p><a href="${esc(s.url)}" target="_blank" rel="noopener">NCVEC baseline pool</a> · <a href="${esc(p.releaseUrl)}" target="_blank" rel="noopener">Release and corrections</a> · <a href="${esc(p.withdrawalsUrl)}" target="_blank" rel="noopener">Check withdrawals</a></p><p>Four February 19, 2026 prompt corrections are applied. ARRL lists no Technician withdrawals on the check date. Official answer letters and option order are preserved. No official-pool exam simulation is enabled.</p><ul>${p.excluded.map(q=>`<li>${esc(q.id)}: ${esc(q.reason)}</li>`).join('')}</ul></details></div><div id="poolQuestion"></div>`;
+  technicianPoolFilter();
+}
+function technicianPoolMatches(){
+  const group=document.getElementById('poolGroup').value,query=document.getElementById('poolQuery').value.trim().toUpperCase(),onlyMissed=document.getElementById('poolMissed').checked,answers=technicianPoolProgress();
+  return CERT.technicianPool.questions.filter(q=>(group==='all'||q.group===group)&&q.id.startsWith(query)&&(!onlyMissed||answers[q.id]?.correct===false));
+}
+function technicianPoolFilter(){
+  poolSession=null;document.getElementById('poolQuestion').textContent='';const matches=technicianPoolMatches(),p=CERT.technicianPool,now=new Date().toISOString().slice(0,10);
+  document.getElementById('poolMatch').textContent=matches.length?matches.length+' questions available in this selection.':'No available questions match. Excluded questions cannot be selected.';
+  document.getElementById('poolStart').disabled=!matches.length||now<p.validFrom||now>p.validThrough;
+}
+function technicianPoolStart(){
+  const p=CERT.technicianPool,now=new Date().toISOString().slice(0,10);if(now<p.validFrom||now>p.validThrough)return;
+  const deck=shuffle(technicianPoolMatches());if(!deck.length)return;
+  poolSession={deck,index:0,answered:false,correct:0};technicianPoolDraw();
+}
+function technicianPoolDraw(){
+  const session=poolSession,out=document.getElementById('poolQuestion');if(!session||!out)return;
+  if(session.index>=session.deck.length){out.innerHTML=`<div class="card"><h3>Selection complete</h3><p>${session.correct} correct out of ${session.deck.length} in this study selection. This is not an exam result.</p><button onclick="technicianPoolOpen()">Choose another selection</button></div>`;return;}
+  const q=session.deck[session.index];session.answered=false;
+  out.innerHTML=`<div class="card"><p>Question ${session.index+1} of ${session.deck.length} · ${esc(q.id)} · Group ${esc(q.group)}</p><h3>${esc(q.q)}</h3><div class="choices">${q.choices.map((c,i)=>`<button onclick="technicianPoolAnswer(${i})">${'ABCD'[i]}. ${esc(c)}</button>`).join('')}</div><div id="poolFeedback" role="status" aria-live="polite"></div><button id="poolNext" onclick="technicianPoolNext()" disabled>Next question</button><p class="hint">Use 1–4 or A–D to answer. Answer feedback stays visible until you choose Next question.</p></div>`;
+}
+function technicianPoolAnswer(index){
+  const session=poolSession;if(!session||session.answered||!Number.isInteger(index)||index<0||index>3)return;
+  const q=session.deck[session.index];session.answered=true;const correct=index===q.answer;if(correct)session.correct++;
+  technicianPoolProgress()[q.id]={choice:index,correct,checked:new Date().toISOString()};save();
+  document.querySelectorAll('#poolQuestion .choices button').forEach((b,i)=>{b.disabled=true;if(i===q.answer)b.classList.add('ok');else if(i===index)b.classList.add('bad');});
+  document.getElementById('poolFeedback').innerHTML=`<p>${correct?'Correct.':'Incorrect.'} Published NCVEC answer: ${'ABCD'[q.answer]}. ${esc(q.choices[q.answer])}</p><p>Answer-key feedback only; no teaching explanation supplied. <a href="${esc(CERT.sources[CERT.technicianPool.source].url)}" target="_blank" rel="noopener">NCVEC pool, ${esc(q.id)}</a></p>`;
+  document.getElementById('poolNext').disabled=false;
+  const known=CERT.technicianPool.questions.filter(x=>technicianPoolProgress()[x.id]),missed=known.filter(x=>!technicianPoolProgress()[x.id].correct);
+  document.getElementById('poolProgress').textContent=known.length+' distinct questions reviewed; '+missed.length+' currently missed. Saved in your StudyGOAT progress.';
+}
+function technicianPoolNext(){if(!poolSession?.answered)return;poolSession.index++;technicianPoolDraw();}
+document.addEventListener('keydown',e=>{
+  if(screen!=='technicianpool'||!poolSession||/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement?.tagName||'')||e.altKey||e.ctrlKey||e.metaKey)return;
+  if(/^[1-4]$/.test(e.key)){e.preventDefault();technicianPoolAnswer(Number(e.key)-1);}
+  else if(/^[a-d]$/i.test(e.key)){e.preventDefault();technicianPoolAnswer(e.key.toUpperCase().charCodeAt(0)-65);}
+});
+
 // Optional AI additions cannot silently enter the source-checked built-in banks.
 const registerUserCourses = registerCustom;
 registerCustom = function() { registerUserCourses(); registerCertificationCourses(); };
@@ -80,6 +133,7 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) {legacyHome();if(CC==='cpsc222')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="fsmLab()">Open finite state machine lab</button></div>');return;}
   _home();
+  if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study 391 NCVEC text questions</button><p>Separate public-domain pool practice. 18 questions remain excluded; not a complete pool or exam simulation.</p></div>');
   view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
 };
 function certNotice() {
@@ -211,7 +265,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();

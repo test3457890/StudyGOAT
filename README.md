@@ -13,7 +13,7 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 ## Study program status
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -21,7 +21,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 origin
 | FAA Part 107 | 19 | 82 | Selected drone regulations, Remote ID, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected rules, electronics and radio foundations; no full official pool |
+| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -100,3 +100,5 @@ The November 12 driving batch adds selected Alabama, Alaska, Arkansas, Colorado 
 The next November 12 batch adds selected Delaware, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa and Kansas lessons. The generated inventory above reflects actual courses, not just directory entries. Source dates and unresolved edition checks remain explicit.
 
 November 12 continuation: Kentucky, Louisiana, Maine and Maryland now each have four selected lessons and eight original questions. These partial courses do not replace complete current manuals or licensing checks. Exact state names and postal abbreviations take priority over substring alternatives in driving search.
+
+November 12 Technician expansion: separate study for 391 public-domain NCVEC text questions, with official IDs/keys, four published corrections, group/ID search and saved missed-only review. Six text items and twelve diagram questions are explicitly excluded. No complete pool or official exam simulation is claimed. See the [Technician Wiki](https://github.com/test3457890/StudyGOAT/wiki/Amateur-Radio-Technician).

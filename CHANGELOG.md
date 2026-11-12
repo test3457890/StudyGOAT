@@ -1,5 +1,11 @@
 # Changelog
 
+## November 12, 2026: NCVEC text-question study
+
+- Added separate practice for 391 public-domain NCVEC questions, preserving IDs, option order and answer letters. Applied four published prompt corrections.
+- Added group/ID filtering, saved missed-only review, locked answer feedback and pool-validity guards. Excluded six unreadable text items and twelve unvalidated diagram items. Existing original lessons and short quizzes remain available.
+- Official pool questions are counted separately from the 732 original questions; the course remains partial.
+
 ## November 12, 2026: Kentucky through Maryland
 
 - Added four partial state courses with 16 lessons and 32 original questions, citations and explicit coverage gaps.

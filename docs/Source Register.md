@@ -104,3 +104,9 @@ Downloaded review-copy SHA-256 fingerprints (not distributed):
 - LA: `3b3e094d39d16bb69685c9541db24486fdf1f38d09a4ca1158578a715da9d702`.
 
 - ME: `61c9b8781b2a4e3b247223cd441ab0976cde588be8082bfe606c830faeb88a42`.
+
+## Technician primary-reader and errata review, November 12, 2026
+
+The official December 18, 2025 NCVEC PDF was available through the research reader, although direct file retrieval returned 403. All 3167 numbered reader lines were retrieved without gaps. They contain 403 question IDs; T5B03-T5B08 are absent. OCR TOB/TOC prefixes were normalized to T0B/T0C. Four February 19, 2026 prompt corrections were applied from the indexed official release. All 403 answer keys and choices were compared with HamExam; no answer-key differences were found. Retained primary T1B11 wording, which lacks the article added by the mirror. No missing questions were inferred from the mirror.
+
+The imported study set excludes twelve figure-dependent questions, leaving 391 text items. Catalog provenance records the reader-text SHA-256 and imported-question SHA-256, exact correction prompts, URLs and exclusion reasons. The source file is reader text, not a downloaded PDF. No diagrams are supplied and no full-pool exam mode is enabled. NCVEC explicitly releases the pool into the public domain; no third-party teaching explanations were imported. ARRL reports no Technician withdrawals on November 12. Complete corrected-file and diagram validation remain open.

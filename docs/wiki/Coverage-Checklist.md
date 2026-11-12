@@ -1,7 +1,7 @@
 # Coverage checklist
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -9,7 +9,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 origin
 | FAA Part 107 | 19 | 82 | Selected drone regulations, Remote ID, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected rules, electronics and radio foundations; no full official pool |
+| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -102,11 +102,13 @@ See the generated state-by-state inventory below for actual availability. Every 
 
 ### Amateur Radio Technician
 
-- [ ] Retrieve and independently validate corrected NCVEC 2026-2030 pool and three diagrams
-- [ ] Check every official ID, answer, group, erratum and withdrawal before official-pool mode
-- [ ] Implement reviewed 35-group exam sampling using the validated pool
-- [ ] Remaining electronics, antennas, propagation, operating practice and safety
-- [ ] Source-based explanations for the full official pool
+- [x] Separate study mode for 391 public-domain NCVEC text questions, with official IDs and answer keys
+- [x] Apply four February 19, 2026 prompt corrections and check ARRL withdrawals
+- [x] Group and ID filtering, saved missed-only review, locked feedback and validity guard
+- [ ] Verify T5B03-T5B08 against the complete corrected primary source
+- [ ] Validate three diagrams and restore twelve figure questions
+- [ ] Complete 35-group exam sampling after the full pool is verified
+- [ ] Expand teaching lessons and explanations
 
 ### Arizona Driving Prep
 

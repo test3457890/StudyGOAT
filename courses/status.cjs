@@ -5,7 +5,7 @@ const summaries={
  faa107:'Selected drone regulations, Remote ID, weather and performance',
  capcadet:'Selected lessons and practice in all 16 Learn to Lead chapters',
  wfa:'Provider-neutral safety and heat awareness',
- technician:'Selected rules, electronics and radio foundations; no full official pool',
+ technician:'Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded',
  arizonadriving:'Selected Arizona signs, signals, yielding and crossings',
  newjerseydriving:'Selected NJ intersections, turns and school-bus situations',
  californiadriving:'Selected California turns, merging and lane changes',
@@ -41,7 +41,7 @@ const managed={
  'docs/Publication Status.md':['SUMMARY']
 };
 function counts(data){return {tracks:data.tracks.length,lessons:data.tracks.reduce((n,t)=>n+t.topics.reduce((s,p)=>s+p.lessons.length,0),0),questions:data.tracks.reduce((n,t)=>n+t.topics.reduce((s,p)=>s+p.bank.length,0),0),states:data.drivingJurisdictions.filter(j=>j.track&&j.code!=='US-DC').length,remaining:data.drivingJurisdictions.filter(j=>!j.track&&j.code!=='US-DC').length,dc:!!data.drivingJurisdictions.find(j=>j.code==='US-DC')?.track};}
-function summary(data){const c=counts(data);return `Catalog updated ${data.updated||data.checked}. ${c.tracks} sourced tracks contain ${c.lessons} lessons and ${c.questions} original questions, excluding the university classes. All sourced tracks remain partial. ${c.states} states have partial state-specific courses; ${c.remaining} states${c.dc?'':' and DC'} still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.`;}
+function summary(data){const c=counts(data);return `Catalog updated ${data.updated||data.checked}. ${c.tracks} sourced tracks contain ${c.lessons} lessons and ${c.questions} original questions, excluding the university classes. All sourced tracks remain partial. ${c.states} states have partial state-specific courses; ${c.remaining} states${c.dc?'':' and DC'} still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers ${data.technicianPool.availableCount} separate public-domain NCVEC text questions out of ${data.technicianPool.expectedCount}; these are excluded from the original-question counts above.`;}
 function block(data,kind){
  let body=summary(data);
  if(kind==='TABLE')body=`${body}\n\n| Track | Lessons | Questions | Coverage |\n| --- | ---: | ---: | --- |\n`+data.tracks.map(t=>`| ${t.code} | ${t.topics.reduce((n,p)=>n+p.lessons.length,0)} | ${t.topics.reduce((n,p)=>n+p.bank.length,0)} | ${summaries[t.id]||'Selected topics; see in-app Sources & coverage'} |`).join('\n');

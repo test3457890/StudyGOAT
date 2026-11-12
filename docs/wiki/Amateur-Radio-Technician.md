@@ -1,21 +1,21 @@
 # Amateur Radio Technician
 
-2026-11-09: two introductory rules lessons and 12 original questions. This is a primer, not the NCVEC pool and not a full license-preparation course.
+Updated November 12, 2026. Eight original lessons and 36 original questions remain available. A separate pool-study mode now adds 391 public-domain NCVEC text questions. These counts describe different banks and are not combined as original content.
 
-[ARRL](https://www.arrl.org/question-pools) identifies the Technician pool period as July 1, 2026 through June 30, 2030. Its [withdrawn list](https://www.arrl.org/withdrawn-questions) lists no Technician withdrawals on the check date. The indexed [NCVEC release](https://ncvec.org/index.php/2026-2030-technician-question-pool) identifies February 19, 2026 corrections to T1C01, T5A05, T7A09 and T0A10.
+## Available pool study
 
-Direct NCVEC retrieval returned 403. The complete corrected pool, exact answers and three diagrams have not been retrieved and validated, so no official-pool simulation is enabled. Original primer question IDs are not NCVEC IDs.
+The 2026-2030 pool is effective July 1, 2026 through June 30, 2030. Practice preserves official question IDs, answer letters and option order. It supports group selection, question-ID lookup, saved review progress and missed-only review. Feedback stays visible until Next question and cites the published answer key. It does not supply a teaching explanation or award credit. Study is disabled outside the pool validity dates.
 
-Implemented sources: FCC rules 97.503(a), 97.105 and 97.119, with links and section references in the app. Element 2 requires 26 of 35 correct. The app's short practice quiz grants no license. A practice timer is optional and not an FCC time-limit claim. Amateur privileges do not replace authorization for other radio services.
+Source: [NCVEC December 18 baseline](https://ncvec.org/downloads/TECH_2026/2026-2030%20Technician%20Pool%20and%20Syllabus%20Public%20Release%20Dec%2018%202025.pdf), read through the official research-reader text. The [indexed NCVEC release](https://ncvec.org/index.php/2026-2030-technician-question-pool) supplies the February 19, 2026 prompt corrections for T1C01, T5A05, T7A09 and T0A10. All four are applied. NCVEC releases the question pool into the public domain. No third-party teaching explanations are copied.
 
-Next: obtain the corrected public-domain files, preserve exact IDs and choices, verify every answer and diagram, then test one-question-per-group sampling across all 35 groups. Radio theory, antennas, propagation and safety lessons remain outstanding.
+## Explicit exclusions
 
-## Additional study material, November 9, 2026
+T5B03 through T5B08 are absent from the accessible primary reader text. Twelve questions requiring Figures T-1, T-2 or T-3 are excluded until their diagrams are validated. The app lists all 18 excluded IDs and blocks their selection. Available items span all 35 groups, but that does not establish complete coverage. No full official-pool exam simulation is enabled.
 
-Two lessons on restricted transmissions and reading exceptions. Source: 47 CFR 97.113. Covers paid/employer traffic, occasional apparatus sale notices, deliberate deception, obscured messages and one-way restrictions. These are original questions, not NCVEC pool items.
+All 403 primary-readable question keys and choices were compared against the [HamExam mirror](https://hamexam.org/view_pool/21-Technician). The only prompt wording difference after applying errata and normalizing spacing/punctuation is the article “the” in T1B11; primary wording is retained. Reader OCR prefixes TOB/TOC were normalized to T0B/T0C. Catalog provenance records the reader and imported-question fingerprints. The six absent items are not filled from the mirror.
 
-Current totals: 4 lessons and 20 questions. The course remains partial. Earlier counts above describe the first introductory release.
+[ARRL withdrawals](https://www.arrl.org/withdrawn-questions) lists none for Technician on November 12, 2026. Recheck official updates before an examination. Direct NCVEC file retrieval still returned 403; this release does not claim possession or validation of the complete corrected PDF.
 
-## Latest curriculum expansion
+## Remaining work
 
-Current totals: eight lessons and 36 questions. Added original Ohm’s-law calculations and frequency/wavelength foundations based on NASA educational sources. These are not official NCVEC pool items. The corrected full pool and three diagrams remain unvalidated, so official-pool simulation stays disabled.
+Validate the six missing questions and three diagrams, then test complete one-question-per-group exam sampling. Expand theory, antennas, operations and safety lessons and add reviewed teaching explanations. Existing short foundation practice is retained. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.
