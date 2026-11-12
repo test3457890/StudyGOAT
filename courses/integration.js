@@ -109,6 +109,8 @@ function filterDrivingStates(){
   const query=document.getElementById('stateSearch').value.trim().toLocaleLowerCase();
   const matches=CERT.drivingJurisdictions.filter(j=>(j.name+' '+j.code.replace('US-','')).toLocaleLowerCase().includes(query));
   const select=document.getElementById('drivingState');select.innerHTML=matches.map(j=>`<option value="${esc(j.code)}">${esc(j.name)}: ${j.track?'state-specific partial course':'national foundations only'}</option>`).join('');
+  const exact=matches.find(j=>j.name.toLocaleLowerCase()===query||j.code.replace('US-','').toLocaleLowerCase()===query);
+  if(exact)select.value=exact.code;
   document.getElementById('stateSearchStatus').textContent=matches.length?matches.length+' jurisdictions found':'No states match your search.';
   if(matches.length)openDrivingState();else document.getElementById('drivingAvailability').textContent='Try another state name or abbreviation.';
 }

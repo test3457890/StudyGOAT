@@ -17,6 +17,11 @@ assert.match(await page.locator('#sub').innerText(),/Driving Tests/);
 assert.equal(await page.locator('#nav button').filter({hasText:'Topics'}).count(),0);
 assert.equal(await page.evaluate(()=>CC),'cpsc222','Directory preserves selected course and progress');
 await page.locator('#stateSearch').fill('NJ');assert.equal(await page.locator('#drivingState option').count(),1);assert.match(await page.locator('#drivingAvailability').innerText(),/New Jersey: partial/);
+// Exact state names and abbreviations win over substring matches (Kansas/Arkansas).
+for(const [query,code] of [['Kansas','US-KS'],['AR','US-AR'],['  kAnSaS  ','US-KS'],['Washington','US-WA']]){
+ await page.locator('#stateSearch').fill(query);assert.equal(await page.locator('#drivingState').inputValue(),code,query);
+}
+await page.locator('#stateSearch').fill('Kansas');assert.equal(await page.locator('#drivingState option').count(),2,'Substring alternatives remain available');
 await page.locator('#stateSearch').fill('no such state');assert.equal(await page.locator('#drivingState option').count(),0);assert.match(await page.locator('#stateSearchStatus').innerText(),/No states/);
 await page.locator('#stateSearch').fill('');assert.equal(await page.locator('#drivingState option').count(),51);
 

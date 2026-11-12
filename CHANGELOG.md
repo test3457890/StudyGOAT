@@ -1,5 +1,9 @@
 # Changelog
 
+## November 12, 2026: exact state search selection
+
+- Prefer an exact state name or postal abbreviation when substring search matches multiple jurisdictions. Searching Kansas now selects Kansas while keeping Arkansas available. Added browser regression coverage for names, abbreviations, whitespace and case.
+
 ## 2026-11-12: Delaware through Kansas driving foundations
 
 - Added separate partial courses for Delaware, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa and Kansas: four lessons and 16 original questions each.
