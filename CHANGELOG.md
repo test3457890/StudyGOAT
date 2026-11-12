@@ -1,5 +1,11 @@
 # Changelog
 
+## November 12, 2026: Kentucky through Maryland
+
+- Added four partial state courses with 16 lessons and 32 original questions, citations and explicit coverage gaps.
+- Catalog totals: 29 sourced tracks, 183 lessons and 732 original questions. 23 states have partial state-specific study; 27 states and DC remain national foundations only.
+- Recorded the Kentucky July 2026 update, Louisiana R08/25, Maryland DL-002 (10-26) and an undated Maine online manual.
+
 ## November 12, 2026: exact state search selection
 
 - Prefer an exact state name or postal abbreviation when substring search matches multiple jurisdictions. Searching Kansas now selects Kansas while keeping Arkansas available. Added browser regression coverage for names, abbreviations, whitespace and case.

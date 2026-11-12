@@ -1,6 +1,6 @@
 # Source verification register
 
-Checked 2026-11-09. The complete machine-readable inventory is in `courses/catalog.json`: publisher, document title, URL, version, effective date, last checked, next review date, rights, source status and section mappings. Question and lesson records map to source IDs and objectives. Topic references also cover notes and glossary cards.
+The entries below are a chronological review log; earlier counts and limits describe their checkpoints. The complete machine-readable inventory is in `courses/catalog.json`: publisher, document title, URL, version, effective date, last checked, next review date, rights, source status and section mappings. Question and lesson records map to source IDs and objectives. Topic references also cover notes and glossary cards.
 
 | Program | Source baseline | Limits |
 | --- | --- | --- |
@@ -85,3 +85,22 @@ Downloaded review-copy SHA-256 fingerprints, not distributed with the app:
 - IL: `8b637e0702708585c19a9747f6eddf51af8cc373eb4721cbcd8f48c1014061dd`.
 - IN: `08a22d1ebe45f3ab809261d3635a816d4789d6532776bdc628479492e18d8d2e`.
 - KS: `1450c8b59b1c5f6247d20c1d00b3a759314df966a744c5ad20fe2d9c091fb4a5`.
+
+## Kentucky through Maryland review, November 12, 2026
+
+| State | Official source | Selected sections | Limits |
+| --- | --- | --- | --- |
+| Kentucky | State Police driver-testing page links the July 23, 2026 manual update | Section Six, railroad warnings pp. 36-37; Section Seven, roundabouts p. 44 | Remaining manual, licensing and independent review pending; StudyGOAT is not KSP-endorsed |
+| Louisiana | OMV driver-manuals page links PowerDMS document 347039, DPSMV2052 R08/25 | Weather Changes p. 106; At Night p. 107 | Selected observation principles only; older phone/statistical claims and numeric lighting thresholds excluded |
+| Maine | BMV online Driver's License Manual Study Guide | Section 3, Fatigue and Driver Distractions | Revision date unconfirmed; safety education, not a statement of current licensing or device-law exceptions |
+| Maryland | MVA official PDF, DL-002 (10-26) | Section 5.G, Highway-Railroad Crossings; 5.H, Work Zone Safety | Read through official PDF web reader after local PDF download returned 403; remaining manual and licensing review pending |
+
+Each state adds four lessons, eight original questions and topic glossary cards. No official sample questions, figures or handbook files are distributed. Source edition checks do not establish full current-law review. All existing sourced tracks remain unchanged.
+
+Downloaded review-copy SHA-256 fingerprints (not distributed):
+
+- KY: `fa511c13651ede502d8d77cd71c192e5b72e4002ad2564d0544f7afe82658064`.
+
+- LA: `3b3e094d39d16bb69685c9541db24486fdf1f38d09a4ca1158578a715da9d702`.
+
+- ME: `61c9b8781b2a4e3b247223cd441ab0976cde588be8082bfe606c830faeb88a42`.

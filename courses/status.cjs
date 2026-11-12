@@ -25,7 +25,11 @@ const summaries={
  illinoisdriving:'Selected Illinois school-bus, lane and pedestrian signals',
  indianadriving:'Selected Indiana roundabouts and tractor-trailer space',
  iowadriving:'Iowa rural-road, night and deer safety principles',
- kansasdriving:'Kansas rural-road and work-zone safety principles'
+ kansasdriving:'Kansas rural-road and work-zone safety principles',
+ kentuckydriving:'Selected Kentucky railroad crossings and roundabouts',
+ louisianadriving:'Louisiana fog, rain and nighttime observation',
+ mainedriving:'Maine fatigue and distraction safety guidance',
+ marylanddriving:'Selected Maryland railroad and work-zone decisions'
 };
 const managed={
  'README.md':['TABLE'],

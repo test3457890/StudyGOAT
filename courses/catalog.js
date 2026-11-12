@@ -1124,6 +1124,66 @@ window.STUDYGOAT_CATALOG = {
         "Section 10: Rural Road Driving, printed p. 90",
         "Section 10: Work Zones, printed pp. 91-92"
       ]
+    },
+    "kymanual": {
+      "publisher": "Kentucky State Police",
+      "title": "Kentucky Driver Manual",
+      "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+      "version": "Agency-linked July 23, 2026 update; selected sections",
+      "effective": "Selected sections checked November 12, 2026; complete current law and licensing review remains pending",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original explanations and scenarios only. No official questions, illustrations or full handbook reproduced.",
+      "status": "verified",
+      "sections": [
+        "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37",
+        "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+      ]
+    },
+    "lamanual": {
+      "publisher": "Louisiana Office of Motor Vehicles",
+      "title": "Class D & E Driver’s Guide",
+      "url": "https://public.powerdms.com/LADPSC/documents/347039",
+      "version": "DPSMV2052 R08/25, linked by OMV November 12, 2026; selected safety sections",
+      "effective": "Selected sections checked November 12, 2026; complete current law and licensing review remains pending",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original explanations and scenarios only. No official questions, illustrations or full handbook reproduced.",
+      "status": "verified",
+      "sections": [
+        "Chapter 7: Weather Changes, printed p. 106",
+        "Chapter 7: At Night, printed p. 107"
+      ]
+    },
+    "memanual": {
+      "publisher": "Maine Secretary of State, Bureau of Motor Vehicles",
+      "title": "Maine Driver’s License Manual Study Guide Online",
+      "url": "https://www1.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/motorist-handbook",
+      "version": "Online manual checked November 12, 2026; revision date unconfirmed; selected Section 3 guidance",
+      "effective": "Selected sections checked November 12, 2026; complete current law and licensing review remains pending",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original explanations and scenarios only. No official questions, illustrations or full handbook reproduced.",
+      "status": "verified",
+      "sections": [
+        "Section 3: Fatigue; The Danger Signs of Drowsiness",
+        "Section 3: Driver Distractions"
+      ]
+    },
+    "mdmanual": {
+      "publisher": "Maryland Department of Transportation, Motor Vehicle Administration",
+      "title": "Maryland Driver’s Manual",
+      "url": "https://mva.maryland.gov/media/148/download?inline=",
+      "version": "DL-002 (10-26); selected sections reviewed through official PDF web reader",
+      "effective": "Selected sections checked November 12, 2026; complete current law and licensing review remains pending",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original explanations and scenarios only. No official questions, illustrations or full handbook reproduced.",
+      "status": "verified",
+      "sections": [
+        "Section 5.G: Highway-Railroad Crossings",
+        "Section 5.H: Work Zone Safety"
+      ]
     }
   },
   "tracks": [
@@ -30214,6 +30274,1674 @@ window.STUDYGOAT_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "kentuckydriving",
+      "code": "Kentucky Driving Prep",
+      "name": "Kentucky selected driving foundations",
+      "version": "Agency-linked July 23, 2026 update; selected sections",
+      "status": "partial",
+      "jurisdiction": "US-KY",
+      "checked": "2026-11-12",
+      "notice": "Kentucky only. Selected original practice, not official exam questions or complete permit preparation. Read the full current official manual and verify licensing requirements. Source editions and coverage gaps are listed in Sources & coverage.",
+      "gaps": [
+        "All handbook subjects outside the selected topics",
+        "Current permit eligibility, documents, education and graduated-license restrictions",
+        "Post-edition law changes and independent content review",
+        "Full test blueprint, broader scenario practice and supervised driving"
+      ],
+      "objectives": [
+        "KY / Railroad crossings",
+        "KY / Roundabouts"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 8,
+        "minutes": 8
+      },
+      "topics": [
+        {
+          "id": "kentuckydriving_rail",
+          "name": "Kentucky railroad observation",
+          "objectives": [
+            "KY / Railroad crossings"
+          ],
+          "refs": [
+            {
+              "source": "kymanual",
+              "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+            }
+          ],
+          "notes": [
+            "Check every track and leave enough space beyond it.",
+            "A passing train may hide another; continue obeying crossing warnings."
+          ],
+          "gloss": [
+            [
+              "Crossbuck",
+              "X-shaped crossing marker"
+            ],
+            [
+              "Clearance",
+              "Room for the whole vehicle beyond the rails"
+            ],
+            [
+              "Warning lights",
+              "Flashing devices requiring drivers to wait"
+            ],
+            [
+              "Multiple tracks",
+              "Separate rail paths that can carry separate trains"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Check the far side",
+              "idea": [
+                "A queue must not strand the vehicle on rails."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Following the next car without checking exit room."
+              ],
+              "steps": [
+                {
+                  "text": "A queue fills the exit beyond a crossing."
+                },
+                {
+                  "text": "Wait before the rails until the whole vehicle can clear."
+                },
+                {
+                  "text": "Before entering, identify where the rear of the vehicle will end up."
+                }
+              ],
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ]
+            },
+            {
+              "t": "One train is not an all-clear",
+              "idea": [
+                "Another track may carry a second train."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Starting merely because the last car has passed."
+              ],
+              "steps": [
+                {
+                  "text": "A freight train passes."
+                },
+                {
+                  "text": "Keep watching both ways and obey the warning devices."
+                },
+                {
+                  "text": "A cleared first track does not establish clearance on every track."
+                }
+              ],
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "kentuckydriving_rail_01",
+              "q": "Kentucky: traffic is backed up beyond a rail crossing. Your best decision?",
+              "c": [
+                "Wait before the tracks for full exit space",
+                "Follow halfway onto the tracks",
+                "Stop between the rails",
+                "Rely on the next driver to move"
+              ],
+              "why": "Available exit space matters before entry.",
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_rail_02",
+              "q": "Kentucky: one train clears a crossing with several tracks. What still needs checking?",
+              "c": [
+                "Other tracks and active crossing warnings",
+                "Only the rear license plate ahead",
+                "Only the clock",
+                "Nothing after the last car passes"
+              ],
+              "why": "A second train can approach on another track.",
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_rail_03",
+              "q": "Kentucky: a crossing has no warning lights. What should you do?",
+              "c": [
+                "Look and listen for trains",
+                "Assume the track is abandoned",
+                "Cross with eyes on the navigation display",
+                "Treat silence as guaranteed clearance"
+              ],
+              "why": "Some crossings lack lights.",
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_rail_04",
+              "q": "Kentucky: red crossing lights are flashing. What should you do?",
+              "c": [
+                "Stop and respect the crossing warning",
+                "Race a visible train",
+                "Drive around the gate",
+                "Follow a larger vehicle through"
+              ],
+              "why": "Active warnings prohibit crossing.",
+              "objectives": [
+                "KY / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Six: Railroad Crossing Warning Signs, printed pp. 36-37"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "kentuckydriving_round",
+          "name": "Kentucky roundabout entry and exit",
+          "objectives": [
+            "KY / Roundabouts"
+          ],
+          "refs": [
+            {
+              "source": "kymanual",
+              "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+            }
+          ],
+          "notes": [
+            "Reduce speed before entry and yield to circulating vehicles.",
+            "Travel counterclockwise and signal the intended exit."
+          ],
+          "gloss": [
+            [
+              "Circulating traffic",
+              "Vehicles already in the circle"
+            ],
+            [
+              "Exit signal",
+              "Indication of intent to leave"
+            ],
+            [
+              "Center island",
+              "Raised area around which traffic circulates"
+            ],
+            [
+              "Entry yield",
+              "Waiting for circulating traffic before joining"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Make entry deliberate",
+              "idea": [
+                "Traffic inside the circle has priority."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Forcing circulating traffic to brake."
+              ],
+              "steps": [
+                {
+                  "text": "You approach a busy roundabout."
+                },
+                {
+                  "text": "Slow and wait for a suitable opening."
+                },
+                {
+                  "text": "Confirm the opening does not require circulating traffic to brake for you."
+                }
+              ],
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ]
+            },
+            {
+              "t": "Communicate the exit",
+              "idea": [
+                "The exit needs observation and a signal."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Assuming other road users know the planned exit."
+              ],
+              "steps": [
+                {
+                  "text": "Your exit approaches."
+                },
+                {
+                  "text": "Signal intent and leave carefully."
+                },
+                {
+                  "text": "Keep watching surrounding traffic while signaling."
+                }
+              ],
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "kentuckydriving_round_01",
+              "q": "Kentucky: who yields when a driver enters a roundabout?",
+              "c": [
+                "The entering driver yields to circulating traffic",
+                "Circulating drivers always stop for entrants",
+                "Only trucks yield",
+                "The closest exit decides priority"
+              ],
+              "why": "Entry must respect traffic already circulating.",
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_round_02",
+              "q": "Kentucky: which direction does traffic circulate around the center island?",
+              "c": [
+                "Counterclockwise",
+                "Clockwise",
+                "Either direction at will",
+                "Across the island"
+              ],
+              "why": "Use the designated counterclockwise flow.",
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_round_03",
+              "q": "Kentucky: a roundabout warning appears ahead. What preparation fits?",
+              "c": [
+                "Slow before entry",
+                "Accelerate into the circle",
+                "Ignore the yield point",
+                "Stop watching circulating traffic"
+              ],
+              "why": "Approach at a controlled speed.",
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "kentuckydriving_round_04",
+              "q": "Kentucky: your planned roundabout exit is approaching. What communicates intent?",
+              "c": [
+                "An exit signal",
+                "An unnecessary horn blast",
+                "High beams",
+                "No signal because the route is obvious"
+              ],
+              "why": "Signal before leaving the circle.",
+              "objectives": [
+                "KY / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "kymanual",
+                  "section": "Section Seven: Roundabouts and Traffic Circles, printed p. 44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "louisianadriving",
+      "code": "Louisiana Driving Prep",
+      "name": "Louisiana selected driving foundations",
+      "version": "DPSMV2052 R08/25, linked by OMV November 12, 2026; selected safety sections",
+      "status": "partial",
+      "jurisdiction": "US-LA",
+      "checked": "2026-11-12",
+      "notice": "Louisiana only. Selected original practice, not official exam questions or complete permit preparation. Read the full current official manual and verify licensing requirements. Source editions and coverage gaps are listed in Sources & coverage.",
+      "gaps": [
+        "All handbook subjects outside the selected topics",
+        "Current permit eligibility, documents, education and graduated-license restrictions",
+        "Post-edition law changes and independent content review",
+        "Full test blueprint, broader scenario practice and supervised driving"
+      ],
+      "objectives": [
+        "LA / Weather visibility",
+        "LA / Night visibility"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 8,
+        "minutes": 8
+      },
+      "topics": [
+        {
+          "id": "louisianadriving_weather",
+          "name": "Louisiana fog and heavy rain",
+          "objectives": [
+            "LA / Weather visibility"
+          ],
+          "refs": [
+            {
+              "source": "lamanual",
+              "section": "Chapter 7: Weather Changes, printed p. 106"
+            }
+          ],
+          "notes": [
+            "Slow down and use low beams in fog or heavy rain.",
+            "When visibility becomes unusable, find a safe place off the highway."
+          ],
+          "gloss": [
+            [
+              "Low beam",
+              "Headlight setting that reduces reflected glare"
+            ],
+            [
+              "Visibility",
+              "Distance and detail the driver can see"
+            ],
+            [
+              "Heavy rain",
+              "Rainfall that can limit the usable view"
+            ],
+            [
+              "Safe stopping place",
+              "Location off the travel path suitable for stopping"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Change the plan with the weather",
+              "idea": [
+                "The earlier dry-road plan may no longer fit."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Keeping the same pace simply because it was safe earlier."
+              ],
+              "steps": [
+                {
+                  "text": "Heavy rain reduces the view."
+                },
+                {
+                  "text": "Lower speed and use low beams."
+                },
+                {
+                  "text": "The same road can require a different pace a few minutes later."
+                }
+              ],
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ]
+            },
+            {
+              "t": "Recognize the stopping decision",
+              "idea": [
+                "Severely impaired visibility can make continued travel unsafe."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Stopping in a live travel lane as a routine break."
+              ],
+              "steps": [
+                {
+                  "text": "Fog obscures the route."
+                },
+                {
+                  "text": "Seek a safe location off the highway rather than continuing blindly."
+                },
+                {
+                  "text": "Avoid making an ordinary rest stop in a live traffic lane."
+                }
+              ],
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "louisianadriving_weather_01",
+              "q": "Louisiana: heavy rain sharply reduces the view. Which combination fits?",
+              "c": [
+                "Lower speed and low beams",
+                "Higher speed and parking lamps",
+                "Cruise speed and high beams",
+                "Lights off and close following"
+              ],
+              "why": "Adjust speed and lighting to the conditions.",
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_weather_02",
+              "q": "Louisiana: dense fog prevents a usable view. What is the safer plan?",
+              "c": [
+                "Leave the highway at a safe location and stop",
+                "Continue by watching only the centerline",
+                "Follow a truck closely",
+                "Stop routinely in the traffic lane"
+              ],
+              "why": "The guide recommends getting safely off the highway.",
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_weather_03",
+              "q": "Louisiana: why should a sudden weather change affect driving?",
+              "c": [
+                "The usable view and safe speed can change",
+                "The original plan remains valid forever",
+                "Headlights remove every hazard",
+                "Other vehicles cannot slow down"
+              ],
+              "why": "Reassess rather than relying on earlier conditions.",
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_weather_04",
+              "q": "Louisiana: red tail lamps appear in fog. Which assumption is unsafe?",
+              "c": [
+                "They prove the vehicle ahead is moving normally",
+                "The vehicle may be stopped",
+                "The vehicle may be moving slowly",
+                "More observation is needed"
+              ],
+              "why": "Tail lamps alone do not establish movement.",
+              "objectives": [
+                "LA / Weather visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: Weather Changes, printed p. 106"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "louisianadriving_night",
+          "name": "Louisiana nighttime observation",
+          "objectives": [
+            "LA / Night visibility"
+          ],
+          "refs": [
+            {
+              "source": "lamanual",
+              "section": "Chapter 7: At Night, printed p. 107"
+            }
+          ],
+          "notes": [
+            "Keep glass clean and drive within the illuminated stopping distance.",
+            "Avoid staring at oncoming glare or retaliating with high beams."
+          ],
+          "gloss": [
+            [
+              "Outdriving headlights",
+              "Traveling too fast to stop in the illuminated distance"
+            ],
+            [
+              "Glare",
+              "Light that interferes with useful vision"
+            ],
+            [
+              "Illuminated distance",
+              "Road length made visible by headlights"
+            ],
+            [
+              "Road edge",
+              "Boundary useful for maintaining orientation"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Match speed to the visible road",
+              "idea": [
+                "Headlights provide a limited view."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Assuming the speed limit guarantees sufficient visibility."
+              ],
+              "steps": [
+                {
+                  "text": "An unlit rural road stretches ahead."
+                },
+                {
+                  "text": "Choose a pace that allows stopping inside the lighted distance."
+                },
+                {
+                  "text": "The posted maximum does not promise enough visible stopping room."
+                }
+              ],
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ]
+            },
+            {
+              "t": "Handle glare without retaliation",
+              "idea": [
+                "Another driver’s glare is a hazard to manage."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Answering glare with more glare."
+              ],
+              "steps": [
+                {
+                  "text": "An approaching vehicle leaves high beams on."
+                },
+                {
+                  "text": "Avoid staring into the light; keep observing the right road edge."
+                },
+                {
+                  "text": "Retaliatory high beams would expose both drivers to more glare."
+                }
+              ],
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "louisianadriving_night_01",
+              "q": "Louisiana: what does outdriving the headlights mean?",
+              "c": [
+                "Needing more stopping distance than the lit road provides",
+                "Using clean glass",
+                "Driving only after sunrise",
+                "Using a navigation screen"
+              ],
+              "why": "Keep stopping distance within the usable view.",
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_night_02",
+              "q": "Louisiana: an oncoming driver leaves high beams on. What should you avoid?",
+              "c": [
+                "Retaliating by dazzling that driver",
+                "Avoiding a direct stare",
+                "Watching the road edge",
+                "Maintaining vehicle control"
+              ],
+              "why": "Mutual glare increases danger.",
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_night_03",
+              "q": "Louisiana: why clean the windshield for night travel?",
+              "c": [
+                "Dirt can worsen the view and glare",
+                "Clean glass removes the need for lights",
+                "Clean glass permits any speed",
+                "It changes the traffic signals"
+              ],
+              "why": "Glass condition affects useful vision.",
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "louisianadriving_night_04",
+              "q": "Louisiana: sunglasses at night are a poor choice because they do what?",
+              "c": [
+                "Reduce available vision",
+                "Eliminate every glare source",
+                "Extend headlight range",
+                "Replace corrective lenses"
+              ],
+              "why": "Tinted lenses reduce the light reaching the eyes.",
+              "objectives": [
+                "LA / Night visibility"
+              ],
+              "refs": [
+                {
+                  "source": "lamanual",
+                  "section": "Chapter 7: At Night, printed p. 107"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mainedriving",
+      "code": "Maine Driving Prep",
+      "name": "Maine selected driving foundations",
+      "version": "Online manual checked November 12, 2026; revision date unconfirmed; selected Section 3 guidance",
+      "status": "partial",
+      "jurisdiction": "US-ME",
+      "checked": "2026-11-12",
+      "notice": "Maine only. Selected original practice, not official exam questions or complete permit preparation. Read the full current official manual and verify licensing requirements. Source editions and coverage gaps are listed in Sources & coverage.",
+      "gaps": [
+        "All handbook subjects outside the selected topics",
+        "Current permit eligibility, documents, education and graduated-license restrictions",
+        "Post-edition law changes and independent content review",
+        "Full test blueprint, broader scenario practice and supervised driving"
+      ],
+      "objectives": [
+        "ME / Fatigue",
+        "ME / Distractions"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 8,
+        "minutes": 8
+      },
+      "topics": [
+        {
+          "id": "mainedriving_fatigue",
+          "name": "Maine fatigue recognition",
+          "objectives": [
+            "ME / Fatigue"
+          ],
+          "refs": [
+            {
+              "source": "memanual",
+              "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+            }
+          ],
+          "notes": [
+            "Fatigue can slow judgment and reactions.",
+            "Repeated yawning, lane drift or missing memories of recent travel require a safe stop and rest."
+          ],
+          "gloss": [
+            [
+              "Fatigue",
+              "Physical or mental tiredness"
+            ],
+            [
+              "Microsleep",
+              "Brief unintended sleep"
+            ],
+            [
+              "Lane drift",
+              "Unintended movement out of the lane"
+            ],
+            [
+              "Reaction",
+              "Response to an observed change or hazard"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Decide before departure",
+              "idea": [
+                "Rest is part of preparation."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Assuming motivation prevents sleep."
+              ],
+              "steps": [
+                {
+                  "text": "You slept poorly before a long trip."
+                },
+                {
+                  "text": "Delay the drive or arrange a rested driver."
+                },
+                {
+                  "text": "Arrange rest before the trip becomes an urgent roadside problem."
+                }
+              ],
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ]
+            },
+            {
+              "t": "Act on a warning",
+              "idea": [
+                "Early drowsiness is a reason to stop safely."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Trying louder music instead of rest."
+              ],
+              "steps": [
+                {
+                  "text": "You drift in the lane and cannot recall recent miles."
+                },
+                {
+                  "text": "Find a safe place off the road to rest."
+                },
+                {
+                  "text": "Treat a warning as a decision point rather than testing endurance."
+                }
+              ],
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "mainedriving_fatigue_01",
+              "q": "Maine: lane drift and forgotten recent miles suggest what?",
+              "c": [
+                "Drowsiness needing a safe stop and rest",
+                "Proof of improved concentration",
+                "A reason to accelerate",
+                "A need for louder music only"
+              ],
+              "why": "These are fatigue warning signs.",
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_fatigue_02",
+              "q": "Maine: fatigue can affect which driving function?",
+              "c": [
+                "Judgment and reaction speed",
+                "Only radio reception",
+                "Only fuel range",
+                "Only passenger comfort"
+              ],
+              "why": "Mental and physical tiredness affect decisions.",
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_fatigue_03",
+              "q": "Maine: what is the stronger preparation for a drive?",
+              "c": [
+                "Adequate rest",
+                "A louder playlist",
+                "An open window alone",
+                "A promise to stay awake"
+              ],
+              "why": "Rest addresses the underlying fatigue.",
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_fatigue_04",
+              "q": "Maine: can determination alone reliably prevent falling asleep?",
+              "c": [
+                "No; stop safely and rest when drowsy",
+                "Yes if the trip is important",
+                "Yes on familiar roads",
+                "Yes with passengers watching"
+              ],
+              "why": "Sleep cannot be reliably controlled by willpower.",
+              "objectives": [
+                "ME / Fatigue"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Fatigue; The Danger Signs of Drowsiness"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "mainedriving_attention",
+          "name": "Maine distraction prevention",
+          "objectives": [
+            "ME / Distractions"
+          ],
+          "refs": [
+            {
+              "source": "memanual",
+              "section": "Section 3: Driver Distractions"
+            }
+          ],
+          "notes": [
+            "Set navigation and secure loose items before moving.",
+            "A distraction may involve eyes, hands or attention."
+          ],
+          "gloss": [
+            [
+              "Distraction",
+              "Something taking attention from driving"
+            ],
+            [
+              "Preparation",
+              "Completing non-driving tasks before departure"
+            ],
+            [
+              "Mental attention",
+              "Concentration on the driving task"
+            ],
+            [
+              "Loose item",
+              "Unsecured object that can divert attention"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Prepare while parked",
+              "idea": [
+                "Setup should precede movement."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Typing the address while rolling."
+              ],
+              "steps": [
+                {
+                  "text": "A navigation route needs entry."
+                },
+                {
+                  "text": "Finish the setup before leaving."
+                },
+                {
+                  "text": "A saved route removes one task from the moving vehicle."
+                }
+              ],
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ]
+            },
+            {
+              "t": "Protect attention",
+              "idea": [
+                "Looking forward does not guarantee attention."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Assuming distraction only means a phone."
+              ],
+              "steps": [
+                {
+                  "text": "A passenger starts a heated argument."
+                },
+                {
+                  "text": "Keep the driving task primary and postpone the dispute."
+                },
+                {
+                  "text": "Attention can be diverted even while the eyes face the road."
+                }
+              ],
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "mainedriving_attention_01",
+              "q": "Maine: when should navigation setup be completed?",
+              "c": [
+                "Before driving",
+                "While merging",
+                "During a turn",
+                "Only after entering heavy traffic"
+              ],
+              "why": "Preparation reduces divided attention.",
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_attention_02",
+              "q": "Maine: which can distract even with eyes facing forward?",
+              "c": [
+                "A heated passenger argument",
+                "A correctly adjusted mirror",
+                "A secured bag",
+                "A route set before departure"
+              ],
+              "why": "Mental attention also matters.",
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_attention_03",
+              "q": "Maine: a loose pet can create what problem?",
+              "c": [
+                "A competing demand on attention and control",
+                "A substitute for a seat belt",
+                "Better hazard detection guaranteed",
+                "An automatic right of way"
+              ],
+              "why": "Secure pets before travel.",
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "mainedriving_attention_04",
+              "q": "Maine: which definition best captures distraction?",
+              "c": [
+                "Anything drawing mind or body away from driving",
+                "Only texting",
+                "Only closing the eyes",
+                "Only using both hands on a device"
+              ],
+              "why": "Distraction has several forms.",
+              "objectives": [
+                "ME / Distractions"
+              ],
+              "refs": [
+                {
+                  "source": "memanual",
+                  "section": "Section 3: Driver Distractions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marylanddriving",
+      "code": "Maryland Driving Prep",
+      "name": "Maryland selected driving foundations",
+      "version": "DL-002 (10-26); selected sections reviewed through official PDF web reader",
+      "status": "partial",
+      "jurisdiction": "US-MD",
+      "checked": "2026-11-12",
+      "notice": "Maryland only. Selected original practice, not official exam questions or complete permit preparation. Read the full current official manual and verify licensing requirements. Source editions and coverage gaps are listed in Sources & coverage.",
+      "gaps": [
+        "All handbook subjects outside the selected topics",
+        "Current permit eligibility, documents, education and graduated-license restrictions",
+        "Post-edition law changes and independent content review",
+        "Full test blueprint, broader scenario practice and supervised driving"
+      ],
+      "objectives": [
+        "MD / Railroad crossings",
+        "MD / Work zones"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 8,
+        "minutes": 8
+      },
+      "topics": [
+        {
+          "id": "marylanddriving_rail",
+          "name": "Maryland rail-crossing decisions",
+          "objectives": [
+            "MD / Railroad crossings"
+          ],
+          "refs": [
+            {
+              "source": "mdmanual",
+              "section": "Section 5.G: Highway-Railroad Crossings"
+            }
+          ],
+          "notes": [
+            "Wait while gates are down or warning lights flash.",
+            "Look for another train and reserve room beyond the tracks."
+          ],
+          "gloss": [
+            [
+              "Crossing warning",
+              "Device warning of a train conflict"
+            ],
+            [
+              "Exit room",
+              "Space for the whole vehicle beyond rails"
+            ],
+            [
+              "Gate",
+              "Barrier closing the crossing approach"
+            ],
+            [
+              "Multiple tracks",
+              "Rail paths that may carry separate trains"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Wait for the crossing to reopen",
+              "idea": [
+                "One changing warning does not cancel the others."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Starting while warning lights remain active."
+              ],
+              "steps": [
+                {
+                  "text": "A gate rises but lights still flash."
+                },
+                {
+                  "text": "Remain stopped until the warnings permit crossing."
+                },
+                {
+                  "text": "Both the gate and the warning lights need to permit movement."
+                }
+              ],
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ]
+            },
+            {
+              "t": "Check the whole route",
+              "idea": [
+                "Entry is safe only when the exit is available."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Stopping on rails behind a queue."
+              ],
+              "steps": [
+                {
+                  "text": "Traffic has stopped beyond the tracks."
+                },
+                {
+                  "text": "Wait for room to clear the whole crossing."
+                },
+                {
+                  "text": "A clear track without exit room still does not support entry."
+                }
+              ],
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "marylanddriving_rail_01",
+              "q": "Maryland: the gate rises but red lights still flash. What should you do?",
+              "c": [
+                "Continue waiting",
+                "Drive because the gate moved",
+                "Follow a vehicle around the gate",
+                "Stop on the first track"
+              ],
+              "why": "The lights must stop flashing as well.",
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_rail_02",
+              "q": "Maryland: one train has passed. What still matters?",
+              "c": [
+                "Check both directions for another train",
+                "Assume every track is clear",
+                "Watch only the car behind",
+                "Ignore the warning lights"
+              ],
+              "why": "Multiple tracks can carry separate trains.",
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_rail_03",
+              "q": "Maryland: a queue blocks the far side of a crossing. Your decision?",
+              "c": [
+                "Wait before the rails",
+                "Stop halfway across",
+                "Rely on a horn to clear traffic",
+                "Drive onto the tracks to reserve space"
+              ],
+              "why": "The whole vehicle needs exit space.",
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_rail_04",
+              "q": "Maryland: why anticipate a bus stopping before tracks?",
+              "c": [
+                "Some vehicles must stop at crossings",
+                "Buses never use rail crossings",
+                "A bus always has a breakdown there",
+                "The bus is inviting a pass"
+              ],
+              "why": "Account for vehicles required to stop.",
+              "objectives": [
+                "MD / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.G: Highway-Railroad Crossings"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "marylanddriving_work",
+          "name": "Maryland work-zone observation",
+          "objectives": [
+            "MD / Work zones"
+          ],
+          "refs": [
+            {
+              "source": "mdmanual",
+              "section": "Section 5.H: Work Zone Safety"
+            }
+          ],
+          "notes": [
+            "Watch temporary controls, changing lanes and workers.",
+            "Follow posted speeds and flaggers; leave room and reduce distractions."
+          ],
+          "gloss": [
+            [
+              "Temporary control",
+              "Device guiding traffic during roadwork"
+            ],
+            [
+              "Lane shift",
+              "A changed travel path through a work area"
+            ],
+            [
+              "Flagger",
+              "Person directing traffic at roadwork"
+            ],
+            [
+              "Following space",
+              "Room to respond to slowing vehicles ahead"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the current pattern",
+              "idea": [
+                "Construction can change a familiar route."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Following yesterday’s path automatically."
+              ],
+              "steps": [
+                {
+                  "text": "Cones shift traffic from yesterday’s lane."
+                },
+                {
+                  "text": "Follow the current controls and watch the pavement."
+                },
+                {
+                  "text": "Look for a new lane shift each time through the project."
+                }
+              ],
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ]
+            },
+            {
+              "t": "Prepare for unexpected stops",
+              "idea": [
+                "Work traffic and equipment may move unpredictably."
+              ],
+              "recipe": [
+                "Observe the situation.",
+                "Apply the cited principle.",
+                "Recheck before moving."
+              ],
+              "oops": [
+                "Tailgating to prevent a merge."
+              ],
+              "steps": [
+                {
+                  "text": "A construction vehicle merges ahead."
+                },
+                {
+                  "text": "Leave space and be ready for traffic to stop."
+                },
+                {
+                  "text": "A larger gap gives more opportunity to respond without abrupt action."
+                }
+              ],
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "marylanddriving_work_01",
+              "q": "Maryland: cones change the lane on your usual route. What guides you?",
+              "c": [
+                "The current temporary controls",
+                "Yesterday’s traffic pattern",
+                "The navigation screen alone",
+                "A guess based on old markings"
+              ],
+              "why": "Work-zone layouts can change.",
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_work_02",
+              "q": "Maryland: why increase attention around roadwork?",
+              "c": [
+                "Lane shifts and equipment can create unexpected conflicts",
+                "Orange signs guarantee an empty road",
+                "Workers always remain behind barriers",
+                "Only stationary projects count"
+              ],
+              "why": "Work zones can be mobile or stationary.",
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_work_03",
+              "q": "Maryland: a flagger directs traffic at a work site. What should you do?",
+              "c": [
+                "Obey the flagger’s directions",
+                "Ignore the flagger if in a hurry",
+                "Assume another driver will interpret them",
+                "Pass the queue on the shoulder"
+              ],
+              "why": "Flaggers are part of temporary traffic control.",
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "marylanddriving_work_04",
+              "q": "Maryland: what behavior preserves a margin for sudden slowing?",
+              "c": [
+                "Leaving room and minimizing distractions",
+                "Tailgating",
+                "Changing lanes repeatedly without need",
+                "Reading messages in the queue"
+              ],
+              "why": "Space and attention support timely response.",
+              "objectives": [
+                "MD / Work zones"
+              ],
+              "refs": [
+                {
+                  "source": "mdmanual",
+                  "section": "Section 5.H: Work Zone Safety"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
     }
   ],
   "drivingJurisdictions": [
@@ -30316,25 +32044,25 @@ window.STUDYGOAT_CATALOG = {
     {
       "code": "US-KY",
       "name": "Kentucky",
-      "track": null,
+      "track": "kentuckydriving",
       "foundation": "drivingfoundations"
     },
     {
       "code": "US-LA",
       "name": "Louisiana",
-      "track": null,
+      "track": "louisianadriving",
       "foundation": "drivingfoundations"
     },
     {
       "code": "US-ME",
       "name": "Maine",
-      "track": null,
+      "track": "mainedriving",
       "foundation": "drivingfoundations"
     },
     {
       "code": "US-MD",
       "name": "Maryland",
-      "track": null,
+      "track": "marylanddriving",
       "foundation": "drivingfoundations"
     },
     {

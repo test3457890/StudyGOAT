@@ -1,7 +1,7 @@
 # Certifications and professional learning
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 original questions, excluding the university classes. All sourced tracks remain partial. 19 states have partial state-specific courses; 31 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -30,6 +30,10 @@ Catalog updated 2026-11-12. 25 sourced tracks contain 167 lessons and 700 origin
 | Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
 | Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
 | Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
+| Kentucky Driving Prep | 4 | 8 | Selected Kentucky railroad crossings and roundabouts |
+| Louisiana Driving Prep | 4 | 8 | Louisiana fog, rain and nighttime observation |
+| Maine Driving Prep | 4 | 8 | Maine fatigue and distraction safety guidance |
+| Maryland Driving Prep | 4 | 8 | Selected Maryland railroad and work-zone decisions |
 <!-- STUDYGOAT TABLE END -->
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
