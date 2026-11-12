@@ -1,23 +1,28 @@
 # Coverage checklist
 
-Updated November 10, 2026. Every sourced program is partial. Counts and a chapter being present do not establish complete learning-objective coverage or readiness.
+<!-- STUDYGOAT TABLE START -->
+Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
-| FAA Part 107 | 19 | 82 | Selected regulations, Remote ID and METAR/TAF interpretation |
+| FAA Part 107 | 19 | 82 | Selected drone regulations, Remote ID, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Rules, Ohm’s law and radio-wave foundations; no full official pool |
+| Amateur Radio Technician | 8 | 36 | Selected rules, electronics and radio foundations; no full official pool |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
-| New York Driving Prep | 4 | 16 | Selected New York signals, NYC exception and intersection conflicts |
-| Texas Driving Prep | 4 | 16 | Selected Texas signal decisions and school-bus roadway exceptions |
-| Florida Driving Prep | 4 | 16 | Selected Florida signal decisions and school-bus median exceptions |
-| National Driving Foundations | 4 | 16 | Shared safety lessons accessible through all 50 states and DC; not state-specific permit prep |
-
-Current sourced-content total: 12 tracks, 115 lessons and 492 original questions. The national driving course is one shared bank, counted once. Arizona, New Jersey, California, New York, Texas and Florida have partial state-specific courses; the other 44 states and DC still need their own manual-based lessons and questions. No program is complete.
+| New York Driving Prep | 4 | 16 | Selected New York signals and intersection conflicts |
+| Driving Safety Foundations | 4 | 16 | Shared national safety principles; not state-specific permit prep |
+| Texas Driving Prep | 4 | 16 | Selected Texas signals and school-bus roadway exceptions |
+| Florida Driving Prep | 4 | 16 | Selected Florida signals and school-bus median exceptions |
+| Alabama Driving Prep | 4 | 16 | Selected Alabama roundabouts and right-of-way conflicts |
+| Alaska Driving Prep | 4 | 16 | Selected Alaska uncontrolled intersections and lighting |
+| Arkansas Driving Prep | 4 | 16 | Selected Arkansas signals and railroad-crossing decisions |
+| Colorado Driving Prep | 4 | 16 | Colorado DMV mountain and winter safety guidance |
+| Connecticut Driving Prep | 4 | 16 | Selected Connecticut markings and lane-change observation |
+<!-- STUDYGOAT TABLE END -->
 
 ## Learn to Lead chapter inventory
 
@@ -46,7 +51,7 @@ CAP totals: 38 lessons and 156 original questions. Remaining work includes full 
 
 ## Driving coverage
 
-Four states have selected courses: Arizona, New Jersey, California, New York, Texas and Florida. The other 44 states and DC remain planned, without questions. Every new state needs its own current manual review and content. Territories are outside the initial directory. New York City red-light restrictions are explicitly distinguished from the rest of New York; no state uses another state's bank.
+See the generated state-by-state inventory below for actual availability. Every state-specific course uses its own cited sources. Shared national material is explicitly labeled and does not establish state-law or permit-test coverage. Territories are outside the initial directory. New York City red-light restrictions remain distinguished from the rest of New York.
 
 ## Remaining work by program
 
@@ -139,24 +144,23 @@ November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
 
 
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. At that stage, totals were 103 lessons and 444 questions, before the shared national driving course was added.
+November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open.
 
 
-## National driving foundations for every state
+## State-by-state inventory
 
-All 50 states and DC now offer access to the shared national safety course: four lessons and 16 original questions on attention/distraction, speed, and seat-belt safety. This is one shared course, not 51 different state question banks. NHTSA sources support safety principles; they do not verify state laws or permit-test requirements. Overall sourced totals are now 115 lessons and 492 questions across 12 tracks, excluding the separate university content.
+All 50 states and DC can open the same shared national safety course. An entry with a state-specific partial course contains additional material from that jurisdiction's cited sources. Neither label means full permit-test coverage.
 
-Arizona, New Jersey, California, New York, Texas and Florida retain their state-specific partial courses. The other states and DC still need their own manual reviews, laws, eligibility rules, lessons and questions. The directory labels these entries “national foundations only” and links to USAGov motor-vehicle services. No complete state course or readiness claim is made.
-
+<!-- STUDYGOAT DIRECTORY START -->
 | Jurisdiction | Available material |
 | --- | --- |
-| Alabama | National foundations only; state-specific course pending |
-| Alaska | National foundations only; state-specific course pending |
+| Alabama | National foundations and state-specific partial course |
+| Alaska | National foundations and state-specific partial course |
 | Arizona | National foundations and state-specific partial course |
-| Arkansas | National foundations only; state-specific course pending |
+| Arkansas | National foundations and state-specific partial course |
 | California | National foundations and state-specific partial course |
-| Colorado | National foundations only; state-specific course pending |
-| Connecticut | National foundations only; state-specific course pending |
+| Colorado | National foundations and state-specific partial course |
+| Connecticut | National foundations and state-specific partial course |
 | Delaware | National foundations only; state-specific course pending |
 | Florida | National foundations and state-specific partial course |
 | Georgia | National foundations only; state-specific course pending |
@@ -201,8 +205,7 @@ Arizona, New Jersey, California, New York, Texas and Florida retain their state-
 | Wisconsin | National foundations only; state-specific course pending |
 | Wyoming | National foundations only; state-specific course pending |
 | District of Columbia | National foundations only; state-specific course pending |
-
-November 10 Texas and Florida batch: each adds four lessons and 16 original questions on selected signal and school-bus rules, checked against official state statutes. Six states now have partial state-specific study. Full manual review, licensing requirements, remaining topics and complete exam coverage are still pending. The shared national foundation remains one course counted once.
+<!-- STUDYGOAT DIRECTORY END -->
 
 ## Texas and Florida source and coverage limits
 
@@ -211,3 +214,12 @@ Texas: [Transportation Code chapter 544](https://tcss.legis.texas.gov/resources/
 Florida: published [2026 section 316.075](https://www.flsenate.gov/Laws/Statutes/2026/316.075), [316.076](https://flsenate.gov/Laws/Statutes/2026/0316.076) and [316.172](https://www.flsenate.gov/Laws/Statutes/2026/316.172) support the selected signal and school-bus lessons. The five-foot threshold applies to the unpaved-space alternative, not to every raised median or physical barrier. Ordinary flashing-signal practice explicitly excludes railroad crossings. The [FLHSMV handbook PDF](https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf) returned 403; search-indexed text shows an August 2023 revision. Current handbook edition verification remains open.
 
 Both tracks exclude permit ages, required documents, training-hour totals, penalties, official exam items and practical driving instruction. These must be researched separately before broader coverage is claimed.
+
+
+## November 12 five-state coverage limits
+
+Alabama adds roundabouts and right-of-way conflicts from the ALEA November 2024 manual, printed pp. 57-58 and 62-63. Alaska adds uncontrolled intersections and lighting from the October 2025 DMV manual, printed p. 33 and pp. 54-55. Arkansas adds ordinary signals/arrows and railroad-crossing decisions from the October 2026 guide, printed pp. 23-25 and 28-29. Connecticut adds lane-change observation and markings from the March 2023 manual, printed p. 23 and pp. 43-44. Source editions and selected sections were checked November 12; this is not a review of all laws updated since those editions.
+
+Colorado adds mountain and winter safety lessons from the DMV [Mountain Driving](https://dmv.colorado.gov/mountain-driving) and [Driving in Ice, Snow](https://dmv.colorado.gov/driving-in-ice-snow) pages. The linked January 2025 handbook returned 403. Braking-system-specific skid instructions and the current traction-equipment compliance rules are not included because they need further reconciliation.
+
+Each of these five additions contains four lessons and 16 original questions. All still need remaining handbook subjects, current licensing requirements, broader scenarios and independent content review. All referenced PDFs remain on their official agency websites; the application links sources without republishing their artwork or official question sets.

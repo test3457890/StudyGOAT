@@ -51,3 +51,22 @@ National driving foundations checked November 10, 2026: NHTSA Distracted Driving
 Texas Legislature Transportation Code 544.007(b)-(f) and 545.066(a), (b), (f); Florida Senate published 2026 Statutes 316.075(1)(a)-(c), 316.076(1)-(2), 316.172(1)-(2). Direct official URLs and review dates are registered in the catalog and linked in the coverage checklist. Original paraphrases and practice only; no official exam material or handbook artwork republished.
 
 Texas DPS form listing reports January 2026, but direct handbook download returned 503 and the web reader could not fetch the large file. Florida handbook download returned 403; indexed text identifies August 2023. Cached manuals do not establish the latest edition. The implemented rules were checked against the official statute text rather than claiming full current manual verification. No penalties, permit eligibility or training-hour requirements imported.
+
+## November 12 five-state driving review
+
+| State | Official source and edition | Implemented slice | Verification limits |
+| --- | --- | --- | --- |
+| Alabama | ALEA Driver Manual, November 2024, linked by the agency on November 12 | Printed pp. 57-58 and 62-63: roundabouts and yielding | Remaining manual and post-edition changes still need review |
+| Alaska | DMV Driver Manual, revision 10/2025, linked by the agency on November 12 | Printed p. 33 and pp. 54-55: uncontrolled intersections and lighting | Remaining manual and licensing requirements not covered |
+| Arkansas | State Police guide, Volume 1 Edition 10, October 2026; file 10282026 | Printed pp. 23-25 and 28-29: signals, arrows and railroad crossings | Agency search results also show older January and July versions; downloaded October cover verified directly |
+| Colorado | DMV Mountain Driving and Driving in Ice, Snow pages, checked November 12 | Mountain road judgment, winter visibility/spacing and working tandem plows | Linked January 2025 handbook returned 403. Conflicting skid/braking advice and changing traction-equipment requirements excluded |
+| Connecticut | DMV Driver Manual, revised March 2023, currently linked by the agency | Printed p. 23 and pp. 43-44: lane changes and pavement markings | Remaining chapters and post-edition licensing changes still need review |
+
+Official source URLs and selected section references are embedded in every new topic, lesson and question. Four manual PDFs were downloaded and selected sections read locally. No downloaded handbook, image or official sample question is republished. Colorado uses the two official safety pages rather than claiming the full manual was reviewed. Each new track remains partial and includes full-manual, licensing and independent-review gaps.
+
+Source-file fingerprints for reproducibility (review copies are not distributed):
+
+- AL: SHA-256 `4f19f3c755231a7695cd1f08aed6636dbc07b2208ac27b5f79746119dcafa252`.
+- AK: SHA-256 `779ca2b672e248b9373effcd1381726aac1979fc19c20c4d9e767476b7bb1ebd`.
+- AR: SHA-256 `1b65c17ae146d4bb5b333b0e82a53db6fe0db6e749ed5ff034983494635b1479`.
+- CT: SHA-256 `7f79ea70ac8771fa40d7df35641fdcabd4952b7175205e2245ba392853c3581c`.

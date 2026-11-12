@@ -1,13 +1,11 @@
 # Publication status
 
-The existing app is published with GitHub Pages from main at https://test3457890.github.io/StudyGOAT/StudyGOAT.html. The separate Wiki is at https://github.com/test3457890/StudyGOAT/wiki.
+Application: https://test3457890.github.io/StudyGOAT/StudyGOAT.html
 
-The November 10 release adds CAP Volume 1 lessons, New Jersey foundations and coverage navigation. Wiki source changes include CAP Cadet Study, New Jersey Driving Prep, Coverage Checklist, Roadmap, Home and sidebar. The main repository and separate Wiki have independent histories. Release verification must check both; a main-repository commit alone does not publish Wiki content.
+Separate Wiki: https://github.com/test3457890/StudyGOAT/wiki
 
-All seven sourced programs remain partial. Coverage and unavailable jurisdictions are documented explicitly. See the coverage checklist for remaining implementation work.
+<!-- STUDYGOAT SUMMARY START -->
+Catalog updated 2026-11-12. 17 sourced tracks contain 135 lessons and 572 original questions, excluding the university classes. All sourced tracks remain partial. 11 states have partial state-specific courses; 39 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed.
+<!-- STUDYGOAT SUMMARY END -->
 
-## All-chapter curriculum stage
-
-Release sources include all-16-chapter CAP lessons and chapter quizzes, California/New York partial programs, and expanded Security+, FAA weather and radio foundations. The main repository release must pass content/browser CI before merge. Separate Wiki updates must be published and compared independently; a source commit alone does not publish them. See the pull request's final validation record for actual release evidence.
-
-FAA expansion: ten lessons and 40 questions prepared; content checks pass locally. CI, live deployment and separate Wiki publication evidence will be recorded on the release PR after verification.
+The November 10 Texas/Florida release was published in PR #12, merge commit 0b473426ce19e09cc0858dcf08822830ffdab64c. The November 12 five-state batch must pass content and browser checks before merge. Its release PR records the actual CI, Pages and separately verified Wiki publication evidence. A copy under docs/wiki does not by itself publish the Wiki.

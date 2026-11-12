@@ -46,7 +46,7 @@ The HTML includes an embedded StudyGOAT build specification. Read it before chan
 - Keep the app readable, keyboard-friendly, and usable on smaller screens.
 - Test generated answers and random question logic.
 - Avoid promising that AI-generated content is always correct.
-- The repository currently does not include a complete automated test or deployment pipeline.
+- GitHub Actions runs content and browser regression checks. GitHub Pages deployment must also be verified.
 
 ## Deployment
 
@@ -66,3 +66,8 @@ Run `node courses/build.cjs`, `npm test`, then `npm run test:browser`. Content c
 Current known limits: general source dates need recurring review; new tracks are introductory; no full official-pool exam is enabled; no provider-specific WFA protocols; no controlled CAP content. Current CompTIA availability is unconfirmed. A source failure blocks dependent content, not unrelated original courses.
 
 To synchronize Wiki drafts after enabling and initializing the separate Wiki, use `node tools/sync-wiki.cjs` with authenticated Git access. The script only copies managed Markdown pages and verifies the remote commit after push. It does not create credentials or change repository settings.
+
+
+## Generated status documentation
+
+`node courses/build.cjs` also refreshes marked status tables, summaries and the state directory using `courses/status.cjs`. Edit the source catalog and keep the marked blocks generated. The catalog `updated` date is a content-release date; individual sources retain their own check dates. Counts exclude the university classes and count shared national material once. Update the short coverage descriptions in `status.cjs` when a track's scope changes. Status checks fail if the committed documentation is stale.

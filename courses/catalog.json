@@ -888,6 +888,94 @@
       "sections": [
         "316.172(1)-(2)"
       ]
+    },
+    "almanual": {
+      "publisher": "Alabama Law Enforcement Agency",
+      "title": "Alabama Driver Manual",
+      "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+      "version": "November 2024; linked by ALEA on November 12, 2026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Driving Through Roundabouts, printed pp. 57-58",
+        "Right of Way and Yielding, printed pp. 62-63"
+      ]
+    },
+    "akmanual": {
+      "publisher": "Alaska Division of Motor Vehicles",
+      "title": "Alaska Driver Manual",
+      "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+      "version": "Revision October 2025; linked by DMV on November 12, 2026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Intersections, printed p. 33",
+        "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+      ]
+    },
+    "armanual": {
+      "publisher": "Arkansas State Police",
+      "title": "Arkansas Driver License Study Guide",
+      "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10282026.pdf",
+      "version": "Volume 1, Edition 10, October 2026; file dated 10282026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25",
+        "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+      ]
+    },
+    "comountain": {
+      "publisher": "Colorado Division of Motor Vehicles",
+      "title": "Mountain Driving",
+      "url": "https://dmv.colorado.gov/mountain-driving",
+      "version": "Official safety page checked November 12, 2026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Mountain Driving"
+      ]
+    },
+    "cowinter": {
+      "publisher": "Colorado Division of Motor Vehicles",
+      "title": "Driving in Ice, Snow",
+      "url": "https://dmv.colorado.gov/driving-in-ice-snow",
+      "version": "Official safety page checked November 12, 2026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Driving in Ice, Snow; Seasonal Driving"
+      ]
+    },
+    "ctmanual": {
+      "publisher": "Connecticut Department of Motor Vehicles",
+      "title": "Connecticut Driver Manual",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+      "version": "Revised March 2023; linked by DMV on November 12, 2026",
+      "effective": "Selected official study sections checked November 12, 2026; not a complete current-law or licensing review",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "Original educational summaries, scenarios and questions. No official test questions, handbook artwork or complete manual reproduced.",
+      "status": "verified",
+      "sections": [
+        "Changing Lanes, printed p. 23",
+        "Pavement Markings, printed pp. 43-44"
+      ]
     }
   },
   "tracks": [
@@ -22173,19 +22261,3002 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alabamadriving",
+      "code": "Alabama Driving Prep",
+      "name": "Alabama selected driving foundations",
+      "version": "ALEA manual November 2024, selected sections",
+      "checked": "2026-11-12",
+      "status": "partial",
+      "jurisdiction": "US-AL",
+      "notice": "Alabama only. Selected original lessons and practice from the cited official study sources, not official exam questions or a complete permit course. Current licensing eligibility and the full knowledge-test syllabus have not been verified. Read the full current official manual and check agency updates.",
+      "gaps": [
+        "Remaining handbook subjects and complete knowledge-test coverage",
+        "Current permit eligibility, documentation, education and graduated-license requirements",
+        "Independent content review and supervised road-test preparation",
+        "Changes since the cited manual edition not addressed by these selected sections"
+      ],
+      "objectives": [
+        "AL / Roundabouts",
+        "AL / Yielding"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "alabamadriving_roundabouts",
+          "name": "Alabama roundabout decisions",
+          "objectives": [
+            "AL / Roundabouts"
+          ],
+          "refs": [
+            {
+              "source": "almanual",
+              "section": "Driving Through Roundabouts, printed pp. 57-58"
+            }
+          ],
+          "notes": [
+            "Enter to the right of the central island and circulate counterclockwise.",
+            "Yield to circulating traffic and to pedestrians and bicyclists at crossings; enter only with a safe gap.",
+            "If you miss an exit, go around again. Cars should not use the truck apron.",
+            "If an emergency vehicle approaches while you are inside, continue to your exit, then pull over."
+          ],
+          "gloss": [
+            [
+              "Circulating traffic",
+              "Vehicles already traveling around the island"
+            ],
+            [
+              "Entry gap",
+              "Space sufficient for a safe entrance"
+            ],
+            [
+              "Truck apron",
+              "Inside paved area for large-vehicle rear wheels"
+            ],
+            [
+              "Exit crossing",
+              "Pedestrian or bicycle crossing near the departure road"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Enter and exit without forcing a conflict",
+              "idea": [
+                "A roundabout entry is a yielding decision."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Entering just because a circulating driver appears to be slowing."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a car is circulating from your left while a person is crossing the entry."
+                },
+                {
+                  "text": "Slow down and yield to both conflicts; wait for a safe gap."
+                },
+                {
+                  "text": "Enter to the right of the island, keep speed low and yield at the exit crossing."
+                }
+              ],
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ]
+            },
+            {
+              "t": "Missed exits and emergency vehicles",
+              "idea": [
+                "Continue around rather than reversing or cutting across."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Backing up inside a roundabout or stopping there to let an emergency vehicle pass."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: you miss the intended exit. Continue around to reach it on the next circuit."
+                },
+                {
+                  "text": "If an emergency vehicle approaches while you are inside, continue to your exit before pulling over."
+                },
+                {
+                  "text": "Leave the truck apron for the large vehicles it is designed to accommodate."
+                }
+              ],
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "alabamadriving_roundabouts_01",
+              "q": "Alabama: a vehicle is already circulating from your left as you approach a roundabout. What is your entry decision?",
+              "c": [
+                "Yield and wait for a safe gap",
+                "Enter because arriving traffic has priority",
+                "Stop the circulating vehicle with a horn",
+                "Enter ahead of it if you plan the first exit"
+              ],
+              "why": "The roundabout section assigns priority to traffic already circulating.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_02",
+              "q": "Alabama: how do you enter and circulate around the central island?",
+              "c": [
+                "Enter to its right and travel counterclockwise",
+                "Enter to its left and travel clockwise",
+                "Choose either direction if no car is present",
+                "Use the apron to travel straight across"
+              ],
+              "why": "The manual describes one-way counterclockwise circulation.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_03",
+              "q": "Alabama: you pass your intended roundabout exit. What should you do?",
+              "c": [
+                "Continue around again to that exit",
+                "Reverse to the exit",
+                "Stop and cross the central island",
+                "Turn left across circulating traffic"
+              ],
+              "why": "The manual directs another circuit and prohibits backing up.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_04",
+              "q": "Alabama: an emergency vehicle approaches after you have entered the roundabout. What does the manual recommend?",
+              "c": [
+                "Continue to your exit, then pull over",
+                "Stop immediately in the circulating lane",
+                "Reverse back to the entry",
+                "Drive onto the truck apron and wait there"
+              ],
+              "why": "The manual distinguishes the response inside from the response before entry.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_05",
+              "q": "Alabama: what is the intended purpose of a roundabout truck apron?",
+              "c": [
+                "Room for the rear wheels of large turning vehicles",
+                "A shortcut for cars taking the first exit",
+                "A parking area for broken-down SUVs",
+                "An extra passing lane for pickup trucks"
+              ],
+              "why": "The apron accommodates large-vehicle off-tracking, not ordinary car travel.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_06",
+              "q": "Alabama: a bicyclist is crossing at your roundabout exit. What applies?",
+              "c": [
+                "Yield to the bicyclist before exiting",
+                "Exit first because circulating vehicles always outrank crossings",
+                "Yield only at the entry, never the exit",
+                "Honk to transfer priority to your vehicle"
+              ],
+              "why": "The manual includes yielding to pedestrians and bicycles while exiting.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_07",
+              "q": "Alabama: should you normally stop inside a roundabout when your exit is still ahead?",
+              "c": [
+                "No; keep moving unless stopping is necessary to avoid danger",
+                "Yes; stop at every entry you pass",
+                "Yes; wait inside until no other vehicles remain",
+                "No; stopping is forbidden even to avoid a collision"
+              ],
+              "why": "Avoid unnecessary stops, while retaining the need to stop to avoid danger.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_roundabouts_08",
+              "q": "Alabama: while approaching a roundabout, which combination is appropriate?",
+              "c": [
+                "Slow down, obey signs and check entry conflicts",
+                "Maintain the approach-road speed and select a gap later",
+                "Yield only to vehicles larger than yours",
+                "Accelerate to discourage traffic from entering"
+              ],
+              "why": "The entry sequence begins with reducing speed and observing signs and conflicts.",
+              "objectives": [
+                "AL / Roundabouts"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Driving Through Roundabouts, printed pp. 57-58"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "alabamadriving_yield",
+          "name": "Alabama right-of-way conflicts",
+          "objectives": [
+            "AL / Yielding"
+          ],
+          "refs": [
+            {
+              "source": "almanual",
+              "section": "Right of Way and Yielding, printed pp. 62-63"
+            }
+          ],
+          "notes": [
+            "At simultaneous uncontrolled entries from different roads, the driver on the left yields to the driver on the right.",
+            "A left turn yields to an oncoming vehicle in the intersection or close enough to be an immediate hazard.",
+            "Stop and yield before entering a public road from a private road or driveway.",
+            "For an approaching emergency vehicle using warning lights and siren, clear an intersection before pulling aside and stopping."
+          ],
+          "gloss": [
+            [
+              "Uncontrolled intersection",
+              "Intersection without controlling signs or signals"
+            ],
+            [
+              "Immediate hazard",
+              "Traffic too close for the planned movement to be safe"
+            ],
+            [
+              "Private driveway",
+              "Access that yields when joining a public road"
+            ],
+            [
+              "Yield",
+              "Allow the conflicting road user to proceed"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Arrival time and movement both matter",
+              "idea": [
+                "The right-side rule does not replace every other yielding duty."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Using the simultaneous-entry rule to justify an unsafe left turn."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: two vehicles enter an uncontrolled intersection from different roads at about the same time."
+                },
+                {
+                  "text": "The driver on the left yields to the driver on the right."
+                },
+                {
+                  "text": "In a separate left-turn scenario, yield to conflicting oncoming traffic that is in or too close to the intersection."
+                }
+              ],
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ]
+            },
+            {
+              "t": "Enter from a driveway and respond to emergency traffic",
+              "idea": [
+                "Your access road and position affect the action."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Stopping inside an intersection and obstructing the emergency route."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: you are leaving a private driveway for a public street. Stop and yield to public-road traffic."
+                },
+                {
+                  "text": "If an emergency vehicle approaches with lights and siren while you are in an intersection, clear the intersection first."
+                },
+                {
+                  "text": "Then pull to the side and stop; wait until the emergency vehicle has passed."
+                }
+              ],
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "alabamadriving_yield_01",
+              "q": "Alabama: two vehicles enter an uncontrolled intersection from different roads at about the same time. You are to the left. What applies?",
+              "c": [
+                "Yield to the vehicle on your right",
+                "Proceed because your road looks wider",
+                "Proceed because uncontrolled means no yielding rule",
+                "Yield only if the other vehicle is a truck"
+              ],
+              "why": "The manual gives the simultaneous-entry rule in its right-of-way section.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_02",
+              "q": "Alabama: an oncoming vehicle is close enough to be an immediate hazard as you prepare to turn left. What applies?",
+              "c": [
+                "Wait and yield before turning",
+                "Turn first if you have signaled",
+                "Turn first if your car is partly over the centerline",
+                "Require the oncoming driver to stop"
+              ],
+              "why": "A left turn must yield to the described opposing conflict.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_03",
+              "q": "Alabama: you leave a private driveway to enter a public road. Which action fits the manual?",
+              "c": [
+                "Stop and yield to public-road traffic",
+                "Merge without stopping if your driveway is paved",
+                "Yield only to vehicles coming from the right",
+                "Signal and rely on public-road drivers to make space"
+              ],
+              "why": "The manual requires stopping and yielding from private access.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_04",
+              "q": "Alabama: an emergency vehicle uses flashing warning lights and a siren while you are inside an intersection. What is the appropriate sequence?",
+              "c": [
+                "Clear the intersection, then pull aside and stop",
+                "Stop in the intersection immediately",
+                "Continue at your original speed until your destination",
+                "Make an abrupt U-turn in the intersection"
+              ],
+              "why": "The right-of-way section directs clearing the intersection before stopping.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_05",
+              "q": "Alabama: a green arrow permits your turn, but another vehicle is lawfully using the intersection. What remains necessary?",
+              "c": [
+                "Yield to that lawful traffic",
+                "Proceed because the arrow removes every yielding duty",
+                "Sound the horn and continue",
+                "Yield only if the other vehicle also has an arrow"
+              ],
+              "why": "The manual preserves yielding duties for traffic lawfully in the intersection.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_06",
+              "q": "Alabama: at a yield sign, pedestrians are legally crossing the road you intend to enter. What applies?",
+              "c": [
+                "Slow down and stop if needed to yield",
+                "Proceed as long as you do not accelerate",
+                "Treat the sign as applying only to motor vehicles",
+                "Wait only if a pedestrian signals to you"
+              ],
+              "why": "A yield-controlled entry includes legally crossing pedestrians.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_07",
+              "q": "Alabama: your vehicle enters an uncontrolled intersection at an unlawful speed. What does the manual say about a right-of-way you otherwise might have had?",
+              "c": [
+                "You lose that right-of-way",
+                "Speed has no effect on that rule",
+                "You gain priority because stopping is harder",
+                "Only vehicles on your left must accommodate you"
+              ],
+              "why": "The manual expressly says unlawful entry speed forfeits that right-of-way.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alabamadriving_yield_08",
+              "q": "Alabama: after pulling aside and stopping for an approaching emergency vehicle with lights and siren, when should you proceed?",
+              "c": [
+                "After the emergency vehicle has passed and the way is safe",
+                "As soon as the siren seems quieter",
+                "When another waiting driver starts to move",
+                "After a fixed five-second pause"
+              ],
+              "why": "The manual says not to proceed until the emergency vehicle has passed.",
+              "objectives": [
+                "AL / Yielding"
+              ],
+              "refs": [
+                {
+                  "source": "almanual",
+                  "section": "Right of Way and Yielding, printed pp. 62-63"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alaskadriving",
+      "code": "Alaska Driving Prep",
+      "name": "Alaska selected driving foundations",
+      "version": "Alaska manual revision October 2025, selected sections",
+      "checked": "2026-11-12",
+      "status": "partial",
+      "jurisdiction": "US-AK",
+      "notice": "Alaska only. Selected original lessons and practice from the cited official study sources, not official exam questions or a complete permit course. Current licensing eligibility and the full knowledge-test syllabus have not been verified. Read the full current official manual and check agency updates.",
+      "gaps": [
+        "Remaining handbook subjects and complete knowledge-test coverage",
+        "Current permit eligibility, documentation, education and graduated-license requirements",
+        "Independent content review and supervised road-test preparation",
+        "Changes since the cited manual edition not addressed by these selected sections"
+      ],
+      "objectives": [
+        "AK / Intersections",
+        "AK / Lighting"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "alaskadriving_intersections",
+          "name": "Alaska uncontrolled intersections",
+          "objectives": [
+            "AK / Intersections"
+          ],
+          "refs": [
+            {
+              "source": "akmanual",
+              "section": "Intersections, printed p. 33"
+            }
+          ],
+          "notes": [
+            "Reduce speed and keep the vehicle under control at an uncontrolled intersection.",
+            "If two approaching vehicles would conflict, the driver on the left yields to the driver on the right.",
+            "Approaching from the right does not excuse excessive speed or remove the need to check for vehicles already inside."
+          ],
+          "gloss": [
+            [
+              "Uncontrolled route",
+              "Road without stop signs, yield signs or traffic lights controlling the intersection"
+            ],
+            [
+              "Control",
+              "Speed and attention allowing a safe response"
+            ],
+            [
+              "Conflict",
+              "Two movements that could collide"
+            ],
+            [
+              "Occupied intersection",
+              "An intersection already containing a road user"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Being on the right is not a reason to rush",
+              "idea": [
+                "The approach-speed duty and yielding rule work together."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Assuming right-side approach guarantees that everyone else will stop."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: two vehicles approach an uncontrolled intersection at a conflicting time; you are on the right."
+                },
+                {
+                  "text": "Slow down and retain control rather than assuming the other driver will yield."
+                },
+                {
+                  "text": "Check for a vehicle already inside before deciding the route is clear."
+                }
+              ],
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ]
+            },
+            {
+              "t": "Identify the left-side yielding duty",
+              "idea": [
+                "Look at the relative positions and collision risk."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Using the size of the vehicle or width of the street as the priority rule."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: another vehicle approaches from your right at a time that would create a collision."
+                },
+                {
+                  "text": "You are the driver on the left, so yield."
+                },
+                {
+                  "text": "Proceed only after the conflict clears; keep checking the intersection and its crossing users."
+                }
+              ],
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "alaskadriving_intersections_01",
+              "q": "Alaska: two vehicles approach an uncontrolled intersection at a conflicting time, and you are on the left. What must you do?",
+              "c": [
+                "Yield to the vehicle on your right",
+                "Proceed if your street has more pavement",
+                "Proceed if your vehicle is larger",
+                "Rely on the other driver to choose a direction"
+              ],
+              "why": "The intersections section assigns the yielding duty to the driver on the left.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_02",
+              "q": "Alaska: you approach an uncontrolled intersection from the right. Does that remove your duty to slow down?",
+              "c": [
+                "No; slow down and retain control",
+                "Yes; the other driver must handle the entire conflict",
+                "Yes, if your vehicle has good brakes",
+                "Only if there are pedestrians visible"
+              ],
+              "why": "The manual explicitly retains the slowing and control duties.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_03",
+              "q": "Alaska: you are approaching from the right, but another vehicle is already within the uncontrolled intersection. What should guide your decision?",
+              "c": [
+                "Account for the vehicle already inside rather than assuming priority",
+                "Use your right-side position to enter immediately",
+                "Require that vehicle to reverse out",
+                "Enter if the other car is smaller"
+              ],
+              "why": "The manual qualifies the right-side rule when another vehicle is already within the intersection.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_04",
+              "q": "Alaska: which intersection fits this lesson on an uncontrolled route?",
+              "c": [
+                "One without controlling stop signs, yield signs or traffic lights",
+                "Every intersection where your own light is green",
+                "An intersection with a posted stop sign facing you",
+                "An intersection where an officer is actively directing traffic"
+              ],
+              "why": "The manual defines the unprotected route by the absence of those controls.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_05",
+              "q": "Alaska: why is relying entirely on the other driver to yield unsafe at an uncontrolled intersection?",
+              "c": [
+                "Right-of-way cannot be treated as a guarantee that the other driver will give way",
+                "It is always the largest vehicle that proceeds first",
+                "The driver on the left is never subject to a yielding duty",
+                "All uncontrolled intersections require a traffic officer"
+              ],
+              "why": "The manual warns the right-side driver against assuming the right-of-way will be given.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_06",
+              "q": "Alaska: as you approach a crossroad on an unprotected route, which preparation is required?",
+              "c": [
+                "Reduce to a reasonable speed and keep the vehicle under control",
+                "Accelerate so your time in the intersection is shorter",
+                "Keep a fixed highway speed regardless of conditions",
+                "Look only toward traffic on your right"
+              ],
+              "why": "The approach rule covers both speed and control.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_07",
+              "q": "Alaska: two cars would collide if both continued through an uncontrolled intersection. Which fact determines the left-side yielding duty described here?",
+              "c": [
+                "Their relative approach positions",
+                "Their paint colors",
+                "Which driver sounds a horn first",
+                "Which engine is louder"
+              ],
+              "why": "The stated yielding rule concerns the vehicle on the left and the vehicle on the right.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_intersections_08",
+              "q": "Alaska: after the vehicle on your right clears an uncontrolled intersection, what is the sensible next step?",
+              "c": [
+                "Check the remaining conflicts before proceeding",
+                "Enter without another look because the rule has been satisfied once",
+                "Assume every pedestrian has also crossed",
+                "Increase speed before checking the cross street"
+              ],
+              "why": "Yielding to one conflict does not establish that the entire intersection is clear.",
+              "objectives": [
+                "AK / Intersections"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Intersections, printed p. 33"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "alaskadriving_lighting",
+          "name": "Alaska lighting requirements and visibility",
+          "objectives": [
+            "AK / Lighting"
+          ],
+          "refs": [
+            {
+              "source": "akmanual",
+              "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+            }
+          ],
+          "notes": [
+            "The manual requires headlights from half an hour after sunset to half an hour before sunrise, and in daytime visibility of 1,000 feet or less due to listed weather or airborne conditions.",
+            "Dim at least 500 feet from an oncoming vehicle and at least 300 feet behind a vehicle traveling in the same direction.",
+            "Use low beams in rain, fog, snow or dust. Parking lights alone are not for a moving vehicle."
+          ],
+          "gloss": [
+            [
+              "Low beam",
+              "Headlight setting used to limit glare"
+            ],
+            [
+              "Oncoming",
+              "Traveling toward you from ahead"
+            ],
+            [
+              "Following distance",
+              "Gap behind a vehicle going your direction"
+            ],
+            [
+              "Visibility",
+              "Distance within which road users and hazards can be seen"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Keep the three distances separate",
+              "idea": [
+                "The daytime visibility threshold is not a dimming distance."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Swapping the oncoming and following distances."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: daytime snow limits visibility to 800 feet. Turn on the headlights."
+                },
+                {
+                  "text": "An approaching vehicle requires low beams at 500 feet or more."
+                },
+                {
+                  "text": "A vehicle you follow requires dimming at 300 feet or more."
+                }
+              ],
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ]
+            },
+            {
+              "t": "Choose lighting that helps rather than blinds",
+              "idea": [
+                "Better visibility is not simply the brightest possible lamp."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Assuming parking lamps provide the same moving-vehicle function as headlights."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: fog reduces the view ahead. Use low beams rather than high beams."
+                },
+                {
+                  "text": "Do not substitute parking lights alone while moving."
+                },
+                {
+                  "text": "Keep lights and windshield clean, and avoid staring directly at approaching headlights."
+                }
+              ],
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "alaskadriving_lighting_01",
+              "q": "Alaska: daytime snowfall reduces visibility to 800 feet. What does the manual require for lighting?",
+              "c": [
+                "Turn on headlights",
+                "Use parking lights alone",
+                "Wait until half an hour after sunset",
+                "Keep headlights off to reduce glare for others"
+              ],
+              "why": "The listed daytime visibility threshold is 1,000 feet or less.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_02",
+              "q": "Alaska: by what distance must high beams be dimmed for an oncoming vehicle under the manual?",
+              "c": [
+                "At least 500 feet away",
+                "Only when the vehicles are side by side",
+                "At least 300 feet away",
+                "Only after the other driver flashes their lights"
+              ],
+              "why": "The oncoming-vehicle dimming distance is 500 feet or more.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_03",
+              "q": "Alaska: what dimming distance does the manual give when following a vehicle traveling in your direction?",
+              "c": [
+                "At least 300 feet behind it",
+                "At least 50 feet behind it",
+                "Only once you begin passing",
+                "Only when the rear window is open"
+              ],
+              "why": "The same-direction dimming distance is 300 feet or more.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_04",
+              "q": "Alaska: which beam setting is recommended for rain, fog, snow or dust?",
+              "c": [
+                "Low beam",
+                "High beam in every case",
+                "Parking lights alone",
+                "Off-road lamps only"
+              ],
+              "why": "The manual lists low beams for those reduced-visibility conditions.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_05",
+              "q": "Alaska: which nighttime interval is stated in the manual as requiring headlights?",
+              "c": [
+                "Half an hour after sunset through half an hour before sunrise",
+                "Midnight through 4 a.m. only",
+                "Only while streetlights are off",
+                "Only during a posted winter season"
+              ],
+              "why": "This is the manual lighting-law interval; using lights earlier can also be advisable.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_06",
+              "q": "Alaska: may a moving vehicle use only its parking lights as a substitute for headlights?",
+              "c": [
+                "No",
+                "Yes, whenever traffic is slow",
+                "Yes, on all divided highways",
+                "Yes, when following another illuminated vehicle"
+              ],
+              "why": "The manual states that parking lights denote a parked vehicle, not the sole lighting for motion.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_07",
+              "q": "Alaska: what should you do when approaching headlights create glare?",
+              "c": [
+                "Avoid staring directly at them and keep monitoring your path",
+                "Fix your gaze on the brightest lamp",
+                "Wear sunglasses after dark",
+                "Turn off your own headlights"
+              ],
+              "why": "The safety section warns against looking directly into approaching headlights.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "alaskadriving_lighting_08",
+              "q": "Alaska: daylight smoke reduces visibility to exactly 1,000 feet. Does that meet the listed headlight threshold?",
+              "c": [
+                "Yes; the threshold includes 1,000 feet",
+                "No; visibility must be below 500 feet",
+                "No; smoke is never included",
+                "Only if it is also raining"
+              ],
+              "why": "The manual includes smoke and visibility of 1,000 feet or less.",
+              "objectives": [
+                "AK / Lighting"
+              ],
+              "refs": [
+                {
+                  "source": "akmanual",
+                  "section": "Night Driving and Use of Lighting Equipment, printed pp. 54-55"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arkansasdriving",
+      "code": "Arkansas Driving Prep",
+      "name": "Arkansas selected driving foundations",
+      "version": "State Police guide Edition 10, October 2026, selected sections",
+      "checked": "2026-11-12",
+      "status": "partial",
+      "jurisdiction": "US-AR",
+      "notice": "Arkansas only. Selected original lessons and practice from the cited official study sources, not official exam questions or a complete permit course. Current licensing eligibility and the full knowledge-test syllabus have not been verified. Read the full current official manual and check agency updates.",
+      "gaps": [
+        "Remaining handbook subjects and complete knowledge-test coverage",
+        "Current permit eligibility, documentation, education and graduated-license requirements",
+        "Independent content review and supervised road-test preparation",
+        "Changes since the cited manual edition not addressed by these selected sections"
+      ],
+      "objectives": [
+        "AR / Signals",
+        "AR / Railroad crossings"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "arkansasdriving_signals",
+          "name": "Arkansas ordinary signals and turn arrows",
+          "objectives": [
+            "AR / Signals"
+          ],
+          "refs": [
+            {
+              "source": "armanual",
+              "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+            }
+          ],
+          "notes": [
+            "A steady yellow warns of the change to red; stop if safe and do not start from an already stopped position on yellow.",
+            "Flashing red requires a complete stop and safe entry; flashing yellow calls for slowing and caution.",
+            "A red arrow prohibits the indicated turn. A flashing yellow arrow permits a left turn only after yielding to oncoming traffic and pedestrians.",
+            "For an otherwise permitted right on red, stop fully, check traffic and pedestrians and obey a prohibiting sign."
+          ],
+          "gloss": [
+            [
+              "Steady yellow",
+              "Warning that the green phase is ending"
+            ],
+            [
+              "Flashing red",
+              "Stop-sign-like intersection control"
+            ],
+            [
+              "Red arrow",
+              "Prohibition on the indicated movement"
+            ],
+            [
+              "Flashing yellow arrow",
+              "Conditional left-turn movement with yielding"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Do not confuse a flashing arrow with protection",
+              "idea": [
+                "An allowed turn can still require waiting."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Treating a flashing yellow arrow as a protected green arrow."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a flashing yellow arrow appears for your left turn and oncoming traffic is close."
+                },
+                {
+                  "text": "Yield to the oncoming traffic and pedestrians; wait for a safe opening."
+                },
+                {
+                  "text": "A steady red arrow instead prohibits that turn."
+                }
+              ],
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ]
+            },
+            {
+              "t": "Separate stopping from permission to enter",
+              "idea": [
+                "A stop is required before considering a red-light exception."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Starting from a stop simply because the signal changes to yellow."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a right turn on red is not prohibited. Stop completely and check both traffic and pedestrians."
+                },
+                {
+                  "text": "At a flashing red ordinary intersection signal, stop and proceed only when safe."
+                },
+                {
+                  "text": "If already stopped when steady yellow appears, do not start into the intersection."
+                }
+              ],
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "arkansasdriving_signals_01",
+              "q": "Arkansas: a flashing yellow arrow controls your left turn and oncoming traffic is approaching. What applies?",
+              "c": [
+                "Yield to oncoming traffic and pedestrians before turning",
+                "Turn immediately as a fully protected movement",
+                "Wait only for pedestrians, not vehicles",
+                "Proceed before opposing traffic can reach its stop line"
+              ],
+              "why": "The guide describes a permitted but yielding left turn.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_02",
+              "q": "Arkansas: a steady red arrow points in the direction you intend to turn. What does it mean?",
+              "c": [
+                "Do not turn in that direction",
+                "Turn after any rolling stop",
+                "Turn whenever a pedestrian is absent",
+                "Treat it as a flashing yellow arrow"
+              ],
+              "why": "The guide prohibits movement in the direction of a red arrow.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_03",
+              "q": "Arkansas: you approach an ordinary intersection displaying a flashing red signal. What is required?",
+              "c": [
+                "A full stop, then proceed only when safe",
+                "Cautious passage without stopping",
+                "Proceed if you are traveling straight",
+                "Stop only if another road has a stop sign"
+              ],
+              "why": "The guide compares flashing red to a stop sign.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_04",
+              "q": "Arkansas: an ordinary traffic signal flashes yellow. Which response fits the guide?",
+              "c": [
+                "Slow down and proceed cautiously",
+                "Treat it as a protected left-turn arrow",
+                "Stop and remain until it turns green in all cases",
+                "Maintain speed because traffic must yield to you"
+              ],
+              "why": "The guide directs reduced speed and caution.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_05",
+              "q": "Arkansas: you are already stopped at the intersection when the signal changes to steady yellow. What should you do?",
+              "c": [
+                "Remain stopped rather than starting through",
+                "Accelerate before red appears",
+                "Enter if you can clear the first crosswalk",
+                "Start moving if the driver behind honks"
+              ],
+              "why": "The guide says an already stopped driver may not proceed on yellow.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_06",
+              "q": "Arkansas: a right turn on red is otherwise allowed. What comes before making it?",
+              "c": [
+                "A complete stop and a check for conflicting traffic and pedestrians",
+                "Only a reduction to walking speed",
+                "A horn signal and immediate entry",
+                "A stop only if there are cars behind you"
+              ],
+              "why": "The right-on-red section retains the full-stop and conflict checks.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_07",
+              "q": "Arkansas: what effect does a posted prohibition have on a right turn on red?",
+              "c": [
+                "It prohibits that red-light turn",
+                "It applies only if the vehicle is a truck",
+                "It disappears after a complete stop",
+                "It permits turning after a second stop"
+              ],
+              "why": "The guide makes the right-on-red exception subject to prohibiting signs.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_signals_08",
+              "q": "Arkansas: your signal is green but opposing traffic is lawfully already in the intersection. What should you do?",
+              "c": [
+                "Allow that traffic to clear before proceeding",
+                "Drive into the space because your green just began",
+                "Require it to stop in the middle",
+                "Proceed if your vehicle is smaller"
+              ],
+              "why": "The guide requires the existing intersection conflict to clear.",
+              "objectives": [
+                "AR / Signals"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Lighted Traffic Signals, Flashing Lights, Lighted Arrows and Right on Red, printed pp. 23-25"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "arkansasdriving_rail",
+          "name": "Arkansas railroad-crossing decisions",
+          "objectives": [
+            "AR / Railroad crossings"
+          ],
+          "refs": [
+            {
+              "source": "armanual",
+              "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+            }
+          ],
+          "notes": [
+            "Cross only when there is space for the whole vehicle beyond the tracks. Never race a train or drive around a lowered gate.",
+            "Flashing red railroad lights are not an ordinary intersection flashing-red exception: do not cross while they continue.",
+            "The crossbuck marks the crossing and requires yielding to trains. The advance warning sign is round and yellow.",
+            "The Emergency Notification System sign identifies the railroad contact and the particular crossing for an emergency report."
+          ],
+          "gloss": [
+            [
+              "Crossbuck",
+              "White X-shaped railroad crossing sign"
+            ],
+            [
+              "Advance warning",
+              "Notice of a crossing ahead"
+            ],
+            [
+              "ENS sign",
+              "Railroad emergency contact and crossing identification"
+            ],
+            [
+              "Clearance",
+              "Enough room to put the entire vehicle beyond the tracks"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A green road ahead is not enough clearance",
+              "idea": [
+                "Check the far side before committing to the crossing."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Following another vehicle onto the tracks without an exit space."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: traffic beyond the crossing is backed up onto the space your car would need."
+                },
+                {
+                  "text": "Wait before the tracks until the whole vehicle will fit on the far side."
+                },
+                {
+                  "text": "Do not try to beat a train or go around a gate to avoid waiting."
+                }
+              ],
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ]
+            },
+            {
+              "t": "Railroad warnings are a separate case",
+              "idea": [
+                "A complete stop alone does not permit crossing active railroad warnings."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Treating railroad flashing red as permission to stop and then immediately drive through."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: the last visible rail car has passed, but red crossing lights are still flashing."
+                },
+                {
+                  "text": "Stay out of the crossing; a second train or active warning can remain."
+                },
+                {
+                  "text": "For an emergency report, use the crossing identity and railroad contact on the ENS sign."
+                }
+              ],
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "arkansasdriving_rail_01",
+              "q": "Arkansas: traffic beyond railroad tracks leaves insufficient room for your entire car. What should you do?",
+              "c": [
+                "Wait before entering the tracks",
+                "Enter and stop between the rails",
+                "Use the shoulder beyond the crossing to store the rear of the car",
+                "Follow the car ahead closely so you both fit"
+              ],
+              "why": "The guide says not to cross without sufficient room on the opposite side.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_02",
+              "q": "Arkansas: the railroad warning lights continue flashing red, but no train is currently visible. What applies?",
+              "c": [
+                "Do not cross while the warning remains active",
+                "Stop briefly, then use the ordinary intersection rule",
+                "Cross if you lower a window first",
+                "Cross if the gates appear fully open"
+              ],
+              "why": "The railroad section specifically says not to cross even if no train appears.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_03",
+              "q": "Arkansas: what does a crossbuck at the tracks require?",
+              "c": [
+                "Yield the right-of-way to a train",
+                "Treat the crossing as a passing zone",
+                "Stop only if the sign is yellow",
+                "Give your vehicle priority after sounding its horn"
+              ],
+              "why": "The crossbuck marks the grade crossing and the train yielding duty.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_04",
+              "q": "Arkansas: what is the purpose of the round yellow railroad advance-warning sign?",
+              "c": [
+                "Warn of tracks ahead so you can slow, observe and prepare to stop",
+                "Mark the exact place to park on the rails",
+                "Grant priority over rail traffic",
+                "Identify a road reserved for trains only"
+              ],
+              "why": "The guide distinguishes the advance warning from the crossbuck at the tracks.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_05",
+              "q": "Arkansas: can a driver go around a lowered railroad gate if the far lane appears clear?",
+              "c": [
+                "No",
+                "Yes, after a full stop",
+                "Yes, if only one track is visible",
+                "Yes, if no horn is audible"
+              ],
+              "why": "The guide prohibits going around crossing gates.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_06",
+              "q": "Arkansas: what information does a railroad Emergency Notification System sign provide?",
+              "c": [
+                "Railroad emergency contact details and a crossing identifier",
+                "Only the road speed limit",
+                "The time the next passenger train is due",
+                "A universal permission to cross when the road is empty"
+              ],
+              "why": "The ENS section describes its role in identifying and reporting a crossing emergency.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_07",
+              "q": "Arkansas: why is shifting gears on the tracks discouraged for a manual-transmission vehicle?",
+              "c": [
+                "It can increase the risk of stalling on the crossing",
+                "It automatically gives a train a stop signal",
+                "It cancels the road warning lights",
+                "It changes a crossbuck into a stop sign"
+              ],
+              "why": "The guide recommends avoiding a gear change during the crossing to reduce stall risk.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "arkansasdriving_rail_08",
+              "q": "Arkansas: a train appears far enough away that you think you can race it to the crossing. What does the guide advise?",
+              "c": [
+                "Do not try to beat the train",
+                "Accelerate if the gate has not finished lowering",
+                "Use the opposing lane for a faster crossing",
+                "Proceed if a car ahead also crosses"
+              ],
+              "why": "The railroad section explicitly rejects trying to beat an approaching train.",
+              "objectives": [
+                "AR / Railroad crossings"
+              ],
+              "refs": [
+                {
+                  "source": "armanual",
+                  "section": "Railroad Crossing Signs and Emergency Notification Systems, printed pp. 28-29"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coloradodriving",
+      "code": "Colorado Driving Prep",
+      "name": "Colorado selected driving foundations",
+      "version": "Colorado DMV mountain and winter safety pages, checked November 12, 2026",
+      "checked": "2026-11-12",
+      "status": "partial",
+      "jurisdiction": "US-CO",
+      "notice": "Colorado only. Selected original lessons and practice from the cited official study sources, not official exam questions or a complete permit course. Current licensing eligibility and the full knowledge-test syllabus have not been verified. Read the full current official manual and check agency updates.",
+      "gaps": [
+        "Remaining handbook subjects and complete knowledge-test coverage",
+        "Current permit eligibility, documentation, education and graduated-license requirements",
+        "Independent content review and supervised road-test preparation",
+        "Full handbook retrieval; current traction-equipment law and braking-system-specific emergency guidance"
+      ],
+      "objectives": [
+        "CO / Mountain driving",
+        "CO / Winter driving"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "coloradodriving_mountain",
+          "name": "Colorado mountain-road planning",
+          "objectives": [
+            "CO / Mountain driving"
+          ],
+          "refs": [
+            {
+              "source": "comountain",
+              "section": "Mountain Driving"
+            }
+          ],
+          "notes": [
+            "Use lower gears to help control speed down steep grades.",
+            "Do not use an oncoming lane to pass where a hill, curve or other obstruction blocks the view of approaching traffic.",
+            "Prepare for changing weather, wildlife, bicyclists, rocks and concealed intersections.",
+            "Uphill traffic has priority over downhill traffic. A vehicle struggling uphill should use a safe turnout or the right lane to allow passing."
+          ],
+          "gloss": [
+            [
+              "Grade",
+              "Road slope"
+            ],
+            [
+              "Lower gear",
+              "Gear supporting speed control on a descent"
+            ],
+            [
+              "Sight distance",
+              "Visible road available for a decision"
+            ],
+            [
+              "Turnout",
+              "Safe place outside the travel path to allow others past"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Choose the descent before speed builds",
+              "idea": [
+                "A steep road needs an appropriate speed-control plan."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Relying on the normal level-road driving plan on a steep descent."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a long downhill mountain grade is ahead. Use a lower gear to help control speed."
+                },
+                {
+                  "text": "Continue scanning for rocks, wildlife and changes in the road."
+                },
+                {
+                  "text": "Avoid treating the posted maximum as a target independent of the conditions."
+                }
+              ],
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ]
+            },
+            {
+              "t": "Do not pass into an unseen conflict",
+              "idea": [
+                "A slow vehicle ahead does not create a visible passing gap."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Using urgency from traffic behind as permission for a blind pass."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a hill crest blocks the view of the oncoming lane. Do not use that lane to pass."
+                },
+                {
+                  "text": "If your own vehicle struggles uphill, use a safe place to pull off or remain in the right lane."
+                },
+                {
+                  "text": "For opposing traffic on a constrained mountain road, remember the uphill priority described by DMV."
+                }
+              ],
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "coloradodriving_mountain_01",
+              "q": "Colorado: what does DMV recommend to help control speed on a steep mountain descent?",
+              "c": [
+                "Shift to a lower gear",
+                "Shift to neutral and coast",
+                "Turn off the engine",
+                "Use a higher gear solely to reduce engine sound"
+              ],
+              "why": "The mountain-driving page recommends lower gears for steep downhill speed control.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_02",
+              "q": "Colorado: a hill crest blocks your view of opposing traffic. May you use the oncoming lane to pass a slow vehicle?",
+              "c": [
+                "No",
+                "Yes, if you signal twice",
+                "Yes, if the slow vehicle has hazard lights",
+                "Yes, if there is no car immediately at the crest"
+              ],
+              "why": "DMV prohibits an oncoming-lane pass when the available view is obstructed.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_03",
+              "q": "Colorado: on a mountain road, which opposing vehicle has the right-of-way in the DMV guidance?",
+              "c": [
+                "The vehicle going uphill",
+                "The vehicle going downhill in every case",
+                "The larger vehicle in every case",
+                "The vehicle that first sounds its horn"
+              ],
+              "why": "The mountain-driving page states the uphill priority.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_04",
+              "q": "Colorado: your vehicle is struggling to climb a steep roadway. What does DMV recommend to help other traffic pass?",
+              "c": [
+                "Pull off at the first safe place or remain in the right lane",
+                "Stop immediately in the travel lane",
+                "Drive partly in the oncoming lane",
+                "Require every following vehicle to remain behind for the entire climb"
+              ],
+              "why": "The guidance describes safe pull-offs or use of the right lane.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_05",
+              "q": "Colorado: which combination of hazards should you anticipate on mountain roads?",
+              "c": [
+                "Weather changes, rocks, wildlife and bicyclists",
+                "Only the hazards present at the start of the drive",
+                "Only marked intersections and parked vehicles",
+                "Only ice during nighttime hours"
+              ],
+              "why": "DMV lists multiple changing mountain-road hazards.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_06",
+              "q": "Colorado: a curve hides the oncoming lane and the driver behind you is impatient. What controls the passing decision?",
+              "c": [
+                "The obstructed view makes the oncoming-lane pass unsafe and prohibited",
+                "The following driver can authorize your pass",
+                "The slow vehicle ahead must move into oncoming traffic",
+                "A horn signal makes the curve safe to pass"
+              ],
+              "why": "The visibility restriction is not removed by pressure from another driver.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_07",
+              "q": "Colorado: trees and brush hide the next intersection on a mountain road. What should you be prepared for?",
+              "c": [
+                "Unexpected cross traffic at the concealed intersection",
+                "Automatic priority because your road is steeper",
+                "No intersection unless you see a traffic light",
+                "Permission to pass through the opposing lane"
+              ],
+              "why": "DMV warns about intersections concealed by vegetation.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_mountain_08",
+              "q": "Colorado: a useful plan for a steep descent is best described as which choice?",
+              "c": [
+                "Select appropriate gearing and keep reassessing road conditions",
+                "Select a gear once and stop scanning",
+                "Coast freely until a turn appears",
+                "Follow the vehicle ahead closely to copy its braking"
+              ],
+              "why": "Lower gearing supports control while attention to conditions remains necessary.",
+              "objectives": [
+                "CO / Mountain driving"
+              ],
+              "refs": [
+                {
+                  "source": "comountain",
+                  "section": "Mountain Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "coloradodriving_winter",
+          "name": "Colorado winter traction and snowplows",
+          "objectives": [
+            "CO / Winter driving"
+          ],
+          "refs": [
+            {
+              "source": "cowinter",
+              "section": "Driving in Ice, Snow; Seasonal Driving"
+            }
+          ],
+          "notes": [
+            "Snow and ice reduce grip and lengthen stopping. Bridges, overpasses and shaded areas can remain icy when nearby pavement is clear.",
+            "Four-wheel drive does not make a vehicle stop sooner on a slippery surface. Slow down and leave extra following space.",
+            "Clear windows completely, and leave extra room for pedestrians and bicyclists avoiding snow.",
+            "Do not pass a working city, county or state snowplow with yellow lights flashing when it is traveling in tandem with other plows."
+          ],
+          "gloss": [
+            [
+              "Traction",
+              "Tire grip on the road"
+            ],
+            [
+              "Tandem plowing",
+              "Multiple plows operating together"
+            ],
+            [
+              "Following space",
+              "Gap available to react and stop"
+            ],
+            [
+              "Shaded surface",
+              "Road section that may retain ice longer"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Do not let four-wheel drive hide stopping risk",
+              "idea": [
+                "Extra ability to move is not extra ability to stop."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Using normal dry-road following space because all wheels are driven."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: your four-wheel-drive vehicle accelerates easily on snow."
+                },
+                {
+                  "text": "Do not infer that its stopping distance is short; reduce speed and enlarge the following gap."
+                },
+                {
+                  "text": "Treat a shaded bridge as potentially icy even if the road before it appears clear."
+                }
+              ],
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ]
+            },
+            {
+              "t": "See clearly and give winter road users room",
+              "idea": [
+                "Winter safety includes visibility and working equipment."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Treating a short trip as a reason to skip clearing the windows."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: only a small patch of windshield has been scraped clear. Remove the remaining ice, snow and frost before traveling."
+                },
+                {
+                  "text": "Give pedestrians and bicyclists room to move around roadside snow."
+                },
+                {
+                  "text": "Stay behind working tandem plows displaying yellow warning lights rather than passing between them."
+                }
+              ],
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "coloradodriving_winter_01",
+              "q": "Colorado: your four-wheel-drive vehicle accelerates well on snow. What should you conclude about stopping?",
+              "c": [
+                "It does not automatically stop sooner than a conventional car",
+                "Its stopping distance is always cut in half",
+                "It can safely follow at the dry-road gap",
+                "Its tires cannot lose grip"
+              ],
+              "why": "The DMV page separates increased driving traction from stopping ability.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_02",
+              "q": "Colorado: which surface may remain icy when nearby road pavement is clear?",
+              "c": [
+                "A shaded bridge or overpass",
+                "Only pavement directly under a streetlight",
+                "Only the warmest sunlit lane",
+                "Only a road with visible falling snow"
+              ],
+              "why": "The winter page specifically identifies bridges, overpasses and shade.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_03",
+              "q": "Colorado: how should following space change on snow or ice?",
+              "c": [
+                "Increase it and reduce speed",
+                "Reduce it to keep the vehicle ahead visible",
+                "Keep the dry-road gap if you have four-wheel drive",
+                "Use the same gap but turn on high beams"
+              ],
+              "why": "Reduced grip requires more room to stop.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_04",
+              "q": "Colorado: a working state snowplow has yellow lights flashing and is traveling in tandem with another plow. May you pass it?",
+              "c": [
+                "No",
+                "Yes, if a gap briefly opens between the plows",
+                "Yes, if your car has winter tires",
+                "Yes, if you use the shoulder"
+              ],
+              "why": "DMV identifies passing in this working tandem-plow situation as illegal.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_05",
+              "q": "Colorado: before a short winter trip, only a small viewing patch has been scraped in the windshield. What is appropriate?",
+              "c": [
+                "Remove all ice, snow and frost from the windows",
+                "Drive slowly and rely only on that patch",
+                "Leave the side windows covered if the route is familiar",
+                "Use the defroster after entering heavy traffic instead"
+              ],
+              "why": "DMV says clear the windows even for a short journey.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_06",
+              "q": "Colorado: why should pedestrians and bicyclists receive additional winter clearance?",
+              "c": [
+                "They may need to maneuver around snow or ice",
+                "They always have better traction than cars",
+                "They cannot legally use a winter roadway",
+                "They must stay motionless whenever a car approaches"
+              ],
+              "why": "The winter page notes these necessary maneuvers.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_07",
+              "q": "Colorado: what happens to stopping on a slippery road compared with a road with good grip?",
+              "c": [
+                "Stopping takes longer",
+                "Stopping distance always stays the same",
+                "Four-wheel drive removes the difference",
+                "Stopping becomes shorter once snow starts melting"
+              ],
+              "why": "The page links reduced tire grip to longer stops.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "coloradodriving_winter_08",
+              "q": "Colorado: winter tires or chains are fitted. Does that guarantee the vehicle cannot slip?",
+              "c": [
+                "No; they can still slip on slick pavement",
+                "Yes; traction equipment prevents every skid",
+                "Yes, if the driver uses cruise control",
+                "Only high-speed travel can cause them to slip"
+              ],
+              "why": "The page explicitly warns that chains and snow tires can still slip.",
+              "objectives": [
+                "CO / Winter driving"
+              ],
+              "refs": [
+                {
+                  "source": "cowinter",
+                  "section": "Driving in Ice, Snow; Seasonal Driving"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connecticutdriving",
+      "code": "Connecticut Driving Prep",
+      "name": "Connecticut selected driving foundations",
+      "version": "Connecticut manual revised March 2023, selected sections",
+      "checked": "2026-11-12",
+      "status": "partial",
+      "jurisdiction": "US-CT",
+      "notice": "Connecticut only. Selected original lessons and practice from the cited official study sources, not official exam questions or a complete permit course. Current licensing eligibility and the full knowledge-test syllabus have not been verified. Read the full current official manual and check agency updates.",
+      "gaps": [
+        "Remaining handbook subjects and complete knowledge-test coverage",
+        "Current permit eligibility, documentation, education and graduated-license requirements",
+        "Independent content review and supervised road-test preparation",
+        "Changes since the cited manual edition not addressed by these selected sections"
+      ],
+      "objectives": [
+        "CT / Pavement markings",
+        "CT / Lane changes"
+      ],
+      "exam": {
+        "mode": "practice",
+        "count": 10,
+        "minutes": 10
+      },
+      "topics": [
+        {
+          "id": "connecticutdriving_markings",
+          "name": "Connecticut lane and centerline markings",
+          "objectives": [
+            "CT / Pavement markings"
+          ],
+          "refs": [
+            {
+              "source": "ctmanual",
+              "section": "Pavement Markings, printed pp. 43-44"
+            }
+          ],
+          "notes": [
+            "White lane lines separate traffic traveling in the same direction; yellow centerlines separate opposing traffic.",
+            "Dashed white permits a lane change only when safe. A solid white lane line means remain in the lane unless a special situation requires changing.",
+            "With a solid yellow alongside a dashed yellow, passing is permitted only from the dashed side, subject to safe conditions.",
+            "A double solid yellow is not a passing invitation; the manual separately allows crossing it for specified left turns."
+          ],
+          "gloss": [
+            [
+              "Lane line",
+              "Line between same-direction traffic lanes"
+            ],
+            [
+              "Centerline",
+              "Line separating opposing traffic"
+            ],
+            [
+              "Dashed side",
+              "Side from which passing may be permitted"
+            ],
+            [
+              "Stop line",
+              "Marking before which a required stop is made"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the color and pattern together",
+              "idea": [
+                "A line pattern is not a guarantee of a safe gap."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Assuming a dashed marking removes the need for observation."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: a dashed white line separates your lane from the next same-direction lane."
+                },
+                {
+                  "text": "A change may be allowed, but check traffic and blind spots before moving."
+                },
+                {
+                  "text": "For a solid yellow beside a dashed yellow centerline, determine which side is yours before considering a pass."
+                }
+              ],
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ]
+            },
+            {
+              "t": "Do not confuse a turn exception with passing",
+              "idea": [
+                "Centerline restrictions depend on the intended movement."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Turning an allowed driveway maneuver into a general passing exception."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: double solid yellow separates opposing directions. Do not treat it as permission for an overtaking pass."
+                },
+                {
+                  "text": "The manual separately permits crossing these lines for left turns to or from the listed roads and accesses."
+                },
+                {
+                  "text": "If a signal or sign requires stopping, stop before reaching its stop line."
+                }
+              ],
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "connecticutdriving_markings_01",
+              "q": "Connecticut: what do white lane lines normally separate?",
+              "c": [
+                "Lanes moving in the same direction",
+                "Only opposing traffic lanes",
+                "Only pedestrian crossings",
+                "Traffic moving in opposite directions on every road"
+              ],
+              "why": "The pavement-markings section distinguishes white lane lines from yellow centerlines.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_02",
+              "q": "Connecticut: a dashed white lane line is beside your vehicle. What does it allow?",
+              "c": [
+                "A lane change when it can be made safely",
+                "An immediate lane change without checking traffic",
+                "Passing through any intersection regardless of signs",
+                "Automatic priority over a vehicle in the other lane"
+              ],
+              "why": "The manual makes crossing the dashed line conditional on safety.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_03",
+              "q": "Connecticut: what does a solid white line between travel lanes generally tell you?",
+              "c": [
+                "Stay in the lane unless a special situation requires changing",
+                "Change lanes at every opportunity",
+                "Opposing traffic is on the far side",
+                "The lane is reserved for parking only"
+              ],
+              "why": "The manual describes the lane-staying meaning without making it an absolute never-cross rule.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_04",
+              "q": "Connecticut: a solid yellow line and dashed yellow line form the centerline. You are next to the solid line. May you pass another vehicle across it?",
+              "c": [
+                "No; the passing permission is on the dashed side",
+                "Yes, because one of the two lines is dashed",
+                "Yes, if you are within sight of an intersection",
+                "Yes, if the vehicle ahead signals right"
+              ],
+              "why": "The manual assigns passing permission to the broken-line side.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_05",
+              "q": "Connecticut: what does a yellow centerline separate?",
+              "c": [
+                "Traffic traveling in opposite directions",
+                "All lanes moving in the same direction",
+                "Only bus lanes from car lanes",
+                "The shoulder from the curb on every road"
+              ],
+              "why": "The centerline definition identifies opposing traffic.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_06",
+              "q": "Connecticut: can the manual left-turn allowance across double solid yellow be treated as permission to overtake another car?",
+              "c": [
+                "No; the specified left-turn allowance is a different movement",
+                "Yes; every legal crossing also permits overtaking",
+                "Yes, if the overtaken car is moving slowly",
+                "Only if the passing car is smaller"
+              ],
+              "why": "The manual separately describes left turns; that does not create a general passing permission.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_07",
+              "q": "Connecticut: where must your vehicle stop when a sign or signal requires a stop and a stop line is marked?",
+              "c": [
+                "Before reaching the stop line",
+                "With the rear wheels just beyond the line",
+                "Only at the far crosswalk",
+                "At the center of the intersection"
+              ],
+              "why": "The manual places the required stop before the marked line.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_markings_08",
+              "q": "Connecticut: which edge-line color is described for the left edge of a divided roadway?",
+              "c": [
+                "Solid yellow",
+                "Dashed white in every case",
+                "Alternating red and green",
+                "Solid blue"
+              ],
+              "why": "The edge-line section distinguishes the divided-road left edge from the white right edge.",
+              "objectives": [
+                "CT / Pavement markings"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Pavement Markings, printed pp. 43-44"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "connecticutdriving_lanes",
+          "name": "Connecticut observation before changing lanes",
+          "objectives": [
+            "CT / Lane changes"
+          ],
+          "refs": [
+            {
+              "source": "ctmanual",
+              "section": "Changing Lanes, printed p. 23"
+            }
+          ],
+          "notes": [
+            "Check rear-view and side mirrors and make a brief shoulder check toward the intended movement.",
+            "Keep monitoring ahead rather than staring sideways. Check the far lane for a driver aiming at the same gap.",
+            "When crossing several lanes, move one lane at a time and reassess.",
+            "Merging from a ramp or joining from a curb or shoulder also requires checking the destination lane."
+          ],
+          "gloss": [
+            [
+              "Blind spot",
+              "Area near the rear corners not visible through mirrors"
+            ],
+            [
+              "Shoulder check",
+              "Brief direct look toward the intended movement"
+            ],
+            [
+              "Far lane",
+              "Lane beyond the one you intend to enter"
+            ],
+            [
+              "Sequential change",
+              "One lane change followed by a fresh assessment"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Mirrors do not show every conflict",
+              "idea": [
+                "A gap must be checked from more than one view."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Treating an empty mirror image as proof the entire lane is empty."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: your mirrors show no car in the lane you intend to enter."
+                },
+                {
+                  "text": "Briefly look over the shoulder toward that lane for rear-corner blind-spot traffic."
+                },
+                {
+                  "text": "Keep monitoring the road ahead so a developing stop does not catch you looking away."
+                }
+              ],
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ]
+            },
+            {
+              "t": "A destination gap can be shared by two drivers",
+              "idea": [
+                "Look beyond the nearest lane before moving."
+              ],
+              "recipe": [
+                "Identify the conditions and conflicts.",
+                "Apply the rule or safety principle in the cited section.",
+                "Explain what to do and what could change the decision."
+              ],
+              "oops": [
+                "Watching only the intended lane and missing another driver entering it."
+              ],
+              "steps": [
+                {
+                  "text": "Scenario: you and a vehicle in the far lane may both be aiming for the middle lane."
+                },
+                {
+                  "text": "Check the far lane and wait if the movements would conflict."
+                },
+                {
+                  "text": "For a multi-lane move, complete and reassess one lane at a time rather than sweeping across all lanes."
+                }
+              ],
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "connecticutdriving_lanes_01",
+              "q": "Connecticut: your mirrors appear clear before a lane change. What additional check does the manual describe?",
+              "c": [
+                "A brief look over your shoulder toward the movement",
+                "A prolonged look directly backward while steering",
+                "Only a horn signal",
+                "Only a glance at the dashboard"
+              ],
+              "why": "Mirrors leave rear-corner blind spots that require a direct check.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_02",
+              "q": "Connecticut: while you check beside and behind your car, what must remain part of your attention?",
+              "c": [
+                "Traffic ahead that may slow or stop",
+                "Only the side mirror until the move is finished",
+                "Only the rear vehicle license plate",
+                "Only the lane marking nearest your door"
+              ],
+              "why": "The manual warns against taking attention from the road ahead for too long.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_03",
+              "q": "Connecticut: why check the far lane before moving into the lane beside you?",
+              "c": [
+                "Another vehicle may be moving into the same destination lane",
+                "The far lane always has a lower speed limit",
+                "Vehicles there cannot change lanes",
+                "It removes the need for a shoulder check"
+              ],
+              "why": "The manual explicitly describes two vehicles aiming for the same lane.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_04",
+              "q": "Connecticut: you need to move across several lanes. Which approach does the manual recommend?",
+              "c": [
+                "Change one lane at a time with fresh checks",
+                "Sweep across them in one continuous movement",
+                "Wait until every lane is empty for the whole trip",
+                "Use only the inside mirror for all the moves"
+              ],
+              "why": "The guide compares the process with taking stairs one step at a time.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_05",
+              "q": "Connecticut: does entering from an entrance ramp count as a lane-changing situation for these observation checks?",
+              "c": [
+                "Yes",
+                "No, because ramp traffic always has priority",
+                "No, because mirrors are only for overtaking",
+                "Only if the ramp has more than two lanes"
+              ],
+              "why": "The manual includes merging onto the roadway from a ramp.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_06",
+              "q": "Connecticut: what are the blind spots discussed in the lane-change section?",
+              "c": [
+                "Areas near the rear corners that mirrors do not show",
+                "Only the space directly beyond the front bumper",
+                "All road markings hidden by the hood",
+                "Only the part of a road around a distant curve"
+              ],
+              "why": "These rear-corner areas require a brief direct look.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_07",
+              "q": "Connecticut: another car is about to pass you in the lane you intend to enter. What should the pre-move checks establish?",
+              "c": [
+                "That the change will not move into that passing car",
+                "That your signal will force the car to stop",
+                "That your lane line is dashed, regardless of traffic",
+                "That you can begin crossing before looking"
+              ],
+              "why": "The manual says to ensure nobody is about to pass in the destination lane.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "connecticutdriving_lanes_08",
+              "q": "Connecticut: when moving onto the road from the curb or shoulder, do the destination-lane traffic checks apply?",
+              "c": [
+                "Yes; the manual includes that movement",
+                "No, if the vehicle has been parked more than a minute",
+                "No, if the road has a white edge line",
+                "Only after the front wheels have entered traffic"
+              ],
+              "why": "Joining from a curb or shoulder is included in the manual lane-change definition.",
+              "objectives": [
+                "CT / Lane changes"
+              ],
+              "refs": [
+                {
+                  "source": "ctmanual",
+                  "section": "Changing Lanes, printed p. 23"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        }
+      ]
     }
   ],
   "drivingJurisdictions": [
     {
       "code": "US-AL",
       "name": "Alabama",
-      "track": null,
+      "track": "alabamadriving",
       "foundation": "drivingfoundations"
     },
     {
       "code": "US-AK",
       "name": "Alaska",
-      "track": null,
+      "track": "alaskadriving",
       "foundation": "drivingfoundations"
     },
     {
@@ -22197,7 +25268,7 @@
     {
       "code": "US-AR",
       "name": "Arkansas",
-      "track": null,
+      "track": "arkansasdriving",
       "foundation": "drivingfoundations"
     },
     {
@@ -22209,13 +25280,13 @@
     {
       "code": "US-CO",
       "name": "Colorado",
-      "track": null,
+      "track": "coloradodriving",
       "foundation": "drivingfoundations"
     },
     {
       "code": "US-CT",
       "name": "Connecticut",
-      "track": null,
+      "track": "connecticutdriving",
       "foundation": "drivingfoundations"
     },
     {
@@ -23245,5 +26316,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updated": "2026-11-12"
 }
