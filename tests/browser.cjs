@@ -10,7 +10,13 @@ assert(!/Heather Marriott|Rizi Aznita/.test(await page.locator('body').innerText
 await page.evaluate(()=>openCourseCategory('certifications'));assert.equal(await page.locator('.course').count(),5);
 await page.locator('#courseSearch').fill('FAA');assert.equal(await page.locator('.course').count(),1);
 await page.locator('.course').click();assert.equal(await page.evaluate(()=>CC),'faa107');
-await page.evaluate(()=>drivingDirectory());await page.locator('#stateSearch').fill('NJ');assert.equal(await page.locator('#drivingState option').count(),1);assert.match(await page.locator('#drivingAvailability').innerText(),/New Jersey: partial/);
+// The state directory must not inherit a university course's title or course-only tools.
+await page.evaluate(()=>{enterCourse('cpsc222');drivingDirectory();});
+assert.equal((await page.locator('#ttl').innerText()).trim(),'🐐 StudyGOAT');
+assert.match(await page.locator('#sub').innerText(),/Driving Tests/);
+assert.equal(await page.locator('#nav button').filter({hasText:'Topics'}).count(),0);
+assert.equal(await page.evaluate(()=>CC),'cpsc222','Directory preserves selected course and progress');
+await page.locator('#stateSearch').fill('NJ');assert.equal(await page.locator('#drivingState option').count(),1);assert.match(await page.locator('#drivingAvailability').innerText(),/New Jersey: partial/);
 await page.locator('#stateSearch').fill('no such state');assert.equal(await page.locator('#drivingState option').count(),0);assert.match(await page.locator('#stateSearchStatus').innerText(),/No states/);
 await page.locator('#stateSearch').fill('');assert.equal(await page.locator('#drivingState option').count(),51);
 
