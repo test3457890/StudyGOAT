@@ -60,6 +60,13 @@ resHTML = function(id, open) {
 };
 const legacyNav = drawNav;
 drawNav = function() {
+  if(screen==='driving'){
+    // Directory navigation is global, while the selected course and its progress stay intact.
+    screen='menu';
+    try{legacyNav();}finally{screen='driving';}
+    document.getElementById('sub').textContent='Driving Tests · All 50 states and DC';
+    return;
+  }
   legacyNav();
   if (!certTrack() || screen === 'menu') return;
   // Keep existing tools available for university courses. Verified tracks use sourced study modes.

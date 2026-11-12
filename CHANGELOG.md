@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-12: Driving directory navigation repair
+
+- Fixed the state directory inheriting a previously selected class title and course-only navigation. Directory navigation is global while the selected course and saved progress remain intact.
+- Added a browser regression check after visiting CPSC 222, alongside the checks that every state-specific entry opens the correct course.
+
 ## 2026-11-12: Five-state driving expansion and accurate status generation
 
 - Added four lessons and 16 original questions each for Alabama, Alaska, Arkansas, Colorado and Connecticut, using the cited official manual sections or DMV safety pages.
