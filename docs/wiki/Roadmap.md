@@ -1,12 +1,12 @@
 # Development roadmap
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 367 lessons and 1180 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 50 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
+| FAA Part 107 | 47 | 182 | 176-code ACS inventory; selected rules, chart, airport, contingency, fitness and weather material |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
 | Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
@@ -69,7 +69,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 origi
 1. CAP: selected lessons and original questions now exist in all 16 chapters. Next, complete each chapter's remaining objectives and application exercises, obtain independent review, expand aerospace and reconcile current achievement requirements, including the unresolved Achievement 16 chapter reference. The chapter-specific quizzes are selected practice, not controlled exams.
 2. Driving: all 50 states and DC now have selected jurisdiction-specific lessons. Complete the remaining handbook sections, current licensing requirements, law/edition reconciliation and independent review for every jurisdiction. Introductory availability is not complete permit preparation.
 3. Security+: selected foundations are mapped to all 28 SY0-701 objectives, with scoped practice and a fictional access review lab. Complete the remaining material within every objective, platform-specific labs and a validated full-exam blueprint. Current CompTIA version verification remains blocked by inaccessible official version pages. Do not infer current availability from the accessible SY0-701 baseline document.
-4. FAA: selected night, people/vehicle, preflight, reporting and waiver lessons are implemented. Complete the ACS inventory, charts, broader weather/performance, detailed category/Remote ID compliance and operational procedures. METAR/TAF examples are synthetic educational exercises, not operational weather.
+4. FAA: the full 176-code ACS inventory and selected published-chart, airport, contingency and fitness exercises are implemented alongside earlier lessons. Complete the remaining instruction within the inventory, broader charts/weather/performance, detailed category/Remote ID compliance and operational procedures. METAR/TAF examples are synthetic educational exercises, not operational weather.
 5. Technician: all 409 public-domain NCVEC questions and three diagrams are available. The revised release is hosted by KP4ARA Laurel VE Team and has been compared against the import. Separate 35-question practice exams sample one per official group, with optional study timing and answer review. Original StudyGOAT explanations now cover all 409 questions. Complete the standalone theory, antennas, operations and safety lesson sequences and obtain independent subject-matter review.
 6. WFA: the learner's provider/syllabus and qualified instructor or clinical review are still required before treatment guidance. Physical skill assessments remain with the training provider.
 

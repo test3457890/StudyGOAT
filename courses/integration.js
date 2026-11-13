@@ -34,7 +34,9 @@ function certRefs(refs) {
   }).join(' · ');
 }
 function certQuestion(topic, b) {
-  const q = Q(esc(b.q), b.diagram ? `<img src="${esc(b.diagram)}" alt="${esc(b.diagramAlt)}" style="max-width:100%">` : '', esc(b.c[0]), b.c.slice(1).map(esc), `${esc(b.why)}<p class="hint">${esc(b.id)} · Objective ${esc(b.objectives.join(', '))}<br>${certRefs(b.refs)}</p>`);
+  const f=b.figure&&CERT.faaChartFigures?.[b.figure];
+  const diagram=f?`<figure class="faaChartFigure"><img src="${f.dataUrl}" alt="${esc(f.alt)}" style="display:block;max-width:100%;height:auto"><figcaption>${esc(f.title)}. ${esc(f.notice)}</figcaption></figure><details><summary>Enlarge chart for reading</summary><div style="max-width:100%;overflow:auto;max-height:70vh"><img src="${f.dataUrl}" alt="${esc(f.alt)}" style="width:1536px;max-width:none;height:auto"></div></details><details><summary>Chart text description</summary><p>${esc(f.description)}</p></details>`:b.diagram?`<img src="${esc(b.diagram)}" alt="${esc(b.diagramAlt)}" style="max-width:100%">`:'';
+  const q = Q(esc(b.q), diagram, esc(b.c[0]), b.c.slice(1).map(esc), `${esc(b.why)}<p class="hint">${esc(b.id)} · Objective ${esc(b.objectives.join(', '))}<br>${certRefs(b.refs)}</p>`);
   return Object.assign(q, {topic:topic.id, sourceId:b.id, objectives:b.objectives, refs:b.refs});
 }
 function registerCertificationCourses() {
@@ -181,6 +183,7 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) {legacyHome();if(CC==='cpsc222')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="fsmLab()">Open finite state machine lab</button></div>');return;}
   _home();
+  if(CC==='faa107')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="faaAcsOpen()">Browse all 176 ACS knowledge codes</button><button onclick="practice(\'faa107_chart59\')">Practice FAA Figure 59</button><p>All 17 ACS tasks are indexed. Related lessons remain partial. Figure 59 is a historical testing chart, not navigation information.</p></div>');
   if(CC==='security701')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="certSources()">Browse 28 objective areas</button><button onclick="accessReviewLab()">Open access review lab</button><p>Selected foundations in every SY0-701 objective area. Each objective remains partial. The fictional lab practices least privilege and account removal.</p></div>');
   if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study all 409 NCVEC questions</button><p>Complete public-domain question pool, diagrams and 409 original explanations. Separate 35-question practice exams and saved missed-question review.</p></div>');
   view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
@@ -196,6 +199,25 @@ function certSources() {
   view.innerHTML=certNotice()+`<div class="card"><h3>Coverage checklist</h3><p>Listed objectives have introductory coverage only. A topic is not a complete objective.</p>${t.topics.map(p=>`<p>${esc(p.name)}: ${esc(p.objectives.join(', '))} · ${p.bank.length} checked questions<br>${certRefs(p.refs)}</p>`).join('')}<h3>Remaining work</h3><ul>${t.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h3>Source register</h3>${[...new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)))].map(id=>{const s=CERT.sources[id];return `<p>${certRefs([{source:id,section:s.sections.join(', ')}])}<br>${esc(s.version)} · Effective: ${esc(s.effective)}<br>Checked ${esc(s.checked)} · Review by ${esc(s.reviewBy)}<br>${esc(s.rights)}</p>`}).join('')}</div>`;
   if(t.curriculum)view.insertAdjacentHTML('afterbegin',certAchievements(t)+certCurriculum(t));
   if(t.objectiveMap)view.insertAdjacentHTML('afterbegin',certObjectiveMap(t));
+  if(t.acsInventory)view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="faaAcsOpen()">Browse all 176 ACS knowledge codes</button></div>');
+}
+function faaAcsOpen(){
+  const inventory=certTrack()?.acsInventory;if(!inventory)return;
+  if(EX?.timer)clearInterval(EX.timer);EX=null;
+  screen='faaacs';LS=null;cur=null;quiz=null;rev=null;activePrep=null;drawNav();
+  view.innerHTML=`<div class="card"><button onclick="home()">Back to FAA lessons</button><h2>FAA ACS knowledge inventory</h2><p>${esc(inventory.version)}. ${esc(inventory.notice)}</p><label>Search ACS code or subject <input id="acsQuery" type="search" placeholder="UA.II.A.K1b or weather" oninput="faaAcsFilter()" style="display:block;width:100%;box-sizing:border-box"></label><label>Material available <select id="acsAvailability" onchange="faaAcsFilter()" style="display:block;width:100%;box-sizing:border-box"><option value="all">All knowledge codes</option><option value="related">Related partial lessons</option><option value="reading">Official reading only</option></select></label><p id="acsStatus" role="status" aria-live="polite"></p><p>Exact knowledge codes return that entry. Task codes and partial text return matching entries. Linked topics may address only part of an element; related practice is not a complete element test.</p></div><div id="acsResults"></div>`;
+  faaAcsFilter();
+}
+function faaAcsFilter(){
+  const inventory=certTrack()?.acsInventory;if(!inventory||!document.getElementById('acsResults'))return;
+  const query=document.getElementById('acsQuery').value.trim().toLowerCase(),mode=document.getElementById('acsAvailability').value;
+  const exact=inventory.elements.find(e=>e.id.toLowerCase()===query);
+  const entries=inventory.elements.filter(e=>(!query||(exact?e.id===exact.id:(e.id+' '+e.description).toLowerCase().includes(query)))&&(mode==='all'||(mode==='related'?e.topics.length:!e.topics.length)));
+  document.getElementById('acsStatus').textContent=`${entries.length} of ${inventory.elements.length} knowledge codes shown; ${inventory.elements.filter(e=>e.topics.length).length} have related partial lessons. No complete element coverage is claimed.`;
+  document.getElementById('acsResults').innerHTML=entries.length?inventory.tasks.map(task=>{
+    const matches=entries.filter(e=>e.task===task.id);if(!matches.length)return '';
+    return `<section class="card"><h3>${esc(task.id)}: ${esc(task.title)}</h3>${matches.map(e=>`<details data-acs="${esc(e.id)}"><summary style="overflow-wrap:anywhere">${esc(e.id)}: ${esc(e.description)}</summary><p>${esc(e.status)}. <a href="${esc(CERT.sources[inventory.source].url)}#page=${e.pdfPage}" target="_blank" rel="noopener">Read official ACS page ${e.pdfPage}</a></p>${e.topics.length?e.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button><button onclick="practice('${id}')">Related practice: ${esc(certTopic(id).name)}</button>`).join(''):'<p>No mapped StudyGOAT lesson. Read this element in the complete FAA source and use appropriate additional instruction.</p>'}</details>`).join('')}</section>`;
+  }).join(''):'<div class="card"><p>No knowledge codes match. Clear the search or change the availability filter.</p></div>';
 }
 function certObjectiveMap(t){
   return `<div class="card" id="objectiveCoverage"><h2>SY0-701 objective map</h2><p>All 28 objective areas have selected introductory material. Every area is partial. These links use the verified version 6.0 baseline, not a claim that the latest exam revision has been confirmed.</p>${[1,2,3,4,5].map(domain=>`<h3>Domain ${domain}</h3>${t.objectiveMap.filter(o=>o.domain===domain).map(o=>`<details data-objective="${esc(o.id)}"><summary>${esc(o.id)}: ${esc(o.title)} (partial)</summary><p>Still to study: ${o.gaps.map(esc).join('; ')}.</p>${o.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}<button onclick="startObjectivePractice('${o.id}')">Practice objective ${esc(o.id)}</button></details>`).join('')}`).join('')}</div>`;
@@ -349,7 +371,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,faaAcsOpen,faaAcsFilter,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();
