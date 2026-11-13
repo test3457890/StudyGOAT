@@ -11,4 +11,4 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 The Texas/Florida release was published in PR #12. The five-state expansion and driving directory navigation repair were published in PRs #13 and #14. Exact driving search selection was repaired in PR #16. Each subsequent release must pass content and browser checks before merge, then verify Pages deployment and separately publish the Wiki. Release PRs record the actual publication evidence. A copy under docs/wiki does not by itself publish the Wiki.
 
 
-The all-state introductory expansion is prepared with source-linked courses for every state and DC. Its release evidence belongs in the corresponding pull request. Full manual and certification curriculum coverage remain partial.
+The all-state introductory expansion was published in PR #21, with source-linked courses for every state and DC. Security+ objective foundations and the access review lab were published in PR #22. Release PRs record automated checks and publication evidence. Full manual and certification curriculum coverage remain partial.

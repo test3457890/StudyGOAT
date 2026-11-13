@@ -97,10 +97,11 @@ Every state and DC now has selected jurisdiction-specific content. See [All Stat
 
 ### Security+ SY0-701
 
-- [ ] Remaining threats, vulnerabilities and architecture objectives
-- [ ] Broader security operations and governance/risk/compliance details
-- [ ] Remaining objectives 1.1 to 1.4 and complete domain mapping
-- [ ] Performance-based exercises and a validated full-exam blueprint
+- [x] Selected introductory material mapped to all 28 version 6.0 baseline objectives
+- [x] Objective-specific practice and explicit gaps for every objective
+- [x] Original fictional least-privilege and offboarding access-review lab
+- [ ] Deeper instruction and practice within every objective, including platform-specific configuration and investigation
+- [ ] Full practical exercise set and a validated full-exam blueprint
 - [ ] Current CompTIA exam availability and latest objective revision remain unconfirmed
 
 ### FAA Part 107
