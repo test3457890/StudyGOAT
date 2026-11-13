@@ -1,5 +1,11 @@
 # Changelog
 
+## November 13, 2026: Moore, Mealy, Petri nets and keypad locks
+
+- Added four CPSC 222 topics with eight worked lessons, 32 original questions and 17 glossary cards based on the uploaded 31-slide lecture.
+- Includes Python examples, initial Moore output, Mealy reset/error handling, Petri token/resource reasoning and the final keypad discussion questions.
+- Extended the FSM lab with a keypad trace matching the lecture reset and stop-on-open rules. Source slides and instructor names are not redistributed.
+
 ## November 12, 2026: all-state introductory driving courses
 
 - Added separate selected courses for the remaining 27 states and DC: 112 lessons and 224 original questions with official source sections and review limits.

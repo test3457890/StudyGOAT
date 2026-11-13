@@ -55737,6 +55737,18 @@ window.STUDYGOAT_CATALOG = {
           "1": "q0"
         }
       }
+    },
+    "keypad": {
+      "code": [
+        3,
+        1,
+        4,
+        1
+      ],
+      "initial": 0,
+      "open": 4,
+      "mismatch": "reset to 0",
+      "afterOpen": "stop"
     }
   },
   "classTopics": [
@@ -56424,6 +56436,715 @@ window.STUDYGOAT_CATALOG = {
             "len(text) == 2"
           ],
           "why": "Acceptance depends on the suffix, not any occurrence or only a length-two word."
+        }
+      ]
+    },
+    {
+      "id": "dmmoore",
+      "course": "cpsc222",
+      "name": "Moore machines and state outputs",
+      "source": "Original study material adapted from the user-provided Moore, Mealy, Petri and FSM lecture, slides 3-11, 17-19. The source deck and instructor names are not published.",
+      "notes": [
+        "A Moore output depends only on the current state: lambda: S -> O.",
+        "State labels can show state / output. Locked has output 0 and Unlocked has output 1 in this lecture.",
+        "Report the initial output before any input, then the output of the destination state after each input.",
+        "A Turing machine has potentially unbounded tape memory. An FSM has finitely many states without unbounded working memory."
+      ],
+      "gloss": [
+        [
+          "Moore machine",
+          "An FSM whose output is determined by its current state"
+        ],
+        [
+          "Output function",
+          "For Moore, lambda maps S to O"
+        ],
+        [
+          "Initial output",
+          "The output attached to the starting state before the first input"
+        ],
+        [
+          "State output",
+          "A status attached to a state, such as Locked = 0"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Trace Moore status outputs",
+          "idea": [
+            "A Moore output depends only on the current state: lambda: S -> O.",
+            "State labels can show state / output. Locked has output 0 and Unlocked has output 1 in this lecture.",
+            "Report the initial output before any input, then the output of the destination state after each input."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Start Locked with output 0."
+            },
+            {
+              "text": "coin, push, coin, coin visits Unlocked, Locked, Unlocked, Unlocked."
+            },
+            {
+              "text": "Outputs after those inputs are 1, 0, 1, 1. Including the initial output gives 0, 1, 0, 1, 1."
+            },
+            {
+              "text": "Run the example and compare the output with the trace above.",
+              "code": "delta = {('L','coin'):'U', ('L','push'):'L', ('U','coin'):'U', ('U','push'):'L'}\noutput = {'L': 0, 'U': 1}\nstate = 'L'\nprint(output[state])\nfor event in ['coin', 'push', 'coin', 'coin']:\n    state = delta[(state, event)]\n    print(output[state])"
+            }
+          ]
+        },
+        {
+          "t": "Choose a state model",
+          "idea": [
+            "A Moore output depends only on the current state: lambda: S -> O.",
+            "State labels can show state / output. Locked has output 0 and Unlocked has output 1 in this lecture.",
+            "Report the initial output before any input, then the output of the destination state after each input.",
+            "A Turing machine has potentially unbounded tape memory. An FSM has finitely many states without unbounded working memory."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "A traffic light can associate each color state with the corresponding lamp output."
+            },
+            {
+              "text": "An elevator floor display can associate each floor state with the displayed number."
+            },
+            {
+              "text": "Turing helped formalize computation. Moore and Mealy developed distinct output conventions later. A finite state controller has no unbounded tape."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "What determines a Moore machine output?",
+          "c": [
+            "The current state",
+            "Only the current input",
+            "The next two inputs",
+            "Only the elapsed time"
+          ],
+          "why": "The Moore output function takes a state as its argument."
+        },
+        {
+          "q": "What is the domain of a Moore output function?",
+          "c": [
+            "S",
+            "S x Sigma",
+            "O x O",
+            "Only the accepting states"
+          ],
+          "why": "lambda: S -> O assigns an output to each state."
+        },
+        {
+          "q": "What is the initial output of the lecture Moore turnstile?",
+          "c": [
+            "0",
+            "1",
+            "unlock",
+            "No state exists yet"
+          ],
+          "why": "The start state is Locked and its output is 0."
+        },
+        {
+          "q": "Starting Locked, what Moore outputs follow coin, coin, push?",
+          "c": [
+            "1, 1, 0",
+            "0, 1, 0",
+            "unlock, return, open",
+            "1, 0, 1"
+          ],
+          "why": "The destination states are Unlocked, Unlocked, Locked."
+        },
+        {
+          "q": "Why does a coin in Unlocked leave the Moore status unchanged?",
+          "c": [
+            "It stays Unlocked, whose output is 1",
+            "Moore machines ignore all inputs",
+            "A coin always locks the gate",
+            "The output must alternate"
+          ],
+          "why": "A self-loop preserves the state and therefore its Moore output."
+        },
+        {
+          "q": "Where are outputs normally shown in a Moore diagram?",
+          "c": [
+            "On states",
+            "Only on input arrows",
+            "Only outside the diagram",
+            "On the input alphabet"
+          ],
+          "why": "A Moore node may be labeled state / output."
+        },
+        {
+          "q": "Which lecture example naturally fits a Moore status output?",
+          "c": [
+            "Displaying the current elevator floor",
+            "Returning a coin on insertion",
+            "An alarm action caused by pushing a locked gate",
+            "A reset action on a reset input"
+          ],
+          "why": "The displayed floor is determined by the current floor state."
+        },
+        {
+          "q": "What memory feature distinguishes the lecture Turing model from an FSM?",
+          "c": [
+            "A potentially unbounded tape",
+            "Exactly two states",
+            "No transition rules",
+            "Only binary output"
+          ],
+          "why": "An FSM has finite control state without unbounded working memory."
+        }
+      ]
+    },
+    {
+      "id": "dmmealy",
+      "course": "cpsc222",
+      "name": "Mealy machines and transition actions",
+      "source": "Original study material adapted from the user-provided Moore, Mealy, Petri and FSM lecture, slides 12-19, 24-26. The source deck and instructor names are not published.",
+      "notes": [
+        "A Mealy output depends on the state before the transition and the current input: lambda: S x Sigma -> O.",
+        "Label an edge with input / output. The lecture turnstile outputs unlock, alarm, return or open.",
+        "A self-loop can produce an action. In Unlocked, coin returns the coin while keeping the same state.",
+        "Choose Moore for state-based status and Mealy for input-triggered actions. These are modeling choices, not universal restrictions on applications."
+      ],
+      "gloss": [
+        [
+          "Mealy machine",
+          "An FSM whose output depends on current state and input"
+        ],
+        [
+          "Edge label",
+          "A transition annotation such as push / alarm"
+        ],
+        [
+          "Action output",
+          "An output event emitted when a transition occurs"
+        ],
+        [
+          "Reset input",
+          "In this challenge, an input that emits reset and moves either state to Locked"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Trace actions from state and input",
+          "idea": [
+            "A Mealy output depends on the state before the transition and the current input: lambda: S x Sigma -> O.",
+            "Label an edge with input / output. The lecture turnstile outputs unlock, alarm, return or open.",
+            "A self-loop can produce an action. In Unlocked, coin returns the coin while keeping the same state.",
+            "Choose Moore for state-based status and Mealy for input-triggered actions. These are modeling choices, not universal restrictions on applications."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Start Locked. coin emits unlock and moves to Unlocked."
+            },
+            {
+              "text": "In Unlocked, push emits open and returns to Locked."
+            },
+            {
+              "text": "In Locked, push emits alarm and stays Locked. A final coin emits unlock."
+            },
+            {
+              "text": "Run the example and compare the output with the trace above.",
+              "code": "rules = {('L','coin'):('U','unlock'), ('L','push'):('L','alarm'),\n         ('U','coin'):('U','return'), ('U','push'):('L','open')}\nstate = 'L'\nfor event in ['coin', 'push', 'push', 'coin']:\n    state, action = rules[(state, event)]\n    print(action)"
+            }
+          ]
+        },
+        {
+          "t": "Add reset and reject unknown inputs",
+          "idea": [
+            "A Mealy output depends on the state before the transition and the current input: lambda: S x Sigma -> O.",
+            "Label an edge with input / output. The lecture turnstile outputs unlock, alarm, return or open.",
+            "A self-loop can produce an action. In Unlocked, coin returns the coin while keeping the same state.",
+            "Choose Moore for state-based status and Mealy for input-triggered actions. These are modeling choices, not universal restrictions on applications."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Add a reset rule for Locked and another for Unlocked. Each emits reset and goes to Locked."
+            },
+            {
+              "text": "coin, reset, push produces unlock, reset, alarm."
+            },
+            {
+              "text": "Validate each (state, input) key before lookup to raise a clear error for unknown inputs."
+            },
+            {
+              "text": "Run the example and compare the output with the trace above.",
+              "code": "rules[('L','reset')] = ('L','reset')\nrules[('U','reset')] = ('L','reset')\nstate = 'L'\nfor event in ['coin', 'reset', 'push']:\n    if (state, event) not in rules:\n        raise ValueError(f'Unknown input: {event}')\n    state, action = rules[(state, event)]\n    print(action)"
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "What determines a Mealy output?",
+          "c": [
+            "Current state and current input",
+            "Only the destination state",
+            "Only the initial state",
+            "Only the input alphabet size"
+          ],
+          "why": "lambda: S x Sigma -> O takes both state and input."
+        },
+        {
+          "q": "In the lecture Mealy turnstile, what does Locked + push output?",
+          "c": [
+            "alarm",
+            "open",
+            "return",
+            "1"
+          ],
+          "why": "Pushing a locked gate emits alarm while remaining Locked."
+        },
+        {
+          "q": "In the lecture Mealy turnstile, what does Unlocked + coin output?",
+          "c": [
+            "return",
+            "unlock",
+            "alarm",
+            "0"
+          ],
+          "why": "The rule returns the extra coin and stays Unlocked."
+        },
+        {
+          "q": "Starting Locked, what Mealy outputs follow coin, coin, push?",
+          "c": [
+            "unlock, return, open",
+            "unlock, alarm, open",
+            "1, 1, 0",
+            "return, unlock, alarm"
+          ],
+          "why": "Look up the action using the state before each input."
+        },
+        {
+          "q": "Can a Mealy self-loop emit an action?",
+          "c": [
+            "Yes, such as Unlocked + coin emitting return",
+            "No, outputs require a new state",
+            "Only if every state is accepting",
+            "Only with an unbounded tape"
+          ],
+          "why": "Output belongs to the transition, including a transition to the same state."
+        },
+        {
+          "q": "With the reset challenge rules, what outputs follow coin, reset, push?",
+          "c": [
+            "unlock, reset, alarm",
+            "unlock, reset, open",
+            "return, reset, alarm",
+            "1, 0, 0"
+          ],
+          "why": "Reset returns Unlocked to Locked, so the final push emits alarm."
+        },
+        {
+          "q": "What does the label push / alarm mean on a Mealy edge?",
+          "c": [
+            "Input push emits output alarm",
+            "State push has output alarm",
+            "Alarm is the starting state",
+            "Push and alarm are both next states"
+          ],
+          "why": "Mealy edge labels commonly show input / output."
+        },
+        {
+          "q": "Which implementation gives a clear response to an unknown Mealy input?",
+          "c": [
+            "Check for the rule and raise ValueError if absent",
+            "Silently invent the next state",
+            "Always unlock the gate",
+            "Delete the transition table"
+          ],
+          "why": "Explicit validation explains the unsupported input rather than fabricating behavior."
+        }
+      ]
+    },
+    {
+      "id": "dmpetri",
+      "course": "cpsc222",
+      "name": "Petri nets and shared resources",
+      "source": "Original study material adapted from the user-provided Moore, Mealy, Petri and FSM lecture, slides 20-25. The source deck and instructor names are not published.",
+      "notes": [
+        "Places represent conditions or resources. Transitions represent events. Tokens show the current marking.",
+        "In an ordinary Petri net, a transition is enabled when every input place has the required tokens.",
+        "Firing consumes tokens from input places and produces tokens in output places. A general transition can have several inputs and outputs.",
+        "Independent transitions can represent concurrent work. One shared resource token can serialize access."
+      ],
+      "gloss": [
+        [
+          "Place",
+          "A condition or resource, drawn as a circle"
+        ],
+        [
+          "Transition",
+          "An event, drawn as a rectangle"
+        ],
+        [
+          "Token",
+          "A marker indicating available conditions or resources"
+        ],
+        [
+          "Marking",
+          "The distribution of tokens among places"
+        ],
+        [
+          "Enabled transition",
+          "A transition with all required input tokens available"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Follow a token through two places",
+          "idea": [
+            "Places represent conditions or resources. Transitions represent events. Tokens show the current marking.",
+            "In an ordinary Petri net, a transition is enabled when every input place has the required tokens.",
+            "Firing consumes tokens from input places and produces tokens in output places. A general transition can have several inputs and outputs.",
+            "Independent transitions can represent concurrent work. One shared resource token can serialize access."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Start with ready = 1 and working = 0."
+            },
+            {
+              "text": "Firing ready to working consumes the ready token and produces a working token: ready = 0, working = 1."
+            },
+            {
+              "text": "Firing working to ready restores the initial marking. This one-token example is not a general Petri-net engine."
+            },
+            {
+              "text": "Run the example and compare the output with the trace above.",
+              "code": "marking = {'ready': 1, 'working': 0}\ndef fire(source, target):\n    if marking[source] < 1:\n        return False\n    marking[source] -= 1\n    marking[target] += 1\n    return True\nprint(fire('ready', 'working'))  # True\nprint(fire('ready', 'working'))  # False\nprint(marking)  # {'ready': 0, 'working': 1}"
+            }
+          ]
+        },
+        {
+          "t": "Model one shared printer",
+          "idea": [
+            "Places represent conditions or resources. Transitions represent events. Tokens show the current marking.",
+            "In an ordinary Petri net, a transition is enabled when every input place has the required tokens.",
+            "Firing consumes tokens from input places and produces tokens in output places. A general transition can have several inputs and outputs.",
+            "Independent transitions can represent concurrent work. One shared resource token can serialize access."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Place one token in printer_free to represent one available printer."
+            },
+            {
+              "text": "A start-print transition needs both a waiting-job token and the printer_free token. It consumes both and produces a printing token."
+            },
+            {
+              "text": "A finish transition consumes the printing token, produces a completed-job token and returns the printer_free token. Another job can then start."
+            },
+            {
+              "text": "Independent jobs on separate resources may proceed concurrently. Competing transitions cannot both consume the same single token."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "What does a circle represent in the lecture Petri notation?",
+          "c": [
+            "A place",
+            "A transition",
+            "An input alphabet",
+            "A Python function"
+          ],
+          "why": "Places represent conditions or resources and are drawn as circles."
+        },
+        {
+          "q": "What does the marking of a Petri net describe?",
+          "c": [
+            "The distribution of tokens among places",
+            "The number of Python functions",
+            "Only the last input symbol",
+            "Only the diagram title"
+          ],
+          "why": "Tokens across all places specify the current marking."
+        },
+        {
+          "q": "When is an ordinary Petri transition enabled?",
+          "c": [
+            "When all required input tokens exist",
+            "When any one input place is empty",
+            "Only when every place is empty",
+            "Whenever its label is read aloud"
+          ],
+          "why": "Every input requirement must be satisfied before firing."
+        },
+        {
+          "q": "Starting ready = 1, working = 0, what follows one ready-to-working firing?",
+          "c": [
+            "ready = 0, working = 1",
+            "ready = 1, working = 1",
+            "ready = 0, working = 0",
+            "ready = 2, working = 0"
+          ],
+          "why": "The example consumes one source token and produces one target token."
+        },
+        {
+          "q": "What does one token in printer_free represent?",
+          "c": [
+            "One available printer",
+            "One permanently completed job",
+            "An unlimited number of printers",
+            "An invalid input digit"
+          ],
+          "why": "The shared resource token represents the single available printer."
+        },
+        {
+          "q": "Why can two jobs not both start using a single printer_free token?",
+          "c": [
+            "The first start consumes the shared token",
+            "Petri nets allow only one transition in total",
+            "Tokens cannot move",
+            "Every job must have its own entire net"
+          ],
+          "why": "The competing transition loses access to its required resource token until it is returned."
+        },
+        {
+          "q": "What can independent enabled Petri transitions model?",
+          "c": [
+            "Concurrent activity",
+            "Only one global sequential state",
+            "Only invalid events",
+            "An unlimited Turing tape"
+          ],
+          "why": "Independent activity need not be represented as one combined FSM state."
+        },
+        {
+          "q": "In the simple Python example, what happens if fire is called from an empty source?",
+          "c": [
+            "It returns False without changing the marking",
+            "It creates a negative token",
+            "It always returns True",
+            "It clears every place"
+          ],
+          "why": "The source count is checked before any token is moved."
+        }
+      ]
+    },
+    {
+      "id": "dmkeypad",
+      "course": "cpsc222",
+      "name": "Keypad lock states and Python traces",
+      "source": "Original study material adapted from the user-provided Moore, Mealy, Petri and FSM lecture, slides 29-31. The source deck and instructor names are not published.",
+      "notes": [
+        "The teaching code is 3, 1, 4, 1. State k counts the correct digits entered so far.",
+        "A correct next digit advances k by one. A wrong digit resets k to 0, even if that digit is 3.",
+        "State 4 is OPEN. The sample Python function stops processing further digits after reaching state 4.",
+        "For a Moore lock, output OPEN at state 4 and LOCKED at states 0 through 3."
+      ],
+      "gloss": [
+        [
+          "Prefix state k",
+          "The number of correct code digits entered so far"
+        ],
+        [
+          "Start state 0",
+          "No correct prefix is currently stored"
+        ],
+        [
+          "OPEN state 4",
+          "All four code digits have matched"
+        ],
+        [
+          "Mismatch reset",
+          "A wrong digit resets k to 0 in this teaching model"
+        ]
+      ],
+      "lessons": [
+        {
+          "t": "Trace code 3, 1, 4, 1",
+          "idea": [
+            "The teaching code is 3, 1, 4, 1. State k counts the correct digits entered so far.",
+            "A correct next digit advances k by one. A wrong digit resets k to 0, even if that digit is 3.",
+            "State 4 is OPEN. The sample Python function stops processing further digits after reaching state 4.",
+            "For a Moore lock, output OPEN at state 4 and LOCKED at states 0 through 3."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "Start at k = 0. Inputs 3, 1, 4 advance to states 1, 2, 3."
+            },
+            {
+              "text": "A final 1 advances to state 4, so the lock opens."
+            },
+            {
+              "text": "For 3, 1, 9, 3, 1, 4, 1, the full state path is 0, 1, 2, 0, 1, 2, 3, 4."
+            },
+            {
+              "text": "Run the example and compare the output with the trace above.",
+              "code": "CODE = (3, 1, 4, 1)\ndef run_keypad(inputs):\n    k = 0\n    for digit in inputs:\n        if k == len(CODE):\n            break\n        k = k + 1 if digit == CODE[k] else 0\n    return k == len(CODE)\nprint(run_keypad([3, 1, 9, 3, 1, 4, 1]))  # True"
+            }
+          ]
+        },
+        {
+          "t": "Explain the final slide questions",
+          "idea": [
+            "The teaching code is 3, 1, 4, 1. State k counts the correct digits entered so far.",
+            "A correct next digit advances k by one. A wrong digit resets k to 0, even if that digit is 3.",
+            "State 4 is OPEN. The sample Python function stops processing further digits after reaching state 4.",
+            "For a Moore lock, output OPEN at state 4 and LOCKED at states 0 through 3."
+          ],
+          "recipe": [
+            "Identify the starting state or marking.",
+            "Apply each input or enabled transition in order.",
+            "Check the resulting state and output."
+          ],
+          "oops": [
+            "Keep the current state, input and output separate when tracing."
+          ],
+          "steps": [
+            {
+              "text": "After 3, 1, 4, the machine is in state 3, with one digit still needed."
+            },
+            {
+              "text": "After 3, 1, 2, the wrong digit 2 resets the machine to state 0."
+            },
+            {
+              "text": "A Moore representation assigns OPEN to state 4 and LOCKED to states 0, 1, 2 and 3."
+            },
+            {
+              "text": "This model resets on every mismatch. It does not preserve a new possible code prefix, and the sample implementation stops once opened."
+            }
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "q": "For code 3, 1, 4, 1, what state follows inputs 3, 1, 4?",
+          "c": [
+            "3",
+            "4",
+            "0",
+            "1"
+          ],
+          "why": "Three correct digits have matched; the final 1 is still needed."
+        },
+        {
+          "q": "For the lecture keypad, what state follows inputs 3, 1, 2?",
+          "c": [
+            "0",
+            "2",
+            "3",
+            "4"
+          ],
+          "why": "The digit 2 is a mismatch and resets the state to 0."
+        },
+        {
+          "q": "How should OPEN be represented as a Moore output for this keypad?",
+          "c": [
+            "OPEN at state 4 and LOCKED at states 0 through 3",
+            "OPEN on every input of 1",
+            "OPEN only at the start state",
+            "OPEN on every wrong-digit transition"
+          ],
+          "why": "The Moore output is attached to the current state."
+        },
+        {
+          "q": "What does keypad state k count?",
+          "c": [
+            "Correct code digits entered so far",
+            "Total digits ever entered",
+            "Number of failed users",
+            "Digits remaining in every case"
+          ],
+          "why": "State k records the length of the correct prefix in this teaching model."
+        },
+        {
+          "q": "What state path follows 3, 1, 9, 3, 1, 4, 1 including the start?",
+          "c": [
+            "0, 1, 2, 0, 1, 2, 3, 4",
+            "0, 1, 2, 3, 0, 1, 2, 3",
+            "0, 1, 2, 2, 3, 4, 4, 4",
+            "0, 0, 1, 0, 1, 2, 3, 4"
+          ],
+          "why": "9 resets to 0; the following complete code reaches 4."
+        },
+        {
+          "q": "Starting at 0, what state follows keypad inputs 3, 3 in this teaching model?",
+          "c": [
+            "0",
+            "1",
+            "2",
+            "4"
+          ],
+          "why": "The second 3 mismatches the expected 1. It resets to 0 even though 3 could begin a new prefix."
+        },
+        {
+          "q": "What does the lecture run_keypad function do after reaching state 4?",
+          "c": [
+            "Stops consuming later digits and returns True",
+            "Resets on every later digit",
+            "Always returns False",
+            "Continues indexing CODE at index 4"
+          ],
+          "why": "The loop checks for the completed code before indexing the tuple."
+        },
+        {
+          "q": "For the lecture keypad, what does run_keypad return for empty input?",
+          "c": [
+            "False",
+            "True",
+            "OPEN",
+            "A state of 4"
+          ],
+          "why": "No digit matched, so k remains 0 and k == len(CODE) is False."
         }
       ]
     }

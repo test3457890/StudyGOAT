@@ -68,7 +68,7 @@ await page.evaluate(()=>certSources());assert(await page.evaluate(()=>document.d
 await page.setViewportSize({width:1280,height:800});
 // Uploaded lecture content is part of the existing discrete class.
 await page.evaluate(()=>enterCourse('cpsc222'));
-for(const topic of ['dmfsm','dmturnstile','dmsuffixdfa','dmfsmpython']){
+for(const topic of ['dmfsm','dmturnstile','dmsuffixdfa','dmfsmpython','dmmoore','dmmealy','dmpetri','dmkeypad']){
  await page.evaluate(topic=>practice(topic),topic);await page.evaluate(()=>answer(cur.choices.indexOf(cur.answer)));assert.match(await page.locator('#fb').innerText(),/Correct/);
  for(let i=0;i<2;i++){await page.evaluate(({topic,i})=>learn(topic,i),{topic,i});await page.evaluate(()=>{while(LS.i<LS.steps.length-1)stepGo(1)});assert(await page.locator('#lc').isVisible());}
 }
@@ -79,6 +79,9 @@ assert.match(await page.locator('#fsmState').innerText(),/Current state: Unlocke
 await page.getByRole('button',{name:'Reset turnstile',exact:true}).click();assert.match(await page.locator('#fsmState').innerText(),/Locked; vector \[1,0\]. No events/);
 for(const [word,result] of [['1101','Accepted.'],['011','Rejected.'],['','Rejected.'],['10x','Use only 0 and 1.']]){
  await page.locator('#fsmWord').fill(word);await page.getByRole('button',{name:'Trace string',exact:true}).click();assert((await page.locator('#fsmResult').innerText()).includes(result));
+}
+for(const [word,result] of [['314','Final state: 3. LOCKED.'],['312','Final state: 0. LOCKED.'],['3141','Final state: 4. OPEN.'],['3193141','Final state: 4. OPEN.'],['33','Final state: 0. LOCKED.'],['31419','remaining digits ignored.'],['','Final state: 0. LOCKED.'],['3x','Use only digits']]){
+ await page.locator('#keypadDigits').fill(word);await page.getByRole('button',{name:'Trace keypad',exact:true}).click();assert((await page.locator('#keypadResult').innerText()).includes(result),word);
 }
 await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'FSM lab mobile overflow');
 await page.setViewportSize({width:1280,height:800});

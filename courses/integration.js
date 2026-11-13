@@ -11,7 +11,7 @@ let fsmState=CERT.classModels?.turnstile.initial, fsmTrace=[];
 function fsmLab(){
   screen='fsm';LS=null;quiz=null;cur=null;activePrep=null;if(EX?.timer)clearInterval(EX.timer);drawNav();
   const m=CERT.classModels.turnstile;
-  view.innerHTML=`<div class="card"><h2>Finite state machine lab</h2><p>CPSC 222: turnstile, row-vector matrices and the ending-01 DFA.</p><button onclick="home()">Back to class</button><h3>Turnstile</h3><p>State order: Locked, Unlocked. Rows represent current states; columns represent next states.</p><p>M_coin = [[0,1],[0,1]]<br>M_push = [[1,0],[1,0]]</p><button onclick="fsmEvent('coin')">Insert coin</button><button onclick="fsmEvent('push')">Push gate</button><button onclick="fsmReset()">Reset turnstile</button><div id="fsmState" role="status"></div><h3>Binary strings ending in 01</h3><p>Start q0; only q2 accepts. Empty input is allowed and rejected.</p><label>Binary string <input id="fsmWord" inputmode="numeric" placeholder="1101"></label><button onclick="fsmRecognize()">Trace string</button><div id="fsmResult" role="status"></div></div>`;
+  view.innerHTML=`<div class="card"><h2>Finite state machine lab</h2><p>CPSC 222: turnstile, row-vector matrices, the ending-01 DFA and a keypad lock.</p><button onclick="home()">Back to class</button><h3>Turnstile</h3><p>State order: Locked, Unlocked. Rows represent current states; columns represent next states.</p><p>M_coin = [[0,1],[0,1]]<br>M_push = [[1,0],[1,0]]</p><button onclick="fsmEvent('coin')">Insert coin</button><button onclick="fsmEvent('push')">Push gate</button><button onclick="fsmReset()">Reset turnstile</button><div id="fsmState" role="status"></div><h3>Binary strings ending in 01</h3><p>Start q0; only q2 accepts. Empty input is allowed and rejected.</p><label>Binary string <input id="fsmWord" inputmode="numeric" placeholder="1101"></label><button onclick="fsmRecognize()">Trace string</button><div id="fsmResult" role="status"></div><h3>Keypad lock: 3, 1, 4, 1</h3><p>State k counts correct digits. A wrong digit resets to 0. State 4 outputs OPEN and stops processing. States 0 through 3 output LOCKED.</p><label>Keypad digits <input id="keypadDigits" inputmode="numeric" placeholder="3193141"></label><button onclick="keypadRecognize()">Trace keypad</button><div id="keypadResult" role="status"></div></div>`;
   fsmRender();
 }
 function fsmRender(){document.getElementById('fsmState').textContent='Current state: '+fsmState+'; vector '+(fsmState==='Locked'?'[1,0]':'[0,1]')+'. '+(fsmTrace.length?'Trace: '+fsmTrace.join(' → '):'No events yet.');}
@@ -24,6 +24,14 @@ function fsmRecognize(){
   const m=CERT.classModels.suffix01;let state=m.initial;const trace=[state];
   for(const ch of word){state=m.delta[state][ch];trace.push(ch+': '+state);}
   out.textContent=(word||'Empty string')+': '+trace.join(' → ')+'. Final state: '+state+'. '+(m.accepting.includes(state)?'Accepted.':'Rejected.');
+}
+function keypadRecognize(){
+  const word=document.getElementById('keypadDigits').value,out=document.getElementById('keypadResult');
+  if(!/^[0-9]*$/.test(word)){out.textContent='Use only digits 0 through 9, without spaces.';return;}
+  if(word.length>256){out.textContent='Use at most 256 digits for a readable trace.';return;}
+  const m=CERT.classModels.keypad;let k=m.initial,used=0;const trace=['0 (LOCKED)'];
+  for(const ch of word){if(k===m.open)break;k=Number(ch)===m.code[k]?k+1:0;used++;trace.push(ch+': '+k+' ('+(k===m.open?'OPEN':'LOCKED')+')');}
+  out.textContent=(word||'Empty input')+': '+trace.join(' → ')+'. Final state: '+k+'. '+(k===m.open?'OPEN.':'LOCKED.')+(used<word.length?' Stopped after '+used+' digits; remaining digits ignored.':'');
 }
 const certTrack = () => CERT.tracks.find(t => t.id === CC);
 const certTopic = id => CERT.tracks.flatMap(t => t.topics).find(t => t.id === id);
@@ -349,7 +357,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,keypadRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();
