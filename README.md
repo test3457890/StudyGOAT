@@ -13,7 +13,7 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 ## Study program status
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -21,7 +21,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -52,7 +52,7 @@ Each new track includes source links, section/objective mappings, version notice
 
 Current CompTIA V7/V8 pages returned 403. The accessible SY0-701 objectives document is version 6.0; latest revision and exam availability require rechecking. No SY0-801 track is offered.
 
-The corrected NCVEC pool and diagrams could not be retrieved directly. Technician study currently uses original rule questions, with no official-pool simulation. WFA is provider-neutral and excludes treatment algorithms, medication doses and evacuation thresholds pending provider and clinical review. CAP content uses public national pages and excludes controlled exams. StudyGOAT awards no credentials or official credit and has no affiliation with the named providers.
+Technician includes all 409 NCVEC public-domain pool questions and three diagrams from the revised release hosted by KP4ARA Laurel VE Team. Separate 35-question practice exams sample one question per official group. The original teaching curriculum remains partial. WFA is provider-neutral and excludes treatment algorithms, medication doses and evacuation thresholds pending provider and clinical review. CAP content uses public national pages and excludes controlled exams. StudyGOAT awards no credentials or official credit and has no affiliation with the named providers.
 
 ## Documentation
 
@@ -101,6 +101,6 @@ The next November 12 batch adds selected Delaware, Georgia, Hawaii, Idaho, Illin
 
 November 12 continuation: Kentucky, Louisiana, Maine and Maryland now each have four selected lessons and eight original questions. These partial courses do not replace complete current manuals or licensing checks. Exact state names and postal abbreviations take priority over substring alternatives in driving search.
 
-November 12 Technician expansion: separate study for 391 public-domain NCVEC text questions, with official IDs/keys, four published corrections, group/ID search and saved missed-only review. Six text items and twelve diagram questions are explicitly excluded. No complete pool or official exam simulation is claimed. See the [Technician Wiki](https://github.com/test3457890/StudyGOAT/wiki/Amateur-Radio-Technician).
+November 12 Technician completion: all 409 public-domain NCVEC questions, all three diagrams, four published corrections, group/ID search and saved missed-only review. Practice exams sample one question from each of 35 groups and reveal the answer key after submission. An optional 45-minute study timer is a StudyGOAT choice, not an official time limit. Complete teaching explanations remain pending. See the [Technician Wiki](https://github.com/test3457890/StudyGOAT/wiki/Amateur-Radio-Technician).
 
 November 12 FAA operating-rules expansion adds 16 lessons and 64 original questions on night/twilight, Categories 1-4 over people, moving vehicles, preflight, reporting and waiver limits. FAA totals are 35 lessons and 146 questions. This remains partial drone-certificate preparation, with full ACS/chart coverage and independent review pending.

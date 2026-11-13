@@ -1,7 +1,7 @@
 # Coverage checklist
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -9,7 +9,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -104,12 +104,12 @@ See the generated state-by-state inventory below for actual availability. Every 
 
 ### Amateur Radio Technician
 
-- [x] Separate study mode for 391 public-domain NCVEC text questions, with official IDs and answer keys
+- [x] Separate study mode for all 409 public-domain NCVEC questions, with official IDs and answer keys
 - [x] Apply four February 19, 2026 prompt corrections and check ARRL withdrawals
 - [x] Group and ID filtering, saved missed-only review, locked feedback and validity guard
-- [ ] Verify T5B03-T5B08 against the complete corrected primary source
-- [ ] Validate three diagrams and restore twelve figure questions
-- [ ] Complete 35-group exam sampling after the full pool is verified
+- [x] Verify T5B03-T5B08 against the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team
+- [x] Validate three diagrams and restore twelve figure questions
+- [x] Complete 35-group exam sampling, deferred answer review, scoring and optional study timer
 - [ ] Expand teaching lessons and explanations
 
 ### Arizona Driving Prep
@@ -154,7 +154,7 @@ See the generated state-by-state inventory below for actual availability. Every 
 
 ## Unresolved source checks
 
-November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY0-701 version 6.0 objectives baseline remains accessible; current availability and latest revision are not confirmed. Official NCVEC 2026-2030 download page returned 403. ARRL confirms the February 19 revision and 2026-2030 pool period, but the full corrected official pool and diagrams have not been independently imported or validated. Official-pool mode stays disabled.
+November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY0-701 version 6.0 objectives baseline remains accessible; current availability and latest revision are not confirmed. The NCVEC download page returned 403. On November 12 the complete revised NCVEC PDF was retrieved from the KP4ARA Laurel VE Team mirror, all 409 questions compared, and all three diagrams checked. Complete pool study and 35-group practice exams are enabled. Teaching explanations remain partial.
 
 
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.

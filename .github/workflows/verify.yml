@@ -12,5 +12,7 @@ jobs:
           node-version: 22
       - run: npm install --ignore-scripts
       - run: npx playwright install chromium
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: npm run test:pool
       - run: npm test
       - run: npm run test:browser

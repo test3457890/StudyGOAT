@@ -48,14 +48,17 @@ for(const file of Object.keys(status.managed).filter(f=>status.managed[f].includ
 console.log('PASS: generated documentation matches catalog; per-track counts occur once');
 
 // Public-domain pool subset is independently counted, with an explicit exclusion inventory.
-const pool=data.technicianPool;assert.equal(pool.status,'partial');assert.equal(pool.expectedCount,409);assert.equal(pool.questions.length,391);assert.equal(pool.availableCount,391);
-assert.equal(pool.excluded.length,18);assert.equal(new Set([...pool.questions,...pool.excluded].map(q=>q.id)).size,409);
+const pool=data.technicianPool;assert.equal(pool.status,'complete');assert.equal(pool.expectedCount,409);assert.equal(pool.questions.length,409);assert.equal(pool.availableCount,409);
+assert.equal(pool.excluded.length,0);assert.equal(new Set([...pool.questions,...pool.excluded].map(q=>q.id)).size,409);
 assert.equal(pool.groups.length,35);assert.deepEqual([...new Set(pool.questions.map(q=>q.group))].sort(),pool.groups);
-for(const q of pool.questions){assert.match(q.id,/^T\d[A-Z]\d\d$/);assert.equal(q.group,q.id.slice(0,3));assert.equal(q.choices.length,4);assert.equal(new Set(q.choices).size,4);assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<=3);assert(!/figure T-/i.test(q.q));assert.equal(q.source,pool.source);assert(data.sources[pool.source].sections.includes(q.group));}
-for(let i=3;i<=8;i++)assert(pool.excluded.some(q=>q.id===`T5B0${i}`&&/primary-source/.test(q.reason)));
-assert.equal(pool.excluded.filter(q=>/diagram/.test(q.reason)).length,12);
+for(const q of pool.questions){assert.match(q.id,/^T\d[A-Z]\d\d$/);assert.equal(q.group,q.id.slice(0,3));assert.equal(q.choices.length,4);assert.equal(new Set(q.choices).size,4);assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<=3);if(/figure T-/i.test(q.q))assert(pool.figures[q.figure]);assert.equal(q.source,pool.source);assert(data.sources[pool.source].sections.includes(q.group));}
+for(let i=3;i<=8;i++)assert(pool.questions.some(q=>q.id===`T5B0${i}`));
+assert.equal(pool.questions.filter(q=>q.figure).length,12);assert.equal(Object.keys(pool.figures).length,3);
 const corrections={T1C01:'For which classes of amateur radio licenses does the FCC currently issue new licenses?',T5A05:'A difference in which of the following causes electron flow?',T7A09:'What is the function of the switch which selects either SSB or CW-FM on some VHF power amplifiers?',T0A10:'What hazard exists when rapidly charging or discharging an unprotected battery?'};
 for(const [id,text] of Object.entries(corrections)){assert.equal(pool.questions.find(q=>q.id===id).q,text);assert.equal(pool.corrections[id],text);}
-assert.deepEqual(pool.withdrawals,[]);assert.equal(pool.provenance.crossCheckedQuestions,403);assert.equal(pool.provenance.answerKeyMismatches,0);
+assert.deepEqual(pool.withdrawals,[]);assert.equal(pool.provenance.crossCheckedQuestions,409);assert.equal(pool.provenance.answerKeyMismatches,0);
 const crypto=require('node:crypto');assert.equal(crypto.createHash('sha256').update(JSON.stringify(pool.questions)).digest('hex'),pool.provenance.importedQuestionsSha256,'Pool text changed after source comparison; revalidate before updating fingerprint');
-console.log('PASS: 391 NCVEC text items, four errata, 35 groups, 18 explicit exclusions and source-comparison fingerprint');
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(pool.provenance.sourcePdfPath)).digest('hex'),pool.provenance.sourcePdfSha256);
+for(const f of Object.values(pool.figures)){assert.match(f.dataUrl,/^data:image\/png;base64,/);assert.equal(crypto.createHash('sha256').update(Buffer.from(f.dataUrl.split(',')[1],'base64')).digest('hex'),f.sha256);assert(f.alt&&f.pdfPage);}
+assert.equal(pool.exam.questionCount,pool.groups.length);assert.equal(pool.exam.passCount,26);
+console.log('PASS: all 409 NCVEC items, four errata, 35 groups, three diagrams, PDF and import fingerprints');
