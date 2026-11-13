@@ -160,3 +160,6 @@ These links support official-reading assignments. Complete edition, licensing an
 | Pennsylvania | [Pennsylvania Driver Manual](https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual) |
 | Rhode Island | [Rhode Island Operator Manuals](https://dmv.ri.gov/licenses-permits-ids/permits-tests/operator-manuals?language=en) |
 | District of Columbia | [DC Automobile Driver Manual](https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual) |
+
+
+November 13 lighting review: 50 selected state sources and locators are recorded under drivingLighting and sources in the catalog. Numeric dimming pairs are asserted for 40 states only. See Driving Lighting Review.md for the exact mapping. Security+ weights come from the SY0-701 objectives PDF page 3; FAA area ranges come from ACS Appendix 1, PDF page 27. CAP aerospace foundations use public NASA/FAA/CISA/NIST sources and original questions, not controlled CAP test items.

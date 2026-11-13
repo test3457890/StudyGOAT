@@ -44,6 +44,23 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
+// Weighted MC allocation, timer, results, and reset through the actual UI.
+for(const [id,n,minutes] of [['security701',90,90],['faa107',60,120]]){
+ await page.evaluate(id=>{enterCourse(id);examSetup()},id);
+ await page.locator('#certMode').selectOption('weighted');await page.locator('#certMinutes').selectOption(String(minutes));
+ await page.getByRole('button',{name:'Start practice',exact:true}).click();
+ const allocation=await page.evaluate(()=>{const bp=EX.studyBlueprint;return {n:EX.n,m:EX.m,unique:new Set(EX.items.map(it=>it.q.sourceId)).size,groups:bp.groups.map(g=>[g.count,EX.items.filter(it=>bp.assignments[it.q.sourceId]===g.id).length])}});
+ assert.equal(allocation.n,n);assert.equal(allocation.m,minutes);assert.equal(allocation.unique,n);for(const [expected,actual] of allocation.groups)assert.equal(actual,expected);
+ await page.evaluate(()=>{EX.items.forEach((it,i)=>EX.ans[i]=it.q.choices.indexOf(it.q.answer));exSubmit(false)});
+ assert.match(await page.locator('.score').innerText(),/100%/);assert.equal(await page.locator('#practiceDomainResults tbody tr').count(),5);
+ for(const row of await page.locator('#practiceDomainResults tbody tr').all()){assert.equal(await row.locator('td').nth(2).innerText(),'100%');assert.equal(await row.locator('td').nth(3).innerText(),'0');}
+ await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Weighted result overflow');await page.setViewportSize({width:1280,height:900});
+ await page.evaluate(()=>examSetup());await page.locator('#certMode').selectOption('weighted');await page.getByRole('button',{name:'Start practice',exact:true}).click();
+ await page.evaluate(()=>{EX.items.forEach((it,i)=>{if(i>1)EX.ans[i]=it.q.choices.indexOf(it.q.answer);else if(i===1)EX.ans[i]=(it.q.choices.indexOf(it.q.answer)+1)%4});EX.end=Date.now()-1;exTick()});
+ assert.match(await page.locator('.score').innerText(),/Time ran out/);
+ const rows=await page.locator('#practiceDomainResults tbody tr').all();let correct=0,total=0,blank=0;for(const row of rows){const parts=(await row.locator('td').nth(1).innerText()).split('/').map(Number);correct+=parts[0];total+=parts[1];blank+=Number(await row.locator('td').nth(3).innerText());}assert.equal(total,n);assert.equal(correct,n-2);assert.equal(blank,1);
+ await page.evaluate(()=>{examSetup();startCertExam()});assert.equal(await page.evaluate(()=>EX.n),10);assert.equal(await page.locator('#practiceDomainResults').count(),0);
+}
 // Objective navigation scopes practice by question objectives, including shared topics.
 await page.evaluate(()=>enterCourse('security701'));
 await page.getByRole('button',{name:'Browse 28 objective areas',exact:true}).click();

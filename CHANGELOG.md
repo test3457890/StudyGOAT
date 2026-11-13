@@ -1,3 +1,7 @@
+# November 13, 2026: selected lighting, weighted practice and aerospace
+
+Added 100 state-specific selected lighting lessons and 200 questions across 50 states. Added weighted Security+ (90) and Part 107 (60) multiple-choice practice with area results and optional timers. Added seven CAP aerospace foundation banks (14 lessons, 56 questions). Repaired Georgia and Ohio manual destinations. Full curriculum and independent review gaps remain explicit.
+
 # Changelog
 
 ## November 13, 2026: guided study depth and saved official-reading paths

@@ -13,66 +13,66 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 ## Study program status
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 442 lessons and 1242 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 556 lessons and 1498 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
 | FAA Part 107 | 49 | 174 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
-| CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
+| CAP Cadet Study | 52 | 212 | Selected lessons in 16 Learn to Lead chapters and seven aerospace foundation banks |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
 | Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |
-| Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
-| New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
-| California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
-| New York Driving Prep | 4 | 16 | Selected New York signals and intersection conflicts |
+| Arizona Driving Prep | 8 | 34 | Selected Arizona signs, signals, yielding and crossings + selected lighting study |
+| New Jersey Driving Prep | 8 | 28 | Selected NJ intersections, turns and school-bus situations + selected lighting study |
+| California Driving Prep | 6 | 20 | Selected California turns, merging and lane changes + selected lighting study |
+| New York Driving Prep | 6 | 20 | Selected New York signals and intersection conflicts + selected lighting study |
 | Driving Safety Foundations | 4 | 16 | Shared national safety principles; not state-specific permit prep |
-| Texas Driving Prep | 4 | 16 | Selected Texas signals and school-bus roadway exceptions |
-| Florida Driving Prep | 4 | 16 | Selected Florida signals and school-bus median exceptions |
-| Alabama Driving Prep | 4 | 16 | Selected Alabama roundabouts and right-of-way conflicts |
-| Alaska Driving Prep | 4 | 16 | Selected Alaska uncontrolled intersections and lighting |
-| Arkansas Driving Prep | 4 | 16 | Selected Arkansas signals and railroad-crossing decisions |
-| Colorado Driving Prep | 4 | 16 | Colorado DMV mountain and winter safety guidance |
-| Connecticut Driving Prep | 4 | 16 | Selected Connecticut markings and lane-change observation |
-| Delaware Driving Prep | 4 | 16 | Selected Delaware ordinary signals and directional arrows |
-| Georgia Driving Prep | 4 | 16 | Selected Georgia passing and school-bus layouts |
-| Hawaii Driving Prep | 4 | 16 | Hawaii wet-weather and freeway safety principles |
-| Idaho Driving Prep | 4 | 16 | Selected Idaho large-vehicle and animal encounters |
-| Illinois Driving Prep | 4 | 16 | Selected Illinois school-bus, lane and pedestrian signals |
-| Indiana Driving Prep | 4 | 16 | Selected Indiana roundabouts and tractor-trailer space |
-| Iowa Driving Prep | 4 | 16 | Iowa rural-road, night and deer safety principles |
-| Kansas Driving Prep | 4 | 16 | Kansas rural-road and work-zone safety principles |
-| Kentucky Driving Prep | 4 | 8 | Selected Kentucky railroad crossings and roundabouts |
-| Louisiana Driving Prep | 4 | 8 | Louisiana fog, rain and nighttime observation |
-| Maine Driving Prep | 4 | 8 | Maine fatigue and distraction safety guidance |
-| Maryland Driving Prep | 4 | 8 | Selected Maryland railroad and work-zone decisions |
-| Massachusetts Driving Prep | 4 | 8 | Selected stop and yield decisions; railroad warning decisions |
-| Michigan Driving Prep | 4 | 8 | Selected roundabout approach and lane choice; roundabout vehicle sharing |
-| Minnesota Driving Prep | 4 | 8 | Selected roundabout entry and circulation; roundabout lane and large-vehicle space |
-| Mississippi Driving Prep | 4 | 8 | Selected rural and slow-moving road users; railroad signals and gates |
-| Missouri Driving Prep | 4 | 8 | Selected speed for actual conditions; railroad crossing clearance |
-| Montana Driving Prep | 4 | 8 | Selected roundabout entry and exit; pedestrians and large vehicles in roundabouts |
-| Nebraska Driving Prep | 4 | 8 | Selected quiet-zone crossing warnings; railroad exit space and multiple tracks |
-| Nevada Driving Prep | 4 | 8 | Selected roundabout entry and pedestrian crossings; multi-lane roundabout sharing |
-| New Hampshire Driving Prep | 4 | 8 | Selected single-lane roundabout entry and exit; roundabout emergency and bicycle sharing |
-| New Mexico Driving Prep | 4 | 8 | Selected railroad observation and clearance; using lights in limited visibility |
-| North Carolina Driving Prep | 4 | 8 | Selected roundabout lanes and road sharing; railroad gates and warning signals |
-| North Dakota Driving Prep | 4 | 8 | Selected roundabout route and lane discipline; roundabout large-vehicle and emergency space |
-| Ohio Driving Prep | 4 | 8 | Selected roundabout lane and exit decisions; lane-change observation |
-| Oklahoma Driving Prep | 4 | 8 | Selected ordinary and flashing traffic signals; pedestrian and overhead lane signals |
-| Oregon Driving Prep | 4 | 8 | Selected roundabout entry and exit conflicts; multi-lane and emergency decisions |
-| Pennsylvania Driving Prep | 4 | 8 | Selected divided-highway left turns; jughandles and clear intersection paths |
-| Rhode Island Driving Prep | 4 | 8 | Selected single-lane rotary movements; cyclists and pedestrians at rotaries |
-| South Carolina Driving Prep | 4 | 8 | Selected roundabout approach and departure; safe lane-change observations |
-| South Dakota Driving Prep | 4 | 8 | Selected intersection gap decisions; roundabout sharing and emergency access |
-| Tennessee Driving Prep | 4 | 8 | Selected roundabout entry and route; missed exits and roundabout sharing |
-| Utah Driving Prep | 4 | 8 | Selected roundabout observation; green and flashing traffic signals |
-| Vermont Driving Prep | 4 | 8 | Selected roundabout lane planning; roundabout exits and emergency vehicles |
-| Virginia Driving Prep | 4 | 8 | Selected roundabout priority and route; changing lanes safely |
-| Washington Driving Prep | 4 | 8 | Selected roundabout lanes and sharing; diverging diamond guidance |
-| West Virginia Driving Prep | 4 | 8 | Selected fog and smoke visibility; fatigue and driver readiness |
-| Wisconsin Driving Prep | 4 | 8 | Selected roundabout lane and pedestrian decisions; roundabout emergency and truck sharing |
-| Wyoming Driving Prep | 4 | 8 | Selected nighttime observation and clean glass; fog and reduced visibility |
+| Texas Driving Prep | 6 | 20 | Selected Texas signals and school-bus roadway exceptions + selected lighting study |
+| Florida Driving Prep | 6 | 20 | Selected Florida signals and school-bus median exceptions + selected lighting study |
+| Alabama Driving Prep | 6 | 20 | Selected Alabama roundabouts and right-of-way conflicts + selected lighting study |
+| Alaska Driving Prep | 6 | 20 | Selected Alaska uncontrolled intersections and lighting + selected lighting study |
+| Arkansas Driving Prep | 6 | 20 | Selected Arkansas signals and railroad-crossing decisions + selected lighting study |
+| Colorado Driving Prep | 6 | 20 | Colorado DMV mountain and winter safety guidance + selected lighting study |
+| Connecticut Driving Prep | 6 | 20 | Selected Connecticut markings and lane-change observation + selected lighting study |
+| Delaware Driving Prep | 6 | 20 | Selected Delaware ordinary signals and directional arrows + selected lighting study |
+| Georgia Driving Prep | 6 | 20 | Selected Georgia passing and school-bus layouts + selected lighting study |
+| Hawaii Driving Prep | 6 | 20 | Hawaii wet-weather and freeway safety principles + selected lighting study |
+| Idaho Driving Prep | 6 | 20 | Selected Idaho large-vehicle and animal encounters + selected lighting study |
+| Illinois Driving Prep | 6 | 20 | Selected Illinois school-bus, lane and pedestrian signals + selected lighting study |
+| Indiana Driving Prep | 6 | 20 | Selected Indiana roundabouts and tractor-trailer space + selected lighting study |
+| Iowa Driving Prep | 6 | 20 | Iowa rural-road, night and deer safety principles + selected lighting study |
+| Kansas Driving Prep | 6 | 20 | Kansas rural-road and work-zone safety principles + selected lighting study |
+| Kentucky Driving Prep | 6 | 12 | Selected Kentucky railroad crossings and roundabouts + selected lighting study |
+| Louisiana Driving Prep | 6 | 12 | Louisiana fog, rain and nighttime observation + selected lighting study |
+| Maine Driving Prep | 6 | 12 | Maine fatigue and distraction safety guidance + selected lighting study |
+| Maryland Driving Prep | 6 | 12 | Selected Maryland railroad and work-zone decisions + selected lighting study |
+| Massachusetts Driving Prep | 6 | 12 | Selected stop and yield decisions; railroad warning decisions; selected night-lighting study + selected lighting study |
+| Michigan Driving Prep | 6 | 12 | Selected roundabout approach and lane choice; roundabout vehicle sharing; selected night-lighting study + selected lighting study |
+| Minnesota Driving Prep | 6 | 12 | Selected roundabout entry and circulation; roundabout lane and large-vehicle space; selected night-lighting study + selected lighting study |
+| Mississippi Driving Prep | 6 | 12 | Selected rural and slow-moving road users; railroad signals and gates; selected night-lighting study + selected lighting study |
+| Missouri Driving Prep | 6 | 12 | Selected speed for actual conditions; railroad crossing clearance; selected night-lighting study + selected lighting study |
+| Montana Driving Prep | 6 | 12 | Selected roundabout entry and exit; pedestrians and large vehicles in roundabouts; selected night-lighting study + selected lighting study |
+| Nebraska Driving Prep | 6 | 12 | Selected quiet-zone crossing warnings; railroad exit space and multiple tracks; selected night-lighting study + selected lighting study |
+| Nevada Driving Prep | 6 | 12 | Selected roundabout entry and pedestrian crossings; multi-lane roundabout sharing; selected night-lighting study + selected lighting study |
+| New Hampshire Driving Prep | 6 | 12 | Selected single-lane roundabout entry and exit; roundabout emergency and bicycle sharing; selected night-lighting study + selected lighting study |
+| New Mexico Driving Prep | 6 | 12 | Selected railroad observation and clearance; using lights in limited visibility; selected night-lighting study + selected lighting study |
+| North Carolina Driving Prep | 6 | 12 | Selected roundabout lanes and road sharing; railroad gates and warning signals; selected night-lighting study + selected lighting study |
+| North Dakota Driving Prep | 6 | 12 | Selected roundabout route and lane discipline; roundabout large-vehicle and emergency space; selected night-lighting study + selected lighting study |
+| Ohio Driving Prep | 6 | 12 | Selected roundabout lane and exit decisions; lane-change observation; selected night-lighting study + selected lighting study |
+| Oklahoma Driving Prep | 6 | 12 | Selected ordinary and flashing traffic signals; pedestrian and overhead lane signals; selected night-lighting study + selected lighting study |
+| Oregon Driving Prep | 6 | 12 | Selected roundabout entry and exit conflicts; multi-lane and emergency decisions; selected night-lighting study + selected lighting study |
+| Pennsylvania Driving Prep | 6 | 12 | Selected divided-highway left turns; jughandles and clear intersection paths; selected night-lighting study + selected lighting study |
+| Rhode Island Driving Prep | 6 | 12 | Selected single-lane rotary movements; cyclists and pedestrians at rotaries; selected night-lighting study + selected lighting study |
+| South Carolina Driving Prep | 6 | 12 | Selected roundabout approach and departure; safe lane-change observations; selected night-lighting study + selected lighting study |
+| South Dakota Driving Prep | 6 | 12 | Selected intersection gap decisions; roundabout sharing and emergency access; selected night-lighting study + selected lighting study |
+| Tennessee Driving Prep | 6 | 12 | Selected roundabout entry and route; missed exits and roundabout sharing; selected night-lighting study + selected lighting study |
+| Utah Driving Prep | 6 | 12 | Selected roundabout observation; green and flashing traffic signals; selected night-lighting study + selected lighting study |
+| Vermont Driving Prep | 6 | 12 | Selected roundabout lane planning; roundabout exits and emergency vehicles; selected night-lighting study + selected lighting study |
+| Virginia Driving Prep | 6 | 12 | Selected roundabout priority and route; changing lanes safely; selected night-lighting study + selected lighting study |
+| Washington Driving Prep | 6 | 12 | Selected roundabout lanes and sharing; diverging diamond guidance; selected night-lighting study + selected lighting study |
+| West Virginia Driving Prep | 6 | 12 | Selected fog and smoke visibility; fatigue and driver readiness; selected night-lighting study + selected lighting study |
+| Wisconsin Driving Prep | 6 | 12 | Selected roundabout lane and pedestrian decisions; roundabout emergency and truck sharing; selected night-lighting study + selected lighting study |
+| Wyoming Driving Prep | 6 | 12 | Selected nighttime observation and clean glass; fog and reduced visibility; selected night-lighting study + selected lighting study |
 | District of Columbia Driving Prep | 4 | 8 | Selected speed, spacing and visibility; trip planning and attention |
 <!-- STUDYGOAT TABLE END -->
 
@@ -142,3 +142,6 @@ November 12 all-state expansion: the remaining 27 states and DC now have four se
 Use Open saved study path on a course home screen. The paths cover all 28 Security+ objective areas, 17 FAA ACS tasks, 16 CAP leadership chapters and seven aerospace module reading assignments, nine WFA provider-follow-up topics, all 35 Technician groups, and 13 manual-reading areas for each state and DC. Reading checks persist in existing progress and Settings backups. They record personal preparation, not graded mastery or official eligibility.
 
 Security+ includes access review plus fictional log-triage, allowlist and baseline exercises. Part 107 adds a synthetic altitude-reference chart lab. The Technician study path links both guided group lessons and practice for the exact published group. See [Completion Review](docs/Completion%20Review.md) for remaining curriculum and independent-review requirements.
+
+
+The current release adds selected lighting/night-visibility study across 50 states, seven CAP aerospace foundation banks, and weighted 90-question Security+ / 60-question Part 107 multiple-choice practice with raw study-area results. These selected banks do not establish full curriculum completion. See [completion review](docs/Completion%20Review.md).
