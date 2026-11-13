@@ -79,13 +79,13 @@ for(let chapter=1;chapter<=16;chapter++){
 }
 await page.evaluate(()=>menu());await page.locator('#courseCategories button').filter({hasText:'Driving Tests'}).click();
 assert.equal(await page.locator('#drivingState option').count(),51);
-// Every state-specific directory entry must reach its own course; pending entries must remain labeled.
+// Every state and DC now reaches its own course and exposes the matching official source.
 for(const j of await page.evaluate(()=>window.STUDYGOAT_CATALOG.drivingJurisdictions)){
  await page.evaluate(()=>drivingDirectory());await page.locator('#drivingState').selectOption(j.code);await page.getByRole('button',{name:'View availability',exact:true}).click();
  const availability=await page.locator('#drivingAvailability').innerText();
  assert(availability.includes(j.name+': '+(j.track?'partial course':'national foundations only')));
  assert.equal(await page.locator('#drivingAvailability button').count(),j.track?2:1);
- if(j.track){await page.getByRole('button',{name:`Open ${j.name} driving prep`,exact:true}).click();assert.equal(await page.evaluate(()=>CC),j.track);}
+ if(j.track){const source=await page.evaluate(id=>{const d=window.STUDYGOAT_CATALOG,t=d.tracks.find(t=>t.id===id);return d.sources[t.topics[0].refs[0].source].url;},j.track);assert.equal(await page.getByRole('link',{name:'Official source for these selected topics',exact:true}).getAttribute('href'),source);await page.getByRole('button',{name:`Open ${j.name} driving prep`,exact:true}).click();assert.equal(await page.evaluate(()=>CC),j.track);}
 }
 // All 50 states and DC expose real shared study without claiming state-specific completion.
 await page.evaluate(()=>drivingDirectory());

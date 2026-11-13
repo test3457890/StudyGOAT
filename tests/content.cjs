@@ -62,3 +62,10 @@ assert.equal(crypto.createHash('sha256').update(fs.readFileSync(pool.provenance.
 for(const f of Object.values(pool.figures)){assert.match(f.dataUrl,/^data:image\/png;base64,/);assert.equal(crypto.createHash('sha256').update(Buffer.from(f.dataUrl.split(',')[1],'base64')).digest('hex'),f.sha256);assert(f.alt&&f.pdfPage);}
 assert.equal(pool.exam.questionCount,pool.groups.length);assert.equal(pool.exam.passCount,26);
 console.log('PASS: all 409 NCVEC items, four errata, 35 groups, three diagrams, PDF and import fingerprints');
+
+// Every jurisdiction must expose its own sourced introductory material, not only the national bank.
+assert.equal(data.drivingJurisdictions.filter(j=>j.code!=='US-DC'&&j.track).length,50);
+assert(data.drivingJurisdictions.find(j=>j.code==='US-DC').track);
+assert.equal(new Set(data.drivingJurisdictions.map(j=>j.track)).size,51);
+for(const j of data.drivingJurisdictions){const t=data.tracks.find(t=>t.id===j.track);assert.equal(t.status,'partial');assert(t.topics.reduce((n,p)=>n+p.lessons.length,0)>=4);assert(t.topics.reduce((n,p)=>n+p.bank.length,0)>=8);assert(t.notice&&t.gaps.length);}
+console.log('PASS: all 50 states and DC have distinct partial courses, sourced lessons and original questions');

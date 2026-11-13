@@ -1,5 +1,11 @@
 # Changelog
 
+## November 12, 2026: all-state introductory driving courses
+
+- Added separate selected courses for the remaining 27 states and DC: 112 lessons and 224 original questions with official source sections and review limits.
+- All 50 states and DC now have jurisdiction-specific material; every course remains partial. Sourced totals: 57 tracks, 311 lessons and 1,020 original questions, plus 409 separate NCVEC pool questions.
+- Added direct official-source links in the driving directory and clarified jurisdiction counts. Preserved existing course IDs, progress, university classes and the once-counted national bank.
+
 ## November 12, 2026: complete Technician pool and practice exams
 
 - Restored six text and twelve diagram questions using the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team. All 409 public-domain questions and three published diagrams are available.
