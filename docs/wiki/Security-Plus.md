@@ -1,23 +1,25 @@
 # Security+ SY0-701
 
-Partial foundation slice: four lessons and 24 original questions. Covers introductory portions of objectives 1.2, 1.3 and 1.4. No claim of complete domain or exam coverage.
+StudyGOAT has 50 lessons and 172 original questions mapped to selected material in all 28 SY0-701 objective areas. Every objective remains partial. This is introductory coverage, not a complete certification course or validated full-exam simulation.
 
-Use Learn, Practice, Play, Mistakes and Practice Test. Sources and coverage shows links, sections, review dates and gaps. Scores are raw practice percentages, not CompTIA scaled scores.
+Open Security+ from Certifications, then choose Browse 28 objective areas or Sources & coverage. Each objective shows its selected topics, uncovered material and a practice button. Objective practice draws only questions tagged for that objective, without duplicates. Learn, Practice, Mistakes and short practice tests remain available. Scores are raw practice percentages, not CompTIA scaled scores.
 
-Sources checked 2026-11-09: [CompTIA objectives 6.0](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-701-exam-objectives-(6-0).pdf), [NIST SP 800-12 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf).
+The access review lab presents four fictional roles and 16 account/permission settings. Apply the stated least-privilege and offboarding requirements, check the result and correct the highlighted settings. It changes no real accounts. This is an original StudyGOAT exercise, not an official CompTIA performance-based question. A full set of practical exercises remains unfinished.
 
-Current exam availability and the latest objective revision require verification because the current CompTIA pages were inaccessible. No SY0-801 track is published. StudyGOAT is independent of CompTIA and does not reproduce official exam questions.
+## Coverage by domain
 
-## Additional study material, November 9, 2026
+| Domain | Selected material | Still needed |
+| --- | --- | --- |
+| 1 | Control purposes, CIA, identity/access, change planning and cryptographic basics | Deeper core concepts, PKI, algorithms, key management and practical comparisons |
+| 2 | Threat sources, phishing, weaknesses, evidence and mitigations | Broader attack vectors, vulnerability categories and attack analysis |
+| 3 | Dependencies, responsibility boundaries, network enforcement, data handling and backup basics | Cloud/OT/IoT models, detailed appliance/protocol selection, resilience designs and labs |
+| 4 | Hardening, inventory, vulnerability workflow, monitoring, enterprise controls, access, automation, response and investigation data | Platform configuration, full identity lifecycle, detection and forensic exercises |
+| 5 | Governance, risk decisions, supplier lifecycle, obligation mapping, assessment and awareness | Complete policy and compliance frameworks, assessment methods and program practice |
 
-Phishing recognition, reporting, unique passwords, MFA and software updates. Maps to selected material in objectives 2.2, 4.6 and 5.6. Source: CISA Secure Our World tip sheet (August 14, 2023).
+The in-app map lists more specific gaps for each objective. A mapped objective is not a completed objective.
 
-Current totals: 6 lessons and 32 questions. The course remains partial. Earlier counts above describe the first introductory release.
+## Sources and currency
 
-## Further curriculum expansion
+New material was checked November 13, 2026 against the accessible [CompTIA objectives version 6.0](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-701-exam-objectives-(6-0).pdf), [NIST SP 800-12 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf), [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) and [NIST IR 8286A Rev. 1](https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.8286Ar1.pdf). Existing CISA-backed lessons retain their individual review dates. Source sections, review dates and limitations appear in the application source register.
 
-Two backup-and-recovery lessons and eight original questions cover offline encrypted backups, restore testing and incident communications. Source: public CISA ransomware data-breach fact sheet, prevention items 1 to 2 and overview. Selected SY0-701 objectives 3.4 and 4.8. Current total: 8 lessons and 40 questions.
-
-## Latest curriculum expansion
-
-Current totals: 14 lessons and 64 questions. New lessons cover governance roles and policy (5.1), asset inventory and criticality (4.2), and incident triage, escalation, communication and mitigation (4.8). They use NIST CSF 2.0 with the accessible SY0-701 objectives baseline. Current CompTIA exam availability and latest objective revision remain unconfirmed. These selected topics do not complete any domain.
+Current CompTIA exam availability and the latest objective revision remain unconfirmed because the current product pages could not be verified. No SY0-801 track is published. Check CompTIA directly before choosing an exam or purchasing a voucher. StudyGOAT is independent of CompTIA. Its lessons, scenarios and questions are original; no official or recalled exam questions are reproduced.

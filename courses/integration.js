@@ -177,6 +177,7 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) {legacyHome();if(CC==='cpsc222')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="fsmLab()">Open finite state machine lab</button></div>');return;}
   _home();
+  if(CC==='security701')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="certSources()">Browse 28 objective areas</button><button onclick="accessReviewLab()">Open access review lab</button><p>Selected foundations in every SY0-701 objective area. Each objective remains partial. The fictional lab practices least privilege and account removal.</p></div>');
   if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study all 409 NCVEC questions</button><p>Complete public-domain question pool and diagrams. Separate 35-question practice exams and saved missed-question review.</p></div>');
   view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
 };
@@ -190,6 +191,40 @@ function certSources() {
   screen='sources';LS=null;cur=null;quiz=null;activePrep=null;drawNav();const t=certTrack();
   view.innerHTML=certNotice()+`<div class="card"><h3>Coverage checklist</h3><p>Listed objectives have introductory coverage only. A topic is not a complete objective.</p>${t.topics.map(p=>`<p>${esc(p.name)}: ${esc(p.objectives.join(', '))} · ${p.bank.length} checked questions<br>${certRefs(p.refs)}</p>`).join('')}<h3>Remaining work</h3><ul>${t.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h3>Source register</h3>${[...new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)))].map(id=>{const s=CERT.sources[id];return `<p>${certRefs([{source:id,section:s.sections.join(', ')}])}<br>${esc(s.version)} · Effective: ${esc(s.effective)}<br>Checked ${esc(s.checked)} · Review by ${esc(s.reviewBy)}<br>${esc(s.rights)}</p>`}).join('')}</div>`;
   if(t.curriculum)view.insertAdjacentHTML('afterbegin',certAchievements(t)+certCurriculum(t));
+  if(t.objectiveMap)view.insertAdjacentHTML('afterbegin',certObjectiveMap(t));
+}
+function certObjectiveMap(t){
+  return `<div class="card" id="objectiveCoverage"><h2>SY0-701 objective map</h2><p>All 28 objective areas have selected introductory material. Every area is partial. These links use the verified version 6.0 baseline, not a claim that the latest exam revision has been confirmed.</p>${[1,2,3,4,5].map(domain=>`<h3>Domain ${domain}</h3>${t.objectiveMap.filter(o=>o.domain===domain).map(o=>`<details data-objective="${esc(o.id)}"><summary>${esc(o.id)}: ${esc(o.title)} (partial)</summary><p>Still to study: ${o.gaps.map(esc).join('; ')}.</p>${o.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}<button onclick="startObjectivePractice('${o.id}')">Practice objective ${esc(o.id)}</button></details>`).join('')}`).join('')}</div>`;
+}
+function startObjectivePractice(id){
+  const t=certTrack(),objective=t?.objectiveMap?.find(o=>o.id===id);if(!objective)return;
+  const entries=shuffle(t.topics.flatMap(p=>p.bank.filter(b=>b.objectives.includes(id)).map(b=>({p,b})))).slice(0,10);
+  if(!entries.length)return;
+  runCertEntries(entries,0);
+  view.insertAdjacentHTML('afterbegin',`<p id="objectivePracticeScope">Objective ${esc(id)}: ${esc(objective.title)}. Selected practice only, not complete objective coverage.</p>`);
+}
+function accessReviewLab(){
+  if(CC!=='security701')return;
+  if(EX?.timer)clearInterval(EX.timer);EX=null;
+  screen='accesslab';LS=null;quiz=null;cur=null;rev=null;activePrep=null;drawNav();
+  const people=['Analyst','Payroll approver','Backup operator','Former contractor'];
+  const permissions=['Active account','Read reports','Approve payroll','Run backups'];
+  const initial=[[true,true,true,false],[true,true,true,true],[true,true,false,true],[true,true,false,false]];
+  view.innerHTML=certNotice()+`<div class="card" id="accessReviewLab"><h2>Fictional access review</h2><p>Set each account to the minimum permissions required below. This exercise changes only this fictional table. It does not change real accounts. Original StudyGOAT exercise, not an official CompTIA performance-based question.</p><ul><li>Analyst: active account and read reports only.</li><li>Payroll approver: active account, read reports and approve payroll only.</li><li>Backup operator: active account and run backups only.</li><li>Former contractor: inactive account with no permissions.</li></ul><div style="overflow-x:auto"><table><caption>Required access review</caption><thead><tr><th scope="col">Role</th>${permissions.map(p=>`<th scope="col">${p}</th>`).join('')}</tr></thead><tbody>${people.map((person,i)=>`<tr><th scope="row">${person}</th>${permissions.map((p,j)=>`<td><label><input type="checkbox" id="access_${i}_${j}" aria-label="${person}: ${p}" ${initial[i][j]?'checked':''}></label></td>`).join('')}</tr>`).join('')}</tbody></table></div><button onclick="checkAccessReview()">Check access review</button><button onclick="accessReviewLab()">Reset access review</button><p id="accessReviewResult" role="status" aria-live="polite"></p><div id="accessReviewFeedback"></div><p>Objective 4.6: selected least-privilege and account-removal practice. ${certRefs([{source:'sec701',section:'4.6'},{source:'nistcsf2',section:'Appendix A: PR.AA'}])}</p></div>`;
+}
+function checkAccessReview(){
+  if(CC!=='security701'||!document.getElementById('accessReviewLab'))return;
+  const expected=[[true,true,false,false],[true,true,true,false],[true,false,false,true],[false,false,false,false]];
+  const people=['Analyst','Payroll approver','Backup operator','Former contractor'];
+  const permissions=['Active account','Read reports','Approve payroll','Run backups'];
+  let correct=0;const feedback=[];
+  expected.forEach((row,i)=>row.forEach((value,j)=>{
+    const field=document.getElementById(`access_${i}_${j}`);
+    if(field.checked===value)correct++;
+    else feedback.push(`${people[i]}: ${value?'enable':'remove'} ${permissions[j].toLowerCase()}.`);
+  }));
+  document.getElementById('accessReviewResult').textContent=correct===16?'16 of 16 settings match. Each active role has only its assigned access, and the former contractor has no active account or permissions. Practice result only.':`${correct} of 16 settings match. Review the role requirements and adjust the settings.`;
+  document.getElementById('accessReviewFeedback').innerHTML=feedback.length?`<ul>${feedback.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'<p>Real access reviews also require authorization, identity verification, evidence, revocation of applicable sessions and tokens, and validation across connected systems. This table covers only the stated fictional permissions.</p>';
 }
 function certAchievements(t) {
   if(!t.achievements)return '';
@@ -200,7 +235,7 @@ function certCurriculum(t) {
 }
 function drivingDirectory() {
   screen='driving';LS=null;quiz=null;cur=null;activePrep=null;drawNav();
-  view.innerHTML=`<div class="card"><button onclick="menu()">Back to categories</button><h2>Driving Tests: all 50 states and DC</h2><label>Search states <input id="stateSearch" type="search" placeholder="State name or abbreviation" oninput="filterDrivingStates()"></label><p id="stateSearchStatus" role="status"></p><p>Choose your jurisdiction. National safety foundations are shared across all 50 states and DC. ${CERT.drivingJurisdictions.filter(j=>j.track).length} states also have selected state-specific lessons. National foundations do not verify your state manual, traffic laws or permit-test requirements.</p><label>State or district <select id="drivingState" style="display:block;width:100%;max-width:100%;box-sizing:border-box">${CERT.drivingJurisdictions.map(j=>`<option value="${j.code}">${esc(j.name)}: ${j.track?'state-specific partial course':'national foundations only'}</option>`).join('')}</select></label><button onclick="openDrivingState()">View availability</button><div id="drivingAvailability" aria-live="polite"></div><button onclick="menu()">Back to courses</button></div>`;
+  view.innerHTML=`<div class="card"><button onclick="menu()">Back to categories</button><h2>Driving Tests: all 50 states and DC</h2><label>Search states <input id="stateSearch" type="search" placeholder="State name or abbreviation" oninput="filterDrivingStates()"></label><p id="stateSearchStatus" role="status"></p><p>Choose your jurisdiction. National safety foundations are shared across all 50 states and DC. ${CERT.drivingJurisdictions.filter(j=>j.track).length} jurisdictions have selected local lessons. National foundations do not verify your state manual, traffic laws or permit-test requirements.</p><label>State or district <select id="drivingState" style="display:block;width:100%;max-width:100%;box-sizing:border-box">${CERT.drivingJurisdictions.map(j=>`<option value="${j.code}">${esc(j.name)}: ${j.track?'state-specific partial course':'national foundations only'}</option>`).join('')}</select></label><button onclick="openDrivingState()">View availability</button><div id="drivingAvailability" aria-live="polite"></div><button onclick="menu()">Back to courses</button></div>`;
   document.getElementById('drivingState').value='US-AZ';openDrivingState();
 }
 function filterDrivingStates(){
@@ -310,7 +345,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();

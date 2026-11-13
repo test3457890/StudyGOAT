@@ -33,7 +33,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 ## Current project status
 
 <!-- STUDYGOAT SUMMARY START -->
-Catalog updated 2026-11-12. 57 sourced tracks contain 311 lessons and 1020 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 <!-- STUDYGOAT SUMMARY END -->
 
 The [roadmap](https://github.com/test3457890/StudyGOAT/wiki/Roadmap) separates existing capabilities from proposals. A public GitHub repository does not automatically mean the GitHub Pages website is live.
