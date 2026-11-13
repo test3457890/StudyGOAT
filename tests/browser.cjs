@@ -44,6 +44,28 @@ await page.evaluate(()=>certSources());assert.match(await page.locator('#view').
  await page.evaluate(()=>{examSetup();startCertExam();EX.end=Date.now()-1;exTick()});assert.match(await page.locator('.score').innerText(),/Time ran out/);
  await page.evaluate(()=>reviewMistakes());assert.match(await page.locator('#view').innerText(),/./);
 }
+// Objective navigation scopes practice by question objectives, including shared topics.
+await page.evaluate(()=>enterCourse('security701'));
+await page.getByRole('button',{name:'Browse 28 objective areas',exact:true}).click();
+assert.equal(await page.locator('#objectiveCoverage details').count(),28);
+for(const id of await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.find(t=>t.id==='security701').objectives)){
+ await page.evaluate(()=>certSources());
+ await page.locator(`[data-objective="${id}"] summary`).click();
+ await page.getByRole('button',{name:`Practice objective ${id}`,exact:true}).click();
+ assert.match(await page.locator('#objectivePracticeScope').innerText(),new RegExp(`Objective ${id.replace('.','\\.')}:`));
+ assert(await page.evaluate(id=>EX.items.every(it=>it.q.objectives.includes(id)),id));
+ assert.equal(await page.evaluate(()=>new Set(EX.items.map(it=>it.q.sourceId)).size),await page.evaluate(()=>EX.n));
+}
+await page.evaluate(()=>home());await page.getByRole('button',{name:'Open access review lab',exact:true}).click();
+await page.getByRole('button',{name:'Check access review',exact:true}).click();assert.match(await page.locator('#accessReviewResult').innerText(),/11 of 16/);
+const accessExpected=[[true,true,false,false],[true,true,true,false],[true,false,false,true],[false,false,false,false]];
+for(let i=0;i<4;i++)for(let j=0;j<4;j++)await page.locator(`#access_${i}_${j}`).setChecked(accessExpected[i][j]);
+await page.getByRole('button',{name:'Check access review',exact:true}).click();assert.match(await page.locator('#accessReviewResult').innerText(),/16 of 16/);
+await page.locator('#access_3_0').check();await page.getByRole('button',{name:'Check access review',exact:true}).click();assert.match(await page.locator('#accessReviewFeedback').innerText(),/Former contractor: remove active account/);
+await page.getByRole('button',{name:'Reset access review',exact:true}).click();assert.equal(await page.locator('#accessReviewResult').innerText(),'');
+await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Access lab mobile overflow');
+await page.evaluate(()=>certSources());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Objective map mobile overflow');
+await page.setViewportSize({width:1280,height:800});
 // Uploaded lecture content is part of the existing discrete class.
 await page.evaluate(()=>enterCourse('cpsc222'));
 for(const topic of ['dmfsm','dmturnstile','dmsuffixdfa','dmfsmpython']){

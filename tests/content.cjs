@@ -4,6 +4,16 @@ const ids=new Set(),prompts=new Set();let count=0;
 function refs(x){assert(x.refs?.length);assert(x.objectives?.length);for(const r of x.refs){const s=data.sources[r.source];assert(s,`Missing source ${r.source}`);assert.equal(s.status,'verified');assert(s.sections.includes(r.section));assert.match(s.url,/^https:\/\//);for(const k of ['publisher','title','version','effective','checked','reviewBy','rights'])assert(s[k]);assert(new Date(s.reviewBy)>=new Date(data.checked));}}
 for(const t of data.tracks){assert(!ids.has(t.id));ids.add(t.id);assert(t.notice&&t.gaps.length);for(const p of t.topics){assert(!ids.has(p.id));ids.add(p.id);refs(p);assert(p.lessons.length&&p.gloss.length>=4);for(const l of p.lessons){refs(l);assert(l.steps.length>=3);}for(const b of p.bank){refs(b);assert(!ids.has(b.id));ids.add(b.id);assert(!prompts.has(b.q));prompts.add(b.q);assert.equal(b.c.length,4);assert.equal(new Set(b.c.map(x=>x.trim().toLowerCase())).size,4);assert(b.c.every(x=>x.trim()));assert(b.why&&b.checked);assert.equal(b.status,'verified');assert(b.objectives.every(o=>t.objectives.includes(o)));count++;}}}
 const cap=data.tracks.find(t=>t.id==='capcadet');assert.equal(cap.curriculum.length,16);
+const security=data.tracks.find(t=>t.id==='security701');
+assert.equal(security.objectiveMap.length,28);
+assert.deepEqual(security.objectiveMap.map(o=>o.id),security.objectives);
+for(const o of security.objectiveMap){
+ assert.equal(o.status,'partial');assert.equal(o.domain,Number(o.id[0]));assert(o.gaps.length&&o.topics.length);
+ assert.deepEqual(o.topics,security.topics.filter(p=>p.objectives.includes(o.id)).map(p=>p.id));
+ assert(security.topics.flatMap(p=>p.bank).filter(b=>b.objectives.includes(o.id)).length>=6);
+}
+assert.equal(security.topics.reduce((n,p)=>n+p.lessons.length,0),50);
+assert.equal(security.topics.reduce((n,p)=>n+p.bank.length,0),172);
 assert.deepEqual(cap.curriculum.map(c=>c.chapter),Array.from({length:16},(_,i)=>i+1));
 for(const c of cap.curriculum){assert.equal(c.status,'partial');assert(c.topics.length);const topics=cap.topics.filter(t=>c.topics.includes(t.id));assert(topics.reduce((n,t)=>n+t.lessons.length,0)>=2);assert(topics.reduce((n,t)=>n+t.bank.length,0)>=8);}
 for(const c of cap.curriculum){assert(c.volume>=1&&c.volume<=4);assert.match(c.url,/^https:\/\/www\.gocivilairpatrol\.com\/media\/cms\/.+\.pdf$/);assert.equal(c.status,c.topics.length?'partial':'reading only');for(const id of c.topics)assert(cap.topics.some(t=>t.id===id));}
