@@ -111,7 +111,7 @@ await page.evaluate(()=>enterCourse('technician'));await page.getByRole('button'
 assert.match(await page.locator('#view').innerText(),/All 409/);
 for(const id of ['T5B03','T5B04','T5B05','T5B06','T5B07','T5B08','T6A09','T6C02','T6C03','T6C04','T6C05','T6C06','T6C07','T6C08','T6C09','T6C10','T6C11','T6D10']){
  await page.locator('#poolQuery').fill(id);assert(!(await page.locator('#poolStart').isDisabled()));await page.locator('#poolStart').click();
- const hasFigure=await page.evaluate(()=>!!poolSession.deck[0].figure);
+ const hasFigure=await page.evaluate(id=>!!window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>q.id===id).figure,id);
  if(hasFigure){assert(await page.locator('#poolQuestion img').evaluate(img=>img.complete&&img.naturalWidth>0));assert(await page.locator('#poolQuestion details').filter({hasText:'Diagram text description'}).count());}
  await page.evaluate(()=>technicianPoolOpen());
 }
@@ -129,24 +129,24 @@ await page.evaluate(()=>{window.realPoolDate=Date;window.Date=class extends Date
 // Complete exams draw one from every group, with no answer leakage before submission.
 for(let run=0;run<20;run++){
  await page.evaluate(()=>{technicianPoolOpen();document.getElementById('poolQuery').value='T1A01';technicianPoolExamStart()});
- const selected=await page.evaluate(()=>poolSession.deck.map(q=>({id:q.id,group:q.group})));
+ const selected=await page.evaluate(()=>{const selected=[];for(let i=0;i<35;i++){const id=document.querySelector('#poolQuestion .card>p').textContent.match(/T\d[A-Z]\d\d/)[0];const q=window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>q.id===id);selected.push({id,group:q.group});technicianPoolAnswer(q.answer);technicianPoolNext();}return selected;});
  assert.equal(selected.length,35);assert.equal(new Set(selected.map(q=>q.id)).size,35);assert.equal(new Set(selected.map(q=>q.group)).size,35);
 }
-await page.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart();technicianPoolAnswer(poolSession.deck[0].answer)});
+await page.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart();technicianPoolAnswer(window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>document.querySelector('#poolQuestion .card>p').textContent.includes(q.id)).answer)});
 assert.equal(await page.locator('#poolQuestion .ok,#poolQuestion .bad').count(),0,'Exam does not reveal correctness');
 assert(!/Published NCVEC answer/.test(await page.locator('#poolFeedback').innerText()));
-await page.evaluate(()=>{technicianPoolNext();for(let i=1;i<35;i++){technicianPoolAnswer(i<26?poolSession.deck[i].answer:(poolSession.deck[i].answer+1)%4);technicianPoolNext();}});
+await page.evaluate(()=>{technicianPoolNext();for(let i=1;i<35;i++){const q=window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>document.querySelector('#poolQuestion .card>p').textContent.includes(q.id));technicianPoolAnswer(i<26?q.answer:(q.answer+1)%4);technicianPoolNext();}});
 assert.match(await page.locator('#poolQuestion').innerText(),/26 correct out of 35. Meets/);
 assert.equal(await page.evaluate(()=>S.technicianPool.lastExam.passed),true);
 const lastExam=await page.evaluate(()=>JSON.stringify(S.technicianPool.lastExam));await page.reload();await page.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});assert.equal(await page.evaluate(()=>JSON.stringify(S.technicianPool.lastExam)),lastExam);
-await page.evaluate(()=>{technicianPoolExamStart();for(let i=0;i<35;i++){technicianPoolAnswer(i<25?poolSession.deck[i].answer:(poolSession.deck[i].answer+1)%4);technicianPoolNext();}});
+await page.evaluate(()=>{technicianPoolExamStart();for(let i=0;i<35;i++){const q=window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>document.querySelector('#poolQuestion .card>p').textContent.includes(q.id));technicianPoolAnswer(i<25?q.answer:(q.answer+1)%4);technicianPoolNext();}});
 assert.match(await page.locator('#poolQuestion').innerText(),/25 correct out of 35. Below/);
-await page.evaluate(()=>{technicianPoolOpen();document.getElementById('poolTimed').checked=true;technicianPoolExamStart();technicianPoolAnswer(poolSession.deck[0].answer);poolSession.end=Date.now()-1;technicianPoolExamTick();});
-assert.match(await page.locator('#poolQuestion').innerText(),/Study timer expired. 1 correct out of 35/);
-assert.equal(await page.evaluate(()=>poolTimer),null);assert.equal(await page.evaluate(()=>S.technicianPool.lastExam.expired),true);
+await page.evaluate(()=>{technicianPoolOpen();document.getElementById('poolTimed').checked=true;technicianPoolExamStart();technicianPoolAnswer(window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>document.querySelector('#poolQuestion .card>p').textContent.includes(q.id)).answer);window.realExamNow=Date.now;Date.now=()=>window.realExamNow()+46*60000;});
+await page.waitForFunction(()=>document.getElementById('poolQuestion').textContent.includes('Study timer expired.'));assert.match(await page.locator('#poolQuestion').innerText(),/Study timer expired. 1 correct out of 35/);
+await page.evaluate(()=>{Date.now=window.realExamNow;delete window.realExamNow;});assert.equal(await page.evaluate(()=>S.technicianPool.lastExam.expired),true);
 const before=await page.evaluate(()=>JSON.stringify(S.technicianPool.lastExam));await page.evaluate(()=>technicianPoolExamFinish());assert.equal(await page.evaluate(()=>JSON.stringify(S.technicianPool.lastExam)),before,'Repeated submission is locked');
-await page.evaluate(()=>{technicianPoolOpen();document.getElementById('poolTimed').checked=true;technicianPoolExamStart();home();technicianPoolExamTick();});assert.equal(await page.evaluate(()=>poolTimer),null,'Leaving exam stops study timer');
-await page.evaluate(()=>{window.realPoolDate=Date;window.Date=class extends Date{constructor(...args){super(...(args.length?args:['2031-01-01T12:00:00Z']))}};technicianPoolOpen();technicianPoolExamStart()});assert(await page.locator('#poolExam').isDisabled());assert.equal(await page.evaluate(()=>poolSession),null);await page.evaluate(()=>{Date=window.realPoolDate;delete window.realPoolDate;});
+await page.evaluate(()=>{technicianPoolOpen();document.getElementById('poolTimed').checked=true;technicianPoolExamStart();home();});await page.waitForTimeout(1100);assert(!/Practice exam complete/.test(await page.locator('#view').innerText()),'Leaving exam does not submit a background result');
+await page.evaluate(()=>{window.realPoolDate=Date;window.Date=class extends Date{constructor(...args){super(...(args.length?args:['2031-01-01T12:00:00Z']))}};technicianPoolOpen();technicianPoolExamStart()});assert(await page.locator('#poolExam').isDisabled());assert.equal(await page.locator('#poolQuestion').innerText(),'');await page.evaluate(()=>{Date=window.realPoolDate;delete window.realPoolDate;});
 const stats=await page.evaluate(()=>JSON.stringify(S.stats));await page.reload();assert.equal(await page.evaluate(()=>JSON.stringify(S.stats)),stats);
 await page.setViewportSize({width:390,height:844});await page.evaluate(()=>enterCourse(window.STUDYGOAT_CATALOG.tracks[0].id));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile overflow');await page.screenshot({path:'/tmp/studygoat-mobile.png',fullPage:true});
 await page.evaluate(()=>{menu();openCourseCategory('classes')});await page.locator('.course[role=button]').first().focus();await page.keyboard.press('Enter');assert.equal(await page.evaluate(()=>screen),'home');
@@ -158,6 +158,6 @@ const exported=await browser.newPage();await exported.goto('file://'+exportPath)
 assert.equal(await exported.locator('#courseCategories button').count(),3);await exported.evaluate(()=>openCourseCategory('classes'));assert.equal(await exported.locator('.course[role=button]').count(),2);await exported.evaluate(()=>openCourseCategory('certifications'));assert.equal(await exported.locator('.course[role=button]').count(),5,'Export preserves categorized study tracks');
 await exported.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});assert.match(await exported.locator('#view').innerText(),/All 409/);assert.match(await exported.locator('#poolProgress').innerText(),/^0 distinct/);
 await exported.locator('#poolQuery').fill('T6C02');await exported.locator('#poolStart').click();assert(await exported.locator('#poolQuestion img').evaluate(img=>img.complete&&img.naturalWidth>0),'Export embeds offline diagrams');
-await exported.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart()});assert.equal(await exported.evaluate(()=>poolSession.deck.length),35);
+await exported.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart()});assert.match(await exported.locator('#poolQuestion').innerText(),/Question 1 of 35/);
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
