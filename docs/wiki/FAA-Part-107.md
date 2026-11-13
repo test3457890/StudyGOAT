@@ -1,20 +1,27 @@
-# FAA Part 107
+# FAA Part 107 drone study
 
-Implemented 2026-11-09: three introductory lessons and 18 original questions on crew responsibility, airspace and operating limits. References: [FAA ACS-10B](https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf), [14 CFR Part 107](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107).
+Updated November 12, 2026. This course has 35 lessons and 146 original practice questions. It focuses on the small-UAS remote pilot certificate, not a manned-aircraft pilot license. Coverage is partial and the short practice test is not a complete UAG simulation.
 
-This is partial coverage of ACS task areas I.B, II.B and V.F. Practice questions assume no waiver unless stated. The short practice test is not the 60-question UAG examination. FAA TRUST and CAP sUAS qualifications are separate.
+## Available study
 
-Remaining: charts, weather, loading, Remote ID, operations over people, night operations, broader operations and a full exam blueprint. Check current regulations before actual flight. The app is not an operational authorization or FAA certificate.
+- Pilot/crew responsibility, collision avoidance, airspace and operating limits
+- Selected Remote ID pathways
+- Synthetic METAR/TAF interpretation, loading/CG, density altitude, fixed-wing load factors and weather/risk principles
+- Night and civil-twilight lighting, pilot training and knowledge recency
+- People-protection pathways and selected Category 1, 2, 3 and 4 requirements
+- Operations over people inside moving vehicles
+- Preflight environment, crew, control-link, power and attachment checks
+- Safety-event reporting deadlines and injury/property thresholds
+- Waiver applications, authorized scope and certificate conditions
 
-## Additional study material, November 9, 2026
+The November 12 operating-rules expansion adds 16 lessons and 64 original questions. Every new topic, lesson and question cites its Part 107 sections. Questions assume the ordinary rules unless a waiver is explicitly described. Boundary scenarios distinguish $500 repair/total-loss exceptions, Category 3 open-air-assembly restrictions, stationary cover versus moving vehicles and specific waiver scope. They do not determine every other applicable law or reporting obligation.
 
-Remote ID compliance pathways, module and Standard Remote ID distinctions, visual restrictions and FRIA boundaries. Selected ACS I.F material. Source: FAA Remote Identification of Drones guidance, checked November 9, 2026.
+## Sources and versions
 
-Current totals: 5 lessons and 26 questions. The course remains partial. Earlier counts above describe the first introductory release.
+[FAA-S-ACS-10B](https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf) is dated April 2021 and states an April 6, 2021 effective date. The current [FAA ACS listing](https://www.faa.gov/training_testing/testing/acs) was checked alongside that PDF. [14 CFR Part 107](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107) supplies current operating-rule text; the eCFR display reported Title 14 updated through November 10, 2026 on the review date. The source-check date is not a new rule effective date.
 
-## Latest curriculum expansion
+Earlier physics lessons use the August 2016 FAA study guide only for selected enduring principles. NOAA/AWC supports synthetic weather-code exercises; these are not current operational weather. New questions are original, not official exam items. Source-check dates do not constitute independent subject-matter review or operational authorization.
 
-Current totals: nine lessons and 42 questions. New original METAR/TAF exercises use NOAA Aviation Weather Center guidance for timestamps, true wind direction, knots, gusts, statute-mile visibility, forecast scope and TEMPO. All example code is synthetic; no live-weather or go/no-go decision is provided. Broader weather, charts, performance and full ACS coverage remain incomplete.
+## Still needed
 
-
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open. Overall totals: 103 lessons and 444 questions.
+Full ACS objective inventory and mapping; sectional-chart exercises; broader weather and forecast interpretation; detailed Remote ID/category compliance processes; aircraft-specific instructions; radio/emergency operations; more loading/performance and risk applications; independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.

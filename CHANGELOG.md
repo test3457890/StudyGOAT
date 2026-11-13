@@ -1,5 +1,11 @@
 # Changelog
 
+## November 12, 2026: FAA drone operating rules
+
+- Added eight topics, 16 lessons and 64 original questions covering selected night/twilight, operations over people/vehicles, preflight, reporting and waiver requirements.
+- Added source-section references, glossary cards, scenarios and explicit remaining coverage gaps. Existing lesson/question banks preserved.
+- FAA totals: 35 lessons and 146 questions. Overall: 199 lessons and 796 original questions, plus 391 separately counted NCVEC items. No full-course completion claim.
+
 ## November 12, 2026: NCVEC text-question study
 
 - Added separate practice for 391 public-domain NCVEC questions, preserving IDs, option order and answer letters. Applied four published prompt corrections.
