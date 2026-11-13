@@ -1621,7 +1621,7 @@ function genQ(id){const q=pick(TOPICS[id].gens)();q.topic=id;return q}
 /* ---------- state ---------- */
 let S={xp:0,streak:0,best:0,stats:{}};
 try{const s=JSON.parse(localStorage.getItem('cs315trainer')||'null');if(s)S=Object.assign(S,s)}catch(e){}
-const COURSES={cs315:{code:'CS 315',name:'Data Structures & Analysis of Algorithms',icon:'🧱',prof:'Course study',color:'#62b6ff',foot:'Covers CS 315 Lect 01 to 25.'},cpsc222:{code:'CPSC 222',name:'Introduction to Discrete Structures',icon:'🧮',prof:'Course study',color:'#54d88b',foot:'Covers CPSC 222 slides from Sets through Boolean Matrices and Composition of Relations, plus the midterm practice set.'}};
+const COURSES={cs315:{code:'CS 315',name:'Data Structures & Analysis of Algorithms',icon:'🧱',prof:'Course study',color:'#62b6ff',foot:'Covers CS 315 Lect 01 to 25.'},cpsc222:{code:'CPSC 222',name:'Introduction to Discrete Structures',icon:'🧮',prof:'Course study',color:'#54d88b',foot:'Covers CPSC 222 slides from Sets through Boolean Matrices and Composition of Relations, Moore and Mealy machines, Petri nets, keypad locks, plus the midterm practice set.'}};
 let CC=S.course&&COURSES[S.course]?S.course:'cs315';
 const CT=()=>Object.keys(TOPICS).filter(id=>TOPICS[id].course===CC);
 const inCourse=id=>TOPICS[id]&&TOPICS[id].course===CC;
@@ -2391,7 +2391,7 @@ async function v2Init(){pickProvider();if(AI)v2Rerender();if(!IN_CLAUDE()){setCl
 /*V2-END*/
 applySet();hud();menu();v2Init();
 </script>
-<script src="courses/catalog.js?v=20261113wfaweather"></script>
-<script src="courses/integration.js?v=20261113wfaweather"></script>
+<script src="courses/catalog.js?v=20261113mooremealy"></script>
+<script src="courses/integration.js?v=20261113mooremealy"></script>
 </body>
 </html>

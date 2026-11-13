@@ -27,9 +27,9 @@ for(const a of cap.achievements){assert(a.title&&a.leadership&&a.aerospace&&a.ac
 assert.deepEqual(cap.achievements.find(a=>a.number===16).chapters,[]);assert.equal(cap.achievements.find(a=>a.number===16).status,'needs verification');
 // Lecture FSM tables: independently check their language and matrix convention.
 const models=data.classModels, classTopics=data.classTopics;
-assert.equal(classTopics.length,4);let classQuestions=0;
+assert.equal(classTopics.length,8);let classQuestions=0;
 for(const p of classTopics){assert.equal(p.course,'cpsc222');assert(p.source&&p.lessons.length===2&&p.gloss.length>=4);for(const b of p.bank){assert.equal(b.c.length,4);assert.equal(new Set(b.c).size,4);assert(b.q&&b.why);classQuestions++;}}
-assert.equal(classQuestions,32);
+assert.equal(classQuestions,64);
 for(let length=0;length<=8;length++)for(let n=0;n<2**length;n++){
  const word=length?n.toString(2).padStart(length,'0'):'';let state=models.suffix01.initial;
  for(const ch of word)state=models.suffix01.delta[state][ch];
@@ -40,7 +40,7 @@ for(const [i,state] of models.turnstile.states.entries())for(const event of mode
  assert.equal(models.turnstile.states[row.indexOf(1)],models.turnstile.delta[state][event]);
  assert.equal(models.turnstile.delta[state][event],event==='coin'?'Unlocked':'Locked');
 }
-console.log('PASS: four discrete FSM topics, eight lessons, 32 questions; exhaustive DFA words through length 8 and matrix/table agreement');
+console.log('PASS: eight discrete FSM topics, 16 lessons, 64 questions; exhaustive DFA words through length 8 and matrix/table agreement');
 
 for(const j of data.drivingJurisdictions)assert.equal(j.foundation,"drivingfoundations");
 const shared=data.tracks.find(t=>t.id==="drivingfoundations");assert.equal(shared.coverageKind,"shared-foundations");assert.equal(shared.topics.reduce((n,t)=>n+t.bank.length,0),16);

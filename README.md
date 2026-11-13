@@ -121,7 +121,7 @@ The repository has no project license. No license was added.
 
 ## Classes and recent content
 
-CPSC 222 includes four added finite-state-machine topics, eight lessons, 32 questions and an interactive turnstile/DFA lab. Source lecture files and professor names are not published.
+CPSC 222 includes eight added finite-state-machine topics, 16 lessons, 64 questions and an interactive turnstile/DFA/keypad lab. Moore state outputs, Mealy transition actions, Petri-net resources and the 3, 1, 4, 1 keypad model extend the earlier FSM material. Source lecture files and professor names are not published.
 
 The November 12 driving batch adds selected Alabama, Alaska, Arkansas, Colorado and Connecticut content. Coverage remains incomplete. See the coverage checklist for source editions and the remaining state-by-state inventory.
 
