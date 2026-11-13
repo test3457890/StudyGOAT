@@ -1,7 +1,7 @@
 # Certifications and professional learning
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -9,7 +9,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -38,7 +38,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 
-Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers 391 NCVEC text questions; six text items, three diagrams and teaching explanations remain pending. CAP practice never awards official credit or uses controlled milestone material.
+Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers all 409 NCVEC questions and three diagrams with separate 35-question practice exams; teaching explanations and the original lesson curriculum remain partial. CAP practice never awards official credit or uses controlled milestone material.
 
 See the individual track pages and Roadmap for gaps. Do not upload confidential employer documents, exam dumps or restricted training materials.
 

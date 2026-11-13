@@ -50,7 +50,8 @@ function registerCertificationCourses() {
 }
 registerCertificationCourses();
 // Public-domain pool study is separate from the original lesson banks and short quizzes.
-let poolSession=null;
+let poolSession=null,poolTimer=null;
+function technicianPoolStopTimer(){if(poolTimer)clearInterval(poolTimer);poolTimer=null;}
 function technicianPoolProgress(){
   const p=CERT.technicianPool;
   if(!S.technicianPool||S.technicianPool.version!==p.version)S.technicianPool={version:p.version,answers:{}};
@@ -58,11 +59,11 @@ function technicianPoolProgress(){
 }
 function technicianPoolOpen(){
   if(CC!=='technician')return;
-  screen='technicianpool';LS=null;cur=null;quiz=null;activePrep=null;poolSession=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
+  technicianPoolStopTimer();screen='technicianpool';LS=null;cur=null;quiz=null;activePrep=null;poolSession=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
   const p=CERT.technicianPool,s=CERT.sources[p.source];
   const now=new Date().toISOString().slice(0,10),valid=now>=p.validFrom&&now<=p.validThrough;
   const answers=technicianPoolProgress(),known=p.questions.filter(q=>answers[q.id]),missed=known.filter(q=>!answers[q.id].correct);
-  view.innerHTML=`<div class="card"><button onclick="home()">Back to Technician lessons</button><h2>NCVEC Technician pool study</h2><p>${esc(p.notice)}</p><p>Pool period: ${esc(p.validFrom)} to ${esc(p.validThrough)}. Source check: ${esc(p.checked)}. ${now>p.reviewBy?'Source review overdue; check official updates before studying.':''}</p>${valid?'':'<p role="alert">This pool is outside its validity period. Study is unavailable until the current pool is verified.</p>'}<p id="poolProgress">${known.length} distinct questions reviewed; ${missed.length} currently missed. Saved in your StudyGOAT progress.</p><label>Official group <select id="poolGroup" onchange="technicianPoolFilter()"><option value="all">All available groups</option>${p.groups.map(g=>`<option value="${g}">${g} (${p.questions.filter(q=>q.group===g).length} available)</option>`).join('')}</select></label><label>Question ID <input id="poolQuery" type="search" placeholder="For example T5A05" oninput="technicianPoolFilter()"></label><label><input id="poolMissed" type="checkbox" onchange="technicianPoolFilter()"> Previously missed only</label><p id="poolMatch" role="status"></p><button id="poolStart" onclick="technicianPoolStart()" ${valid?'':'disabled'}>Start pool study</button><details><summary>Sources and excluded questions (${p.excluded.length})</summary><p><a href="${esc(s.url)}" target="_blank" rel="noopener">NCVEC baseline pool</a> · <a href="${esc(p.releaseUrl)}" target="_blank" rel="noopener">Release and corrections</a> · <a href="${esc(p.withdrawalsUrl)}" target="_blank" rel="noopener">Check withdrawals</a></p><p>Four February 19, 2026 prompt corrections are applied. ARRL lists no Technician withdrawals on the check date. Official answer letters and option order are preserved. No official-pool exam simulation is enabled.</p><ul>${p.excluded.map(q=>`<li>${esc(q.id)}: ${esc(q.reason)}</li>`).join('')}</ul></details></div><div id="poolQuestion"></div>`;
+  view.innerHTML=`<div class="card"><button onclick="home()">Back to Technician lessons</button><h2>NCVEC Technician pool study</h2><p>${esc(p.notice)}</p><p>Pool period: ${esc(p.validFrom)} to ${esc(p.validThrough)}. Source check: ${esc(p.checked)}. ${now>p.reviewBy?'Source review overdue; check official updates before studying.':''}</p>${valid?'':'<p role="alert">This pool is outside its validity period. Study is unavailable until the current pool is verified.</p>'}<p id="poolProgress">${known.length} distinct questions reviewed; ${missed.length} currently missed. Saved in your StudyGOAT progress.</p><label>Official group <select id="poolGroup" onchange="technicianPoolFilter()"><option value="all">All available groups</option>${p.groups.map(g=>`<option value="${g}">${g} (${p.questions.filter(q=>q.group===g).length} available)</option>`).join('')}</select></label><label>Question ID <input id="poolQuery" type="search" placeholder="For example T5A05" oninput="technicianPoolFilter()"></label><label><input id="poolMissed" type="checkbox" onchange="technicianPoolFilter()"> Previously missed only</label><p id="poolMatch" role="status"></p><button id="poolStart" onclick="technicianPoolStart()" ${valid?'':'disabled'}>Start pool study</button><details><summary>Sources and pool completeness (${p.questions.length} questions)</summary><p><a href="${esc(s.url)}" target="_blank" rel="noopener">NCVEC release</a> · <a href="${esc(s.mirrorPage)}" target="_blank" rel="noopener">Revised PDF mirror and diagrams</a> · <a href="${esc(p.releaseUrl)}" target="_blank" rel="noopener">Release and corrections</a> · <a href="${esc(p.withdrawalsUrl)}" target="_blank" rel="noopener">Check withdrawals</a></p><p>Four February 19, 2026 prompt corrections are applied. ARRL lists no Technician withdrawals on the check date. Official answer letters and option order are preserved. The complete revised PDF and all three diagrams were checked through the KP4ARA Laurel VE Team mirror. Practice exams sample one question per group. No official credit is awarded.</p><ul>${p.excluded.map(q=>`<li>${esc(q.id)}: ${esc(q.reason)}</li>`).join('')}</ul></details><hr><h3>35-question practice exam</h3><p>One randomly selected question per official group, regardless of study filters. Answers are revealed after submission. The practice threshold is 26 correct out of 35, per <a href="${esc(p.exam.rulesUrl)}" target="_blank" rel="noopener">47 CFR 97.503(a)</a>.</p><label><input id="poolTimed" type="checkbox"> Optional 45-minute study timer</label><p>${esc(p.exam.timerNotice)}</p><button id="poolExam" onclick="technicianPoolExamStart()" ${valid?'':'disabled'}>Start 35-question practice exam</button></div><div id="poolQuestion"></div>`;
   technicianPoolFilter();
 }
 function technicianPoolMatches(){
@@ -70,7 +71,7 @@ function technicianPoolMatches(){
   return CERT.technicianPool.questions.filter(q=>(group==='all'||q.group===group)&&q.id.startsWith(query)&&(!onlyMissed||answers[q.id]?.correct===false));
 }
 function technicianPoolFilter(){
-  poolSession=null;document.getElementById('poolQuestion').textContent='';const matches=technicianPoolMatches(),p=CERT.technicianPool,now=new Date().toISOString().slice(0,10);
+  technicianPoolStopTimer();poolSession=null;document.getElementById('poolQuestion').textContent='';const matches=technicianPoolMatches(),p=CERT.technicianPool,now=new Date().toISOString().slice(0,10);
   document.getElementById('poolMatch').textContent=matches.length?matches.length+' questions available in this selection.':'No available questions match. Excluded questions cannot be selected.';
   document.getElementById('poolStart').disabled=!matches.length||now<p.validFrom||now>p.validThrough;
 }
@@ -81,13 +82,22 @@ function technicianPoolStart(){
 }
 function technicianPoolDraw(){
   const session=poolSession,out=document.getElementById('poolQuestion');if(!session||!out)return;
-  if(session.index>=session.deck.length){out.innerHTML=`<div class="card"><h3>Selection complete</h3><p>${session.correct} correct out of ${session.deck.length} in this study selection. This is not an exam result.</p><button onclick="technicianPoolOpen()">Choose another selection</button></div>`;return;}
+  if(session.mode!=='exam'&&session.index>=session.deck.length){out.innerHTML=`<div class="card"><h3>Selection complete</h3><p>${session.correct} correct out of ${session.deck.length} in this study selection. This is not an exam result.</p><button onclick="technicianPoolOpen()">Choose another selection</button></div>`;return;}
+  if(session.mode==='exam'&&session.index>=session.deck.length){technicianPoolExamFinish();return;}
   const q=session.deck[session.index];session.answered=false;
-  out.innerHTML=`<div class="card"><p>Question ${session.index+1} of ${session.deck.length} · ${esc(q.id)} · Group ${esc(q.group)}</p><h3>${esc(q.q)}</h3><div class="choices">${q.choices.map((c,i)=>`<button onclick="technicianPoolAnswer(${i})">${'ABCD'[i]}. ${esc(c)}</button>`).join('')}</div><div id="poolFeedback" role="status" aria-live="polite"></div><button id="poolNext" onclick="technicianPoolNext()" disabled>Next question</button><p class="hint">Use 1–4 or A–D to answer. Answer feedback stays visible until you choose Next question.</p></div>`;
+  out.innerHTML=`<div class="card"><p>Question ${session.index+1} of ${session.deck.length} · ${esc(q.id)} · Group ${esc(q.group)}</p><h3>${esc(q.q)}</h3>${technicianPoolFigure(q)}${session.mode==='exam'?'<p id="poolClock" role="timer"></p>':''}<div class="choices">${q.choices.map((c,i)=>`<button onclick="technicianPoolAnswer(${i})">${'ABCD'[i]}. ${esc(c)}</button>`).join('')}</div><div id="poolFeedback" role="status" aria-live="polite"></div><button id="poolNext" onclick="technicianPoolNext()" disabled>Next question</button><p class="hint">Use 1–4 or A–D to answer. ${session.mode==='exam'?'Answers are revealed after submission.':'Answer feedback stays visible until you choose Next question.'}</p>${session.mode==='exam'?'<button onclick="technicianPoolExamFinish()">Submit practice exam now</button>':''}</div>`;
+  if(session.mode==='exam')technicianPoolExamTick();
 }
 function technicianPoolAnswer(index){
-  const session=poolSession;if(!session||session.answered||!Number.isInteger(index)||index<0||index>3)return;
-  const q=session.deck[session.index];session.answered=true;const correct=index===q.answer;if(correct)session.correct++;
+  const session=poolSession;if(!session||session.finished||session.index>=session.deck.length||session.answered||!Number.isInteger(index)||index<0||index>3)return;
+  const q=session.deck[session.index];session.answered=true;
+  if(session.mode==='exam'){
+    session.answers[q.id]=index;
+    document.querySelectorAll('#poolQuestion .choices button').forEach((b,i)=>{b.disabled=true;b.setAttribute('aria-pressed',String(i===index));});
+    document.getElementById('poolFeedback').textContent='Answer recorded. The answer key will appear after submission.';
+    document.getElementById('poolNext').disabled=false;return;
+  }
+  const correct=index===q.answer;if(correct)session.correct++;
   technicianPoolProgress()[q.id]={choice:index,correct,checked:new Date().toISOString()};save();
   document.querySelectorAll('#poolQuestion .choices button').forEach((b,i)=>{b.disabled=true;if(i===q.answer)b.classList.add('ok');else if(i===index)b.classList.add('bad');});
   document.getElementById('poolFeedback').innerHTML=`<p>${correct?'Correct.':'Incorrect.'} Published NCVEC answer: ${'ABCD'[q.answer]}. ${esc(q.choices[q.answer])}</p><p>Answer-key feedback only; no teaching explanation supplied. <a href="${esc(CERT.sources[CERT.technicianPool.source].url)}" target="_blank" rel="noopener">NCVEC pool, ${esc(q.id)}</a></p>`;
@@ -95,7 +105,41 @@ function technicianPoolAnswer(index){
   const known=CERT.technicianPool.questions.filter(x=>technicianPoolProgress()[x.id]),missed=known.filter(x=>!technicianPoolProgress()[x.id].correct);
   document.getElementById('poolProgress').textContent=known.length+' distinct questions reviewed; '+missed.length+' currently missed. Saved in your StudyGOAT progress.';
 }
-function technicianPoolNext(){if(!poolSession?.answered)return;poolSession.index++;technicianPoolDraw();}
+function technicianPoolNext(){if(!poolSession?.answered||poolSession.finished)return;poolSession.index++;technicianPoolDraw();}
+function technicianPoolFigure(q){
+  const f=q.figure&&CERT.technicianPool.figures[q.figure];
+  return f?`<figure><img src="${f.dataUrl}" alt="${esc(f.alt)}" style="display:block;max-width:100%;height:auto;background:white"><figcaption>${esc(f.title)}. Published NCVEC diagram.</figcaption></figure><details><summary>Diagram text description</summary><p>${esc(f.description)}</p></details>`:'';
+}
+function technicianPoolExamStart(){
+  const p=CERT.technicianPool,now=new Date().toISOString().slice(0,10);
+  if(now<p.validFrom||now>p.validThrough||p.status!=='complete')return;
+  technicianPoolStopTimer();
+  const deck=p.groups.map(group=>shuffle(p.questions.filter(q=>q.group===group))[0]);
+  if(deck.some(q=>!q)||deck.length!==p.exam.questionCount)return;
+  const timed=document.getElementById('poolTimed').checked;
+  poolSession={mode:'exam',deck:shuffle(deck),answers:{},index:0,answered:false,finished:false,end:timed?Date.now()+p.exam.optionalMinutes*60000:null};
+  for(const id of ['poolGroup','poolQuery','poolMissed','poolStart','poolTimed','poolExam'])document.getElementById(id).disabled=true;
+  if(timed)poolTimer=setInterval(technicianPoolExamTick,1000);
+  technicianPoolDraw();
+}
+function technicianPoolExamTick(){
+  const session=poolSession;if(screen!=='technicianpool'||CC!=='technician'||!session||session.finished){technicianPoolStopTimer();return;}
+  const clock=document.getElementById('poolClock');
+  if(!session.end){if(clock)clock.textContent='Untimed practice';return;}
+  const seconds=Math.max(0,Math.ceil((session.end-Date.now())/1000));
+  if(clock)clock.textContent='Study timer: '+Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0');
+  if(!seconds)technicianPoolExamFinish(true);
+}
+function technicianPoolExamFinish(expired=false){
+  const session=poolSession;if(!session||session.mode!=='exam'||session.finished||screen!=='technicianpool')return;
+  session.finished=true;technicianPoolStopTimer();
+  const p=CERT.technicianPool,answers=technicianPoolProgress();let correct=0;
+  for(const q of session.deck){const choice=session.answers[q.id],ok=choice===q.answer;if(ok)correct++;answers[q.id]={choice:choice??null,correct:ok,checked:new Date().toISOString()};}
+  S.technicianPool.lastExam={correct,total:session.deck.length,passed:correct>=p.exam.passCount,expired,checked:new Date().toISOString()};save();
+  const missed=p.questions.filter(q=>answers[q.id]?.correct===false).length;
+  document.getElementById('poolProgress').textContent=p.questions.filter(q=>answers[q.id]).length+' distinct questions reviewed; '+missed+' currently missed. Saved in your StudyGOAT progress.';
+  document.getElementById('poolQuestion').innerHTML=`<div class="card"><h3>Practice exam complete</h3><p>${expired?'Study timer expired. ':''}${correct} correct out of ${session.deck.length}. ${correct>=p.exam.passCount?'Meets':'Below'} the 26-of-35 practice threshold.</p><p>Unanswered questions count as incorrect. This practice result does not award a license or predict an official examination result.</p><button onclick="technicianPoolOpen()">Choose study or another practice exam</button><h3>Answer review</h3>${session.deck.map(q=>`<details><summary>${esc(q.id)}: ${session.answers[q.id]===q.answer?'Correct':'Review needed'}</summary><p>${esc(q.q)}</p>${technicianPoolFigure(q)}<p>Your answer: ${Number.isInteger(session.answers[q.id])?'ABCD'[session.answers[q.id]]:'Unanswered'}. Published answer: ${'ABCD'[q.answer]}. ${esc(q.choices[q.answer])}</p><p>Answer-key feedback only. <a href="${esc(CERT.sources[p.source].url)}" target="_blank" rel="noopener">NCVEC ${esc(q.id)}</a></p></details>`).join('')}</div>`;
+}
 document.addEventListener('keydown',e=>{
   if(screen!=='technicianpool'||!poolSession||/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement?.tagName||'')||e.altKey||e.ctrlKey||e.metaKey)return;
   if(/^[1-4]$/.test(e.key)){e.preventDefault();technicianPoolAnswer(Number(e.key)-1);}
@@ -133,7 +177,7 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) {legacyHome();if(CC==='cpsc222')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="fsmLab()">Open finite state machine lab</button></div>');return;}
   _home();
-  if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study 391 NCVEC text questions</button><p>Separate public-domain pool practice. 18 questions remain excluded; not a complete pool or exam simulation.</p></div>');
+  if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study all 409 NCVEC questions</button><p>Complete public-domain question pool and diagrams. Separate 35-question practice exams and saved missed-question review.</p></div>');
   view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
 };
 function certNotice() {
@@ -265,7 +309,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{technicianPoolOpen,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,certSources,startCertExam,startChapterPractice,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();

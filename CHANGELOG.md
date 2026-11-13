@@ -1,5 +1,11 @@
 # Changelog
 
+## November 12, 2026: complete Technician pool and practice exams
+
+- Restored six text and twelve diagram questions using the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team. All 409 public-domain questions and three published diagrams are available.
+- Added 35-question practice exams with one per official group, deferred answer review, scoring, missed-question persistence and an optional 45-minute study timer. Existing review progress is preserved.
+- Retained source bytes and reproducible PDF-to-catalog validation. Added embedded diagrams and text descriptions for offline exports. Original teaching lessons and the overall project remain incomplete.
+
 ## November 12, 2026: FAA drone operating rules
 
 - Added eight topics, 16 lessons and 64 original questions covering selected night/twilight, operations over people/vehicles, preflight, reporting and waiver requirements.

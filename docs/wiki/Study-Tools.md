@@ -57,7 +57,7 @@ New tracks use fixed original questions with checked source sections. Their Prac
 Choose Classes, Certifications or Driving Tests, then use the course or state search. FAA study is Part 107 drone preparation. University and custom courses keep their existing tools. The CPSC 222 class includes a finite-state-machine lab.
 
 <!-- STUDYGOAT SUMMARY START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 <!-- STUDYGOAT SUMMARY END -->
 
 The national course covers attention/distraction, speed and seat-belt safety. It does not verify state laws or permit requirements. State-specific courses have their own selected sources and gaps. Read Sources & coverage before relying on any course.

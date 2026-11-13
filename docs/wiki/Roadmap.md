@@ -1,7 +1,7 @@
 # Development roadmap
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
@@ -9,7 +9,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -42,7 +42,7 @@ Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 origin
 2. Driving: Complete the remaining manuals for implemented states and add jurisdictions marked pending in the generated inventory, in separately verified batches. A planned directory entry is not a course.
 3. Security+: expand the remaining threats, architecture, operations and governance/risk/compliance objectives. Current CompTIA version verification remains blocked by inaccessible official version pages. Do not infer current availability from the accessible SY0-701 baseline document.
 4. FAA: selected night, people/vehicle, preflight, reporting and waiver lessons are implemented. Complete the ACS inventory, charts, broader weather/performance, detailed category/Remote ID compliance and operational procedures. METAR/TAF examples are synthetic educational exercises, not operational weather.
-5. Technician: 391 primary-checked NCVEC text questions are available in separate study mode, with published prompt corrections and no withdrawals reported on November 12. Verify six missing T5B text items and three diagrams for twelve figure questions before complete pool sampling. Complete theory, antennas, operations, safety and teaching explanations.
+5. Technician: all 409 public-domain NCVEC questions and three diagrams are available. The revised release is hosted by KP4ARA Laurel VE Team and has been compared against the import. Separate 35-question practice exams sample one per official group, with optional study timing and answer review. Complete theory, antennas, operations, safety and teaching explanations.
 6. WFA: the learner's provider/syllabus and qualified instructor or clinical review are still required before treatment guidance. Physical skill assessments remain with the training provider.
 
 ## Release rules

@@ -114,3 +114,12 @@ The imported study set excludes twelve figure-dependent questions, leaving 391 t
 ## FAA operating rules review, November 12, 2026
 
 Reviewed eCFR Part 107 sections 107.9, 107.15, 107.29, 107.39, 107.49, 107.65, 107.110, 107.115, 107.120, 107.125, 107.130, 107.140, 107.145, 107.200 and 107.205. The eCFR display reported Title 14 updated through November 10; individual amendment notes determine rule history. Added original scenarios for selected requirements, not full legal/ACS coverage. Specific boundary checks include $500 repair/total-loss exceptions, any loss of consciousness, 0.55-pound Category 1 mass including attachments, Category 3 assembly restrictions and the limited scope of issued waivers. Injury-severity equivalents are not represented as an operator self-certification calculation. No actual FAA questions copied. The FAA ACS index and linked FAA-S-ACS-10B April 2021 PDF were rechecked; full objective inventory remains pending.
+
+
+## November 12 complete Technician pool and diagrams
+
+Retrieved the revised 79-page NCVEC public-domain release from the KP4ARA Laurel VE Team mirror, linked from https://kp4ara.org/kp4ara-ve-team. NCVEC direct downloads still return 403. The complete source PDF is retained in `courses/sources/NCVEC Technician 2026.pdf`, with its SHA-256 and download URL in catalog provenance. This resolves the earlier missing-file and question exclusions described above.
+
+Parsed all 409 prompts, answer keys and option lists. All 391 existing keys and choices match after whitespace and superscript normalization. Revised T1B11 includes the article absent from the earlier research reader. All four February 19 errata prompts match. The six missing T5B items are taken from the complete revised PDF. Visually checked all three published diagrams and the twelve linked questions, then embedded crops from PDF pages 78 and 79 with text descriptions. No diagram was redrawn. No third-party teaching explanations were copied.
+
+The NCVEC syllabus supplies 35 groups and the exam distribution. Current 47 CFR 97.503(a) confirms 35 questions and a minimum 26 correct answers. ARRL lists no Technician withdrawals as checked November 12, 2026. An optional 45-minute study timer is a StudyGOAT setting, not an official requirement. Complete pool sampling does not establish a complete teaching curriculum. `npm run test:pool` reproduces all 409 prompt/choice/key comparisons against the retained source bytes.

@@ -1,21 +1,27 @@
 # Amateur Radio Technician
 
-Updated November 12, 2026. Eight original lessons and 36 original questions remain available. A separate pool-study mode now adds 391 public-domain NCVEC text questions. These counts describe different banks and are not combined as original content.
+Updated November 12, 2026. Eight original lessons and 36 original questions remain available. Separate pool study now contains all 409 public-domain NCVEC questions and all three published diagrams. Original teaching lessons remain partial.
 
-## Available pool study
+## Study and practice exams
 
-The 2026-2030 pool is effective July 1, 2026 through June 30, 2030. Practice preserves official question IDs, answer letters and option order. It supports group selection, question-ID lookup, saved review progress and missed-only review. Feedback stays visible until Next question and cites the published answer key. It does not supply a teaching explanation or award credit. Study is disabled outside the pool validity dates.
+The pool is valid July 1, 2026 through June 30, 2030. Official question IDs, answer letters and option order are preserved. Group selection, question-ID lookup, persistent progress and missed-only review are available. In study mode, the published answer stays visible until Next question.
 
-Source: [NCVEC December 18 baseline](https://ncvec.org/downloads/TECH_2026/2026-2030%20Technician%20Pool%20and%20Syllabus%20Public%20Release%20Dec%2018%202025.pdf), read through the official research-reader text. The [indexed NCVEC release](https://ncvec.org/index.php/2026-2030-technician-question-pool) supplies the February 19, 2026 prompt corrections for T1C01, T5A05, T7A09 and T0A10. All four are applied. NCVEC releases the question pool into the public domain. No third-party teaching explanations are copied.
+A separate practice exam randomly selects one question from each of the 35 official groups. Study filters do not restrict exam sampling. Answers are hidden until submission. Unanswered questions count as incorrect. The practice threshold is 26 correct out of 35, per [47 CFR 97.503(a)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.503). This practice does not award credit, issue a license or predict an official exam result.
 
-## Explicit exclusions
+Timing is optional. The 45-minute study timer is chosen by StudyGOAT and is not an official time limit. Expiration submits the current answers. Submitted answers feed saved missed-question review. Existing saved pool-study progress is preserved by this update. An unsubmitted practice exam is not resumed after reload.
 
-T5B03 through T5B08 are absent from the accessible primary reader text. Twelve questions requiring Figures T-1, T-2 or T-3 are excluded until their diagrams are validated. The app lists all 18 excluded IDs and blocks their selection. Available items span all 35 groups, but that does not establish complete coverage. No full official-pool exam simulation is enabled.
+All three figure crops are embedded in the catalog, so they work in the standalone exported app without a network connection. Text descriptions of the diagrams are available alongside the images. Study and practice exams are disabled outside the pool validity dates.
 
-All 403 primary-readable question keys and choices were compared against the [HamExam mirror](https://hamexam.org/view_pool/21-Technician). The only prompt wording difference after applying errata and normalizing spacing/punctuation is the article “the” in T1B11; primary wording is retained. Reader OCR prefixes TOB/TOC were normalized to T0B/T0C. Catalog provenance records the reader and imported-question fingerprints. The six absent items are not filled from the mirror.
+## Sources and validation
 
-[ARRL withdrawals](https://www.arrl.org/withdrawn-questions) lists none for Technician on November 12, 2026. Recheck official updates before an examination. Direct NCVEC file retrieval still returned 403; this release does not claim possession or validation of the complete corrected PDF.
+The [NCVEC release page](https://ncvec.org/index.php/2026-2030-technician-question-pool) releases the question pool into the public domain. Direct downloads returned 403. The complete revised 79-page NCVEC PDF was downloaded from the [KP4ARA Laurel VE Team study materials](https://kp4ara.org/kp4ara-ve-team), where it is labeled Public Release February 19, 2026. This is an examiner-hosted mirror, not a direct NCVEC download.
+
+All 409 prompts, answer keys and option lists were parsed and checked. All 391 previously imported keys and options match after whitespace and superscript normalization. The revised PDF includes the article “the” in T1B11, replacing the earlier reader omission. All four February 19 prompt corrections are retained. Figures T-1, T-2 and T-3 on PDF pages 78 and 79 were visually checked against the twelve figure-dependent questions. Images are crops of those published figures, not redrawn substitutes.
+
+The public-domain source PDF is retained at `courses/sources/NCVEC Technician 2026.pdf`. `npm run test:pool` compares every imported prompt, option and answer against that fingerprinted PDF using Poppler. Content checks verify the imported data and image fingerprints. Browser checks cover diagrams, full-group sampling, deferred feedback, scoring, timeout, saved review, expiration guards, mobile layout and exported offline use.
+
+[ARRL withdrawals](https://www.arrl.org/withdrawn-questions) lists none for Technician on November 12, 2026. Recheck official updates before an examination.
 
 ## Remaining work
 
-Validate the six missing questions and three diagrams, then test complete one-question-per-group exam sampling. Expand theory, antennas, operations and safety lessons and add reviewed teaching explanations. Existing short foundation practice is retained. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.
+Expand theory, antennas, operations and safety lessons and add reviewed teaching explanations. Pool feedback identifies the published answer key; it does not supply complete teaching explanations. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.

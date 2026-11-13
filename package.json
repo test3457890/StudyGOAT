@@ -1,1 +1,12 @@
-{"name":"studygoat","private":true,"scripts":{"test":"node tests/content.cjs","test:browser":"node tests/browser.cjs"},"devDependencies":{"playwright":"1.58.2"}}
+{
+  "name": "studygoat",
+  "private": true,
+  "scripts": {
+    "test": "node tests/content.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "test:pool": "python3 tools/verify-technician-pool.py"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
