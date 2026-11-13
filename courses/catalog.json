@@ -1904,6 +1904,20 @@
       "checked": "2026-11-13",
       "reviewBy": "2026-12-13",
       "rights": "U.S. government publication. Original teaching summaries and fictional examples; not a reproduction of exam questions."
+    },
+    "fccpart97": {
+      "publisher": "Electronic Code of Federal Regulations / Federal Communications Commission",
+      "title": "47 CFR Part 97: Amateur Radio Service",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97",
+      "version": "Current eCFR text accessed November 13, 2026",
+      "sections": [
+        "Part 97"
+      ],
+      "status": "verified",
+      "effective": "Current text on review date; future amendments require rechecking",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. federal regulation. Original summaries; read the complete applicable section and exceptions."
     }
   },
   "tracks": [
@@ -25195,12 +25209,13 @@
       "id": "technician",
       "code": "Amateur Radio Technician",
       "name": "Rules, electronics and radio foundations",
-      "version": "2026-2030 target; original lessons plus partial NCVEC text study",
+      "version": "2026-2030 NCVEC pool with explanations; partial standalone lessons",
       "status": "partial",
-      "notice": "Partial original lessons plus all 409 public-domain NCVEC pool questions and three published diagrams. Separate 35-question practice exams sample one per group. Teaching explanations and the original lesson curriculum remain incomplete. Amateur privileges do not establish permission for other radio services.",
+      "notice": "Complete 409-question public-domain NCVEC study bank, diagrams and original explanations, with 35-group practice exams. The separate standalone teaching course remains partial. Original StudyGOAT explanations are not official NCVEC explanations. No license or exam readiness is awarded.",
       "gaps": [
-        "Remaining electronics, antennas, propagation, operating practice and safety lessons",
-        "Source-based teaching explanations for official questions; current feedback identifies answer keys only"
+        "Complete standalone electronics, antenna, propagation, operating and safety lesson sequences; the 409 question explanations are available now",
+        "Independent subject-matter review of the original explanations and practical instruction",
+        "Supervised equipment, installation and safety skills remain outside the question bank"
       ],
       "objectives": [
         "Exam orientation",
@@ -26725,7 +26740,7 @@
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-12"
+      "checked": "2026-11-13"
     },
     {
       "id": "arizonadriving",
@@ -55526,7 +55541,7 @@
     "releaseUrl": "https://ncvec.org/index.php/2026-2030-technician-question-pool",
     "withdrawalsUrl": "https://www.arrl.org/withdrawn-questions",
     "withdrawals": [],
-    "notice": "All 409 public-domain NCVEC questions, including the three published diagrams. Study by group or take an original 35-question practice selection with one question per group. Answer-key feedback is supplied; teaching explanations remain incomplete. StudyGOAT cannot award a license or predict an official result.",
+    "notice": "All 409 public-domain NCVEC questions, the three published diagrams and original StudyGOAT explanations for every answer. Study by group or take a 35-question practice selection with one question per group. Answers and explanations appear after submission in exam mode. StudyGOAT cannot award a license or predict an official result.",
     "corrections": {
       "T1C01": "For which classes of amateur radio licenses does the FCC currently issue new licenses?",
       "T5A05": "A difference in which of the following causes electron flow?",
@@ -61360,6 +61375,4022 @@
         "pdfPage": 79,
         "sha256": "b994574a6ccbb33dc85cdec1cd7edcb173ee6538299011e5230d58b90fe364ae",
         "description": "From left to right, callout 1 labels the input connection. Callout 2 points to two parallel plates with a diagonal arrow through them. Callout 3 is beside a coil connected down to ground, with an arrow pointing to a tap on the coil. Callout 4 is above the open triangular radiating symbol at the upper right."
+      }
+    },
+    "groupTitles": {
+      "T0A": "Electrical and battery safety",
+      "T0B": "Antenna and tower safety",
+      "T0C": "RF exposure",
+      "T1A": "Service purpose and administration",
+      "T1B": "Bands, emissions and power",
+      "T1C": "Licensing and call signs",
+      "T1D": "Permitted and prohibited transmissions",
+      "T1E": "Control operators and control methods",
+      "T1F": "Identification and station responsibility",
+      "T2A": "Calling, simplex and repeater conventions",
+      "T2B": "Repeater access and operating tools",
+      "T2C": "Nets and emergency communication",
+      "T3A": "Paths, polarization and fading",
+      "T3B": "Radio waves and frequency ranges",
+      "T3C": "Beyond-horizon propagation",
+      "T4A": "Station connections and power",
+      "T4B": "Transceiver controls and configuration",
+      "T5A": "Electrical quantities and units",
+      "T5B": "Metric conversions and decibels",
+      "T5C": "Power, capacitance and impedance",
+      "T5D": "Ohm's law and circuit relationships",
+      "T6A": "Passive components and batteries",
+      "T6B": "Diodes and transistors",
+      "T6C": "Schematic symbols and diagrams",
+      "T6D": "Circuit functions",
+      "T7A": "Radio building blocks",
+      "T7B": "Interference and troubleshooting",
+      "T7C": "Antenna-system testing",
+      "T7D": "Measurements and soldering",
+      "T8A": "Modes and bandwidth",
+      "T8B": "Satellite operation",
+      "T8C": "Operating activities and internet links",
+      "T8D": "Digital communication",
+      "T9A": "Antenna behavior",
+      "T9B": "Feed lines, connectors and matching"
+    }
+  },
+  "technicianExplanations": {
+    "status": "complete",
+    "checked": "2026-11-13",
+    "reviewBy": "2026-12-13",
+    "questionCount": 409,
+    "poolFingerprint": "f4f0d7c49c297e33cde0aa385c0700e7a512b5f64bda64c02787359c3cc7b2c1",
+    "notice": "Original StudyGOAT explanations for all 409 published questions. The NCVEC question text and answer keys are preserved separately. These explanations are study aids, not NCVEC-authored guidance, an independent instructor review, or installation/service procedures.",
+    "items": {
+      "T0A01": {
+        "text": "Low voltage does not mean low fault current. A short can draw enough battery current to overheat conductors and ignite material.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A02": {
+        "text": "Current can heat tissue, disturb electrical activity and cause involuntary muscle contraction. Each listed effect is a possible electrical injury.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A03": {
+        "text": "In the US cable convention described, black identifies the hot conductor. Color alone is not proof that a conductor is safe or de-energized.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A04": {
+        "text": "A correctly selected fuse opens the circuit when excessive current flows, limiting overload damage rather than regulating normal voltage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A05": {
+        "text": "The larger fuse can permit more current than the protected wiring or equipment can safely carry before opening.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A06": {
+        "text": "Protective grounding and suitable three-wire connections address shock paths; stored capacitor charge is a separate hazard that must also be controlled.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A07": {
+        "text": "The entry-point grounded panel provides a place to divert a surge before the feed line continues into the building. Installation must follow applicable codes.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A08": {
+        "text": "Opening the hot conductor disconnects the energized supply path. Interrupting only the neutral can leave equipment connected to the hot supply.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A09": {
+        "text": "Bonding connects grounding electrodes into one system, reducing dangerous differences in potential. Separate unbonded grounds are not equivalent protection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A10": {
+        "text": "Excessive charge or discharge current can heat a battery and generate gas. Use the chemistry-specific charging and protection requirements.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A11": {
+        "text": "Turning off input power does not instantly remove energy stored in capacitors. Internal servicing requires appropriate training and safe verification.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0A12": {
+        "text": "Both the instrument and leads need suitable voltage and safety ratings; selecting a high display range alone does not establish safe measurement capability.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0A"
+          }
+        ]
+      },
+      "T0B01": {
+        "text": "Short, direct grounding paths avoid unnecessary inductance and impedance during a fast lightning surge. Follow the installation's applicable grounding requirements.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B02": {
+        "text": "Training, appropriate tie-off and an approved harness address different fall hazards. The exam answer does not substitute for qualified climbing instruction.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B03": {
+        "text": "A helper or observer is part of safe tower work, including recognizing trouble and initiating emergency assistance. Do not treat solo climbing as a routine option.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B04": {
+        "text": "An antenna or tower can contact a power line during lifting or failure. Identify overhead conductors before choosing an installation location.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B05": {
+        "text": "The safety wire resists rotation that could let vibration unscrew the turnbuckle and reduce guy-line tension.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B06": {
+        "text": "Consider the entire fall envelope, not just the upright antenna. The pool specifies that no fallen part may come within 10 feet of power wires; actual utility and code requirements can require more.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B07": {
+        "text": "An unsupported crank-up section can move or collapse. Retraction or the specified mechanical locking is essential, alongside qualified procedures and manufacturer instructions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B08": {
+        "text": "The pool's grounding arrangement bonds the rods, tower legs and electrodes together. Actual construction must meet local code and the tower design.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B09": {
+        "text": "A utility pole places the antenna near energized infrastructure. Movement or failure can bring conductive antenna parts into contact with high voltage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B10": {
+        "text": "Sharp bends increase the impedance of a lightning grounding path. The intended route is short and direct, consistent with applicable installation requirements.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0B11": {
+        "text": "The exam identifies local electrical codes as the source of installation requirements. A practice answer is not an engineered grounding design.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0B"
+          }
+        ]
+      },
+      "T0C01": {
+        "text": "Radio-frequency photons lack the energy associated with ionizing radiation. RF can still cause harmful heating and burns at sufficient exposure.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C02": {
+        "text": "The permissible limit depends on frequency. Of the listed bands, 50 MHz lies in the range with the lowest permitted exposure level.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C03": {
+        "text": "With half the transmitting time, the time-averaged exposure is halved for the same on-time field. The pool's averaging comparison therefore permits twice the on-time power density, subject to the applicable limits.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C04": {
+        "text": "Exposure depends on field frequency and power, distance, and antenna pattern. None of these inputs alone describes every exposure situation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C05": {
+        "text": "The body's coupling to RF energy varies with frequency, so one power-density limit is not used identically across the whole spectrum.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C06": {
+        "text": "Appropriate calculations, computer modeling or calibrated measurements can establish exposure. The chosen method and inputs must represent the actual station.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C07": {
+        "text": "An energized transmitting antenna can produce concentrated RF current at contact, causing a skin burn even without a conventional mains shock.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C08": {
+        "text": "Moving an antenna changes people's distance from and position within its radiation field. Re-evaluate exposure rather than assuming relocation alone proves compliance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C09": {
+        "text": "Changing power, antennas or related equipment can change exposure. Reassessment checks whether the earlier evaluation still represents the station.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C10": {
+        "text": "Exposure assessment uses average energy over a specified period. Transmitting less of that time changes the average even when peak output is unchanged.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C11": {
+        "text": "Duty cycle describes the transmitting fraction of the averaging interval. It is not simply the transmitter's maximum rated power.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C12": {
+        "text": "RF lacks the photon energy of ionizing radiation. This distinction does not make intense RF harmless; heating and contact burns remain concerns.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T0C13": {
+        "text": "The station licensee must ensure compliance for people who may be exposed. Purchasing compliant equipment does not by itself evaluate its installed antenna system.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T0C"
+          }
+        ]
+      },
+      "T1A01": {
+        "text": "Amateur radio includes technical investigation and improvement of communications skills. It is not a general commercial broadcasting service.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A02": {
+        "text": "The FCC administers US amateur licensing and enforces the service rules. A club or frequency coordinator does not replace that authority.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A03": {
+        "text": "Phonetics help another operator distinguish similar-sounding call-sign letters. The rule encourages their use for voice identification rather than requiring every exchange to be spelled out.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A04": {
+        "text": "The FCC notification supplies a link to the electronic grant. Passing the test alone is not the license grant or permission to start transmitting.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A05": {
+        "text": "The ULS record establishes that the grant has been issued. An examination completion certificate is a different document.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A06": {
+        "text": "The stated ten-meter segment accommodates automatically controlled propagation beacons. Do not generalize this answer to unrestricted automatic operation elsewhere.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A07": {
+        "text": "The Part 97 space-station definition uses altitude above Earth's surface, with the dividing point more than 50 km.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A08": {
+        "text": "A recognized volunteer coordinator recommends compatible channels to reduce repeater and auxiliary-station interference. Coordination is distinct from an FCC license grant.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A09": {
+        "text": "The eligible local or regional amateur community selects its coordinator. The role is not assigned by an equipment manufacturer.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A10": {
+        "text": "RACES participation also requires current civil-defense enrollment certification. Holding an amateur license alone does not supply that enrollment.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1A11": {
+        "text": "Intentional harmful interference is prohibited. Disagreement over a frequency does not authorize jamming another station.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1A"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B01": {
+        "text": "Technician ten-meter voice privileges include the stated 28.300-28.500 MHz segment. The answer does not grant voice privileges across the entire HF allocation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B02": {
+        "text": "A Technician or higher license provides relevant VHF privileges for an ISS contact. The actual uplink frequency, mode and operating requirements still matter.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B03": {
+        "text": "Using wavelength approximately equal to 300 divided by MHz, 52.525 MHz is about 5.7 meters, within the nominal six-meter band.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B04": {
+        "text": "300 divided by 146.52 is about 2.05 meters. Band names use approximate wavelength, so this is the two-meter band.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B05": {
+        "text": "Technicians have appropriate digital privileges in segments of ten, six and two meters. Always check the actual frequency and emission permissions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B06": {
+        "text": "Technician HF voice operation is confined to the authorized ten-meter segment. Technician CW privileges on some other HF bands do not create voice privileges there.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B07": {
+        "text": "These lower portions of six and two meters are CW-only segments. A band-wide license privilege does not override a segment's emission restriction.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B08": {
+        "text": "A secondary amateur allocation must protect the primary service. Hearing a non-amateur station there does not automatically mean it is unauthorized.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B09": {
+        "text": "The whole transmitted signal must remain within the permitted segment. Sidebands, display calibration error and drift all require margin from an edge.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B10": {
+        "text": "Above 50 MHz, each listed amateur band has at least a segment allowing SSB. This does not mean SSB is permitted in every segment.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B11": {
+        "text": "The specific Technician HF limit is 200 watts PEP. A higher general maximum does not override this class-and-band restriction.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1B12": {
+        "text": "The general maximum above 30 MHz is 1500 watts PEP, subject to particular restrictions and the requirement to use no more power than necessary.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1B"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C01": {
+        "text": "New grants are issued for Technician, General and Amateur Extra. Older retained license classes are not additional classes currently offered for new examination grants.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C02": {
+        "text": "Licensed amateurs may apply through the vanity system. Availability, call-sign group eligibility and assignment rules still constrain the selection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C03": {
+        "text": "International amateur contacts may serve amateur purposes and personal remarks. An amateur license does not authorize unrestricted international commercial messaging.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C04": {
+        "text": "The FCC needs a valid contact email to reach the licensee. Failing to maintain that contact can jeopardize the license rather than merely stopping club mail.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C05": {
+        "text": "KF1XXX has the two-letter prefix, numeral and three-letter suffix of a Group D format. Format and actual assignment are separate matters.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C06": {
+        "text": "The stated authorization concerns a US-documented vessel in international waters with the master's permission. Other flag states and foreign territorial rules are different cases.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C07": {
+        "text": "Renewal can be requested within the 90-day window before expiration. That window is different from the post-expiration renewal grace period.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C08": {
+        "text": "A normal amateur grant lasts ten years. Continued operation depends on a valid grant and compliance, not merely having once passed an exam.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C09": {
+        "text": "The two-year grace period allows renewal after expiration. It does not extend permission to transmit while the license remains expired.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C10": {
+        "text": "A first-time licensee waits until the operator/station grant appears in the FCC database. A passing score by itself does not authorize transmission.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1C11": {
+        "text": "Renewal grace preserves an opportunity to renew, not operating authority. Transmission must wait until the expired grant has been renewed.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D01": {
+        "text": "The relevant prohibition follows an administration's objection notified through the ITU. International amateur contacts are not banned merely because the other country is distant.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D02": {
+        "text": "Broadcasting targets the general public, rather than the authorized amateur purposes of permitted one-way transmissions such as certain beacons.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D03": {
+        "text": "The pool identifies narrow command exceptions for space stations and model craft. Ordinary amateur messages may not be encrypted merely to hide their meaning.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D04": {
+        "text": "This is a narrow exception for music incidental to authorized manned-spacecraft retransmission. It does not permit an amateur entertainment music channel.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D05": {
+        "text": "An occasional notice offering amateur equipment is different from regular business advertising. The stated exception is limited in purpose and frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D06": {
+        "text": "Part 97 prohibits obscene or indecent words or language. A private audience or an informal conversation does not create an exemption.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D07": {
+        "text": "An auxiliary station provides a communications link within an amateur system. Linking a remote receiver to a repeater transmitter is that supporting role.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D08": {
+        "text": "The classroom-instruction exception is specific. It does not establish a general right to be paid for amateur on-air communications.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D09": {
+        "text": "The exception concerns immediate life safety or property protection when no other means is available. Routine news gathering is not equivalent to that emergency condition.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D10": {
+        "text": "Broadcasting is defined by intended reception by the general public. A transmission being physically receivable by others does not alone determine its purpose.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D11": {
+        "text": "Model-craft control has a specific station-identification exception. It is not an exemption for ordinary test transmissions or conversations.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1D12": {
+        "text": "A transmission used to test equipment still needs the applicable station identification. Calling it a test does not remove the requirement.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1D"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E01": {
+        "text": "Even automatically controlled stations have a designated responsible control operator. Automatic control is not operation without one.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E02": {
+        "text": "The control operator needs privileges for the uplink being transmitted. Receiving a satellite downlink alone does not grant uplink authority.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E03": {
+        "text": "The station licensee designates the control operator. Letting someone use equipment does not remove the licensee's responsibility to do so appropriately.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E04": {
+        "text": "The control operator's license class determines the permitted transmitting privileges. The equipment's capabilities do not expand them.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E05": {
+        "text": "The control point is where the control-operator function is performed. It need not be the physical antenna location.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E06": {
+        "text": "A Technician cannot be the control operator for an Extra-only segment in ordinary operation. A differently licensed operator's presence does not upgrade the Technician's own control-operator privileges.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E07": {
+        "text": "Both the designated control operator and station licensee carry responsibility. Using someone else's station does not transfer every obligation to only one person.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E08": {
+        "text": "A repeater can respond to received signals under automatic control, while remaining under a responsible designated control operator.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E09": {
+        "text": "Part 97 permits remote control of amateur stations, subject to the applicable station and control requirements. Remote does not mean unlicensed or uncontrolled.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E10": {
+        "text": "Internet operation separates the operator's control point from the transmitter. That is remote control rather than merely using a computer beside the radio.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1E11": {
+        "text": "The designated control operator is responsible for transmissions and rules compliance. This is a regulatory role, not just whoever owns the microphone.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1E"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F01": {
+        "text": "An FCC representative may request inspection of the station and records. A licensee cannot limit this obligation to a preferred club meeting time.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F02": {
+        "text": "A tactical name does not replace the FCC call sign. The ten-minute and end-of-communication identification requirements still apply.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F03": {
+        "text": "Identify at least every ten minutes during a communication and at its end. The interval is not permission to omit the final identification.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F04": {
+        "text": "Voice call-sign identification must use English. The language used for the rest of a permitted conversation is a separate issue.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F05": {
+        "text": "A voice station can identify by the permitted phone or CW method. Identification is not restricted to voice simply because the contact uses voice.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F06": {
+        "text": "Stroke, slant and slash are acceptable spoken forms of the self-assigned indicator shown. The required assigned call sign still must be sent.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F07": {
+        "text": "The unlicensed speaker makes this third-party traffic. The applicable international third-party arrangement must permit it; the control operator remains responsible.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F08": {
+        "text": "Third-party communication carries a message for another person between amateur control operators. It is not simply the third station heard on a frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F09": {
+        "text": "A repeater receives and retransmits another station on different channels simultaneously. Simplex stations normally use one channel directly.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F10": {
+        "text": "The originating station's control operator is accountable for the prohibited communication. Passing through a repeater does not remove that responsibility.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T1F11": {
+        "text": "A club grant requires a club with at least four members. The grant is not simply a personal vanity call sign shared informally.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T1F"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T2A01": {
+        "text": "A common two-meter repeater pair separates input and output by 600 kHz. Use the actual local repeater settings rather than assuming the offset sign.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A02": {
+        "text": "146.520 MHz is the customary US two-meter FM simplex calling frequency. A calling convention is not a grant of exclusive use.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A03": {
+        "text": "Many 70-centimeter repeater pairs use a 5 MHz separation. Actual local coordination and repeater listings determine the needed offset direction.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A04": {
+        "text": "Naming the desired station followed by your call sign states whom you want and identifies you without a prolonged general call.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A05": {
+        "text": "The caller's call sign followed by yours identifies both stations and makes clear that you are responding to that CQ.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A06": {
+        "text": "CQ invites a contact from any listening station. Pauses are essential so a responding station has an opportunity to be heard.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A07": {
+        "text": "Offset is the difference between the repeater's receive and transmit frequencies. The user's transmit frequency must reach the repeater input.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A08": {
+        "text": "CQ is a general invitation to any station. It does not mean an emergency or a request to change frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A09": {
+        "text": "A call sign followed by listening identifies the operator and indicates availability without a lengthy CQ on the repeater.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A10": {
+        "text": "A band plan coordinates customary activity inside legal allocations. Its voluntary guidance does not replace FCC frequency and emission privileges.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2A11": {
+        "text": "Simplex uses the same frequency for transmission and reception. A conventional repeater contact uses different input and output frequencies.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2A"
+          }
+        ]
+      },
+      "T2B01": {
+        "text": "Reverse lets you hear the stations transmitting into the repeater directly. That can help assess whether simplex communication is practical.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B02": {
+        "text": "CTCSS adds a continuous low-frequency access tone to voice. Matching the tone can open a receiver's tone-controlled squelch.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B03": {
+        "text": "Linked repeaters carry received audio across connected sites. The geographic coverage extends beyond a single repeater's local footprint.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B04": {
+        "text": "Hearing the output does not prove your input settings are correct. Offset, CTCSS or DCS mismatches can each prevent access.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B05": {
+        "text": "Excessive microphone audio can produce too much FM deviation. A repeater or receiver may then lose or reject parts of the voice peaks.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B06": {
+        "text": "DTMF encodes a key using a pair of simultaneous audio frequencies. It differs from the single continuous tone used for CTCSS access.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B07": {
+        "text": "A digital talkgroup is selected by its programmed identifier. Tuning the RF channel alone may not select the intended group traffic.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B08": {
+        "text": "Operators should cooperate and negotiate shared use. Interference does not justify deliberate jamming or claiming permanent ownership of a frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B09": {
+        "text": "Nearby stations that can communicate directly can use simplex, preserving repeater capacity for contacts needing the repeater's coverage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B10": {
+        "text": "QRM refers to interference from other stations. It is different from QSY, which concerns changing frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B11": {
+        "text": "QSY means changing frequency. It does not itself identify interference or a signal-strength measurement.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B12": {
+        "text": "The DMR color code is a configured access value, not encryption or a license privilege. The correct code must match the repeater.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B13": {
+        "text": "Squelch suppresses unwanted receiver noise when no qualifying signal is present. It does not increase transmitter power or improve propagation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2B14": {
+        "text": "A talkgroup identifies a selected conversation group in DMR. It organizes which traffic is passed to listeners using that group.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2B"
+          }
+        ]
+      },
+      "T2C01": {
+        "text": "Emergency operation is still governed by Part 97, including its narrow emergency provisions. An emergency does not abolish every rule.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T2C02": {
+        "text": "Net control organizes check-ins and directs exchanges, reducing simultaneous transmissions and helping traffic reach the intended station.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C03": {
+        "text": "Standard phonetics distinguish letters and unusual words that can be misheard. A consistent alphabet improves intelligibility under poor conditions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C04": {
+        "text": "RACES is the Part 97 civil-defense communications arrangement. It is distinct from the separately organized ARES volunteer program.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T2C05": {
+        "text": "Traffic means messages handled by the net. It does not refer to road congestion or simply the number of stations listening.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C06": {
+        "text": "ARES is a volunteer public-service organization of licensed amateurs with registered capabilities. It is not itself an FCC operator license class.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C07": {
+        "text": "In a directed net, wait for net control unless emergency traffic requires attention. This prevents competing transmissions from disrupting message handling.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C08": {
+        "text": "Winlink supports message exchange using call-sign-based email addresses through its radio and network system. It is not a voice access tone.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C09": {
+        "text": "Part 97's emergency provisions concern immediate life safety or protection of property when normal communications are unavailable. They are not routine permission to transmit outside your class privileges.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T2C10": {
+        "text": "The preamble carries handling and tracking information for the formal message, distinct from the message's actual text.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C11": {
+        "text": "The check counts words or word equivalents in the text so receiving stations can detect a missing or extra element.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          }
+        ]
+      },
+      "T2C12": {
+        "text": "RACES requires certification through the relevant civil-defense organization. ARES registration is a different public-service arrangement.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T2C"
+          },
+          {
+            "source": "fccpart97",
+            "section": "Part 97"
+          }
+        ]
+      },
+      "T3A01": {
+        "text": "Reflections create multiple copies of a signal. A small antenna movement changes their relative phase, producing reinforcement or cancellation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A02": {
+        "text": "Vegetation absorbs some UHF and microwave energy. A path through foliage can therefore lose weak signals that were readable on a clearer path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A03": {
+        "text": "Horizontal polarization is the usual convention for weak-signal VHF/UHF CW and SSB. It differs from common vertical FM mobile practice.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A04": {
+        "text": "A receiving antenna couples less effectively to the perpendicular polarization. This mismatch reduces received signal strength on the stated direct path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A05": {
+        "text": "A reflected route can carry energy around a blocked direct path. A directional antenna may find that usable route at a different bearing.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A06": {
+        "text": "As a mobile station moves, changing reflected paths produce rapid signal-strength fluctuations. This flutter is called picket fencing.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A07": {
+        "text": "Rain and other precipitation can attenuate microwave paths. Weather effects become important at these frequencies even when lower-frequency paths change little.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A08": {
+        "text": "Different ionospheric paths arrive with changing phases. Their combined signal can alternately reinforce and cancel, causing irregular fading.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A09": {
+        "text": "Elliptical polarization includes changing electric-field orientation. Either vertical or horizontal antennas can receive part of the returning wave.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A10": {
+        "text": "Delayed signal copies can overlap and distort data symbols. The resulting interference can increase decoding errors.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A11": {
+        "text": "The ionosphere's charged regions can return suitable HF signals toward Earth, enabling paths beyond the direct radio horizon.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3A12": {
+        "text": "Fog and rain cause relatively little direct attenuation on ten and six meters. This differs from the stronger precipitation effects possible at microwave frequencies.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3A"
+          }
+        ]
+      },
+      "T3B01": {
+        "text": "In a radio wave, the electric and magnetic field directions are perpendicular. They are not parallel copies of one another.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B02": {
+        "text": "Polarization follows the orientation of the electric field, not the direction in which the antenna cable happens to run.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B03": {
+        "text": "An electromagnetic wave has coupled electric and magnetic fields. Neither field alone describes the whole traveling wave.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B04": {
+        "text": "In free space, radio waves propagate at the speed of light. Their frequency does not make them travel faster than light.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B05": {
+        "text": "Wave speed equals frequency times wavelength. At fixed speed, increasing frequency therefore decreases wavelength.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B06": {
+        "text": "Using about 300 million meters per second and frequency in millions of cycles per second gives wavelength in meters approximately equal to 300/frequency in MHz.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B07": {
+        "text": "Names such as two meters describe approximate wavelength. A band spans frequencies, so its name is not an exact wavelength for every channel.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B08": {
+        "text": "VHF means very high frequency and spans 30-300 MHz. Convert units before comparing a stated frequency with that range.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B09": {
+        "text": "UHF spans 300-3000 MHz, equivalently 0.3-3 GHz. It sits above VHF and below the higher microwave ranges.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B10": {
+        "text": "HF spans 3-30 MHz. It is the frequency category below VHF, despite the everyday meaning of the word high.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B11": {
+        "text": "The approximate free-space speed is 3 x 10^8 meters per second. This is also the constant used in the basic wavelength relation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3B12": {
+        "text": "All radio frequencies share the same free-space propagation speed. Higher frequency changes the wavelength rather than increasing that speed.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3B"
+          }
+        ]
+      },
+      "T3C01": {
+        "text": "Ordinary UHF communication mainly follows paths near the radio horizon. Ionospheric return is not its usual long-distance propagation mechanism.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C02": {
+        "text": "HF signals commonly return from the ionosphere. VHF and higher frequencies usually depend more on direct or other special propagation paths.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C03": {
+        "text": "Rapidly changing auroral reflecting regions distort the signal. The characteristic rough or raspy sound distinguishes it from an ordinary clear direct path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C04": {
+        "text": "Sporadic E uses temporary strongly ionized E-region patches. It can produce unusually long paths on these bands beyond ordinary direct coverage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C05": {
+        "text": "Diffraction bends some wave energy around an edge. It can provide a path even when an obstruction blocks a direct line of sight.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C06": {
+        "text": "A tropospheric duct can guide VHF/UHF energy beyond the normal horizon. This is atmospheric propagation rather than an ionospheric reflection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C07": {
+        "text": "Ionized meteor trails can briefly scatter suitable radio signals. Six meters is the best choice among the bands offered in this question.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C08": {
+        "text": "Temperature inversions can create refractive conditions that trap or guide radio energy. Those conditions support tropospheric ducting.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C09": {
+        "text": "Solar ionization and higher sunspot activity favor ten-meter F-region propagation during the daylight-related interval stated. A favorable period is not a guarantee of an open path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C10": {
+        "text": "Near strong solar-cycle conditions, the F region can support long paths on ten and sometimes six meters. These openings depend on ionization and path conditions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T3C11": {
+        "text": "Atmospheric refraction bends radio paths slightly toward Earth, extending the usual radio horizon beyond the geometric visual horizon.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T3C"
+          }
+        ]
+      },
+      "T4A01": {
+        "text": "A transmitter needs more DC input power than its RF output because it is not perfectly efficient. 13.8 V at 12 A supplies about 166 W of input capacity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A02": {
+        "text": "An SWR meter must work at the station's frequency and withstand its power. A meter intended for a different range may give misleading readings or be damaged.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A03": {
+        "text": "Wire resistance causes a drop of voltage equal to current times resistance. Shorter, heavier conductors reduce that drop during high transmit current.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A04": {
+        "text": "Transmit audio travels from the computer to the radio; receive audio travels back to the computer for decoding. The two paths carry opposite directions of information.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A05": {
+        "text": "An inline power meter samples RF traveling between the transmitter and antenna system. It does not measure output power from a microphone connection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A06": {
+        "text": "Digital operation needs received audio for decoding, transmitted audio for modulation and a way to key the transmitter. These are separate interface functions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A07": {
+        "text": "The radio's receive-audio output feeds the computer's input. Match levels and interface requirements rather than connecting two outputs together.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A08": {
+        "text": "A wide, flat copper strap offers a favorable RF bonding path. RF impedance depends on geometry as well as simple DC resistance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A09": {
+        "text": "Ampere-hours divided by average amperes gives an ideal estimate in hours. Real runtime also depends on usable capacity, discharge rate, temperature and cutoff voltage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A10": {
+        "text": "A hotspot provides a nearby radio link into a digital voice or data network. It is a network access device, not an automatic license upgrade.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A11": {
+        "text": "The pool specifies the battery's chassis-ground location for the return connection. Follow the vehicle and radio manufacturers' requirements for the actual installation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4A12": {
+        "text": "A keyer helps form Morse timing while an operator sends manually. It is distinct from a microphone or a receiver frequency control.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4A"
+          }
+        ]
+      },
+      "T4B01": {
+        "text": "Too much microphone gain overdrives the audio/modulation path. Distortion can worsen intelligibility even when the operator wants a louder signal.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B02": {
+        "text": "The keypad enters a frequency directly, while the VFO control tunes it. Both control operating frequency rather than microphone level.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B03": {
+        "text": "Opening the squelch lets weak signals reach the speaker instead of being muted below the threshold. This also lets more background noise through.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B04": {
+        "text": "An off-center FM signal is not demodulated cleanly, producing distorted audio. Tune to the correct channel rather than correcting voice pitch as with SSB.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B05": {
+        "text": "Scanning checks a sequence or range of frequencies for activity. It is different from simultaneously listening to every frequency at once.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B06": {
+        "text": "RIT or clarifier adjusts receive tuning without necessarily moving the transmit frequency. Small tuning changes restore the natural pitch of an SSB voice.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B07": {
+        "text": "A DMR code plug is the radio's programmed configuration, including channel and group information. It is data, not a physical RF connector.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B08": {
+        "text": "A filter suited to the signal can exclude unnecessary noise and nearby interference. Too narrow a filter can also remove wanted signal information.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B09": {
+        "text": "A DMR group ID selects the intended talkgroup. Frequency and other channel settings alone do not specify which group conversation is wanted.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B10": {
+        "text": "About 2400 Hz accommodates ordinary SSB speech while excluding more noise than wider choices. An excessively narrow filter would cut useful speech information.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T4B11": {
+        "text": "D-STAR includes the operator's call sign in its digital signaling. The radio therefore needs that identity programmed before transmission.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T4B"
+          }
+        ]
+      },
+      "T5A01": {
+        "text": "An ampere measures current, the rate of electric charge flow. It is different from voltage, resistance and power.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A02": {
+        "text": "A watt measures the rate of energy transfer. It is a unit of power, not stored charge or frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A03": {
+        "text": "Current is the flow of electric charge. In a metallic conductor that flow involves moving electrons.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A04": {
+        "text": "Frequency counts complete cycles in each second. A cycle includes the full repeating pattern, not just one half of an AC waveform.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A05": {
+        "text": "Voltage is an electric potential difference that can drive current through an available conductive path. Resistance limits the resulting current.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A06": {
+        "text": "One hertz means one cycle per second. The same unit describes audio and radio frequencies at different scales.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A07": {
+        "text": "Metals contain electrons that can move through the material readily. This mobility lets electric charge flow more easily than in a good insulator.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A08": {
+        "text": "Glass strongly resists ordinary charge flow and is a common insulator. Insulation still has voltage and environmental limits.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A09": {
+        "text": "Alternating current reverses its direction repeatedly. Direct current, by contrast, has one direction even if its magnitude varies.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A10": {
+        "text": "Power is energy used or transferred per unit time. Energy accumulated over time is a different quantity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5A11": {
+        "text": "Resistance opposes current whether it is DC, AC or RF. AC circuits can also contain frequency-dependent reactance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5A"
+          }
+        ]
+      },
+      "T5B01": {
+        "text": "Milli means one-thousandth. Multiply amperes by 1000: 1.5 A = 1500 mA.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B02": {
+        "text": "One kilohertz is 1000 Hz. Dividing 1,500,000 Hz by 1000 gives 1500 kHz.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B03": {
+        "text": "Kilo means one thousand. Therefore 1 kV equals 1000 V.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B04": {
+        "text": "Micro means 10^-6. One microvolt is 0.000001 volt.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B05": {
+        "text": "Divide milliwatts by 1000 to obtain watts: 500 mW = 0.5 W.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B06": {
+        "text": "One ampere contains 1000 milliamperes. 3000 mA divided by 1000 equals 3 A.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B07": {
+        "text": "One megahertz equals 1000 kilohertz. 3.525 x 1000 = 3525 kHz.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B08": {
+        "text": "Pico is 10^-12 and micro is 10^-6. A million picofarads therefore equals one microfarad.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B09": {
+        "text": "A doubling of power gives 10 log10(10/5), approximately +3.01 dB. The closest stated value is +3 dB.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B10": {
+        "text": "The power ratio is 3/12 = 1/4. 10 log10(1/4) is about -6.02 dB, a decrease of roughly 6 dB.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B11": {
+        "text": "The power ratio is 200/20 = 10. 10 log10(10) equals +10 dB.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B12": {
+        "text": "Divide kilohertz by 1000 to obtain megahertz. 28,400 kHz equals 28.400 MHz.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5B13": {
+        "text": "One gigahertz equals 1000 megahertz. 2425 MHz divided by 1000 equals 2.425 GHz.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5B"
+          }
+        ]
+      },
+      "T5C01": {
+        "text": "Capacitance describes charge and energy storage associated with an electric field. Inductance concerns a magnetic field instead.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C02": {
+        "text": "Capacitance is measured in farads, often expressed in microfarads, nanofarads or picofarads for radio components.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C03": {
+        "text": "Inductance describes energy storage associated with a magnetic field created by current. Capacitance uses an electric field.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C04": {
+        "text": "The henry is the unit of inductance. Smaller radio coils are often rated in millihenries or microhenries.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C05": {
+        "text": "Impedance relates AC voltage and current and is measured in ohms. Its value can include both resistance and reactance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C06": {
+        "text": "The prefix k denotes one thousand, so kHz means one thousand hertz. Prefix capitalization matters.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C07": {
+        "text": "The prefix M denotes one million, so MHz means one million hertz. It is not the same as milli.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C08": {
+        "text": "For the stated DC circuit, power equals current times voltage. Here E denotes voltage and I denotes current.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C09": {
+        "text": "Use P = E x I. Multiplying 13.8 V by 10 A gives 138 W.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C10": {
+        "text": "Use P = E x I. Multiplying 12 V by 2.5 A gives 30 W.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C11": {
+        "text": "Rearrange P = E x I to I = P/E. 120 W divided by 12 V gives 10 A.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5C12": {
+        "text": "Impedance is the total opposition to AC current, combining resistive and reactive effects. It need not equal the circuit's DC resistance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5C"
+          }
+        ]
+      },
+      "T5D01": {
+        "text": "Rearrange Ohm's law E = I x R to I = E/R. Divide voltage by resistance to find current.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D02": {
+        "text": "Ohm's law expresses voltage as current multiplied by resistance: E = I x R.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D03": {
+        "text": "Rearrange E = I x R to R = E/I. Divide voltage by current to find resistance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D04": {
+        "text": "R = E/I = 90 V / 3 A = 30 ohms.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D05": {
+        "text": "R = E/I = 12 V / 1.5 A = 8 ohms.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D06": {
+        "text": "R = E/I = 12 V / 4 A = 3 ohms.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D07": {
+        "text": "I = E/R = 120 V / 80 ohms = 1.5 A.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D08": {
+        "text": "I = E/R = 200 V / 100 ohms = 2 A.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D09": {
+        "text": "I = E/R = 240 V / 24 ohms = 10 A.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D10": {
+        "text": "E = I x R = 0.5 A x 2 ohms = 1 V.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D11": {
+        "text": "E = I x R = 1 A x 10 ohms = 10 V.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D12": {
+        "text": "E = I x R = 2 A x 10 ohms = 20 V.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D13": {
+        "text": "A series circuit has one current path. The same current passes through each component on that path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T5D14": {
+        "text": "Parallel branches share the same two connection nodes. Each branch therefore has the same applied voltage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T5D"
+          }
+        ]
+      },
+      "T6A01": {
+        "text": "A resistor provides resistance that limits current for an applied DC voltage. A capacitor or inductor has a different primary storage function.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A02": {
+        "text": "A potentiometer has an adjustable contact that can vary a signal level. This makes it suitable for many volume controls.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A03": {
+        "text": "Moving the potentiometer's contact changes the resistance between the contact and its ends. In a circuit this can also vary a divided voltage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A04": {
+        "text": "A capacitor stores energy in the electric field between its conductive surfaces. An inductor stores energy in a magnetic field.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A05": {
+        "text": "A capacitor has conductive plates separated by an insulating dielectric. Charge separation creates the stored electric field.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A06": {
+        "text": "An inductor stores energy in the magnetic field associated with its current. Its coil construction strengthens this effect.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A07": {
+        "text": "A wire coil is the usual construction of an inductor. Coils can have air or magnetic core materials.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A08": {
+        "text": "Single-pole means one common circuit; double-throw means two alternative connections. The switch selects which of the two receives the common connection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A09": {
+        "text": "The diagram shows one switched path with one make-or-break position, the single-pole single-throw arrangement. It does not select between two destinations.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A10": {
+        "text": "Nickel-metal hydride, lithium-ion and lead-acid are rechargeable chemistries. Each requires its own appropriate charging and protection method.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6A11": {
+        "text": "Ordinary carbon-zinc cells are primary cells, not designed for recharging. Do not treat every battery chemistry as interchangeable.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6A"
+          }
+        ]
+      },
+      "T6B01": {
+        "text": "A diode's forward drop depends on its semiconductor type and operating conditions. There is no single identical drop for every diode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B02": {
+        "text": "A diode conducts much more readily in its forward direction than in reverse, within its ratings. This directional behavior supports rectification.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B03": {
+        "text": "A transistor can control a larger circuit current using its control input, allowing switching as well as amplification.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B04": {
+        "text": "A bipolar transistor can be formed from three semiconductor regions. Its two junctions and three terminals distinguish it from a simple diode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B05": {
+        "text": "Gate, drain and source are FET terminal names. A bipolar transistor instead uses base, collector and emitter.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B06": {
+        "text": "A stripe commonly marks the cathode end of a packaged diode. Check the actual component documentation when identifying a part.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B07": {
+        "text": "An LED emits light when forward current passes through its junction. Its current must be limited within the device's rating.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B08": {
+        "text": "FET expands to field-effect transistor, reflecting control of conduction by an electric field at the gate.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B09": {
+        "text": "The two diode electrodes are anode and cathode. Gate, source and drain belong to a different device type.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B10": {
+        "text": "A transistor can control energy supplied from a power source to provide amplification. It does not create energy from nothing.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B11": {
+        "text": "Gain can express output-to-input voltage, current or power ratio. State which quantity is being compared rather than treating all gain numbers as equivalent.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6B12": {
+        "text": "A bipolar junction transistor has emitter, base and collector terminals. These differ from the gate, source and drain of a FET.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6B"
+          }
+        ]
+      },
+      "T6C01": {
+        "text": "A schematic uses standard symbols and connection lines to show electrical relationships. It is not necessarily a picture of physical placement.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C02": {
+        "text": "Component 1 uses the resistor symbol. Identify the symbol itself rather than inferring the part from where its label is printed.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C03": {
+        "text": "Component 2 shows a transistor with three terminal connections. Its symbol differs from the two-terminal resistor and lamp.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C04": {
+        "text": "Component 3 uses the lamp symbol, representing the light-producing load rather than the source of electrical energy.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C05": {
+        "text": "The alternating long and short parallel lines at component 4 represent battery cells and their polarity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C06": {
+        "text": "The separated parallel plates at component 6 are the capacitor symbol. They represent conductors separated by a dielectric.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C07": {
+        "text": "Component 8 is a diode symbol with outward light arrows. Those arrows distinguish the LED from an ordinary diode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C08": {
+        "text": "The adjustment arrow on the resistor symbol identifies component 9 as variable, rather than a fixed resistance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C09": {
+        "text": "The coupled coil symbols identify component 4 as a transformer. The two windings exchange energy through their magnetic field.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C10": {
+        "text": "The arrow marks an adjustable inductor. Without that adjustment marking, the coil symbol would indicate a fixed inductor.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C11": {
+        "text": "Component 4 is the antenna symbol, marking the circuit's connection to its radiating or receiving element.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6C12": {
+        "text": "Schematic lines and junctions show electrical connections. Physical spacing, lead length and placement are not generally drawn to scale.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6C"
+          }
+        ]
+      },
+      "T6D01": {
+        "text": "A rectifier allows current through in one direction so AC becomes pulsating DC. Filtering is a separate step that can smooth the variation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D02": {
+        "text": "A relay uses an electrical control signal to operate switch contacts. Its control circuit can be separate from the circuit being switched.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D03": {
+        "text": "The conductive shield reduces unwanted electromagnetic coupling. It can limit both pickup into the wire and radiation from it.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D04": {
+        "text": "A meter presents the measured quantity as a reading. A numeric display gives a value rather than just indicating on or off.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D05": {
+        "text": "A regulator controls supply output voltage despite relevant changes in input or load. It is different from a transformer or simple rectifier.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D06": {
+        "text": "A transformer changes AC voltage through coupled windings. It does not directly convert the supply into DC.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D07": {
+        "text": "An LED converts suitable forward current into visible light. Its small size and low power use make it useful as an indicator.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D08": {
+        "text": "Capacitance and inductance exchange stored electric and magnetic energy. Together they can form a circuit with a resonant frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D09": {
+        "text": "An integrated circuit places multiple semiconductor functions and components in one package, rather than requiring every device as a separate part.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D10": {
+        "text": "Component 2 is the transistor. Its control input governs current through the other terminals, enabling switching or amplification.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T6D11": {
+        "text": "An inductor and capacitor can resonate in series or parallel. Resonance depends on their values rather than merely the drawing's physical shape.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T6D"
+          }
+        ]
+      },
+      "T7A01": {
+        "text": "Sensitivity describes how weak a signal the receiver can detect. Selectivity instead concerns distinguishing wanted and unwanted signals.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A02": {
+        "text": "A transceiver combines transmitting and receiving functions. The term does not by itself mean both functions operate simultaneously.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A03": {
+        "text": "A mixer combines signals to produce sum and difference frequencies. Selecting one of those products translates a signal to another frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A04": {
+        "text": "Selectivity is the ability to separate nearby or unwanted signals. Sensitivity is the ability to detect weak ones.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A05": {
+        "text": "An oscillator generates a repeating signal at a chosen frequency. A mixer needs an input to translate rather than simply serving this generating role.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A06": {
+        "text": "A transverter translates both the transmit and receive paths to a different band. It lets the main radio act as part of a system on that band.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A07": {
+        "text": "The stated PTT input is activated by grounding, commanding transmit instead of receive. Follow the radio's actual interface ratings before making connections.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A08": {
+        "text": "Modulation puts information such as speech onto an RF signal. Different modes vary amplitude, frequency or another characteristic.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A09": {
+        "text": "The amplifier's mode setting adapts its operation to the selected signal type. It is not a substitute for selecting the radio's transmitting frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A10": {
+        "text": "An RF power amplifier increases the radio-frequency power delivered toward the antenna. A microphone preamplifier instead affects an audio signal.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7A11": {
+        "text": "The VFO supplies an adjustable frequency reference within the transceiver. Changing it controls tuning rather than antenna direction or speaker volume.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7A"
+          }
+        ]
+      },
+      "T7B01": {
+        "text": "Reducing microphone input level reduces excessive FM deviation. Speaking farther away is an immediate way to lower the audio drive.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B02": {
+        "text": "A strong out-of-band signal can overload an inadequately rejecting broadcast receiver. That response does not automatically prove the amateur transmitter is on the broadcast frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B03": {
+        "text": "Fundamental overload, harmonics and spurious emissions are different interference mechanisms. Identifying which is present guides the remedy.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B04": {
+        "text": "A high mismatch can trigger protective power reduction in a solid-state transmitter. Check the antenna system rather than assuming the radio needs more audio gain.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B05": {
+        "text": "A suitable filter at the affected receiver can reject the strong unwanted amateur signal before it overloads the receiver. The filter must pass the wanted service.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B06": {
+        "text": "Begin by checking your own station's operation and the reported channel. Evidence-based diagnosis is more useful than immediately assigning blame.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B07": {
+        "text": "A band-reject filter can attenuate the strong interfering broadcast band while passing the desired two-meter signals. Its frequency response must suit the problem.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B08": {
+        "text": "Cooperation, polite discussion of interference rules and checking your own good practice all support resolution. Do not modify another person's equipment without permission.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B09": {
+        "text": "Poor cable connectors can let unwanted RF enter the cable system. Checking installation integrity is a sensible first diagnostic step.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B10": {
+        "text": "Frequency error, excessive microphone drive or a poor radio path can each damage intelligibility through a repeater. Troubleshoot these causes separately.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7B11": {
+        "text": "A ferrite choke can reduce unwanted RF current on the microphone cable. This can interrupt an RF feedback path causing distortion.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7B"
+          }
+        ]
+      },
+      "T7C01": {
+        "text": "A dummy load absorbs transmitter power for testing instead of intentionally radiating it through an antenna. Use one rated for the power, frequency and test duration.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C02": {
+        "text": "An antenna analyzer measures properties of the antenna system over frequency, helping identify resonance. Resonance and a perfect impedance match are different properties.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C03": {
+        "text": "The resistor absorbs RF as heat, so it needs suitable cooling and power capacity. Low inductance helps it behave like the intended 50-ohm load at RF.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C04": {
+        "text": "An SWR of 1:1 indicates a matched load at the measurement point. It does not independently prove that the antenna is radiating efficiently.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C05": {
+        "text": "Mismatch can expose output devices to unfavorable voltage or current. Protective circuitry reduces power to limit that stress.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C06": {
+        "text": "A 4:1 standing-wave ratio indicates a substantial mismatch. It is not the ideal 1:1 condition.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C07": {
+        "text": "Feed-line attenuation dissipates some RF energy as heat. That lost power does not reach the antenna as useful transmitted power.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C08": {
+        "text": "A directional wattmeter measures forward and reflected power. Those readings can be used to determine the standing-wave ratio.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C09": {
+        "text": "Moisture changes the cable's electrical properties and can promote corrosion. Water ingress can increase loss and eventually cause failure.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C10": {
+        "text": "Sunlight can degrade a non-resistant jacket. Cracking then allows moisture into the cable, causing further electrical damage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7C11": {
+        "text": "Foam dielectric commonly reduces loss compared with a comparable solid-dielectric construction. Compare the actual cable specifications at the operating frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7C"
+          }
+        ]
+      },
+      "T7D01": {
+        "text": "Electric potential difference is voltage, measured with a voltmeter. An ammeter measures current instead.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D02": {
+        "text": "A voltmeter measures the potential difference between two points, so it connects across them in parallel. It is not inserted as the load's current path.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D03": {
+        "text": "To measure branch current, that current passes through the meter in series. A current-range meter placed across a voltage source can cause a dangerous short.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D04": {
+        "text": "An ammeter measures current flowing through its measurement path. Use the correct terminals, range and ratings for the actual circuit.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D05": {
+        "text": "An ohmmeter supplies a small test stimulus and derives resistance from the response. External circuit power interferes with this process and can damage it.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D06": {
+        "text": "Resistance mode is not designed to measure an external voltage source. Applying voltage in that mode can damage the instrument or create a hazard.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D07": {
+        "text": "A multimeter combines functions such as voltage and resistance measurement. Select the correct mode and connections for the intended quantity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D08": {
+        "text": "Acid flux residues can corrode electronic connections. Solder intended for plumbing is not automatically suitable for radio circuit work.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D09": {
+        "text": "A rough or lumpy tin-lead joint can indicate inadequate heating or movement during cooling. Appearance alone does not replace inspection and electrical checks.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D10": {
+        "text": "The meter initially charges the discharged capacitor, drawing current. As charging proceeds, current falls and the apparent resistance rises.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T7D11": {
+        "text": "Remove circuit power before resistance measurement and address stored energy safely. The meter's own small test current must not encounter an energized circuit.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T7D"
+          }
+        ]
+      },
+      "T8A01": {
+        "text": "SSB is derived from amplitude modulation by retaining one information sideband while suppressing the other sideband and usually the carrier.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A02": {
+        "text": "VHF packet commonly uses audio tones through FM or phase-modulated radio equipment. The digital information is carried by the resulting modulated RF signal.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A03": {
+        "text": "SSB's relatively narrow bandwidth supports weak-signal voice work. Common VHF/UHF FM repeater practice uses a different mode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A04": {
+        "text": "FM or closely related phase modulation is customary for analog VHF/UHF voice repeaters. SSB and digital modes have other operating uses.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A05": {
+        "text": "A CW signal can occupy much less bandwidth than typical voice or television signals. Its exact width also depends on keying and filtering.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A06": {
+        "text": "Upper sideband is the normal convention for SSB on the specified bands. A customary mode convention is separate from the legal emission permissions.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A07": {
+        "text": "SSB carries speech in a narrower channel than typical FM voice. This is one reason it is useful for weak-signal communication.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A08": {
+        "text": "A typical SSB voice channel is roughly 3 kHz wide. The speech audio range and filtering determine the actual occupied bandwidth.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A09": {
+        "text": "Typical analog VHF repeater FM occupies roughly 10-15 kHz in this pool comparison. It is much wider than a narrow CW signal.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A10": {
+        "text": "Fast-scan analog AM television carries substantial picture information, requiring about 6 MHz. Do not confuse MHz with the kHz used for ordinary voice bandwidths.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A11": {
+        "text": "The pool's approximate CW bandwidth is 150 Hz. Keying characteristics and filtering affect the actual occupied width.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8A12": {
+        "text": "FM's capture effect generally favors one of competing signals rather than letting both voices remain separately readable as they sometimes can on SSB.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8A"
+          }
+        ]
+      },
+      "T8B01": {
+        "text": "Beacon telemetry reports satellite conditions such as health and operating status. It is not merely a user-to-user voice conversation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B02": {
+        "text": "A satellite has limited shared receiver and transponder resources. Excessive uplink strength can dominate them and prevent weaker users from gaining access.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B03": {
+        "text": "Tracking software uses orbital information to show the ground track, pass directions and times, and expected Doppler-related frequencies. Each listed output supports planning a contact.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B04": {
+        "text": "Different amateur satellites support SSB, FM or CW/data. Confirm the particular satellite's transponder mode rather than assuming all use one voice mode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B05": {
+        "text": "A satellite beacon is a status-bearing transmission from the satellite. Receiving it can help confirm the satellite's presence and operation.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B06": {
+        "text": "Keplerian elements describe the satellite orbit for position prediction. Update them as needed rather than treating old predictions as exact forever.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B07": {
+        "text": "Relative motion changes the received frequency through the Doppler effect. The change is not necessarily a fault in either station's oscillator.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B08": {
+        "text": "The first letter denotes uplink and the second downlink: UHF up and VHF down. Here those correspond to 70 centimeters and two meters.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B09": {
+        "text": "Satellite rotation changes antenna orientation and polarization relative to the ground station. The varying coupling produces spin fading.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B10": {
+        "text": "LEO means low Earth orbit, with the approximate 100-minute period in this question. Such a satellite moves across the sky rather than remaining fixed above one ground location.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B11": {
+        "text": "Reception of amateur satellite telemetry does not require an amateur operator license. Transmitting an uplink is a separate licensed activity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8B12": {
+        "text": "Comparing your downlink with the beacon helps avoid excessive uplink strength on a linear transponder. Use the satellite operator's guidance for the actual spacecraft.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8B"
+          }
+        ]
+      },
+      "T8C01": {
+        "text": "Direction finding uses signal measurements and antenna bearings to locate a source. A single strong reading does not by itself supply an exact position.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C02": {
+        "text": "A directional antenna responds differently with bearing, giving clues toward or away from the transmitter. Compare bearings while accounting for reflections.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C03": {
+        "text": "Contesting emphasizes making valid contacts during a defined event period. The event's exchange and rules determine which contacts count.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C04": {
+        "text": "Concise identification and the required exchange keep a busy contest efficient. Omitting required information is not the same as being brief.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C05": {
+        "text": "A grid locator encodes an area of geographic position using letters and numbers. It describes location, not the operator's license class.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C06": {
+        "text": "An IRLP node can interpret DTMF commands sent over the radio link. These are paired audio tones, not a CTCSS access tone alone.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C07": {
+        "text": "VoIP carries digitized voice using Internet Protocol networks. It describes the network transport, not a particular amateur RF band.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C08": {
+        "text": "IRLP links amateur radio systems through an internet connection. Radio users can then communicate between connected nodes beyond local RF coverage.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C09": {
+        "text": "EchoLink can connect a verified amateur using an internet device to a radio-linked repeater or station. Initiating the connection need not start with an RF transmission.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C10": {
+        "text": "EchoLink verifies the registered call sign and license before granting normal system access. Having the app installed is not sufficient.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8C11": {
+        "text": "A gateway bridges the amateur radio side to an internet-connected service. It differs from a station that only communicates directly by RF.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8C"
+          }
+        ]
+      },
+      "T8D01": {
+        "text": "Packet, IEEE 802.11 and FT8 all carry digitally represented information. They differ in signaling, bandwidth and typical applications.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D02": {
+        "text": "FT8 is designed to decode structured digital exchanges at low signal-to-noise ratios. It is not ordinary FM voice or an automatic license privilege.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D03": {
+        "text": "APRS can carry position, text and weather information. Its role is broader than plotting coordinates alone.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D04": {
+        "text": "NTSC identifies an analog color television format using fast picture scanning. It is different from digital voice or slow-scan picture modes.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D05": {
+        "text": "APRS combines transmitted reports with map displays to support tactical information sharing. Position reports are one useful part of that system.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D06": {
+        "text": "Phase-shift keying encodes information through changes in carrier phase. It differs from simply changing the carrier's amplitude.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D07": {
+        "text": "DMR uses time slots so two digital voice streams can share a single 12.5 kHz repeater channel. They occupy different time intervals.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D08": {
+        "text": "The pool's packet-system description includes addressing, error detection and retransmission requests. Exact fields and ARQ behavior depend on the protocol and operating mode.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D09": {
+        "text": "CW is the conventional amateur term for keyed Morse transmission. Turning the carrier on and off represents the code elements.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D10": {
+        "text": "WSJT-X supports modes used for weak-signal tasks including moonbounce, beacons and meteor scatter. Select a mode appropriate to the path and activity.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D11": {
+        "text": "ARQ detects a damaged or missing transmission and requests another copy. It relies on a return request rather than correcting every error from one reception alone.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T8D12": {
+        "text": "An amateur mesh uses participating data nodes, often adapted Wi-Fi equipment, to form a network. Amateur frequencies, content and other operating rules still apply.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T8D"
+          }
+        ]
+      },
+      "T9A01": {
+        "text": "A beam concentrates radiation and reception in selected directions. Directionality can improve a desired path while reducing response elsewhere.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A02": {
+        "text": "Loading inductors let a physically shorter antenna behave electrically longer. This does not make a shortened antenna identical in efficiency or bandwidth to a full-sized one.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A03": {
+        "text": "Polarization is defined by the radiated electric-field orientation. Mechanical shape helps predict it but is not the definition itself.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A04": {
+        "text": "A short flexible antenna is a physical compromise. Its lower radiation efficiency can reduce performance compared with a suitable full-sized quarter-wave.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A05": {
+        "text": "Shorter antennas resonate at shorter wavelengths and therefore higher frequencies. Make changes carefully and measure rather than assuming an exact trim result.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A06": {
+        "text": "A Yagi's driven and parasitic elements create directional gain. Among the listed antenna types it offers the greatest gain in its preferred direction.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A07": {
+        "text": "A vehicle's metal body shields a radio and inside antenna from part of the outside field. A suitable external antenna avoids much of that shielding.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A08": {
+        "text": "A two-meter wavelength has a quarter-wave near 0.5 meter, about 19-20 inches. Practical antenna construction changes the exact resonant length.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A09": {
+        "text": "A suitable 5/8-wave mobile antenna can concentrate more energy toward useful low elevation angles than a quarter-wave, providing gain in that comparison.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A10": {
+        "text": "A half-wave dipole's strongest radiation is perpendicular to the wire, broadside. Radiation off its ends is much weaker.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9A11": {
+        "text": "Antenna gain compares signal strength in a stated direction with a reference antenna. Gain redistributes radiation; it does not generate transmitter energy.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9A"
+          }
+        ]
+      },
+      "T9B01": {
+        "text": "Outdoor PL-259, BNC and Type N connections all need suitable weather protection for the installation. Do not assume the connector name alone prevents water ingress.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B02": {
+        "text": "Most amateur transmitting systems use nominal 50-ohm coax. That characteristic impedance is not the same as the cable's ordinary DC resistance.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B03": {
+        "text": "Coax is convenient, shielded and easy to route compared with many open-wire lines. It still needs suitable bend radius, supports and weather protection.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B04": {
+        "text": "A tuner transforms the antenna system's presented impedance to suit the transceiver. It does not remove feed-line loss or automatically make the antenna itself resonant.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B05": {
+        "text": "For a given coax construction and length, attenuation generally rises as operating frequency rises. Consult loss specifications at the frequency in use.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B06": {
+        "text": "Type N connectors provide suitable RF performance above 400 MHz among the stated choices. Frequency rating and correct assembly still matter.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B07": {
+        "text": "PL-259 connectors are common on HF and VHF amateur equipment. Common use does not make them the best connector at every higher frequency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B08": {
+        "text": "Water, mismatch and additional connectors can each contribute to feed-system loss. Good cable alone cannot compensate for every poor connection or severe mismatch.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B09": {
+        "text": "A loose connection can change the impedance as it moves or makes intermittent contact. That can produce erratic rather than stable SWR readings.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B10": {
+        "text": "RG-213 generally has less attenuation than RG-58 at the same frequency and length. Compare actual manufacturer specifications for a particular cable.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B11": {
+        "text": "Air-insulated hardline has very low dielectric and conductor loss compared with the offered alternatives. Installation cost and practicality are separate considerations.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
+      },
+      "T9B12": {
+        "text": "SWR quantifies mismatch between a transmission line and its load. A low reading does not alone prove low cable loss or good radiation efficiency.",
+        "refs": [
+          {
+            "source": "ncvec2026text",
+            "section": "T9B"
+          }
+        ]
       }
     }
   }

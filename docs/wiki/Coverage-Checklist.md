@@ -9,7 +9,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -134,6 +134,7 @@ Every state and DC now has selected jurisdiction-specific content. See [All Stat
 ### Amateur Radio Technician
 
 - [x] Separate study mode for all 409 public-domain NCVEC questions, with official IDs and answer keys
+- [x] Original StudyGOAT explanations for all 409 answers, including worked arithmetic, diagram symbols and post-exam review
 - [x] Apply four February 19, 2026 prompt corrections and check ARRL withdrawals
 - [x] Group and ID filtering, saved missed-only review, locked feedback and validity guard
 - [x] Verify T5B03-T5B08 against the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team

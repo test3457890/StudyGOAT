@@ -5,7 +5,7 @@ const summaries={
  faa107:'Selected drone rules, night/people/vehicle operations, weather and performance',
  capcadet:'Selected lessons and practice in all 16 Learn to Lead chapters',
  wfa:'Provider-neutral safety and heat awareness',
- technician:'Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams',
+ technician:'Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams',
  arizonadriving:'Selected Arizona signs, signals, yielding and crossings',
  newjerseydriving:'Selected NJ intersections, turns and school-bus situations',
  californiadriving:'Selected California turns, merging and lane changes',

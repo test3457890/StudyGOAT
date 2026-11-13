@@ -9,7 +9,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -70,7 +70,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 2. Driving: all 50 states and DC now have selected jurisdiction-specific lessons. Complete the remaining handbook sections, current licensing requirements, law/edition reconciliation and independent review for every jurisdiction. Introductory availability is not complete permit preparation.
 3. Security+: selected foundations are mapped to all 28 SY0-701 objectives, with scoped practice and a fictional access review lab. Complete the remaining material within every objective, platform-specific labs and a validated full-exam blueprint. Current CompTIA version verification remains blocked by inaccessible official version pages. Do not infer current availability from the accessible SY0-701 baseline document.
 4. FAA: selected night, people/vehicle, preflight, reporting and waiver lessons are implemented. Complete the ACS inventory, charts, broader weather/performance, detailed category/Remote ID compliance and operational procedures. METAR/TAF examples are synthetic educational exercises, not operational weather.
-5. Technician: all 409 public-domain NCVEC questions and three diagrams are available. The revised release is hosted by KP4ARA Laurel VE Team and has been compared against the import. Separate 35-question practice exams sample one per official group, with optional study timing and answer review. Complete theory, antennas, operations, safety and teaching explanations.
+5. Technician: all 409 public-domain NCVEC questions and three diagrams are available. The revised release is hosted by KP4ARA Laurel VE Team and has been compared against the import. Separate 35-question practice exams sample one per official group, with optional study timing and answer review. Original StudyGOAT explanations now cover all 409 questions. Complete the standalone theory, antennas, operations and safety lesson sequences and obtain independent subject-matter review.
 6. WFA: the learner's provider/syllabus and qualified instructor or clinical review are still required before treatment guidance. Physical skill assessments remain with the training provider.
 
 ## Release rules
