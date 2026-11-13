@@ -12,7 +12,7 @@ for(const o of security.objectiveMap){
  assert.deepEqual(o.topics,security.topics.filter(p=>p.objectives.includes(o.id)).map(p=>p.id));
  assert(security.topics.flatMap(p=>p.bank).filter(b=>b.objectives.includes(o.id)).length>=6);
 }
-assert.equal(security.topics.reduce((n,p)=>n+p.lessons.length,0),50);
+assert.equal(security.topics.reduce((n,p)=>n+p.lessons.length,0),53);
 assert.equal(security.topics.reduce((n,p)=>n+p.bank.length,0),172);
 assert.deepEqual(cap.curriculum.map(c=>c.chapter),Array.from({length:16},(_,i)=>i+1));
 for(const c of cap.curriculum){assert.equal(c.status,'partial');assert(c.topics.length);const topics=cap.topics.filter(t=>c.topics.includes(t.id));assert(topics.reduce((n,t)=>n+t.lessons.length,0)>=2);assert(topics.reduce((n,t)=>n+t.bank.length,0)>=8);}
@@ -89,3 +89,35 @@ assert(data.drivingJurisdictions.find(j=>j.code==='US-DC').track);
 assert.equal(new Set(data.drivingJurisdictions.map(j=>j.track)).size,51);
 for(const j of data.drivingJurisdictions){const t=data.tracks.find(t=>t.id===j.track);assert.equal(t.status,'partial');assert(t.topics.reduce((n,p)=>n+p.lessons.length,0)>=4);assert(t.topics.reduce((n,p)=>n+p.bank.length,0)>=8);assert(t.notice&&t.gaps.length);}
 console.log('PASS: all 50 states and DC have distinct partial courses, sourced lessons and original questions');
+
+// Guided radio instruction covers every published group and every pool ID exactly once.
+const technician=data.tracks.find(t=>t.id==='technician');
+const taught=technician.topics.filter(t=>t.poolGroup);
+assert.equal(taught.length,35);assert.equal(taught.reduce((n,t)=>n+t.lessons.length,0),70);
+assert.deepEqual(taught.map(t=>t.poolGroup).sort(),pool.groups);
+const lessonPoolIds=taught.flatMap(t=>t.lessons.flatMap(l=>l.poolIds));
+assert.equal(lessonPoolIds.length,409);assert.equal(new Set(lessonPoolIds).size,409);
+assert.deepEqual([...lessonPoolIds].sort(),pool.questions.map(q=>q.id).sort());
+for(const t of taught){
+ for(const l of t.lessons)for(const id of l.poolIds){
+  const q=pool.questions.find(q=>q.id===id);assert.equal(q.group,t.poolGroup);
+  assert(l.steps.some(s=>s.text.includes(id)&&s.text.includes(explanations.items[id].text)));
+ }
+}
+// Printed ACS inventory includes subordinate elements without asserting complete instruction.
+const faa=data.tracks.find(t=>t.id==='faa107'),acs=faa.acsInventory;
+assert.equal(acs.tasks.length,17);assert.equal(acs.codes.length,176);
+const taskCounts={'I.A':8,'I.B':36,'I.C':4,'I.D':1,'I.E':21,'I.F':7,'II.A':9,'II.B':17,'III.A':5,'III.B':12,'IV.A':4,'V.A':8,'V.B':10,'V.C':11,'V.D':7,'V.E':9,'V.F':7};
+assert.equal(new Set(acs.codes.map(c=>c.id)).size,176);
+for(const task of acs.tasks){assert.equal(task.codes.length,taskCounts[task.id]);assert.equal(task.status,'partial');for(const id of task.topics)assert(faa.topics.some(t=>t.id===id));}
+for(const c of acs.codes){assert.match(c.id,/^UA\.[IVX]+\.[A-Z]\.K\d+[a-z]?$/);assert(acs.tasks.find(t=>t.id===c.task).codes.includes(c.id));assert(c.pdfPage>=8&&c.pdfPage<=26);}
+// Official-reading tasks are kept outside lesson/question coverage counts.
+assert.equal(data.tracks.filter(t=>t.readingPlan).length,56);
+for(const t of data.tracks.filter(t=>t.readingPlan)){
+ assert(t.readingPlanNotice);assert.equal(new Set(t.readingPlan.map(r=>r.id)).size,t.readingPlan.length);
+ for(const r of t.readingPlan){assert(r.assignment&&r.title&&r.kind);assert.match(r.url,/^https:\/\//);for(const id of r.topics)assert(t.topics.some(p=>p.id===id),t.id+' '+id);}
+ if(t.jurisdiction){assert.equal(t.readingPlan.length,13);assert(t.manualReading&&t.manualReading.status.includes('pending'));}
+}
+assert.equal(data.securityLabs.length,3);
+for(const l of data.securityLabs){assert(l.brief&&l.refs.length&&l.cases.length>=4);for(const c of l.cases){assert(c.facts&&c.why&&l.choices.includes(c.answer));}}
+console.log('PASS: 35 radio teaching groups / 409 item walkthroughs, 17 ACS tasks / 176 codes, 56 saved study paths, 51 manual checklists and three new security labs');

@@ -1,6 +1,6 @@
 # Amateur Radio Technician
 
-Updated November 13, 2026. Eight original lessons and 36 original questions remain available. Separate pool study now contains all 409 public-domain NCVEC questions, all three published diagrams and original StudyGOAT explanations for every answer. Original teaching lessons remain partial.
+Updated November 13, 2026. The course now has 78 guided lessons and 106 original concept questions, including two lessons for each of the 35 published groups. Separate pool study now contains all 409 public-domain NCVEC questions, all three published diagrams and original StudyGOAT explanations for every answer. All 409 pool items are included once across the group walkthroughs. Independent review and practical instruction remain pending.
 
 ## Study and practice exams
 
@@ -30,4 +30,4 @@ Content checks require exactly one explanation per published ID and verify worke
 
 ## Remaining work
 
-Complete the standalone theory, antennas, operations and safety lesson sequences and obtain independent subject-matter review. All 409 pool answers now have original StudyGOAT explanations, but those explanations are not NCVEC-authored guidance or installation/service procedures. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.
+All 35 theory, antenna, propagation, operating and safety group sequences are implemented. Obtain independent subject-matter review and appropriate supervised practical instruction. All 409 pool answers now have original StudyGOAT explanations, but those explanations are not NCVEC-authored guidance or installation/service procedures. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.

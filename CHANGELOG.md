@@ -1,5 +1,13 @@
 # Changelog
 
+## November 13, 2026: guided study depth and saved official-reading paths
+
+- Added 70 Technician group lessons and 70 concept checks, covering all 35 published groups and all 409 item explanations without changing official pool fields.
+- Added 14 FAA lessons, 28 questions, a complete 17-task/176-code ACS inventory and a synthetic chart lab.
+- Added three Security+ worked lessons and interactive log-triage, allowlist and baseline exercises.
+- Added saved reading/preparation paths for 56 courses with 775 assignments, including full-manual checklists for all 50 states and DC. Reading assignments are not counted as authored lessons or exam mastery.
+- Reconciled stale coverage documentation and preserved explicit remaining curriculum, current-version and independent-review gaps.
+
 ## November 13, 2026: Moore, Mealy, Petri nets and keypad locks
 
 - Added four CPSC 222 topics with eight worked lessons, 32 original questions and 17 glossary cards based on the uploaded 31-slide lecture.

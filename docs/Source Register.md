@@ -128,3 +128,35 @@ The NCVEC syllabus supplies 35 groups and the exam distribution. Current 47 CFR 
 ## November 12 all-state driving expansion
 
 Recorded and reviewed official source sections for the remaining 27 states and DC before assembling their course data. Added 112 selected lessons and 224 original questions. The catalog retains publisher, title, URL, baseline/version, review dates, section references, copyright boundaries and available direct-download fingerprints. [Driving Source Review](Driving%20Source%20Review.md) records each source and the edition/access limits. No official questions, manual pages or illustrations are redistributed. All 50 states and DC now have separate introductory material; complete handbook and current licensing/law coverage remain unverified.
+
+
+## November 13 study-depth and reading-path review
+
+- FAA ACS: https://www.faa.gov/training_testing/testing/acs and https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf. The national list still identifies 10B; all 176 printed codes across 17 tasks are inventoried, with source PDF fingerprint and page references in the catalog. This is an inventory, not proof of full instruction.
+- Chart guide: https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/ links the July 9, 2026 guide. VFR airspace, obstacle references and airport-color conventions support original synthetic examples.
+- FAA study guide: the existing August 2016 PDF was re-read for selected enduring radio, airport, weather, emergency-planning and human-performance concepts. Current operating rules remain separate.
+- Remote ID: https://www.faa.gov/uas/getting_started/remote_id, page dated March 19, 2025, checked November 13, supports the three compliance pathways and their limits.
+- Technician: https://www.arrl.org/withdrawn-questions lists none for the 2026-2030 pool. The retained 409-item revised PDF, question keys, diagrams and original explanation registry are unchanged. New group summaries and walkthroughs remain original educational work, not independently approved instruction.
+- CAP: https://www.gocivilairpatrol.com/programs/cadets/library/cadet-audio lists seven aerospace modules. Current books are obtained through CAP eServices. The public Achievement 16 page still names chapter 14; the mismatch remains unresolved.
+- WFA: https://www.redcross.org/take-a-class/cpr/wilderness-sports supplies a public example of course topic areas only. It does not identify the learner's actual provider and supplies no treatment sign-off.
+- Security labs: existing NIST CSF 2.0 PR.AA, PR.PS/PR.IR and DE.CM/DE.AE references support access, protection and evidence-correlation principles. Exact packet rules, identities and configuration requirements are fictional exercise facts, not vendor commands or mandated production settings.
+
+### Newly checked full-manual links
+
+These links support official-reading assignments. Complete edition, licensing and legal reviews remain pending. Other jurisdiction paths retain their previously checked official manual links and dates.
+
+| Jurisdiction | Full manual or official download page |
+| --- | --- |
+| California | [California Driver Handbook](https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/) |
+| New York | [New York State Driver Manual and Practice Tests](https://dmv.ny.gov/book/export/html/1551) |
+| Texas | [Texas Driver Handbook DL-7, revised January 2026](https://www.dps.texas.gov/internetforms/getForm.ashx?id=DL-7.pdf) |
+| Florida | [Official Florida Driver License Handbook](https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf) |
+| Colorado | [Colorado driver handbook download page](https://dmv.colorado.gov/drivereducation) |
+| Georgia | [Georgia Driver Manual contents, revised July 2025](https://dds.georgia.gov/contents) |
+| Indiana | [Indiana full driver manual downloads](https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/) |
+| Nevada | [Nevada driver handbooks](https://dmv.nv.gov/dlhandbook.htm) |
+| New Hampshire | [New Hampshire Driver Manual](https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf) |
+| Oregon | [Oregon Driver Manual downloads and online edition](https://www.oregon.gov/odot/DMV/Pages/Form/manuals.aspx) |
+| Pennsylvania | [Pennsylvania Driver Manual](https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual) |
+| Rhode Island | [Rhode Island Operator Manuals](https://dmv.ri.gov/licenses-permits-ids/permits-tests/operator-manuals?language=en) |
+| District of Columbia | [DC Automobile Driver Manual](https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual) |

@@ -1,6 +1,6 @@
 # FAA Part 107 drone study
 
-Updated November 12, 2026. This course has 35 lessons and 146 original practice questions. It focuses on the small-UAS remote pilot certificate, not a manned-aircraft pilot license. Coverage is partial and the short practice test is not a complete UAG simulation.
+Updated November 13, 2026. This course has 49 lessons and 174 original practice questions. It focuses on the small-UAS remote pilot certificate, not a manned-aircraft pilot license. Coverage is partial and the short practice test is not a complete UAG simulation.
 
 ## Available study
 
@@ -24,4 +24,4 @@ Earlier physics lessons use the August 2016 FAA study guide only for selected en
 
 ## Still needed
 
-Full ACS objective inventory and mapping; sectional-chart exercises; broader weather and forecast interpretation; detailed Remote ID/category compliance processes; aircraft-specific instructions; radio/emergency operations; more loading/performance and risk applications; independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.
+The complete printed ACS inventory now includes 17 tasks and 176 knowledge codes. Selected chart, weather, airport/radio, emergency, physiology and Remote ID instruction and a synthetic chart lab are implemented. Remaining work includes instruction/review for every element, official testing-supplement exercises, deeper flight planning, aircraft-specific procedures, independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.
