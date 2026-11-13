@@ -13,12 +13,12 @@ No server, account or AI key is needed for built-in study. `index.html` redirect
 ## Study program status
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-12. 29 sourced tracks contain 183 lessons and 732 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-12. 29 sourced tracks contain 199 lessons and 796 original questions, excluding the university classes. All sourced tracks remain partial. 23 states have partial state-specific courses; 27 states and DC still have shared national foundations only. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 391 separate public-domain NCVEC text questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 14 | 64 | Selected security foundations, assets, governance and incident response |
-| FAA Part 107 | 19 | 82 | Selected drone regulations, Remote ID, weather and performance |
+| FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
 | Amateur Radio Technician | 8 | 36 | Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded |
@@ -102,3 +102,5 @@ The next November 12 batch adds selected Delaware, Georgia, Hawaii, Idaho, Illin
 November 12 continuation: Kentucky, Louisiana, Maine and Maryland now each have four selected lessons and eight original questions. These partial courses do not replace complete current manuals or licensing checks. Exact state names and postal abbreviations take priority over substring alternatives in driving search.
 
 November 12 Technician expansion: separate study for 391 public-domain NCVEC text questions, with official IDs/keys, four published corrections, group/ID search and saved missed-only review. Six text items and twelve diagram questions are explicitly excluded. No complete pool or official exam simulation is claimed. See the [Technician Wiki](https://github.com/test3457890/StudyGOAT/wiki/Amateur-Radio-Technician).
+
+November 12 FAA operating-rules expansion adds 16 lessons and 64 original questions on night/twilight, Categories 1-4 over people, moving vehicles, preflight, reporting and waiver limits. FAA totals are 35 lessons and 146 questions. This remains partial drone-certificate preparation, with full ACS/chart coverage and independent review pending.

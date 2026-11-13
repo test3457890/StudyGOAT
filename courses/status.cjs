@@ -2,7 +2,7 @@
 const fs=require('node:fs');
 const summaries={
  security701:'Selected security foundations, assets, governance and incident response',
- faa107:'Selected drone regulations, Remote ID, weather and performance',
+ faa107:'Selected drone rules, night/people/vehicle operations, weather and performance',
  capcadet:'Selected lessons and practice in all 16 Learn to Lead chapters',
  wfa:'Provider-neutral safety and heat awareness',
  technician:'Selected lessons plus 391 separate NCVEC text questions; 18 pool items excluded',

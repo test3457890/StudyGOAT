@@ -1231,6 +1231,34 @@
         "T9A",
         "T9B"
       ]
+    },
+    "faa107rulesnov12": {
+      "publisher": "FAA / Office of the Federal Register, eCFR",
+      "title": "14 CFR Part 107: selected current operating rules",
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107",
+      "version": "eCFR Title 14 displayed through November 10, 2026; selected Part 107 sections checked November 12",
+      "effective": "See individual amendment notes; the source-check date is not a new rule effective date",
+      "checked": "2026-11-12",
+      "reviewBy": "2026-12-12",
+      "rights": "US federal regulation text; original educational scenarios and explanations. No official examination questions copied.",
+      "status": "verified",
+      "sections": [
+        "107.29",
+        "107.65",
+        "107.39",
+        "107.110",
+        "107.115",
+        "107.120",
+        "107.125",
+        "107.130",
+        "107.140",
+        "107.145",
+        "107.9",
+        "107.15",
+        "107.49",
+        "107.200",
+        "107.205"
+      ]
     }
   },
   "tracks": [
@@ -4116,11 +4144,11 @@
       "status": "partial",
       "notice": "Partial UAG preparation. Examples assume ordinary Part 107 operations with no waiver unless stated. TRUST and CAP sUAS qualifications are separate. This app grants no FAA certificate.",
       "gaps": [
-        "Full ACS coverage and sectional chart interpretation",
-        "Remaining weather theory, hazards and forecast decoding",
-        "Remaining Remote ID detail, night operations and operations over people",
-        "Radio procedures, emergency decisions and a validated full-exam blueprint",
-        "Complete loading/performance ACS mapping and independent review; current lessons cover selected principles only."
+        "Full ACS objective inventory and sectional-chart interpretation",
+        "Remaining weather theory, forecast interpretation and hazards",
+        "Detailed Remote ID, category compliance processes and aircraft-specific operating instructions",
+        "Radio procedures, emergency decisions, operational risk management and a validated full-exam blueprint",
+        "Complete loading/performance ACS mapping and independent subject-matter review; selected principles only"
       ],
       "objectives": [
         "I.B",
@@ -4133,7 +4161,15 @@
         "Study guide / Density altitude and performance",
         "Study guide / Load factor and fixed-wing stalls",
         "Study guide / Thunderstorms and wind hazards",
-        "Study guide / Risk assessment and external pressure"
+        "Study guide / Risk assessment and external pressure",
+        "Regulations / 107.29, 107.65",
+        "Regulations / 107.39, 107.110",
+        "Regulations / 107.115, 107.120, 107.125, 107.130",
+        "Regulations / 107.140",
+        "Regulations / 107.145",
+        "Regulations / 107.9",
+        "Regulations / 107.15, 107.49",
+        "Regulations / 107.200, 107.205"
       ],
       "topics": [
         {
@@ -7444,6 +7480,2594 @@
               "checked": "2026-11-10"
             }
           ]
+        },
+        {
+          "id": "faa107_night",
+          "name": "Night and civil-twilight operating conditions",
+          "objectives": [
+            "Regulations / 107.29, 107.65"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.29"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.65"
+            }
+          ],
+          "notes": [
+            "Night operation requires applicable test or training under 107.65 after April 6, 2021, as well as current knowledge recency.",
+            "Required anti-collision lighting must be visible for at least 3 statute miles with a flash rate sufficient to avoid collision.",
+            "For safety, the remote PIC may reduce intensity but may not extinguish required lighting.",
+            "Civil twilight uses the 30-minute periods before sunrise and after sunset outside Alaska; Alaska uses the Air Almanac."
+          ],
+          "gloss": [
+            [
+              "Civil twilight",
+              "The periods specified in 107.29(c), with a separate Alaska definition"
+            ],
+            [
+              "Anti-collision light",
+              "Required conspicuity lighting, not merely any onboard light"
+            ],
+            [
+              "Knowledge recency",
+              "Applicable test or training within the previous 24 calendar months"
+            ],
+            [
+              "Intensity",
+              "Brightness, which may be reduced for safety without extinguishing the light"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A night flight needs more than lights",
+              "idea": [
+                "Check both pilot qualifications and lighting."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming possession of a remote pilot certificate alone establishes all night prerequisites."
+              ],
+              "steps": [
+                {
+                  "text": "A current pilot plans an evening inspection."
+                },
+                {
+                  "text": "Confirm the required post-April-6-2021 test or training and knowledge recency."
+                },
+                {
+                  "text": "Verify the anti-collision light meets visibility and flash requirements."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ]
+            },
+            {
+              "t": "Twilight and brightness adjustments",
+              "idea": [
+                "Lighting also matters during civil twilight."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating dimming authority as permission to extinguish the light."
+              ],
+              "steps": [
+                {
+                  "text": "A non-Alaska flight starts 15 minutes after sunset."
+                },
+                {
+                  "text": "Apply the civil-twilight lighting requirement."
+                },
+                {
+                  "text": "If operating conditions justify dimming for safety, reduce intensity without turning the light off."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_night_01",
+              "q": "A drone has position lights visible only one statute mile. Does that alone satisfy the normal 107.29 anti-collision-light requirement?",
+              "c": [
+                "No; the rule specifies at least 3 statute miles and sufficient flashing",
+                "Yes; any visible lamp is enough",
+                "Yes; one mile is the only required distance",
+                "Only the aircraft paint matters"
+              ],
+              "why": "The anti-collision requirement specifies visibility distance and a collision-avoidance flash rate.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_02",
+              "q": "Under the normal night rule, which pilot qualification must be checked along with lighting?",
+              "c": [
+                "Applicable initial test or training under 107.65 after April 6, 2021",
+                "A private pilot certificate in every case",
+                "Only a drone purchase receipt",
+                "A client’s approval of the flight"
+              ],
+              "why": "Section 107.29(a)(1) specifies the post-April-6-2021 test or training condition.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_03",
+              "q": "What is the knowledge-recency interval in 107.65?",
+              "c": [
+                "The previous 24 calendar months",
+                "Exactly 24 days",
+                "Only the first year after certification",
+                "A permanent exemption after any initial test"
+              ],
+              "why": "Section 107.65 specifies qualifying knowledge activity within the previous 24 calendar months.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_04",
+              "q": "When may required anti-collision lighting be extinguished solely under the PIC’s intensity-adjustment discretion?",
+              "c": [
+                "It may not be extinguished under that discretion",
+                "Whenever the camera needs less glare",
+                "Whenever the battery drops below half charge",
+                "Whenever a client asks"
+              ],
+              "why": "The regulation permits reducing intensity for safety, but expressly forbids extinguishing the required lighting.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_05",
+              "q": "Outside Alaska, a flight occurs 20 minutes after official sunset. Which period applies?",
+              "c": [
+                "Civil twilight",
+                "The period before sunrise",
+                "A lighting-free exception",
+                "A separate recreational-only period"
+              ],
+              "why": "Civil twilight includes sunset through 30 minutes after sunset outside Alaska.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_06",
+              "q": "What source defines the civil-twilight period for Alaska under 107.29?",
+              "c": [
+                "The Air Almanac",
+                "The client’s work schedule",
+                "A universal 15-minute rule",
+                "The aircraft serial number"
+              ],
+              "why": "Alaska has a separate Air Almanac provision in 107.29(c)(3).",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_07",
+              "q": "Outside Alaska, when does morning civil twilight begin for this rule?",
+              "c": [
+                "30 minutes before official sunrise",
+                "At noon",
+                "Two hours after sunrise",
+                "Only when streetlights switch off"
+              ],
+              "why": "The defined morning period begins 30 minutes before official sunrise and ends at sunrise.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_night_08",
+              "q": "What is the required purpose of the anti-collision light’s flash rate?",
+              "c": [
+                "To be sufficient to avoid a collision",
+                "To match the video frame rate",
+                "To communicate a commercial license class",
+                "To replace visual line of sight"
+              ],
+              "why": "Visibility distance alone does not replace the required sufficient flash rate.",
+              "objectives": [
+                "Regulations / 107.29, 107.65"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.29"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.65"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_peoplecategory1",
+          "name": "People protections and Category 1",
+          "objectives": [
+            "Regulations / 107.39, 107.110"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.39"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.110"
+            }
+          ],
+          "notes": [
+            "Operations over a person must satisfy an exception in 107.39 or an applicable Subpart D category.",
+            "Category 1 requires 0.55 pounds or less on takeoff and throughout the operation, including attachments.",
+            "Category 1 has no exposed rotating parts that would lacerate human skin on impact.",
+            "Category 1 sustained flight over open-air assemblies also requires the applicable Remote ID compliance specified in 107.110(b)."
+          ],
+          "gloss": [
+            [
+              "Direct participant",
+              "Person directly participating in the aircraft operation"
+            ],
+            [
+              "Protective cover",
+              "Covered structure or stationary vehicle providing reasonable protection"
+            ],
+            [
+              "Category 1 mass",
+              "Aircraft plus everything aboard or attached"
+            ],
+            [
+              "Open-air assembly",
+              "An assembly of people to which additional category restrictions apply"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A person below changes the decision",
+              "idea": [
+                "A willing bystander is not automatically a direct participant."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming everyone watching the flight is directly participating."
+              ],
+              "steps": [
+                {
+                  "text": "A customer stands below the planned flight path."
+                },
+                {
+                  "text": "Determine whether 107.39 participation, protective-cover or category conditions actually apply."
+                },
+                {
+                  "text": "Do not substitute customer consent for those conditions."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ]
+            },
+            {
+              "t": "Evaluate the complete Category 1 aircraft",
+              "idea": [
+                "Weight is only one eligibility condition."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Checking only the bare-aircraft advertised weight."
+              ],
+              "steps": [
+                {
+                  "text": "A light drone receives an accessory."
+                },
+                {
+                  "text": "Recheck the total weight throughout the operation and rotating-part hazard."
+                },
+                {
+                  "text": "For sustained flight over an assembly, also check the required Remote ID pathway."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_peoplecategory1_01",
+              "q": "For Category 1, what weight must be compared with 0.55 pounds?",
+              "c": [
+                "The aircraft and everything aboard or attached",
+                "Only the battery",
+                "Only the bare frame",
+                "Only the payload"
+              ],
+              "why": "Section 107.110 includes all onboard and attached items.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_02",
+              "q": "When does the Category 1 weight condition apply?",
+              "c": [
+                "At takeoff and throughout each operation",
+                "Only when bought",
+                "Only at landing",
+                "Only when no people are nearby"
+              ],
+              "why": "The rule states both takeoff and the duration of the operation.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_03",
+              "q": "A drone weighs exactly 0.55 pounds with all attachments. Does it exceed the Category 1 weight ceiling?",
+              "c": [
+                "No, but all other conditions still apply",
+                "Yes, because the rule says strictly less than 0.55",
+                "No, so every other rule disappears",
+                "Only the color determines eligibility"
+              ],
+              "why": "Category 1 uses 0.55 pounds or less; meeting weight alone is insufficient.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_04",
+              "q": "A very light drone has exposed rotating parts that would lacerate skin on impact. Does low weight alone establish Category 1 eligibility?",
+              "c": [
+                "No; the rotating-part condition must also be met",
+                "Yes, all light drones qualify",
+                "Yes, if the operator promises a short flight",
+                "Only a client signature is required"
+              ],
+              "why": "Weight and rotating-part conditions are separate requirements.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_05",
+              "q": "A bystander agrees to be filmed. Does that agreement alone prove direct participation under 107.39?",
+              "c": [
+                "No; consent is not the same as direct operational participation",
+                "Yes, any filmed person becomes crew",
+                "Yes, if the video is commercial",
+                "Only clothing determines participation"
+              ],
+              "why": "The exception concerns direct participation in the aircraft operation.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_06",
+              "q": "Which cover-related situation is expressly described by 107.39(b)?",
+              "c": [
+                "A covered structure or stationary vehicle providing reasonable protection",
+                "Any moving open-top vehicle",
+                "A hat worn outdoors",
+                "A shadow on the ground"
+              ],
+              "why": "The rule requires protective cover, including a stationary vehicle with reasonable protection.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_07",
+              "q": "Category 1 sustained flight over an open-air assembly requires what additional check?",
+              "c": [
+                "The applicable Remote ID compliance in 107.110(b)",
+                "Only an audience vote",
+                "Only battery capacity",
+                "No additional condition"
+              ],
+              "why": "The category’s open-air-assembly provision expressly references Remote ID requirements.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_peoplecategory1_08",
+              "q": "Meeting a Category 1 condition automatically resolves all other Part 107 requirements. Is that correct?",
+              "c": [
+                "No; other applicable operating rules still apply",
+                "Yes, including airspace and visual-line-of-sight requirements",
+                "Yes, unless the customer disagrees",
+                "Yes, whenever the aircraft is new"
+              ],
+              "why": "Category eligibility is not a blanket exemption from other operating rules.",
+              "objectives": [
+                "Regulations / 107.39, 107.110"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.39"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.110"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_categories23",
+          "name": "Categories 2 and 3: eligibility and operating limits",
+          "objectives": [
+            "Regulations / 107.115, 107.120, 107.125, 107.130"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.115"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.120"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.125"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.130"
+            }
+          ],
+          "notes": [
+            "Categories 2 and 3 require eligible aircraft, FAA-accepted declarations of compliance and proper category labels.",
+            "The injury-severity equivalence limits refer to impacts from rigid objects: 11 foot-pounds for Category 2 and 25 for Category 3. These are not permission to infer eligibility from a simple flight-energy calculation.",
+            "Category 3 forbids operations over open-air assemblies.",
+            "Category 3 also requires a notified closed/restricted-access site or compliance with its no-sustained-flight/person-protection condition."
+          ],
+          "gloss": [
+            [
+              "Declaration of compliance",
+              "FAA-accepted record for an eligible aircraft"
+            ],
+            [
+              "Category label",
+              "Aircraft labeling required for the declared category"
+            ],
+            [
+              "Injury-severity equivalence",
+              "Regulatory impact-injury criterion, not a mass class"
+            ],
+            [
+              "Restricted-access site",
+              "Site whose access conditions and notices support the specified operation"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Do not self-declare by arithmetic",
+              "idea": [
+                "Eligibility involves more than kinetic-energy estimates."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating a calculation or marketing phrase as the required declaration."
+              ],
+              "steps": [
+                {
+                  "text": "An operator computes a low energy value."
+                },
+                {
+                  "text": "Check actual eligibility, the FAA-accepted declaration and the label."
+                },
+                {
+                  "text": "Use the approved configuration and operating instructions."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ]
+            },
+            {
+              "t": "Category 3 has additional operating restrictions",
+              "idea": [
+                "Eligibility does not authorize every flight over people."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming Category 3 has the same crowd permissions as Category 2."
+              ],
+              "steps": [
+                {
+                  "text": "An eligible Category 3 drone is proposed for a crowd event."
+                },
+                {
+                  "text": "An open-air assembly is prohibited for Category 3."
+                },
+                {
+                  "text": "For other people, evaluate the closed-site notice or sustained-flight/protection conditions."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_categories23_01",
+              "q": "Which documents and markings are part of both Category 2 and Category 3 operating requirements?",
+              "c": [
+                "FAA-accepted declaration of compliance and proper category label",
+                "Only a retail receipt",
+                "Only a pilot’s handwritten weight estimate",
+                "Only a customer release"
+              ],
+              "why": "The operating sections require eligible aircraft listed on an accepted declaration and labeled for the category.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_02",
+              "q": "The Category 2 injury criterion uses equivalence to what rigid-object kinetic energy?",
+              "c": [
+                "11 foot-pounds",
+                "25 foot-pounds",
+                "55 foot-pounds",
+                "400 foot-pounds"
+              ],
+              "why": "Section 107.120(a)(1) specifies the 11-foot-pound injury-severity threshold.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_03",
+              "q": "The Category 3 injury criterion uses equivalence to what rigid-object kinetic energy?",
+              "c": [
+                "25 foot-pounds",
+                "11 foot-pounds",
+                "0.55 foot-pounds",
+                "3 foot-pounds"
+              ],
+              "why": "Section 107.130(a)(1) specifies the 25-foot-pound injury-severity threshold.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_04",
+              "q": "Can a Category 3 operation take place over an open-air assembly under its ordinary category permissions?",
+              "c": [
+                "No",
+                "Yes, if a label is present",
+                "Yes, if a declaration is present",
+                "Yes, if the event lasts less than an hour"
+              ],
+              "why": "Section 107.125(b) prohibits Category 3 operations over open-air assemblies.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_05",
+              "q": "An eligible Category 3 operation uses the closed-site pathway. Who must receive notice?",
+              "c": [
+                "All human beings within the closed- or restricted-access site",
+                "Only the client who booked it",
+                "Only the pilot",
+                "Only people wearing radios"
+              ],
+              "why": "Section 107.125(c)(1) requires notice to all people within the site.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_06",
+              "q": "Outside that closed-site pathway, Category 3 sustained flight over a person is allowed only if that person meets which stated condition?",
+              "c": [
+                "Direct participation or specified protective cover",
+                "An admission-ticket purchase",
+                "Being told to look up",
+                "Possessing a camera"
+              ],
+              "why": "Section 107.125(c)(2) limits sustained flight to direct participants or people under qualifying protection.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_07",
+              "q": "Can a pilot establish Category 2 eligibility merely by calculating the aircraft’s kinetic energy?",
+              "c": [
+                "No; the full eligibility, declaration and labeling requirements must be met",
+                "Yes, any number under eleven is enough",
+                "Yes, without configuration checks",
+                "Only a stopwatch is also needed"
+              ],
+              "why": "The regulatory injury-equivalence criterion is not a substitute for the complete compliance process.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_categories23_08",
+              "q": "For Categories 2 and 3, which rotating-part condition appears in eligibility rules?",
+              "c": [
+                "No exposed rotating parts that would lacerate skin on impact",
+                "Any exposed blade is allowed if it spins slowly",
+                "Only the aircraft’s advertised weight matters",
+                "The condition applies only to helicopters carrying people"
+              ],
+              "why": "Both 107.120(a) and 107.130(a) include this separate hazard condition.",
+              "objectives": [
+                "Regulations / 107.115, 107.120, 107.125, 107.130"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.115"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.120"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.125"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.130"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_category4",
+          "name": "Category 4 airworthiness and records",
+          "objectives": [
+            "Regulations / 107.140"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.140"
+            }
+          ],
+          "notes": [
+            "Category 4 requires a Part 21 airworthiness certificate and compliance with aircraft operating limitations.",
+            "Operating limitations must not prohibit the proposed operation over people.",
+            "Maintenance and inspection requirements and records apply; competence, equipment and acceptable methods matter.",
+            "Work records are retained for one year or until repeated/superseded; life-limited-part, directive and inspection-status records transfer with ownership."
+          ],
+          "gloss": [
+            [
+              "Airworthiness certificate",
+              "A required Part 21 certificate for the Category 4 aircraft"
+            ],
+            [
+              "Operating limitation",
+              "Aircraft-specific restriction that must be followed"
+            ],
+            [
+              "Work record",
+              "Description, completion date and performer identification for maintenance work"
+            ],
+            [
+              "Status record",
+              "Continuing information about parts, inspections and directives"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Category 4 is an aircraft-specific pathway",
+              "idea": [
+                "A normal drone registration is not an airworthiness certificate."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating registration or advertising as Category 4 certification."
+              ],
+              "steps": [
+                {
+                  "text": "A seller describes a drone as suitable over people."
+                },
+                {
+                  "text": "Verify the actual Part 21 airworthiness certificate."
+                },
+                {
+                  "text": "Check the approved limitations and required maintenance condition."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ]
+            },
+            {
+              "t": "Records support continued airworthiness",
+              "idea": [
+                "Different record types have different retention rules."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Discarding continuing-status records at sale."
+              ],
+              "steps": [
+                {
+                  "text": "Ownership changes after maintenance work."
+                },
+                {
+                  "text": "Identify work records and continuing-status records separately."
+                },
+                {
+                  "text": "Transfer the required life-limited-part, directive and inspection-status records."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_category4_01",
+              "q": "Which certificate is required for a Category 4 aircraft?",
+              "c": [
+                "An airworthiness certificate issued under Part 21",
+                "Only a remote pilot certificate",
+                "Only a retailer’s warranty",
+                "Only a drone registration receipt"
+              ],
+              "why": "Section 107.140(b)(1) specifies a Part 21 airworthiness certificate.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_02",
+              "q": "A Category 4 aircraft’s operating limitations prohibit flights over people. What follows?",
+              "c": [
+                "Do not use that pathway for the prohibited operation",
+                "Ignore the limitation because the category number is high",
+                "Proceed if the customer agrees",
+                "Proceed only when the battery is new"
+              ],
+              "why": "The applicable operating limitations must permit the operation and must be followed.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_03",
+              "q": "Which information belongs in Category 4 maintenance work records?",
+              "c": [
+                "Work description, completion date and person who performed it",
+                "Only the sale price",
+                "Only the video filename",
+                "Only weather at the next flight"
+              ],
+              "why": "Section 107.140(c)(2) specifies these record elements.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_04",
+              "q": "How long must Category 4 maintenance work records be kept under 107.140(c)(4)(i)?",
+              "c": [
+                "One year from completion or until repeated or superseded by other work",
+                "Only until the next battery charge",
+                "Forever in every case regardless of replacement work",
+                "Exactly ten calendar days"
+              ],
+              "why": "This work-record retention rule differs from continuing-status record requirements.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_05",
+              "q": "Which Category 4 records must be retained and transferred when ownership changes?",
+              "c": [
+                "Life-limited-part, airworthiness-directive and inspection-status records",
+                "Only purchase receipts",
+                "Only camera settings",
+                "Only the last flight’s client list"
+              ],
+              "why": "Section 107.140(c)(4)(ii) identifies the continuing-status records.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_06",
+              "q": "Does a person performing Category 4 maintenance need appropriate knowledge, skill and equipment?",
+              "c": [
+                "Yes",
+                "No, because all drones are disposable",
+                "Only if the aircraft exceeds 55 pounds",
+                "Only if the work is paid"
+              ],
+              "why": "Section 107.140(c)(1) includes competence and equipment requirements.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_07",
+              "q": "Category 4 sustained flight over an open-air assembly requires which additional check?",
+              "c": [
+                "The specified Remote ID compliance",
+                "Only a tall launch platform",
+                "Only verbal audience approval",
+                "No additional provision applies"
+              ],
+              "why": "Section 107.140(a)(2) adds the applicable Remote ID requirement.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_category4_08",
+              "q": "Who may request the Category 4 records specified in 107.140(c)(5)?",
+              "c": [
+                "The FAA Administrator or an authorized NTSB representative",
+                "Only the original retail seller",
+                "Only a paying customer",
+                "Only a camera manufacturer"
+              ],
+              "why": "The rule makes these records available for the stated government inspections.",
+              "objectives": [
+                "Regulations / 107.140"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.140"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_movingvehicles",
+          "name": "Operations over people inside moving vehicles",
+          "objectives": [
+            "Regulations / 107.145"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.145"
+            }
+          ],
+          "notes": [
+            "Operations over a person inside a moving vehicle require compliance with an applicable Category 1, 2, 3 or 4 pathway.",
+            "For Categories 1-3, either use a closed/restricted-access site with required notice or do not maintain sustained flight over moving vehicles.",
+            "The closed-site notice must reach all people inside moving vehicles within the site.",
+            "Category 4 requires the airworthiness certificate and operating limitations that do not prohibit the proposed over-vehicle operation."
+          ],
+          "gloss": [
+            [
+              "Moving vehicle",
+              "Vehicle in motion with a person inside"
+            ],
+            [
+              "Sustained flight",
+              "Continuing flight over a moving vehicle, subject to the applicable rule"
+            ],
+            [
+              "Site notice",
+              "Notice to the people specified by the closed-site provision"
+            ],
+            [
+              "Category pathway",
+              "Eligibility and operating requirements for the aircraft and operation"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "A moving car is not stationary protective cover",
+              "idea": [
+                "Use the moving-vehicle rule for people inside moving vehicles."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating an occupied moving car as the ordinary stationary-cover exception."
+              ],
+              "steps": [
+                {
+                  "text": "The flight path follows an occupied moving car."
+                },
+                {
+                  "text": "Check category compliance and the sustained-flight/site conditions."
+                },
+                {
+                  "text": "Do not apply the stationary-vehicle exception as if the car were parked."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ]
+            },
+            {
+              "t": "Separate the two Categories 1-3 pathways",
+              "idea": [
+                "The site and no-sustained-flight alternatives are different conditions."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming notice to one driver covers every occupant."
+              ],
+              "steps": [
+                {
+                  "text": "An eligible drone is proposed for a controlled-access test site."
+                },
+                {
+                  "text": "Check that all people in moving vehicles on the site received notice."
+                },
+                {
+                  "text": "For a different route, evaluate the no-sustained-flight alternative and all other applicable rules."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_movingvehicles_01",
+              "q": "For a Category 1-3 operation over people inside moving vehicles, what is one ordinary pathway under 107.145(b)?",
+              "c": [
+                "No sustained flight over moving vehicles",
+                "Only the client signs a form",
+                "Only the aircraft uses green lights",
+                "The vehicle driver photographs the drone"
+              ],
+              "why": "The no-sustained-flight alternative is specified in 107.145(b)(2).",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_02",
+              "q": "For the closed-site pathway, which people inside moving vehicles must be on notice?",
+              "c": [
+                "All such people within the site",
+                "Only the owner of the site",
+                "Only one driver chosen at random",
+                "Only people who leave their vehicles"
+              ],
+              "why": "The provision expressly covers all human beings inside moving vehicles within the site.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_03",
+              "q": "Does compliance with the moving-vehicle condition remove category requirements?",
+              "c": [
+                "No; the operation must also meet an applicable category pathway",
+                "Yes, if the site is large",
+                "Yes, for every brief transit",
+                "Only the speed of the car matters"
+              ],
+              "why": "Section 107.145(a) requires the applicable Category 1, 2, 3 or 4 compliance.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_04",
+              "q": "A pilot follows an occupied moving car continuously on an ordinary public road under a Category 2 claim. Is category labeling alone enough?",
+              "c": [
+                "No; moving-vehicle operating conditions must also be satisfied",
+                "Yes; a label authorizes every road flight",
+                "Yes; public roads are automatically closed sites",
+                "Only camera resolution matters"
+              ],
+              "why": "A category label does not satisfy the additional moving-vehicle conditions.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_05",
+              "q": "Which statement describes the ordinary Category 4 over-vehicle pathway?",
+              "c": [
+                "Part 21 airworthiness certificate and limitations that do not prohibit it",
+                "A registration receipt alone",
+                "A driver’s consent alone",
+                "A Category 3 label alone"
+              ],
+              "why": "Section 107.145(c) sets certificate and operating-limitation conditions.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_06",
+              "q": "Can the stationary-vehicle protective-cover exception simply be assumed for an occupied car in motion?",
+              "c": [
+                "No; apply the moving-vehicle conditions",
+                "Yes, every roof creates the same exception",
+                "Yes, if the windows are closed",
+                "Yes, if the car is newer than the drone"
+              ],
+              "why": "Sections 107.39 and 107.145 address different conditions.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_07",
+              "q": "Does 107.145(b) require the aircraft to stay within or over the closed/restricted-access site when using that pathway?",
+              "c": [
+                "Yes, throughout the operation",
+                "Only while launching",
+                "Only while landing",
+                "Only until the first car appears"
+              ],
+              "why": "The introductory language applies throughout the operation.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_movingvehicles_08",
+              "q": "A closed-site pilot notifies only the driver of an occupied van. What remains unresolved?",
+              "c": [
+                "Notice to the other people inside moving vehicles on the site",
+                "Only the van’s fuel capacity",
+                "Only the drone’s paint",
+                "Nothing, because one driver represents everyone"
+              ],
+              "why": "The rule specifies all people in the moving vehicles, not merely their drivers.",
+              "objectives": [
+                "Regulations / 107.145"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.145"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_eventreporting",
+          "name": "FAA safety-event reporting thresholds",
+          "objectives": [
+            "Regulations / 107.9"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.9"
+            }
+          ],
+          "notes": [
+            "Report qualifying operations to the FAA no later than 10 calendar days afterward.",
+            "Serious injury to any person or any loss of consciousness triggers the person-related criterion.",
+            "For property other than the drone, repair cost of $500 or less is an exception; for total loss, fair market value of $500 or less is an exception.",
+            "These are 107.9 study scenarios, not a complete determination of all possible reporting duties."
+          ],
+          "gloss": [
+            [
+              "Calendar day",
+              "The day unit used for the ten-day FAA reporting deadline"
+            ],
+            [
+              "Repair cost",
+              "Materials and labor used in the specified property exception"
+            ],
+            [
+              "Fair market value",
+              "The relevant property value for the total-loss exception"
+            ],
+            [
+              "Excluded aircraft damage",
+              "Damage to the small unmanned aircraft itself is excluded from this property criterion"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Identify the person-related trigger",
+              "idea": [
+                "Any loss of consciousness is expressly listed."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming quick recovery automatically removes the reporting trigger."
+              ],
+              "steps": [
+                {
+                  "text": "A person loses consciousness during a qualifying drone operation."
+                },
+                {
+                  "text": "Recognize the 107.9 person-related reporting trigger."
+                },
+                {
+                  "text": "The FAA report is due no later than ten calendar days after the operation."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ]
+            },
+            {
+              "t": "Use the correct property measure",
+              "idea": [
+                "Repairable damage and total loss use different measures."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Using the drone’s own damage as the sole property trigger."
+              ],
+              "steps": [
+                {
+                  "text": "Only a ground camera is damaged and no person-related trigger occurs."
+                },
+                {
+                  "text": "For repairable damage, assess materials plus labor."
+                },
+                {
+                  "text": "For total loss, use fair market value rather than a new replacement model’s retail price."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_eventreporting_01",
+              "q": "A qualifying Part 107 safety event must be reported to the FAA no later than when?",
+              "c": [
+                "10 calendar days after the operation",
+                "10 business days after an invoice arrives",
+                "At the next certificate renewal",
+                "Only if the client complains"
+              ],
+              "why": "Section 107.9 uses ten calendar days after the operation.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_02",
+              "q": "A person briefly loses consciousness, then recovers. Is loss of consciousness still an express 107.9 trigger?",
+              "c": [
+                "Yes",
+                "No, if recovery occurs the same day",
+                "No, unless property also costs more than $500",
+                "Only if the drone is destroyed"
+              ],
+              "why": "The regulation says any loss of consciousness.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_03",
+              "q": "An operation causes a stipulated serious injury but no property damage. Is the injury criterion met?",
+              "c": [
+                "Yes",
+                "No, property damage is always required",
+                "No, unless the flight occurred at night",
+                "Only if the aircraft is commercially insured"
+              ],
+              "why": "The person and property criteria are alternatives.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_04",
+              "q": "Only the drone is destroyed; no injury, loss of consciousness or other property damage occurs. Does that alone meet the 107.9 property criterion?",
+              "c": [
+                "No",
+                "Yes, regardless of the other facts",
+                "Yes, only for expensive drones",
+                "Only if its battery is rechargeable"
+              ],
+              "why": "The property criterion excludes the small unmanned aircraft itself; other reporting duties are outside this scenario.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_05",
+              "q": "A ground item can be repaired for exactly $500 including materials and labor, with no person-related trigger. Does that amount exceed the 107.9 repair exception?",
+              "c": [
+                "No",
+                "Yes, equality is expressly excluded",
+                "Only if the flight lasted ten minutes",
+                "Only if the item is photographed"
+              ],
+              "why": "The exception applies when repair cost does not exceed $500.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_06",
+              "q": "A ground item costs $600 to repair including materials and labor. No other exception applies. What does 107.9 require?",
+              "c": [
+                "Report to the FAA within the specified deadline",
+                "Wait for a client request",
+                "Report only if the drone also broke",
+                "Ignore the event because there was no injury"
+              ],
+              "why": "The stated property damage exceeds the repair-cost exception.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_07",
+              "q": "An item is a total loss with fair market value $400, and no person-related trigger occurs. Which measure controls the specified exception?",
+              "c": [
+                "Its $400 fair market value",
+                "Only the retail price of a new upgrade",
+                "Only the drone’s purchase price",
+                "Only the pilot’s insurance premium"
+              ],
+              "why": "For total loss, the rule refers to the damaged property’s fair market value.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_eventreporting_08",
+              "q": "Does this ten-day FAA reporting lesson determine every possible NTSB or other reporting obligation?",
+              "c": [
+                "No; other duties need separate checks",
+                "Yes, it replaces every other rule",
+                "Yes, if the FAA report is submitted early",
+                "Only if a customer agrees"
+              ],
+              "why": "These questions apply the stated section, not every possible reporting rule.",
+              "objectives": [
+                "Regulations / 107.9"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.9"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_preflightdetails",
+          "name": "Preflight environment, crew and configuration checks",
+          "objectives": [
+            "Regulations / 107.15, 107.49"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.15"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.49"
+            }
+          ],
+          "notes": [
+            "Check safe condition before each flight and do not continue when the system is no longer safe.",
+            "Assess local weather, airspace/restrictions, surface persons/property and other ground hazards.",
+            "Brief direct participants on conditions, emergency/contingency procedures, roles and hazards.",
+            "Verify control links, adequate power, secure attachments and category eligibility for planned operations over people."
+          ],
+          "gloss": [
+            [
+              "Control link",
+              "Communication between the ground station and the aircraft"
+            ],
+            [
+              "Contingency procedure",
+              "Planned response to an off-nominal condition"
+            ],
+            [
+              "Configuration",
+              "Aircraft, payload and attachments as actually operated"
+            ],
+            [
+              "Safe condition",
+              "A condition suitable for safe operation, checked before each flight"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Inspect the actual configuration",
+              "idea": [
+                "A previous successful flight does not replace a new check."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Relying only on a check performed before a different flight."
+              ],
+              "steps": [
+                {
+                  "text": "An accessory is changed between flights."
+                },
+                {
+                  "text": "Check the aircraft’s safe condition and attachment security."
+                },
+                {
+                  "text": "Confirm the payload does not adversely affect flight characteristics or controllability."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ]
+            },
+            {
+              "t": "Brief and assess before launch",
+              "idea": [
+                "The crew needs more than a location pin."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating a weather check as the whole preflight process."
+              ],
+              "steps": [
+                {
+                  "text": "Several people directly assist an inspection."
+                },
+                {
+                  "text": "Brief conditions, roles, hazards and emergency/contingency procedures."
+                },
+                {
+                  "text": "Check environment, control links, available power and any required over-people eligibility."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_preflightdetails_01",
+              "q": "When does 107.15 require the PIC to check the system’s safe condition?",
+              "c": [
+                "Before each flight",
+                "Only at purchase",
+                "Only after a repair",
+                "Only once per calendar year"
+              ],
+              "why": "A prior inspection does not replace the required check before each flight.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_02",
+              "q": "A flight develops a known unsafe system condition. What does 107.15 prohibit?",
+              "c": [
+                "Continuing flight in that unsafe condition",
+                "Checking the problem",
+                "Reassessing the operation",
+                "Using a safe termination plan"
+              ],
+              "why": "The rule prohibits continuing when the system is no longer in a condition for safe operation.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_03",
+              "q": "Which group belongs in the 107.49 environment assessment?",
+              "c": [
+                "Weather, airspace/restrictions, surface people/property and ground hazards",
+                "Only camera exposure settings",
+                "Only a client’s preferred filming time",
+                "Only aircraft color and sale price"
+              ],
+              "why": "The environment assessment includes both air and ground risks.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_04",
+              "q": "Which crew briefing is required for direct participants?",
+              "c": [
+                "Conditions, emergencies, contingencies, roles and hazards",
+                "Only the video filename",
+                "Only the client’s arrival time",
+                "Only a reminder to charge phones"
+              ],
+              "why": "Section 107.49(b) lists the briefing subjects.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_05",
+              "q": "A control link appears unreliable before launch. Which preflight duty applies?",
+              "c": [
+                "Ensure control links work properly before flight",
+                "Launch to see whether it repairs itself",
+                "Ignore it if video still records",
+                "Only ask the client to approve it"
+              ],
+              "why": "Section 107.49(c) directly addresses control links.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_06",
+              "q": "What available-power condition applies to a powered small UAS?",
+              "c": [
+                "Enough power for the intended operational time",
+                "Exactly half a battery in every case",
+                "Any power level if the pilot is experienced",
+                "Only enough power to take off"
+              ],
+              "why": "Section 107.49(d) refers to the intended operational time, not a universal percentage.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_07",
+              "q": "An attached object is secure but adversely affects controllability. Is attachment security alone sufficient?",
+              "c": [
+                "No; the adverse flight/control effect also matters",
+                "Yes, any secured payload is acceptable",
+                "Yes, if it was purchased from the manufacturer",
+                "Only its color matters"
+              ],
+              "why": "Section 107.49(e) requires security and no adverse effect on flight characteristics or controllability.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_preflightdetails_08",
+              "q": "Before a planned Subpart D operation over people, what additional preflight check is specified?",
+              "c": [
+                "Verify the applicable aircraft category requirements",
+                "Only count spectators",
+                "Only change camera resolution",
+                "Only check the launchpad’s color"
+              ],
+              "why": "Section 107.49(f) references the applicable Category 1, 2, 3 or 4 aircraft requirements.",
+              "objectives": [
+                "Regulations / 107.15, 107.49"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.15"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.49"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
+        },
+        {
+          "id": "faa107_waiverlimits",
+          "name": "Waiver scope and operating conditions",
+          "objectives": [
+            "Regulations / 107.200, 107.205"
+          ],
+          "refs": [
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.200"
+            },
+            {
+              "source": "faa107rulesnov12",
+              "section": "107.205"
+            }
+          ],
+          "notes": [
+            "A waiver authorizes only deviations stated in its certificate, subject to every attached condition and limitation.",
+            "An application must describe the proposed operation and justify how it can safely be conducted under the waiver.",
+            "Only the listed provisions in 107.205 are subject to this waiver process.",
+            "Night-lighting provisions are listed, but a night-lighting waiver is not a waiver of every pilot qualification or every rule."
+          ],
+          "gloss": [
+            [
+              "Certificate of waiver",
+              "FAA authorization for specifically described regulatory deviations"
+            ],
+            [
+              "Condition",
+              "A required term attached to the waiver"
+            ],
+            [
+              "Scope",
+              "The extent of the permission actually granted"
+            ],
+            [
+              "Safety justification",
+              "Explanation supporting safe conduct under proposed waiver terms"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Read the issued document",
+              "idea": [
+                "An application is not an issued waiver."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Assuming a pending application already grants permission."
+              ],
+              "steps": [
+                {
+                  "text": "A team has submitted a request for an unusual operation."
+                },
+                {
+                  "text": "Wait for the necessary authorization rather than treating submission as approval."
+                },
+                {
+                  "text": "If issued, read the specific deviations and every operating condition."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ]
+            },
+            {
+              "t": "Avoid blanket-waiver assumptions",
+              "idea": [
+                "One listed deviation does not remove unrelated duties."
+              ],
+              "recipe": [
+                "Identify the operation and the controlling section.",
+                "Check every applicable condition, not just one.",
+                "Use the current rule before making the go/no-go decision."
+              ],
+              "oops": [
+                "Treating a waiver as permission to ignore all of Part 107."
+              ],
+              "steps": [
+                {
+                  "text": "A waiver addresses a stated lighting provision."
+                },
+                {
+                  "text": "Apply only the deviation the certificate actually authorizes."
+                },
+                {
+                  "text": "Continue meeting other applicable requirements and the waiver’s limitations."
+                }
+              ],
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "faa107_waiverlimits_01",
+              "q": "A team has submitted a waiver request but has not received the required authorization. Does submission alone authorize the requested deviation?",
+              "c": [
+                "No",
+                "Yes, immediately",
+                "Yes, after one business day",
+                "Only if the client pays early"
+              ],
+              "why": "Section 107.200 concerns a certificate issued by the Administrator, not merely a submitted request.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_02",
+              "q": "What must a waiver request include under 107.200(b)?",
+              "c": [
+                "A complete proposed-operation description and safety justification",
+                "Only the aircraft’s color",
+                "Only a promise that the client wants it",
+                "Only the pilot’s social-media page"
+              ],
+              "why": "The request must establish how the operation can safely be conducted under waiver terms.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_03",
+              "q": "A waiver grants a stated deviation with several conditions. Which must the operator follow?",
+              "c": [
+                "All certificate conditions and limitations",
+                "Only the shortest condition",
+                "Only conditions repeated by the client",
+                "None after the first successful flight"
+              ],
+              "why": "Section 107.200(d)(2) requires compliance with the certificate’s conditions and limitations.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_04",
+              "q": "How far may an operator deviate under an issued waiver?",
+              "c": [
+                "Only to the extent specified in the certificate",
+                "From any rule the operator finds inconvenient",
+                "From every aviation rule automatically",
+                "Only as a client verbally requests"
+              ],
+              "why": "The issued certificate defines the extent of the authorized deviation.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_05",
+              "q": "Which provision is listed as subject to waiver for night and twilight lighting?",
+              "c": [
+                "107.29(a)(2) and (b)",
+                "Every pilot-qualification rule without limit",
+                "Every state privacy law",
+                "Every maintenance requirement under every category"
+              ],
+              "why": "Section 107.205(b) identifies the anti-collision-lighting provisions specifically.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_06",
+              "q": "Does a waiver covering a lighting provision automatically waive current pilot-knowledge requirements?",
+              "c": [
+                "No",
+                "Yes, all pilot duties disappear",
+                "Yes, if the flight is short",
+                "Only the aircraft manufacturer decides"
+              ],
+              "why": "A specific lighting deviation does not automatically extend to unrelated requirements.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_07",
+              "q": "Can the FAA prescribe additional limitations when issuing a waiver?",
+              "c": [
+                "Yes",
+                "No, the applicant alone controls the terms",
+                "Only a client may add conditions",
+                "Only a drone retailer may add limitations"
+              ],
+              "why": "Section 107.200(c) permits additional limitations the Administrator considers necessary.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            },
+            {
+              "id": "faa107_waiverlimits_08",
+              "q": "Which statement best describes the 107.205 list?",
+              "c": [
+                "It identifies regulations subject to this waiver process",
+                "It is a list of automatically approved flight plans",
+                "It replaces every operating limitation",
+                "It grants nationwide airspace access to every applicant"
+              ],
+              "why": "A listed provision can be considered for waiver; listing does not itself grant a waiver.",
+              "objectives": [
+                "Regulations / 107.200, 107.205"
+              ],
+              "refs": [
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.200"
+                },
+                {
+                  "source": "faa107rulesnov12",
+                  "section": "107.205"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-12"
+            }
+          ]
         }
       ],
       "exam": {
@@ -7451,7 +10075,7 @@
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-10"
+      "checked": "2026-11-12"
     },
     {
       "id": "capcadet",
