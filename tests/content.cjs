@@ -82,6 +82,33 @@ for(const q of pool.questions){const e=explanations.items[q.id];assert(e.text.tr
 // Check worked arithmetic against independently calculated results and units.
 for(const [id,result,unit] of [['T5D04',90/3,'ohms'],['T5D05',12/1.5,'ohms'],['T5D06',12/4,'ohms'],['T5D07',120/80,'A'],['T5D08',200/100,'A'],['T5D09',240/24,'A'],['T5D10',0.5*2,'V'],['T5D11',1*10,'V'],['T5D12',2*10,'V'],['T5C09',13.8*10,'W'],['T5C10',12*2.5,'W'],['T5C11',120/12,'A']])assert(explanations.items[id].text.includes(`${result} ${unit}`),id);
 console.log('PASS: all 409 original explanations are linked to unchanged pool items; worked arithmetic and 35 group labels checked');
+// Compare the complete ACS inventory with the retained FAA source extraction.
+const faa=data.tracks.find(t=>t.id==='faa107'),acs=faa.acsInventory;
+assert.equal(acs.elements.length,176);assert.equal(acs.tasks.length,17);
+const acsText=fs.readFileSync(acs.sourceTextPath,'utf8');
+assert.equal(crypto.createHash('sha256').update(acsText).digest('hex'),acs.sourceTextSha256);
+const officialCodes=[...acsText.matchAll(/^\s*(UA\.[IV]+\.[A-F]\.K\d+[a-z]?)\s+(.+)$/gm)].map(m=>m[1]);
+assert.deepEqual(acs.elements.map(e=>e.id),officialCodes);
+assert.equal(new Set(officialCodes).size,176);
+for(const e of acs.elements){
+ assert(acs.tasks.some(t=>t.id===e.task));assert(e.pdfPage>=8&&e.pdfPage<=25);
+ assert(acsText.split('\f')[e.pdfPage-1].includes(e.id));
+ assert.equal(e.status,e.topics.length?'related partial material':'official reading only');
+ assert.deepEqual(e.topics,faa.topics.filter(p=>p.acsCodes?.includes(e.id)).map(p=>p.id));
+ assert(data.sources.faaacs.sections.includes(e.id));
+}
+assert.equal(acs.elements.find(e=>e.id==='UA.I.B.K23').description,'Automated operations.');
+assert.equal(acs.elements.find(e=>e.id==='UA.II.A.K1b').pdfPage,15);
+assert.equal(acs.elements.filter(e=>e.topics.length).length,75);
+assert.equal(faa.topics.reduce((n,p)=>n+p.lessons.length,0),47);
+assert.equal(faa.topics.reduce((n,p)=>n+p.bank.length,0),182);
+for(const f of Object.values(data.faaChartFigures)){
+ assert.match(f.dataUrl,/^data:image\/jpeg;base64,/);
+ assert.equal(crypto.createHash('sha256').update(Buffer.from(f.dataUrl.split(',')[1],'base64')).digest('hex'),f.sha256);
+ assert(data.sources[f.source].sections.includes(f.section));assert.equal(f.pdfPage,90);
+}
+assert.equal(faa.topics.flatMap(p=>p.bank).filter(q=>q.figure==='figure59').length,6);
+console.log('PASS: all 176 ACS codes, 17 tasks, source-text fingerprint, reading/lesson distinction and six published-chart exercises');
 
 // Every jurisdiction must expose its own sourced introductory material, not only the national bank.
 assert.equal(data.drivingJurisdictions.filter(j=>j.code!=='US-DC'&&j.track).length,50);

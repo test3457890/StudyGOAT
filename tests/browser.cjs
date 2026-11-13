@@ -66,6 +66,29 @@ await page.getByRole('button',{name:'Reset access review',exact:true}).click();a
 await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Access lab mobile overflow');
 await page.evaluate(()=>certSources());assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Objective map mobile overflow');
 await page.setViewportSize({width:1280,height:800});
+// FAA inventory search distinguishes exact codes, task prefixes and reading-only gaps.
+await page.evaluate(()=>enterCourse('faa107'));
+await page.getByRole('button',{name:'Browse all 176 ACS knowledge codes',exact:true}).click();
+assert.equal(await page.locator('#acsResults details').count(),176);
+assert.equal(await page.locator('#acsResults section').count(),17);
+await page.locator('#acsQuery').fill('  ua.ii.a.k1b  ');assert.equal(await page.locator('#acsResults details').count(),1);
+await page.locator('[data-acs="UA.II.A.K1b"] summary').click();
+assert.match(await page.getByRole('link',{name:'Read official ACS page 15',exact:true}).getAttribute('href'),/#page=15$/);
+await page.getByRole('button',{name:'Study Airspace symbols and vertical reference',exact:true}).click();assert(await page.locator('#lc').isVisible());
+await page.evaluate(()=>faaAcsOpen());await page.locator('#acsQuery').fill('UA.I.C.K2');assert.equal(await page.locator('#acsResults details').count(),1);
+await page.locator('#acsResults summary').click();assert.match(await page.locator('#acsResults').innerText(),/No mapped StudyGOAT lesson/);
+assert.equal(await page.locator('#acsResults button').count(),0);
+await page.locator('#acsQuery').fill('');await page.locator('#acsAvailability').selectOption('related');assert.equal(await page.locator('#acsResults details').count(),75);
+await page.locator('#acsAvailability').selectOption('reading');assert.equal(await page.locator('#acsResults details').count(),101);
+await page.locator('#acsAvailability').selectOption('all');await page.locator('#acsQuery').fill('UA.I.B');assert((await page.locator('#acsResults details').count())>20);
+await page.locator('#acsQuery').fill('not an ACS subject');assert.equal(await page.locator('#acsResults details').count(),0);assert.match(await page.locator('#acsResults').innerText(),/No knowledge codes match/);
+await page.setViewportSize({width:390,height:844});await page.locator('#acsQuery').fill('');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'ACS mobile overflow');
+await page.evaluate(()=>home());await page.getByRole('button',{name:'Practice FAA Figure 59',exact:true}).click();
+await page.waitForFunction(()=>{const im=document.querySelector('.faaChartFigure img');return im&&im.complete&&im.naturalWidth>0});
+assert.match(await page.locator('.faaChartFigure figcaption').innerText(),/not for navigation/i);
+await page.getByText('Enlarge chart for reading',{exact:true}).click();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Enlarged chart must scroll inside its container');
+await page.evaluate(()=>answer(cur.choices.indexOf(cur.answer)));assert.match(await page.locator('#fb').innerText(),/Correct/);
+await page.setViewportSize({width:1280,height:800});
 // Uploaded lecture content is part of the existing discrete class.
 await page.evaluate(()=>enterCourse('cpsc222'));
 for(const topic of ['dmfsm','dmturnstile','dmsuffixdfa','dmfsmpython']){
@@ -197,5 +220,7 @@ await exported.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});as
 await exported.locator('#poolQuery').fill('T6C02');await exported.locator('#poolStart').click();assert(await exported.locator('#poolQuestion img').evaluate(img=>img.complete&&img.naturalWidth>0),'Export embeds offline diagrams');
 await exported.evaluate(()=>technicianPoolAnswer(window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>q.id==='T6C02').answer));assert.match(await exported.locator('.poolExplanation').innerText(),/resistor symbol/,'Export embeds original explanations');
 await exported.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart()});assert.match(await exported.locator('#poolQuestion').innerText(),/Question 1 of 35/);
+await exported.evaluate(()=>{enterCourse('faa107');faaAcsOpen()});assert.equal(await exported.locator('#acsResults details').count(),176,'Export embeds ACS inventory');
+await exported.evaluate(()=>practice('faa107_chart59'));await exported.waitForFunction(()=>{const im=document.querySelector('.faaChartFigure img');return im&&im.complete&&im.naturalWidth>0});
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
