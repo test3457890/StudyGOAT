@@ -85,6 +85,41 @@ for(const [word,result] of [['314','Final state: 3. LOCKED.'],['312','Final stat
 }
 await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'FSM lab mobile overflow');
 await page.setViewportSize({width:1280,height:800});
+// Study routes preserve independent per-course progress and link only to available lessons.
+for(const id of ['security701','faa107','capcadet','wfa','technician','arizonadriving','newjerseydriving']){
+ await page.evaluate(id=>enterCourse(id),id);await page.getByRole('button',{name:'Open saved study path',exact:true}).click();
+ const expected=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.find(t=>t.id===CC).readingPlan.length);
+ assert.equal(await page.locator('#readingAssignments > section').count(),expected,id);
+ await page.locator('#routeCheck_0').check();assert.match(await page.locator('#routeProgress').innerText(),/^1 of /);
+}
+await page.reload();await page.waitForFunction(()=>typeof installStudyPrograms==='function');
+await page.evaluate(()=>{enterCourse('technician');studyRoute();});assert(await page.locator('#routeCheck_0').isChecked());
+await page.locator('#readingAssignments details').first().locator('summary').click();
+await page.getByRole('button',{name:'Practice every T0A pool item',exact:true}).click();
+assert.equal(await page.locator('#poolGroup').inputValue(),'T0A');
+assert(await page.evaluate(()=>document.getElementById('poolQuestion').textContent.includes('T0A')));
+await page.evaluate(()=>{enterCourse('faa107');studyRoute();startRoutePractice(0);});assert.match(await page.locator('#routePracticeScope').innerText(),/Regulatory foundations/);
+await page.evaluate(()=>certSources());assert.equal(await page.locator('#acsCoverage details').count(),17);
+await page.evaluate(()=>home());await page.getByRole('button',{name:'Open synthetic chart lab',exact:true}).click();
+await page.getByRole('button',{name:'Check chart answers',exact:true}).click();assert.match(await page.locator('#chartLabScore').innerText(),/0 of 3/);
+for(let i=0;i<3;i++)await page.locator('#chartChoice_'+i).selectOption('0');
+await page.getByRole('button',{name:'Check chart answers',exact:true}).click();assert.match(await page.locator('#chartLabScore').innerText(),/3 of 3/);
+await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Chart lab mobile overflow');
+await page.evaluate(()=>enterCourse('security701'));
+for(const id of ['logtriage','firewall','baseline']){
+ const lab=await page.evaluate(id=>window.STUDYGOAT_CATALOG.securityLabs.find(l=>l.id===id),id);
+ await page.getByRole('button',{name:lab.title,exact:true}).click();
+ await page.getByRole('button',{name:'Check decisions',exact:true}).click();assert.match(await page.locator('#securityLabScore').innerText(),/^0 of /);
+ for(let i=0;i<lab.cases.length;i++)await page.locator('#labChoice_'+i).selectOption(String(lab.choices.indexOf(lab.cases[i].answer)));
+ await page.getByRole('button',{name:'Check decisions',exact:true}).click();assert((await page.locator('#securityLabScore').innerText()).startsWith(lab.cases.length+' of '+lab.cases.length));
+ await page.locator('#labChoice_0').selectOption(String((lab.choices.indexOf(lab.cases[0].answer)+1)%lab.choices.length));
+ await page.getByRole('button',{name:'Check decisions',exact:true}).click();assert((await page.locator('#securityLabScore').innerText()).startsWith((lab.cases.length-1)+' of '));
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Security lab mobile overflow');
+ await page.evaluate(()=>home());
+}
+for(const id of ['faa107','technician','arizonadriving']){await page.evaluate(id=>{enterCourse(id);studyRoute();},id);await page.locator('#readingAssignments details').first().locator('summary').click();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),id+' reading route mobile overflow');}
+await page.setViewportSize({width:1280,height:800});
+
 // All chapters reach real lessons and scope practice to their mapped topics.
 await page.evaluate(()=>enterCourse('capcadet'));await page.getByRole('button',{name:'All 16 chapters & coverage',exact:true}).click();
 assert.equal(await page.locator('#achievementMap details').count(),21);

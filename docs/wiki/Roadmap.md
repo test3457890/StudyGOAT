@@ -1,15 +1,15 @@
 # Development roadmap
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 442 lessons and 1242 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 50 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
+| Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
+| FAA Part 107 | 49 | 174 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -64,34 +64,19 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 origi
 | District of Columbia Driving Prep | 4 | 8 | Selected speed, spacing and visibility; trip planning and attention |
 <!-- STUDYGOAT TABLE END -->
 
-## Next implementation stages
+## November 13 implementation
 
-1. CAP: selected lessons and original questions now exist in all 16 chapters. Next, complete each chapter's remaining objectives and application exercises, obtain independent review, expand aerospace and reconcile current achievement requirements, including the unresolved Achievement 16 chapter reference. The chapter-specific quizzes are selected practice, not controlled exams.
-2. Driving: all 50 states and DC now have selected jurisdiction-specific lessons. Complete the remaining handbook sections, current licensing requirements, law/edition reconciliation and independent review for every jurisdiction. Introductory availability is not complete permit preparation.
-3. Security+: selected foundations are mapped to all 28 SY0-701 objectives, with scoped practice and a fictional access review lab. Complete the remaining material within every objective, platform-specific labs and a validated full-exam blueprint. Current CompTIA version verification remains blocked by inaccessible official version pages. Do not infer current availability from the accessible SY0-701 baseline document.
-4. FAA: selected night, people/vehicle, preflight, reporting and waiver lessons are implemented. Complete the ACS inventory, charts, broader weather/performance, detailed category/Remote ID compliance and operational procedures. METAR/TAF examples are synthetic educational exercises, not operational weather.
-5. Technician: all 409 public-domain NCVEC questions and three diagrams are available. The revised release is hosted by KP4ARA Laurel VE Team and has been compared against the import. Separate 35-question practice exams sample one per official group, with optional study timing and answer review. Original StudyGOAT explanations now cover all 409 questions. Complete the standalone theory, antennas, operations and safety lesson sequences and obtain independent subject-matter review.
-6. WFA: the learner's provider/syllabus and qualified instructor or clinical review are still required before treatment guidance. Physical skill assessments remain with the training provider.
+The latest release adds complete published-group Technician teaching coverage, the FAA printed-code inventory and selected flight instruction, three new security exercises, a synthetic chart lab, and saved official-reading paths. See [Completion Review](../Completion%20Review.md) for exact counts and the boundary between implemented software and uncompleted curriculum/review.
 
-## Release rules
+## Remaining work
 
-Preserve original tools and progress. Recheck sources and deadlines. Test actual lesson and practice flows, grading, exports, mobile layout and keyboard use. Publish documentation to the main repository and separate Wiki, then compare published Wiki contents. All current sourced tracks are partial; no full-exam readiness claim is made.
+1. Security+: finish deeper objectives and vendor-specific labs; independently validate a full-exam blueprint and confirm current CompTIA availability/revision.
+2. FAA: review and teach every individual ACS element, expand official supplement chart exercises and aircraft-specific decisions, and obtain independent review.
+3. CAP: expand all chapter objectives and original aerospace instruction; reconcile CAPR 60-1 and Achievement 16 with national/unit authority.
+4. Driving: finish original jurisdiction-specific lessons/questions across each complete handbook and reconcile current law, edition and licensing rules. Official reading checklists support study but do not close these gaps.
+5. WFA: use the actual provider syllabus and qualified instructor/clinical review before treatment guidance. Complete practical assessments with the provider.
+6. Technician: obtain independent review and supervised practical instruction. All 35 published groups and all 409 items now have guided study.
 
+## Release checks
 
-## November 12 implementation checkpoint
-
-Added four lessons and 16 original questions each for Alabama, Alaska, Arkansas, Colorado and Connecticut. Full handbook coverage and licensing requirements remain pending. Colorado uses official mountain/winter safety pages because the full handbook download was unavailable. The current inventory above is generated from the catalog.
-
-
-## Delaware through Kansas batch
-
-Added four lessons and 16 original questions each for Delaware, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa and Kansas. Source editions are recorded in the catalog and source register. Hawaii and Indiana edition dates remain unconfirmed; Kansas uses the currently linked February 2022 handbook for selected safety principles. No full state curriculum or licensing verification is claimed.
-
-## Kentucky through Maryland batch
-
-Added selected railroad and roundabout study for Kentucky, weather and night observation for Louisiana, fatigue and distraction study for Maine, and rail/work-zone study for Maryland. Each course has four lessons and eight original questions. Full manual and licensing coverage remains pending.
-
-
-## All-state introductory availability
-
-The final 28 jurisdictions now each have four selected lessons and eight original questions. All 50 states and DC have separate material. The shared national bank is still counted once. See [All State Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/All-State-Driving-Prep) for the exact scope and source-review limits.
+Preserve existing question IDs, progress, original courses and the source-compared NCVEC pool. Run content, PDF-pool and browser checks. Reading checks remain self-reported, and selected quizzes do not award a credential. Repository Wiki source changes require separate Wiki publication; a docs/wiki commit alone does not publish it.

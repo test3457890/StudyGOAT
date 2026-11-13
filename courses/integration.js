@@ -189,8 +189,11 @@ const legacyHome = home;
 home = function() {
   if (!certTrack()) {legacyHome();if(CC==='cpsc222')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="fsmLab()">Open finite state machine lab</button></div>');return;}
   _home();
+  if(certTrack().readingPlan)view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="studyRoute()">Open saved study path</button><p>Official reading assignments, linked lessons and a checklist saved with your progress.</p></div>');
   if(CC==='security701')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="certSources()">Browse 28 objective areas</button><button onclick="accessReviewLab()">Open access review lab</button><p>Selected foundations in every SY0-701 objective area. Each objective remains partial. The fictional lab practices least privilege and account removal.</p></div>');
-  if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study all 409 NCVEC questions</button><p>Complete public-domain question pool, diagrams and 409 original explanations. Separate 35-question practice exams and saved missed-question review.</p></div>');
+  if(CC==='security701')view.insertAdjacentHTML('afterbegin','<div class="card"><h3>Applied security exercises</h3>'+CERT.securityLabs.map(l=>'<button onclick="securityLab(\''+l.id+'\')">'+esc(l.title)+'</button>').join('')+'</div>');
+  if(CC==='faa107')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="chartLab()">Open synthetic chart lab</button></div>');
+  if(CC==='technician')view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="technicianPoolOpen()">Study all 409 NCVEC questions</button><p>All 35 groups now have guided lessons. Complete public-domain question pool, diagrams and 409 original explanations. Separate 35-question practice exams and saved missed-question review.</p></div>');
   view.insertAdjacentHTML('afterbegin', certNotice()+`<div class="row"><button onclick="certSources()">${certTrack().curriculum?'All 16 chapters & coverage':'Sources & coverage'}</button><button onclick="examSetup()">Practice test</button></div>`);
 };
 function certNotice() {
@@ -199,11 +202,75 @@ function certNotice() {
   const stale=[...used].some(id=>new Date(CERT.sources[id].reviewBy+'T23:59:59Z')<new Date());
   return `<div class="card"><h2>${esc(t.code)}: ${esc(t.status)} coverage</h2><p>${esc(t.notice)}</p><p class="hint">Sources checked ${esc(t.checked)}. ${stale?'Source review is overdue. Recheck official sources before relying on this content.':''} Independent study aid. No affiliation, credit, certification or pass guarantee.</p></div>`;
 }
+function securityLab(id){
+  if(CC!=='security701')return;const lab=CERT.securityLabs.find(l=>l.id===id);if(!lab)return;
+  screen='securitylab';LS=null;cur=null;quiz=null;activePrep=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
+  view.innerHTML=`<div class="card" id="securityCaseLab"><button onclick="home()">Back to Security+</button><h2>${esc(lab.title)}</h2><p>${esc(lab.brief)}</p>${lab.cases.map((c,i)=>`<section><p>${esc(c.facts)}</p><label for="labChoice_${i}">Decision for case ${i+1}</label><select id="labChoice_${i}" style="display:block;width:100%;max-width:100%;box-sizing:border-box"><option value="">Choose a decision</option>${lab.choices.map((choice,j)=>`<option value="${j}">${esc(choice)}</option>`).join('')}</select></section>`).join('')}<button onclick="checkSecurityLab('${lab.id}')">Check decisions</button><button onclick="securityLab('${lab.id}')">Reset this lab</button><p id="securityLabScore" role="status" aria-live="polite"></p><div id="securityLabFeedback"></div><p>Fictional exercise for objectives ${esc(lab.objectives.join(', '))}. ${certRefs(lab.refs)}</p></div>`;
+}
+function checkSecurityLab(id){
+  if(CC!=='security701'||!document.getElementById('securityCaseLab'))return;
+  const lab=CERT.securityLabs.find(l=>l.id===id);if(!lab)return;
+  let score=0;const feedback=lab.cases.map((c,i)=>{
+    const v=document.getElementById('labChoice_'+i).value,selected=v===''?null:lab.choices[Number(v)],ok=selected===c.answer;
+    if(ok)score++;return `<p>Case ${i+1}: ${ok?'Correct':selected===null?'Unanswered':'Review'}. ${esc(c.answer)}. ${esc(c.why)}</p>`;
+  });
+  document.getElementById('securityLabScore').textContent=score+' of '+lab.cases.length+' decisions correct. Practice only.';
+  document.getElementById('securityLabFeedback').innerHTML=feedback.join('');
+}
+function chartLab(){
+  if(CC!=='faa107')return;screen='chartlab';LS=null;cur=null;quiz=null;activePrep=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
+  view.innerHTML=`<div class="card"><button onclick="home()">Back to Part 107</button><h2>Synthetic chart altitude lab</h2><p>Fictional cross-section, not to scale. It teaches altitude references and supplies no operational authorization.</p><svg viewBox="0 0 600 360" style="width:100%;max-width:600px" role="img" aria-labelledby="chartTitle chartDesc"><title id="chartTitle">Class C shelf and obstacle altitude exercise</title><desc id="chartDesc">A Class C shelf labeled 40 over 15 extends from 1,500 feet MSL to 4,000 feet MSL. Terrain is 1,000 feet MSL. An obstacle top is 1,200 feet MSL, with height 200 feet AGL.</desc><rect x="32" y="64" width="536" height="166" fill="#d946ef" fill-opacity="0.12" stroke="#d946ef" stroke-width="3"/><text x="52" y="94" fill="currentColor" font-size="17">Class C shelf</text><text x="470" y="105" fill="#c026d3" font-size="25">40</text><line x1="464" y1="114" x2="512" y2="114" stroke="#c026d3" stroke-width="2"/><text x="470" y="143" fill="#c026d3" font-size="25">15</text><text x="52" y="199" fill="currentColor" font-size="16">Floor: read the lower number</text><line x1="32" y1="302" x2="568" y2="302" stroke="currentColor" stroke-width="3"/><text x="52" y="335" fill="currentColor" font-size="16">Terrain: 1,000 ft MSL</text><path d="M380 302 L400 259 L420 302" fill="none" stroke="currentColor" stroke-width="2"/><text x="340" y="249" fill="currentColor" font-size="16">Obstacle: 1200 (200)</text></svg><p>The 40/15 figures omit two zeros and use MSL. The obstacle's parenthesized figure is AGL.</p>${[['Floor of this Class C shelf',['1,500 ft MSL','150 ft AGL','4,000 ft MSL']],['Floor height above this terrain',['500 ft AGL','1,500 ft AGL','2,500 ft AGL']],['Obstacle height above its base',['200 ft AGL','1,200 ft AGL','1,000 ft AGL']]].map(([q,choices],i)=>`<label for="chartChoice_${i}">${q}</label><select id="chartChoice_${i}" style="display:block;width:100%;max-width:100%;box-sizing:border-box"><option value="">Choose an answer</option>${choices.map((c,j)=>`<option value="${j}">${c}</option>`).join('')}</select>`).join('')}<button onclick="checkChartLab()">Check chart answers</button><button onclick="chartLab()">Reset chart lab</button><p id="chartLabScore" role="status" aria-live="polite"></p><div id="chartLabFeedback"></div><p>${certRefs([{source:'faacharts2026',section:'VFR: airspace'},{source:'faacharts2026',section:'VFR: obstacles'}])}</p></div>`;
+}
+function checkChartLab(){
+  if(CC!=='faa107'||!document.getElementById('chartChoice_0'))return;
+  const reasons=['15 x 100 = 1,500 feet MSL.','1,500 - 1,000 = 500 feet AGL above this terrain.','The parenthesized 200 is obstacle height above ground.'];
+  let score=0;const feedback=reasons.map((r,i)=>{const ok=document.getElementById('chartChoice_'+i).value==='0';if(ok)score++;return `<p>Question ${i+1}: ${ok?'Correct':'Review'}. ${r}</p>`;});
+  document.getElementById('chartLabScore').textContent=score+' of 3 chart answers correct.';
+  document.getElementById('chartLabFeedback').innerHTML=feedback.join('')+'<p>Being below a shelf does not establish permission to fly; check all applicable airspace, restrictions and operating requirements.</p>';
+}
+
+function studyRoute(){
+  const t=certTrack();if(!t?.readingPlan)return;
+  technicianPoolStopTimer();screen='readingplan';LS=null;cur=null;quiz=null;activePrep=null;
+  if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
+  const progress=S.readingPlans?.[t.id]||{};
+  view.innerHTML=`<div class="card"><button onclick="home()">Back to course</button><h2>${esc(t.code)} study path</h2><p>${esc(t.readingPlanNotice)}</p><p id="routeProgress" role="status" aria-live="polite"></p><p>Checks record your own reading and preparation. They do not grade your work or award a credential.</p></div><div id="readingAssignments">${t.readingPlan.map((r,i)=>`<section class="card"><label><input id="routeCheck_${i}" type="checkbox" ${progress[r.id]?'checked':''} onchange="toggleRoute(${i},this.checked)"> Reviewed: ${esc(r.title)}</label><details><summary>Open assignment and study tools</summary><p>${esc(r.assignment)}</p><p>${esc(r.kind)}</p><p><a href="${esc(r.url)}" target="_blank" rel="noopener">Open official reading for ${esc(r.title)}</a></p>${r.topics.map(id=>{const p=certTopic(id);return p?`<h3>${esc(p.name)}</h3>${p.lessons.map((l,j)=>`<button onclick="learn('${id}',${j})">${esc(l.t)}</button>`).join('')}`:'';}).join('')}${r.topics.some(id=>certTopic(id)?.bank.length)?`<button onclick="startRoutePractice(${i})">Practice selected lessons for ${esc(r.title)}</button>`:''}${r.poolGroup?`<button onclick="startPoolGroup('${r.poolGroup}')">Practice every ${esc(r.poolGroup)} pool item</button>`:''}</details></section>`).join('')}</div>`;
+  routeProgress();
+}
+function routeProgress(){
+  const t=certTrack(),node=document.getElementById('routeProgress');if(!t?.readingPlan||!node)return;
+  const progress=S.readingPlans?.[t.id]||{},count=t.readingPlan.filter(r=>progress[r.id]).length;
+  node.textContent=count+' of '+t.readingPlan.length+' assignments marked reviewed. Saved in this browser and included in Settings backups.';
+}
+function toggleRoute(index,checked){
+  const t=certTrack(),r=t?.readingPlan?.[index];if(!r||typeof checked!=='boolean')return;
+  S.readingPlans=S.readingPlans||{};S.readingPlans[t.id]=S.readingPlans[t.id]||{};
+  if(checked)S.readingPlans[t.id][r.id]=true;else delete S.readingPlans[t.id][r.id];
+  save();routeProgress();
+}
+function startRoutePractice(index){
+  const t=certTrack(),r=t?.readingPlan?.[index];if(!r)return;
+  const entries=t.topics.filter(p=>r.topics.includes(p.id)).flatMap(p=>p.bank.map(b=>({p,b})));
+  if(!entries.length)return;
+  runCertEntries(shuffle(entries).slice(0,10),0);
+  view.insertAdjacentHTML('afterbegin',`<p id="routePracticeScope">${esc(r.title)}: selected lesson practice. This does not test every official reading objective.</p>`);
+}
+function startPoolGroup(group){
+  if(CC!=='technician'||!CERT.technicianPool.groups.includes(group))return;
+  technicianPoolOpen();document.getElementById('poolGroup').value=group;technicianPoolFilter();technicianPoolStart();
+}
+
 function certSources() {
   screen='sources';LS=null;cur=null;quiz=null;activePrep=null;drawNav();const t=certTrack();
   view.innerHTML=certNotice()+`<div class="card"><h3>Coverage checklist</h3><p>Listed objectives have introductory coverage only. A topic is not a complete objective.</p>${t.topics.map(p=>`<p>${esc(p.name)}: ${esc(p.objectives.join(', '))} · ${p.bank.length} checked questions<br>${certRefs(p.refs)}</p>`).join('')}<h3>Remaining work</h3><ul>${t.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h3>Source register</h3>${[...new Set(t.topics.flatMap(p=>p.refs.map(r=>r.source)))].map(id=>{const s=CERT.sources[id];return `<p>${certRefs([{source:id,section:s.sections.join(', ')}])}<br>${esc(s.version)} · Effective: ${esc(s.effective)}<br>Checked ${esc(s.checked)} · Review by ${esc(s.reviewBy)}<br>${esc(s.rights)}</p>`}).join('')}</div>`;
+  if(t.readingPlan)view.insertAdjacentHTML('afterbegin','<div class="card"><button onclick="studyRoute()">Open saved study path</button></div>');
+  if(t.acsInventory)view.insertAdjacentHTML('afterbegin',certACS(t));
   if(t.curriculum)view.insertAdjacentHTML('afterbegin',certAchievements(t)+certCurriculum(t));
   if(t.objectiveMap)view.insertAdjacentHTML('afterbegin',certObjectiveMap(t));
+}
+function certACS(t){
+  const a=t.acsInventory;
+  return `<div class="card" id="acsCoverage"><h2>Remote Pilot ACS inventory</h2><p>${esc(a.version)}: ${a.tasks.length} tasks and ${a.codes.length} printed knowledge codes, including subordinate elements. Inventory completeness does not mean complete lesson coverage.</p>${a.tasks.map(task=>`<details><summary>${esc(task.id)}: ${esc(task.title)} (selected instruction)</summary><p>${task.codes.map(esc).join(', ')}</p>${task.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}</details>`).join('')}<p><a href="${esc(a.url)}" target="_blank" rel="noopener">Read the full official ACS</a> · Checked ${esc(a.checked)}</p></div>`;
 }
 function certObjectiveMap(t){
   return `<div class="card" id="objectiveCoverage"><h2>SY0-701 objective map</h2><p>All 28 objective areas have selected introductory material. Every area is partial. These links use the verified version 6.0 baseline, not a claim that the latest exam revision has been confirmed.</p>${[1,2,3,4,5].map(domain=>`<h3>Domain ${domain}</h3>${t.objectiveMap.filter(o=>o.domain===domain).map(o=>`<details data-objective="${esc(o.id)}"><summary>${esc(o.id)}: ${esc(o.title)} (partial)</summary><p>Still to study: ${o.gaps.map(esc).join('; ')}.</p>${o.topics.map(id=>`<button onclick="learn('${id}',0)">Study ${esc(certTopic(id).name)}</button>`).join('')}<button onclick="startObjectivePractice('${o.id}')">Practice objective ${esc(o.id)}</button></details>`).join('')}`).join('')}</div>`;
@@ -357,7 +424,7 @@ getPristine=function(){
   d.body.append(adapter);
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
-Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,fsmLab,fsmEvent,fsmReset,fsmRecognize,keypadRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
+Object.assign(window,{technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,securityLab,checkSecurityLab,chartLab,checkChartLab,studyRoute,toggleRoute,startRoutePractice,startPoolGroup,fsmLab,fsmEvent,fsmReset,fsmRecognize,keypadRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();

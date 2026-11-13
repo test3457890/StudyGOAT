@@ -1,15 +1,15 @@
 # Coverage checklist
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 442 lessons and 1242 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 50 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
+| Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
+| FAA Part 107 | 49 | 174 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -64,139 +64,39 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 origi
 | District of Columbia Driving Prep | 4 | 8 | Selected speed, spacing and visibility; trip planning and attention |
 <!-- STUDYGOAT TABLE END -->
 
-## Learn to Lead chapter inventory
+## Implemented and checked
 
-All 16 chapters now have selected original lessons and questions, official reading links and a chapter-specific practice quiz. Earlier chapters still have uncovered objectives. Later chapters are no longer reading-only entries. None is a complete chapter-exam bank.
+- [x] Original classes, source models and existing saved-progress keys preserved.
+- [x] CPSC 222 includes eight FSM topics, 16 lessons, 64 questions and turnstile/DFA/keypad tools.
+- [x] All 35 Technician groups have two guided lessons. Every one of the 409 pool items appears once in the item walkthroughs with an original explanation.
+- [x] Technician retains the unchanged official pool, diagrams, corrections, missed-question review and 35-group practice exams.
+- [x] Security+ has 28 objective routes and four fictional exercises: access review, log triage, network allowlist and account baseline.
+- [x] FAA has all 17 ACS tasks and 176 printed knowledge codes inventoried, including subordinate elements. Selected lessons cover charts, airports/radio, emergencies, human performance, weather and Remote ID.
+- [x] CAP has reading paths for all 16 leadership chapters and seven Aerospace Dimensions modules. Built-in leadership practice remains selected content.
+- [x] WFA has a provider-follow-up checklist covering assessment, injuries and environmental topics. It does not teach unreviewed treatment protocols.
+- [x] All 50 states and DC have separate selected lessons, full-manual links and 13-part official-reading checklists.
+- [x] 56 courses have saved reading paths. Checks are self-reported preparation, separate from quiz scores.
 
-| Volume | Chapter | Official reading | StudyGOAT coverage |
-| --- | ---: | --- | --- |
-| 1 | 1 | [Character & the Air Force Tradition](https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch1_AF_Tradition_B81658040C0E9.pdf) | selected lessons and practice |
-| 1 | 2 | [The Cadet & the Team](https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch2_The_Cadet_And_The_Team_03A97D7210AE0.pdf) | selected lessons and practice |
-| 1 | 3 | [The Art & the Science](https://www.gocivilairpatrol.com/media/cms/L2L_Mod1_Ch3_The_Art_And_Science_FF695C7BC1DEB.pdf) | selected lessons and practice |
-| 2 | 4 | [The NCO & the Team](https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch4_The_NCO_and_TEAM_428130FD1F86C.pdf) | selected lessons and practice |
-| 2 | 5 | [Brainpower for Leadership](https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch5_Brainpower_for_Leaders_68401347748A7.pdf) | selected lessons and practice |
-| 2 | 6 | [The Human Element](https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch6_The_Human_Element_107BC137426D2.pdf) | selected lessons and practice |
-| 2 | 7 | [Schools of Thought](https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch7_Leadership_Schools_of__574B8BF2CB81E.pdf) | selected lessons and practice |
-| 2 | 8 | [Effective Communication](https://www.gocivilairpatrol.com/media/cms/L2L_Mod2_Ch8_Effective_Communicatio_63AFCA8970D43.pdf) | selected lessons and practice |
-| 3 | 9 | [The Cadet Officer](https://www.gocivilairpatrol.com/media/cms/Chapter_9_Collected__LOW_E5FEBB103E38F.pdf) | selected lessons and practice |
-| 3 | 10 | [The Staff Officer](https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_10LOW_FINAL_75A9FEAE3286B.pdf) | selected lessons and practice |
-| 3 | 11 | [The Leader as Commander](https://www.gocivilairpatrol.com/media/cms/L2L__Vol_3_chapter_11__LOW_FINAL_E798EBB4F218D.pdf) | selected lessons and practice |
-| 4 | 12 | [Introduction to Strategic Leadership](https://www.gocivilairpatrol.com/media/cms/Chapter_12_Web_C0E7A749BA101_A38A791027084.pdf) | selected lessons and practice |
-| 4 | 13 | [Leading Public & Volunteer Organizations](https://www.gocivilairpatrol.com/media/cms/Chapter_13_Web_5C4382BCA180F_3C9880EEE06DC.pdf) | selected lessons and practice |
-| 4 | 14 | [Airpower as Strategic Laboratory](https://www.gocivilairpatrol.com/media/cms/Chapter_14_Web_0CE0B1561422B_2A660EFA41A9B.pdf) | selected lessons and practice |
-| 4 | 15 | [Organizational Culture & Change](https://www.gocivilairpatrol.com/media/cms/Chapter_15_Web_A46143E86597C_B9DD163320804.pdf) | selected lessons and practice |
-| 4 | 16 | [Strategic Communication & Negotiation](https://www.gocivilairpatrol.com/media/cms/Chapter_16_Web_A31AD878B62C6_1B6BEFA8C4A20.pdf) | selected lessons and practice |
+## Remaining curriculum and review work
 
-CAP totals: 38 lessons and 156 original questions. Remaining work includes full objective inventories, deeper application exercises, independent review, aerospace and current achievement requirements. Supervised drill, fitness, leadership feedback and official assessments are not app-completable activities.
+| Program | Remaining work |
+| --- | --- |
+| Security+ | Deeper coverage within each objective, platform-specific configuration/investigation labs, independently validated full-exam blueprint, current exam version/availability confirmation. |
+| FAA drone curriculum | Element-by-element instructional review of all 176 codes, official testing-supplement chart practice, more advanced weather/performance/aircraft-specific procedures, independent review and a full-exam blueprint. |
+| CAP | Complete objective-by-objective leadership instruction, original aerospace teaching banks, current CAPR 60-1 reconciliation and the Achievement 16 chapter discrepancy. Unit approvals and supervised activities remain external. |
+| WFA | Identify the actual provider/syllabus, obtain qualified review, and complete supervised assessment, treatment, medication and evacuation training. |
+| Technician | Independent review of teaching/explanations and supervised equipment, installation and safety instruction. All published groups/items have implemented guided study. |
+| Every driving jurisdiction | Full authored handbook coverage, current licensing/legal/edition reconciliation and independent review. A full-manual link or checked reading task does not supply those missing lessons. Supervised driving and road tests remain external. |
 
-## Driving coverage
+## Source limitations
 
-Every state and DC now has selected jurisdiction-specific content. See [All State Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/All-State-Driving-Prep) for source links and counts. Every state-specific course uses its own cited sources. Shared national material is explicitly labeled and does not establish state-law or permit-test coverage. Territories are outside the initial directory. New York City red-light restrictions remain distinguished from the rest of New York.
+The FAA national ACS list checked November 13 still lists FAA-S-ACS-10B. The source PDF's printed codes are inventoried without labeling every code as taught or mastered. The chart guide is the July 9, 2026 edition; the August 2016 study guide supplies selected enduring concepts only.
 
-## Remaining work by program
+CompTIA's current product/version pages could not be retrieved. SY0-701 objectives version 6.0 is a baseline, not evidence of current exam availability. Direct NCVEC retrieval returned 403; the retained, independently compared revised PDF and ARRL correction/withdrawal records remain the pool basis. ARRL lists no Technician withdrawals on November 13.
 
-### Security+ SY0-701
+CAP's public Achievement 16 page still says Learn to Lead chapter 14. The inconsistency remains explicitly unresolved. Public national audio lists seven Aerospace Dimensions modules, including Cyber Security; the current books are obtained through CAP's official resources.
 
-- [x] Selected introductory material mapped to all 28 version 6.0 baseline objectives
-- [x] Objective-specific practice and explicit gaps for every objective
-- [x] Original fictional least-privilege and offboarding access-review lab
-- [ ] Deeper instruction and practice within every objective, including platform-specific configuration and investigation
-- [ ] Full practical exercise set and a validated full-exam blueprint
-- [ ] Current CompTIA exam availability and latest objective revision remain unconfirmed
-
-### FAA Part 107
-
-- [x] Selected responsibility, airspace, limits, Remote ID, weather and performance foundations
-- [x] Selected night/twilight, Categories 1-4, moving vehicles, preflight, reporting and waiver scenarios
-- [ ] Complete ACS objective inventory and sectional-chart interpretation
-- [ ] Broader weather theory and forecast/hazard exercises
-- [ ] Detailed Remote ID, category compliance processes and aircraft-specific instructions
-- [ ] Radio, emergency, risk-management and broader performance applications
-- [ ] Independent subject-matter review and complete exam blueprint
-
-### CAP Cadet Study
-
-- [ ] Remaining objectives and detailed application exercises in all 16 Learn to Lead chapters
-- [ ] Independent objective-by-objective content review across all four volumes
-- [ ] Aerospace curriculum and achievement mapping
-- [ ] Current CAPR 60-1 and national achievement requirement reconciliation
-- [ ] Supervised drill, feedback, fitness and official assessments remain outside this app
-
-### Wilderness First Aid
-
-- [x] General scene safety, help, heat/cold, lightning and altitude recognition/prevention
-- [ ] Confirm the learner's training provider and syllabus
-- [ ] Patient assessment and evacuation decision skills with instructor review
-- [ ] Wounds, fractures and spinal injury care
-- [ ] Complete environmental illness assessment and treatment; current recognition material is selected only
-- [ ] Allergic reactions and provider-specific medication training
-- [ ] Supervised skills assessment; no universal WFA exam is claimed
-
-### Amateur Radio Technician
-
-- [x] Separate study mode for all 409 public-domain NCVEC questions, with official IDs and answer keys
-- [x] Original StudyGOAT explanations for all 409 answers, including worked arithmetic, diagram symbols and post-exam review
-- [x] Apply four February 19, 2026 prompt corrections and check ARRL withdrawals
-- [x] Group and ID filtering, saved missed-only review, locked feedback and validity guard
-- [x] Verify T5B03-T5B08 against the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team
-- [x] Validate three diagrams and restore twelve figure questions
-- [x] Complete 35-group exam sampling, deferred answer review, scoring and optional study timer
-- [ ] Complete standalone teaching lessons and obtain independent review of the original explanations
-
-### Arizona Driving Prep
-
-- [ ] Remaining Arizona manual sections
-- [ ] Road markings and broader hazard scenarios
-- [ ] Supervised driving and road-test preparation
-- [ ] Full knowledge-test coverage
-- [ ] Other states are not included
-
-### New Jersey Driving Prep
-
-- [ ] Remaining manual sections and complete knowledge-test coverage
-- [ ] Graduated licensing, age-specific restrictions and current application requirements
-- [ ] Signs, signals, markings, parking, highway hazards and impairment
-- [ ] Supervised driving and road-test preparation
-
-### California Driving Prep
-
-- [ ] Remaining handbook sections and full knowledge-test coverage
-- [ ] Licensing, age-specific restrictions, signs, parking and impairment
-- [ ] Broader hazard scenarios and supervised road-test preparation
-
-### New York Driving Prep
-
-- [ ] Remaining manual sections and full knowledge-test coverage
-- [ ] Licensing and junior-operator restrictions
-- [ ] School buses, signs, markings, parking, impairment and broader hazards
-- [ ] Supervised driving and road-test preparation
-
-## Verification and completion gates
-
-- [x] Both original courses and saved-progress keys preserved.
-- [x] All 16 CAP chapter entries have lessons, practice, citations and chapter-scoped quizzes.
-- [x] Four state-specific partial courses, with all other directory entries explicitly planned.
-- [x] Source links and incomplete-coverage notices in each program.
-- [ ] Complete objective-by-objective inventories and independent content review.
-- [ ] Full validated certification-exam blueprints and approved simulations.
-- [ ] Provider-specific WFA syllabus and qualified review before medical-treatment content.
-- [ ] Complete manual coverage for every state and DC.
-- [ ] Broader assistive-technology and real-device testing across all modes.
-
-## Unresolved source checks
-
-November 10: official CompTIA V7/V8 version pages could not be retrieved. The SY0-701 version 6.0 objectives baseline remains accessible; current availability and latest revision are not confirmed. The NCVEC download page returned 403. On November 12 the complete revised NCVEC PDF was retrieved from the KP4ARA Laurel VE Team mirror, all 409 questions compared, and all three diagrams checked. Complete pool study and 35-group practice exams are enabled. Teaching explanations remain partial.
-
-
-November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
-
-
-November 10 FAA expansion: 19 FAA lessons and 82 original questions now include loading/CG, density altitude, fixed-wing load factors and stalls, thunderstorms/wind hazards and PAVE risk decisions. Synthetic calculations identify their assumptions. The August 2016 FAA study guide is used only for selected enduring principles, not current regulatory authority. Full ACS coverage and independent review remain open.
-
-
-## State-by-state inventory
-
-All 50 states and DC can open the same shared national safety course. An entry with a state-specific partial course contains additional material from that jurisdiction's cited sources. Neither label means full permit-test coverage.
+## State-by-state availability
 
 <!-- STUDYGOAT DIRECTORY START -->
 | Jurisdiction | Available material |
@@ -254,46 +154,4 @@ All 50 states and DC can open the same shared national safety course. An entry w
 | District of Columbia | National foundations and state-specific partial course |
 <!-- STUDYGOAT DIRECTORY END -->
 
-## Texas and Florida source and coverage limits
-
-Texas: [Transportation Code chapter 544](https://tcss.legis.texas.gov/resources/TN/htm/TN.544.htm), section 544.007(b)-(f), supports the selected steady-signal decisions. [Chapter 545](https://tcss.legis.texas.gov/resources/TN/htm/TN.545.htm), section 545.066(a), (b) and (f), supports school-bus stopping, release conditions and separate-roadway exceptions. The controlled-access loading-zone exception is not practiced in this batch. The [DPS handbook listing](https://www.dps.texas.gov/InternetForms/home/Details/304) identifies a January 2026 revision, but the full PDF could not be retrieved; cached handbook versions conflict. No complete edition review is claimed.
-
-Florida: published [2026 section 316.075](https://www.flsenate.gov/Laws/Statutes/2026/316.075), [316.076](https://flsenate.gov/Laws/Statutes/2026/0316.076) and [316.172](https://www.flsenate.gov/Laws/Statutes/2026/316.172) support the selected signal and school-bus lessons. The five-foot threshold applies to the unpaved-space alternative, not to every raised median or physical barrier. Ordinary flashing-signal practice explicitly excludes railroad crossings. The [FLHSMV handbook PDF](https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf) returned 403; search-indexed text shows an August 2023 revision. Current handbook edition verification remains open.
-
-Both tracks exclude permit ages, required documents, training-hour totals, penalties, official exam items and practical driving instruction. These must be researched separately before broader coverage is claimed.
-
-
-## November 12 five-state coverage limits
-
-Alabama adds roundabouts and right-of-way conflicts from the ALEA November 2024 manual, printed pp. 57-58 and 62-63. Alaska adds uncontrolled intersections and lighting from the October 2025 DMV manual, printed p. 33 and pp. 54-55. Arkansas adds ordinary signals/arrows and railroad-crossing decisions from the October 2026 guide, printed pp. 23-25 and 28-29. Connecticut adds lane-change observation and markings from the March 2023 manual, printed p. 23 and pp. 43-44. Source editions and selected sections were checked November 12; this is not a review of all laws updated since those editions.
-
-Colorado adds mountain and winter safety lessons from the DMV [Mountain Driving](https://dmv.colorado.gov/mountain-driving) and [Driving in Ice, Snow](https://dmv.colorado.gov/driving-in-ice-snow) pages. The linked January 2025 handbook returned 403. Braking-system-specific skid instructions and the current traction-equipment compliance rules are not included because they need further reconciliation.
-
-Each of these five additions contains four lessons and 16 original questions. All still need remaining handbook subjects, current licensing requirements, broader scenarios and independent content review. All referenced PDFs remain on their official agency websites; the application links sources without republishing their artwork or official question sets.
-
-
-## Delaware through Kansas: selected coverage and source limits
-
-| State | Selected study | Source edition or limitation |
-| --- | --- | --- |
-| Delaware | Ordinary signals, dark intersections and directional arrows | July 2026 manual cover checked directly; printed pp. 69-72 |
-| Georgia | Two-lane passing and school-bus roadway layouts | Official live manual sections plus DDS July 29, 2026 release; online manual front cover still says 2023-2024 |
-| Hawaii | Rain/fog, hydroplaning prevention and freeway entry/exit | HDOT-linked PDF, printed pp. 75-76 and 78-80; edition date unconfirmed |
-| Idaho | Large vehicles, escape ramps, wildlife and controlled livestock movements | July 2026 manual cover checked directly; printed pp. 104-108 |
-| Illinois | School-bus four-lane opposing exception, lane and pedestrian signals | 2026 Rules of the Road, July printing; printed pp. 32-33 and 77-78 |
-| Indiana | Multi-lane roundabout/large-vehicle rules and tractor-trailer safety | Agency-linked electronic chapter 7, printed pp. 40 and 49-50; revision date unconfirmed |
-| Iowa | Rural/gravel roads, night visibility and deer encounters | Official PDF publication code MM1170 07/23/2026; sections 5.6-5.8, printed pp. 55-57 |
-| Kansas | Rural surfaces and work-zone observation | Agency-linked handbook revised February 2022; selected safety sections, printed pp. 90-92 |
-
-Every new state still needs the remaining handbook subjects, current licensing and graduated-driver requirements, post-edition law changes, broader scenarios and independent content review. The Hawaii course excludes outdated-looking braking-system instructions, fixed hydroplaning speed thresholds and numerical flood-water thresholds from the source. No official sample question, illustration or complete handbook is reproduced. The Illinois four-lane bus exception must not be transferred to states requiring a physical divider.
-
-## Kentucky through Maryland review, November 12, 2026
-
-| State | Official source | Selected sections | Limits |
-| --- | --- | --- | --- |
-| Kentucky | State Police driver-testing page links the July 23, 2026 manual update | Section Six, railroad warnings pp. 36-37; Section Seven, roundabouts p. 44 | Remaining manual, licensing and independent review pending; StudyGOAT is not KSP-endorsed |
-| Louisiana | OMV driver-manuals page links PowerDMS document 347039, DPSMV2052 R08/25 | Weather Changes p. 106; At Night p. 107 | Selected observation principles only; older phone/statistical claims and numeric lighting thresholds excluded |
-| Maine | BMV online Driver's License Manual Study Guide | Section 3, Fatigue and Driver Distractions | Revision date unconfirmed; safety education, not a statement of current licensing or device-law exceptions |
-| Maryland | MVA official PDF, DL-002 (10-26) | Section 5.G, Highway-Railroad Crossings; 5.H, Work Zone Safety | Read through official PDF web reader after local PDF download returned 403; remaining manual and licensing review pending |
-
-Each state adds four lessons, eight original questions and topic glossary cards. No official sample questions, figures or handbook files are distributed. Source edition checks do not establish full current-law review. All existing sourced tracks remain unchanged.
+Reading plans organize the complete official source. Built-in state questions remain partial and are counted separately from shared national foundations.

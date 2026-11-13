@@ -1,15 +1,15 @@
 # Certifications and professional learning
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-13. 57 sourced tracks contain 442 lessons and 1242 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
-| Security+ SY0-701 | 50 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
+| Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
+| FAA Part 107 | 49 | 174 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -66,7 +66,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 355 lessons and 1144 origi
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 
-Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers all 409 NCVEC questions and three diagrams with separate 35-question practice exams; original StudyGOAT explanations cover all 409 questions, while the standalone lesson curriculum remains partial. CAP practice never awards official credit or uses controlled milestone material.
+Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers all 409 NCVEC questions and three diagrams with separate 35-question practice exams; original StudyGOAT explanations cover all 409 questions, and all 35 published groups now have guided lessons; independent review and practical instruction remain pending. CAP practice never awards official credit or uses controlled milestone material.
 
 See the individual track pages and Roadmap for gaps. Do not upload confidential employer documents, exam dumps or restricted training materials.
 
