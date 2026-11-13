@@ -124,10 +124,11 @@ Every state and DC now has selected jurisdiction-specific content. See [All Stat
 
 ### Wilderness First Aid
 
+- [x] General scene safety, help, heat/cold, lightning and altitude recognition/prevention
 - [ ] Confirm the learner's training provider and syllabus
 - [ ] Patient assessment and evacuation decision skills with instructor review
 - [ ] Wounds, fractures and spinal injury care
-- [ ] Heat, cold, altitude and lightning illness or injury
+- [ ] Complete environmental illness assessment and treatment; current recognition material is selected only
 - [ ] Allergic reactions and provider-specific medication training
 - [ ] Supervised skills assessment; no universal WFA exam is claimed
 
@@ -140,7 +141,7 @@ Every state and DC now has selected jurisdiction-specific content. See [All Stat
 - [x] Verify T5B03-T5B08 against the complete revised NCVEC PDF hosted by KP4ARA Laurel VE Team
 - [x] Validate three diagrams and restore twelve figure questions
 - [x] Complete 35-group exam sampling, deferred answer review, scoring and optional study timer
-- [ ] Expand teaching lessons and explanations
+- [ ] Complete standalone teaching lessons and obtain independent review of the original explanations
 
 ### Arizona Driving Prep
 
