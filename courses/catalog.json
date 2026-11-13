@@ -1918,6 +1918,76 @@
       "checked": "2026-11-13",
       "reviewBy": "2026-12-13",
       "rights": "U.S. federal regulation. Original summaries; read the complete applicable section and exceptions."
+    },
+    "cdcwfahypo": {
+      "publisher": "Centers for Disease Control and Prevention",
+      "title": "Preventing Hypothermia",
+      "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+      "version": "August 25, 2026",
+      "sections": [
+        "Overview; What to look out for; Treat"
+      ],
+      "status": "verified",
+      "effective": "Source version stated above; recognition and prevention material only",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. government public guidance. Original summaries and fictional practice; no provider examination content."
+    },
+    "cdcwfaFrost": {
+      "publisher": "Centers for Disease Control and Prevention",
+      "title": "Preventing Frostbite",
+      "url": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+      "version": "August 25, 2026",
+      "sections": [
+        "What to look out for; Do not wait; care precautions"
+      ],
+      "status": "verified",
+      "effective": "Source version stated above; recognition and prevention material only",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. government public guidance. Original summaries and fictional practice; no provider examination content."
+    },
+    "nwswfashelter": {
+      "publisher": "National Weather Service",
+      "title": "Lightning Tips",
+      "url": "https://www.weather.gov/safety/lightning-tips",
+      "version": "Current page accessed November 13, 2026",
+      "sections": [
+        "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+      ],
+      "status": "verified",
+      "effective": "Source version stated above; recognition and prevention material only",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. government public guidance. Original summaries and fictional practice; no provider examination content."
+    },
+    "nwswfaResponse": {
+      "publisher": "National Weather Service",
+      "title": "Overview: Lightning Safety",
+      "url": "https://www.weather.gov/safety/lightning-safety-overview",
+      "version": "Current page accessed November 13, 2026",
+      "sections": [
+        "Lightning Victims"
+      ],
+      "status": "verified",
+      "effective": "General lightning emergency recognition",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. government guidance; original summaries and scenarios."
+    },
+    "cdcwfaAltitude": {
+      "publisher": "Centers for Disease Control and Prevention",
+      "title": "High-Altitude Travel and Altitude Illness",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+      "version": "CDC Yellow Book 2026; April 23, 2025 chapter",
+      "sections": [
+        "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+      ],
+      "status": "verified",
+      "effective": "Source version stated above; recognition and prevention material only",
+      "checked": "2026-11-13",
+      "reviewBy": "2026-12-13",
+      "rights": "U.S. government public guidance. Original summaries and fictional practice; no provider examination content."
     }
   },
   "tracks": [
@@ -24147,22 +24217,25 @@
       "id": "wfa",
       "code": "Wilderness First Aid",
       "name": "Provider-neutral safety introduction",
-      "version": "Introductory education, 2026-11-09",
+      "version": "Provider-neutral recognition and prevention, November 2026",
       "status": "partial",
-      "notice": "Educational introduction only, not medical instructions or certification. In a real emergency, contact emergency services and follow your training and dispatcher guidance. Provider-specific treatment, medication and evacuation protocols are not taught in this slice.",
+      "notice": "General first-aid recognition and prevention only. The learner's WFA provider is unknown. This is not a complete WFA course, a treatment protocol, or a skills qualification. Use emergency services and your instructor's current guidance.",
       "gaps": [
-        "Confirm the learner's training provider and syllabus",
-        "Patient assessment and evacuation decision skills with instructor review",
-        "Wounds, fractures and spinal injury care",
-        "Heat, cold, altitude and lightning illness or injury",
-        "Allergic reactions and provider-specific medication training",
-        "Supervised skills assessment; no universal WFA exam is claimed"
+        "Provider and syllabus remain unknown; reconcile provider-specific expectations when identified",
+        "Supervised patient assessment, evacuation planning, wounds, bleeding, fractures and spinal injury skills",
+        "Anaphylaxis recognition and provider-specific medication skills with qualified review",
+        "Complete environmental illness assessment and treatment; selected recognition/prevention only",
+        "Qualified instructor or clinical review and supervised skills assessment; no universal WFA exam is claimed"
       ],
       "objectives": [
         "Scene safety",
         "Emergency communication",
         "Training scope",
-        "Heat awareness"
+        "Heat awareness",
+        "Hypothermia recognition",
+        "Frostbite recognition and protection",
+        "Lightning shelter and emergency recognition",
+        "Altitude illness: stop ascent and recognize deterioration"
       ],
       "topics": [
         {
@@ -25196,6 +25269,834 @@
               "checked": "2026-11-09"
             }
           ]
+        },
+        {
+          "id": "wfa_hypothermia",
+          "name": "Hypothermia recognition",
+          "objectives": [
+            "Hypothermia recognition"
+          ],
+          "refs": [
+            {
+              "source": "cdcwfahypo",
+              "section": "Overview; What to look out for; Treat"
+            }
+          ],
+          "notes": [
+            "Wet, cool conditions can cause hypothermia even above 40 F.",
+            "Shivering with confusion, clumsy hands or slurred speech requires urgent attention.",
+            "Seek emergency care, get into shelter and replace wet clothing with dry insulation. Do not wait for a thermometer to recognize an emergency."
+          ],
+          "gloss": [
+            [
+              "Hypothermia",
+              "Dangerously low body temperature"
+            ],
+            [
+              "Chilling",
+              "Loss of body heat in the environment"
+            ],
+            [
+              "Insulation",
+              "Dry layers that reduce heat loss"
+            ],
+            [
+              "Warning sign",
+              "An observation that calls for prompt action"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Hypothermia recognition: recognition",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "idea": [
+                "Wet, cool conditions can cause hypothermia even above 40 F.",
+                "Shivering with confusion, clumsy hands or slurred speech requires urgent attention.",
+                "Seek emergency care, get into shelter and replace wet clothing with dry insulation. Do not wait for a thermometer to recognize an emergency."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Wet, cool conditions can cause hypothermia even above 40 F."
+                },
+                {
+                  "text": "Shivering with confusion, clumsy hands or slurred speech requires urgent attention."
+                },
+                {
+                  "text": "Seek emergency care, get into shelter and replace wet clothing with dry insulation. Do not wait for a thermometer to recognize an emergency."
+                }
+              ]
+            },
+            {
+              "t": "Hypothermia recognition: trail scenario",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "idea": [
+                "A wet hiker starts fumbling a zipper and speaking unclearly."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A wet hiker starts fumbling a zipper and speaking unclearly."
+                },
+                {
+                  "text": "The group stops the trip, seeks emergency help and protects the hiker from further cooling."
+                },
+                {
+                  "text": "Shelter and dry layers support care while help is arranged; continuing toward the summit increases exposure."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_hypothermia_01",
+              "q": "Can hypothermia occur during a wet hike above 40 F?",
+              "c": [
+                "Yes, prolonged chilling can occur in cool wet conditions",
+                "No, only below freezing",
+                "Only while sleeping indoors",
+                "Only after frostbite"
+              ],
+              "why": "Rain and sweat can cause chilling above freezing.",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_hypothermia_02",
+              "q": "A chilled hiker becomes confused and clumsy. Which response fits?",
+              "c": [
+                "Seek emergency help and reduce further cooling",
+                "Continue uphill to finish the route",
+                "Wait until a foot turns white",
+                "Assume confusion is harmless"
+              ],
+              "why": "These are warning signs that need urgent attention.",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_hypothermia_03",
+              "q": "Which action reduces further cooling after reaching shelter?",
+              "c": [
+                "Replace wet clothing with dry layers",
+                "Leave the person in soaked clothing",
+                "Expose the person to more wind",
+                "Resume strenuous travel immediately"
+              ],
+              "why": "Dry insulation helps limit continued heat loss.",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_hypothermia_04",
+              "q": "Should a group delay emergency action until it finds a thermometer for a confused, chilled hiker?",
+              "c": [
+                "No, act on the warning signs and seek help",
+                "Yes, symptoms cannot matter without a number",
+                "Yes, until the next morning",
+                "Only if the group is near its destination"
+              ],
+              "why": "Recognition and help should not wait for equipment.",
+              "objectives": [
+                "Hypothermia recognition"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfahypo",
+                  "section": "Overview; What to look out for; Treat"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            }
+          ]
+        },
+        {
+          "id": "wfa_frostbite",
+          "name": "Frostbite recognition and protection",
+          "objectives": [
+            "Frostbite recognition and protection"
+          ],
+          "refs": [
+            {
+              "source": "cdcwfaFrost",
+              "section": "What to look out for; Do not wait; care precautions"
+            }
+          ],
+          "notes": [
+            "Frostbite is a freezing injury; numbness and unusually pale, firm or waxy skin are warning signs.",
+            "Get out of the cold, seek medical care and check for hypothermia as well.",
+            "Do not rub frozen tissue or warm it against a stove or heating pad. Avoid walking on frostbitten feet unless necessary. Field rewarming decisions need appropriate training and evacuation planning."
+          ],
+          "gloss": [
+            [
+              "Frostbite",
+              "Tissue injury caused by freezing"
+            ],
+            [
+              "Numbness",
+              "Reduced or absent sensation"
+            ],
+            [
+              "Waxy skin",
+              "An abnormal texture that can accompany freezing injury"
+            ],
+            [
+              "Hypothermia",
+              "Dangerously low body temperature requiring emergency attention"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Frostbite recognition and protection: recognition",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "idea": [
+                "Frostbite is a freezing injury; numbness and unusually pale, firm or waxy skin are warning signs.",
+                "Get out of the cold, seek medical care and check for hypothermia as well.",
+                "Do not rub frozen tissue or warm it against a stove or heating pad. Avoid walking on frostbitten feet unless necessary. Field rewarming decisions need appropriate training and evacuation planning."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Frostbite is a freezing injury; numbness and unusually pale, firm or waxy skin are warning signs."
+                },
+                {
+                  "text": "Get out of the cold, seek medical care and check for hypothermia as well."
+                },
+                {
+                  "text": "Do not rub frozen tissue or warm it against a stove or heating pad. Avoid walking on frostbitten feet unless necessary. Field rewarming decisions need appropriate training and evacuation planning."
+                }
+              ]
+            },
+            {
+              "t": "Frostbite recognition and protection: trail scenario",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "idea": [
+                "A winter hiker notices numb, pale fingertips after removing gloves in the wind."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "A winter hiker notices numb, pale fingertips after removing gloves in the wind."
+                },
+                {
+                  "text": "The group gets the hiker into shelter, protects the hands and seeks medical advice or care."
+                },
+                {
+                  "text": "They do not rub the fingers with snow or hold them against a heater; they also check for confusion or other whole-body cold signs."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_frostbite_01",
+              "q": "Which finding can indicate frostbite?",
+              "c": [
+                "Numb, pale or waxy skin after cold exposure",
+                "A normal warm hand indoors",
+                "A readable trail sign",
+                "A dry backpack"
+              ],
+              "why": "Freezing injury can change sensation, color and texture.",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_frostbite_02",
+              "q": "Should frostbitten fingers be rubbed with snow?",
+              "c": [
+                "No, rubbing can cause further damage",
+                "Yes, friction always repairs tissue",
+                "Only if they are numb",
+                "Only before seeking care"
+              ],
+              "why": "Rubbing or massage can worsen tissue injury.",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_frostbite_03",
+              "q": "Which warming approach should be avoided for numb frostbitten skin?",
+              "c": [
+                "Direct contact with a stove or heating pad",
+                "Moving into shelter",
+                "Protecting the area",
+                "Seeking medical care"
+              ],
+              "why": "Numb tissue is vulnerable to additional heat injury.",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_frostbite_04",
+              "q": "Why assess the whole person when frostbite is suspected?",
+              "c": [
+                "Hypothermia may also be present and needs emergency care",
+                "Frostbite excludes hypothermia",
+                "Only the skin color matters",
+                "Confusion is always normal in winter"
+              ],
+              "why": "Local freezing injury and whole-body cooling can coexist.",
+              "objectives": [
+                "Frostbite recognition and protection"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaFrost",
+                  "section": "What to look out for; Do not wait; care precautions"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            }
+          ]
+        },
+        {
+          "id": "wfa_lightning",
+          "name": "Lightning shelter and emergency recognition",
+          "objectives": [
+            "Lightning shelter and emergency recognition"
+          ],
+          "refs": [
+            {
+              "source": "nwswfashelter",
+              "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+            },
+            {
+              "source": "nwswfaResponse",
+              "section": "Lightning Victims"
+            }
+          ],
+          "notes": [
+            "Hearing thunder means lightning is close enough to threaten you. No outdoor location is completely safe during a thunderstorm.",
+            "Seek a substantial enclosed building or an enclosed metal-topped vehicle with windows closed. A tent or isolated tree is not safe shelter.",
+            "Remain in safe shelter at least 30 minutes after the last thunder. If someone is struck, call emergency services; they do not retain an electrical charge. Provide first aid or CPR/AED assistance according to dispatcher guidance and training."
+          ],
+          "gloss": [
+            [
+              "Thunder",
+              "An audible warning that lightning is nearby"
+            ],
+            [
+              "Safe shelter",
+              "A recommended enclosed building or vehicle, rather than outdoor cover"
+            ],
+            [
+              "Ongoing hazard",
+              "A danger still threatening rescuers and the patient"
+            ],
+            [
+              "Emergency response",
+              "Calling for help and providing appropriate immediate assistance"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Lightning shelter and emergency recognition: recognition",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "idea": [
+                "Hearing thunder means lightning is close enough to threaten you. No outdoor location is completely safe during a thunderstorm.",
+                "Seek a substantial enclosed building or an enclosed metal-topped vehicle with windows closed. A tent or isolated tree is not safe shelter.",
+                "Remain in safe shelter at least 30 minutes after the last thunder. If someone is struck, call emergency services; they do not retain an electrical charge. Provide first aid or CPR/AED assistance according to dispatcher guidance and training."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Hearing thunder means lightning is close enough to threaten you. No outdoor location is completely safe during a thunderstorm."
+                },
+                {
+                  "text": "Seek a substantial enclosed building or an enclosed metal-topped vehicle with windows closed. A tent or isolated tree is not safe shelter."
+                },
+                {
+                  "text": "Remain in safe shelter at least 30 minutes after the last thunder. If someone is struck, call emergency services; they do not retain an electrical charge. Provide first aid or CPR/AED assistance according to dispatcher guidance and training."
+                }
+              ]
+            },
+            {
+              "t": "Lightning shelter and emergency recognition: trail scenario",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "idea": [
+                "Thunder begins while a hiking group is near its vehicles."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "Thunder begins while a hiking group is near its vehicles."
+                },
+                {
+                  "text": "The group enters enclosed hard-topped vehicles rather than waiting beneath a tree or in a tent."
+                },
+                {
+                  "text": "A new clap of thunder restarts the 30-minute wait. Any struck person needs immediate emergency help while rescuers account for ongoing lightning danger."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_lightning_01",
+              "q": "A group hears thunder near the trailhead. Which shelter is appropriate?",
+              "c": [
+                "An enclosed metal-topped vehicle with windows closed",
+                "A small tent",
+                "An isolated tall tree",
+                "An exposed ridge"
+              ],
+              "why": "The enclosed vehicle is a recommended shelter option.",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_lightning_02",
+              "q": "How long should the group remain in safe shelter after the last thunder?",
+              "c": [
+                "At least 30 minutes",
+                "Until the rain briefly slows",
+                "Exactly one minute",
+                "No wait is needed"
+              ],
+              "why": "The recommended wait is measured from the last thunder.",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_lightning_03",
+              "q": "A new clap occurs during the shelter wait. What happens to the wait?",
+              "c": [
+                "Restart it from the latest thunder",
+                "Ignore the new clap",
+                "Leave immediately",
+                "Reduce the remaining wait to zero"
+              ],
+              "why": "Continued thunder indicates the threat is still present.",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_lightning_04",
+              "q": "Does a lightning-struck person retain an electrical charge that prevents first aid?",
+              "c": [
+                "No, call emergency services and assist safely",
+                "Yes, wait an hour before touching them",
+                "Yes, pour water over them first",
+                "Only their clothing stores the charge"
+              ],
+              "why": "Lightning victims do not remain electrically charged; ongoing scene danger still matters.",
+              "objectives": [
+                "Lightning shelter and emergency recognition"
+              ],
+              "refs": [
+                {
+                  "source": "nwswfashelter",
+                  "section": "Lightning: What You Need to Know; Last Resort Outdoor Risk Reduction Tips"
+                },
+                {
+                  "source": "nwswfaResponse",
+                  "section": "Lightning Victims"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            }
+          ]
+        },
+        {
+          "id": "wfa_altitude",
+          "name": "Altitude illness: stop ascent and recognize deterioration",
+          "objectives": [
+            "Altitude illness: stop ascent and recognize deterioration"
+          ],
+          "refs": [
+            {
+              "source": "cdcwfaAltitude",
+              "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+            }
+          ],
+          "notes": [
+            "New headache with nausea, dizziness or fatigue after ascent can indicate altitude illness. Fitness alone does not prevent it.",
+            "Do not ascend to sleep higher while symptoms are present. Worsening symptoms despite rest at the same elevation require descent.",
+            "Confusion, difficulty walking straight or breathlessness at rest can indicate severe altitude illness. Seek emergency help and arrange prompt descent or evacuation rather than waiting to finish the route. Medication and oxygen treatment require appropriate training and medical guidance."
+          ],
+          "gloss": [
+            [
+              "Acclimatization",
+              "Adjustment to lower oxygen availability with time at altitude"
+            ],
+            [
+              "Ascent",
+              "Travel to a higher elevation"
+            ],
+            [
+              "Descent",
+              "Travel to a lower elevation"
+            ],
+            [
+              "Deterioration",
+              "Worsening symptoms or function requiring reassessment and action"
+            ]
+          ],
+          "lessons": [
+            {
+              "t": "Altitude illness: stop ascent and recognize deterioration: recognition",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "idea": [
+                "New headache with nausea, dizziness or fatigue after ascent can indicate altitude illness. Fitness alone does not prevent it.",
+                "Do not ascend to sleep higher while symptoms are present. Worsening symptoms despite rest at the same elevation require descent.",
+                "Confusion, difficulty walking straight or breathlessness at rest can indicate severe altitude illness. Seek emergency help and arrange prompt descent or evacuation rather than waiting to finish the route. Medication and oxygen treatment require appropriate training and medical guidance."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "New headache with nausea, dizziness or fatigue after ascent can indicate altitude illness. Fitness alone does not prevent it."
+                },
+                {
+                  "text": "Do not ascend to sleep higher while symptoms are present. Worsening symptoms despite rest at the same elevation require descent."
+                },
+                {
+                  "text": "Confusion, difficulty walking straight or breathlessness at rest can indicate severe altitude illness. Seek emergency help and arrange prompt descent or evacuation rather than waiting to finish the route. Medication and oxygen treatment require appropriate training and medical guidance."
+                }
+              ]
+            },
+            {
+              "t": "Altitude illness: stop ascent and recognize deterioration: trail scenario",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "idea": [
+                "After ascending, a hiker develops a new headache and nausea before a planned higher camp."
+              ],
+              "recipe": [
+                "Check the scene and the person.",
+                "Act on warning signs and seek appropriate help.",
+                "Reassess while following dispatcher guidance and your training."
+              ],
+              "oops": [
+                "Treating online practice as a supervised medical skill assessment."
+              ],
+              "eli": "",
+              "steps": [
+                {
+                  "text": "After ascending, a hiker develops a new headache and nausea before a planned higher camp."
+                },
+                {
+                  "text": "The group cancels the higher sleeping destination and reassesses; worsening symptoms prompt descent."
+                },
+                {
+                  "text": "If the hiker becomes confused or unsteady, the group treats it as an emergency and arranges assisted descent or evacuation, not an unaccompanied walk."
+                }
+              ]
+            }
+          ],
+          "bank": [
+            {
+              "id": "wfa_altitude_01",
+              "q": "After ascent, a hiker develops headache and nausea. What should happen to a plan to sleep higher?",
+              "c": [
+                "Do not ascend to sleep higher while symptoms persist",
+                "Continue because the hiker is fit",
+                "Race to camp before dark",
+                "Ignore symptoms until tomorrow"
+              ],
+              "why": "Symptoms of altitude illness are a reason to stop further sleeping-altitude gain.",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_altitude_02",
+              "q": "Symptoms worsen despite rest at the same altitude. Which response fits the CDC guidance?",
+              "c": [
+                "Descend and seek appropriate help",
+                "Keep ascending slowly",
+                "Hide the symptoms",
+                "Wait for the summit photograph"
+              ],
+              "why": "Worsening despite rest at the same elevation calls for descent.",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_altitude_03",
+              "q": "Which altitude-related finding calls for emergency action?",
+              "c": [
+                "New confusion or difficulty walking straight",
+                "Reading the map clearly",
+                "Normal conversation without symptoms",
+                "A full water bottle"
+              ],
+              "why": "Neurologic deterioration can indicate severe altitude illness.",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            },
+            {
+              "id": "wfa_altitude_04",
+              "q": "Does excellent physical fitness guarantee protection from altitude illness?",
+              "c": [
+                "No, fitness does not eliminate altitude risk",
+                "Yes, symptoms can be ignored",
+                "Yes, if the person can run fast",
+                "Only if the route is short"
+              ],
+              "why": "Acclimatization and individual response are different from fitness.",
+              "objectives": [
+                "Altitude illness: stop ascent and recognize deterioration"
+              ],
+              "refs": [
+                {
+                  "source": "cdcwfaAltitude",
+                  "section": "Acute mountain sickness; High-altitude cerebral edema; High-altitude pulmonary edema; Preventing severe altitude illness or death"
+                }
+              ],
+              "status": "verified",
+              "checked": "2026-11-13"
+            }
+          ]
         }
       ],
       "exam": {
@@ -25203,7 +26104,7 @@
         "count": 10,
         "minutes": 10
       },
-      "checked": "2026-11-09"
+      "checked": "2026-11-13"
     },
     {
       "id": "technician",
