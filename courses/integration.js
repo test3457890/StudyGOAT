@@ -370,18 +370,51 @@ const legacyResources=resources;
 resources=function(){if(certTrack())return certSources();return legacyResources();};
 const legacyShow=show;
 show=function(...args){legacyShow(...args);if(certTrack())document.querySelector('[onclick="askTutorQ()"]')?.remove();};
+function weightedPracticeEntries(t){
+  const bp=t.practiceBlueprint;if(!bp)return null;
+  const all=t.topics.flatMap(p=>p.bank.map(b=>({p,b}))),selected=[];
+  for(const group of bp.groups){
+    const pool=all.filter(e=>bp.assignments[e.b.id]===group.id);
+    if(pool.length<group.count)throw new Error('Not enough distinct questions for '+group.title+'.');
+    selected.push(...shuffle(pool).slice(0,group.count));
+  }
+  if(selected.length!==bp.count||new Set(selected.map(e=>e.b.id)).size!==bp.count)throw new Error('Practice allocation could not be built without duplicates.');
+  return shuffle(selected);
+}
+function practiceBlueprintSummary(t){
+  const bp=t.practiceBlueprint;if(!bp)return '';
+  return `<details><summary>Weighted practice allocation and source</summary><p>${esc(bp.scope)}</p><p>Suggested pacing: ${bp.suggestedMinutes} minutes. Timer selection is optional.</p><ul>${bp.groups.map(g=>`<li>${esc(g.title)}: ${g.count} questions (${g.publishedPercent!==undefined?g.publishedPercent+'% published weight':g.publishedRange.join('-')+'% published range'}).</li>`).join('')}</ul><p>${certRefs(bp.refs)}</p></details>`;
+}
+function practiceDomainResults(ex,t){
+  const bp=ex.studyBlueprint;if(!bp)return '';
+  const rows=bp.groups.map(g=>{
+    const entries=ex.items.map((it,i)=>({it,i})).filter(({it})=>bp.assignments[it.q.sourceId]===g.id);
+    const correct=entries.filter(({it,i})=>ex.ans[i]===it.q.choices.indexOf(it.q.answer)).length;
+    const unanswered=entries.filter(({i})=>ex.ans[i]===undefined||ex.ans[i]===null).length;
+    return `<tr><td>${esc(g.title)}</td><td>${correct} / ${entries.length}</td><td>${Math.round(100*correct/entries.length)}%</td><td>${unanswered}</td></tr>`;
+  }).join('');
+  return `<div class="card" id="practiceDomainResults"><h2>Review by study area</h2><p>${esc(bp.title)}. Raw study results only. Full curriculum coverage and provider scoring are not reproduced.</p><div style="overflow-x:auto"><table><thead><tr><th>Area</th><th>Correct</th><th>Raw percent</th><th>Unanswered</th></tr></thead><tbody>${rows}</tbody></table></div><p>Use the source/objective links to review weak areas. A strong result in this selected question bank does not establish full exam readiness.</p></div>`;
+}
 const legacyExamSetup=examSetup;
 examSetup=function(){
   const t=certTrack();if(!t)return legacyExamSetup();
   screen='exam';LS=null;quiz=null;cur=null;rev=null;activePrep=null;if(EX?.timer)clearInterval(EX.timer);EX=null;drawNav();
-  view.innerHTML=certNotice()+`<div class="card"><h2>${t.exam.mode==='official-pool'?'Element 2 exam-style practice':'Foundation practice test'}</h2><p>${t.exam.mode==='official-pool'?'35 questions, one from each official group. The timer is optional practice pacing, not an FCC time requirement.':'A short quiz from the available slice, without duplicate questions. This is not a full exam simulation.'}</p><label>Practice timer <select id="certMinutes"><option value="0">Untimed</option><option value="10">10 minutes</option><option value="30">30 minutes</option></select></label><div class="row"><button class="primary" onclick="startCertExam()">Start practice</button></div></div>`;
+  view.innerHTML=certNotice()+`<div class="card"><h2>Practice test</h2><p>The short quiz samples selected curriculum without duplicate questions.</p>${t.practiceBlueprint?`<label>Practice format <select id="certMode" style="display:block;width:100%;max-width:100%;box-sizing:border-box"><option value="short">Short foundation quiz (${t.exam.count} questions)</option><option value="weighted">${esc(t.practiceBlueprint.title)}</option></select></label>${practiceBlueprintSummary(t)}`:''}<label>Practice timer (optional) <select id="certMinutes"><option value="0">Untimed</option><option value="10">10 minutes</option><option value="30">30 minutes</option>${t.practiceBlueprint?`<option value="${t.practiceBlueprint.suggestedMinutes}">${t.practiceBlueprint.suggestedMinutes} minutes</option>`:''}</select></label><p id="certPracticeError" role="alert"></p><div class="row"><button class="primary" onclick="startCertExam()">Start practice</button></div></div>`;
 };
 function startCertExam(){
-  const t=certTrack();let entries=t.topics.flatMap(p=>p.bank.map(b=>({p,b})));
-  if(t.exam.mode==='official-pool')entries=[...new Set(entries.map(e=>e.b.group))].sort().map(g=>pick(entries.filter(e=>e.b.group===g)));
-  else entries=shuffle(entries).slice(0,t.exam.count);
-  const m=Number(document.getElementById('certMinutes').value);
+  const t=certTrack();if(!t)return;
+  const m=Number(document.getElementById('certMinutes').value),weighted=document.getElementById('certMode')?.value==='weighted';
+  let entries;
+  try{
+    if(weighted)entries=weightedPracticeEntries(t);
+    else{
+      entries=t.topics.flatMap(p=>p.bank.map(b=>({p,b})));
+      if(t.exam.mode==='official-pool')entries=[...new Set(entries.map(e=>e.b.group))].sort().map(g=>pick(entries.filter(e=>e.b.group===g)));
+      else entries=shuffle(entries).slice(0,t.exam.count);
+    }
+  }catch(e){document.getElementById('certPracticeError').textContent=e.message;return;}
   runCertEntries(entries,m);
+  if(weighted)EX.studyBlueprint=t.practiceBlueprint;
 }
 function startChapterPractice(number){
   const t=certTrack(),chapter=t?.curriculum?.find(c=>c.chapter===number);if(!chapter)return;
@@ -399,7 +432,9 @@ function runCertEntries(entries,m){
 const legacySubmit=exSubmit;
 exSubmit=function(timeUp){
   const t=certTrack();if(!EX)return;
+  const domainResults=t?practiceDomainResults(EX,t):'';
   legacySubmit(timeUp);
+  if(domainResults)view.insertAdjacentHTML('beforeend',domainResults);
   if(t){
     const msg=view.querySelector('.score p');if(msg)msg.textContent=(timeUp?'Time ran out. ':'')+'Practice result only. This does not establish official exam readiness or certification.';
     view.querySelectorAll('button').forEach(b=>{if(/^(tutor|tutorAbout)\(/.test(b.getAttribute('onclick')||''))b.remove();});

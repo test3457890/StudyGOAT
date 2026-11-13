@@ -2,31 +2,25 @@
 
 Review date: November 13, 2026.
 
-## Implemented in this release
+## Current release
 
-| Area | Delivered |
-| --- | --- |
-| Technician | 35 added topics, 70 guided lessons, 70 original concept checks. Every one of the 409 unchanged public-domain pool items appears exactly once in the group walkthroughs with its existing original explanation. Course totals: 78 lessons and 106 original questions, separate from the official pool. |
-| FAA | 14 added lessons and 28 original questions on airspace/chart references, obstacles, airport/radio awareness, emergency planning, human performance, weather and Remote ID. Course totals: 49 lessons and 174 questions. Complete printed-code inventory: 17 tasks, 176 codes including subordinate elements. |
-| Security+ | Three additional source-linked worked lessons and interactive fictional log-triage, network allowlist and account-baseline labs. Together with access review, there are four applied exercises. Course totals: 53 lessons and 172 questions. |
-| Official-reading paths | 56 courses and 775 assignments: 28 Security+ objectives; 17 ACS tasks; 16 CAP leadership chapters plus seven aerospace modules; nine WFA provider-follow-up areas; 35 Technician groups; 13 areas for all 51 driving jurisdictions. |
-| Driving sources | Full-manual links supplement the earlier selected-topic sources. Thirteen jurisdictions receive newly checked full-manual pages or PDFs instead of relying only on a narrow topic link. Current-law and complete-edition reviews remain pending. |
-| Progress | Reading checks save under the existing progress object, remain course-specific, and flow through existing backups/exports. They do not change quiz scores, source-review status or official eligibility. |
+- All 50 states receive two selected lessons and four original questions on checked lighting or night-visibility guidance. Numeric dimming pairs are included for 40 states. The other ten units teach only the facts checked in their selected sources. DC keeps its existing selected course.
+- Security+ adds a 90-question weighted multiple-choice mode, allocated 11/20/16/25/18 across the five domains, with an optional 90-minute timer. Part 107 adds 60-question practice allocated 12/12/8/5/23 across ACS areas, with an optional 120-minute timer. Both report raw results by study area. These are original selected-bank exercises, not replicas of provider scoring or performance-based tests.
+- CAP adds seven aerospace foundation banks, with 14 lessons and 56 original questions. Existing aerospace reading paths now open built-in study and practice. Full module objective coverage and achievement mapping remain incomplete.
+- Georgia's incorrect full-manual destination and Ohio's retired PDF destination are replaced with official manual pages.
 
-Sourced-track totals are 442 lessons and 1,242 original questions, plus the separately counted 409 public-domain pool questions. Original university courses are excluded from those totals. The 775 reading assignments are not counted as authored lessons or questions.
+Sourced-track totals: 556 lessons and 1,498 original questions, excluding university classes. The 409 separate public-domain Technician questions and 775 official-reading assignments are excluded from these totals.
 
-## Evidence and limits
+## Previously delivered
 
-Content checks validate every source reference, all generated documentation, 35 taught radio groups, exactly 409 walkthrough IDs, the 17-task/176-code ACS inventory, 51 manual checklists and all route/topic references. PDF comparison independently rechecks all original NCVEC prompts, keys and options. Browser regression checks cover route persistence and course separation, direct group study, lesson navigation, chart/lab grading, mobile width and the existing study/exam/export flows.
+All 35 Technician groups have guided lessons, 409 pool-item explanations, diagrams and group-sampled exams. FAA has a 17-task/176-code ACS inventory, selected chart/radio/airport/emergency/weather lessons and Remote ID work. Security+ has 28 partial objective areas and four applied exercises. Official-reading paths cover 56 courses, all 51 driving jurisdictions, 16 CAP leadership chapters and seven aerospace modules. Progress saves and exports with the existing course-specific record.
 
-These checks establish implementation and data consistency, not independent expert review. The project still lacks complete authored state permit preparation, deeper Security+/FAA/CAP coverage, a verified current CompTIA revision, original aerospace module banks, a WFA provider syllabus and qualified clinical/instructor review. Supervised medical, driving, equipment and CAP assessments cannot be completed by app checkboxes. No full-certification or full-permit-course claim is made.
+## Validation and remaining work
 
-## Source rechecks
+Content checks validate references, distinct questions/options, generated data/document parity, state exceptions, blueprint allocation and aerospace route links. The NCVEC PDF comparison checks every official prompt, answer key and option. Browser regression checks cover existing course flows and the new weighted practice allocation, correct/incorrect/unanswered scoring, timeout, reset and mobile layout. Publication requires these checks to pass in GitHub Actions.
 
-The FAA national ACS list still lists 10B, April 2021. The printed-code inventory was extracted from the official PDF and its source SHA-256 is in the catalog. The chart guide linked by the FAA is effective July 9, 2026. The August 2016 study guide supports enduring concepts rather than current regulatory authority. FAA Remote ID guidance distinguishes Standard Remote ID control-station location from broadcast-module takeoff location and retains the module/FRIA visual-line-of-sight conditions.
-
-ARRL lists no Technician withdrawals on November 13. Direct NCVEC retrieval still returns 403; the previously compared retained revised public-domain PDF remains unchanged. CompTIA current product/version pages could not be retrieved. CAP Achievement 16 still publicly names leadership chapter 14, so its discrepancy remains open.
+These automated checks establish implementation consistency. Full authored state handbooks, deeper Security+/FAA/CAP coverage, current CompTIA revision confirmation, independent subject review and WFA provider/clinical review remain incomplete. Reading links and app checkboxes do not replace supervised assessments. The project is not a complete certification or permit course.
 
 ## Publication
 
-The implementation must pass GitHub Actions before merge. A repository merge updates the source; Pages deployment is checked separately. Wiki drafts under docs/wiki require separate publication and must not be described as synchronized until that succeeds.
+Repository Wiki drafts are tracked under docs/wiki. GitHub Wiki publication is separate. A merge and successful Pages deployment are checked independently before describing this release as live.
