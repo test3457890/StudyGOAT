@@ -1,16 +1,16 @@
 # Amateur Radio Technician
 
-Updated November 12, 2026. Eight original lessons and 36 original questions remain available. Separate pool study now contains all 409 public-domain NCVEC questions and all three published diagrams. Original teaching lessons remain partial.
+Updated November 13, 2026. Eight original lessons and 36 original questions remain available. Separate pool study now contains all 409 public-domain NCVEC questions, all three published diagrams and original StudyGOAT explanations for every answer. Original teaching lessons remain partial.
 
 ## Study and practice exams
 
-The pool is valid July 1, 2026 through June 30, 2030. Official question IDs, answer letters and option order are preserved. Group selection, question-ID lookup, persistent progress and missed-only review are available. In study mode, the published answer stays visible until Next question.
+The pool is valid July 1, 2026 through June 30, 2030. Official question IDs, answer letters and option order are preserved. Group selection, question-ID lookup, persistent progress and missed-only review are available. Group labels describe the subject matter. In study mode, the published answer and an original explanation stay visible until Next question. Explanations include worked unit conversions, Ohm's law and power calculations, diagram-symbol cues, operating concepts and regulatory boundaries.
 
-A separate practice exam randomly selects one question from each of the 35 official groups. Study filters do not restrict exam sampling. Answers are hidden until submission. Unanswered questions count as incorrect. The practice threshold is 26 correct out of 35, per [47 CFR 97.503(a)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.503). This practice does not award credit, issue a license or predict an official exam result.
+A separate practice exam randomly selects one question from each of the 35 official groups. Study filters do not restrict exam sampling. Answers and explanations are hidden until submission. After submission, every selected question has its explanation in the answer review. Unanswered questions count as incorrect. The practice threshold is 26 correct out of 35, per [47 CFR 97.503(a)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.503). This practice does not award credit, issue a license or predict an official exam result.
 
 Timing is optional. The 45-minute study timer is chosen by StudyGOAT and is not an official time limit. Expiration submits the current answers. Submitted answers feed saved missed-question review. Existing saved pool-study progress is preserved by this update. An unsubmitted practice exam is not resumed after reload.
 
-All three figure crops are embedded in the catalog, so they work in the standalone exported app without a network connection. Text descriptions of the diagrams are available alongside the images. Study and practice exams are disabled outside the pool validity dates.
+All three figure crops and all 409 explanations are embedded in the catalog, so they work in the standalone exported app without a network connection. Text descriptions of the diagrams are available alongside the images. Study and practice exams are disabled outside the pool validity dates.
 
 ## Sources and validation
 
@@ -22,6 +22,12 @@ The public-domain source PDF is retained at `courses/sources/NCVEC Technician 20
 
 [ARRL withdrawals](https://www.arrl.org/withdrawn-questions) lists none for Technician on November 12, 2026. Recheck official updates before an examination.
 
+## Explanation sources and checks
+
+The explanation set is keyed to the unchanged 409-item revised pool and its SHA-256 fingerprint. The source link for each explanation identifies its NCVEC group. Regulatory explanations also link to [47 CFR Part 97](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97), checked November 13, 2026. Question/answer text remains distinct from the original teaching commentary. The release does not claim independent instructor review.
+
+Content checks require exactly one explanation per published ID and verify worked arithmetic. Browser checks render and compare the explanation for every question, keep explanations hidden during exams, reveal them after submission and verify exported offline use. The independent PDF comparison continues to validate all official prompts, choices and answer keys.
+
 ## Remaining work
 
-Expand theory, antennas, operations and safety lessons and add reviewed teaching explanations. Pool feedback identifies the published answer key; it does not supply complete teaching explanations. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.
+Complete the standalone theory, antennas, operations and safety lesson sequences and obtain independent subject-matter review. All 409 pool answers now have original StudyGOAT explanations, but those explanations are not NCVEC-authored guidance or installation/service procedures. Amateur privileges do not replace authorization for other radio services. No passing or certification guarantee is made.

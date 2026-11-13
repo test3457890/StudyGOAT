@@ -72,6 +72,16 @@ assert.equal(crypto.createHash('sha256').update(fs.readFileSync(pool.provenance.
 for(const f of Object.values(pool.figures)){assert.match(f.dataUrl,/^data:image\/png;base64,/);assert.equal(crypto.createHash('sha256').update(Buffer.from(f.dataUrl.split(',')[1],'base64')).digest('hex'),f.sha256);assert(f.alt&&f.pdfPage);}
 assert.equal(pool.exam.questionCount,pool.groups.length);assert.equal(pool.exam.passCount,26);
 console.log('PASS: all 409 NCVEC items, four errata, 35 groups, three diagrams, PDF and import fingerprints');
+const explanations=data.technicianExplanations;
+assert.equal(explanations.status,'complete');assert.equal(explanations.questionCount,409);
+assert.equal(explanations.poolFingerprint,pool.provenance.importedQuestionsSha256);
+assert.deepEqual(Object.keys(explanations.items).sort(),pool.questions.map(q=>q.id).sort());
+assert.deepEqual(Object.keys(pool.groupTitles).sort(),pool.groups);
+const explanationTexts=new Set();
+for(const q of pool.questions){const e=explanations.items[q.id];assert(e.text.trim(),q.id);assert(!explanationTexts.has(e.text),q.id);explanationTexts.add(e.text);assert.notEqual(e.text,q.choices[q.answer]);assert(e.refs.some(r=>r.source===pool.source&&r.section===q.group));for(const r of e.refs)assert(data.sources[r.source].sections.includes(r.section));}
+// Check worked arithmetic against independently calculated results and units.
+for(const [id,result,unit] of [['T5D04',90/3,'ohms'],['T5D05',12/1.5,'ohms'],['T5D06',12/4,'ohms'],['T5D07',120/80,'A'],['T5D08',200/100,'A'],['T5D09',240/24,'A'],['T5D10',0.5*2,'V'],['T5D11',1*10,'V'],['T5D12',2*10,'V'],['T5C09',13.8*10,'W'],['T5C10',12*2.5,'W'],['T5C11',120/12,'A']])assert(explanations.items[id].text.includes(`${result} ${unit}`),id);
+console.log('PASS: all 409 original explanations are linked to unchanged pool items; worked arithmetic and 35 group labels checked');
 
 // Every jurisdiction must expose its own sourced introductory material, not only the national bank.
 assert.equal(data.drivingJurisdictions.filter(j=>j.code!=='US-DC'&&j.track).length,50);

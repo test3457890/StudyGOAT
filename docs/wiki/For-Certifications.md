@@ -9,7 +9,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 | FAA Part 107 | 35 | 146 | Selected drone rules, night/people/vehicle operations, weather and performance |
 | CAP Cadet Study | 38 | 156 | Selected lessons and practice in all 16 Learn to Lead chapters |
 | Wilderness First Aid | 4 | 20 | Provider-neutral safety and heat awareness |
-| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, diagrams and 35-group practice exams |
+| Amateur Radio Technician | 8 | 36 | Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams |
 | Arizona Driving Prep | 6 | 30 | Selected Arizona signs, signals, yielding and crossings |
 | New Jersey Driving Prep | 6 | 24 | Selected NJ intersections, turns and school-bus situations |
 | California Driving Prep | 4 | 16 | Selected California turns, merging and lane changes |
@@ -66,7 +66,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 347 lessons and 1128 origi
 
 Start with Learn, then Practice and Play. Open Sources & coverage before using a track. Review Mistakes after a quiz. Practice Test draws ten distinct questions from the available slice, not a full certification blueprint.
 
-Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers all 409 NCVEC questions and three diagrams with separate 35-question practice exams; teaching explanations and the original lesson curriculum remain partial. CAP practice never awards official credit or uses controlled milestone material.
+Source check dates do not establish full objective coverage or provider approval. Confirm the current exam code and official requirements before booking. Security+ current-version verification remains open. WFA needs the learner's provider syllabus and clinical review. Technician offers all 409 NCVEC questions and three diagrams with separate 35-question practice exams; original StudyGOAT explanations cover all 409 questions, while the standalone lesson curriculum remains partial. CAP practice never awards official credit or uses controlled milestone material.
 
 See the individual track pages and Roadmap for gaps. Do not upload confidential employer documents, exam dumps or restricted training materials.
 
