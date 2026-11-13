@@ -1,15 +1,26 @@
 # Wilderness First Aid
 
-2026-11-09: two provider-neutral introductory lessons and 12 original questions on scene safety, emergency assistance and training boundaries.
+Updated November 13, 2026. Twelve lessons and 36 original questions cover selected provider-neutral scene safety, emergency communication, heat awareness, hypothermia, frostbite, lightning and altitude-illness recognition/prevention.
 
-References: [NOLS WFA overview and January 2026 schedule](https://www.nols.edu/courses/wm/wilderness-first-aid-wfa/), [AHA / Red Cross 2024 first aid guidance](https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines), sections 4.1 to 4.4.
+The learner's provider is unknown. NOLS was an early course-outline reference, not a confirmed provider or an endorsement. These materials do not complete a WFA course, teach every treatment protocol or assess physical skills. Study results do not confer certification.
 
-The user's provider is not yet identified. NOLS is a scope reference, not a claim of affiliation or provider-specific alignment. General first aid guidance requires adaptation for remote settings by qualified instructors.
+## Available practice
 
-This app is not medical advice or certification. For a real emergency, contact emergency services and follow dispatcher guidance and current training. No medication doses, treatment algorithms or evacuation thresholds are included. Clinical treatment lessons, provider review and supervised skills assessment remain outstanding. There is no universal WFA exam simulation.
+Use Learn, Practice, Mistakes and the short foundation practice test. New environmental topics each have a recognition lesson, a fictional trail scenario and four original questions. Source links and remaining gaps are in Sources & coverage.
 
-## Additional study material, November 9, 2026
+| Topic | Selected focus |
+| --- | --- |
+| Hypothermia | Recognize confusion and impaired coordination after chilling; seek help and reduce continued cooling |
+| Frostbite | Recognize numb or changed skin; protect the person, seek care and avoid rubbing or direct high heat |
+| Lightning | Choose appropriate enclosed shelter, wait after the last thunder and recognize that a struck person does not retain a charge |
+| Altitude illness | Stop further sleeping-altitude gain with symptoms, descend for worsening illness and recognize severe deterioration |
 
-Two lessons on heat-risk preparation and emergency warning signs. Sources: CDC About Heat and Your Health (July 20, 2026) and the public heat-related illness chart. No treatment, medication or evacuation algorithm is taught.
+These are recognition and prevention principles. They are not a field diagnosis tool, a medication plan or a replacement for emergency services and instructor-led practice.
 
-Current totals: 4 lessons and 20 questions. The course remains partial. Earlier counts above describe the first introductory release.
+## Sources
+
+New material was checked November 13, 2026 against [CDC hypothermia guidance](https://www.cdc.gov/winter-weather/prevention/index.html), [CDC frostbite guidance](https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html), [NWS lightning tips](https://www.weather.gov/safety/lightning-tips), [NWS lightning response overview](https://www.weather.gov/safety/lightning-safety-overview) and the [CDC Yellow Book 2026 altitude-illness chapter](https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html). Existing topics retain their own source review dates.
+
+## Remaining work
+
+Confirm the provider and reconcile its syllabus when identified. Supervised patient assessment, evacuation planning, bleeding/wound care, fractures, spinal injury, anaphylaxis and medication skills still need appropriate instruction and qualified review. Complete environmental assessment/treatment and physical skills testing remain with the training provider. There is no universal WFA examination represented here.

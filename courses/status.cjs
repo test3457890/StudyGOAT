@@ -4,7 +4,7 @@ const summaries={
  security701:'Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial',
  faa107:'Selected drone rules, night/people/vehicle operations, weather and performance',
  capcadet:'Selected lessons and practice in all 16 Learn to Lead chapters',
- wfa:'Provider-neutral safety and heat awareness',
+ wfa:'Provider-neutral scene safety, heat/cold, lightning and altitude recognition',
  technician:'Partial lessons plus all 409 NCVEC questions, original explanations, diagrams and 35-group practice exams',
  arizonadriving:'Selected Arizona signs, signals, yielding and crossings',
  newjerseydriving:'Selected NJ intersections, turns and school-bus situations',
