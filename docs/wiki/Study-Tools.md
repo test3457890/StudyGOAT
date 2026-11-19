@@ -61,3 +61,7 @@ Catalog updated 2026-11-13. 57 sourced tracks contain 442 lessons and 1242 origi
 <!-- STUDYGOAT SUMMARY END -->
 
 The national course covers attention/distraction, speed and seat-belt safety. It does not verify state laws or permit requirements. State-specific courses have their own selected sources and gaps. Read Sources & coverage before relying on any course.
+
+## Saved official-reading paths
+
+Choose Open saved study path on the course home screen. Reading and preparation checkmarks save with your progress and are included in Settings backups. The paths cover 56 courses, including 13 manual-reading areas for every state and DC. Reading checkmarks are separate from quiz scores and lesson coverage. See [Saved study paths](Study%20Paths.md) for how to open, save, and resume a plan.
