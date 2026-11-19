@@ -110,6 +110,8 @@ Technician includes all 409 NCVEC public-domain pool questions and three diagram
 
 Existing progress keys are preserved. Progress saves in this browser's local storage. Clearing storage or changing browsers can remove or separate it. Use Settings backups before moving devices.
 
+Custom classes and topics built by AI or restored from a backup are treated as untrusted input. Class and topic labels are displayed as text, color is limited to a six-digit hex value, and restored identifiers must use the app's generated `u` prefix and safe characters. Invalid identifiers are retained in the backup data and reported on the main menu, but cannot be opened. Keep backups private because they can contain personal study material. Review any backup from another person before importing it.
+
 The original university and custom-course tools retain optional Gemini and Claude integrations. They require configuration and do not automatically work on GitHub Pages. Gemini keys are stored in local storage, not a secure vault. Never publish keys, private records, employer files or controlled test material.
 
 The new built-in tracks use checked static content. Their navigation omits AI generation controls, and registration restores their sourced banks after custom-course updates so generated additions are not silently treated as verified.
