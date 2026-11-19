@@ -168,6 +168,8 @@ for(const v of visualCases){
 }
 // Separate NCVEC study preserves answer letters, diagrams, feedback and saved review state.
 await page.evaluate(()=>enterCourse('technician'));await page.getByRole('button',{name:'Study all 409 NCVEC questions',exact:true}).click();
+const recovered=await page.evaluate(()=>{const results=[];for(const answers of [undefined,null,[],0]){S.technicianPool={version:window.STUDYGOAT_CATALOG.technicianPool.version,answers,lastExam:{correct:7}};technicianPoolOpen();results.push({answers:S.technicianPool.answers,lastExam:S.technicianPool.lastExam.correct});}return results;});
+assert.deepEqual(recovered,Array.from({length:4},()=>({answers:{},lastExam:7})),'Malformed answer history recovers without erasing the last exam');
 assert.match(await page.locator('#view').innerText(),/All 409/);
 for(const id of ['T5B03','T5B04','T5B05','T5B06','T5B07','T5B08','T6A09','T6C02','T6C03','T6C04','T6C05','T6C06','T6C07','T6C08','T6C09','T6C10','T6C11','T6D10']){
  await page.locator('#poolQuery').fill(id);assert(!(await page.locator('#poolStart').isDisabled()));await page.locator('#poolStart').click();
