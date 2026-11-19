@@ -63,6 +63,7 @@ function technicianPoolStopTimer(){if(poolTimer)clearInterval(poolTimer);poolTim
 function technicianPoolProgress(){
   const p=CERT.technicianPool;
   if(!S.technicianPool||S.technicianPool.version!==p.version)S.technicianPool={version:p.version,answers:{}};
+  if(!S.technicianPool.answers||typeof S.technicianPool.answers!=='object'||Array.isArray(S.technicianPool.answers))S.technicianPool.answers={};
   return S.technicianPool.answers;
 }
 function technicianPoolOpen(){
