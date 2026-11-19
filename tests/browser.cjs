@@ -252,6 +252,7 @@ assert.equal(await page.locator('[data-metadata-trap]').count(),0,'Menu treats c
 assert.equal(await page.locator('[role=alert]').count(),1,'Invalid identifiers are visible to the owner');
 assert.equal(await page.evaluate(()=>COURSES.cs315.name),'Data Structures & Analysis of Algorithms','Built-in course cannot be overwritten');
 assert.equal(await page.evaluate(()=>TOPICS.code.name),'C Code Tracing','Built-in topic cannot be overwritten');
+await page.evaluate(()=>openCourseCategory('classes'));
 assert(await page.locator('.course').filter({hasText:metadataTrap}).count());
 for(const route of ['home()','practice("uxss_topic")','examSetup()','learnHome()','learn("uxss_topic",0)','resources()','tutor()','agent()','playHub()','startFlash(["uxss_topic"])']){
  await page.evaluate(route=>{enterCourse('uxss');eval(route)},route);
