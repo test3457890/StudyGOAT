@@ -27,4 +27,4 @@
 
 - [All State Driving Prep](https://github.com/test3457890/StudyGOAT/wiki/All-State-Driving-Prep)
 
-- [Saved study paths](Study-Paths)
+- [Saved study paths](https://github.com/test3457890/StudyGOAT/wiki/Study-Paths)

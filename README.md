@@ -1,6 +1,8 @@
 # StudyGOAT
 
-StudyGOAT is a browser study application for students and working professionals. It includes lessons, questions, flashcards, games, mistake review and saved progress. The original CS 315 and CPSC 222 courses remain available.
+StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mistake review, and saved progress. It includes CS 315 and CPSC 222, certification study, and selected driving topics for all 50 states and DC. Built-in lessons and practice work without an AI key.
+
+[Open StudyGOAT](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) or [check coverage by course](docs/wiki/Coverage-Checklist.md).
 
 ## Run locally
 
@@ -115,7 +117,7 @@ Set `CHROMIUM_PATH` if using a system Chromium. To edit content, change `courses
 
 The [live StudyGOAT application](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) was verified on November 9, 2026. GitHub Pages deploys from `main`, `/(root)`, with HTTPS.
 
-The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) now contains the prepared study guides, roadmap, sidebar and footer. The Wiki is a separate Git repository. Future documentation updates still need publication there.
+The [live Wiki](https://github.com/test3457890/StudyGOAT/wiki) provides study guides and navigation. Use the [versioned documentation](docs/wiki/README.md) for the coverage and development guides that ship with this branch. The Wiki is published separately.
 
 The repository has no project license. No license was added.
 
