@@ -4,6 +4,18 @@ StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mista
 
 [Open StudyGOAT](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) or [check coverage by course](docs/wiki/Coverage-Checklist.md).
 
+## Screenshots
+
+Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 11 screenshots](docs/screenshots/README.md).
+
+| Course library | Guided finite-state machine lesson |
+| --- | --- |
+| [![Course library](docs/screenshots/course-library.webp)](docs/screenshots/course-library.webp) | [![Guided finite-state machine lesson](docs/screenshots/guided-lesson.webp)](docs/screenshots/guided-lesson.webp) |
+
+| Multiple-choice practice quiz | Course library on a phone-width screen |
+| --- | --- |
+| [![Multiple-choice practice quiz](docs/screenshots/practice-quiz.webp)](docs/screenshots/practice-quiz.webp) | [![Course library on a phone-width screen](docs/screenshots/phone-course-library.webp)](docs/screenshots/phone-course-library.webp) |
+
 ## Run locally
 
 1. Download or clone the complete repository.
