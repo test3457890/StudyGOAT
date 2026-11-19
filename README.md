@@ -119,11 +119,12 @@ The new built-in tracks use checked static content. Their navigation omits AI ge
 ```sh
 npm install
 npx playwright install chromium
+npm run test:pool
 npm test
 npm run test:browser
 ```
 
-Set `CHROMIUM_PATH` if using a system Chromium. To edit content, change `courses/catalog.json`, run `node courses/build.cjs`, and rerun checks. GitHub Actions runs the browser suite on Ubuntu 24.04.
+The pool comparison requires Python 3 and Poppler's `pdftotext` command (on Ubuntu, install `poppler-utils`). Set `CHROMIUM_PATH` if using a system Chromium. To edit content, change `courses/catalog.json`, run `node courses/build.cjs`, and rerun checks. GitHub Actions runs the browser suite on Ubuntu 24.04.
 
 ## Hosting and Wiki
 
