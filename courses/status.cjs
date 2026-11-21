@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const summaries={
  security701:'Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial',
  faa107:'17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations',
- capcadet:'Selected lessons and practice in all 16 Learn to Lead chapters',
+ capcadet:'Selected lessons in 16 Learn to Lead chapters and seven aerospace foundation banks',
  wfa:'Provider-neutral scene safety, heat/cold, lightning and altitude recognition',
  technician:'All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams',
  arizonadriving:'Selected Arizona signs, signals, yielding and crossings',
@@ -44,7 +44,7 @@ function counts(data){return {tracks:data.tracks.length,lessons:data.tracks.redu
 function summary(data){const c=counts(data);return `Catalog updated ${data.updated||data.checked}. ${c.tracks} sourced tracks contain ${c.lessons} lessons and ${c.questions} original questions, excluding the university classes. All sourced tracks remain partial. ${c.remaining===0&&c.dc?'All 50 states and DC have selected jurisdiction-specific lessons.':`${c.states} states have partial state-specific courses; ${c.remaining} states${c.dc?'':' and DC'} still have shared national foundations only.`} The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers ${data.technicianPool.availableCount} separate public-domain NCVEC questions out of ${data.technicianPool.expectedCount}; these are excluded from the original-question counts above.`;}
 function block(data,kind){
  let body=summary(data);
- if(kind==='TABLE')body=`${body}\n\n| Track | Lessons | Questions | Coverage |\n| --- | ---: | ---: | --- |\n`+data.tracks.map(t=>`| ${t.code} | ${t.topics.reduce((n,p)=>n+p.lessons.length,0)} | ${t.topics.reduce((n,p)=>n+p.bank.length,0)} | ${summaries[t.id]||t.coverageSummary||'Selected topics; see in-app Sources & coverage'} |`).join('\n');
+ if(kind==='TABLE')body=`${body}\n\n| Track | Lessons | Questions | Coverage |\n| --- | ---: | ---: | --- |\n`+data.tracks.map(t=>`| ${t.code} | ${t.topics.reduce((n,p)=>n+p.lessons.length,0)} | ${t.topics.reduce((n,p)=>n+p.bank.length,0)} | ${(summaries[t.id]||t.coverageSummary||'Selected topics; see in-app Sources & coverage')+(t.topics.some(p=>p.id.endsWith('_nightlights'))?' + selected lighting study':'')} |`).join('\n');
  if(kind==='DIRECTORY')body='| Jurisdiction | Available material |\n| --- | --- |\n'+data.drivingJurisdictions.map(j=>`| ${j.name} | National foundations${j.track?' and state-specific partial course':' only; state-specific course pending'} |`).join('\n');
  return `<!-- STUDYGOAT ${kind} START -->\n${body}\n<!-- STUDYGOAT ${kind} END -->`;
 }

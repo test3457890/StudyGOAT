@@ -121,3 +121,15 @@ for(const t of data.tracks.filter(t=>t.readingPlan)){
 assert.equal(data.securityLabs.length,3);
 for(const l of data.securityLabs){assert(l.brief&&l.refs.length&&l.cases.length>=4);for(const c of l.cases){assert(c.facts&&c.why&&l.choices.includes(c.answer));}}
 console.log('PASS: 35 radio teaching groups / 409 item walkthroughs, 17 ACS tasks / 176 codes, 56 saved study paths, 51 manual checklists and three new security labs');
+
+// Release regressions: jurisdiction-specific data and reachable aerospace study banks.
+assert.equal(data.drivingLighting.states.length,50);
+assert.deepEqual(data.drivingLighting.states.map(s=>s.code).sort(),data.drivingJurisdictions.filter(j=>j.code!=='US-DC').map(j=>j.code).sort());
+assert.equal(data.drivingLighting.states.filter(s=>s.frontFeet!==null&&s.rearFeet!==null).length,40);
+for(const s of data.drivingLighting.states){const t=data.tracks.find(t=>t.jurisdiction===s.code),p=t.topics.find(p=>p.id===s.topic);assert.equal(p.lessons.length,2);assert.equal(p.bank.length,4);assert(data.sources[s.source]);assert(t.readingPlan.some(r=>r.topics?.includes(p.id)));}
+for(const [code,front,rear] of [['US-OK',1000,600],['US-OR',500,350],['US-NH',150,150]]){const s=data.drivingLighting.states.find(s=>s.code===code);assert.equal(s.frontFeet,front);assert.equal(s.rearFeet,rear);}
+assert.equal(data.drivingLighting.states.find(s=>s.code==='US-OH').frontFeet,null);
+for(const id of ['security701','faa107']){const t=data.tracks.find(t=>t.id===id),bp=t.practiceBlueprint,bank=t.topics.flatMap(p=>p.bank);assert.equal(bp.count,id==='security701'?90:60);assert.equal(bp.groups.reduce((n,g)=>n+g.count,0),bp.count);assert.deepEqual(Object.keys(bp.assignments).sort(),bank.map(b=>b.id).sort());for(const g of bp.groups){assert(bank.filter(b=>bp.assignments[b.id]===g.id).length>=g.count);if(g.publishedRange){const percent=100*g.count/bp.count;assert(percent>=g.publishedRange[0]&&percent<=g.publishedRange[1]);}}}
+assert.equal(cap.aerospaceModules.length,7);
+for(const [i,m] of cap.aerospaceModules.entries()){assert.equal(m.module,i+1);const topics=cap.topics.filter(t=>m.topics.includes(t.id));assert.equal(topics.flatMap(t=>t.lessons).length,2);assert.equal(topics.flatMap(t=>t.bank).length,8);assert(cap.readingPlan.some(r=>r.topics?.some(id=>m.topics.includes(id))));}
+console.log('PASS: 50 selected lighting units, state exceptions, weighted 90/60 allocations and seven aerospace banks');

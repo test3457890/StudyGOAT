@@ -12,3 +12,6 @@ Remaining: full objective inventories and deeper practice, independent review, a
 
 
 November 10 achievement-map update: the app now lists all 16 achievements and five milestone awards, with national source links, leadership chapter practice, aerospace reading assignments and supervised-work reminders. This is a planning map, not a complete eligibility checklist or aerospace course. Achievement 16 is explicitly unresolved because the national page names chapter 14; no automatic chapter mapping is assigned. CAPR 60-1 reconciliation and full curriculum coverage remain open.
+
+
+Seven aerospace foundation banks now add 14 lessons and 56 questions. CAP totals are 52 lessons and 212 questions. Aerospace reading paths open these selected banks; full module objectives and achievement mapping remain incomplete.

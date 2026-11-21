@@ -25,3 +25,6 @@ Earlier physics lessons use the August 2016 FAA study guide only for selected en
 ## Still needed
 
 The complete printed ACS inventory now includes 17 tasks and 176 knowledge codes. Selected chart, weather, airport/radio, emergency, physiology and Remote ID instruction and a synthetic chart lab are implemented. Remaining work includes instruction/review for every element, official testing-supplement exercises, deeper flight planning, aircraft-specific procedures, independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.
+
+
+Weighted Part 107 multiple-choice practice offers 60 questions across ACS areas I-V (12/12/8/5/23) with an optional 120-minute timer and raw area results. Full ACS teaching, chart coverage and independent review remain incomplete.
