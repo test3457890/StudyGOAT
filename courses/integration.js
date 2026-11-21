@@ -361,6 +361,11 @@ menu=function(){
   const classCount=Object.keys(COURSES).filter(id=>!CERT.tracks.some(t=>t.id===id)).length;
   const certCount=CERT.tracks.filter(t=>!t.jurisdiction).length;
   view.innerHTML=`<div class="card"><h2>What are you studying?</h2><p>Choose a category, then search for your course or state.</p></div><div class="menu" id="courseCategories"><button class="card" onclick="openCourseCategory('classes')"><h2>Classes</h2><p>${classCount} classes · University and custom courses</p></button><button class="card" onclick="openCourseCategory('certifications')"><h2>Certifications</h2><p>${certCount} study programs · Includes FAA Part 107 drone prep and CAP</p></button><button class="card" onclick="openCourseCategory('driving')"><h2>Driving Tests</h2><p>All 50 states and DC · National foundations available everywhere · ${CERT.drivingJurisdictions.filter(j=>j.track).length} jurisdiction-specific partial courses</p></button></div>`;
+  if(rejectedCustom.size){
+    const notice=document.createElement('p');notice.setAttribute('role','alert');
+    notice.textContent=rejectedCustom.size+' restored study area(s) have invalid identifiers and were kept in the backup but could not be opened. Review the source before rebuilding them.';
+    view.prepend(notice);
+  }
 };
 const legacyLearnHome=learnHome;
 learnHome=function(){legacyLearnHome();if(certTrack()){

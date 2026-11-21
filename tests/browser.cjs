@@ -238,4 +238,33 @@ await exported.locator('#poolQuery').fill('T6C02');await exported.locator('#pool
 await exported.evaluate(()=>technicianPoolAnswer(window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>q.id==='T6C02').answer));assert.match(await exported.locator('.poolExplanation').innerText(),/resistor symbol/,'Export embeds original explanations');
 await exported.evaluate(()=>{technicianPoolOpen();technicianPoolExamStart()});assert.match(await exported.locator('#poolQuestion').innerText(),/Question 1 of 35/);
 await exported.close();fs.rmSync(exportDir,{recursive:true,force:true});
+// Restored and generated labels are data, even when they resemble markup.
+const metadataTrap='<img data-metadata-trap src=x onerror="window.metadataTriggered=true">';
+await page.evaluate(trap=>{
+ CUSTOM.courses.uxss={code:trap,name:trap,prof:trap,lang:trap,badge:trap,color:'red;position:absolute',kind:'code'};
+ CUSTOM.topics.uxss_topic={course:'uxss',name:trap,short:trap,icon:trap,lec:trap,
+  notes:[trap],bank:[{q:trap,c:['yes','no'],why:trap}],gloss:[[trap,'Safe text'],['Two','Second'],['Three','Third'],['Four','Fourth']],
+  lessons:[{t:'Overview',idea:[trap],recipe:['Read'],steps:[{text:'Read'}]}]};
+ CUSTOM.courses["u' onclick='alert(1)"]={code:'invalid',name:'invalid'};
+ CUSTOM.courses.cs315={code:'overwritten',name:'overwritten'};
+ CUSTOM.topics.code={course:'uxss',name:'overwritten'};
+ saveCustom();registerCustom();menu();
+},metadataTrap);
+assert.equal(await page.locator('[data-metadata-trap]').count(),0,'Menu treats custom metadata as text');
+assert.equal(await page.locator('[role=alert]').count(),1,'Invalid identifiers are visible to the owner');
+assert.equal(await page.evaluate(()=>COURSES.cs315.name),'Data Structures & Analysis of Algorithms','Built-in course cannot be overwritten');
+assert.equal(await page.evaluate(()=>TOPICS.code.name),'C Code Tracing','Built-in topic cannot be overwritten');
+await page.evaluate(()=>openCourseCategory('classes'));
+assert(await page.locator('.course').filter({hasText:metadataTrap}).count());
+for(const route of ['home()','practice("uxss_topic")','examSetup()','learnHome()','learn("uxss_topic",0)','resources()','tutor()','agent()','playHub()','startFlash(["uxss_topic"])']){
+ await page.evaluate(route=>{enterCourse('uxss');eval(route)},route);
+ assert.equal(await page.locator('[data-metadata-trap]').count(),0,route);
+ assert.equal(await page.evaluate(()=>window.metadataTriggered),undefined,route);
+}
+await page.evaluate(()=>{S.reviews=[{id:'rmetadata',course:'uxss',name:'Review',d:'2026-11-19',items:[{q:'Question',your:'',correct:'yes',why:'',fix:'',topic:'uxss_topic',practice:[]}]}];trOpen('rmetadata')});
+assert.equal(await page.locator('[data-metadata-trap]').count(),0,'Review topic labels are escaped');
+await page.reload();await page.evaluate(()=>{enterCourse('uxss');home()});
+assert.equal(await page.locator('[data-metadata-trap]').count(),0,'Reload remains safe');
+assert.equal(await page.evaluate(()=>JSON.parse(localStorage.sg_custom).courses.uxss.name),metadataTrap,'Original backup data remains intact');
+assert.equal(await page.evaluate(()=>window.metadataTriggered),undefined,'Metadata did not run script');
 assert.deepEqual(errors,[]);console.log('PASS: original and new courses, correct scoring, lessons, games hub, sources, distinct exam questions, timeout, mistakes, persistence, mobile width and keyboard entry');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
