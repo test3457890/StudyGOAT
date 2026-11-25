@@ -6,7 +6,7 @@ Catalog updated 2026-11-23. 57 sourced tracks contain 568 lessons and 1534 origi
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 61 | 210 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
+| FAA Part 107 | 61 | 210 | 17-task/176-code ACS inventory with detailed search and historical Figure 59 practice; selected rules, weather and operations |
 | CAP Cadet Study | 52 | 212 | Selected lessons in 16 Learn to Lead chapters and seven aerospace foundation banks |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
 | Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |
