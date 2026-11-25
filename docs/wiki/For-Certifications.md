@@ -1,12 +1,12 @@
 # Certifications and professional learning
 
 <!-- STUDYGOAT TABLE START -->
-Catalog updated 2026-11-13. 57 sourced tracks contain 556 lessons and 1498 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
+Catalog updated 2026-11-23. 57 sourced tracks contain 568 lessons and 1534 original questions, excluding the university classes. All sourced tracks remain partial. All 50 states and DC have selected jurisdiction-specific lessons. The shared national course is counted once, not once per jurisdiction. Full-manual reading checklists and official links are available for all 51 jurisdictions. Reading assignments do not expand the selected built-in question coverage. No complete certification or state permit course is claimed. Technician also offers 409 separate public-domain NCVEC questions out of 409; these are excluded from the original-question counts above.
 
 | Track | Lessons | Questions | Coverage |
 | --- | ---: | ---: | --- |
 | Security+ SY0-701 | 53 | 172 | Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial |
-| FAA Part 107 | 49 | 174 | 17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations |
+| FAA Part 107 | 61 | 210 | 17-task/176-code ACS inventory with detailed search and historical Figure 59 practice; selected rules, weather and operations |
 | CAP Cadet Study | 52 | 212 | Selected lessons in 16 Learn to Lead chapters and seven aerospace foundation banks |
 | Wilderness First Aid | 12 | 36 | Provider-neutral scene safety, heat/cold, lightning and altitude recognition |
 | Amateur Radio Technician | 78 | 106 | All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams |

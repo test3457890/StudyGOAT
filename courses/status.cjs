@@ -2,7 +2,7 @@
 const fs=require('node:fs');
 const summaries={
  security701:'Selected foundations mapped to all 28 SY0-701 objectives; every objective remains partial',
- faa107:'17-task/176-code ACS inventory, charts, radio/airport awareness, emergencies and selected flight foundations',
+ faa107:'17-task/176-code ACS inventory with detailed search and historical Figure 59 practice; selected rules, weather and operations',
  capcadet:'Selected lessons in 16 Learn to Lead chapters and seven aerospace foundation banks',
  wfa:'Provider-neutral scene safety, heat/cold, lightning and altitude recognition',
  technician:'All 35 groups have guided lessons; all 409 pool items have explanations, with diagrams and 35-group practice exams',

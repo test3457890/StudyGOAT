@@ -1,6 +1,6 @@
 # FAA Part 107 drone study
 
-Updated November 13, 2026. This course has 49 lessons and 174 original practice questions. It focuses on the small-UAS remote pilot certificate, not a manned-aircraft pilot license. Coverage is partial and the short practice test is not a complete UAG simulation.
+Updated November 23, 2026. This course has 61 lessons and 210 original practice questions. It focuses on the small-UAS remote pilot certificate, not a manned-aircraft pilot license. Coverage is partial and the short practice test is not a complete UAG simulation.
 
 ## Available study
 
@@ -24,7 +24,9 @@ Earlier physics lessons use the August 2016 FAA study guide only for selected en
 
 ## Still needed
 
-The complete printed ACS inventory now includes 17 tasks and 176 knowledge codes. Selected chart, weather, airport/radio, emergency, physiology and Remote ID instruction and a synthetic chart lab are implemented. Remaining work includes instruction/review for every element, official testing-supplement exercises, deeper flight planning, aircraft-specific procedures, independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.
+The complete printed ACS inventory now includes 17 tasks and 176 knowledge codes. Selected chart, weather, airport/radio, emergency, physiology and Remote ID instruction and a synthetic chart lab are implemented. Remaining work includes instruction/review for every element, broader official testing-supplement exercises, deeper flight planning, aircraft-specific procedures, independent review and a validated full-exam blueprint. FAA TRUST and CAP sUAS qualifications remain separate. No pass guarantee or certificate is awarded by StudyGOAT.
 
 
 Weighted Part 107 multiple-choice practice offers 60 questions across ACS areas I-V (12/12/8/5/23) with an optional 120-minute timer and raw area results. Full ACS teaching, chart coverage and independent review remain incomplete.
+
+The detailed ACS browser can search all 176 published knowledge codes and distinguish 75 with related partial lessons from 101 that link to official reading only. Published Figure 59 practice uses a historical FAA testing-supplement image with a text description and enlargement. It is not current navigation information. The synthetic chart lab remains separate.
