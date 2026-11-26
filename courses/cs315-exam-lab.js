@@ -1,6 +1,6 @@
 /* CPSC 315 cumulative practice, local progress, and C drafting. */
 'use strict';
-(() => {
+function installCs315ExamLab() {
   const rows = [
     ['Big O','Direct access to array element a[2] is…','O(1)','O(n)','Indexing is constant time.'],
     ['Big O','A single loop from 0 to n-1 is…','O(n)','O(1)','The loop visits n items.'],
@@ -125,4 +125,5 @@
   const originalNav=drawNav;
   drawNav=function(){originalNav();if(CC==='cs315'&&screen!=='menu')button(nav,'🧪 CPSC 315 exam practice',homeLab);};
   if(CC==='cs315')drawNav();
-})();
+}
+installCs315ExamLab();
