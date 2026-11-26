@@ -495,6 +495,11 @@ getPristine=function(){
     upgrades.textContent=installStudyUpgrades.toString()+';installStudyUpgrades();';
     d.body.append(upgrades);
   }
+  for(const install of [installStudySuite,installExamBuilder]){
+    const feature=d.createElement('script');
+    feature.textContent=install.toString()+';'+install.name+'();';
+    d.body.append(feature);
+  }
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
 Object.assign(window,{faaAcsOpen,faaAcsFilter,technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,securityLab,checkSecurityLab,chartLab,checkChartLab,studyRoute,toggleRoute,startRoutePractice,startPoolGroup,fsmLab,fsmEvent,fsmReset,fsmRecognize,keypadRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
@@ -512,3 +517,10 @@ const studyUpgradesScript=document.createElement('script');
 studyUpgradesScript.async=false;
 studyUpgradesScript.src='courses/study-upgrades.js';
 document.body.appendChild(studyUpgradesScript);
+
+for(const feature of ['study-suite.js','exam-builder.js']){
+  const script=document.createElement('script');
+  script.async=false;
+  script.src='courses/'+feature;
+  document.body.appendChild(script);
+}
