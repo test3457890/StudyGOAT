@@ -1,5 +1,6 @@
 const {readFileSync}=require('node:fs');
 const vm=require('node:vm');
+const path=require('node:path');
 const assert=require('node:assert/strict');
 class El {
   constructor(tag='div'){this.tag=tag;this.children=[];this.value='';this.style={};this.disabled=false;}
@@ -16,7 +17,7 @@ const ctx={document:{createElement:tag=>new El(tag)},view,nav,window:{},console,
   CC:'cs315',screen:'home',LS:null,quiz:null,cur:null,activePrep:null,
   S:{}};
 vm.createContext(ctx);
-vm.runInContext(readFileSync('cs315-exam-lab.js','utf8'),ctx);
+vm.runInContext(readFileSync(path.join(__dirname,'../courses/cs315-exam-lab.js'),'utf8'),ctx);
 assert.equal(typeof ctx.window.cs315Lab.home,'function');
 ctx.window.cs315Lab.home();
 assert.ok(nav.children.some(x=>x.textContent.includes('exam practice')));
