@@ -16,6 +16,14 @@ Captured from the app with a fresh browser profile and built-in study material. 
 | --- | --- |
 | [![Multiple-choice practice quiz](docs/screenshots/practice-quiz.webp)](docs/screenshots/practice-quiz.webp) | [![Course library on a phone-width screen](docs/screenshots/phone-course-library.webp)](docs/screenshots/phone-course-library.webp) |
 
+## CPSC 315 exam practice
+
+In **CS 315**, choose **CPSC 315 exam practice** from the course navigation. The seven supplied quiz screenshots informed the practice topics: Big O, linked lists and recursion, BSTs and traversals, sets and Huffman coding, shortest paths and spanning trees, AVL trees, skip lists, and B-trees. Choose a five-question topic set, a mixed set, or a 25-question cumulative review. The cumulative set reveals explanations at the end. These are original practice prompts, not official questions or a prediction of the final.
+
+**Write C code** provides short C function prompts and reference solutions in the rule/example style of the supplied CS315 cheat sheet. Drafts save as you type. There is no C compiler or automatic grading; compare your code to the reference and test the listed edge cases. The CPSC222 sheet informed the explanation format, not the CPSC 315 subject matter.
+
+The practice bank contains 34 questions and four C writing exercises. Quiz answers, session position, scores, and drafts save with the existing browser progress. If you download the repository, keep `courses/cs315-exam-lab.js`, `courses/integration.js`, `courses/catalog.js`, and `StudyGOAT.html` in their original relative locations. The app's **Download StudyGOAT.html** export embeds this practice code and the existing course catalog in one file; simply copying the repository's unprocessed `StudyGOAT.html` without its `courses` folder does not. Browser progress belongs to the browser and page origin; use **Settings → Show my progress code**, copy it somewhere safe, then **Import** in the new browser or downloaded copy. Replacing a downloaded app file does not automatically transfer progress across different locations.
+
 ## Run locally
 
 1. Download or clone the complete repository.

@@ -2,7 +2,7 @@
   "name": "studygoat",
   "private": true,
   "scripts": {
-    "test": "node tests/content.cjs",
+    "test": "node tests/content.cjs && node tests/cs315-exam-lab.cjs",
     "test:browser": "node tests/browser.cjs",
     "test:pool": "python3 tools/verify-technician-pool.py"
   },

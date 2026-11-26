@@ -485,9 +485,19 @@ getPristine=function(){
   const adapter=d.createElement('script');
   adapter.textContent=installStudyPrograms.toString()+';installStudyPrograms();';
   d.body.append(adapter);
+  if(typeof installCs315ExamLab==='function'){
+    const lab=d.createElement('script');
+    lab.textContent=installCs315ExamLab.toString()+';installCs315ExamLab();';
+    d.body.append(lab);
+  }
   return '<!DOCTYPE html>\n'+d.documentElement.outerHTML;
 };
 Object.assign(window,{faaAcsOpen,faaAcsFilter,technicianPoolOpen,technicianPoolExamStart,technicianPoolExamFinish,technicianPoolFilter,technicianPoolStart,technicianPoolAnswer,technicianPoolNext,securityLab,checkSecurityLab,chartLab,checkChartLab,studyRoute,toggleRoute,startRoutePractice,startPoolGroup,fsmLab,fsmEvent,fsmReset,fsmRecognize,keypadRecognize,certSources,startCertExam,startChapterPractice,startObjectivePractice,accessReviewLab,checkAccessReview,drivingDirectory,openDrivingState,openCourseCategory,filterDrivingStates});
 menu();
 }
 installStudyPrograms();
+
+// Course practice is loaded separately so the core adapter and course catalog stay unchanged.
+const cs315PracticeScript=document.createElement('script');
+cs315PracticeScript.src='courses/cs315-exam-lab.js';
+document.body.appendChild(cs315PracticeScript);
