@@ -24,6 +24,12 @@ In **CS 315**, choose **CPSC 315 exam practice** from the course navigation. The
 
 The practice bank contains 34 questions and four C writing exercises. Quiz answers, session position, scores, and drafts save with the existing browser progress. If you download the repository, keep `courses/cs315-exam-lab.js`, `courses/integration.js`, `courses/catalog.js`, and `StudyGOAT.html` in their original relative locations. The app's **Download StudyGOAT.html** export embeds this practice code and the existing course catalog in one file; simply copying the repository's unprocessed `StudyGOAT.html` without its `courses` folder does not. Browser progress belongs to the browser and page origin; use **Settings → Show my progress code**, copy it somewhere safe, then **Import** in the new browser or downloaded copy. Replacing a downloaded app file does not automatically transfer progress across different locations.
 
+## Study upgrades
+
+Walkthrough lessons now show a title, goal, step progress, and optional **Read this step** controls. Practice prompts, Learn prompts, and flashcards have their own read aloud button. Playback uses your browser's speech synthesis voices, with pause, stop, voice selection when available, and a saved reading speed. Audio starts only when you ask for it.
+
+In **Play**, try **Recall Sprint**: answer from memory, reveal the answer, then self grade. Remembered cards return after 1, 3, 7, and 14 days; missed cards are available again immediately. This mode uses the existing saved progress and works in the app's single HTML export. [See the research and prioritized feature roadmap](docs/Study%20Strategy%20Roadmap.md).
+
 ## Run locally
 
 1. Download or clone the complete repository.
