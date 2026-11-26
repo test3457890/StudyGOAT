@@ -27,3 +27,21 @@ Select an image to open it at full size.
 | Course library on a phone-width screen |  |
 | --- | --- |
 | [![Course library on a phone-width screen](phone-course-library.webp)](phone-course-library.webp) |  |
+
+## New study modes (captured from the running app)
+
+| Daily review | Updated guided lesson |
+| --- | --- |
+| [![Daily review](daily-review.png)](daily-review.png) | [![Updated guided lesson](guided-lesson-updated.png)](guided-lesson-updated.png) |
+
+| Tree traversal | Sorting steps |
+| --- | --- |
+| [![Tree traversal game](tree-traversal-game.png)](tree-traversal-game.png) | [![Sorting steps game](sorting-steps-game.png)](sorting-steps-game.png) |
+
+| Recall Sprint | Audio recall playlist |
+| --- | --- |
+| [![Recall Sprint](recall-sprint.png)](recall-sprint.png) | [![Audio recall playlist](audio-recall-playlist.png)](audio-recall-playlist.png) |
+
+| Exam builder | Feedback form |
+| --- | --- |
+| [![Exam builder](exam-builder.png)](exam-builder.png) | [![Feedback form](feedback-form.png)](feedback-form.png) |
