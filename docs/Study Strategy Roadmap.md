@@ -9,14 +9,18 @@ StudyGOAT already includes lessons, flashcards, mixed quizzes, a mastery based L
 - Recall Sprint asks for an answer before revealing it. Learners self grade honestly. Remembered cards return after 1, 3, 7, then 14 days; missed cards become due immediately. Progress is saved in the existing browser state.
 - The single HTML export includes these features. Audio uses the browser's speech synthesis voices, so available voices and quality depend on the device and browser. No recording or speech recognition is used.
 
-## Build next, in order
+## 2026-11-26 implementation status
 
-1. **Daily review dashboard:** show due cards by course, estimated session size, and a missed concept queue. Keep an option to study ahead. Measure completed reviews and later recall, not only streaks.
-2. **Exam blueprint builder:** mix multiple choice, multiple answer, true/false, code tracing, and short answers in the proportions the learner chooses. Score multi-answer questions as complete sets and explain each option. Add diagrams with accessible text alternatives.
-3. **Mistake diagnosis:** after a miss, ask which rule failed; give a short explanation, a worked example, and a new transfer question. Let the learner mark a question ambiguous or incorrectly keyed.
-4. **More useful games:** a timed graph or tree traversal challenge with an untimed option; a sequencing game for sorting and data structure operations; cooperative team rounds with private progress and opt-in sharing. Connect each game to explanations and later reviews.
-5. **Audio study playlist:** selectable set of prompts with a pause for spoken recall before each answer; optional repeats for missed items. Check browser audio behavior before promising background play or offline voices across devices.
-6. **Content quality:** review course scope and each answer with sources; offer an authoring flow for user provided materials and image descriptions. Verify imported questions before using them for exam practice.
+| Priority | Status | Follow-up |
+| --- | --- | --- |
+| Daily review dashboard | Added due, studied, new, missed, and topic accuracy views | Add measured retention and a course-specific time estimate |
+| Exam blueprint | Added course banks, select all, written answers, saved sessions and review | Expand curated items and accepted written equivalents; add diagrams |
+| Mistake diagnosis | Added reason and private note after misses | Add generated transfer problems with reviewed keys |
+| Algorithm games | Added tree traversal, graph visit order and insertion sorting | Replace fixed examples with verified generators and accessibility-tested diagrams |
+| Audio playlist | Added manual prompt/answer playback and resume | Add optional timed recall pauses with browser support checks |
+| Content quality and feedback | Added question flags and private feedback JSON export | Build source review and an opt-in community report process |
+
+[Product position and AI handoff](Product%20Position%20and%20AI%20Handoff.md) tracks competitors, exact product capabilities, verification steps, and known limits. The new features are useful first versions; do not claim instructor-approved keys or complete parity with established products.
 
 ## Why this order
 
