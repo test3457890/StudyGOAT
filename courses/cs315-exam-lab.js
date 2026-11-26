@@ -68,37 +68,47 @@
   function start(mode,topic) {
     const pool=rows.map((r,i)=>i).filter(i=>!topic||rows[i][0]===topic);
     for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
-    state().session={mode,ids:pool.slice(0,mode==='exam'?25:5),index:0,selected:{},finished:false};save();drawQuestion();
+    const ids=pool.slice(0,mode==='exam'?25:5),options={};
+    ids.forEach(id=>{options[id]=[0,1];if(rows[id][0]==='Big O'){
+      const bounds=['O(1)','O(log n)','O(n)','O(n log n)','O(n²)','O(n³)'];
+      const extra=bounds.filter(v=>v!==rows[id][2]&&v!==rows[id][3]).slice(0,2);
+      rows[id][5]=extra;options[id].push(2,3);
+    }
+    for(let i=options[id].length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[id][i],options[id][j]]=[options[id][j],options[id][i]];}
+    });
+    state().session={mode,ids,options,index:0,selected:{},finished:false};save();drawQuestion();
   }
   function drawQuestion() {
     const s=state().session;if(!s||s.finished){homeLab();return;}if(s.index>=s.ids.length){finish();return;}
     shell();const card=element('div',view);card.className='card';button(card,'Back to practice',homeLab);
     const id=s.ids[s.index],r=rows[id],choice=s.selected[id];
     element('p',card,'Question '+(s.index+1)+' / '+s.ids.length+' · '+r[0]);
-    element('h2',card,r[1]);const options=[r[2],r[3]];
-    options.forEach((answer,i)=>{const b=button(card,answer,()=>choose(i));b.disabled=choice!==undefined;});
-    const status=element('p',card,choice===undefined?'':s.mode==='exam'?'Answer recorded. Review the explanations at the end.':(choice===0?'Correct. ':'Review: '+r[2]+'. ')+r[4]);status.setAttribute('role','status');
+    element('h2',card,r[1]);const order=s.options[id];
+    order.forEach((option,i)=>{const b=button(card,option<2?r[2+option]:r[5][option-2],()=>choose(i));b.disabled=choice!==undefined;});
+    const correct=choice!==undefined&&order[choice]===0;
+    const status=element('p',card,choice===undefined?'':s.mode==='exam'?'Answer recorded. Review the explanations at the end.':(correct?'Correct. ':'Review: '+r[2]+'. ')+r[4]);status.setAttribute('role','status');
     const next=button(card,s.index===s.ids.length-1?'See results':'Next question',()=>{s.index++;save();drawQuestion();});next.disabled=choice===undefined;
   }
   function choose(i) {
     const p=state(),s=p.session,id=s.ids[s.index];if(s.selected[id]!==undefined)return;
-    s.selected[id]=i;p.answers[id]={correct:i===0,attempts:(p.answers[id]?.attempts||0)+1,at:Date.now()};save();drawQuestion();
+    if(i<0||i>=s.options[id].length)return;
+    s.selected[id]=i;p.answers[id]={correct:s.options[id][i]===0,attempts:(p.answers[id]?.attempts||0)+1,at:Date.now()};save();drawQuestion();
   }
   function finish() {
-    const p=state(),s=p.session,score=s.ids.filter(id=>s.selected[id]===0).length;s.finished=true;
+    const p=state(),s=p.session,score=s.ids.filter(id=>s.selected[id]!==undefined&&s.options[id][s.selected[id]]===0).length;s.finished=true;
     p.attempts.push({at:Date.now(),mode:s.mode,score,total:s.ids.length});p.attempts=p.attempts.slice(-30);save();shell();
     const card=element('div',view);card.className='card';element('h2',card,score+' / '+s.ids.length);
     button(card,'Back to practice',homeLab);
-    s.ids.forEach(id=>{const r=rows[id],d=element('details',card);if(s.selected[id]!==0)d.open=true;
-      element('summary',d,(s.selected[id]===0?'Correct: ':'Review: ')+r[0]+' · '+r[1]);
-      element('p',d,'Your answer: '+(s.selected[id]===undefined?'Skipped':r[2+s.selected[id]])+'. Correct: '+r[2]+'.');
+    s.ids.forEach(id=>{const r=rows[id],d=element('details',card),option=s.selected[id]===undefined?-1:s.options[id][s.selected[id]],correct=option===0;if(!correct)d.open=true;
+      element('summary',d,(correct?'Correct: ':'Review: ')+r[0]+' · '+r[1]);
+      element('p',d,'Your answer: '+(option<0?'Skipped':option<2?r[2+option]:r[5][option-2])+'. Correct: '+r[2]+'.');
       element('p',d,r[4]);});
   }
   function codingHome() {
     shell();const card=element('div',view);card.className='card';button(card,'Back to practice',homeLab);
     element('h2',card,'Write C code');
     element('p',card,'Read the rule, write a small C function, then compare with the reference and check edge cases. Drafts save as you type. This page does not compile or grade C.');
-    const select=element('select',card);snippets.forEach(x=>{element('option',select,x[1]).value=x[0];});
+    const select=element('select',card);snippets.forEach(x=>{element('option',select,x[1]).value=x[0];});select.value=snippets[0][0];
     const area=element('div',card);select.onchange=()=>renderCode(select.value,area);renderCode(select.value,area);
   }
   function renderCode(id,area) {
