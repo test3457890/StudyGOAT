@@ -491,3 +491,8 @@ Object.assign(window,{faaAcsOpen,faaAcsFilter,technicianPoolOpen,technicianPoolE
 menu();
 }
 installStudyPrograms();
+
+// Course practice is loaded separately so the core adapter and course catalog stay unchanged.
+const cs315PracticeScript=document.createElement('script');
+cs315PracticeScript.src='courses/cs315-exam-lab.js';
+document.body.appendChild(cs315PracticeScript);
