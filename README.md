@@ -6,7 +6,7 @@ StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mista
 
 ## Screenshots
 
-Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 11 screenshots](docs/screenshots/README.md).
+Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 19 screenshots](docs/screenshots/README.md).
 
 | Course library | Guided finite-state machine lesson |
 | --- | --- |
@@ -15,6 +15,10 @@ Captured from the app with a fresh browser profile and built-in study material. 
 | Multiple-choice practice quiz | Course library on a phone-width screen |
 | --- | --- |
 | [![Multiple-choice practice quiz](docs/screenshots/practice-quiz.webp)](docs/screenshots/practice-quiz.webp) | [![Course library on a phone-width screen](docs/screenshots/phone-course-library.webp)](docs/screenshots/phone-course-library.webp) |
+
+| Today dashboard | Tree Traversal |
+| --- | --- |
+| [![Today dashboard](docs/screenshots/daily-review.png)](docs/screenshots/daily-review.png) | [![Tree Traversal](docs/screenshots/tree-traversal-game.png)](docs/screenshots/tree-traversal-game.png) |
 
 ## CPSC 315 exam practice
 
@@ -29,6 +33,12 @@ The practice bank contains 34 questions and four C writing exercises. Quiz answe
 Walkthrough lessons now show a title, goal, step progress, and optional **Read this step** controls. Practice prompts, Learn prompts, and flashcards have their own read aloud button. Playback uses your browser's speech synthesis voices, with pause, stop, voice selection when available, and a saved reading speed. Audio starts only when you ask for it.
 
 In **Play**, try **Recall Sprint**: answer from memory, reveal the answer, then self grade. Remembered cards return after 1, 3, 7, and 14 days; missed cards are available again immediately. This mode uses the existing saved progress and works in the app's single HTML export. [See the research and prioritized feature roadmap](docs/Study%20Strategy%20Roadmap.md).
+
+## Daily review and new study modes
+
+Use **Today** in a course for due cards, new cards, saved mistakes, weak topics, and an audio playlist. **Build exam** lets you choose 5, 10, or 20 questions and include multiple choice, select-all, and written answers where those formats exist. It saves an unfinished session and explains the answers after submission. Written answers currently use strict matching, and select-all questions require the complete correct set.
+
+In **Play**, use **Tree Traversal**, **Graph Explorer**, and **Sorting Steps** to practice algorithm order, or **Audio Recall** to hear a question, recall the answer, then reveal it. After a missed question, choose a reason and optionally save a private note. **Feedback** lets you save product suggestions locally and download a JSON file to share intentionally. [Product position and AI handoff](docs/Product%20Position%20and%20AI%20Handoff.md) describes competitors, current features, known limits, and the next steps for maintainers.
 
 ## Run locally
 
