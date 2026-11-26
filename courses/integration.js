@@ -495,7 +495,7 @@ getPristine=function(){
     upgrades.textContent=installStudyUpgrades.toString()+';installStudyUpgrades();';
     d.body.append(upgrades);
   }
-  for(const install of [installStudySuite,installExamBuilder]){
+  for(const install of [typeof installStudySuite==='function'?installStudySuite:null,typeof installExamBuilder==='function'?installExamBuilder:null].filter(Boolean)){
     const feature=d.createElement('script');
     feature.textContent=install.toString()+';'+install.name+'();';
     d.body.append(feature);
