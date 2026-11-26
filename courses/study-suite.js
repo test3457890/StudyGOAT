@@ -11,7 +11,7 @@ function installStudySuite() {
   let active=null,audio=null,timer=null;
   function stopAudio(){if(timer)clearTimeout(timer);timer=null;if(typeof speechSynthesis!=='undefined')speechSynthesis.cancel();audio=null;}
   const baseNav=drawNav;
-  drawNav=function(){stopAudio();baseNav();if(screen!=='menu'){const b=button(nav,'📆 Today',dashboard);b.className=screen==='dashboard'?'on':'';}};
+  drawNav=function(){stopAudio();baseNav();if(screen!=='menu'){const b=button(nav,'📆 Today',dashboard);b.className=screen==='dashboard'?'on':'';button(nav,'💬 Feedback',feedback);}};
   function prepare(kind){screen=kind;LS=null;quiz=null;cur=null;activePrep=null;drawNav();view.replaceChildren();}
   function dashboard(){
     prepare('dashboard');const c=card(),now=Date.now(),ids=CT(),deck=cardsFor(ids);
@@ -28,6 +28,7 @@ function installStudySuite() {
     button(actions,'Review due and new cards',()=>window.studyUpgrades.startRecall(ids));
     button(actions,'Review mistakes',reviewMistakes);
     button(actions,'Audio recall playlist',()=>startPlaylist(ids));
+    if(S.audioPlaylist?.course===CC)button(actions,'Resume audio at card '+(S.audioPlaylist.index+1),()=>startPlaylist(S.audioPlaylist.ids,true));
     button(actions,'Exam practice',examSetup);
     if(missed.length){
       one('h3',c,'Mistakes to revisit');
@@ -36,6 +37,28 @@ function installStudySuite() {
     const topics=ids.filter(id=>S.stats[id]?.t).map(id=>({id,p:S.stats[id].r/S.stats[id].t})).sort((a,b)=>a.p-b.p);
     if(topics.length){one('h3',c,'Topics to work on');topics.slice(0,3).forEach(t=>{const p=one('p',c);p.textContent=(TOPICS[t.id]?.name||t.id)+' · '+Math.round(t.p*100)+'% practice accuracy';button(p,'Practice',()=>practice(t.id));});}
     one('p',c,'Reviews are estimates based on self grading. A single successful round is not proof of long term mastery.').className='hint';
+  }
+  function feedback(){
+    prepare('feedback');const c=card();one('h2',c,'💬 Make StudyGOAT better');
+    one('p',c,'Save a feature idea, confusing question, accessibility problem, or bug. Your notes stay in this browser until you choose to download a feedback file and share it.');
+    const type=one('select',c);type.setAttribute('aria-label','Feedback type');
+    ['Feature idea','Question or explanation','Bug','Accessibility','Other'].forEach(x=>{const o=one('option',type,x);o.value=x;});
+    const title=one('input',c);title.setAttribute('aria-label','Feedback title');title.placeholder='Short description';title.style.cssText='display:block;width:100%;margin:10px 0';
+    const detail=one('textarea',c);detail.setAttribute('aria-label','Feedback details');detail.placeholder='What happened? What would help?';detail.style.cssText='display:block;width:100%;min-height:100px';
+    const status=one('p',c);status.setAttribute('role','status');
+    button(c,'Save feedback',()=>{if(!title.value.trim()||!detail.value.trim()){status.textContent='Add a title and details first.';return;}
+      S.studyFeedback=S.studyFeedback||[];S.studyFeedback.push({type:type.value,title:title.value.trim().slice(0,120),detail:detail.value.trim().slice(0,1500),course:CC,at:new Date().toISOString()});S.studyFeedback=S.studyFeedback.slice(-100);save();feedback();
+    });
+    const records=S.studyFeedback||[];
+    one('h3',c,'Saved feedback ('+records.length+')');
+    records.slice(-10).reverse().forEach(item=>{const p=one('p',c);p.textContent=item.type+' · '+item.title+' · '+new Date(item.at).toLocaleDateString();});
+    if(records.length||Object.keys(S.questionFlags||{}).length){
+      button(c,'Download feedback JSON',()=>{const data={schema:'studygoat-feedback-v1',exported:new Date().toISOString(),feedback:records,questionFlags:S.questionFlags||{}};
+        const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+        a.href=url;a.download='StudyGOAT Feedback.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+        status.textContent='Feedback file downloaded. Share it only with someone you want to review these notes.';
+      });
+    }
   }
   const baseFinish=finish;
   finish=function(ok,pick){
@@ -91,16 +114,17 @@ function installStudySuite() {
     one('p',c,'Current array: '+step.from).className='suite-challenge';
     one('p',c,'Which complete array state follows after inserting the next item?');
     const choiceBox=one('div',c);choiceBox.className='suite-choices';
-    const options=[step.correct,...step.options].sort(()=>Math.random()-.5);
+    const options=shuffle([step.correct,...step.options]);
     const fb=one('p',c);fb.className='suite-feedback';fb.hidden=true;fb.setAttribute('role','status');
     options.forEach(value=>button(choiceBox,value,()=>{if(!fb.hidden)return;const ok=value===step.correct;record(ok);if(ok)active.correct++;fb.hidden=false;fb.textContent=(ok?'Correct. ':'Next: '+step.correct+'. ')+step.why;choiceBox.querySelectorAll('button').forEach(b=>b.disabled=true);
       button(c,'Next step',()=>{active.number++;drawSorting();});
     }));
   }
   let playlist=null;
-  function startPlaylist(ids){
+  function startPlaylist(ids,resume=false){
     ids=gIds(ids);const deck=cardsFor(ids).filter(c=>plain(c.front).length<=140&&plain(c.back).length<=180).slice(0,30);
-    playlist={ids,deck,i:0};S.audioPlaylist={course:CC,index:0,ids};save();drawPlaylist();
+    const index=resume?Math.min(Math.max(0,Number(S.audioPlaylist?.index)||0),Math.max(0,deck.length-1)):0;
+    playlist={ids,deck,i:index};S.audioPlaylist={course:CC,index,ids};save();drawPlaylist();
   }
   function say(text,onDone){
     if(typeof speechSynthesis==='undefined'||typeof SpeechSynthesisUtterance==='undefined')return false;
@@ -123,7 +147,7 @@ function installStudySuite() {
     button(controls,'Pause / Resume',()=>{if(typeof speechSynthesis==='undefined')return;if(speechSynthesis.paused)speechSynthesis.resume();else speechSynthesis.pause();});
     button(controls,'Stop',()=>{stopAudio();status.textContent='Stopped.';});
     const answer=one('div',c);answer.hidden=true;answer.className='suite-feedback';answer.textContent=plain(item.back);
-    button(controls,'Reveal answer',()=>{answer.hidden=false;button(controls,'🔊 Read answer',()=>{status.textContent=say(item.back)?'Reading answer.':'Speech is unavailable here.';});});
+    const reveal=button(controls,'Reveal answer',()=>{answer.hidden=false;reveal.disabled=true;button(controls,'🔊 Read answer',()=>{status.textContent=say(item.back)?'Reading answer.':'Speech is unavailable here.';});});
     button(controls,'Next card',()=>{playlist.i=(playlist.i+1)%playlist.deck.length;S.audioPlaylist.index=playlist.i;save();drawPlaylist();});
   }
   const basePlay=playHub;
@@ -135,6 +159,6 @@ function installStudySuite() {
        const tile=one('div',box);tile.className='card game';const b=button(tile,title,action);b.style.cssText='width:100%;text-align:left';one('p',tile,desc);
      });
   };
-  window.studySuite={dashboard,startTraversal,startSorting,startPlaylist,stopAudio};
+  window.studySuite={dashboard,feedback,startTraversal,startSorting,startPlaylist,stopAudio};
 }
 installStudySuite();
