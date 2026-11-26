@@ -6,7 +6,7 @@ StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mista
 
 ## Screenshots
 
-Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 11 screenshots](docs/screenshots/README.md).
+Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 19 screenshots](docs/screenshots/README.md).
 
 | Course library | Guided finite-state machine lesson |
 | --- | --- |
@@ -15,6 +15,10 @@ Captured from the app with a fresh browser profile and built-in study material. 
 | Multiple-choice practice quiz | Course library on a phone-width screen |
 | --- | --- |
 | [![Multiple-choice practice quiz](docs/screenshots/practice-quiz.webp)](docs/screenshots/practice-quiz.webp) | [![Course library on a phone-width screen](docs/screenshots/phone-course-library.webp)](docs/screenshots/phone-course-library.webp) |
+
+| Today dashboard | Tree Traversal |
+| --- | --- |
+| [![Today dashboard](docs/screenshots/daily-review.png)](docs/screenshots/daily-review.png) | [![Tree Traversal](docs/screenshots/tree-traversal-game.png)](docs/screenshots/tree-traversal-game.png) |
 
 ## CPSC 315 exam practice
 
