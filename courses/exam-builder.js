@@ -132,6 +132,6 @@ function installExamBuilder(){
   }
   const baseNav=drawNav;
   drawNav=function(){baseNav();if(screen!=='menu')btn(nav,'📝 Build exam',setup);};
-  window.examBuilder={setup,start:()=>setup()};
+  window.examBuilder={setup,start:()=>setup(),grade:isCorrect};
 }
 installExamBuilder();
