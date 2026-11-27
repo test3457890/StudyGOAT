@@ -17,12 +17,17 @@ function installStudySuite() {
     prepare('dashboard');const c=card(),now=Date.now(),ids=CT(),deck=cardsFor(ids);
     const enrolled=new Set(deck.map(x=>x.id)),records=Object.entries(S.recall||{}).filter(([id])=>enrolled.has(id));
     const due=records.filter(([,r])=>Number(r?.due)<=now).length;
+    const delayed=records.flatMap(([,r])=>Array.isArray(r.history)?r.history:[]).filter(h=>h.delayed);
+    const retained=delayed.filter(h=>h.correct).length;
+    const pace=S.reviewPace?.[CC],seconds=pace?.count?Math.max(15,Math.min(180,pace.totalMs/pace.count/1000)):45;
+    const minutes=due?Math.max(1,Math.ceil(due*seconds/60)):0;
     const next=records.filter(([,r])=>Number(r?.due)>now).sort((a,b)=>a[1].due-b[1].due)[0];
     const missed=(S.missed||[]).filter(m=>inCourse(m.topic));
     one('h2',c,'📆 Today · '+(COURSES[CC]?.code||'StudyGOAT'));
     one('p',c,'Answer from memory, check the explanation, and return to missed concepts. You can study ahead whenever you want.');
     const grid=one('div',c);grid.className='suite-grid';
-    [['Due reviews',due],['Studied cards',records.length],['Saved mistakes',missed.length],['New cards',Math.max(0,deck.length-records.length)]].forEach(([label,value])=>{const t=one('div',grid);t.className='suite-stat';one('strong',t,value);one('span',t,label);});
+    [['Due reviews',due],['Estimated due time',minutes+' min'],['Delayed recall',delayed.length?Math.round(retained/delayed.length*100)+'%':'Not measured'],['Saved mistakes',missed.length],['New cards',Math.max(0,deck.length-records.length)]].forEach(([label,value])=>{const t=one('div',grid);t.className='suite-stat';one('strong',t,value);one('span',t,label);});
+    one('p',c,'Delayed recall: '+retained+' remembered out of '+delayed.length+' self-graded reviews at least 20 hours after the prior attempt. Due-time estimate uses your '+(pace?.count||0)+' recorded card timings (45 seconds per card until measured).').className='hint';
     one('p',c,next?'Next scheduled review: '+new Date(next[1].due).toLocaleDateString()+'.':'No future reviews scheduled yet.');
     const actions=one('div',c);actions.className='suite-actions';
     button(actions,'Review due and new cards',()=>window.studyUpgrades.startRecall(ids));
@@ -30,6 +35,9 @@ function installStudySuite() {
     button(actions,'Audio recall playlist',()=>startPlaylist(ids));
     if(S.audioPlaylist?.course===CC)button(actions,'Resume audio at card '+(S.audioPlaylist.index+1),()=>startPlaylist(S.audioPlaylist.ids,true));
     button(actions,'Exam practice',examSetup);
+    if(S.studyGameSession?.course===CC)button(actions,'Resume '+(S.studyGameSession.kind||'game')+' game',resumeGame);
+    const recent=(S.suiteGameResults||[]).filter(r=>r.course===CC).slice(-3);
+    if(recent.length)one('p',c,'Recent games: '+recent.map(r=>r.kind+' '+r.score+'/'+r.total).join(' · ')+'. Results save with your progress.').className='hint';
     if(missed.length){
       one('h3',c,'Mistakes to revisit');
       missed.slice(0,5).forEach(m=>{const p=one('p',c);p.className='suite-note';p.textContent=(TOPICS[m.topic]?.name||m.topic)+': '+plain(m.prompt);});
@@ -76,48 +84,67 @@ function installStudySuite() {
     button(box,'Practice this concept',()=>practice(cur.topic));
   };
   function record(correct){const s=gameStats();s.played++;if(correct)s.correct++;bumpDay();save();hud();}
-  const challenges=[
-    {kind:'tree',title:'BST inorder traversal',prompt:'Root 10; left child 6 with left child 1; right child 20 with left child 15; 15 has right child 18. Enter inorder values.',answer:'1,6,10,15,18,20',why:'Inorder means left subtree, node, right subtree.'},
-    {kind:'tree',title:'BST preorder traversal',prompt:'Root 10; left child 6 with left child 1; right child 20 with left child 15; 15 has right child 18. Enter preorder values.',answer:'10,6,1,20,15,18',why:'Preorder means node, left subtree, right subtree.'},
-    {kind:'tree',title:'BST postorder traversal',prompt:'Root 10; left child 6 with left child 1; right child 20 with left child 15; 15 has right child 18. Enter postorder values.',answer:'1,6,18,15,20,10',why:'Postorder means left subtree, right subtree, node.'},
-    {kind:'graph',title:'Breadth first search',prompt:'Start at A. Adjacency: A→B,C; B→D,E; C→F. Visit neighbors alphabetically. Enter visit order.',answer:'A,B,C,D,E,F',why:'BFS uses a queue and completes one distance level before the next.'},
-    {kind:'graph',title:'Depth first search',prompt:'Start at A. Adjacency: A→B,C; B→D,E; C→F. Explore neighbors alphabetically. Enter visit order.',answer:'A,B,D,E,C,F',why:'DFS explores one branch fully before returning.'}
-  ];
+  function renderChallenge(q,c){
+    const svg=document.createElementNS('http://www.w3.org/2000/svg','svg'),ns='http://www.w3.org/2000/svg';
+    svg.setAttribute('role','img');svg.setAttribute('aria-label',q.description);svg.setAttribute('viewBox','0 0 440 430');
+    svg.style.cssText='max-width:100%;height:auto;max-height:390px;background:#101827;border-radius:12px;margin:12px 0';
+    const add=(tag,attrs,text)=>{const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v)));if(text!==undefined)e.textContent=String(text);svg.appendChild(e);};
+    add('title',{},q.title);add('desc',{},q.description);
+    const points={};
+    if(q.kind==='tree'){
+      const values=[];
+      function inorder(node){if(node){inorder(node.left);values.push(node.value);inorder(node.right);}}
+      inorder(q.root);function position(node,depth){if(!node)return;points[node.value]=[45+values.indexOf(node.value)*68,42+depth*65];position(node.left,depth+1);position(node.right,depth+1);}
+      position(q.root,0);
+      function edges(node){if(!node)return;for(const child of [node.left,node.right])if(child){add('line',{x1:points[node.value][0],y1:points[node.value][1],x2:points[child.value][0],y2:points[child.value][1],stroke:'#88c9ff','stroke-width':3});edges(child);}}
+      edges(q.root);
+    }else{
+      q.labels.forEach((label,i)=>{const angle=2*Math.PI*i/q.labels.length-Math.PI/2;points[label]=[220+145*Math.cos(angle),200+145*Math.sin(angle)];});
+      q.edges.forEach(([a,b])=>add('line',{x1:points[a][0],y1:points[a][1],x2:points[b][0],y2:points[b][1],stroke:'#88c9ff','stroke-width':3}));
+    }
+    Object.entries(points).forEach(([label,[x,y]])=>{add('circle',{cx:x,cy:y,r:20,fill:'#244875',stroke:'#b6ddff','stroke-width':2});add('text',{x,y:y+5,'text-anchor':'middle',fill:'#fff','font-size':15},label);});
+    c.appendChild(svg);
+  }
+  function rememberGame(){S.studyGameSession=active;save();}
+  function completedGame(){
+    if(active.finished)return;active.finished=true;S.suiteGameResults=S.suiteGameResults||[];
+    S.suiteGameResults.push({kind:active.kind,score:active.correct,total:active.kind==='sorting'?4:5,at:Date.now(),course:CC});
+    S.suiteGameResults=S.suiteGameResults.slice(-30);S.studyGameSession=null;save();
+  }
   function normalized(s){return String(s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
-  function startTraversal(kind){active={kind,number:0,correct:0};prepare('algorithmgame');nextTraversal();}
+  function startTraversal(kind){active={kind,number:0,correct:0,seed:Date.now()>>>0,course:CC};rememberGame();nextTraversal();}
+  function resumeGame(){const saved=S.studyGameSession;if(!saved||saved.course!==CC)return;active=saved;if(active.kind==='sorting')drawSorting();else nextTraversal();}
   function nextTraversal(){
     prepare('algorithmgame');const c=card();button(c,'← Back to games',playHub);
-    if(active.number>=5){one('h2',c,'Round complete · '+active.correct+' / 5');button(c,'Play again',()=>startTraversal(active.kind));return;}
-    const list=challenges.filter(x=>x.kind===active.kind),q=list[active.number%list.length];
+    if(active.number>=5){completedGame();one('h2',c,'Round complete · '+active.correct+' / 5');button(c,'Play again',()=>startTraversal(active.kind));return;}
+    const gen=window.STUDYGOAT_ALGORITHMS,seed=(active.seed+active.number*7919)>>>0;
+    const q=active.kind==='tree'?gen.tree(seed,['inorder','preorder','postorder'][active.number%3]):gen.graph(seed,active.number%2?'dfs':'bfs');
     one('h2',c,active.kind==='tree'?'🌳 Tree Traversal':'🕸️ Graph Explorer');
     one('p',c,'Challenge '+(active.number+1)+' of 5 · '+q.title).className='hint';
     one('p',c,q.prompt).className='suite-challenge';
+    renderChallenge(q,c);
     const input=one('input',c);input.className='suite-input';input.placeholder='Example: A, B, C';input.setAttribute('aria-label','Visit order');
     const feedback=one('p',c);feedback.className='suite-feedback';feedback.hidden=true;feedback.setAttribute('role','status');
     const check=button(c,'Check my order',()=>{if(!input.value.trim())return;const ok=normalized(input.value)===normalized(q.answer);
-      record(ok);if(ok)active.correct++;input.disabled=true;check.disabled=true;
+      record(ok);if(ok)active.correct++;active.number++;rememberGame();input.disabled=true;check.disabled=true;
       feedback.hidden=false;feedback.textContent=(ok?'Correct. ':'Review: '+q.answer+'. ')+q.why;
-      button(c,'Next challenge',()=>{active.number++;nextTraversal();});
+      button(c,'Next challenge',nextTraversal);
     });input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();check.click();}};
   }
-  const sorting=[
-    {from:'[5, 1, 4, 2]',correct:'[1, 5, 4, 2]',options:['[5, 4, 1, 2]','[1, 4, 5, 2]'],why:'Insertion sort takes 1 and inserts it before 5.'},
-    {from:'[1, 5, 4, 2]',correct:'[1, 4, 5, 2]',options:['[1, 5, 2, 4]','[4, 1, 5, 2]'],why:'The sorted prefix [1, 5] gains 4 between 1 and 5.'},
-    {from:'[1, 4, 5, 2]',correct:'[1, 2, 4, 5]',options:['[1, 4, 2, 5]','[2, 1, 4, 5]'],why:'Insert 2 between 1 and 4 to finish the sorted prefix.'}
-  ];
-  function startSorting(){active={number:0,correct:0};drawSorting();}
+  function startSorting(){active={kind:'sorting',number:0,correct:0,seed:Date.now()>>>0,course:CC};rememberGame();drawSorting();}
   function drawSorting(){
     prepare('algorithmgame');const c=card();button(c,'← Back to games',playHub);
-    if(active.number>=sorting.length){one('h2',c,'Sorting complete · '+active.correct+' / '+sorting.length);button(c,'Try again',startSorting);return;}
-    const step=sorting[active.number];
+    const sorting=window.STUDYGOAT_ALGORITHMS.insertion(active.seed).stages;
+    if(active.number>=sorting.length){completedGame();one('h2',c,'Sorting complete · '+active.correct+' / '+sorting.length);button(c,'Try again',startSorting);return;}
+    const step=sorting[active.number],format=a=>'['+a.join(', ')+']';
     one('h2',c,'🔢 Sorting Steps');one('p',c,'Insertion sort · Step '+(active.number+1)+' of '+sorting.length).className='hint';
-    one('p',c,'Current array: '+step.from).className='suite-challenge';
-    one('p',c,'Which complete array state follows after inserting the next item?');
+    one('p',c,'Current array: '+format(step.from)).className='suite-challenge';
+    one('p',c,'Which complete state follows after inserting '+step.inserted+' into the sorted prefix?');
     const choiceBox=one('div',c);choiceBox.className='suite-choices';
     const options=shuffle([step.correct,...step.options]);
     const fb=one('p',c);fb.className='suite-feedback';fb.hidden=true;fb.setAttribute('role','status');
-    options.forEach(value=>button(choiceBox,value,()=>{if(!fb.hidden)return;const ok=value===step.correct;record(ok);if(ok)active.correct++;fb.hidden=false;fb.textContent=(ok?'Correct. ':'Next: '+step.correct+'. ')+step.why;choiceBox.querySelectorAll('button').forEach(b=>b.disabled=true);
-      button(c,'Next step',()=>{active.number++;drawSorting();});
+    options.forEach(value=>button(choiceBox,format(value),()=>{if(!fb.hidden)return;const ok=value.join(',')===step.correct.join(',');record(ok);if(ok)active.correct++;active.number++;rememberGame();fb.hidden=false;fb.textContent=(ok?'Correct. ':'Next: '+format(step.correct)+'. ')+step.why;choiceBox.querySelectorAll('button').forEach(b=>b.disabled=true);
+      button(c,'Next step',drawSorting);
     }));
   }
   let playlist=null;
