@@ -271,7 +271,7 @@ const exportDir=fs.mkdtempSync(path.join(os.tmpdir(),'studygoat-export-'));
 const exportPath=path.join(exportDir,'StudyGOAT.html');
 fs.writeFileSync(exportPath,await page.evaluate(()=>getPristine()));
 const exported=await browser.newPage();await exported.goto('file://'+exportPath);
-assert.equal(await exported.locator('#courseCategories button').count(),3);await exported.evaluate(()=>openCourseCategory('classes'));assert.equal(await exported.locator('.course[role=button]').count(),2);await exported.evaluate(()=>openCourseCategory('certifications'));assert.equal(await exported.locator('.course[role=button]').count(),5,'Export preserves categorized study tracks');
+assert.equal(await exported.locator('#courseCategories button').count(),3);await exported.evaluate(()=>openCourseCategory('classes'));assert.equal(await exported.locator('.course[role=button]').count(),3);await exported.evaluate(()=>openCourseCategory('certifications'));assert.equal(await exported.locator('.course[role=button]').count(),5,'Export preserves categorized study tracks');
 await exported.evaluate(()=>{enterCourse('technician');technicianPoolOpen()});assert.match(await exported.locator('#view').innerText(),/All 409/);assert.match(await exported.locator('#poolProgress').innerText(),/^0 distinct/);
 await exported.locator('#poolQuery').fill('T6C02');await exported.locator('#poolStart').click();assert(await exported.locator('#poolQuestion img').evaluate(img=>img.complete&&img.naturalWidth>0),'Export embeds offline diagrams');
 await exported.evaluate(()=>technicianPoolAnswer(window.STUDYGOAT_CATALOG.technicianPool.questions.find(q=>q.id==='T6C02').answer));assert.match(await exported.locator('.poolExplanation').innerText(),/resistor symbol/,'Export embeds original explanations');
