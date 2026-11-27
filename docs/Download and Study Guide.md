@@ -13,7 +13,7 @@ StudyGOAT works in a browser. You can [open the hosted app](https://test3457890.
 
    [![StudyGOAT Today dashboard](screenshots/guide-today.png)](screenshots/guide-today.png)
 
-4. Use **Learn** for explanations, **Play** for flashcards and games, **Build exam** for a practice test, and **CPSC 315 exam practice** when studying CS 315. Tree and graph games now generate different examples.
+4. Use **Learn** for explanations, **Play** for flashcards and games, **Build exam** for a practice test, and **CPSC 315 exam practice** when studying CS 315. Tree and graph games now generate different examples. In **Audio recall playlist**, choose manual reveal or a 3, 5, or 10 second recall pause after the prompt finishes speaking; the choice saves with your progress. If speech is unavailable, use manual reveal.
 
    [![Games available in StudyGOAT](screenshots/guide-games.png)](screenshots/guide-games.png)
 
