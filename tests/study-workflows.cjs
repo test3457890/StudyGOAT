@@ -53,6 +53,7 @@ const path=require('node:path');
     assert.equal(await page.evaluate(()=>CC),'cise320');
     await page.evaluate(()=>learn('cise320ch1',0));
     assert.match(await page.locator('#view').innerText(),/Ethics, authorization and scope/);
+    assert.equal(await page.evaluate(()=>getPristine().includes('function installCise320')),true);
     assert.deepEqual(errors,[]);
     console.log('Browser: progress restore, breaks, SVG, CISE 320 course and exam grading passed');
   }finally{await browser.close();}
