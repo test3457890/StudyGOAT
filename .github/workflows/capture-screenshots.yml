@@ -1,7 +1,7 @@
 name: Capture new study screens
 on:
   push:
-    branches: [feature/study-suite-2026]
+    branches: [feature/retention-wellness-guide-2026]
     paths:
       - 'StudyGOAT.html'
       - 'courses/**'

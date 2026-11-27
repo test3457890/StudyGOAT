@@ -495,7 +495,10 @@ getPristine=function(){
     upgrades.textContent=installStudyUpgrades.toString()+';installStudyUpgrades();';
     d.body.append(upgrades);
   }
-  for(const install of [typeof installStudySuite==='function'?installStudySuite:null,typeof installExamBuilder==='function'?installExamBuilder:null].filter(Boolean)){
+  if(typeof installStudyAlgorithms==='function'){
+    const algorithms=d.createElement('script');algorithms.textContent=installStudyAlgorithms.toString()+';installStudyAlgorithms();';d.body.append(algorithms);
+  }
+  for(const install of [typeof installStudySuite==='function'?installStudySuite:null,typeof installExamBuilder==='function'?installExamBuilder:null,typeof installStudyWellness==='function'?installStudyWellness:null,typeof installProgressTools==='function'?installProgressTools:null].filter(Boolean)){
     const feature=d.createElement('script');
     feature.textContent=install.toString()+';'+install.name+'();';
     d.body.append(feature);
@@ -518,7 +521,7 @@ studyUpgradesScript.async=false;
 studyUpgradesScript.src='courses/study-upgrades.js';
 document.body.appendChild(studyUpgradesScript);
 
-for(const feature of ['study-suite.js','exam-builder.js']){
+for(const feature of ['algorithm-generators.js','study-suite.js','exam-builder.js','study-wellness.js','progress-tools.js']){
   const script=document.createElement('script');
   script.async=false;
   script.src='courses/'+feature;

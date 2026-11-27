@@ -45,3 +45,23 @@ Select an image to open it at full size.
 | Exam builder | Feedback form |
 | --- | --- |
 | [![Exam builder](exam-builder.png)](exam-builder.png) | [![Feedback form](feedback-form.png)](feedback-form.png) |
+
+## Illustrated download and progress guide
+
+The [step by step guide](../Download%20and%20Study%20Guide.md) uses these images from GitHub and the running app.
+
+| GitHub repository | Course library |
+| --- | --- |
+| [![StudyGOAT on GitHub](guide-github-repository.png)](guide-github-repository.png) | [![Course library](guide-course-library.png)](guide-course-library.png) |
+
+| Today and saved reviews | Games |
+| --- | --- |
+| [![Today dashboard](guide-today.png)](guide-today.png) | [![Games hub](guide-games.png)](guide-games.png) |
+
+| Generated tree diagram | Break timer |
+| --- | --- |
+| [![Generated tree challenge](guide-generated-tree.png)](guide-generated-tree.png) | [![Focus and break timer](guide-study-breaks.png)](guide-study-breaks.png) |
+
+| Backup and restore |  |
+| --- | --- |
+| [![Progress backup and restore](guide-progress-backup.png)](guide-progress-backup.png) |  |

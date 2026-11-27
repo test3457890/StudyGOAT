@@ -12,7 +12,7 @@ class El {
 }
 function find(root,match){if(match(root))return root;for(const child of root.children){const x=find(child,match);if(x)return x;}return null;}
 const view=new El('main'),nav=new El('nav');
-const ctx={document:{createElement:t=>new El(t)},window:{},view,nav,console,
+const ctx={document:{createElement:t=>new El(t),createElementNS:(_,t)=>new El(t)},window:{},view,nav,console,
   S:{},CC:'cs315',COURSES:{cs315:{code:'CS 315'}},TOPICS:{sort:{name:'Sorting'},avl:{name:'AVL'},graph:{name:'Graph'},heap:{name:'Heap'}},
   CT:()=>['sort'],BANK:{sort:Array.from({length:5},(_,i)=>({q:'Question '+i,c:['Right '+i,'Wrong '+i],why:'Reason '+i}))},
   GLOSS:{sort:[['Insertion sort','Inserts a new item in a sorted prefix']]},drawNav(){},

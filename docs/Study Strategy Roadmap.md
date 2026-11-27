@@ -13,14 +13,18 @@ StudyGOAT already includes lessons, flashcards, mixed quizzes, a mastery based L
 
 | Priority | Status | Follow-up |
 | --- | --- | --- |
-| Daily review dashboard | Added due, studied, new, missed, and topic accuracy views | Add measured retention and a course-specific time estimate |
-| Exam blueprint | Added course banks, select all, written answers, saved sessions and review | Expand curated items and accepted written equivalents; add diagrams |
-| Mistake diagnosis | Added reason and private note after misses | Add generated transfer problems with reviewed keys |
-| Algorithm games | Added tree traversal, graph visit order and insertion sorting | Replace fixed examples with verified generators and accessibility-tested diagrams |
-| Audio playlist | Added manual prompt/answer playback and resume | Add optional timed recall pauses with browser support checks |
-| Content quality and feedback | Added question flags and private feedback JSON export | Build source review and an opt-in community report process |
+| Daily review dashboard | Added due, studied, new, missed, and topic accuracy views | Delayed self-graded recall and a per-course time estimate added; compare measured outcomes over longer periods |
+| Exam blueprint | Added course banks, select all, written answers, saved sessions and review | Expanded select-all items and accepted forms; one accessible BST diagram added. Review remaining course banks |
+| Mistake diagnosis | Added reason and private note after misses | Seeded tree, graph and insertion variants added and tested independently for 200 seeds; expand topics |
+| Algorithm games | Added tree traversal, graph visit order and insertion sorting | Seeded generators and labeled SVG tree/graph diagrams added; run screen reader audits |
+| Audio playlist | Added manual playback, saved position, and optional 3, 5, or 10 second recall pauses | Timed reveal relies on the browser's speech-end event; manual reveal remains available if speech cannot run |
+| Content quality and feedback | Added question flags and private feedback JSON export | Content review guide and optional public GitHub issue templates added; triage reports as they arrive |
 
 [Product position and AI handoff](Product%20Position%20and%20AI%20Handoff.md) tracks competitors, exact product capabilities, verification steps, and known limits. The new features are useful first versions; do not claim instructor-approved keys or complete parity with established products.
+
+## Additional progress and wellness
+
+The new **Breaks** view saves a focus/break timer, supports an in-page daily reminder and opt-in browser notifications while the page is open, and can download a calendar reminder to import elsewhere. Settings now has a browser saving check and downloadable JSON progress backup/restore. [Download and Study Guide](Download%20and%20Study%20Guide.md) explains both hosted and downloaded use with screenshots. [Content Review and Reporting](Content%20Review%20and%20Reporting.md) describes source checks and the optional issue process.
 
 ## Why this order
 
