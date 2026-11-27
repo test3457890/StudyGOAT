@@ -1,6 +1,6 @@
 # StudyGOAT
 
-StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mistake review, and saved progress. It includes CS 315 and CPSC 222, certification study, and selected driving topics for all 50 states and DC. Built-in lessons and practice work without an AI key.
+StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mistake review, and saved progress. It includes CS 315, CPSC 222, and CISE 320, certification study, and selected driving topics for all 50 states and DC. Built-in lessons and practice work without an AI key.
 
 [Open StudyGOAT](https://test3457890.github.io/StudyGOAT/StudyGOAT.html), follow the [illustrated download and study guide](docs/Download%20and%20Study%20Guide.md), or [check coverage by course](docs/wiki/Coverage-Checklist.md).
 
@@ -19,6 +19,10 @@ Captured from the app with a fresh browser profile and built-in study material. 
 | Today dashboard | Tree Traversal |
 | --- | --- |
 | [![Today dashboard](docs/screenshots/daily-review.png)](docs/screenshots/daily-review.png) | [![Tree Traversal](docs/screenshots/tree-traversal-game.png)](docs/screenshots/tree-traversal-game.png) |
+
+## CISE 320 ethical hacking
+
+Choose **Classes → CISE 320** for 11 chapter topics, guided lessons, 22 flashcards and 44 original questions aligned to the chapter structure of Santos and Gregg's *CEH Certified Ethical Hacker Cert Guide*, fifth edition (© 2026). Use **Learn**, **Practice**, **Today**, **Recall Sprint** and **Build exam**; progress and backups work the same way as other courses. [Chapter coverage and study steps](docs/wiki/CISE-320-Ethical-Hacking.md) explain what is included and what still needs verification against the private Canvas course. These are original introductory questions, not textbook or instructor test questions.
 
 ## CPSC 315 exam practice
 
