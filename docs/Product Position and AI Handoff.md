@@ -12,11 +12,11 @@ Browser based study by course: learn a concept, recall it without seeing the ans
 | --- | --- | --- |
 | Course lessons | Walkthroughs with diagrams, goals, predict mode, notes, and optional read aloud | Read aloud depends on browser and device voices; lessons must be reviewed for factual accuracy |
 | Recall | Flashcards, adaptive Learn, Recall Sprint (1/3/7/14 day intervals), due count on Today | Recall Sprint is self graded; the intervals are a simple rule, not a validated personalization algorithm |
-| Practice | Course question banks, mixed quizzes, existing exam simulator, CPSC 315 practice, configurable Build Exam with multiple choice/select all/written questions | Build Exam uses existing course banks plus a small curated select all set; written answers use strict text matching; do not imply automatic semantic grading |
-| Games | Match and existing games; new Tree Traversal, Graph Explorer, Sorting Steps, and Audio Recall | Tree and graph games use small fixed examples; expand with verified generators and accessible diagrams |
+| Practice | Course question banks, mixed quizzes, existing exam simulator, CPSC 315 practice, configurable Build Exam with multiple choice/select all/written questions | Build Exam uses existing course banks plus a small curated select all set; authored items allow listed equivalent forms; other written answers use strict matching and optional self-review, not automatic semantic grading |
+| Games | Match and existing games; new Tree Traversal, Graph Explorer, Sorting Steps, and Audio Recall | Seeded BST, graph and insertion examples have labeled SVG or textual descriptions; still require human accessibility review |
 | Feedback | Mistake reason and private note, question feedback in exam review, product feedback form with JSON export | Notes remain in local progress unless the user chooses to share a downloaded file; no inbox or moderation backend |
 | Accessibility | Keyboard friendly controls for new games, visible status messages, speech options, mobile lesson layout | Run keyboard and screen reader checks before claiming full WCAG conformance |
-| Data | Local browser progress, export/import, self-contained HTML export | Test data migration and origin changes. Do not put personal academic screenshots or learner results into the public repository |
+| Data | Local browser progress, export/import, JSON backup/restore, self-contained HTML export | Hosted same-origin storage persists across browser sessions; private browsing, file URLs, data clearing or different devices require a backup. Do not publish learner results |\n| Wellness | Saved focus and break timer, in-page reminder, optional browser notifications, calendar file | Browser alerts need a supported open page and permission; calendar alerts require import and calendar support |
 
 ## Competitive map (official product descriptions)
 
@@ -31,13 +31,13 @@ Sources: [Quizlet Learn](https://help.quizlet.com/hc/en-us/articles/360030986971
 
 ## What to build next
 
-1. Generate verified variations for traversal and sorting instead of reusing a small fixed example. Add tests that compare each generated answer to an independent reference implementation.
-2. Improve exam quality: curate multi-answer questions per course, support partial credit only when the grading policy is clear, accept documented equivalent written answers, and tag content with provenance.
+1. Extend reviewed generators to more topics and record reproducible failing seeds. The current tree, graph and insertion generators have independent checks across 200 seeds; add a real screen reader audit of their diagrams.
+2. Continue item-by-item source review for every course bank; expand curated multi-answer questions, documented written equivalents and diagram text. Only use partial credit when a specific grading policy is approved.
 3. Review the actual user feedback JSON and course mistake reasons; prioritize repeat confusion before introducing new game mechanics. Offer a safe way for learners to share issue reports without exposing all of their progress.
-4. Expand accessibility: run real browser checks in Firefox, Chrome, Edge, and Safari; keyboard and screen reader audits; captions or transcripts for any future recorded audio.
+4. Expand accessibility: run Firefox, Chrome, Edge and Safari plus keyboard and screen reader audits; verify notifications and speech across browsers and operating systems.
 5. Consider optional study group sessions only after privacy defaults, consent to share progress, moderation, and account infrastructure are designed. No public leaderboard should expose student performance by default.
 
-## For future AI development sessions
+## Persistence and reminder contract\n\nThe hosted HTTPS page is the recommended path for automatic browser storage. The same browser and origin retain results across restarts unless the user clears site data or browses privately. A raw local `file:` URL can have undefined storage behavior; the [download guide](Download%20and%20Study%20Guide.md) gives a stable localhost option. The JSON backup/restore in Settings is an explicit replacement of current progress, verified by reading storage after import. Each generated game saves its seed and next question position; completed scores and delayed self-graded card results live in `S`.\n\nThe wellness page checks saved timer deadlines on reload. Browser notifications and daily time checks require an open page and permission where supported. The optional .ics file is imported by the learner into a calendar for reminders beyond the page lifetime. No background push service exists.\n\nThe [content review process](Content%20Review%20and%20Reporting.md) and GitHub issue templates make reporting optional. In-app notes remain private until a learner exports or separately posts a report; do not imply that maintainers automatically receive them.\n\n## For future AI development sessions
 
 1. Read this document, [Study Strategy Roadmap](Study%20Strategy%20Roadmap.md), README, and current repository code. Recheck GitHub main because branches and course content can change.
 2. Respect the existing adapter: `StudyGOAT.html` loads `courses/catalog.js`, `courses/integration.js`, then dynamic add-ons. `getPristine()` in the adapter embeds add-on functions into the single-file download. A new add-on must be included in both paths.
@@ -50,4 +50,4 @@ Sources: [Quizlet Learn](https://help.quizlet.com/hc/en-us/articles/360030986971
 
 - Practice testing and distributed practice have strong evidence across many contexts: [Dunlosky et al. review](https://www.psychologicalscience.org/journals/pspi/1529100612453266/).
 - Browser speech synthesis exposes voices, rate, pause and stop, but voice availability varies: [MDN Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API).
-- New UI code uses existing globals and dynamic script order. A Node smoke check exercises state transitions, but only a full browser run verifies the real application and screenshots.
+- New UI code uses existing globals and dynamic script order. A Node smoke check exercises state transitions, but the CI browser suite verifies hosted app behavior in Chromium; separate Firefox, Edge, Safari and assistive technology checks remain open.
