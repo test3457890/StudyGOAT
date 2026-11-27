@@ -6,7 +6,7 @@ StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mista
 
 ## Screenshots
 
-Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 19 screenshots](docs/screenshots/README.md).
+Captured from the app with a fresh browser profile and built-in study material. The phone image uses a narrow browser viewport. [View all 26 screenshots](docs/screenshots/README.md).
 
 | Course library | Guided finite-state machine lesson |
 | --- | --- |
