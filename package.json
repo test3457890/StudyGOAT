@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "node tests/content.cjs && node tests/cs315-exam-lab.cjs && node tests/study-upgrades.cjs && node tests/study-suite.cjs && node tests/exam-builder.cjs && node tests/algorithm-generators.cjs && node tests/wellness-progress.cjs",
-    "test:browser": "node tests/browser.cjs",
+    "test:browser": "node tests/browser.cjs && node tests/study-workflows.cjs",
     "test:pool": "python3 tools/verify-technician-pool.py",
     "screenshots:study": "node tools/capture-study-screenshots.cjs"
   },
