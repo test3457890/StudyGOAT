@@ -45,7 +45,15 @@ const path=require('node:path');
       window.examBuilder.grade({type:'multi',correct:[0,2]},[0])
     ]);
     assert.deepEqual(answers,[true,true,false]);
+    await page.evaluate(()=>enterCourse('cise320'));
+    assert.equal(await page.evaluate(()=>CT().length),11);
+    assert.equal(await page.evaluate(()=>CT().reduce((n,id)=>n+BANK[id].length,0)),44);
+    await page.reload();
+    await page.waitForFunction(()=>window.CISE320);
+    assert.equal(await page.evaluate(()=>CC),'cise320');
+    await page.evaluate(()=>learn('cise320ch1',0));
+    assert.match(await page.locator('#view').innerText(),/Ethics, authorization and scope/);
     assert.deepEqual(errors,[]);
-    console.log('Browser: persisted progress, backup restore, break, SVG and exam grading passed');
+    console.log('Browser: progress restore, breaks, SVG, CISE 320 course and exam grading passed');
   }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
