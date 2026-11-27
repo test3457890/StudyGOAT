@@ -22,6 +22,7 @@ Explore how StudyGOAT organizes courses and study activities. Help improve accur
 - [Getting Started](https://github.com/test3457890/StudyGOAT/wiki/Getting-Started)
 - [Study Tools](https://github.com/test3457890/StudyGOAT/wiki/Study-Tools)
 - [StudyGOAT for Students](https://github.com/test3457890/StudyGOAT/wiki/For-Students)
+- [CISE 320 Ethical Hacking study guide](https://github.com/test3457890/StudyGOAT/blob/main/docs/wiki/CISE-320-Ethical-Hacking.md)
 - [StudyGOAT for Certifications](https://github.com/test3457890/StudyGOAT/wiki/For-Certifications)
 - [Custom Courses](https://github.com/test3457890/StudyGOAT/wiki/Custom-Courses)
 - [AI, Privacy and Data](https://github.com/test3457890/StudyGOAT/wiki/AI-Privacy-and-Data)
