@@ -67,6 +67,10 @@ function installStudySuite() {
         status.textContent='Feedback file downloaded. Share it only with someone you want to review these notes.';
       });
     }
+    const publicLink=one('a',c,'Open GitHub to report an issue publicly (optional)');
+    publicLink.href='https://github.com/test3457890/StudyGOAT/issues/new/choose';
+    publicLink.target='_blank';publicLink.rel='noopener noreferrer';
+    one('p',c,'GitHub issues are public. Review what you share; remove names, grades, private notes and class material you do not have permission to publish. StudyGOAT does not submit feedback automatically.').className='hint';
   }
   const baseFinish=finish;
   finish=function(ok,pick){
