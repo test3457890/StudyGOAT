@@ -30,6 +30,8 @@ StudyGOAT works in a browser. You can [open the hosted app](https://test3457890.
 ## Option B: Download the repository
 
 1. Visit the [StudyGOAT GitHub repository](https://github.com/test3457890/StudyGOAT). Click **Code**, then **Download ZIP**. On Windows, open Downloads, right-click the ZIP, choose **Extract All**, and open the extracted folder.
+
+   [![StudyGOAT repository page on GitHub](screenshots/guide-github-repository.png)](screenshots/guide-github-repository.png)
 2. Keep **StudyGOAT.html** and the **courses** folder together. Open **StudyGOAT.html** in a modern browser. Opening only a copied HTML file without its `courses` folder leaves out the add-on course programs and games.
 3. For predictable saved progress in a downloaded copy, serve the extracted folder from the same local address every time. If Python is already installed, open Command Prompt in that folder and run `py -m http.server 8765`. Visit [http://localhost:8765/StudyGOAT.html](http://localhost:8765/StudyGOAT.html). Keep the Command Prompt window open while studying. Reuse the same port and browser on later days.
 4. If you prefer to double-click **StudyGOAT.html**, the core app still opens, but browsers can handle saved data for `file:` pages differently. Export a backup from **Settings** after a session. Do not assume a copied or renamed file will automatically find progress from the old path.
