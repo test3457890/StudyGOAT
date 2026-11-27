@@ -155,7 +155,7 @@ function installStudySuite() {
   function startPlaylist(ids,resume=false){
     ids=gIds(ids);const deck=cardsFor(ids).filter(c=>plain(c.front).length<=140&&plain(c.back).length<=180).slice(0,30);
     const index=resume?Math.min(Math.max(0,Number(S.audioPlaylist?.index)||0),Math.max(0,deck.length-1)):0;
-    playlist={ids,deck,i:index};S.audioPlaylist={course:CC,index,ids};save();drawPlaylist();
+    playlist={ids,deck,i:index};S.audioPlaylist={course:CC,index,ids,pauseSeconds:Number(S.audioPlaylist?.pauseSeconds)||0};save();drawPlaylist();
   }
   function say(text,onDone){
     if(typeof speechSynthesis==='undefined'||typeof SpeechSynthesisUtterance==='undefined')return false;
@@ -170,15 +170,25 @@ function installStudySuite() {
     one('h2',c,'🎧 Audio recall playlist');
     one('p',c,'Listen to a prompt, pause to recall it, then reveal and read the answer. Nothing plays until you press a button.');
     if(!playlist.deck.length){one('p',c,'Choose a course with short study cards to use this playlist.');return;}
+    const pauseLabel=one('label',c,'Recall pause '),pauseChoice=one('select',pauseLabel);
+    pauseChoice.setAttribute('aria-label','Recall pause');
+    [[0,'Manual reveal'],[3,'3 seconds'],[5,'5 seconds'],[10,'10 seconds']].forEach(([value,label])=>{const option=one('option',pauseChoice,label);option.value=value;});
+    pauseChoice.value=String(S.audioPlaylist?.pauseSeconds||0);
+    pauseChoice.onchange=()=>{stopAudio();S.audioPlaylist.pauseSeconds=Number(pauseChoice.value);save();};
+    one('p',c,'Timed recall begins after the prompt finishes speaking. If this browser cannot speak or signal that speech ended, use Reveal answer instead.').className='hint';
     const item=playlist.deck[playlist.i],counter=one('p',c,'Card '+(playlist.i+1)+' of '+playlist.deck.length);counter.className='hint';
     one('p',c,plain(item.front)).className='suite-challenge';
     const controls=one('div',c);controls.className='suite-audio';
     const status=one('p',c);status.setAttribute('role','status');status.className='hint';
-    button(controls,'🔊 Read prompt',()=>{status.textContent=say(item.front)?'Reading prompt. Recall the answer before revealing.':'Speech is unavailable here; read the prompt on screen.';});
+    button(controls,'🔊 Read prompt',()=>{stopAudio();const seconds=Number(S.audioPlaylist.pauseSeconds)||0;
+      const spoken=say(item.front,()=>{if(seconds>0&&answer.hidden){status.textContent='Recall the answer for '+seconds+' seconds.';timer=setTimeout(()=>{timer=null;if(answer.hidden){showAnswer();status.textContent=say(item.back)?'Reading answer.':'Answer revealed.';}},seconds*1000);}});
+      status.textContent=spoken?'Reading prompt. Recall the answer before revealing.':'Speech is unavailable here; read the prompt on screen.';
+    });
     button(controls,'Pause / Resume',()=>{if(typeof speechSynthesis==='undefined')return;if(speechSynthesis.paused)speechSynthesis.resume();else speechSynthesis.pause();});
     button(controls,'Stop',()=>{stopAudio();status.textContent='Stopped.';});
     const answer=one('div',c);answer.hidden=true;answer.className='suite-feedback';answer.textContent=plain(item.back);
-    const reveal=button(controls,'Reveal answer',()=>{answer.hidden=false;reveal.disabled=true;button(controls,'🔊 Read answer',()=>{status.textContent=say(item.back)?'Reading answer.':'Speech is unavailable here.';});});
+    const showAnswer=()=>{if(!answer.hidden)return;answer.hidden=false;reveal.disabled=true;button(controls,'🔊 Read answer',()=>{status.textContent=say(item.back)?'Reading answer.':'Speech is unavailable here.';});};
+    const reveal=button(controls,'Reveal answer',()=>{if(timer){clearTimeout(timer);timer=null;}showAnswer();});
     button(controls,'Next card',()=>{playlist.i=(playlist.i+1)%playlist.deck.length;S.audioPlaylist.index=playlist.i;save();drawPlaylist();});
   }
   const basePlay=playHub;
