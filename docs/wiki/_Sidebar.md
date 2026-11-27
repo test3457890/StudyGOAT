@@ -4,6 +4,7 @@
 - [Getting Started](https://github.com/test3457890/StudyGOAT/wiki/Getting-Started)
 - [Study Tools](https://github.com/test3457890/StudyGOAT/wiki/Study-Tools)
 - [For Students](https://github.com/test3457890/StudyGOAT/wiki/For-Students)
+- [CISE 320 Ethical Hacking](https://github.com/test3457890/StudyGOAT/blob/main/docs/wiki/CISE-320-Ethical-Hacking.md)
 - [For Certifications](https://github.com/test3457890/StudyGOAT/wiki/For-Certifications)
 - [Custom Courses](https://github.com/test3457890/StudyGOAT/wiki/Custom-Courses)
 - [AI, Privacy and Data](https://github.com/test3457890/StudyGOAT/wiki/AI-Privacy-and-Data)
