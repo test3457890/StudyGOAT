@@ -2,10 +2,10 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 (async()=>{const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--no-sandbox']});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('file://'+path.resolve('StudyGOAT.html'));await page.waitForFunction(()=>typeof installStudyPrograms==='function');
 const tracks=await page.evaluate(()=>window.STUDYGOAT_CATALOG.tracks.map(t=>t.id));
 assert.equal(await page.locator('#courseCategories button').count(),3);
-await page.locator('#courseCategories button').filter({hasText:'Classes'}).click();assert.equal(await page.locator('.course').count(),2);
+await page.locator('#courseCategories button').filter({hasText:'Classes'}).click();assert.equal(await page.locator('.course').count(),3);
 await page.locator('#courseSearch').fill('CPSC 222');assert.equal(await page.locator('.course').count(),1);
 await page.locator('#courseSearch').fill('missing course');assert.equal(await page.locator('.course').count(),0);assert.match(await page.locator('#courseSearchStatus').innerText(),/No courses/);
-await page.locator('#courseSearch').fill('');assert.equal(await page.locator('.course').count(),2);
+await page.locator('#courseSearch').fill('');assert.equal(await page.locator('.course').count(),3);
 assert(!/Heather Marriott|Rizi Aznita/.test(await page.locator('body').innerText()));
 await page.evaluate(()=>openCourseCategory('certifications'));assert.equal(await page.locator('.course').count(),5);
 await page.locator('#courseSearch').fill('FAA');assert.equal(await page.locator('.course').count(),1);
