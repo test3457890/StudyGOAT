@@ -2,7 +2,7 @@
 
 StudyGOAT is a browser study app with lessons, quizzes, flashcards, games, mistake review, and saved progress. It includes CS 315 and CPSC 222, certification study, and selected driving topics for all 50 states and DC. Built-in lessons and practice work without an AI key.
 
-[Open StudyGOAT](https://test3457890.github.io/StudyGOAT/StudyGOAT.html) or [check coverage by course](docs/wiki/Coverage-Checklist.md).
+[Open StudyGOAT](https://test3457890.github.io/StudyGOAT/StudyGOAT.html), follow the [illustrated download and study guide](docs/Download%20and%20Study%20Guide.md), or [check coverage by course](docs/wiki/Coverage-Checklist.md).
 
 ## Screenshots
 
@@ -40,7 +40,7 @@ Use **Today** in a course for due cards, new cards, saved mistakes, weak topics,
 
 In **Play**, use **Tree Traversal**, **Graph Explorer**, and **Sorting Steps** to practice algorithm order, or **Audio Recall** to hear a question, recall the answer, then reveal it. After a missed question, choose a reason and optionally save a private note. **Feedback** lets you save product suggestions locally and download a JSON file to share intentionally. [Product position and AI handoff](docs/Product%20Position%20and%20AI%20Handoff.md) describes competitors, current features, known limits, and the next steps for maintainers.
 
-## Run locally
+## Saved results, breaks, and reviewed practice\n\n**Settings** checks browser saving and downloads a private JSON backup that you can restore in another browser. Stay on the same hosted URL in the same regular browser for automatic saved progress across restarts. File URLs and private browsing can store results differently; follow the [guide](docs/Download%20and%20Study%20Guide.md) for reliable downloaded use.\n\n**Breaks** has saved focus and rest timers, an optional daily reminder while StudyGOAT is open, and an optional calendar file for reminders after closing it. Browser notifications need permission and an open compatible secure page. **Today** shows delayed self-graded recall and a time estimate based on the time spent on cards. Tree, graph and sorting challenges use generated examples checked against independent references. **Build exam** includes additional curated questions, listed written equivalents, and a labeled tree diagram. [Content reporting](docs/Content%20Review%20and%20Reporting.md) is opt-in.\n\n## Run locally
 
 1. Download or clone the complete repository.
 2. Keep the `courses` folder beside `StudyGOAT.html`.
