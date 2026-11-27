@@ -85,7 +85,7 @@ function installStudyUpgrades() {
     const title=document.createElement('h2');title.textContent='🧠 Recall Sprint';card.appendChild(title);
     if(!recall?.deck.length){const p=document.createElement('p');p.textContent='Add a few flashcards in these topics to play.';card.appendChild(p);return;}
     if(recall.i>=recall.deck.length){const p=document.createElement('p');p.textContent='Round complete: '+recall.good+' remembered out of '+recall.deck.length+'. Cards will return on their due dates.';card.appendChild(p);const again=document.createElement('button');again.textContent='Another round';again.onclick=()=>startRecall(recall.ids);card.appendChild(again);return;}
-    const c=recall.deck[recall.i];const status=document.createElement('p');status.className='study-due';status.textContent='Card '+(recall.i+1)+' / '+recall.deck.length+' · '+(TOPICS[c.topic]?.name||'Study card')+' · '+(S.recall?.[c.id]?'Review':'New');card.appendChild(status);
+    const c=recall.deck[recall.i];recall.cardShownAt=Date.now();const status=document.createElement('p');status.className='study-due';status.textContent='Card '+(recall.i+1)+' / '+recall.deck.length+' · '+(TOPICS[c.topic]?.name||'Study card')+' · '+(S.recall?.[c.id]?'Review':'New');card.appendChild(status);
     const prompt=document.createElement('p');prompt.className='study-recall-prompt';prompt.textContent=plain(c.front);card.appendChild(prompt);
     const instruction=document.createElement('p');instruction.textContent='Say or type an answer from memory before revealing it. Self-grade honestly.';card.appendChild(instruction);
     const draft=document.createElement('textarea');draft.setAttribute('aria-label','Your recall answer');draft.placeholder='Optional: type your answer here';draft.style.cssText='width:100%;min-height:88px';card.appendChild(draft);
@@ -99,8 +99,14 @@ function installStudyUpgrades() {
   }
   function rate(c,ok){
     if(!recall?.revealed)return;recall.revealed=false;S.recall=S.recall||{};
-    const previous=S.recall[c.id]?.level||0,level=ok?Math.min(previous+1,4):0;
-    S.recall[c.id]={level,due:Date.now()+(ok?[0,1,3,7,14][level]*day:0),seen:Date.now()};
+    const now=Date.now(),prior=S.recall[c.id]||{},previous=prior.level||0,level=ok?Math.min(previous+1,4):0;
+    const elapsedMs=Math.min(300000,Math.max(1000,now-(recall.cardShownAt||now)));
+    const history=Array.isArray(prior.history)?prior.history.slice(-39):[];
+    history.push({at:now,correct:!!ok,delayed:!!prior.seen&&now-prior.seen>=20*60*60*1000,elapsedMs});
+    S.recall[c.id]={level,due:now+(ok?[0,1,3,7,14][level]*day:0),seen:now,history};
+    S.reviewPace=S.reviewPace||{};const course=TOPICS[c.topic]?.course||CC;
+    const pace=S.reviewPace[course]||{count:0,totalMs:0};
+    pace.count++;pace.totalMs+=elapsedMs;S.reviewPace[course]=pace;
     if(ok)recall.good++;
     recall.i++;bumpDay();save();hud();drawRecall();
   }
