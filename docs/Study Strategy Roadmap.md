@@ -17,7 +17,7 @@ StudyGOAT already includes lessons, flashcards, mixed quizzes, a mastery based L
 | Exam blueprint | Added course banks, select all, written answers, saved sessions and review | Expanded select-all items and accepted forms; one accessible BST diagram added. Review remaining course banks |
 | Mistake diagnosis | Added reason and private note after misses | Seeded tree, graph and insertion variants added and tested independently for 200 seeds; expand topics |
 | Algorithm games | Added tree traversal, graph visit order and insertion sorting | Seeded generators and labeled SVG tree/graph diagrams added; run screen reader audits |
-| Audio playlist | Added manual prompt/answer playback and resume | Manual prompt and answer playback remains; add an optional timed pause after cross-browser speech tests |
+| Audio playlist | Added manual playback, saved position, and optional 3, 5, or 10 second recall pauses | Timed reveal relies on the browser's speech-end event; manual reveal remains available if speech cannot run |
 | Content quality and feedback | Added question flags and private feedback JSON export | Content review guide and optional public GitHub issue templates added; triage reports as they arrive |
 
 [Product position and AI handoff](Product%20Position%20and%20AI%20Handoff.md) tracks competitors, exact product capabilities, verification steps, and known limits. The new features are useful first versions; do not claim instructor-approved keys or complete parity with established products.
