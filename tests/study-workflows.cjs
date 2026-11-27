@@ -26,6 +26,7 @@ const path=require('node:path');
     await page.evaluate(()=>{S.suiteGames.played=9;save();});
     await page.locator('#view input[type="file"]').last().setInputFiles({name:'StudyGOAT Progress Backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
     await page.getByRole('button',{name:'Restore backup and replace current progress'}).click();
+    await page.waitForFunction(()=>document.querySelector('#progressRestoreResult')?.textContent.includes('Backup restored'),null,{timeout:10000});
     assert.equal(await page.evaluate(()=>S.suiteGames.played),7);
     await page.evaluate(()=>window.studySuite.startPlaylist(CT()));
     await page.getByRole('combobox',{name:'Recall pause'}).selectOption('5');
